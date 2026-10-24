@@ -1,0 +1,983 @@
+{
+ "class": 5,
+ "id": "20",
+ "title": "Only One Mother",
+ "topics": [
+  {
+   "tag": "plural_nouns",
+   "name": "Plural nouns (regular and irregular)"
+  },
+  {
+   "tag": "there_is_are",
+   "name": "There is / There are (was / were)"
+  },
+  {
+   "tag": "many_much",
+   "name": "Many and much"
+  },
+  {
+   "tag": "prep_place",
+   "name": "Prepositions of place: in, on, between, under"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-20-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are hundreds of star in the sky.",
+    "There are hundred of stars in the sky.",
+    "There are hundreds of stars in the sky."
+   ],
+   "answer": 2,
+   "rule": "<b>hundreds of</b> is followed by a plural noun: hundreds of <b>stars</b>."
+  },
+  {
+   "qid": "c5-20-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prep_place",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The birds fly on the sky.",
+    "The birds fly in the sky.",
+    "The birds fly of the sky."
+   ],
+   "answer": 1,
+   "rule": "Birds, clouds and stars are <b>in</b> the sky."
+  },
+  {
+   "qid": "c5-20-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A butterfly is on the lawn.",
+    "A butterfly are on the lawn.",
+    "A butterfly am on the lawn."
+   ],
+   "answer": 0,
+   "rule": "One thing takes <b>is</b>: a butterfly <b>is</b>."
+  },
+  {
+   "qid": "c5-20-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "lamb",
+    "are",
+    "playing",
+    "in",
+    "the",
+    "sun."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "lambs",
+      "lamb's",
+      "lambing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These</b> and <b>are</b> show more than one, so the noun is plural: <b>lambs</b>."
+  },
+  {
+   "qid": "c5-20-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hundreds",
+    "of",
+    "stars",
+    "is",
+    "shining",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Hundreds of stars</b> is plural, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-20-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "I saw two",
+   "after": "on the lawn.",
+   "options": [
+    "butterfly",
+    "butterflies",
+    "a butterfly"
+   ],
+   "answer": 1,
+   "rule": "<b>two</b> needs a plural noun. Words ending in consonant + y change y to <b>-ies</b>: butterflies."
+  },
+  {
+   "qid": "c5-20-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "a bird on the roof.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "<b>a bird</b> is one thing, so: There <b>is</b> a bird."
+  },
+  {
+   "qid": "c5-20-08",
+   "type": "build",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "lambs",
+    "are",
+    "playing."
+   ],
+   "alts": [],
+   "rule": "Plural <b>lambs</b> goes with <b>are</b>."
+  },
+  {
+   "qid": "c5-20-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "What did you see at the beach?"
+    ]
+   ],
+   "options": [
+    "I saw lots of shell.",
+    "I see lots of shells yesterday.",
+    "I saw lots of shells."
+   ],
+   "answer": 2,
+   "rule": "<b>lots of</b> + a countable noun takes the plural: lots of <b>shells</b>; past question, so <b>saw</b>."
+  },
+  {
+   "qid": "c5-20-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Is there any milk in the fridge?"
+    ]
+   ],
+   "options": [
+    "Yes, there are some milk.",
+    "Yes, there is some milk.",
+    "Yes, there am some milk."
+   ],
+   "answer": 1,
+   "rule": "<b>milk</b> cannot be counted and takes a singular verb: there <b>is</b> some milk."
+  },
+  {
+   "qid": "c5-20-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens are feeding the lambs.",
+    "The children are feeding the lambs.",
+    "The child are feeding the lambs."
+   ],
+   "answer": 1,
+   "rule": "<b>child</b> becomes <b>children</b> in the plural (no -s added)."
+  },
+  {
+   "qid": "c5-20-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "many_much",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How many shells did you collect?",
+    "How much shells did you collect?",
+    "How many shell did you collect?"
+   ],
+   "answer": 0,
+   "rule": "We can count shells, so ask <b>How many</b> + plural noun."
+  },
+  {
+   "qid": "c5-20-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "there_is_are",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is a dewdrop on every leaf.",
+    "There are a dewdrop on every leaf.",
+    "There is dewdrops on every leaf."
+   ],
+   "answer": 0,
+   "rule": "One thing: There <b>is</b> a dewdrop. Many things: There <b>are</b> dewdrops."
+  },
+  {
+   "qid": "c5-20-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "many_much",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "is",
+    "too",
+    "many",
+    "sand",
+    "in",
+    "my",
+    "shoes."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "few",
+      "much",
+      "lots"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>sand</b> cannot be counted, so use <b>much</b>: too much sand."
+  },
+  {
+   "qid": "c5-20-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep_place",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bees",
+    "are",
+    "sitting",
+    "of",
+    "the",
+    "flowers."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "to",
+      "from",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Something resting on top of a thing is <b>on</b> it: sitting <b>on</b> the flowers."
+  },
+  {
+   "qid": "c5-20-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "many_much",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "stars can you count?",
+   "options": [
+    "many",
+    "much",
+    "more"
+   ],
+   "answer": 0,
+   "rule": "Stars can be counted, so use <b>How many</b>."
+  },
+  {
+   "qid": "c5-20-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "prep_place",
+   "prompt": "Fill in the gap.",
+   "before": "The fish swim",
+   "after": "the pond.",
+   "options": [
+    "in",
+    "on",
+    "of"
+   ],
+   "answer": 0,
+   "rule": "Inside water or a space, use <b>in</b>: <b>in</b> the pond."
+  },
+  {
+   "qid": "c5-20-18",
+   "type": "build",
+   "level": 2,
+   "topic": "there_is_are",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "There",
+    "are",
+    "five",
+    "bees",
+    "on",
+    "the",
+    "flower."
+   ],
+   "alts": [],
+   "rule": "Plural <b>five bees</b> takes <b>There are</b>."
+  },
+  {
+   "qid": "c5-20-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "many_much",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How many bees did you see?"
+    ]
+   ],
+   "options": [
+    "I saw much bees near the flowers.",
+    "I saw many bee near the flowers.",
+    "I saw many bees near the flowers."
+   ],
+   "answer": 2,
+   "rule": "<b>many</b> goes with a plural countable noun: many <b>bees</b>."
+  },
+  {
+   "qid": "c5-20-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prep_place",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where is my phone?"
+    ]
+   ],
+   "options": [
+    "It is of the table.",
+    "It are on the table.",
+    "It is on the table, Mom."
+   ],
+   "answer": 2,
+   "rule": "A thing resting on a surface is <b>on</b> it, and <b>it</b> takes <b>is</b>."
+  },
+  {
+   "qid": "c5-20-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Two sheeps and three lambs are in the field.",
+    "Two sheep and three lamb are in the field.",
+    "Two sheep and three lambs are in the field."
+   ],
+   "answer": 2,
+   "rule": "<b>sheep</b> stays the same in the plural; <b>lamb</b> becomes <b>lambs</b>."
+  },
+  {
+   "qid": "c5-20-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "many_much",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is not many water in the pond.",
+    "There are not much water in the pond.",
+    "There is not much water in the pond."
+   ],
+   "answer": 2,
+   "rule": "<b>water</b> cannot be counted: use <b>much</b> and the singular verb <b>is</b>."
+  },
+  {
+   "qid": "c5-20-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "dentist",
+    "checked",
+    "all",
+    "my",
+    "tooth",
+    "today."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "tooth's",
+      "teeth",
+      "toothed"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>all my</b> needs a plural noun. The plural of <b>tooth</b> is <b>teeth</b>."
+  },
+  {
+   "qid": "c5-20-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "is",
+    "many",
+    "shells",
+    "on",
+    "this",
+    "beach."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>many shells</b> is plural, so: There <b>are</b> many shells."
+  },
+  {
+   "qid": "c5-20-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Three",
+   "after": "are swimming in the lake.",
+   "options": [
+    "geese",
+    "goose",
+    "goose's"
+   ],
+   "answer": 0,
+   "rule": "<b>goose</b> has an irregular plural: one goose, three <b>geese</b>."
+  },
+  {
+   "qid": "c5-20-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "not any clouds in the sky today.",
+   "options": [
+    "is",
+    "are",
+    "was"
+   ],
+   "answer": 1,
+   "rule": "<b>clouds</b> is plural, so: There <b>are</b> not any clouds."
+  },
+  {
+   "qid": "c5-20-27",
+   "type": "build",
+   "level": 3,
+   "topic": "many_much",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "much",
+    "milk",
+    "is",
+    "left?"
+   ],
+   "alts": [],
+   "rule": "<b>milk</b> cannot be counted, so ask <b>How much</b> milk <b>is</b> left?"
+  },
+  {
+   "qid": "c5-20-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prep_place",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "kitten",
+    "is",
+    "hiding",
+    "under",
+    "my",
+    "bed."
+   ],
+   "alts": [],
+   "rule": "<b>under</b> tells us the place below something: under my bed."
+  },
+  {
+   "qid": "c5-20-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Name some animals that live on a farm."
+    ]
+   ],
+   "options": [
+    "Cows, sheeps, oxen and goats.",
+    "Cows, sheep, oxens and goats.",
+    "Cows, sheep, oxen and goats."
+   ],
+   "answer": 2,
+   "rule": "Irregular plurals: <b>sheep</b> stays sheep, <b>ox</b> becomes <b>oxen</b> (no extra -s)."
+  },
+  {
+   "qid": "c5-20-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Are there any mangoes left?"
+    ]
+   ],
+   "options": [
+    "Yes, there is two mangoes left.",
+    "Yes, there are two mango left.",
+    "Yes, there are two mangoes left."
+   ],
+   "answer": 2,
+   "rule": "<b>two mangoes</b> is plural: there <b>are</b> two <b>mangoes</b>."
+  },
+  {
+   "qid": "c5-20-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Pick the sentence about yesterday that is correct.",
+   "options": [
+    "Hundreds of shells were lying on the shore yesterday.",
+    "Hundreds of shells was lying on the shore yesterday.",
+    "Hundreds of shell were lying on the shore yesterday."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>shells</b> takes <b>were</b> in the past."
+  },
+  {
+   "qid": "c5-20-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There were many bees in the garden last summer.",
+    "There was many bees in the garden last summer.",
+    "There were much bees in the garden last summer."
+   ],
+   "answer": 0,
+   "rule": "Past + plural: There <b>were</b>; countable bees take <b>many</b>."
+  },
+  {
+   "qid": "c5-20-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "there",
+    "was",
+    "hundreds",
+    "of",
+    "stars",
+    "above",
+    "our",
+    "house."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "are",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last night</b> is past and <b>hundreds of stars</b> is plural, so: there <b>were</b>."
+  },
+  {
+   "qid": "c5-20-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "many_much",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mother",
+    "says",
+    "there",
+    "is",
+    "so",
+    "many",
+    "sugar",
+    "in",
+    "my",
+    "tea."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "few",
+      "much",
+      "lots"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>sugar</b> cannot be counted, so use <b>much</b>: so much sugar."
+  },
+  {
+   "qid": "c5-20-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "many_much",
+   "prompt": "Fill in the gap.",
+   "before": "We did not have",
+   "after": "time, so we ran to the bus stop.",
+   "options": [
+    "much",
+    "many",
+    "few"
+   ],
+   "answer": 0,
+   "rule": "<b>time</b> here cannot be counted, so use <b>much</b>."
+  },
+  {
+   "qid": "c5-20-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "prep_place",
+   "prompt": "Fill in the gap.",
+   "before": "My mother sits",
+   "after": "me and my brother at dinner.",
+   "options": [
+    "among",
+    "on",
+    "between"
+   ],
+   "answer": 2,
+   "rule": "Use <b>between</b> for two people or things (me and my brother); among is for more than two."
+  },
+  {
+   "qid": "c5-20-37",
+   "type": "build",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "were",
+    "singing",
+    "happily."
+   ],
+   "alts": [],
+   "rule": "<b>children</b> is plural, so the past form is <b>were</b> singing."
+  },
+  {
+   "qid": "c5-20-38",
+   "type": "build",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "there",
+    "any",
+    "birds",
+    "in",
+    "the",
+    "tree?"
+   ],
+   "alts": [],
+   "rule": "To ask, put the verb first: <b>Are there</b> any birds ...? (plural birds)"
+  },
+  {
+   "qid": "c5-20-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "What did you do on Mother's Day?"
+    ]
+   ],
+   "options": [
+    "I make a card and baked two cakes for her.",
+    "I made a card and baked two cakes for her.",
+    "I made a card and baked two cake for her."
+   ],
+   "answer": 1,
+   "rule": "<b>two</b> needs the plural <b>cakes</b>, and both verbs are past: made, baked."
+  },
+  {
+   "qid": "c5-20-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "many_much",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "Is there much traffic on the road?"
+    ]
+   ],
+   "options": [
+    "Yes, there are too many cars on the road.",
+    "Yes, there is too many cars on the road.",
+    "Yes, there are too much cars on the road."
+   ],
+   "answer": 0,
+   "rule": "Countable plural <b>cars</b>: there <b>are</b> too <b>many</b> cars."
+  },
+  {
+   "qid": "c5-20-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prep_place",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "My mother's photo hangs on the wall between the two windows.",
+    "My mother's photo hangs in the wall between the two windows.",
+    "My mother's photo hangs on the wall among the two windows."
+   ],
+   "answer": 0,
+   "rule": "Pictures hang <b>on</b> a wall; for two things use <b>between</b>."
+  },
+  {
+   "qid": "c5-20-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "many_much",
+   "prompt": "Which shopping question is correct?",
+   "options": [
+    "How much loaves of bread and how many milk do we need?",
+    "How many loafs of bread and how much milk do we need?",
+    "How many loaves of bread and how much milk do we need?"
+   ],
+   "answer": 2,
+   "rule": "<b>many</b> + countable (loaves; loaf becomes <b>loaves</b>), <b>much</b> + uncountable (milk)."
+  },
+  {
+   "qid": "c5-20-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prep_place",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "little",
+    "lambs",
+    "were",
+    "sleeping",
+    "peacefully",
+    "among",
+    "the",
+    "two",
+    "big",
+    "trees."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "into",
+      "between",
+      "onto"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With exactly <b>two</b> things, use <b>between</b>, not among."
+  },
+  {
+   "qid": "c5-20-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "women",
+    "in",
+    "our",
+    "building",
+    "has",
+    "started",
+    "a",
+    "garden",
+    "together."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "have",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>women</b> is the plural of woman, so the verb is plural: <b>have</b> started."
+  },
+  {
+   "qid": "c5-20-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "All the",
+   "after": "on the lawn were wet with dew.",
+   "options": [
+    "leaves",
+    "leaf",
+    "leafs"
+   ],
+   "answer": 0,
+   "rule": "<b>All the</b> ... <b>were</b> needs a plural. <b>leaf</b> becomes <b>leaves</b> (f changes to -ves)."
+  },
+  {
+   "qid": "c5-20-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "there_is_are",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday there",
+   "after": "a few clouds, but today the sky is clear.",
+   "options": [
+    "was",
+    "is",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is past and <b>a few clouds</b> is plural, so: there <b>were</b>."
+  },
+  {
+   "qid": "c5-20-47",
+   "type": "build",
+   "level": 5,
+   "topic": "many_much",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "many",
+    "dewdrops",
+    "are",
+    "on",
+    "this",
+    "leaf?"
+   ],
+   "alts": [],
+   "rule": "Countable plural: <b>How many</b> dewdrops <b>are</b> ...?"
+  },
+  {
+   "qid": "c5-20-48",
+   "type": "build",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "mother",
+    "loves",
+    "all",
+    "her",
+    "children",
+    "equally."
+   ],
+   "alts": [],
+   "rule": "<b>all her</b> is followed by the plural <b>children</b>; one mother takes <b>loves</b>."
+  },
+  {
+   "qid": "c5-20-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "prep_place",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Where should I keep the flower vase?"
+    ]
+   ],
+   "options": [
+    "Keep it among the two lamps on the shelf.",
+    "Keep it between the two lamps on the shelf.",
+    "Keep it between the two lamp on the shelf."
+   ],
+   "answer": 1,
+   "rule": "<b>between</b> is for two things, and <b>two</b> needs the plural <b>lamps</b>."
+  },
+  {
+   "qid": "c5-20-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "there_is_are",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you up so early?"
+    ]
+   ],
+   "options": [
+    "There was hundreds of birds singing outside my window.",
+    "There were hundreds of bird singing outside my window.",
+    "There were hundreds of birds singing outside my window."
+   ],
+   "answer": 2,
+   "rule": "Plural <b>hundreds of birds</b> takes <b>were</b>, and hundreds of needs a plural noun."
+  }
+ ]
+}

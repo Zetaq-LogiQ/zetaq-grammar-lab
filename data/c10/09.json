@@ -1,0 +1,1146 @@
+{
+ "class": 10,
+ "id": "09",
+ "title": "Connecting the Dots",
+ "topics": [
+  {
+   "tag": "contractions",
+   "name": "Contractions (didn't, won't, I'd, needn't)"
+  },
+  {
+   "tag": "tenses",
+   "name": "Tenses: naming and changing (time and aspect)"
+  },
+  {
+   "tag": "phrasal_verbs",
+   "name": "Phrasal verbs and idioms (drop out, let down, drown out)"
+  },
+  {
+   "tag": "imperatives_voice",
+   "name": "Imperatives and their passive voice"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-09-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "contractions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Jobs didn't have a dorm room.",
+    "Jobs didn't had a dorm room.",
+    "Jobs don't had a dorm room."
+   ],
+   "answer": 0,
+   "rule": "<b>didn't</b> = did not, and it is followed by the base verb: didn't <b>have</b>."
+  },
+  {
+   "qid": "c10-09-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Steve Jobs starts Apple when he was twenty.",
+    "Steve Jobs started Apple when he is twenty.",
+    "Steve Jobs started Apple when he was twenty."
+   ],
+   "answer": 2,
+   "rule": "Both actions are finished in the past: <b>started</b> ... when he <b>was</b> twenty."
+  },
+  {
+   "qid": "c10-09-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "don't",
+    "lets",
+    "me",
+    "down",
+    "this",
+    "time,",
+    "Rohan."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "let",
+      "letting",
+      "to"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>don't</b>, use the base verb: don't <b>let</b> me down (let someone down = disappoint)."
+  },
+  {
+   "qid": "c10-09-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "contractions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Jobs",
+    "and",
+    "Woz",
+    "doesn't",
+    "have",
+    "much",
+    "money",
+    "in",
+    "1976."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "don't",
+      "didn't",
+      "wasn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two people (plural) and a past year (in 1976): <b>didn't</b> have."
+  },
+  {
+   "qid": "c10-09-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Fill in the gap.",
+   "before": "As a student, Jobs",
+   "after": "seven miles every Sunday for a good meal.",
+   "options": [
+    "walk",
+    "walked",
+    "walking"
+   ],
+   "answer": 1,
+   "rule": "A past habit (as a student) in the simple past: Jobs <b>walked</b>."
+  },
+  {
+   "qid": "c10-09-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "contractions",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "go to the party; I have an exam tomorrow.",
+   "options": [
+    "can't",
+    "doesn't",
+    "isn't"
+   ],
+   "answer": 0,
+   "rule": "<b>can't</b> = cannot, and it is followed by the base verb go."
+  },
+  {
+   "qid": "c10-09-07",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives_voice",
+   "prompt": "Make a piece of advice.",
+   "answer": [
+    "Don't",
+    "lose",
+    "faith",
+    "in",
+    "yourself."
+   ],
+   "alts": [],
+   "rule": "A negative imperative: <b>Don't + base verb</b>."
+  },
+  {
+   "qid": "c10-09-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "contractions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Are you coming to the computer club?"
+    ]
+   ],
+   "options": [
+    "Yes, I'm come after lunch.",
+    "Yes, I'm coming after lunch.",
+    "Yes, I'll coming after lunch."
+   ],
+   "answer": 1,
+   "rule": "<b>I'm</b> = I am, so add the -ing form: I'm <b>coming</b>."
+  },
+  {
+   "qid": "c10-09-09",
+   "type": "change",
+   "level": 1,
+   "topic": "imperatives_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Close the door.",
+   "options": [
+    "Let the door be closed.",
+    "Let the door is closed.",
+    "Let the door be close."
+   ],
+   "answer": 0,
+   "rule": "Imperative to passive: <b>Let + object + be + past participle</b>."
+  },
+  {
+   "qid": "c10-09-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Jobs",
+    "didn't",
+    "have",
+    "a",
+    "room,",
+    "so",
+    "he",
+    "had",
+    "to",
+    "sleeps",
+    "on",
+    "the",
+    "floor.",
+    "Every",
+    "Sunday,",
+    "he",
+    "walked",
+    "seven",
+    "miles",
+    "to",
+    "gets",
+    "one",
+    "good",
+    "meal."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "slept",
+      "sleeping",
+      "sleep"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "got",
+      "get",
+      "getting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>to</b>, always use the base verb: had to <b>sleep</b>, to <b>get</b>."
+  },
+  {
+   "qid": "c10-09-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "I have never be so close to death.",
+    "I has never been so close to death.",
+    "I have never been so close to death."
+   ],
+   "answer": 2,
+   "rule": "Present perfect: <b>have + past participle</b> (been). With I, use have."
+  },
+  {
+   "qid": "c10-09-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives_voice",
+   "prompt": "Which passive sentence is correct?",
+   "options": [
+    "Let the work is done at once.",
+    "Let the work be done at once.",
+    "Let the work be did at once."
+   ],
+   "answer": 1,
+   "rule": "Passive imperative: <b>Let + object + be + past participle</b> (done)."
+  },
+  {
+   "qid": "c10-09-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Woz",
+    "and",
+    "Jobs",
+    "was",
+    "building",
+    "computers",
+    "in",
+    "a",
+    "garage."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two people joined by <b>and</b> make a plural subject: Woz and Jobs <b>were</b> building."
+  },
+  {
+   "qid": "c10-09-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "look",
+    "forward",
+    "to",
+    "hear",
+    "from",
+    "you",
+    "soon."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "heard",
+      "hears",
+      "hearing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In <b>look forward to</b>, 'to' is a preposition, so use the -ing form: to <b>hearing</b>."
+  },
+  {
+   "qid": "c10-09-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "Jobs dropped",
+   "after": "of college after six months.",
+   "options": [
+    "off",
+    "down",
+    "out"
+   ],
+   "answer": 2,
+   "rule": "<b>drop out of</b> means to leave a school or course before finishing."
+  },
+  {
+   "qid": "c10-09-16",
+   "type": "build",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "Make a sentence in the past perfect.",
+   "answer": [
+    "I",
+    "had",
+    "finished",
+    "my",
+    "homework",
+    "before",
+    "dinner."
+   ],
+   "alts": [],
+   "rule": "Past perfect: <b>had + past participle</b> for an action done before a past time."
+  },
+  {
+   "qid": "c10-09-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "I failed my first driving test."
+    ]
+   ],
+   "options": [
+    "Don't give up, Grandpa. Try again!",
+    "Don't gives up, Grandpa. Try again!",
+    "Don't giving up, Grandpa. Try again!"
+   ],
+   "answer": 0,
+   "rule": "Negative imperative: <b>Don't + base verb</b>: Don't <b>give</b> up."
+  },
+  {
+   "qid": "c10-09-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "What were you doing at six yesterday?"
+    ]
+   ],
+   "options": [
+    "I was practising calligraphy.",
+    "I am practising calligraphy.",
+    "I were practising calligraphy."
+   ],
+   "answer": 0,
+   "rule": "A past continuous question needs a past continuous answer: I <b>was practising</b>."
+  },
+  {
+   "qid": "c10-09-19",
+   "type": "change",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "Change into the present perfect tense.",
+   "source": "I lost my phone.",
+   "options": [
+    "I have lose my phone.",
+    "I had lost my phone.",
+    "I have lost my phone."
+   ],
+   "answer": 2,
+   "rule": "Present perfect: <b>have + past participle</b> (lost). Had lost is the past perfect."
+  },
+  {
+   "qid": "c10-09-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "contractions",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Neha",
+    "can't",
+    "comes",
+    "today",
+    "because",
+    "she",
+    "isn't",
+    "feeling",
+    "well.",
+    "She",
+    "won't",
+    "be",
+    "able",
+    "to",
+    "finishes",
+    "her",
+    "project",
+    "either."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "come",
+      "came",
+      "coming"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "finished",
+      "finish",
+      "finishing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>can't</b> (cannot) takes the base verb: come. After <b>to</b>, use the base verb: finish."
+  },
+  {
+   "qid": "c10-09-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "contractions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I'd better to leave now.",
+    "I'd better leaving now.",
+    "I'd better leave now."
+   ],
+   "answer": 2,
+   "rule": "<b>I'd better</b> = I had better, followed by the base verb without to: leave."
+  },
+  {
+   "qid": "c10-09-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "She",
+    "has",
+    "been",
+    "learn",
+    "calligraphy",
+    "for",
+    "two",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "learnt",
+      "learning",
+      "learns"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect continuous: <b>has been + -ing</b>: has been <b>learning</b>."
+  },
+  {
+   "qid": "c10-09-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Fill in the gap.",
+   "before": "By next June, Arjun",
+   "after": "his engineering course.",
+   "options": [
+    "will have finished",
+    "will finished",
+    "has finish"
+   ],
+   "answer": 0,
+   "rule": "<b>By</b> + a future time takes the future perfect: <b>will have finished</b>."
+  },
+  {
+   "qid": "c10-09-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives_voice",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the instructions be followed carefully.",
+   "options": [
+    "Let",
+    "Do",
+    "Please"
+   ],
+   "answer": 0,
+   "rule": "The passive of an order begins with <b>Let</b>: Let + object + be + past participle."
+  },
+  {
+   "qid": "c10-09-25",
+   "type": "build",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Make a piece of advice.",
+   "answer": [
+    "Never",
+    "let",
+    "your",
+    "friends",
+    "down."
+   ],
+   "alts": [],
+   "rule": "<b>let someone down</b> = disappoint them; the object goes between let and down."
+  },
+  {
+   "qid": "c10-09-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "contractions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Will you be home for dinner?"
+    ]
+   ],
+   "options": [
+    "No, I don't. I'm staying at Asha's.",
+    "No, I won't. I'm stayed at Asha's.",
+    "No, I won't. I'm staying at Asha's."
+   ],
+   "answer": 2,
+   "rule": "Answer a <b>will</b> question with <b>won't</b> (will not). I'm + -ing: I'm staying."
+  },
+  {
+   "qid": "c10-09-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why did Aman leave the team?"
+    ]
+   ],
+   "options": [
+    "He drops out because of his exams.",
+    "He dropped out because of his exams.",
+    "He dropped out because his exams."
+   ],
+   "answer": 1,
+   "rule": "Past question, past answer: <b>dropped out</b>. Before a noun, use <b>because of</b>."
+  },
+  {
+   "qid": "c10-09-28",
+   "type": "change",
+   "level": 3,
+   "topic": "imperatives_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Follow your heart.",
+   "options": [
+    "Let your heart is followed.",
+    "Let your heart be followed.",
+    "Let your heart be follow."
+   ],
+   "answer": 1,
+   "rule": "Imperative to passive: <b>Let your heart be followed.</b>"
+  },
+  {
+   "qid": "c10-09-29",
+   "type": "change",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Change into the past perfect tense.",
+   "source": "Jobs designed the Mac.",
+   "options": [
+    "Jobs had design the Mac.",
+    "Jobs has designed the Mac.",
+    "Jobs had designed the Mac."
+   ],
+   "answer": 2,
+   "rule": "Past perfect: <b>had + past participle</b> (designed)."
+  },
+  {
+   "qid": "c10-09-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Reed",
+    "College",
+    "offered",
+    "perhaps",
+    "the",
+    "better",
+    "calligraphy",
+    "instruction",
+    "in",
+    "the",
+    "country.",
+    "Ten",
+    "years",
+    "later,",
+    "while",
+    "we",
+    "were",
+    "designing",
+    "the",
+    "first",
+    "Mac,",
+    "every",
+    "lesson",
+    "come",
+    "back",
+    "to",
+    "me."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "more",
+      "well",
+      "best"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "came",
+      "comes",
+      "coming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Best in the whole country: <b>the best</b>. The story is in the past: it all <b>came</b> back."
+  },
+  {
+   "qid": "c10-09-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Jobs said that he has dropped out of college.",
+    "Jobs said that he had drop out of college.",
+    "Jobs said that he had dropped out of college."
+   ],
+   "answer": 2,
+   "rule": "In reported speech after <b>said</b>, the past moves back to the past perfect: <b>had dropped</b>."
+  },
+  {
+   "qid": "c10-09-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives_voice",
+   "prompt": "Which passive sentence is correct?",
+   "options": [
+    "Let the lights are switched off.",
+    "Let the lights be switched off.",
+    "Let the lights be switch off."
+   ],
+   "answer": 1,
+   "rule": "Passive imperative: <b>Let + object + be + past participle</b> (switched off)."
+  },
+  {
+   "qid": "c10-09-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "contractions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "haven't",
+    "found",
+    "your",
+    "passion",
+    "yet,",
+    "haven't",
+    "you?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "have",
+      "did",
+      "do"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A negative statement (haven't found) takes a positive tag: <b>have you?</b>"
+  },
+  {
+   "qid": "c10-09-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "The noise of other people's opinions should not",
+   "after": "out your inner voice.",
+   "options": [
+    "drown",
+    "drowned",
+    "drowning"
+   ],
+   "answer": 0,
+   "rule": "After the modal <b>should not</b>, use the base verb: drown out."
+  },
+  {
+   "qid": "c10-09-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "contractions",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "waste your time living someone else's life.",
+   "options": [
+    "needn't to",
+    "mustn't",
+    "haven't"
+   ],
+   "answer": 1,
+   "rule": "<b>mustn't</b> (must not) forbids something and takes the base verb: mustn't waste."
+  },
+  {
+   "qid": "c10-09-36",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Let",
+    "the",
+    "results",
+    "be",
+    "announced",
+    "tomorrow."
+   ],
+   "alts": [],
+   "rule": "Passive of 'Announce the results tomorrow': <b>Let the results be announced</b> tomorrow."
+  },
+  {
+   "qid": "c10-09-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle",
+     "How long have you been learning the guitar?"
+    ]
+   ],
+   "options": [
+    "I have been learning it for two years.",
+    "I have been learning it since two years.",
+    "I am learning it for two years."
+   ],
+   "answer": 0,
+   "rule": "Present perfect continuous with a length of time: <b>have been learning ... for</b> two years."
+  },
+  {
+   "qid": "c10-09-38",
+   "type": "change",
+   "level": 4,
+   "topic": "imperatives_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Please share your wisdom.",
+   "options": [
+    "You are requested share your wisdom.",
+    "You are requested to share your wisdom.",
+    "You were request to share your wisdom."
+   ],
+   "answer": 1,
+   "rule": "A polite order with <b>please</b> becomes <b>You are requested to + verb</b>."
+  },
+  {
+   "qid": "c10-09-39",
+   "type": "change",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "Change into the present perfect continuous tense.",
+   "source": "Life hits you hard.",
+   "options": [
+    "Life have been hitting you hard.",
+    "Life has been hitting you hard.",
+    "Life has been hit you hard."
+   ],
+   "answer": 1,
+   "rule": "Present perfect continuous: <b>has been + -ing</b>. Life is singular: has."
+  },
+  {
+   "qid": "c10-09-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "you",
+    "haven't",
+    "found",
+    "your",
+    "passion",
+    "yet,",
+    "keep",
+    "looking.",
+    "Don't",
+    "let",
+    "others",
+    "drowns",
+    "out",
+    "your",
+    "inner",
+    "voice,",
+    "and",
+    "do",
+    "not",
+    "settles",
+    "for",
+    "less."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "drowned",
+      "drowning",
+      "drown"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "settle",
+      "settled",
+      "settling"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "let + object + base verb: let others <b>drown</b> out. do not + base verb: do not <b>settle</b>."
+  },
+  {
+   "qid": "c10-09-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "By the time Jobs returned to Apple, he has started two companies.",
+    "By the time Jobs had returned to Apple, he started two companies.",
+    "By the time Jobs returned to Apple, he had started two companies."
+   ],
+   "answer": 2,
+   "rule": "The earlier action (starting companies) takes the past perfect: <b>had started</b>."
+  },
+  {
+   "qid": "c10-09-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "contractions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "Woz",
+    "nor",
+    "Jobs",
+    "weren't",
+    "afraid",
+    "of",
+    "hard",
+    "work."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "wasn't",
+      "been",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Neither ... nor</b> is already negative (no weren't), and the verb agrees with Jobs: <b>was</b>."
+  },
+  {
+   "qid": "c10-09-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "not",
+    "let",
+    "anyone",
+    "talk",
+    "you",
+    "out",
+    "of",
+    "follow",
+    "your",
+    "dreams."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "following",
+      "followed",
+      "to"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>talk someone out of</b> is followed by the -ing form: out of <b>following</b>."
+  },
+  {
+   "qid": "c10-09-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Fill in the gap.",
+   "before": "When the doctor called that evening, I",
+   "after": "with the diagnosis all day.",
+   "options": [
+    "had lived",
+    "have lived",
+    "am living"
+   ],
+   "answer": 0,
+   "rule": "An action before another past action (the doctor called) takes the past perfect: <b>had lived</b>."
+  },
+  {
+   "qid": "c10-09-45",
+   "type": "build",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Make a sentence in the future perfect continuous.",
+   "answer": [
+    "Riya",
+    "will",
+    "have",
+    "been",
+    "coding",
+    "for",
+    "five",
+    "years."
+   ],
+   "alts": [],
+   "rule": "Future perfect continuous: <b>will have been + -ing</b> + for + period."
+  },
+  {
+   "qid": "c10-09-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Any advice for the new students?"
+    ]
+   ],
+   "options": [
+    "Stay curious, and never stop to learning.",
+    "Stay curious, and never stop learning.",
+    "Stays curious, and never stop learning."
+   ],
+   "answer": 1,
+   "rule": "Imperatives use the base verb (<b>Stay</b>), and <b>stop</b> + -ing means stop doing it."
+  },
+  {
+   "qid": "c10-09-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "contractions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Shall I book the tickets now?"
+    ]
+   ],
+   "options": [
+    "No, you needn't to. I've already booked them.",
+    "No, you needn't. I've already booked them.",
+    "No, you needn't. I've already book them."
+   ],
+   "answer": 1,
+   "rule": "<b>needn't</b> = no need (no to after it). <b>I've</b> = I have + past participle: booked."
+  },
+  {
+   "qid": "c10-09-48",
+   "type": "change",
+   "level": 5,
+   "topic": "imperatives_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Don't waste your time.",
+   "options": [
+    "Let not your time is wasted.",
+    "Let your time be not waste.",
+    "Let not your time be wasted."
+   ],
+   "answer": 2,
+   "rule": "Negative imperative to passive: <b>Let not + object + be + past participle</b>: Let not your time be wasted."
+  },
+  {
+   "qid": "c10-09-49",
+   "type": "change",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Change into the past perfect continuous tense.",
+   "source": "My doctor advised me.",
+   "options": [
+    "My doctor had been advised me.",
+    "My doctor had been advising me.",
+    "My doctor has been advising me."
+   ],
+   "answer": 1,
+   "rule": "Past perfect continuous: <b>had been + -ing</b> (advising)."
+  },
+  {
+   "qid": "c10-09-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Jobs",
+    "was",
+    "diagnose",
+    "with",
+    "cancer",
+    "about",
+    "a",
+    "year",
+    "before",
+    "his",
+    "speech.",
+    "His",
+    "doctor",
+    "advised",
+    "him",
+    "to",
+    "goes",
+    "home.",
+    "Luckily,",
+    "the",
+    "cancer",
+    "could",
+    "be",
+    "cure",
+    "with",
+    "surgery."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "diagnosed",
+      "diagnosing",
+      "diagnosis"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "went",
+      "going",
+      "go"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "cured",
+      "curing",
+      "cures"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive: was <b>diagnosed</b>, could be <b>cured</b> (past participles). advised him to + base verb: <b>go</b>."
+  }
+ ]
+}

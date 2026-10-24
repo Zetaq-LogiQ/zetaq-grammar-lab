@@ -1,0 +1,1214 @@
+{
+ "class": 8,
+ "id": "06",
+ "title": "Nature Created Man and Woman as Equals",
+ "topics": [
+  {
+   "tag": "pronoun_types",
+   "name": "Pronouns: demonstrative, relative, interrogative"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech (statements, questions, requests)"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect and present perfect continuous"
+  },
+  {
+   "tag": "as_as",
+   "name": "Comparison with as ... as / not so ... as"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-06-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronoun_types",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tomba is a lawyer who supports women's rights.",
+    "Tomba is a lawyer which supports women's rights.",
+    "Tomba is a lawyer whom supports women's rights."
+   ],
+   "answer": 0,
+   "rule": "Use the relative pronoun <b>who</b> for a person who does the action."
+  },
+  {
+   "qid": "c8-06-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Women are as important than men.",
+    "Women are as important as men.",
+    "Women are as more important as men."
+   ],
+   "answer": 1,
+   "rule": "Equal comparison: <b>as</b> + plain adjective + <b>as</b>."
+  },
+  {
+   "qid": "c8-06-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Lanthoi has just finish her homework.",
+    "Lanthoi has just finished her homework.",
+    "Lanthoi have just finished her homework."
+   ],
+   "answer": 1,
+   "rule": "Present perfect: <b>has</b> (singular) + past participle <b>finished</b>."
+  },
+  {
+   "qid": "c8-06-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Lanthoi said that I wanted to do something interesting.",
+    "Lanthoi said that she wanted to do something interesting.",
+    "Lanthoi said that she want to do something interesting."
+   ],
+   "answer": 1,
+   "rule": "In reported speech <b>I</b> becomes <b>she</b> and the tense moves back: <b>wanted</b>."
+  },
+  {
+   "qid": "c8-06-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronoun_types",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Who's article is on the table?",
+    "Whose article is on the table?",
+    "Whom article is on the table?"
+   ],
+   "answer": 1,
+   "rule": "<b>Whose</b> asks about the owner; <b>who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c8-06-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The garden is not so big than the mustard field.",
+    "The garden is not so bigger as the mustard field.",
+    "The garden is not so big as the mustard field."
+   ],
+   "answer": 2,
+   "rule": "Negative equal comparison: <b>not so</b> + plain adjective + <b>as</b>."
+  },
+  {
+   "qid": "c8-06-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which reported question is correct?",
+   "options": [
+    "Lanthoi asked her father why women did not get equal pay.",
+    "Lanthoi asked her father why did women not get equal pay.",
+    "Lanthoi asked her father that why women did not get equal pay."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order and no <b>that</b>: <b>why women did not get ...</b>"
+  },
+  {
+   "qid": "c8-06-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Ashangbi has been writing articles on women's rights since twenty years.",
+    "Ashangbi has been writing articles on women's rights for twenty years.",
+    "Ashangbi is writing articles on women's rights for twenty years."
+   ],
+   "answer": 1,
+   "rule": "An action that started in the past and still goes on: <b>has been writing ... for</b> + period."
+  },
+  {
+   "qid": "c8-06-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronoun_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "are",
+    "the",
+    "brave",
+    "queens",
+    "from",
+    "Grandmother's",
+    "stories."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "These",
+      "That",
+      "It"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "For plural nouns near you, use the demonstrative <b>these</b>: <b>These are ...</b>"
+  },
+  {
+   "qid": "c8-06-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "parents",
+    "has",
+    "shared",
+    "the",
+    "cooking",
+    "since",
+    "Lanthoi",
+    "was",
+    "small."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "have",
+      "is",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A plural subject (<b>both parents</b>) takes <b>have</b> in the present perfect: <b>have shared</b>."
+  },
+  {
+   "qid": "c8-06-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "as_as",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Women",
+    "are",
+    "just",
+    "as",
+    "importance",
+    "as",
+    "men",
+    "in",
+    "every",
+    "society."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "importantly",
+      "imports",
+      "important"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>as ... as</b> needs an adjective in the middle: <b>as important as</b>."
+  },
+  {
+   "qid": "c8-06-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Lanthoi",
+    "said",
+    "that",
+    "Ashangbi",
+    "were",
+    "the",
+    "fountain",
+    "of",
+    "love",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "be",
+      "been",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>said</b>, the verb is past and agrees with one person, <b>Ashangbi</b>: <b>was</b>."
+  },
+  {
+   "qid": "c8-06-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "pronoun_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ashangbi",
+    "is",
+    "a",
+    "journalist",
+    "whom",
+    "writes",
+    "about",
+    "women's",
+    "rights."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The pronoun is the subject of <b>writes</b> and refers to a person, so use <b>who</b>."
+  },
+  {
+   "qid": "c8-06-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomba",
+    "has",
+    "share",
+    "the",
+    "household",
+    "chores",
+    "ever",
+    "since",
+    "Lanthoi",
+    "was",
+    "born."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "shared",
+      "sharing",
+      "shares"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect = <b>has</b> + past participle: <b>has shared</b>."
+  },
+  {
+   "qid": "c8-06-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "Lanthoi",
+    "asked",
+    "her",
+    "mother",
+    "if",
+    "she",
+    "will",
+    "spare",
+    "some",
+    "time",
+    "for",
+    "a",
+    "discussion."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "shall",
+      "would",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the past verb <b>asked</b>, <b>will</b> moves back to <b>would</b>."
+  },
+  {
+   "qid": "c8-06-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronoun_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Lanthoi",
+    "has",
+    "a",
+    "grandmother",
+    "who",
+    "stories",
+    "are",
+    "full",
+    "of",
+    "brave",
+    "queens."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The stories belong to the grandmother, so use the possessive relative <b>whose</b>."
+  },
+  {
+   "qid": "c8-06-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "pronoun_types",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "is my mother's new article.",
+   "options": [
+    "These",
+    "This",
+    "Those"
+   ],
+   "answer": 1,
+   "rule": "One thing near you takes <b>this</b> + <b>is</b>; <b>these/those</b> are plural."
+  },
+  {
+   "qid": "c8-06-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "Lanthoi is as clever",
+   "after": "her elder sister.",
+   "options": [
+    "than",
+    "so",
+    "as"
+   ],
+   "answer": 2,
+   "rule": "The pattern is <b>as clever as</b>."
+  },
+  {
+   "qid": "c8-06-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Tomba",
+   "after": "always supported his wife's work.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>has</b> + past participle <b>supported</b> with a singular subject."
+  },
+  {
+   "qid": "c8-06-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Ashangbi told Lanthoi that her father",
+   "after": "right about the topic.",
+   "options": [
+    "was",
+    "is being",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "<b>Your father is right</b> becomes <b>her father was right</b> after <b>told</b>."
+  },
+  {
+   "qid": "c8-06-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "pronoun_types",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "of these two posters do you like better?",
+   "options": [
+    "Who",
+    "Whom",
+    "Which"
+   ],
+   "answer": 2,
+   "rule": "Use the interrogative pronoun <b>which</b> to choose between things."
+  },
+  {
+   "qid": "c8-06-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Lanthoi",
+   "after": "for the symposium since morning.",
+   "options": [
+    "has been preparing",
+    "is preparing",
+    "prepares"
+   ],
+   "answer": 0,
+   "rule": "<b>Since morning</b> + still going on: present perfect continuous <b>has been preparing</b>."
+  },
+  {
+   "qid": "c8-06-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Lanthoi requested her mother",
+   "after": "some time with her.",
+   "options": [
+    "spend",
+    "to spend",
+    "spending"
+   ],
+   "answer": 1,
+   "rule": "A reported request uses <b>requested</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c8-06-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "In no society",
+   "after": "women enjoy the same opportunities as men.",
+   "options": [
+    "do",
+    "does",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "After <b>In no society</b>, use question order: <b>do women enjoy</b> (plural). <b>the same ... as</b> compares."
+  },
+  {
+   "qid": "c8-06-25",
+   "type": "build",
+   "level": 1,
+   "topic": "pronoun_types",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "is",
+    "your",
+    "debate",
+    "coach?"
+   ],
+   "alts": [],
+   "rule": "The interrogative pronoun <b>Who</b> asks about a person."
+  },
+  {
+   "qid": "c8-06-26",
+   "type": "build",
+   "level": 2,
+   "topic": "as_as",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Her",
+    "salary",
+    "is",
+    "the",
+    "same",
+    "as",
+    "his."
+   ],
+   "alts": [],
+   "rule": "<b>the same as</b> shows two things are equal; <b>his</b> = his salary."
+  },
+  {
+   "qid": "c8-06-27",
+   "type": "build",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Lanthoi",
+    "has",
+    "finished",
+    "her",
+    "speech",
+    "already."
+   ],
+   "alts": [],
+   "rule": "Present perfect: <b>has</b> + past participle; <b>already</b> can go at the end."
+  },
+  {
+   "qid": "c8-06-28",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Make a reported command.",
+   "answer": [
+    "Her",
+    "father",
+    "told",
+    "her",
+    "to",
+    "believe",
+    "in",
+    "herself."
+   ],
+   "alts": [],
+   "rule": "Reported command: <b>told</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c8-06-29",
+   "type": "build",
+   "level": 5,
+   "topic": "pronoun_types",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "girl",
+    "whose",
+    "speech",
+    "won",
+    "a",
+    "prize."
+   ],
+   "alts": [],
+   "rule": "<b>whose</b> + noun links a person to what belongs to her."
+  },
+  {
+   "qid": "c8-06-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Have you finished your study, my dear?"
+    ]
+   ],
+   "options": [
+    "Yes, I have finished it.",
+    "Yes, I has finished it.",
+    "Yes, I have finish it."
+   ],
+   "answer": 0,
+   "rule": "With <b>I</b>, use <b>have</b> + past participle: <b>have finished</b>."
+  },
+  {
+   "qid": "c8-06-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronoun_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Is this your notebook or Lanthoi's?"
+    ]
+   ],
+   "options": [
+    "It is her's, not mine.",
+    "It is her, not my.",
+    "It is hers, not mine."
+   ],
+   "answer": 2,
+   "rule": "Possessive pronouns stand alone and never take an apostrophe: <b>hers</b>, <b>mine</b>."
+  },
+  {
+   "qid": "c8-06-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did your father say about the topic?"
+    ]
+   ],
+   "options": [
+    "He said that the world was still full of inequalities.",
+    "He said that the world were still full of inequalities.",
+    "He said me that the world was still full of inequalities."
+   ],
+   "answer": 0,
+   "rule": "<b>The world</b> is singular: <b>was</b>. We <b>say</b> something, but <b>tell</b> someone."
+  },
+  {
+   "qid": "c8-06-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Is your sister taller than you?"
+    ]
+   ],
+   "options": [
+    "No, she is not as tall than I am.",
+    "No, she is not as taller as I am.",
+    "No, she is not as tall as I am."
+   ],
+   "answer": 2,
+   "rule": "<b>not as</b> + plain adjective + <b>as</b>: <b>not as tall as I am</b>."
+  },
+  {
+   "qid": "c8-06-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How long have you been practising your speech?"
+    ]
+   ],
+   "options": [
+    "I am practising since nine o'clock.",
+    "I have been practising since nine o'clock.",
+    "I have been practising for nine o'clock."
+   ],
+   "answer": 1,
+   "rule": "Present perfect continuous + <b>since</b> + starting time."
+  },
+  {
+   "qid": "c8-06-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "pronoun_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "Who is Mrs Ashangbi?"
+    ]
+   ],
+   "options": [
+    "She is the journalist which writes about women's rights.",
+    "She is the journalist who writes about women's rights.",
+    "She is the journalist who write about women's rights."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> for a person; it refers to one journalist, so the verb is <b>writes</b>."
+  },
+  {
+   "qid": "c8-06-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What did your teacher ask you this morning?"
+    ]
+   ],
+   "options": [
+    "She asked me why I had come late.",
+    "She asked me why had I come late.",
+    "She asked me why I have came late."
+   ],
+   "answer": 0,
+   "rule": "Reported question: statement order + tense moved back: <b>why I had come late</b>."
+  },
+  {
+   "qid": "c8-06-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are you so happy today?"
+    ]
+   ],
+   "options": [
+    "I have just win the debate at school!",
+    "I have just won the debate at school!",
+    "I have won the debate at school yesterday!"
+   ],
+   "answer": 1,
+   "rule": "<b>have just won</b> is right; the present perfect cannot go with <b>yesterday</b>."
+  },
+  {
+   "qid": "c8-06-38",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into reported speech.",
+   "source": "Lanthoi said, \"I am going to speak at the symposium.\"",
+   "options": [
+    "Lanthoi said that I was going to speak at the symposium.",
+    "Lanthoi said that she is going to spoke at the symposium.",
+    "Lanthoi said that she was going to speak at the symposium."
+   ],
+   "answer": 2,
+   "rule": "<b>I am</b> becomes <b>she was</b>; keep <b>to speak</b>."
+  },
+  {
+   "qid": "c8-06-39",
+   "type": "change",
+   "level": 2,
+   "topic": "pronoun_types",
+   "prompt": "Join using 'who'.",
+   "source": "Tomba is a kind father. He shares all the household chores.",
+   "options": [
+    "Tomba is a kind father which shares all the household chores.",
+    "Tomba is a kind father who share all the household chores.",
+    "Tomba is a kind father who shares all the household chores."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> replaces <b>He</b>; it refers to one father, so <b>shares</b>."
+  },
+  {
+   "qid": "c8-06-40",
+   "type": "change",
+   "level": 2,
+   "topic": "as_as",
+   "prompt": "Rewrite using 'as ... as'.",
+   "source": "Ashangbi and Tomba are equally busy.",
+   "options": [
+    "Ashangbi is as busy as Tomba.",
+    "Ashangbi is as busy than Tomba.",
+    "Ashangbi is as busier as Tomba."
+   ],
+   "answer": 0,
+   "rule": "<b>equally busy</b> = <b>as busy as</b>."
+  },
+  {
+   "qid": "c8-06-41",
+   "type": "change",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Change into a question.",
+   "source": "Lanthoi has read many stories about pioneer women.",
+   "options": [
+    "Has Lanthoi readed many stories about pioneer women?",
+    "Has Lanthoi read many stories about pioneer women?",
+    "Have Lanthoi read many stories about pioneer women?"
+   ],
+   "answer": 1,
+   "rule": "Move <b>has</b> to the front: <b>Has Lanthoi read ...?</b>"
+  },
+  {
+   "qid": "c8-06-42",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into reported speech.",
+   "source": "Lanthoi said to her mother, \"Please spare some time for me.\"",
+   "options": [
+    "Lanthoi requested her mother to spare some time for me.",
+    "Lanthoi requested her mother that spare some time for her.",
+    "Lanthoi requested her mother to spare some time for her."
+   ],
+   "answer": 2,
+   "rule": "A request becomes <b>requested</b> + person + <b>to</b> + verb; <b>me</b> becomes <b>her</b>."
+  },
+  {
+   "qid": "c8-06-43",
+   "type": "change",
+   "level": 4,
+   "topic": "as_as",
+   "prompt": "Rewrite using 'not as ... as'.",
+   "source": "The river is wider than the stream.",
+   "options": [
+    "The stream is not as wide as the river.",
+    "The stream is not as wider as the river.",
+    "The river is not as wide as the stream."
+   ],
+   "answer": 0,
+   "rule": "Swap the two nouns and use the plain adjective: <b>The stream is not as wide as the river.</b>"
+  },
+  {
+   "qid": "c8-06-44",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into reported speech.",
+   "source": "Ashangbi said to Lanthoi, \"Have you finished your study?\"",
+   "options": [
+    "Ashangbi asked Lanthoi if you had finished your study.",
+    "Ashangbi asked Lanthoi if had she finished her study.",
+    "Ashangbi asked Lanthoi if she had finished her study."
+   ],
+   "answer": 2,
+   "rule": "Yes/no question: <b>asked if</b> + statement order; <b>have finished</b> becomes <b>had finished</b>."
+  },
+  {
+   "qid": "c8-06-45",
+   "type": "change",
+   "level": 5,
+   "topic": "pronoun_types",
+   "prompt": "Join using 'which'.",
+   "source": "Ashangbi wrote an article. It was printed in every newspaper.",
+   "options": [
+    "Ashangbi wrote an article which it was printed in every newspaper.",
+    "Ashangbi wrote an article which was printed in every newspaper.",
+    "Ashangbi wrote an article who was printed in every newspaper."
+   ],
+   "answer": 1,
+   "rule": "<b>which</b> replaces <b>It</b> (don't keep both) and is used for things."
+  },
+  {
+   "qid": "c8-06-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Lanthoi",
+    "have",
+    "prepared",
+    "her",
+    "speech",
+    "for",
+    "the",
+    "symposium.",
+    "She",
+    "has",
+    "practise",
+    "it",
+    "three",
+    "times",
+    "since",
+    "morning,",
+    "and",
+    "now",
+    "she",
+    "feels",
+    "ready."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "has",
+      "is",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "practising",
+      "practice",
+      "practised"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Lanthoi has prepared</b>; present perfect needs the past participle: <b>has practised</b>."
+  },
+  {
+   "qid": "c8-06-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "pronoun_types",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "These",
+    "is",
+    "a",
+    "photo",
+    "of",
+    "my",
+    "grandmother.",
+    "She",
+    "is",
+    "the",
+    "woman",
+    "which",
+    "told",
+    "me",
+    "stories",
+    "of",
+    "brave",
+    "queens.",
+    "Those",
+    "queens",
+    "was",
+    "as",
+    "brave",
+    "as",
+    "kings."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "This",
+      "Those",
+      "They"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 11,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>This is</b> a photo (one thing); <b>who</b> for a person; <b>Those queens were</b> (plural)."
+  },
+  {
+   "qid": "c8-06-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Yesterday",
+    "Lanthoi",
+    "told",
+    "her",
+    "mother",
+    "that",
+    "she",
+    "was",
+    "free.",
+    "Her",
+    "mother",
+    "asked",
+    "her",
+    "what",
+    "she",
+    "wanted",
+    "to",
+    "doing",
+    "that",
+    "day,",
+    "and",
+    "Lanthoi",
+    "said",
+    "she",
+    "was",
+    "going",
+    "to",
+    "speaks",
+    "at",
+    "a",
+    "symposium."
+   ],
+   "errors": [
+    {
+     "i": 17,
+     "options": [
+      "do",
+      "does",
+      "done"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 27,
+     "options": [
+      "spoke",
+      "speaking",
+      "speak"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b> use the base verb: <b>wanted to do</b>, <b>going to speak</b>."
+  },
+  {
+   "qid": "c8-06-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "as_as",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Modern",
+    "women",
+    "has",
+    "become",
+    "astronauts,",
+    "scientists",
+    "and",
+    "political",
+    "leaders.",
+    "They",
+    "have",
+    "shown",
+    "that",
+    "they",
+    "are",
+    "just",
+    "as",
+    "capable",
+    "like",
+    "men.",
+    "Since",
+    "many",
+    "years,",
+    "they",
+    "have",
+    "been",
+    "winning",
+    "top",
+    "prizes",
+    "in",
+    "every",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "have",
+      "having"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "than",
+      "as",
+      "so"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "From",
+      "For",
+      "During"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>women have</b> (plural); <b>as capable as</b>; <b>for</b> + a length of time (<b>for many years</b>)."
+  },
+  {
+   "qid": "c8-06-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Lanthoi",
+    "asked",
+    "her",
+    "mother",
+    "whether",
+    "there",
+    "were",
+    "any",
+    "laws",
+    "who",
+    "protected",
+    "women.",
+    "Her",
+    "mother",
+    "explained",
+    "that",
+    "the",
+    "United",
+    "Nations",
+    "had",
+    "a",
+    "declaration",
+    "which",
+    "promise",
+    "equal",
+    "reward",
+    "for",
+    "equal",
+    "work.",
+    "Lanthoi",
+    "thanked",
+    "her",
+    "mother",
+    "and",
+    "rush",
+    "out",
+    "into",
+    "the",
+    "bright",
+    "morning",
+    "sun."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "promising",
+      "promised",
+      "promisor"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 34,
+     "options": [
+      "rushed",
+      "rushing",
+      "rushes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>laws which</b> (things); <b>a declaration which promised</b> (past, like <b>had</b>); <b>thanked ... and rushed</b>."
+  }
+ ]
+}

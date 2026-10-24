@@ -1,0 +1,1206 @@
+{
+ "class": 9,
+ "id": "10",
+ "title": "Autumn",
+ "topics": [
+  {
+   "tag": "verb_agreement",
+   "name": "Tense and subject-verb agreement"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "adjective_order",
+   "name": "Adjectives and their order"
+  },
+  {
+   "tag": "linking_words",
+   "name": "Linking words (although, despite, however)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-10-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "verb_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "New grass sprout after the first rain.",
+    "New grass sprouting after the first rain.",
+    "New grass sprouts after the first rain."
+   ],
+   "answer": 2,
+   "rule": "<b>Grass</b> is singular, so the simple present verb takes <b>-s</b>: <b>sprouts</b>."
+  },
+  {
+   "qid": "c9-10-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the sentence with the correct comparison.",
+   "options": [
+    "The moon looks more brighter tonight than last night.",
+    "The moon looks brightest tonight than last night.",
+    "The moon looks brighter tonight than last night."
+   ],
+   "answer": 2,
+   "rule": "Comparing two things with <b>than</b> needs the comparative <b>brighter</b>. Never add <b>more</b> to an -er word."
+  },
+  {
+   "qid": "c9-10-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "migratory",
+    "birds",
+    "returns",
+    "to",
+    "the",
+    "lake",
+    "every",
+    "October."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "returning",
+      "return",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Many migratory birds</b> is plural, so the verb has no <b>-s</b>: birds <b>return</b>."
+  },
+  {
+   "qid": "c9-10-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "autumn",
+    "sky",
+    "is",
+    "clear",
+    "than",
+    "the",
+    "monsoon",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "clearest",
+      "clearly",
+      "clearer"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Than</b> compares two things, so use the comparative: <b>clearer</b> than."
+  },
+  {
+   "qid": "c9-10-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "verb_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Every morning, a thin mist",
+   "after": "over the rice fields.",
+   "options": [
+    "hang",
+    "hangs",
+    "hanging"
+   ],
+   "answer": 1,
+   "rule": "<b>A thin mist</b> is singular and this happens every morning, so use <b>hangs</b>."
+  },
+  {
+   "qid": "c9-10-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "October is",
+   "after": "than the rainy months of July and August.",
+   "options": [
+    "drier",
+    "dry",
+    "driest"
+   ],
+   "answer": 0,
+   "rule": "Two things are compared with <b>than</b>, so use the comparative <b>drier</b> (dry - drier - driest)."
+  },
+  {
+   "qid": "c9-10-07",
+   "type": "build",
+   "level": 1,
+   "topic": "adjective_order",
+   "prompt": "Put the words in order. Watch the order of the adjectives.",
+   "answer": [
+    "She",
+    "wore",
+    "a",
+    "beautiful",
+    "white",
+    "silk",
+    "sari."
+   ],
+   "alts": [],
+   "rule": "Opinion comes first, then colour, then material: a <b>beautiful white silk</b> sari."
+  },
+  {
+   "qid": "c9-10-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What does your grandmother do on Kojagiri night?"
+    ]
+   ],
+   "options": [
+    "She makes kheer and keeps it in the moonlight.",
+    "She make kheer and keeps it in the moonlight.",
+    "She making kheer and keep it in the moonlight."
+   ],
+   "answer": 0,
+   "rule": "With <b>she</b> in the simple present, both verbs take <b>-s</b>: she <b>makes</b> ... and <b>keeps</b>."
+  },
+  {
+   "qid": "c9-10-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Which is the hottest month in Pune?"
+    ]
+   ],
+   "options": [
+    "April is the hotter month of all.",
+    "April is the hottest month, I think.",
+    "April is the most hottest month."
+   ],
+   "answer": 1,
+   "rule": "Comparing one month with all others needs the superlative <b>the hottest</b>, without <b>most</b>."
+  },
+  {
+   "qid": "c9-10-10",
+   "type": "change",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Autumn is the most pleasant season of all.",
+   "options": [
+    "Autumn is more pleasant than all season.",
+    "Autumn is most pleasant than any other season.",
+    "Autumn is more pleasant than any other season."
+   ],
+   "answer": 2,
+   "rule": "Superlative to comparative: <b>more pleasant than any other</b> + singular noun."
+  },
+  {
+   "qid": "c9-10-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjective_order",
+   "prompt": "Which sentence has the adjectives in the correct order?",
+   "options": [
+    "Riya bought a lovely little brass lamp for Diwali.",
+    "Riya bought a brass little lovely lamp for Diwali.",
+    "Riya bought a little brass lovely lamp for Diwali."
+   ],
+   "answer": 0,
+   "rule": "Order: opinion, size, then material - a <b>lovely little brass</b> lamp."
+  },
+  {
+   "qid": "c9-10-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Which sentence uses the linking word correctly?",
+   "options": [
+    "Although it was cloudy, the children flew kites.",
+    "Despite it was cloudy, the children flew kites.",
+    "Although it was cloudy, but the children flew kites."
+   ],
+   "answer": 0,
+   "rule": "<b>Although</b> takes a full clause and is not followed by <b>but</b>. <b>Despite</b> needs a noun, not a clause."
+  },
+  {
+   "qid": "c9-10-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Although",
+    "the",
+    "cold",
+    "wind,",
+    "Meera",
+    "went",
+    "for",
+    "an",
+    "evening",
+    "walk."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Because",
+      "Despite",
+      "However"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>The cold wind</b> is a noun phrase, not a clause, so use <b>Despite</b>. <b>Although</b> needs a subject and verb."
+  },
+  {
+   "qid": "c9-10-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "girl",
+    "in",
+    "the",
+    "dance",
+    "wear",
+    "a",
+    "garland",
+    "of",
+    "lilies."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "wearing",
+      "wears",
+      "worn"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every</b> + singular noun takes a singular verb: every girl <b>wears</b>."
+  },
+  {
+   "qid": "c9-10-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Fill in the gap.",
+   "before": "The days are getting shorter;",
+   "after": ", the weather is pleasant.",
+   "options": [
+    "although",
+    "despite",
+    "however"
+   ],
+   "answer": 2,
+   "rule": "After a semicolon, the linking adverb <b>however</b> joins two full sentences that contrast."
+  },
+  {
+   "qid": "c9-10-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "night of the year; the moon is full and the sky is clear.",
+   "options": [
+    "brighter",
+    "more bright",
+    "brightest"
+   ],
+   "answer": 2,
+   "rule": "<b>The ... of the year</b> compares one night with all others, so use the superlative <b>brightest</b>."
+  },
+  {
+   "qid": "c9-10-17",
+   "type": "build",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Despite",
+    "the",
+    "mist,",
+    "farmers",
+    "went",
+    "to",
+    "their",
+    "fields."
+   ],
+   "alts": [],
+   "rule": "<b>Despite</b> + noun (<b>the mist</b>), then a comma and the main clause."
+  },
+  {
+   "qid": "c9-10-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "adjective_order",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "What kind of lantern did you buy for Diwali?"
+    ]
+   ],
+   "options": [
+    "I bought a paper round big lantern.",
+    "I bought a round paper big lantern.",
+    "I bought a big round paper lantern."
+   ],
+   "answer": 2,
+   "rule": "Size comes before shape, and material comes last: a <b>big round paper</b> lantern."
+  },
+  {
+   "qid": "c9-10-19",
+   "type": "change",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Combine the sentences using 'although'.",
+   "source": "The wind was cold. We sat outside to watch the stars.",
+   "options": [
+    "Although the wind was cold, but we sat outside to watch the stars.",
+    "Although the wind is cold, we sat outside to watch the stars.",
+    "Although the wind was cold, we sat outside to watch the stars."
+   ],
+   "answer": 2,
+   "rule": "Use <b>although</b> alone - never <b>although ... but</b> - and keep the tense: <b>was</b>."
+  },
+  {
+   "qid": "c9-10-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "verb_agreement",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "October,",
+    "my",
+    "grandmother",
+    "make",
+    "kheer",
+    "for",
+    "Kojagiri.",
+    "She",
+    "kept",
+    "it",
+    "in",
+    "the",
+    "moonlight",
+    "and",
+    "the",
+    "whole",
+    "family",
+    "drunk",
+    "it",
+    "at",
+    "midnight."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "made",
+      "makes",
+      "making"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "drinks",
+      "drank",
+      "drinking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last October</b> is past, so use the simple past: <b>made</b>. The past of drink is <b>drank</b>; <b>drunk</b> is the past participle."
+  },
+  {
+   "qid": "c9-10-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "verb_agreement",
+   "prompt": "Pick the sentence with correct agreement.",
+   "options": [
+    "One of the lilies in the pond are white.",
+    "One of the lilies in the pond is white.",
+    "One of the lily in the pond is white."
+   ],
+   "answer": 1,
+   "rule": "<b>One of</b> + plural noun takes a singular verb: one of the lilies <b>is</b>."
+  },
+  {
+   "qid": "c9-10-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our new classroom is much brighter than the old one.",
+    "Our new classroom is much more brighter than the old one.",
+    "Our new classroom is very brighter than the old one."
+   ],
+   "answer": 0,
+   "rule": "Use <b>much</b> (not <b>very</b>) to make a comparative stronger, and never use <b>more</b> with an -er word."
+  },
+  {
+   "qid": "c9-10-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Between",
+    "Tara",
+    "and",
+    "Meena,",
+    "Tara",
+    "is",
+    "the",
+    "tallest",
+    "garba",
+    "dancer."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "taller",
+      "tall",
+      "highest"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Only two girls are compared, so use the comparative: the <b>taller</b> dancer."
+  },
+  {
+   "qid": "c9-10-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the heavy rain in September, the paddy crop was good.",
+   "options": [
+    "Despite",
+    "Although",
+    "However"
+   ],
+   "answer": 0,
+   "rule": "<b>The heavy rain</b> is a noun phrase, so use <b>Despite</b>. <b>Although</b> needs a clause."
+  },
+  {
+   "qid": "c9-10-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "verb_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Neither the farmers nor their son",
+   "after": "worried about the late rains.",
+   "options": [
+    "are",
+    "is",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>son</b> is singular, so <b>is</b>."
+  },
+  {
+   "qid": "c9-10-26",
+   "type": "build",
+   "level": 3,
+   "topic": "adjective_order",
+   "prompt": "Put the words in order. Watch the order of the adjectives.",
+   "answer": [
+    "The",
+    "bride",
+    "wore",
+    "a",
+    "lovely",
+    "red",
+    "Banarasi",
+    "sari."
+   ],
+   "alts": [],
+   "rule": "Opinion, then colour, then origin: a <b>lovely red Banarasi</b> sari."
+  },
+  {
+   "qid": "c9-10-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Did you go to the lake yesterday?"
+    ],
+    [
+     "Om",
+     "It was so foggy!"
+    ]
+   ],
+   "options": [
+    "Yes, despite of the fog, we saw many migratory birds.",
+    "Yes, despite the fog, we saw many migratory birds.",
+    "Yes, although the fog, we saw many migratory birds."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> is followed directly by a noun - no <b>of</b>. <b>Although</b> would need a clause."
+  },
+  {
+   "qid": "c9-10-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Has everyone finished the poem on autumn?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. Everyone have finished it.",
+    "Yes, ma'am. Everyone have finish it.",
+    "Yes, ma'am. Everyone has finished it."
+   ],
+   "answer": 2,
+   "rule": "<b>Everyone</b> is singular, so use <b>has</b> + past participle: everyone <b>has finished</b>."
+  },
+  {
+   "qid": "c9-10-29",
+   "type": "change",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "Autumn is more pleasant than summer.",
+   "options": [
+    "Summer is not as pleasanter as autumn.",
+    "Summer is not so pleasant than autumn.",
+    "Summer is not as pleasant as autumn."
+   ],
+   "answer": 2,
+   "rule": "Comparative to positive: <b>not as + adjective + as</b>, with the other noun as the subject."
+  },
+  {
+   "qid": "c9-10-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "verb_agreement",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Anu!",
+    "Pashan",
+    "Lake",
+    "look",
+    "lovely",
+    "these",
+    "days.",
+    "Hundreds",
+    "of",
+    "birds",
+    "has",
+    "arrived",
+    "from",
+    "the",
+    "north.",
+    "Come",
+    "and",
+    "see",
+    "them",
+    "with",
+    "me",
+    "on",
+    "Sunday."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "looking",
+      "have",
+      "looks"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 11,
+     "options": [
+      "having",
+      "have",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Pashan Lake</b> is singular: <b>looks</b>. <b>Hundreds of birds</b> is plural: <b>have arrived</b>."
+  },
+  {
+   "qid": "c9-10-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "verb_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The rice has been harvested and the fields looks empty now.",
+    "The rice have been harvested and the fields look empty now.",
+    "The rice has been harvested and the fields look empty now."
+   ],
+   "answer": 2,
+   "rule": "<b>Rice</b> is uncountable, so <b>has been</b>; <b>fields</b> is plural, so <b>look</b>."
+  },
+  {
+   "qid": "c9-10-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Although",
+    "she",
+    "was",
+    "tired,",
+    "Leela",
+    "danced",
+    "until",
+    "the",
+    "moon",
+    "rise",
+    "over",
+    "the",
+    "hills."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "rose",
+      "rises",
+      "risen"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is in the past (<b>was</b>, <b>danced</b>), so use the simple past: the moon <b>rose</b>."
+  },
+  {
+   "qid": "c9-10-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kalidas",
+    "is",
+    "one",
+    "of",
+    "the",
+    "greatest",
+    "poet",
+    "of",
+    "ancient",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "poets",
+      "poetry",
+      "poet's"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>One of the</b> + superlative is followed by a plural noun: one of the greatest <b>poets</b>."
+  },
+  {
+   "qid": "c9-10-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the most beautiful poem that has ever",
+   "after": "written about autumn.",
+   "options": [
+    "be",
+    "been",
+    "being"
+   ],
+   "answer": 1,
+   "rule": "The present perfect passive is <b>has been</b> + past participle: has ever <b>been</b> written."
+  },
+  {
+   "qid": "c9-10-35",
+   "type": "build",
+   "level": 4,
+   "topic": "verb_agreement",
+   "prompt": "Make a statement with a question tag.",
+   "answer": [
+    "The",
+    "mist",
+    "has",
+    "cleared,",
+    "hasn't",
+    "it?"
+   ],
+   "alts": [],
+   "rule": "A positive statement with <b>has</b> takes a negative tag with <b>hasn't</b>: has cleared, <b>hasn't it?</b>"
+  },
+  {
+   "qid": "c9-10-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What did the weather report say?"
+    ]
+   ],
+   "options": [
+    "It said that the rain would stop soon; however, the nights would be cold.",
+    "It said that the rain will stopped soon; however, the nights would be cold.",
+    "It said that the rain would stop soon; however the nights will been cold."
+   ],
+   "answer": 0,
+   "rule": "In reported speech <b>will</b> becomes <b>would</b> + base verb. <b>However</b> after a semicolon takes a comma."
+  },
+  {
+   "qid": "c9-10-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "adjective_order",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nani",
+     "Which shawl should I wear tonight?"
+    ]
+   ],
+   "options": [
+    "Wear the woollen old soft one, Nani.",
+    "Wear the old woollen soft one, Nani.",
+    "Wear the soft old woollen one, Nani."
+   ],
+   "answer": 2,
+   "rule": "Quality comes first, then age, then material: the <b>soft old woollen</b> one."
+  },
+  {
+   "qid": "c9-10-38",
+   "type": "change",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although the night was dark, the stars shone brightly.",
+   "options": [
+    "Despite the night was dark, the stars shone brightly.",
+    "Despite of the dark night, the stars shone brightly.",
+    "Despite the darkness of the night, the stars shone brightly."
+   ],
+   "answer": 2,
+   "rule": "<b>Despite</b> needs a noun phrase (<b>the darkness of the night</b>), not a clause, and never takes <b>of</b>."
+  },
+  {
+   "qid": "c9-10-39",
+   "type": "change",
+   "level": 4,
+   "topic": "verb_agreement",
+   "prompt": "Change into passive voice.",
+   "source": "Farmers harvest the rice in autumn.",
+   "options": [
+    "The rice is harvested by farmers in autumn.",
+    "The rice was harvested by farmers in autumn.",
+    "The rice is harvest by farmers in autumn."
+   ],
+   "answer": 0,
+   "rule": "Simple present passive: <b>is</b> + past participle - the rice <b>is harvested</b>."
+  },
+  {
+   "qid": "c9-10-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "verb_agreement",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Dear",
+    "Ravi,",
+    "autumn",
+    "has",
+    "came",
+    "to",
+    "our",
+    "village.",
+    "The",
+    "paddy",
+    "is",
+    "golden",
+    "and",
+    "the",
+    "nights",
+    "are",
+    "cool",
+    "than",
+    "before.",
+    "Last",
+    "night,",
+    "Grandpa",
+    "told",
+    "we",
+    "a",
+    "story",
+    "under",
+    "the",
+    "full",
+    "moon."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "coming",
+      "come",
+      "comes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "coolest",
+      "cooler",
+      "coolly"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "our",
+      "ours",
+      "us"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>has come</b> (past participle); <b>cooler than</b> (comparative); <b>told us</b> (object pronoun)."
+  },
+  {
+   "qid": "c9-10-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mornings are misty; however, the afternoons are warm and sunny.",
+    "Although the mornings are misty, but the afternoons are warm and sunny.",
+    "The mornings are misty, despite the afternoons are warm and sunny."
+   ],
+   "answer": 0,
+   "rule": "<b>However</b> links two full sentences after a semicolon. <b>Although ... but</b> is wrong; <b>despite</b> cannot take a clause."
+  },
+  {
+   "qid": "c9-10-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "season",
+    "in",
+    "these",
+    "poems",
+    "bring",
+    "its",
+    "own",
+    "colours",
+    "and",
+    "sounds."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "brings",
+      "bringing",
+      "have"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>every season</b> (singular), not <b>poems</b>, so the verb is <b>brings</b>."
+  },
+  {
+   "qid": "c9-10-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "adjective_order",
+   "prompt": "Fill in the gap.",
+   "before": "She looked like a slender maid in a",
+   "after": "silk robe.",
+   "options": [
+    "white long",
+    "long white",
+    "long whiter"
+   ],
+   "answer": 1,
+   "rule": "Size/length comes before colour, and material is closest to the noun: a <b>long white silk</b> robe."
+  },
+  {
+   "qid": "c9-10-44",
+   "type": "build",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Clouds",
+    "hid",
+    "the",
+    "moon;",
+    "however,",
+    "its",
+    "light",
+    "still",
+    "shone."
+   ],
+   "alts": [],
+   "rule": "Two full sentences joined by a semicolon, then <b>however,</b> to show contrast."
+  },
+  {
+   "qid": "c9-10-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ira",
+     "Have you finished your project on the six Indian seasons?"
+    ],
+    [
+     "Ira",
+     "It's due tomorrow."
+    ]
+   ],
+   "options": [
+    "Almost! The section on Sharad and Hemant still needs pictures.",
+    "Almost! The section on Sharad and Hemant still need pictures.",
+    "Almost! The section on Sharad and Hemant still needing pictures."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>the section</b> (singular), not Sharad and Hemant, so use <b>needs</b>."
+  },
+  {
+   "qid": "c9-10-46",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "No other season is as colourful as autumn.",
+   "options": [
+    "Autumn is the more colourful of all seasons.",
+    "Autumn is the most colourful of all seasons.",
+    "Autumn is most colourful than all seasons."
+   ],
+   "answer": 1,
+   "rule": "<b>No other ... as ... as</b> becomes the superlative: <b>the most colourful of all</b> seasons."
+  },
+  {
+   "qid": "c9-10-47",
+   "type": "change",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'however'.",
+   "source": "Although the days are warm, the nights are chilly.",
+   "options": [
+    "However the days are warm, the nights are chilly.",
+    "The days are warm; however, the nights were chilly.",
+    "The days are warm; however, the nights are chilly."
+   ],
+   "answer": 2,
+   "rule": "<b>However</b> joins two full sentences: first sentence, semicolon, <b>however,</b> second sentence. Keep the tense."
+  },
+  {
+   "qid": "c9-10-48",
+   "type": "change",
+   "level": 5,
+   "topic": "verb_agreement",
+   "prompt": "Change into indirect speech.",
+   "source": "Grandpa said, \"I have seen many autumns in this village.\"",
+   "options": [
+    "Grandpa said that he had saw many autumns in that village.",
+    "Grandpa said that he had seen many autumns in that village.",
+    "Grandpa said that I had seen many autumns in that village."
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b>, <b>I have seen</b> becomes <b>he had seen</b>, and <b>this</b> becomes <b>that</b>."
+  },
+  {
+   "qid": "c9-10-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Zoya!",
+    "Everyone",
+    "in",
+    "our",
+    "building",
+    "were",
+    "on",
+    "the",
+    "terrace",
+    "until",
+    "midnight.",
+    "Although",
+    "the",
+    "cold",
+    "breeze,",
+    "nobody",
+    "went",
+    "home",
+    "early.",
+    "Aai",
+    "made",
+    "the",
+    "tastier",
+    "masala",
+    "milk",
+    "I",
+    "have",
+    "ever",
+    "had."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 12,
+     "options": [
+      "Because",
+      "Unless",
+      "Despite"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "tasty",
+      "tastily",
+      "tastiest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Everyone ... was</b>; <b>Despite</b> + noun; <b>the tastiest ... I have ever had</b> needs the superlative."
+  },
+  {
+   "qid": "c9-10-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "verb_agreement",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Autumn",
+    "is",
+    "like",
+    "a",
+    "slender",
+    "maiden",
+    "who",
+    "wear",
+    "rice",
+    "stems",
+    "in",
+    "her",
+    "hair.",
+    "At",
+    "night,",
+    "the",
+    "moonlight",
+    "become",
+    "her",
+    "silken",
+    "robe",
+    "and",
+    "countless",
+    "stars",
+    "forms",
+    "her",
+    "crown."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wearing",
+      "worn",
+      "wears"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "becoming",
+      "becomes",
+      "being"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "form",
+      "forming",
+      "formal"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>who</b> refers to the singular maiden: <b>wears</b>; the moonlight <b>becomes</b>; plural <b>stars form</b>."
+  }
+ ]
+}

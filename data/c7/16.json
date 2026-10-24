@@ -1,0 +1,1018 @@
+{
+ "class": 7,
+ "id": "16",
+ "title": "A Crow in the House",
+ "topics": [
+  {
+   "tag": "complement",
+   "name": "Subject and object complements"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "gerund_inf",
+   "name": "Gerund or infinitive"
+  },
+  {
+   "tag": "passive",
+   "name": "Active and passive voice (simple present/past)"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative pronouns who, which, whose"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-16-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "complement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The young crow seemed weakly.",
+    "The young crow seemed weakness.",
+    "The young crow seemed weak."
+   ],
+   "answer": 2,
+   "rule": "After linking verbs like <b>seem, be, become</b>, use an adjective as the subject complement: <b>seemed weak</b>."
+  },
+  {
+   "qid": "c7-16-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The crow had fallen from its nest before I found it.",
+    "The crow had fall from its nest before I found it.",
+    "The crow has fallen from its nest before I found it."
+   ],
+   "answer": 0,
+   "rule": "The earlier past action takes the past perfect: <b>had + past participle</b> = <b>had fallen</b>."
+  },
+  {
+   "qid": "c7-16-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "complement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "crow's",
+    "tricks",
+    "made",
+    "Grandmother",
+    "angrily",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "anger",
+      "angry",
+      "angriest"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An object complement describes the object: made Grandmother <b>angry</b> (adjective, not adverb)."
+  },
+  {
+   "qid": "c7-16-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Caesar",
+    "had",
+    "already",
+    "eat",
+    "his",
+    "soup",
+    "when",
+    "Grandfather",
+    "came",
+    "in."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "ate",
+      "eating",
+      "eaten"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had already eaten</b>."
+  },
+  {
+   "qid": "c7-16-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "Caesar was very fond of",
+   "after": "toothbrushes.",
+   "options": [
+    "collecting",
+    "collect",
+    "to collect"
+   ],
+   "answer": 0,
+   "rule": "After a preposition like <b>of</b>, use the -ing form (gerund): <b>fond of collecting</b>."
+  },
+  {
+   "qid": "c7-16-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The young crow",
+   "after": "Caesar by the family.",
+   "options": [
+    "named",
+    "was named",
+    "was name"
+   ],
+   "answer": 1,
+   "rule": "Passive = <b>was/were + past participle</b>: the crow <b>was named</b> Caesar."
+  },
+  {
+   "qid": "c7-16-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "complement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anya",
+     "How was the cricket match yesterday?"
+    ]
+   ],
+   "options": [
+    "It was very excitingly!",
+    "It was very exciting!",
+    "It was very excite!"
+   ],
+   "answer": 1,
+   "rule": "After <b>was</b>, use an adjective as the complement: <b>It was very exciting!</b>"
+  },
+  {
+   "qid": "c7-16-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Did you see the film with Kabir?"
+    ]
+   ],
+   "options": [
+    "No, it has already started when we reached.",
+    "No, it had already started when we reached.",
+    "No, it had already start when we reached."
+   ],
+   "answer": 1,
+   "rule": "The film started before we reached, so use <b>had already started</b>."
+  },
+  {
+   "qid": "c7-16-09",
+   "type": "build",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Grandfather",
+    "fed",
+    "the",
+    "crow",
+    "which",
+    "had",
+    "fallen",
+    "from",
+    "its",
+    "nest."
+   ],
+   "alts": [],
+   "rule": "<b>which</b> joins extra information about an animal or thing: the crow <b>which had fallen</b> from its nest."
+  },
+  {
+   "qid": "c7-16-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Grandmother picked the marigolds.",
+   "options": [
+    "The marigolds was picked by Grandmother.",
+    "The marigolds are picked by Grandmother.",
+    "The marigolds were picked by Grandmother."
+   ],
+   "answer": 2,
+   "rule": "Simple past passive: <b>were + past participle</b>. Plural <b>marigolds</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c7-16-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Caesar refused to eat after he was hurt.",
+    "Caesar refused eating after he was hurt.",
+    "Caesar refused eat after he was hurt."
+   ],
+   "answer": 0,
+   "rule": "<b>Refuse</b> is followed by the infinitive: <b>refused to eat</b>."
+  },
+  {
+   "qid": "c7-16-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "complement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The players made Sana as the captain.",
+    "The players made Sana to the captain.",
+    "The players made Sana the captain."
+   ],
+   "answer": 2,
+   "rule": "With <b>make</b>, the object complement comes straight after the object: made Sana <b>the captain</b> (no 'as' or 'to')."
+  },
+  {
+   "qid": "c7-16-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandmother",
+    "was",
+    "tired",
+    "of",
+    "keep",
+    "the",
+    "noisy",
+    "crow",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "keeping",
+      "kept",
+      "keeps"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the preposition <b>of</b>, use the gerund: <b>tired of keeping</b>."
+  },
+  {
+   "qid": "c7-16-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Toothbrushes",
+    "were",
+    "steal",
+    "from",
+    "many",
+    "houses",
+    "in",
+    "the",
+    "street."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "stolen",
+      "stole",
+      "steals"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>were + past participle</b>: <b>were stolen</b>."
+  },
+  {
+   "qid": "c7-16-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "complement",
+   "prompt": "Fill in the gap.",
+   "before": "The poor crow's leg became",
+   "after": "after the fall.",
+   "options": [
+    "stiff",
+    "stiffly",
+    "stiffness"
+   ],
+   "answer": 0,
+   "rule": "<b>Became</b> is a linking verb, so the subject complement is an adjective: <b>became stiff</b>."
+  },
+  {
+   "qid": "c7-16-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Harold was a hornbill",
+   "after": "cage stood in the garden.",
+   "options": [
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": 2,
+   "rule": "<b>whose</b> shows belonging: the hornbill <b>whose cage</b> = the hornbill's cage."
+  },
+  {
+   "qid": "c7-16-17",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "Aunt Mabel came to visit. She wore gleaming spectacles.",
+   "options": [
+    "Aunt Mabel, which wore gleaming spectacles, came to visit.",
+    "Aunt Mabel, who wore gleaming spectacles, come to visit.",
+    "Aunt Mabel, who wore gleaming spectacles, came to visit."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for a person and keep the past tense: <b>Aunt Mabel, who wore ..., came</b>."
+  },
+  {
+   "qid": "c7-16-18",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "A neighbour flung a stick at the crow.",
+   "options": [
+    "A stick was flung at the crow by a neighbour.",
+    "A stick is flung at the crow by a neighbour.",
+    "A stick was flinged at the crow by a neighbour."
+   ],
+   "answer": 0,
+   "rule": "Simple past passive: <b>was + past participle</b>. The participle of fling is <b>flung</b>."
+  },
+  {
+   "qid": "c7-16-19",
+   "type": "build",
+   "level": 2,
+   "topic": "complement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "class",
+    "elected",
+    "Rohan",
+    "their",
+    "monitor."
+   ],
+   "alts": [],
+   "rule": "Verb + object + object complement: elected <b>Rohan</b> (object) <b>their monitor</b> (complement)."
+  },
+  {
+   "qid": "c7-16-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Where was this photo taken?"
+    ]
+   ],
+   "options": [
+    "It was taken at the Pune zoo.",
+    "It was took at the Pune zoo.",
+    "It taken at the Pune zoo."
+   ],
+   "answer": 0,
+   "rule": "Passive needs <b>was + past participle</b>: <b>was taken</b>."
+  },
+  {
+   "qid": "c7-16-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "When we had reach the gate, the crow flew away.",
+    "When we reached the gate, the crow has flown away.",
+    "When we reached the gate, the crow had flown away."
+   ],
+   "answer": 2,
+   "rule": "The crow flew away first, so it takes the past perfect <b>had flown</b>; the later action is simple past <b>reached</b>."
+  },
+  {
+   "qid": "c7-16-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The neighbour who's beans were eaten was very angry.",
+    "The neighbour whose beans were eaten was very angry.",
+    "The neighbour which beans were eaten was very angry."
+   ],
+   "answer": 1,
+   "rule": "<b>whose</b> shows possession. <b>who's</b> means 'who is', and <b>which</b> is not used for people."
+  },
+  {
+   "qid": "c7-16-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "complement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandmother",
+    "found",
+    "Caesar's",
+    "tricks",
+    "very",
+    "annoyed",
+    "at",
+    "meal",
+    "times."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "annoy",
+      "annoying",
+      "annoyance"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The tricks cause the feeling, so the object complement is <b>annoying</b>. A person feels <b>annoyed</b>."
+  },
+  {
+   "qid": "c7-16-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Instead",
+    "of",
+    "join",
+    "the",
+    "other",
+    "crows,",
+    "Caesar",
+    "stayed",
+    "with",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "joined",
+      "joins",
+      "joining"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Instead of</b> ends in a preposition, so use the gerund: <b>instead of joining</b>."
+  },
+  {
+   "qid": "c7-16-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The neighbours found that their clothes pegs",
+   "after": "taken.",
+   "options": [
+    "had",
+    "had been",
+    "have being"
+   ],
+   "answer": 1,
+   "rule": "The pegs did not take anything; someone took them. Earlier past + passive = <b>had been taken</b>."
+  },
+  {
+   "qid": "c7-16-26",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Caesar",
+    "had",
+    "learnt",
+    "to",
+    "say",
+    "hello",
+    "by",
+    "then."
+   ],
+   "alts": [],
+   "rule": "<b>By then</b> points to a time in the past, so use the past perfect: <b>had learnt</b>."
+  },
+  {
+   "qid": "c7-16-27",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "His",
+    "broken",
+    "leg",
+    "was",
+    "bandaged",
+    "by",
+    "Grandfather."
+   ],
+   "alts": [],
+   "rule": "Passive: object first + <b>was + past participle</b> + <b>by</b> + doer."
+  },
+  {
+   "qid": "c7-16-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nisha",
+     "Do you mind helping me feed the pigeons?"
+    ]
+   ],
+   "options": [
+    "Not at all. I enjoy to feed them.",
+    "Not at all. I enjoy feeding them.",
+    "Not at all. I enjoying feeding them."
+   ],
+   "answer": 1,
+   "rule": "<b>Enjoy</b> is followed by a gerund: <b>I enjoy feeding</b>."
+  },
+  {
+   "qid": "c7-16-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Which of you found the injured sparrow?"
+    ]
+   ],
+   "options": [
+    "It was Arjun who found it near the gate.",
+    "It was Arjun which found it near the gate.",
+    "It was Arjun whose found it near the gate."
+   ],
+   "answer": 0,
+   "rule": "Use <b>who</b> for a person doing the action: <b>Arjun who found it</b>."
+  },
+  {
+   "qid": "c7-16-30",
+   "type": "change",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The toothbrushes were collected by Caesar.",
+   "options": [
+    "Caesar collects the toothbrushes.",
+    "Caesar was collected the toothbrushes.",
+    "Caesar collected the toothbrushes."
+   ],
+   "answer": 2,
+   "rule": "Keep the tense: passive <b>were collected</b> becomes active simple past <b>collected</b>."
+  },
+  {
+   "qid": "c7-16-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "complement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Grandmother called Caesar an real pest.",
+    "Grandmother called Caesar a real pest.",
+    "Grandmother called Caesar the real pests."
+   ],
+   "answer": 1,
+   "rule": "The object complement must match the object: one crow = <b>a real pest</b>. Use <b>a</b> before a consonant sound."
+  },
+  {
+   "qid": "c7-16-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "Caesar had hurt his leg, didn't he?",
+    "Caesar had hurt his leg, hadn't he?",
+    "Caesar had hurt his leg, hadn't it?"
+   ],
+   "answer": 1,
+   "rule": "The tag repeats the helper <b>had</b> in the negative with a matching pronoun: <b>hadn't he?</b>"
+  },
+  {
+   "qid": "c7-16-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Feeding",
+    "the",
+    "pets",
+    "are",
+    "Grandfather's",
+    "favourite",
+    "job."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A gerund phrase as subject is singular: <b>Feeding the pets is</b>."
+  },
+  {
+   "qid": "c7-16-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ruskin",
+    "Bond,",
+    "who",
+    "write",
+    "stories",
+    "about",
+    "animals,",
+    "lives",
+    "in",
+    "Mussoorie."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "writing",
+      "written",
+      "writes"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>who</b> stands for Ruskin Bond (singular), so the verb is <b>writes</b>."
+  },
+  {
+   "qid": "c7-16-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "complement",
+   "prompt": "Fill in the gap.",
+   "before": "Harold was",
+   "after": "much bigger bird than Caesar.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answer": 0,
+   "rule": "The subject complement <b>a much bigger bird</b> takes <b>a</b> before the consonant sound 'm'."
+  },
+  {
+   "qid": "c7-16-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "Grandmother asked us",
+   "after": "the crow in a cage.",
+   "options": [
+    "to keep",
+    "keeping",
+    "keep"
+   ],
+   "answer": 0,
+   "rule": "<b>ask + person + to-infinitive</b>: asked us <b>to keep</b>."
+  },
+  {
+   "qid": "c7-16-37",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The crow did not eat the bread.",
+   "options": [
+    "The bread was not eaten by the crow.",
+    "The bread did not eaten by the crow.",
+    "The bread was not ate by the crow."
+   ],
+   "answer": 0,
+   "rule": "Negative simple past passive: <b>was not + past participle</b> = <b>was not eaten</b>."
+  },
+  {
+   "qid": "c7-16-38",
+   "type": "change",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'whose'.",
+   "source": "This is the neighbour. His washing fell in the mud.",
+   "options": [
+    "This is the neighbour who washing fell in the mud.",
+    "This is the neighbour whose washing falls in the mud.",
+    "This is the neighbour whose washing fell in the mud."
+   ],
+   "answer": 2,
+   "rule": "<b>whose</b> replaces <b>his</b>; keep the tense: <b>whose washing fell</b>."
+  },
+  {
+   "qid": "c7-16-39",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "After",
+    "Caesar",
+    "had",
+    "eaten,",
+    "he",
+    "slept",
+    "on",
+    "the",
+    "sofa."
+   ],
+   "alts": [
+    [
+     "After",
+     "he",
+     "had",
+     "eaten,",
+     "Caesar",
+     "slept",
+     "on",
+     "the",
+     "sofa."
+    ]
+   ],
+   "rule": "<b>After</b> + past perfect for the first action, simple past for the next: <b>had eaten, he slept</b>."
+  },
+  {
+   "qid": "c7-16-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "complement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "How did the kitten look after its bath?"
+    ]
+   ],
+   "options": [
+    "It looked very cleanly and happily.",
+    "It looked very clean and happy.",
+    "It look very clean and happy."
+   ],
+   "answer": 1,
+   "rule": "<b>Look</b> is a linking verb here, so use adjectives: <b>looked clean and happy</b>. Past question, past answer."
+  },
+  {
+   "qid": "c7-16-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The pegs which had been stole were found on top of the cupboard.",
+    "The pegs which had stolen were found on top of the cupboard.",
+    "The pegs which had been stolen were found on top of the cupboard."
+   ],
+   "answer": 2,
+   "rule": "The pegs were taken by someone, so use the passive past perfect: <b>had been stolen</b>."
+  },
+  {
+   "qid": "c7-16-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Caesar kept to visit the neighbours' houses to steal pens.",
+    "Caesar kept visited the neighbours' houses to steal pens.",
+    "Caesar kept visiting the neighbours' houses to steal pens."
+   ],
+   "answer": 2,
+   "rule": "<b>Keep</b> (continue) takes a gerund: <b>kept visiting</b>. <b>to steal</b> shows purpose."
+  },
+  {
+   "qid": "c7-16-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "complement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Living",
+    "with",
+    "humans",
+    "for",
+    "so",
+    "long",
+    "had",
+    "made",
+    "Caesar",
+    "rudely",
+    "to",
+    "other",
+    "crows."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "rude",
+      "rudeness",
+      "rudest"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>made Caesar</b>, the object complement is an adjective: made Caesar <b>rude</b>."
+  },
+  {
+   "qid": "c7-16-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "we",
+    "reached",
+    "home",
+    "last",
+    "evening,",
+    "Grandfather",
+    "has",
+    "already",
+    "fed",
+    "the",
+    "hungry",
+    "crow."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "have",
+      "had",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Feeding came before reaching home (past), so use the past perfect: Grandfather <b>had already fed</b> the crow."
+  },
+  {
+   "qid": "c7-16-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The crow,",
+   "after": "we had saved from the road, would not leave our house.",
+   "options": [
+    "which",
+    "whose",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "<b>which</b> refers back to an animal or thing. <b>what</b> cannot follow a noun like this."
+  },
+  {
+   "qid": "c7-16-46",
+   "type": "build",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Caesar",
+    "was",
+    "punished",
+    "for",
+    "stealing",
+    "the",
+    "neighbour's",
+    "beans."
+   ],
+   "alts": [],
+   "rule": "After the preposition <b>for</b>, use a gerund: <b>punished for stealing</b>."
+  },
+  {
+   "qid": "c7-16-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "Has the injured crow been taken to the vet?"
+    ]
+   ],
+   "options": [
+    "Yes, it has taken there already.",
+    "Yes, it have been taken there already.",
+    "Yes, it has been taken there already."
+   ],
+   "answer": 2,
+   "rule": "Answer in the same form: present perfect passive <b>has been taken</b>."
+  },
+  {
+   "qid": "c7-16-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Why were you late for the school bus?"
+    ],
+    [
+     "Isha",
+     "Did you oversleep?"
+    ]
+   ],
+   "options": [
+    "No, I had forgotten my bag, so I went back.",
+    "No, I had forget my bag, so I went back.",
+    "No, I forgotten my bag, so I went back."
+   ],
+   "answer": 0,
+   "rule": "Forgetting came before going back, so use <b>had forgotten</b> (had + past participle)."
+  },
+  {
+   "qid": "c7-16-49",
+   "type": "change",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "The neighbour flung a stick at Caesar. He was guarding his beans.",
+   "options": [
+    "The neighbour, which was guarding his beans, flung a stick at Caesar.",
+    "The neighbour, who was guarding his beans, flinged a stick at Caesar.",
+    "The neighbour, who was guarding his beans, flung a stick at Caesar."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> for a person; keep <b>flung</b>, the past of fling."
+  },
+  {
+   "qid": "c7-16-50",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Caesar stole pens, combs and keys.",
+   "options": [
+    "Pens, combs and keys was stolen by Caesar.",
+    "Pens, combs and keys were stolen by Caesar.",
+    "Pens, combs and keys were stealed by Caesar."
+   ],
+   "answer": 1,
+   "rule": "Plural subject <b>pens, combs and keys</b> takes <b>were</b>; past participle <b>stolen</b>."
+  }
+ ]
+}

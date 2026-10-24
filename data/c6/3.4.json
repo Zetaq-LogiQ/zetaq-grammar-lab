@@ -1,0 +1,997 @@
+{
+ "class": 6,
+ "id": "3.4",
+ "title": "Eco-Warriors Unite!",
+ "topics": [
+  {
+   "tag": "present_progressive",
+   "name": "Present progressive tense"
+  },
+  {
+   "tag": "past_progressive",
+   "name": "Past progressive tense"
+  },
+  {
+   "tag": "future_progressive",
+   "name": "Future progressive tense"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "kinds_of_sentences",
+   "name": "Imperative and exclamatory sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-3.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_progressive",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The kids is cleaning the river bank.",
+    "The kids are cleaning the river bank.",
+    "The kids are clean the river bank."
+   ],
+   "answer": 1,
+   "rule": "Present progressive = <b>am/is/are</b> + verb-<b>ing</b>. <b>Kids</b> is plural, so use <b>are cleaning</b>."
+  },
+  {
+   "qid": "c6-3.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Aarav talks about nature every day.",
+    "Aarav talk about nature every day.",
+    "Aarav talking about nature every day."
+   ],
+   "answer": 0,
+   "rule": "A singular subject in the simple present takes <b>-s</b>: Aarav <b>talks</b>."
+  },
+  {
+   "qid": "c6-3.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct exclamation.",
+   "options": [
+    "What dirty river this is!",
+    "What a dirty river this is!",
+    "How a dirty river this is!"
+   ],
+   "answer": 1,
+   "rule": "<b>What a</b> + adjective + singular noun makes an exclamation: <b>What a dirty river this is!</b>"
+  },
+  {
+   "qid": "c6-3.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "future_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "we",
+    "will",
+    "being",
+    "cleaning",
+    "the",
+    "park."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "been",
+      "is",
+      "be"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Future progressive = <b>will be</b> + verb-<b>ing</b>: will <b>be</b> cleaning."
+  },
+  {
+   "qid": "c6-3.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "feels",
+    "worried",
+    "about",
+    "pollution."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "feeling",
+      "has",
+      "feel"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Children</b> is plural, so the verb has no <b>-s</b>: the children <b>feel</b>."
+  },
+  {
+   "qid": "c6-3.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_progressive",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The birds",
+   "after": "near the waterfall.",
+   "options": [
+    "is singing",
+    "sings",
+    "are singing"
+   ],
+   "answer": 2,
+   "rule": "<b>Look!</b> shows it is happening now. <b>Birds</b> is plural: <b>are singing</b>."
+  },
+  {
+   "qid": "c6-3.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "kinds_of_sentences",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the plastic bottles in the dry waste bin.",
+   "options": [
+    "Puts",
+    "Putting",
+    "Put"
+   ],
+   "answer": 2,
+   "rule": "An imperative (command) sentence starts with the base form of the verb: <b>Put</b>."
+  },
+  {
+   "qid": "c6-3.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "kinds_of_sentences",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "pick",
+    "up",
+    "the",
+    "litter."
+   ],
+   "alts": [],
+   "rule": "A polite imperative: <b>Please</b> + base verb + object."
+  },
+  {
+   "qid": "c6-3.4-09",
+   "type": "build",
+   "level": 1,
+   "topic": "present_progressive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Isha",
+    "is",
+    "sorting",
+    "the",
+    "plastic",
+    "bags."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>is</b> + verb-<b>ing</b> + object: Isha <b>is sorting</b> the plastic bags."
+  },
+  {
+   "qid": "c6-3.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "What are you doing, Rohan?"
+    ]
+   ],
+   "options": [
+    "I picking up plastic bags.",
+    "I am pick up plastic bags.",
+    "I am picking up plastic bags."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, the present progressive is <b>am</b> + verb-<b>ing</b>: I <b>am picking</b>."
+  },
+  {
+   "qid": "c6-3.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_progressive",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "They was watching a cartoon when the bell rang.",
+    "They were watch a cartoon when the bell rang.",
+    "They were watching a cartoon when the bell rang."
+   ],
+   "answer": 2,
+   "rule": "Past progressive = <b>was/were</b> + verb-<b>ing</b>. <b>They</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c6-3.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "future_progressive",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "She will doing yoga tomorrow morning.",
+    "She will be do yoga tomorrow morning.",
+    "She will be doing yoga tomorrow morning."
+   ],
+   "answer": 2,
+   "rule": "Future progressive needs all three parts: <b>will</b> + <b>be</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-3.4-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "at",
+    "noon,",
+    "the",
+    "kids",
+    "was",
+    "trekking",
+    "up",
+    "the",
+    "hill."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "were",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past and <b>kids</b> is plural, so use <b>were</b> trekking."
+  },
+  {
+   "qid": "c6-3.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Recycling",
+    "help",
+    "to",
+    "reduce",
+    "the",
+    "trash."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "helping",
+      "helps",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Recycling</b> is one thing (singular), so the verb takes <b>-s</b>: <b>helps</b>."
+  },
+  {
+   "qid": "c6-3.4-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Every morning, Neha",
+   "after": "her plants with saved water.",
+   "options": [
+    "waters",
+    "water",
+    "watering"
+   ],
+   "answer": 0,
+   "rule": "A daily habit with a singular subject takes <b>-s</b>: Neha <b>waters</b>."
+  },
+  {
+   "qid": "c6-3.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_progressive",
+   "prompt": "Fill in the gap.",
+   "before": "Dhoomchand",
+   "after": "in the river when he saw the plastic bags.",
+   "options": [
+    "were swimming",
+    "was swimming",
+    "is swimming"
+   ],
+   "answer": 1,
+   "rule": "A longer past action interrupted by another: singular subject takes <b>was swimming</b>."
+  },
+  {
+   "qid": "c6-3.4-17",
+   "type": "build",
+   "level": 2,
+   "topic": "future_progressive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "will",
+    "be",
+    "planting",
+    "trees",
+    "tomorrow."
+   ],
+   "alts": [],
+   "rule": "Future progressive: subject + <b>will be</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-3.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "kinds_of_sentences",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "clean",
+    "river",
+    "this",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "Exclamation pattern: <b>What a</b> + adjective + noun + subject + verb + <b>!</b>"
+  },
+  {
+   "qid": "c6-3.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "Why didn't you answer my call?"
+    ]
+   ],
+   "options": [
+    "Sorry, I was cleaning my room.",
+    "Sorry, I were cleaning my room.",
+    "Sorry, I was clean my room."
+   ],
+   "answer": 0,
+   "rule": "To say what you were in the middle of doing, use <b>I was</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-3.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "future_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Will you come to the park at six?"
+    ]
+   ],
+   "options": [
+    "Sorry, I will studying for my test then.",
+    "Sorry, I will be studying for my test then.",
+    "Sorry, I will be study for my test then."
+   ],
+   "answer": 1,
+   "rule": "An action going on at a future time: <b>will be</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-3.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rohan and Neha are sorting the waste.",
+    "Rohan and Neha is sorting the waste.",
+    "Rohan and Neha are sort the waste."
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> make a plural subject, so use <b>are</b>."
+  },
+  {
+   "qid": "c6-3.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "kinds_of_sentences",
+   "prompt": "Which command is correct?",
+   "options": [
+    "Don't throws garbage in the river.",
+    "Don't throw garbage in the river.",
+    "Doesn't throw garbage in the river."
+   ],
+   "answer": 1,
+   "rule": "A negative command is <b>Don't</b> + base form of the verb: <b>Don't throw</b>."
+  },
+  {
+   "qid": "c6-3.4-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_progressive",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "He is working on a new computer project nowadays.",
+    "He working on a new computer project nowadays.",
+    "He are working on a new computer project nowadays."
+   ],
+   "answer": 0,
+   "rule": "<b>Nowadays</b> shows an action going on these days: <b>he is working</b>."
+  },
+  {
+   "qid": "c6-3.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Listen!",
+    "Somebody",
+    "are",
+    "shouting",
+    "near",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "were",
+      "am",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Somebody</b> is singular and <b>Listen!</b> means now, so use <b>is shouting</b>."
+  },
+  {
+   "qid": "c6-3.4-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "future_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "time",
+    "next",
+    "week,",
+    "we",
+    "will",
+    "been",
+    "trekking",
+    "in",
+    "the",
+    "hills."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "be",
+      "being",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Future progressive = <b>will be</b> + verb-<b>ing</b>: will <b>be</b> trekking, not will been."
+  },
+  {
+   "qid": "c6-3.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Plastic bags in the water",
+   "after": "dangerous for fish.",
+   "options": [
+    "is",
+    "are",
+    "has"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>bags</b> (plural), not <b>water</b>, so use <b>are</b>."
+  },
+  {
+   "qid": "c6-3.4-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "past_progressive",
+   "prompt": "Fill in the gap.",
+   "before": "While the kids",
+   "after": "the hill, it started to rain.",
+   "options": [
+    "were climbing",
+    "was climbing",
+    "are climbing"
+   ],
+   "answer": 0,
+   "rule": "<b>While</b> + past progressive for the longer action. <b>Kids</b> is plural: <b>were climbing</b>."
+  },
+  {
+   "qid": "c6-3.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "kinds_of_sentences",
+   "prompt": "Make a command.",
+   "answer": [
+    "Don't",
+    "waste",
+    "water",
+    "at",
+    "school."
+   ],
+   "alts": [],
+   "rule": "A negative imperative begins with <b>Don't</b> + base verb."
+  },
+  {
+   "qid": "c6-3.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who looks after the school garden?"
+    ]
+   ],
+   "options": [
+    "Isha and Kabir looks after it.",
+    "Isha and Kabir look after it.",
+    "Isha and Kabir looking after it."
+   ],
+   "answer": 1,
+   "rule": "<b>Isha and Kabir</b> is a plural subject, so the verb has no <b>-s</b>: <b>look</b>."
+  },
+  {
+   "qid": "c6-3.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where is Neha?"
+    ]
+   ],
+   "options": [
+    "She helping Grandma in the kitchen.",
+    "She are helping Grandma in the kitchen.",
+    "She is helping Grandma in the kitchen."
+   ],
+   "answer": 2,
+   "rule": "<b>She</b> takes <b>is</b>: she <b>is helping</b>."
+  },
+  {
+   "qid": "c6-3.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_progressive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The kids were cleaning the stream when it start raining.",
+    "The kids was cleaning the stream when it started raining.",
+    "The kids were cleaning the stream when it started raining."
+   ],
+   "answer": 2,
+   "rule": "Longer action: <b>were cleaning</b>; the short action that interrupts it is simple past: <b>started</b>."
+  },
+  {
+   "qid": "c6-3.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_progressive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We are collecting too much plastic bottles.",
+    "We is collecting too many plastic bottles.",
+    "We are collecting too many plastic bottles."
+   ],
+   "answer": 2,
+   "rule": "<b>Bottles</b> can be counted, so use <b>many</b>; <b>we</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c6-3.4-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "water",
+    "in",
+    "these",
+    "streams",
+    "are",
+    "very",
+    "dirty."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "were",
+      "is",
+      "have"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>water</b> (uncountable, singular), not <b>streams</b>, so use <b>is</b>."
+  },
+  {
+   "qid": "c6-3.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "future_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "Sunday,",
+    "we",
+    "will",
+    "be",
+    "cleaning",
+    "a",
+    "old",
+    "garden",
+    "near",
+    "our",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "much",
+      "an",
+      "these"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Old</b> begins with a vowel sound, so use <b>an</b>: <b>an old garden</b>."
+  },
+  {
+   "qid": "c6-3.4-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "kinds_of_sentences",
+   "prompt": "Fill in the gap.",
+   "before": "Please walk",
+   "after": "on the slippery rocks!",
+   "options": [
+    "carefully",
+    "careful",
+    "more careful"
+   ],
+   "answer": 0,
+   "rule": "An adverb tells how we do an action: walk <b>carefully</b>."
+  },
+  {
+   "qid": "c6-3.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_progressive",
+   "prompt": "Fill in the gap.",
+   "before": "A few children",
+   "after": "plastic bags when the superheroes arrived.",
+   "options": [
+    "were collecting",
+    "was collecting",
+    "is collecting"
+   ],
+   "answer": 0,
+   "rule": "<b>A few children</b> is plural, and the time is past: <b>were collecting</b>."
+  },
+  {
+   "qid": "c6-3.4-37",
+   "type": "build",
+   "level": 4,
+   "topic": "present_progressive",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "are",
+    "you",
+    "throwing",
+    "stones",
+    "into",
+    "the",
+    "river?"
+   ],
+   "alts": [],
+   "rule": "Wh- question in the present progressive: <b>Why</b> + <b>are</b> + subject + verb-<b>ing</b>?"
+  },
+  {
+   "qid": "c6-3.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Some",
+    "animals",
+    "drink",
+    "from",
+    "this",
+    "stream."
+   ],
+   "alts": [],
+   "rule": "<b>Animals</b> is plural, so the verb <b>drink</b> has no <b>-s</b>."
+  },
+  {
+   "qid": "c6-3.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "How can I help with the clean-up?"
+    ]
+   ],
+   "options": [
+    "Collect the plastic bottles and put them in this bag.",
+    "Collects the plastic bottles and put them in this bag.",
+    "Collect the plastic bottles and puts them in this bag."
+   ],
+   "answer": 0,
+   "rule": "Instructions are imperatives: every verb is in the base form: <b>Collect</b>, <b>put</b>."
+  },
+  {
+   "qid": "c6-3.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "future_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Can I call you at eight tonight?"
+    ]
+   ],
+   "options": [
+    "Please call at nine. I will be have dinner at eight.",
+    "Please call at nine. I will be having dinner at eight.",
+    "Please call at nine. I will having dinner at eight."
+   ],
+   "answer": 1,
+   "rule": "Something going on at a future time: <b>will be having</b>."
+  },
+  {
+   "qid": "c6-3.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the children are carrying a jute bag.",
+    "Each of the children is carrying a jute bag.",
+    "Each of the children is carry a jute bag."
+   ],
+   "answer": 1,
+   "rule": "<b>Each</b> is singular, even before <b>of the children</b>, so use <b>is carrying</b>."
+  },
+  {
+   "qid": "c6-3.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_progressive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Isha offering water, Dhoomchand disappeared.",
+    "While Isha was offering water, Dhoomchand disappeared.",
+    "While Isha was offering water, Dhoomchand disappear."
+   ],
+   "answer": 1,
+   "rule": "<b>While</b> + past progressive (<b>was offering</b>), then simple past for the short action (<b>disappeared</b>)."
+  },
+  {
+   "qid": "c6-3.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "One",
+    "of",
+    "the",
+    "rivers",
+    "near",
+    "our",
+    "town",
+    "are",
+    "full",
+    "of",
+    "plastic."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "were",
+      "have",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject is <b>One</b> (singular), not <b>rivers</b>, so use <b>is</b>."
+  },
+  {
+   "qid": "c6-3.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "future_progressive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "At",
+    "this",
+    "time",
+    "tomorrow,",
+    "the",
+    "volunteers",
+    "will",
+    "is",
+    "sorting",
+    "the",
+    "waste."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "be",
+      "are",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base form <b>be</b>: will <b>be</b> sorting."
+  },
+  {
+   "qid": "c6-3.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Neither Rohan nor his friends",
+   "after": "plastic bags any more.",
+   "options": [
+    "uses",
+    "using",
+    "use"
+   ],
+   "answer": 2,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>friends use</b>."
+  },
+  {
+   "qid": "c6-3.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_progressive",
+   "prompt": "Fill in the gap.",
+   "before": "As the direct bus is not available, Grandpa",
+   "after": "by train this week.",
+   "options": [
+    "are travelling",
+    "travel",
+    "is travelling"
+   ],
+   "answer": 2,
+   "rule": "A temporary plan for <b>this week</b>: present progressive. <b>Grandpa</b> takes <b>is travelling</b>."
+  },
+  {
+   "qid": "c6-3.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future_progressive",
+   "prompt": "Make a question.",
+   "answer": [
+    "Will",
+    "you",
+    "be",
+    "using",
+    "the",
+    "bicycle",
+    "tomorrow?"
+   ],
+   "alts": [],
+   "rule": "Future progressive question: <b>Will</b> + subject + <b>be</b> + verb-<b>ing</b>?"
+  },
+  {
+   "qid": "c6-3.4-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Look at all this rubbish by the stream!"
+    ]
+   ],
+   "options": [
+    "What a mess it is! Let's cleaning it up.",
+    "What a mess it is! Let's clean it up.",
+    "What mess it is! Let's clean it up."
+   ],
+   "answer": 1,
+   "rule": "Exclamation: <b>What a</b> + noun. Suggestion: <b>Let's</b> + base verb (<b>clean</b>)."
+  },
+  {
+   "qid": "c6-3.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_progressive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What were you doing when the fire alarm rang?"
+    ]
+   ],
+   "options": [
+    "We were write a test in the classroom.",
+    "We was writing a test in the classroom.",
+    "We were writing a test in the classroom."
+   ],
+   "answer": 2,
+   "rule": "Answer in the past progressive: <b>we were writing</b>."
+  },
+  {
+   "qid": "c6-3.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Does your family use cloth bags?"
+    ],
+    [
+     "Neha",
+     "My mum always carries one."
+    ]
+   ],
+   "options": [
+    "Yes, my grandma and my mother always carry jute bags.",
+    "Yes, my grandma and my mother always carries jute bags.",
+    "Yes, my grandma and my mother always carrying jute bags."
+   ],
+   "answer": 0,
+   "rule": "<b>My grandma and my mother</b> is plural, so use <b>carry</b> (no -s)."
+  }
+ ]
+}

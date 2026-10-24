@@ -1,0 +1,1197 @@
+{
+ "class": 10,
+ "id": "14",
+ "title": "The Night I Met Einstein",
+ "topics": [
+  {
+   "tag": "phrasal_verbs",
+   "name": "Phrasal verbs (turn on/off, work out, give in, get out of)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Indirect narration (statements, questions, commands, exclamations)"
+  },
+  {
+   "tag": "degrees_comparison",
+   "name": "Degrees of comparison (positive, comparative, superlative)"
+  },
+  {
+   "tag": "purpose_clauses",
+   "name": "Purpose: so that, in order to, so as to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-14-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bach is as famous as Mozart.",
+    "Bach is as famous than Mozart.",
+    "Bach is famous as Mozart."
+   ],
+   "answer": 0,
+   "rule": "Equal comparison uses <b>as + adjective + as</b>: as famous <b>as</b>."
+  },
+  {
+   "qid": "c10-14-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please turn of the gramophone now.",
+    "Please turn off the gramophone now.",
+    "Please turn the gramophone of now."
+   ],
+   "answer": 1,
+   "rule": "To stop a machine, we <b>turn it off</b> (off, not 'of')."
+  },
+  {
+   "qid": "c10-14-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "purpose_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "I",
+    "sat",
+    "quietly",
+    "so",
+    "that",
+    "I",
+    "will",
+    "not",
+    "seem",
+    "rude."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "shall",
+      "am",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a past verb (sat), <b>so that</b> is followed by <b>would / could</b>."
+  },
+  {
+   "qid": "c10-14-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "man",
+    "switched",
+    "the",
+    "radio",
+    "of",
+    "and",
+    "stood",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "off",
+      "in",
+      "at"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To stop a machine, we <b>switch it off</b> (off, not 'of')."
+  },
+  {
+   "qid": "c10-14-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "He asked me what kind of music",
+   "after": "liked.",
+   "options": [
+    "I",
+    "did I",
+    "do I"
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order: what kind of music <b>I liked</b> (no did/do)."
+  },
+  {
+   "qid": "c10-14-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Tanvi is the",
+   "after": "student in our class.",
+   "options": [
+    "more brilliant",
+    "most brilliant",
+    "brilliantest"
+   ],
+   "answer": 1,
+   "rule": "Comparing one with all the others: <b>the most</b> + long adjective (superlative)."
+  },
+  {
+   "qid": "c10-14-07",
+   "type": "build",
+   "level": 1,
+   "topic": "purpose_clauses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "practises",
+    "the",
+    "sitar",
+    "in",
+    "order",
+    "to",
+    "improve."
+   ],
+   "alts": [],
+   "rule": "<b>in order to + base verb</b> tells us the purpose of the action."
+  },
+  {
+   "qid": "c10-14-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "What did your teacher say about the test?"
+    ]
+   ],
+   "options": [
+    "She said that it were easy.",
+    "She said me that it was easy.",
+    "She said that it was easy."
+   ],
+   "answer": 2,
+   "rule": "<b>said that</b> (no person after said); 'it' takes <b>was</b>."
+  },
+  {
+   "qid": "c10-14-09",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Mount Everest is the highest mountain in the world.",
+   "options": [
+    "Mount Everest is higher than any mountain in the world.",
+    "Mount Everest is more higher than any other mountain in the world.",
+    "Mount Everest is higher than any other mountain in the world."
+   ],
+   "answer": 2,
+   "rule": "Superlative to comparative: <b>higher than any other</b> mountain (Everest is not compared with itself)."
+  },
+  {
+   "qid": "c10-14-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Please",
+    "turn",
+    "of",
+    "the",
+    "fan",
+    "before",
+    "you",
+    "go",
+    "out.",
+    "Do",
+    "not",
+    "give",
+    "up",
+    "your",
+    "practice",
+    "even",
+    "when",
+    "you",
+    "cannot",
+    "work",
+    "in",
+    "a",
+    "maths",
+    "problem."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "in",
+      "off",
+      "with"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "out",
+      "off",
+      "up"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We <b>turn off</b> a fan, and we <b>work out</b> (solve) a problem."
+  },
+  {
+   "qid": "c10-14-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reported command.",
+   "options": [
+    "He ordered me that sing that back.",
+    "He ordered me to sing that back.",
+    "He ordered me sing that back."
+   ],
+   "answer": 1,
+   "rule": "Reported command: <b>ordered + person + to + base verb</b>."
+  },
+  {
+   "qid": "c10-14-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "purpose_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We left early so that we could reach on time.",
+    "We left early so that we can reached on time.",
+    "We left early so to reach on time."
+   ],
+   "answer": 0,
+   "rule": "Past main verb (left) + <b>so that ... could</b> + base verb."
+  },
+  {
+   "qid": "c10-14-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Very",
+    "few",
+    "pianists",
+    "are",
+    "as",
+    "talent",
+    "as",
+    "this",
+    "young",
+    "girl."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "talents",
+      "talenting",
+      "talented"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>as ... as</b> takes an adjective: as <b>talented</b> as."
+  },
+  {
+   "qid": "c10-14-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Einstein",
+    "asked",
+    "me",
+    "whether",
+    "I",
+    "can",
+    "sing",
+    "it",
+    "back."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "will",
+      "could",
+      "shall"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>asked</b>, can moves back to <b>could</b>."
+  },
+  {
+   "qid": "c10-14-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "Smita",
+   "after": "her old toys to the poor children.",
+   "options": [
+    "gave out",
+    "gave in",
+    "gave off"
+   ],
+   "answer": 0,
+   "rule": "<b>give out</b> = hand out to many people. <b>give in</b> = surrender; <b>give off</b> = send out smell or heat."
+  },
+  {
+   "qid": "c10-14-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "purpose_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "He turned around",
+   "after": "look at his neighbour.",
+   "options": [
+    "so that",
+    "in order that",
+    "in order to"
+   ],
+   "answer": 2,
+   "rule": "Before a base verb (look), use <b>in order to</b>. 'So that' needs a subject and verb after it."
+  },
+  {
+   "qid": "c10-14-17",
+   "type": "build",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Make a sentence in the comparative degree.",
+   "answer": [
+    "Jupiter",
+    "is",
+    "larger",
+    "than",
+    "any",
+    "other",
+    "planet."
+   ],
+   "alts": [],
+   "rule": "Comparative degree: <b>larger than any other</b> + singular noun."
+  },
+  {
+   "qid": "c10-14-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why is the room so dark?"
+    ]
+   ],
+   "options": [
+    "Sorry, I turned off the lights to save power.",
+    "Sorry, I turned of the lights to save power.",
+    "Sorry, I turned off the lights for save power."
+   ],
+   "answer": 0,
+   "rule": "<b>turned off</b> the lights; purpose is shown with <b>to + base verb</b> (to save)."
+  },
+  {
+   "qid": "c10-14-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Which is tastier, a samosa or a pizza?"
+    ]
+   ],
+   "options": [
+    "For me, a samosa is tastier than a pizza.",
+    "For me, a samosa is more tastier than a pizza.",
+    "For me, a samosa is tasty than a pizza."
+   ],
+   "answer": 0,
+   "rule": "Short adjective: add <b>-er</b> (tastier). Never use 'more' with an -er word."
+  },
+  {
+   "qid": "c10-14-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"You sing very well,\" Einstein said to me.",
+   "options": [
+    "Einstein told me that you sang very well.",
+    "Einstein told me that I sang very well.",
+    "Einstein told me that I singed very well."
+   ],
+   "answer": 1,
+   "rule": "<b>said to me</b> becomes <b>told me</b>; you becomes <b>I</b>; sing becomes <b>sang</b>."
+  },
+  {
+   "qid": "c10-14-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct positive degree sentence.",
+   "options": [
+    "No other student in the class is brilliant as Tanvi.",
+    "No other student in the class is as brilliant as Tanvi.",
+    "No other student in the class is as brilliant than Tanvi."
+   ],
+   "answer": 1,
+   "rule": "The positive degree needs both parts: <b>as</b> brilliant <b>as</b>."
+  },
+  {
+   "qid": "c10-14-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reported question.",
+   "options": [
+    "She asked me if was I fond of Bach.",
+    "She asked me that if I was fond of Bach.",
+    "She asked me if I was fond of Bach."
+   ],
+   "answer": 2,
+   "rule": "Yes/no question: <b>asked + if</b> + subject + verb, with no 'that'."
+  },
+  {
+   "qid": "c10-14-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "purpose_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "That",
+    "night",
+    "Einstein",
+    "played",
+    "simple",
+    "songs",
+    "so",
+    "that",
+    "the",
+    "young",
+    "man",
+    "can",
+    "learn."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "will",
+      "is",
+      "could"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The main verb is past (played), so use <b>so that ... could</b>."
+  },
+  {
+   "qid": "c10-14-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The hostess said that she",
+   "after": "sorry that he had missed so much.",
+   "options": [
+    "was",
+    "is",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "After <b>said</b>, am moves back to <b>was</b>; 'she' takes was, not were."
+  },
+  {
+   "qid": "c10-14-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Gold is",
+   "after": "than silver.",
+   "options": [
+    "costliest",
+    "costlier",
+    "more costlier"
+   ],
+   "answer": 1,
+   "rule": "<b>than</b> needs the comparative: <b>costlier</b> (never 'more costlier')."
+  },
+  {
+   "qid": "c10-14-26",
+   "type": "build",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "You",
+    "must",
+    "work",
+    "it",
+    "out",
+    "first."
+   ],
+   "alts": [],
+   "rule": "With a pronoun, the object goes between the parts of the phrasal verb: work <b>it</b> out."
+  },
+  {
+   "qid": "c10-14-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "purpose_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohit",
+     "Why are you saving your pocket money?"
+    ]
+   ],
+   "options": [
+    "I am saving it so that I could buys a guitar.",
+    "I am saving it in order buy a guitar.",
+    "I am saving it so that I can buy a guitar."
+   ],
+   "answer": 2,
+   "rule": "Present main verb + <b>so that ... can</b> + base verb (buy)."
+  },
+  {
+   "qid": "c10-14-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "What did the coach tell you?"
+    ]
+   ],
+   "options": [
+    "He told me practise for two hours every day.",
+    "He told me to practise for two hours every day.",
+    "He told me that to practise for two hours every day."
+   ],
+   "answer": 1,
+   "rule": "Reported advice or command: <b>told + person + to + verb</b>."
+  },
+  {
+   "qid": "c10-14-29",
+   "type": "change",
+   "level": 3,
+   "topic": "purpose_clauses",
+   "prompt": "Join the sentences using 'so that'.",
+   "source": "Einstein played easy songs first. He wanted the young man to learn step by step.",
+   "options": [
+    "Einstein played easy songs first so that the young man can learnt step by step.",
+    "Einstein played easy songs first so that the young man to learn step by step.",
+    "Einstein played easy songs first so that the young man could learn step by step."
+   ],
+   "answer": 2,
+   "rule": "Past main verb + <b>so that</b> + subject + <b>could</b> + base verb."
+  },
+  {
+   "qid": "c10-14-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Einstein",
+    "asked",
+    "me",
+    "what",
+    "kind",
+    "of",
+    "music",
+    "I",
+    "likes",
+    "best.",
+    "I",
+    "said",
+    "that",
+    "I",
+    "enjoyed",
+    "songs",
+    "with",
+    "words,",
+    "so",
+    "he",
+    "told",
+    "me",
+    "to",
+    "sang",
+    "one",
+    "back."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "liking",
+      "liked",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "sung",
+      "sing",
+      "singing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>asked</b>, the verb moves back: I <b>liked</b>. After <b>to</b>, use the base verb: to <b>sing</b>."
+  },
+  {
+   "qid": "c10-14-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "purpose_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should listen carefully so that you can follow the tune.",
+    "You should listens carefully so that you can follow the tune.",
+    "You should listen carefully so that you can following the tune."
+   ],
+   "answer": 0,
+   "rule": "Modals (<b>should, can</b>) are followed by the base verb: listen, follow."
+  },
+  {
+   "qid": "c10-14-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "one",
+    "of",
+    "the",
+    "most",
+    "beautiful",
+    "piece",
+    "of",
+    "music",
+    "I",
+    "know."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "pieced",
+      "piecing",
+      "pieces"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>One of the</b> + superlative is followed by a plural noun: one of the most beautiful <b>pieces</b>."
+  },
+  {
+   "qid": "c10-14-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "concert",
+    "ended,",
+    "everyone",
+    "got",
+    "up",
+    "and",
+    "come",
+    "out",
+    "of",
+    "the",
+    "hall."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "comes",
+      "came",
+      "coming"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both actions are in the past: got up and <b>came</b> out."
+  },
+  {
+   "qid": "c10-14-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "He asked us whether we",
+   "after": "heard of Bach before.",
+   "options": [
+    "had",
+    "has",
+    "did"
+   ],
+   "answer": 0,
+   "rule": "Have heard moves back to <b>had heard</b> after asked; 'we' never takes has."
+  },
+  {
+   "qid": "c10-14-35",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "him",
+    "what",
+    "he",
+    "had",
+    "heard."
+   ],
+   "alts": [],
+   "rule": "Reported wh-question: <b>asked + person + what + subject + verb</b>."
+  },
+  {
+   "qid": "c10-14-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Is Pune as big as Mumbai?"
+    ]
+   ],
+   "options": [
+    "No, Pune is smaller than Mumbai.",
+    "No, Pune is more smaller than Mumbai.",
+    "No, Pune is not as bigger as Mumbai."
+   ],
+   "answer": 0,
+   "rule": "Use <b>smaller than</b> alone, or <b>not as big as</b>. Don't mix 'more' or 'as' with -er."
+  },
+  {
+   "qid": "c10-14-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you finish the sums?"
+    ]
+   ],
+   "options": [
+    "Not yet. I couldn't worked out the last one.",
+    "Not yet. I couldn't work off the last one.",
+    "Not yet. I couldn't work out the last one."
+   ],
+   "answer": 2,
+   "rule": "<b>work out</b> = solve. After couldn't, use the base verb: work."
+  },
+  {
+   "qid": "c10-14-38",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "Her handwriting is better than her sister's.",
+   "options": [
+    "Her sister's handwriting is not as good as hers.",
+    "Her sister's handwriting is not as better as hers.",
+    "Her sister's handwriting is not as good as her."
+   ],
+   "answer": 0,
+   "rule": "better becomes <b>not as good as</b>; compare handwriting with handwriting: <b>hers</b>."
+  },
+  {
+   "qid": "c10-14-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Einstein said to me, \"Do you remember your first maths lesson?\"",
+   "options": [
+    "Einstein asked me if did I remember my first maths lesson.",
+    "Einstein asked me if I remembered my first maths lesson.",
+    "Einstein asked me if I remembered your first maths lesson."
+   ],
+   "answer": 1,
+   "rule": "Yes/no question: <b>asked if</b> + statement order; you/your become <b>I/my</b>; remember becomes remembered."
+  },
+  {
+   "qid": "c10-14-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mozart",
+    "was",
+    "one",
+    "of",
+    "the",
+    "greatest",
+    "composer",
+    "of",
+    "his",
+    "time.",
+    "Many",
+    "people",
+    "think",
+    "that",
+    "his",
+    "music",
+    "is",
+    "best",
+    "than",
+    "any",
+    "other",
+    "music",
+    "in",
+    "Europe."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "composing",
+      "composed",
+      "composers"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "better",
+      "good",
+      "well"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>one of the greatest composers</b> (plural). Before <b>than</b>, use the comparative: <b>better</b>."
+  },
+  {
+   "qid": "c10-14-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct indirect speech of: \"What a lovely song!\" said the boy.",
+   "options": [
+    "The boy exclaimed what a lovely song was it.",
+    "The boy exclaimed that it is a very lovely song.",
+    "The boy exclaimed that it was a very lovely song."
+   ],
+   "answer": 2,
+   "rule": "Exclamation: <b>exclaimed that</b> + statement; 'What a' becomes <b>very</b>, and the tense moves back."
+  },
+  {
+   "qid": "c10-14-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "purpose_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "the",
+    "hostess",
+    "arranged",
+    "the",
+    "chairs",
+    "early",
+    "so",
+    "that",
+    "the",
+    "guests",
+    "can",
+    "sit",
+    "comfortably."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "could",
+      "will",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "'Last night ... arranged' is past, so <b>so that</b> takes <b>could</b>."
+  },
+  {
+   "qid": "c10-14-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Very few cities in India are",
+   "after": "Mumbai.",
+   "options": [
+    "more crowded as",
+    "most crowded than",
+    "as crowded as"
+   ],
+   "answer": 2,
+   "rule": "Positive degree: <b>Very few ... are as + adjective + as</b> ..."
+  },
+  {
+   "qid": "c10-14-44",
+   "type": "build",
+   "level": 5,
+   "topic": "purpose_clauses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "left",
+    "early",
+    "in",
+    "order",
+    "not",
+    "to",
+    "miss",
+    "the",
+    "bus."
+   ],
+   "alts": [],
+   "rule": "Negative purpose: <b>in order not to</b> + base verb ('not' comes before 'to')."
+  },
+  {
+   "qid": "c10-14-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Rahul, what did your mother ask you this morning?"
+    ]
+   ],
+   "options": [
+    "She asked me whether I had packed my lunch.",
+    "She asked me whether had I packed my lunch.",
+    "She asked me whether I have pack my lunch."
+   ],
+   "answer": 0,
+   "rule": "Reported question: <b>whether</b> + subject + verb; have packed moves back to <b>had packed</b>."
+  },
+  {
+   "qid": "c10-14-46",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "The Taj Mahal is more beautiful than any other building in India.",
+   "options": [
+    "The Taj Mahal is the more beautiful building in India.",
+    "The Taj Mahal is the most beautiful building in India.",
+    "The Taj Mahal is most beautiful building in India."
+   ],
+   "answer": 1,
+   "rule": "'More ... than any other' becomes <b>the most</b> + adjective (with 'the')."
+  },
+  {
+   "qid": "c10-14-47",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "A diamond is one of the most precious stones.",
+   "options": [
+    "A diamond is more precious than any other stone.",
+    "A diamond is more precious than most other stones.",
+    "A diamond is more precious than most other stone."
+   ],
+   "answer": 1,
+   "rule": "'One of the most' becomes <b>more ... than most other</b> + plural noun (not 'any other')."
+  },
+  {
+   "qid": "c10-14-48",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Einstein said to me, \"Just allow yourself to listen.\"",
+   "options": [
+    "Einstein advised me just to allow yourself to listen.",
+    "Einstein advised me that just allow myself to listen.",
+    "Einstein advised me just to allow myself to listen."
+   ],
+   "answer": 2,
+   "rule": "Advice: <b>advised + person + to + verb</b>; yourself becomes <b>myself</b>."
+  },
+  {
+   "qid": "c10-14-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "purpose_clauses",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "I",
+    "sat",
+    "in",
+    "the",
+    "back",
+    "row",
+    "so",
+    "as",
+    "not",
+    "to",
+    "disturbed",
+    "anyone.",
+    "Later,",
+    "Einstein",
+    "took",
+    "me",
+    "upstairs",
+    "in",
+    "order",
+    "for",
+    "teach",
+    "me",
+    "to",
+    "listen,",
+    "and",
+    "I",
+    "tried",
+    "hard",
+    "so",
+    "that",
+    "I",
+    "will",
+    "not",
+    "disappoint",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "disturb",
+      "disturbing",
+      "disturbs"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "so",
+      "to",
+      "that"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 31,
+     "options": [
+      "shall",
+      "am",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "so as not to <b>disturb</b>; in order <b>to</b> teach; past 'tried' + so that ... <b>would</b>."
+  },
+  {
+   "qid": "c10-14-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "phrasal_verbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "When",
+    "the",
+    "music",
+    "stopped,",
+    "Einstein",
+    "get",
+    "up",
+    "and",
+    "turned",
+    "off",
+    "the",
+    "gramophone.",
+    "Then",
+    "we",
+    "came",
+    "down",
+    "to",
+    "the",
+    "hall,",
+    "and",
+    "I",
+    "finally",
+    "gave",
+    "on",
+    "to",
+    "the",
+    "beauty",
+    "of",
+    "Bach."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "gets",
+      "got",
+      "getting"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "up",
+      "in",
+      "out"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past story: Einstein <b>got</b> up. <b>give in to</b> = stop resisting and accept something."
+  }
+ ]
+}

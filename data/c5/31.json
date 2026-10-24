@@ -1,0 +1,988 @@
+{
+ "class": 5,
+ "id": "31",
+ "title": "Give your Mind a Workout!",
+ "topics": [
+  {
+   "tag": "imperative",
+   "name": "Imperatives (instructions and rules)"
+  },
+  {
+   "tag": "can",
+   "name": "can / cannot for ability and rules"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present tense"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh- questions"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-31-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Which sentence is a correct instruction?",
+   "options": [
+    "Draws the board on a sheet of paper.",
+    "Draw the board on a sheet of paper.",
+    "Drawing the board on a sheet of paper."
+   ],
+   "answer": 1,
+   "rule": "An instruction starts with the base form of the verb: <b>Draw</b> the board."
+  },
+  {
+   "qid": "c5-31-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "can",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each player can move one piece at a time.",
+    "Each player can moves one piece at a time.",
+    "Each player can moving one piece at a time."
+   ],
+   "answer": 0,
+   "rule": "After <b>can</b>, use the base form of the verb: <b>can move</b>."
+  },
+  {
+   "qid": "c5-31-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This game need two players.",
+    "This game needs two players.",
+    "This game needing two players."
+   ],
+   "answer": 1,
+   "rule": "<b>This game</b> is one thing, so the present verb takes -s: <b>needs</b>."
+  },
+  {
+   "qid": "c5-31-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "solve",
+    "a",
+    "new",
+    "puzzle",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "solving",
+      "solution",
+      "solves"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A habit (<b>every morning</b>) takes the simple present. With one person (Arjun), add -s: <b>solves</b>."
+  },
+  {
+   "qid": "c5-31-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "don't",
+    "moves",
+    "the",
+    "chess",
+    "pieces",
+    "on",
+    "my",
+    "board."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "moving",
+      "moved",
+      "move"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>don't</b>, use the base form: <b>don't move</b>."
+  },
+  {
+   "qid": "c5-31-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "can",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "remove one of your opponent's men.",
+   "options": [
+    "cans",
+    "are",
+    "can"
+   ],
+   "answer": 2,
+   "rule": "<b>can</b> never takes -s, and it is followed by the base verb: <b>can remove</b>."
+  },
+  {
+   "qid": "c5-31-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "many pieces does each player get?",
+   "options": [
+    "What",
+    "How",
+    "Who"
+   ],
+   "answer": 1,
+   "rule": "To ask about a number of things, use <b>How many</b>."
+  },
+  {
+   "qid": "c5-31-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Ask",
+    "your",
+    "sister",
+    "a",
+    "riddle."
+   ],
+   "alts": [],
+   "rule": "An instruction starts with the verb: <b>Ask</b> + person + thing."
+  },
+  {
+   "qid": "c5-31-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Do you play chess?"
+    ]
+   ],
+   "options": [
+    "Yes, I play chess every Sunday.",
+    "Yes, I plays chess every Sunday.",
+    "Yes, I playing chess every Sunday."
+   ],
+   "answer": 0,
+   "rule": "With <b>I</b>, the simple present has no -s: <b>I play</b>."
+  },
+  {
+   "qid": "c5-31-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "can",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Can you solve this riddle?"
+    ]
+   ],
+   "options": [
+    "Yes, I can solve it.",
+    "Yes, I can solves it.",
+    "Yes, I cans solve it."
+   ],
+   "answer": 0,
+   "rule": "<b>can</b> stays the same and takes the base verb: <b>I can solve</b>."
+  },
+  {
+   "qid": "c5-31-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How many pencils Pintu did have?",
+    "How many pencils did Pintu have?",
+    "How many pencil did Pintu have?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>How many</b> + plural noun + <b>did</b> + subject + base verb."
+  },
+  {
+   "qid": "c5-31-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperative",
+   "prompt": "Which rule is written correctly?",
+   "options": [
+    "Don't remove men from your opponent's mill.",
+    "Not remove men from your opponent's mill.",
+    "Don't removes men from your opponent's mill."
+   ],
+   "answer": 0,
+   "rule": "A 'don't' instruction is <b>Don't</b> + base verb: <b>Don't remove</b>."
+  },
+  {
+   "qid": "c5-31-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "can",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "player",
+    "with",
+    "only",
+    "three",
+    "men",
+    "cans",
+    "fly",
+    "anywhere."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "to",
+      "are",
+      "can"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>can</b> never takes -s: a player <b>can fly</b>."
+  },
+  {
+   "qid": "c5-31-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "do",
+    "you",
+    "keeps",
+    "your",
+    "chess",
+    "board?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "keeping",
+      "kept",
+      "keep"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>do</b> in a question, use the base verb: Where do you <b>keep</b>...?"
+  },
+  {
+   "qid": "c5-31-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Mira",
+   "after": "her own board games.",
+   "options": [
+    "invents",
+    "invent",
+    "inventing"
+   ],
+   "answer": 0,
+   "rule": "With one person (Mira), the simple present verb takes -s: <b>invents</b>."
+  },
+  {
+   "qid": "c5-31-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "imperative",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the smaller number from the bigger one.",
+   "options": [
+    "Subtracts",
+    "Subtracting",
+    "Subtract"
+   ],
+   "answer": 2,
+   "rule": "Steps of a trick are instructions, so they begin with the base verb: <b>Subtract</b>."
+  },
+  {
+   "qid": "c5-31-17",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make the question.",
+   "answer": [
+    "Who",
+    "makes",
+    "changes",
+    "in",
+    "the",
+    "environment?"
+   ],
+   "alts": [],
+   "rule": "When <b>Who</b> is the subject, the verb comes straight after it: Who <b>makes</b>...?"
+  },
+  {
+   "qid": "c5-31-18",
+   "type": "build",
+   "level": 2,
+   "topic": "can",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "You",
+    "can",
+    "draw",
+    "the",
+    "board",
+    "with",
+    "chalk."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>can</b> + base verb + object: You <b>can draw</b> the board."
+  },
+  {
+   "qid": "c5-31-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "I have a new riddle for you."
+    ]
+   ],
+   "options": [
+    "What it is? Tell me!",
+    "What is it? Tell me!",
+    "What are it? Tell me!"
+   ],
+   "answer": 1,
+   "rule": "In a question, the verb comes before the subject: What <b>is it</b>?"
+  },
+  {
+   "qid": "c5-31-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How do I start the number trick?"
+    ]
+   ],
+   "options": [
+    "Takes any three-digit number.",
+    "Take any three-digit number.",
+    "Taking any three-digit number."
+   ],
+   "answer": 1,
+   "rule": "Giving an instruction? Start with the base verb: <b>Take</b>."
+  },
+  {
+   "qid": "c5-31-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My sister don't like guavas.",
+    "My sister doesn't like guavas.",
+    "My sister doesn't likes guavas."
+   ],
+   "answer": 1,
+   "rule": "One person takes <b>doesn't</b>, and after doesn't the verb has no -s: <b>doesn't like</b>."
+  },
+  {
+   "qid": "c5-31-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "can",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You cannot removes these men.",
+    "You not can remove these men.",
+    "You cannot remove these men."
+   ],
+   "answer": 2,
+   "rule": "The negative of can is <b>cannot</b> + base verb: <b>cannot remove</b>."
+  },
+  {
+   "qid": "c5-31-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Why did Pintu give away the box?",
+    "Why Pintu gave away the box?",
+    "Why did Pintu gave away the box?"
+   ],
+   "answer": 0,
+   "rule": "Past question: <b>Why did</b> + subject + base verb: Why did Pintu <b>give</b>...?"
+  },
+  {
+   "qid": "c5-31-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riddles",
+    "and",
+    "jokes",
+    "exercises",
+    "our",
+    "minds",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "exercise",
+      "exercising",
+      "exerciser"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Riddles and jokes</b> is plural, so the present verb has no -s: <b>exercise</b>."
+  },
+  {
+   "qid": "c5-31-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "make",
+    "a",
+    "mill,",
+    "removes",
+    "one",
+    "of",
+    "your",
+    "opponent's",
+    "men."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "removing",
+      "removed",
+      "remove"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The second part is an instruction to you, so use the base verb: <b>remove</b>."
+  },
+  {
+   "qid": "c5-31-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "can",
+   "prompt": "Fill in the gap.",
+   "before": "If Ravi",
+   "after": "make a move, he loses the game.",
+   "options": [
+    "cannot",
+    "not can",
+    "cans not"
+   ],
+   "answer": 0,
+   "rule": "The negative of can is <b>cannot</b>, and it comes before the verb: <b>cannot make</b>."
+  },
+  {
+   "qid": "c5-31-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "did you learn this number trick?",
+   "options": [
+    "Who",
+    "Where",
+    "Whose"
+   ],
+   "answer": 1,
+   "rule": "To ask about a place, use <b>Where</b>. Who and Whose ask about people."
+  },
+  {
+   "qid": "c5-31-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Each",
+    "player",
+    "gets",
+    "nine",
+    "round",
+    "pieces."
+   ],
+   "alts": [],
+   "rule": "<b>Each player</b> is singular: <b>gets</b>. The number comes before the describing word: nine round pieces."
+  },
+  {
+   "qid": "c5-31-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How does your brother keep fit?"
+    ]
+   ],
+   "options": [
+    "He play football every evening.",
+    "He plays football every evening.",
+    "He playing football every evening."
+   ],
+   "answer": 1,
+   "rule": "A daily habit with <b>he</b> takes the simple present with -s: <b>He plays</b>."
+  },
+  {
+   "qid": "c5-31-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "can",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "Can your grandmother do the 1089 trick?"
+    ]
+   ],
+   "options": [
+    "Yes, she can does it very fast.",
+    "Yes, she can do it very fast.",
+    "Yes, she cans do it very fast."
+   ],
+   "answer": 1,
+   "rule": "Even with <b>she</b>, can has no -s and takes the base verb: <b>can do</b>."
+  },
+  {
+   "qid": "c5-31-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Pintu invited ten friends and gave each one a pencil.",
+    "Pintu invited ten friends and give each one a pencil.",
+    "Pintu invite ten friends and gave each one a pencil."
+   ],
+   "answer": 0,
+   "rule": "Both actions happened in the past, so both verbs are in the simple past: <b>invited</b> ... <b>gave</b>."
+  },
+  {
+   "qid": "c5-31-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Take an orange and share it equally.",
+    "Take a orange and share it equally.",
+    "Take an orange and shares it equally."
+   ],
+   "answer": 0,
+   "rule": "<b>orange</b> starts with a vowel sound, so use <b>an</b>; both instructions use the base verb."
+  },
+  {
+   "qid": "c5-31-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week",
+    "Ananya",
+    "teach",
+    "her",
+    "grandfather",
+    "a",
+    "new",
+    "game."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "teached",
+      "teaches",
+      "taught"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last week</b> is the past. The past of teach is <b>taught</b>."
+  },
+  {
+   "qid": "c5-31-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "can",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "and",
+    "Meena",
+    "can",
+    "plays",
+    "tic-tac-toe",
+    "very",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "play",
+      "playing",
+      "played"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>can</b>, always use the base verb, even with two people: can <b>play</b>."
+  },
+  {
+   "qid": "c5-31-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "can",
+   "prompt": "Fill in the gap.",
+   "before": "My sister and",
+   "after": "can play tic-tac-toe for hours.",
+   "options": [
+    "me",
+    "I",
+    "my"
+   ],
+   "answer": 1,
+   "rule": "This is the subject of the sentence, so use <b>I</b>: My sister and <b>I</b> can play."
+  },
+  {
+   "qid": "c5-31-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "What",
+   "after": "you do with the extra pencil yesterday?",
+   "options": [
+    "do",
+    "does",
+    "did"
+   ],
+   "answer": 2,
+   "rule": "<b>yesterday</b> shows the past, so the question uses <b>did</b>."
+  },
+  {
+   "qid": "c5-31-37",
+   "type": "build",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Make the question.",
+   "answer": [
+    "Who",
+    "invented",
+    "the",
+    "game",
+    "of",
+    "chess?"
+   ],
+   "alts": [],
+   "rule": "<b>Who</b> is the subject here, so the past verb follows it directly: Who <b>invented</b>...?"
+  },
+  {
+   "qid": "c5-31-38",
+   "type": "build",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "give",
+    "me",
+    "a",
+    "harder",
+    "riddle."
+   ],
+   "alts": [],
+   "rule": "<b>Please</b> + base verb makes a polite request: Please <b>give</b> me..."
+  },
+  {
+   "qid": "c5-31-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did you finish the puzzle?"
+    ]
+   ],
+   "options": [
+    "Yes, I finish it before lunch.",
+    "Yes, I did finished it before lunch.",
+    "Yes, I finished it before lunch."
+   ],
+   "answer": 2,
+   "rule": "Answer a <b>Did</b> question in the simple past: <b>I finished</b>."
+  },
+  {
+   "qid": "c5-31-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "Where are the chess pieces?"
+    ]
+   ],
+   "options": [
+    "They is under the bed.",
+    "They are under the bed.",
+    "They are in under the bed."
+   ],
+   "answer": 1,
+   "rule": "<b>They</b> takes <b>are</b>. Use just one preposition: <b>under</b> the bed."
+  },
+  {
+   "qid": "c5-31-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "can",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you has only three men left, they can move to any empty spot.",
+    "If you have only three men left, they can moves to any empty spot.",
+    "If you have only three men left, they can move to any empty spot."
+   ],
+   "answer": 2,
+   "rule": "<b>you have</b> (not has), and after <b>can</b> use the base verb: <b>can move</b>."
+  },
+  {
+   "qid": "c5-31-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How did Pintu still have one pencil in the box after giving ten away?",
+    "How Pintu still had one pencil in the box after giving ten away?",
+    "How did Pintu still had one pencil in the box after giving ten away?"
+   ],
+   "answer": 0,
+   "rule": "<b>How did</b> + subject + base verb: How did Pintu still <b>have</b>...?"
+  },
+  {
+   "qid": "c5-31-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Take",
+    "any",
+    "three-digit",
+    "number",
+    "and",
+    "writes",
+    "it",
+    "in",
+    "reverse",
+    "order."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "writing",
+      "write",
+      "wrote"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two instructions joined by <b>and</b> both use the base verb: <b>Take</b> ... and <b>write</b>."
+  },
+  {
+   "qid": "c5-31-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "the",
+    "answer",
+    "always",
+    "comes",
+    "out",
+    "as",
+    "1089?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "coming",
+      "come",
+      "came"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>does</b> in a question, the verb has no -s: does the answer always <b>come</b>?"
+  },
+  {
+   "qid": "c5-31-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "The trick works only if the first and last digits",
+   "after": "by two or more.",
+   "options": [
+    "differ",
+    "differs",
+    "different"
+   ],
+   "answer": 0,
+   "rule": "<b>digits</b> is plural, so the present verb has no -s: <b>differ</b>."
+  },
+  {
+   "qid": "c5-31-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "can",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "your opponent has no other men, you can remove a man from a mill.",
+   "options": [
+    "But",
+    "Or",
+    "If"
+   ],
+   "answer": 2,
+   "rule": "<b>If</b> gives a condition: If this happens, you can do that."
+  },
+  {
+   "qid": "c5-31-47",
+   "type": "build",
+   "level": 5,
+   "topic": "can",
+   "prompt": "Make the question.",
+   "answer": [
+    "How",
+    "many",
+    "men",
+    "can",
+    "each",
+    "player",
+    "place?"
+   ],
+   "alts": [],
+   "rule": "Question order: How many + noun + <b>can</b> + subject + base verb."
+  },
+  {
+   "qid": "c5-31-48",
+   "type": "build",
+   "level": 5,
+   "topic": "imperative",
+   "prompt": "Make a game tip.",
+   "answer": [
+    "Don't",
+    "let",
+    "your",
+    "opponent",
+    "make",
+    "a",
+    "mill."
+   ],
+   "alts": [],
+   "rule": "<b>Don't let</b> + person + base verb: Don't let your opponent <b>make</b> a mill."
+  },
+  {
+   "qid": "c5-31-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "How does the 1089 trick work?"
+    ]
+   ],
+   "options": [
+    "You reverses the number, subtract, reverse again and add.",
+    "You reverse the number, subtracting, reverse again and add.",
+    "You reverse the number, subtract, reverse again and add."
+   ],
+   "answer": 2,
+   "rule": "With <b>you</b>, every verb in the list stays in the base form: reverse, subtract, reverse, add."
+  },
+  {
+   "qid": "c5-31-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "can",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "Can I remove a man from your mill?"
+    ]
+   ],
+   "options": [
+    "No, you can't, because I still has other men on the board.",
+    "No, you can't, because I still have other men on the board.",
+    "No, you can't remove, because I still having other men on the board."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> takes <b>have</b>, not has: I still <b>have</b> other men."
+  }
+ ]
+}

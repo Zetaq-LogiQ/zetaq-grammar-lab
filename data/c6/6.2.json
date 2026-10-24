@@ -1,0 +1,998 @@
+{
+ "class": 6,
+ "id": "6.2",
+ "title": "Songs of the Soil",
+ "topics": [
+  {
+   "tag": "suffix_forms",
+   "name": "Word forms with suffixes (-al, -ance, -ness, -tion, -ful)"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time and movement (in, on, at, since, for, across, through)"
+  },
+  {
+   "tag": "possessive",
+   "name": "Possessive 's and s'"
+  },
+  {
+   "tag": "future",
+   "name": "Future with will / going to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-6.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bihu is a traditional song of Assam.",
+    "Bihu is a tradition song of Assam.",
+    "Bihu is a traditionally song of Assam."
+   ],
+   "answer": 0,
+   "rule": "Before a noun we need an adjective: tradition + <b>-al</b> = <b>traditional</b> song."
+  },
+  {
+   "qid": "c6-6.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi dhol is very loud.",
+    "The Ravi's dhol is very loud.",
+    "Ravi's dhol is very loud."
+   ],
+   "answer": 2,
+   "rule": "Show the owner with <b>'s</b>: <b>Ravi's dhol</b>. No 'the' before a name."
+  },
+  {
+   "qid": "c6-6.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We are going sing a folk song.",
+    "We going to sing a folk song.",
+    "We are going to sing a folk song."
+   ],
+   "answer": 2,
+   "rule": "Plan for the future: <b>am/is/are + going to + base verb</b>."
+  },
+  {
+   "qid": "c6-6.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "dance",
+    "was",
+    "a",
+    "great",
+    "perform",
+    "by",
+    "the",
+    "children."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "performance",
+      "performer",
+      "performing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>a great</b> we need a noun: perform + <b>-ance</b> = <b>performance</b>."
+  },
+  {
+   "qid": "c6-6.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "will",
+    "sing",
+    "folk",
+    "songs",
+    "in",
+    "Monday."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "at",
+      "since",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>on</b> with days: <b>on Monday</b>."
+  },
+  {
+   "qid": "c6-6.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "My",
+   "after": "favourite owi is about the river.",
+   "options": [
+    "grandmother's",
+    "grandmother",
+    "grandmothers"
+   ],
+   "answer": 0,
+   "rule": "The owi belongs to one person, so add <b>'s</b>: <b>grandmother's</b>."
+  },
+  {
+   "qid": "c6-6.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Tomorrow, the Shahir",
+   "after": "a powada at our school.",
+   "options": [
+    "sang",
+    "will sing",
+    "singing"
+   ],
+   "answer": 1,
+   "rule": "<b>Tomorrow</b> shows the future: <b>will sing</b>."
+  },
+  {
+   "qid": "c6-6.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "am",
+    "going",
+    "to",
+    "learn",
+    "the",
+    "dhol."
+   ],
+   "alts": [],
+   "rule": "<b>I am going to</b> + base verb tells a plan."
+  },
+  {
+   "qid": "c6-6.2-09",
+   "type": "build",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "danced",
+    "during",
+    "the",
+    "festival."
+   ],
+   "alts": [],
+   "rule": "<b>During</b> + a noun tells when something happens: <b>during the festival</b>."
+  },
+  {
+   "qid": "c6-6.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What will you play at the school function?"
+    ]
+   ],
+   "options": [
+    "I will plays the dholak.",
+    "I will playing the dholak.",
+    "I will play the dholak."
+   ],
+   "answer": 2,
+   "rule": "<b>Will</b> is followed by the base verb: <b>will play</b>."
+  },
+  {
+   "qid": "c6-6.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Powadas spread aware of social issues.",
+    "Powadas spread awareness of social issues.",
+    "Powadas spreads awareness of social issues."
+   ],
+   "answer": 1,
+   "rule": "We need a noun: aware + <b>-ness</b> = <b>awareness</b>. <b>Powadas</b> is plural: <b>spread</b>."
+  },
+  {
+   "qid": "c6-6.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My uncle has played the dholak since ten years.",
+    "My uncle has played the dholak for ten years.",
+    "My uncle has played the dholak from ten years."
+   ],
+   "answer": 1,
+   "rule": "Use <b>for</b> with a length of time (ten years) and <b>since</b> with a starting point (2015)."
+  },
+  {
+   "qid": "c6-6.2-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The womens' songs told stories of their daily life.",
+    "The women's songs told stories of their daily life.",
+    "The women's songs tells stories of their daily life."
+   ],
+   "answer": 1,
+   "rule": "Plurals that don't end in -s (women, children) add <b>'s</b>: <b>women's</b>."
+  },
+  {
+   "qid": "c6-6.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "owis",
+    "sung",
+    "by",
+    "the",
+    "village",
+    "women",
+    "were",
+    "very",
+    "beauty",
+    "and",
+    "full",
+    "of",
+    "feeling."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "beautiful",
+      "beautifully",
+      "beautify"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>were very</b> we need an adjective: beauty + <b>-ful</b> = <b>beautiful</b>."
+  },
+  {
+   "qid": "c6-6.2-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "week,",
+    "Meera",
+    "are",
+    "going",
+    "to",
+    "sing",
+    "an",
+    "owi."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "be",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Meera</b> = she, so use <b>is going to</b>."
+  },
+  {
+   "qid": "c6-6.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The performers moved",
+   "after": "a circle while singing Chakri.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "We move <b>in a circle</b> (in a shape or formation)."
+  },
+  {
+   "qid": "c6-6.2-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Bihu songs show the",
+   "after": "of nature.",
+   "options": [
+    "beautiful",
+    "beautifully",
+    "beauty"
+   ],
+   "answer": 2,
+   "rule": "After <b>the</b> and before <b>of</b> we need a noun: <b>beauty</b>."
+  },
+  {
+   "qid": "c6-6.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "grandmother's",
+    "favourite",
+    "song."
+   ],
+   "alts": [],
+   "rule": "Owner + <b>'s</b> + thing: <b>my grandmother's favourite song</b>."
+  },
+  {
+   "qid": "c6-6.2-19",
+   "type": "build",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "Shahir",
+    "gave",
+    "a",
+    "powerful",
+    "performance."
+   ],
+   "alts": [],
+   "rule": "Adjective (power + <b>-ful</b>) + noun (perform + <b>-ance</b>): <b>a powerful performance</b>."
+  },
+  {
+   "qid": "c6-6.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "When is Rongali Bihu celebrated?"
+    ]
+   ],
+   "options": [
+    "It is celebrated on April.",
+    "It is celebrated at April.",
+    "It is celebrated in April."
+   ],
+   "answer": 2,
+   "rule": "Use <b>in</b> with months: <b>in April</b>."
+  },
+  {
+   "qid": "c6-6.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Shahir has tuned his dafli. He going to sing a powada now.",
+    "The Shahir has tuned his dafli. He is going to sing a powada now.",
+    "The Shahir has tuned his dafli. He is going sing a powada now."
+   ],
+   "answer": 1,
+   "rule": "When the signs show something will happen soon, use <b>is going to</b>: <b>He is going to sing.</b>"
+  },
+  {
+   "qid": "c6-6.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The festival was a joyfully celebration.",
+    "The festival was a joyful celebration.",
+    "The festival was a joyful celebrate."
+   ],
+   "answer": 1,
+   "rule": "Adjective <b>joyful</b> (-ful) + noun <b>celebration</b> (-tion)."
+  },
+  {
+   "qid": "c6-6.2-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "heard",
+    "owis",
+    "at",
+    "my",
+    "grandmothers",
+    "house",
+    "in",
+    "the",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "grandmother",
+      "grandmas",
+      "grandmother's"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The house belongs to her, so add <b>'s</b>: <b>my grandmother's house</b>."
+  },
+  {
+   "qid": "c6-6.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandma",
+    "has",
+    "sung",
+    "owis",
+    "since",
+    "sixty",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "for",
+      "from",
+      "during"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Sixty years</b> is a length of time, so use <b>for</b>."
+  },
+  {
+   "qid": "c6-6.2-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "I have bought a new tambura. I",
+   "after": "learn Burra Katha.",
+   "options": [
+    "am going to",
+    "going to",
+    "am go to"
+   ],
+   "answer": 0,
+   "rule": "A plan already made: <b>am going to</b> + base verb."
+  },
+  {
+   "qid": "c6-6.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "suffix_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Shahirs sing powadas to",
+   "after": "the brave deeds of great leaders.",
+   "options": [
+    "glorify",
+    "glory",
+    "glorious"
+   ],
+   "answer": 0,
+   "rule": "After <b>to</b> we need a verb: glory + <b>-ify</b> = <b>glorify</b>."
+  },
+  {
+   "qid": "c6-6.2-27",
+   "type": "build",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Ask a question.",
+   "answer": [
+    "Will",
+    "you",
+    "sing",
+    "an",
+    "owi",
+    "for",
+    "us?"
+   ],
+   "alts": [],
+   "rule": "In a question, <b>will</b> comes before the subject: <b>Will you sing ...?</b>"
+  },
+  {
+   "qid": "c6-6.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "band",
+    "marched",
+    "through",
+    "the",
+    "village."
+   ],
+   "alts": [],
+   "rule": "<b>Through</b> means from one side to the other inside something: <b>through the village</b>."
+  },
+  {
+   "qid": "c6-6.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Whose dhol is this?"
+    ]
+   ],
+   "options": [
+    "It is my brothers's.",
+    "It is my brother's.",
+    "It is mine brother's."
+   ],
+   "answer": 1,
+   "rule": "One owner: <b>my brother's</b> (the noun 'dhol' is understood)."
+  },
+  {
+   "qid": "c6-6.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "The school function is tomorrow. Are you ready?"
+    ]
+   ],
+   "options": [
+    "Yes, I going to wear a nauwari sari.",
+    "Yes, I am going to wear a nauwari sari.",
+    "Yes, I am going to wearing a nauwari sari."
+   ],
+   "answer": 1,
+   "rule": "<b>I am going to</b> + base verb: <b>am going to wear</b>."
+  },
+  {
+   "qid": "c6-6.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Powadas preserve the historical of Maharashtra.",
+    "Powadas preserve the history of Maharashtra.",
+    "Powadas preserves the history of Maharashtra."
+   ],
+   "answer": 1,
+   "rule": "After <b>the</b> we need the noun <b>history</b>; plural <b>powadas</b> takes <b>preserve</b>."
+  },
+  {
+   "qid": "c6-6.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' dances were lively.",
+    "The children's dances were lively.",
+    "The children's dances was lively."
+   ],
+   "answer": 1,
+   "rule": "<b>Children's</b> takes 's; <b>dances</b> is plural, so <b>were</b>."
+  },
+  {
+   "qid": "c6-6.2-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "the",
+    "Shahir",
+    "is",
+    "going",
+    "to",
+    "sang",
+    "a",
+    "powada."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "sing",
+      "sung",
+      "singing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Going to</b> is always followed by the base verb: <b>going to sing</b>."
+  },
+  {
+   "qid": "c6-6.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "women",
+    "sang",
+    "owis",
+    "with",
+    "great",
+    "happy",
+    "in",
+    "their",
+    "hearts."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "happiness",
+      "happily",
+      "happier"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>with great</b> we need a noun: happy → <b>happiness</b> (-ness)."
+  },
+  {
+   "qid": "c6-6.2-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The singers walked",
+   "after": "the bridge to the other village.",
+   "options": [
+    "between",
+    "among",
+    "across"
+   ],
+   "answer": 2,
+   "rule": "<b>Across</b> means from one side to the other: <b>across the bridge</b>."
+  },
+  {
+   "qid": "c6-6.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "The two",
+   "after": "costumes were the same colour.",
+   "options": [
+    "dancer's",
+    "dancers'",
+    "dancer"
+   ],
+   "answer": 1,
+   "rule": "Plural nouns ending in -s add only an apostrophe: <b>the two dancers'</b>."
+  },
+  {
+   "qid": "c6-6.2-37",
+   "type": "build",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Shahir",
+    "Annabhau",
+    "Sathe's",
+    "powadas",
+    "were",
+    "very",
+    "powerful."
+   ],
+   "alts": [],
+   "rule": "Owner's name + <b>'s</b> + thing: <b>Shahir Annabhau Sathe's powadas</b>."
+  },
+  {
+   "qid": "c6-6.2-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How long have you practised the Lavani dance?"
+    ]
+   ],
+   "options": [
+    "I have practised it since two years.",
+    "I have practise it for two years.",
+    "I have practised it for two years."
+   ],
+   "answer": 2,
+   "rule": "Length of time → <b>for two years</b>; present perfect needs <b>have practised</b>."
+  },
+  {
+   "qid": "c6-6.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Shall we make a drum from an old tin?"
+    ]
+   ],
+   "options": [
+    "Yes! I will bring some coloured paper.",
+    "Yes! I will brought some coloured paper.",
+    "Yes! I bringing some coloured paper."
+   ],
+   "answer": 0,
+   "rule": "A quick decision or offer: <b>I will</b> + base verb: <b>will bring</b>."
+  },
+  {
+   "qid": "c6-6.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "suffix_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why are folk songs important?"
+    ]
+   ],
+   "options": [
+    "They help us preservation our cultural heritage.",
+    "They help us preserve our culture heritage.",
+    "They help us preserve our cultural heritage."
+   ],
+   "answer": 2,
+   "rule": "After <b>help us</b> comes the verb <b>preserve</b>; before a noun use the adjective <b>cultural</b>."
+  },
+  {
+   "qid": "c6-6.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My cousin is going to perform Burra Katha, and I will plays the tambura for her.",
+    "My cousin is going to perform Burra Katha, and I will play the tambura for her.",
+    "My cousin going to perform Burra Katha, and I will play the tambura for her."
+   ],
+   "answer": 1,
+   "rule": "<b>is going to perform</b> and <b>will play</b>: both future forms take the base verb."
+  },
+  {
+   "qid": "c6-6.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Shahirs' songs inspired courage in the people's hearts.",
+    "The Shahirs's songs inspired courage in the people's hearts.",
+    "The Shahirs' songs inspired courage in the peoples hearts."
+   ],
+   "answer": 0,
+   "rule": "Plural in -s: <b>Shahirs'</b>. <b>People</b> has no -s, so <b>people's</b>."
+  },
+  {
+   "qid": "c6-6.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Owis",
+    "have",
+    "been",
+    "sung",
+    "in",
+    "Maharashtra",
+    "since",
+    "centuries."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "during",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Centuries</b> is a length of time, so use <b>for centuries</b>."
+  },
+  {
+   "qid": "c6-6.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Chakri",
+    "is",
+    "a",
+    "narrative",
+    "style",
+    "in",
+    "which",
+    "every",
+    "emotional",
+    "is",
+    "expressed",
+    "through",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "emotion",
+      "emotionally",
+      "emotive"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>every</b> we need a noun: <b>emotion</b>, not the adjective 'emotional'."
+  },
+  {
+   "qid": "c6-6.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Hurry up! The Bihu dance",
+   "after": "start in two minutes.",
+   "options": [
+    "is going",
+    "going to",
+    "is going to"
+   ],
+   "answer": 2,
+   "rule": "Something about to happen: <b>is going to</b> + base verb."
+  },
+  {
+   "qid": "c6-6.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "suffix_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Lavani is famous for its fast rhythm and",
+   "after": "footwork.",
+   "options": [
+    "skill",
+    "skilful",
+    "skilfully"
+   ],
+   "answer": 1,
+   "rule": "Before the noun <b>footwork</b> we need an adjective: skill + <b>-ful</b> = <b>skilful</b>."
+  },
+  {
+   "qid": "c6-6.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "has",
+    "played",
+    "the",
+    "sitar",
+    "since",
+    "childhood."
+   ],
+   "alts": [],
+   "rule": "<b>Since</b> + a starting point (childhood) with the present perfect <b>has played</b>."
+  },
+  {
+   "qid": "c6-6.2-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Whose idea was the bamboo flute?"
+    ]
+   ],
+   "options": [
+    "It was Meera's and Kabir idea.",
+    "It was Meera and Kabir's idea.",
+    "It was Meera and Kabirs' idea."
+   ],
+   "answer": 1,
+   "rule": "One idea shared by two people: add <b>'s</b> only to the last name: <b>Meera and Kabir's idea</b>."
+  },
+  {
+   "qid": "c6-6.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "suffix_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "Did you like the Bihu show?"
+    ]
+   ],
+   "options": [
+    "Yes, the dancers were full of energetic and the music was wonderful.",
+    "Yes, the dancers were full of energy and the music was wonder.",
+    "Yes, the dancers were full of energy and the music was wonderful."
+   ],
+   "answer": 2,
+   "rule": "<b>Full of</b> + noun (<b>energy</b>); after <b>was</b>, the adjective <b>wonderful</b> (-ful)."
+  },
+  {
+   "qid": "c6-6.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "When will the Chakri show begin?"
+    ]
+   ],
+   "options": [
+    "It will begin on seven, after the speeches.",
+    "It will began at seven, after the speeches.",
+    "It will begin at seven, after the speeches."
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with clock times: <b>at seven</b>; <b>will</b> + base verb <b>begin</b>."
+  }
+ ]
+}

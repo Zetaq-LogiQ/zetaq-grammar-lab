@@ -1,0 +1,1185 @@
+{
+ "class": 9,
+ "id": "04",
+ "title": "Have you thought of the verb 'have'...",
+ "topics": [
+  {
+   "tag": "have_main",
+   "name": "'Have' as a main verb (possession, relations, events, meals, illness)"
+  },
+  {
+   "tag": "have_do",
+   "name": "Negatives and questions with do + have"
+  },
+  {
+   "tag": "have_perfect",
+   "name": "'Have' as a helping verb (perfect tenses)"
+  },
+  {
+   "tag": "causative_have",
+   "name": "Causative have / get (have something done)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-04-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our school has six computers.",
+    "Our school have six computers.",
+    "Our school having six computers."
+   ],
+   "answer": 0,
+   "rule": "<b>Our school</b> is a singular subject, so the main verb is <b>has</b>."
+  },
+  {
+   "qid": "c9-04-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "have_do",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Does you have a cycle?",
+    "Do you have a cycle?",
+    "Do you has a cycle?"
+   ],
+   "answer": 1,
+   "rule": "Use <b>do</b> with <b>you</b>, and after do/does always use the base form <b>have</b>."
+  },
+  {
+   "qid": "c9-04-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "have_main",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kabir has a bad cold this week.",
+    "Kabir is having a bad cold this week.",
+    "Kabir is have a bad cold this week."
+   ],
+   "answer": 0,
+   "rule": "For an illness, <b>have</b> is used in the simple form: <b>has a cold</b>, not <b>is having a cold</b>."
+  },
+  {
+   "qid": "c9-04-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "have_perfect",
+   "prompt": "Pick the sentence with the correct verb form.",
+   "options": [
+    "They have come back from Pune.",
+    "They have came back from Pune.",
+    "They has come back from Pune."
+   ],
+   "answer": 0,
+   "rule": "The present perfect is <b>have/has + past participle</b>: <b>have come</b>."
+  },
+  {
+   "qid": "c9-04-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "have_do",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My grandparents did not had a television in 1970.",
+    "My grandparents does not have a television in 1970.",
+    "My grandparents did not have a television in 1970."
+   ],
+   "answer": 2,
+   "rule": "The past negative of main verb have is <b>did not have</b>; after <b>did</b>, use the base form."
+  },
+  {
+   "qid": "c9-04-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mrs Rao has her car repaired yesterday.",
+    "Mrs Rao had her car repair yesterday.",
+    "Mrs Rao had her car repaired yesterday."
+   ],
+   "answer": 2,
+   "rule": "Causative: <b>had + object + past participle</b>. <b>Yesterday</b> needs the past: <b>had her car repaired</b>."
+  },
+  {
+   "qid": "c9-04-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "have_main",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My friend and her sister have a pet parrot.",
+    "My friend and her sister has a pet parrot.",
+    "My friend and her sister having a pet parrot."
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> are plural, so use <b>have</b>."
+  },
+  {
+   "qid": "c9-04-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meena is having this phone since 2022.",
+    "Meena has had this phone since 2022.",
+    "Meena has this phone since 2022."
+   ],
+   "answer": 1,
+   "rule": "With <b>since</b>, use the present perfect. Main verb have + perfect gives <b>has had</b>."
+  },
+  {
+   "qid": "c9-04-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "have",
+    "two",
+    "brothers",
+    "and",
+    "one",
+    "sister."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "having",
+      "is",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Neha</b> is third person singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c9-04-10",
+   "type": "fix",
+   "level": 2,
+   "topic": "have_do",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "don't",
+    "have",
+    "a",
+    "ticket",
+    "for",
+    "the",
+    "final."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "haven't",
+      "doesn't",
+      "isn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With a singular subject like <b>Rohan</b>, the negative is <b>doesn't have</b>."
+  },
+  {
+   "qid": "c9-04-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "have_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Asha",
+    "has",
+    "wrote",
+    "three",
+    "letters",
+    "since",
+    "Monday."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "written",
+      "writing",
+      "write"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>has</b> in a perfect tense, use the past participle: <b>has written</b>."
+  },
+  {
+   "qid": "c9-04-12",
+   "type": "fix",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "had",
+    "our",
+    "house",
+    "paint",
+    "before",
+    "Diwali."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "painting",
+      "painted",
+      "paints"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Someone else did the work: <b>have + object + past participle</b> - <b>had our house painted</b>."
+  },
+  {
+   "qid": "c9-04-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "have_main",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Let",
+    "us",
+    "has",
+    "a",
+    "party",
+    "for",
+    "Ira's",
+    "birthday."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "having",
+      "had",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>let us</b>, use the base form of the verb: <b>let us have a party</b>."
+  },
+  {
+   "qid": "c9-04-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "have_main",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "One",
+    "of",
+    "my",
+    "cousins",
+    "have",
+    "his",
+    "own",
+    "horse",
+    "in",
+    "Satara."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "having",
+      "has",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>one</b> (of my cousins), which is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c9-04-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "have_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Desai",
+    "has",
+    "been",
+    "our",
+    "principal",
+    "since",
+    "ten",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "during",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (ten years) and <b>since</b> with a starting point (2015)."
+  },
+  {
+   "qid": "c9-04-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "one",
+    "of",
+    "the",
+    "players",
+    "have",
+    "had",
+    "a",
+    "medical",
+    "check-up",
+    "this",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "having",
+      "is",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Every one</b> is singular, so the helping verb is <b>has</b>: <b>has had a check-up</b>."
+  },
+  {
+   "qid": "c9-04-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "Fill in the gap.",
+   "before": "Grandfather",
+   "after": "a heart attack last year.",
+   "options": [
+    "had",
+    "has",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "<b>Last year</b> is in the past, so use <b>had</b>."
+  },
+  {
+   "qid": "c9-04-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "have_do",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you have a spare pen, Kunal?",
+   "options": [
+    "Does",
+    "Do",
+    "Are"
+   ],
+   "answer": 1,
+   "rule": "Questions with main verb have use <b>do/does</b>. With <b>you</b>, use <b>Do</b>."
+  },
+  {
+   "qid": "c9-04-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "have_main",
+   "prompt": "Fill in the gap.",
+   "before": "We usually",
+   "after": "breakfast at eight o'clock.",
+   "options": [
+    "have",
+    "has",
+    "having"
+   ],
+   "answer": 0,
+   "rule": "For a daily habit with <b>we</b>, use the simple present <b>have</b>."
+  },
+  {
+   "qid": "c9-04-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "have_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The guests",
+   "after": "already arrived at the hall.",
+   "options": [
+    "are",
+    "have",
+    "has"
+   ],
+   "answer": 1,
+   "rule": "Present perfect with a plural subject: <b>have arrived</b>."
+  },
+  {
+   "qid": "c9-04-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "Fill in the gap.",
+   "before": "Dad is going to have the leaking tap",
+   "after": "tomorrow.",
+   "options": [
+    "fixed",
+    "fix",
+    "fixing"
+   ],
+   "answer": 0,
+   "rule": "A plumber will do it: <b>have + object + past participle</b> - <b>have the tap fixed</b>."
+  },
+  {
+   "qid": "c9-04-22",
+   "type": "fill",
+   "level": 4,
+   "topic": "have_do",
+   "prompt": "Choose the correct question tag.",
+   "before": "Sara doesn't have a cold today,",
+   "after": "she?",
+   "options": [
+    "has",
+    "does",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "The sentence uses <b>doesn't</b>, so the tag uses the positive <b>does</b>: <b>does she?</b>"
+  },
+  {
+   "qid": "c9-04-23",
+   "type": "fill",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "By the time the doctor arrived, the patient",
+   "after": "already taken the medicine.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had taken</b>."
+  },
+  {
+   "qid": "c9-04-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "causative_have",
+   "prompt": "Fill in the gap.",
+   "before": "Meera got her bicycle tyre",
+   "after": "at the corner shop.",
+   "options": [
+    "mended",
+    "mend",
+    "to mend"
+   ],
+   "answer": 0,
+   "rule": "<b>Get + object + past participle</b> means someone else did it: <b>got her tyre mended</b>."
+  },
+  {
+   "qid": "c9-04-25",
+   "type": "build",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "Say how you feel.",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "headache",
+    "today."
+   ],
+   "alts": [],
+   "rule": "Use <b>have</b> for a physical condition: <b>I have a headache</b>."
+  },
+  {
+   "qid": "c9-04-26",
+   "type": "build",
+   "level": 2,
+   "topic": "have_do",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "Aarav",
+    "have",
+    "a",
+    "new",
+    "bicycle?"
+   ],
+   "alts": [],
+   "rule": "Question with main verb have: <b>Does + subject + have</b>."
+  },
+  {
+   "qid": "c9-04-27",
+   "type": "build",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "Say that a painter is doing the work.",
+   "answer": [
+    "We",
+    "are",
+    "getting",
+    "our",
+    "kitchen",
+    "painted."
+   ],
+   "alts": [],
+   "rule": "<b>Get + object + past participle</b>: <b>getting our kitchen painted</b>."
+  },
+  {
+   "qid": "c9-04-28",
+   "type": "build",
+   "level": 4,
+   "topic": "have_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "long",
+    "have",
+    "you",
+    "had",
+    "this",
+    "laptop?"
+   ],
+   "alts": [],
+   "rule": "<b>How long</b> asks about a period up to now, so use the present perfect: <b>have you had</b>."
+  },
+  {
+   "qid": "c9-04-29",
+   "type": "build",
+   "level": 5,
+   "topic": "have_do",
+   "prompt": "Make a sentence with a reason.",
+   "answer": [
+    "Ravi",
+    "didn't",
+    "have",
+    "lunch",
+    "because",
+    "he",
+    "was",
+    "late."
+   ],
+   "alts": [],
+   "rule": "Past negative of main verb have: <b>didn't have</b>; <b>because</b> gives the reason."
+  },
+  {
+   "qid": "c9-04-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "have_do",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Do you have a pencil, Tara?"
+    ]
+   ],
+   "options": [
+    "Yes, I has one.",
+    "Yes, I have one.",
+    "Yes, I having one."
+   ],
+   "answer": 1,
+   "rule": "With <b>I</b>, the main verb is <b>have</b>."
+  },
+  {
+   "qid": "c9-04-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "What would you like to have, tea or coffee?"
+    ]
+   ],
+   "options": [
+    "I'll has tea, please.",
+    "I'll having tea, please.",
+    "I'll have tea, please."
+   ],
+   "answer": 2,
+   "rule": "After <b>will ('ll)</b>, use the base form: <b>I'll have</b>."
+  },
+  {
+   "qid": "c9-04-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "have_main",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why were you absent yesterday, Pooja?"
+    ]
+   ],
+   "options": [
+    "I have had a high fever yesterday, ma'am.",
+    "I has a high fever, ma'am.",
+    "I had a high fever, ma'am."
+   ],
+   "answer": 2,
+   "rule": "The illness was in the past (yesterday), so use the simple past <b>had</b>."
+  },
+  {
+   "qid": "c9-04-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "have_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Have you seen the new Marathi film yet?"
+    ]
+   ],
+   "options": [
+    "No, I didn't saw it yet.",
+    "No, I haven't seen it yet.",
+    "No, I haven't saw it yet."
+   ],
+   "answer": 1,
+   "rule": "Present perfect negative: <b>haven't + past participle</b> - <b>haven't seen</b>."
+  },
+  {
+   "qid": "c9-04-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Your hair looks different!"
+    ]
+   ],
+   "options": [
+    "Yes, I had it cut yesterday.",
+    "Yes, I had it cutting yesterday.",
+    "Yes, I have it cut yesterday."
+   ],
+   "answer": 0,
+   "rule": "The barber did it in the past: <b>had + it + past participle</b> - <b>had it cut</b>."
+  },
+  {
+   "qid": "c9-04-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "have_do",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "You don't have school tomorrow, do you?"
+    ]
+   ],
+   "options": [
+    "No, I don't. It's a holiday.",
+    "No, I doesn't. It's a holiday.",
+    "No, I not. It's a holiday."
+   ],
+   "answer": 0,
+   "rule": "A short answer repeats the helping verb: <b>No, I don't.</b>"
+  },
+  {
+   "qid": "c9-04-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "have_do",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Did you have a good time at the wedding?"
+    ],
+    [
+     "Kavya",
+     "I heard there was a band."
+    ]
+   ],
+   "options": [
+    "Yes, I did! The band played till midnight.",
+    "Yes, I had! The band played till midnight.",
+    "Yes, I did! The band was played till midnight."
+   ],
+   "answer": 0,
+   "rule": "The question uses <b>did</b>, so the short answer is <b>I did</b>; the band itself <b>played</b> (active)."
+  },
+  {
+   "qid": "c9-04-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Has Dev recovered from his cold?"
+    ]
+   ],
+   "options": [
+    "Not yet. He is having it since Monday.",
+    "Not yet. He has it since Monday.",
+    "Not yet. He has had it since Monday."
+   ],
+   "answer": 2,
+   "rule": "A state from Monday till now takes the present perfect: <b>has had</b>."
+  },
+  {
+   "qid": "c9-04-38",
+   "type": "change",
+   "level": 1,
+   "topic": "have_do",
+   "prompt": "Make the sentence negative.",
+   "source": "Raju has a bicycle.",
+   "options": [
+    "Raju doesn't has a bicycle.",
+    "Raju don't have a bicycle.",
+    "Raju doesn't have a bicycle."
+   ],
+   "answer": 2,
+   "rule": "Negative of main verb have: <b>doesn't have</b> (base form after does)."
+  },
+  {
+   "qid": "c9-04-39",
+   "type": "change",
+   "level": 2,
+   "topic": "have_do",
+   "prompt": "Change into a yes/no question.",
+   "source": "Your brother has a laptop.",
+   "options": [
+    "Does your brother has a laptop?",
+    "Does your brother have a laptop?",
+    "Do your brother have a laptop?"
+   ],
+   "answer": 1,
+   "rule": "Use <b>Does</b> with a singular subject, then the base form <b>have</b>."
+  },
+  {
+   "qid": "c9-04-40",
+   "type": "change",
+   "level": 2,
+   "topic": "have_perfect",
+   "prompt": "Change into the present perfect tense.",
+   "source": "Smita wrote a letter to her grandmother.",
+   "options": [
+    "Smita has wrote a letter to her grandmother.",
+    "Smita has written a letter to her grandmother.",
+    "Smita have written a letter to her grandmother."
+   ],
+   "answer": 1,
+   "rule": "Present perfect: <b>has + past participle</b> - <b>has written</b>."
+  },
+  {
+   "qid": "c9-04-41",
+   "type": "change",
+   "level": 3,
+   "topic": "causative_have",
+   "prompt": "Rewrite beginning with 'I had my'.",
+   "source": "The tailor stitched my school uniform.",
+   "options": [
+    "I had my school uniform stitch by the tailor.",
+    "I had my school uniform stitching by the tailor.",
+    "I had my school uniform stitched by the tailor."
+   ],
+   "answer": 2,
+   "rule": "Causative: <b>had + object + past participle</b> - <b>had my uniform stitched</b>."
+  },
+  {
+   "qid": "c9-04-42",
+   "type": "change",
+   "level": 4,
+   "topic": "have_main",
+   "prompt": "Change into indirect speech.",
+   "source": "Ravi said, \"I have a headache.\"",
+   "options": [
+    "Ravi said that he had a headache.",
+    "Ravi said that I had a headache.",
+    "Ravi said that he has had a headache."
+   ],
+   "answer": 0,
+   "rule": "After <b>said</b>, <b>I have</b> becomes <b>he had</b>: change the pronoun and move the tense back."
+  },
+  {
+   "qid": "c9-04-43",
+   "type": "change",
+   "level": 4,
+   "topic": "have_do",
+   "prompt": "Add a question tag.",
+   "source": "Sanika doesn't have any brothers.",
+   "options": [
+    "Sanika doesn't have any brothers, doesn't she?",
+    "Sanika doesn't have any brothers, does she?",
+    "Sanika doesn't have any brothers, has she?"
+   ],
+   "answer": 1,
+   "rule": "A negative sentence with <b>doesn't</b> takes a positive tag: <b>does she?</b>"
+  },
+  {
+   "qid": "c9-04-44",
+   "type": "change",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Change into passive voice.",
+   "source": "The workers have repaired the old bridge.",
+   "options": [
+    "The old bridge has repaired by the workers.",
+    "The old bridge has been repaired by the workers.",
+    "The old bridge have been repaired by the workers."
+   ],
+   "answer": 1,
+   "rule": "Present perfect passive: <b>has/have been + past participle</b>; <b>bridge</b> is singular - <b>has been</b>."
+  },
+  {
+   "qid": "c9-04-45",
+   "type": "change",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Rewrite beginning with 'No sooner'.",
+   "source": "As soon as we had our dinner, the power went off.",
+   "options": [
+    "No sooner had we had our dinner than the power went off.",
+    "No sooner we had our dinner than the power went off.",
+    "No sooner had we had our dinner when the power went off."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner</b> takes inverted order (<b>had we</b>) and pairs with <b>than</b>, not when."
+  },
+  {
+   "qid": "c9-04-46",
+   "type": "proof",
+   "level": 1,
+   "topic": "have_main",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Uncle",
+    "Prakash",
+    "have",
+    "a",
+    "small",
+    "farm",
+    "near",
+    "Nashik.",
+    "He",
+    "has",
+    "two",
+    "cows",
+    "and",
+    "a",
+    "goat.",
+    "Every",
+    "morning",
+    "my",
+    "cousins",
+    "and",
+    "I",
+    "has",
+    "fresh",
+    "milk",
+    "for",
+    "breakfast."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "has",
+      "having",
+      "is"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "have",
+      "having",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Uncle Prakash</b> (one person) takes <b>has</b>; <b>my cousins and I</b> (plural) takes <b>have</b>."
+  },
+  {
+   "qid": "c9-04-47",
+   "type": "proof",
+   "level": 3,
+   "topic": "have_do",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Kiran",
+    "has",
+    "not",
+    "came",
+    "to",
+    "school",
+    "since",
+    "Monday.",
+    "He",
+    "has",
+    "a",
+    "bad",
+    "cold",
+    "and",
+    "don't",
+    "have",
+    "any",
+    "energy.",
+    "We",
+    "have",
+    "sent",
+    "him",
+    "our",
+    "notes."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "coming",
+      "comes",
+      "come"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "haven't",
+      "doesn't",
+      "isn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Perfect tense needs the past participle <b>come</b>; the subject <b>he</b> is singular, so <b>doesn't have</b>."
+  },
+  {
+   "qid": "c9-04-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "causative_have",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "week",
+    "Papa",
+    "had",
+    "the",
+    "brakes",
+    "of",
+    "our",
+    "car",
+    "check",
+    "at",
+    "a",
+    "garage",
+    "in",
+    "Thane.",
+    "The",
+    "mechanic",
+    "said",
+    "the",
+    "battery",
+    "was",
+    "weak,",
+    "so",
+    "Papa",
+    "got",
+    "it",
+    "replace",
+    "too.",
+    "Now",
+    "the",
+    "car",
+    "starts",
+    "easily."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "checking",
+      "checked",
+      "checks"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "replacing",
+      "replaces",
+      "replaced"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Causative <b>have/get + object + past participle</b>: <b>had the brakes checked</b>, <b>got it replaced</b>."
+  },
+  {
+   "qid": "c9-04-49",
+   "type": "proof",
+   "level": 4,
+   "topic": "have_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Mrs",
+    "Kulkarni",
+    "has",
+    "taught",
+    "in",
+    "our",
+    "school",
+    "since",
+    "twenty",
+    "years.",
+    "Since",
+    "she",
+    "came,",
+    "she",
+    "has",
+    "gave",
+    "lessons",
+    "to",
+    "thousands",
+    "of",
+    "children,",
+    "and",
+    "her",
+    "former",
+    "students",
+    "has",
+    "become",
+    "doctors,",
+    "engineers",
+    "and",
+    "teachers."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "for",
+      "during",
+      "from"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "giving",
+      "given",
+      "gives"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 25,
+     "options": [
+      "having",
+      "is",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>For</b> + a length of time (twenty years); <b>has given</b> needs the past participle; plural <b>students</b> take <b>have</b>."
+  },
+  {
+   "qid": "c9-04-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "have_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Every",
+    "girl",
+    "in",
+    "our",
+    "hostel",
+    "have",
+    "a",
+    "small",
+    "locker.",
+    "Yesterday",
+    "Riya",
+    "find",
+    "that",
+    "hers",
+    "had",
+    "been",
+    "broke",
+    "open,",
+    "but",
+    "nothing",
+    "was",
+    "missing",
+    "because",
+    "she",
+    "had",
+    "kept",
+    "her",
+    "money",
+    "with",
+    "the",
+    "warden."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "having",
+      "are",
+      "has"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 11,
+     "options": [
+      "found",
+      "finds",
+      "finding"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "broken",
+      "breaking",
+      "breaks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Every girl</b> takes <b>has</b>; <b>yesterday</b> needs <b>found</b>; the passive past perfect is <b>had been broken</b>."
+  }
+ ]
+}

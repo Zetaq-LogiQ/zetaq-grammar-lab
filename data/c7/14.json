@@ -1,0 +1,1011 @@
+{
+ "class": 7,
+ "id": "14",
+ "title": "Tartary",
+ "topics": [
+  {
+   "tag": "if_were",
+   "name": "Imagining: If I were ..., I would ..."
+  },
+  {
+   "tag": "conditional1",
+   "name": "Conditionals type 1 (if / unless + will)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Comparisons: as ... as and degrees of comparison"
+  },
+  {
+   "tag": "adjectives",
+   "name": "Adjectives and adverbs that describe"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-14-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I am a king, I would build a big library.",
+    "If I were a king, I would build a big library.",
+    "If I were a king, I will build a big library."
+   ],
+   "answer": 1,
+   "rule": "To imagine something unreal, say <b>If I were ..., I would ...</b>"
+  },
+  {
+   "qid": "c7-14-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "The lamps were as yellow as honey.",
+    "The lamps were as yellow than honey.",
+    "The lamps were so yellow as honey."
+   ],
+   "answer": 0,
+   "rule": "To show two things are equal, use <b>as + adjective + as</b>: <b>as yellow as honey</b>."
+  },
+  {
+   "qid": "c7-14-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "peacocks",
+    "in",
+    "the",
+    "garden",
+    "have",
+    "very",
+    "beautifully",
+    "feathers."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "beauty",
+      "beautiful",
+      "beautify"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A noun (feathers) is described by an adjective: <b>beautiful feathers</b>, not an adverb."
+  },
+  {
+   "qid": "c7-14-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditional1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "tomorrow,",
+    "we",
+    "will",
+    "played",
+    "indoors."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "playing",
+      "plays",
+      "play"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb: <b>will play</b>."
+  },
+  {
+   "qid": "c7-14-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The river is",
+   "after": "than the stream.",
+   "options": [
+    "widest",
+    "wider",
+    "more wide"
+   ],
+   "answer": 1,
+   "rule": "Comparing two things with <b>than</b> needs the comparative: wide - <b>wider</b> - widest."
+  },
+  {
+   "qid": "c7-14-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "if_were",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "the lord of this land, I would plant mango trees.",
+   "options": [
+    "were",
+    "am",
+    "will be"
+   ],
+   "answer": 0,
+   "rule": "With <b>would</b> in the result, the if-part uses <b>were</b>: <b>If I were ...</b>"
+  },
+  {
+   "qid": "c7-14-07",
+   "type": "build",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "zebras",
+    "pulled",
+    "a",
+    "golden",
+    "car."
+   ],
+   "alts": [],
+   "rule": "An adjective comes before its noun: <b>a golden car</b>."
+  },
+  {
+   "qid": "c7-14-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditional1",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Are you coming to the park this evening?"
+    ]
+   ],
+   "options": [
+    "Yes, if it doesn't rain, I will come along.",
+    "Yes, if it won't rain, I will come along.",
+    "Yes, if it doesn't rain, I came along."
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>if + simple present</b>, <b>will + base verb</b>: if it doesn't rain, I will come along."
+  },
+  {
+   "qid": "c7-14-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which is bigger, a tiger or a cat?"
+    ]
+   ],
+   "options": [
+    "A tiger is much bigger than a cat.",
+    "A tiger is much more big than a cat.",
+    "A tiger is much biggest than a cat."
+   ],
+   "answer": 0,
+   "rule": "Short adjectives take <b>-er</b>: big - <b>bigger</b>. Never 'more big'."
+  },
+  {
+   "qid": "c7-14-10",
+   "type": "change",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "No other animal in the forest is as strong as the tiger.",
+   "options": [
+    "The tiger is stronger than all animal in the forest.",
+    "The tiger is more stronger than any other animal in the forest.",
+    "The tiger is stronger than any other animal in the forest."
+   ],
+   "answer": 2,
+   "rule": "Positive to comparative: <b>stronger than any other</b> + singular noun."
+  },
+  {
+   "qid": "c7-14-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you will water the citron trees, they grow well.",
+    "If you water the citron trees, they will grows well.",
+    "If you water the citron trees, they will grow well."
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>if + simple present</b>, then <b>will + base verb</b>."
+  },
+  {
+   "qid": "c7-14-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The music sounded sweetly in the evening.",
+    "The music sounded sweet in the evening.",
+    "The music sounded sweetness in the evening."
+   ],
+   "answer": 1,
+   "rule": "After <b>sound, look, feel, taste</b>, use an adjective: it sounded <b>sweet</b>."
+  },
+  {
+   "qid": "c7-14-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "more",
+    "beautiful",
+    "valley",
+    "I",
+    "have",
+    "ever",
+    "seen."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>the ... I have ever seen</b> needs the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c7-14-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "if_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "a",
+    "bird,",
+    "I",
+    "would",
+    "flew",
+    "over",
+    "the",
+    "hills."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "fly",
+      "flying",
+      "flies"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>would</b>, use the base verb: <b>would fly</b>."
+  },
+  {
+   "qid": "c7-14-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The harp music was",
+   "after": ".",
+   "options": [
+    "sweetly",
+    "sweeten",
+    "sweet"
+   ],
+   "answer": 2,
+   "rule": "After <b>was</b>, describe the subject with an adjective: the music was <b>sweet</b>."
+  },
+  {
+   "qid": "c7-14-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditional1",
+   "prompt": "Fill in the gap.",
+   "before": "If we leave now, we",
+   "after": "the train.",
+   "options": [
+    "caught",
+    "will catch",
+    "would caught"
+   ],
+   "answer": 1,
+   "rule": "Type 1: <b>if + present</b> (leave), result <b>will + base verb</b> (will catch)."
+  },
+  {
+   "qid": "c7-14-17",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "This",
+    "valley",
+    "is",
+    "greener",
+    "than",
+    "that",
+    "one."
+   ],
+   "alts": [],
+   "rule": "Comparative + <b>than</b>: this valley is <b>greener than</b> that one."
+  },
+  {
+   "qid": "c7-14-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What would you do with a magic carpet?"
+    ]
+   ],
+   "options": [
+    "If I had one, I would flew to the hills.",
+    "If I had one, I would fly to the hills.",
+    "If I had one, I will flying to the hills."
+   ],
+   "answer": 1,
+   "rule": "For an imagined situation: <b>If + past</b> (had), <b>would + base verb</b> (would fly)."
+  },
+  {
+   "qid": "c7-14-19",
+   "type": "change",
+   "level": 2,
+   "topic": "conditional1",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not hurry, you will miss the school bus.",
+   "options": [
+    "Unless you do not hurry, you will miss the school bus.",
+    "Unless you hurry, you will miss the school bus.",
+    "Unless you hurry, you missed the school bus."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> means 'if not', so drop the 'not': <b>Unless you hurry</b>, you will miss the school bus."
+  },
+  {
+   "qid": "c7-14-20",
+   "type": "change",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The tiger is stronger than the deer.",
+   "options": [
+    "The deer is not as strong as the tiger.",
+    "The deer is not as stronger as the tiger.",
+    "The deer is as strong as the tiger."
+   ],
+   "answer": 0,
+   "rule": "Comparative to positive: <b>not as + adjective + as</b>, and swap the two things: the deer is <b>not as strong as</b> the tiger."
+  },
+  {
+   "qid": "c7-14-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Her rivers are the most beautiful in the land.",
+    "Her rivers are the beautifulest in the land.",
+    "Her rivers are the more beautiful in the land."
+   ],
+   "answer": 0,
+   "rule": "Long adjectives take <b>the most</b> in the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c7-14-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "if_were",
+   "prompt": "Pick the correct piece of advice.",
+   "options": [
+    "If I were you, I would wear the green robe.",
+    "If I am you, I would wear the green robe.",
+    "If I were you, I would wore the green robe."
+   ],
+   "answer": 0,
+   "rule": "To give advice, say <b>If I were you, I would + base verb</b>."
+  },
+  {
+   "qid": "c7-14-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "forest",
+    "looked",
+    "darkly",
+    "and",
+    "quiet",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "darkness",
+      "dark",
+      "darken"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>looked</b> (a linking verb), use adjectives: <b>dark and quiet</b>."
+  },
+  {
+   "qid": "c7-14-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditional1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "trumpeters",
+    "play",
+    "every",
+    "morning,",
+    "the",
+    "Lord",
+    "will",
+    "woke",
+    "up",
+    "early."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "waking",
+      "wake",
+      "wakes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb: <b>will wake up</b>."
+  },
+  {
+   "qid": "c7-14-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of the three valleys, this one is the",
+   "after": ".",
+   "options": [
+    "greener",
+    "greenest",
+    "more green"
+   ],
+   "answer": 1,
+   "rule": "For more than two things, use the superlative: <b>the greenest</b>."
+  },
+  {
+   "qid": "c7-14-26",
+   "type": "build",
+   "level": 3,
+   "topic": "if_were",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Ravi",
+    "would",
+    "fly",
+    "if",
+    "he",
+    "were",
+    "a",
+    "bird."
+   ],
+   "alts": [],
+   "rule": "An imagined wish: <b>would + verb</b> ... <b>if he were</b> ..."
+  },
+  {
+   "qid": "c7-14-27",
+   "type": "build",
+   "level": 3,
+   "topic": "conditional1",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "If",
+    "it",
+    "rains,",
+    "the",
+    "lake",
+    "will",
+    "fill",
+    "up."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If + simple present</b>, then <b>will + base verb</b>."
+  },
+  {
+   "qid": "c7-14-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Joshi",
+     "How was your trip to the hills?"
+    ]
+   ],
+   "options": [
+    "It was most exciting than our last trip.",
+    "It was more excitinger than our last trip.",
+    "It was more exciting than our last trip."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives use <b>more</b> with <b>than</b>: <b>more exciting than</b>."
+  },
+  {
+   "qid": "c7-14-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How does your new flute sound?"
+    ]
+   ],
+   "options": [
+    "It sounds really sweetly.",
+    "It sound really sweet.",
+    "It sounds really sweet."
+   ],
+   "answer": 2,
+   "rule": "<b>It sounds</b> (-s with 'it') + adjective <b>sweet</b>."
+  },
+  {
+   "qid": "c7-14-30",
+   "type": "change",
+   "level": 3,
+   "topic": "conditional1",
+   "prompt": "Join the sentences using 'if'.",
+   "source": "Water the trees daily. They will grow fast.",
+   "options": [
+    "If you water the trees daily, they grew fast.",
+    "If you will water the trees daily, they will grow fast.",
+    "If you water the trees daily, they will grow fast."
+   ],
+   "answer": 2,
+   "rule": "Type 1: the if-part takes the <b>simple present</b>, not 'will': <b>If you water ...</b>"
+  },
+  {
+   "qid": "c7-14-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It was the most beautiful evening of the year.",
+    "It was most beautiful evening of the year.",
+    "It was the more beautiful evening of the year."
+   ],
+   "answer": 0,
+   "rule": "A superlative needs <b>the</b>: <b>the most beautiful evening of the year</b>."
+  },
+  {
+   "qid": "c7-14-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditional1",
+   "prompt": "Pick the correct sentence with a question tag.",
+   "options": [
+    "If it rains, the picnic will be cancelled, will it?",
+    "If it will rain, the picnic will be cancelled, won't it?",
+    "If it rains, the picnic will be cancelled, won't it?"
+   ],
+   "answer": 2,
+   "rule": "If-part in simple present. A positive sentence with <b>will</b> takes the tag <b>won't it?</b>"
+  },
+  {
+   "qid": "c7-14-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "peacock",
+    "danced",
+    "graceful",
+    "in",
+    "the",
+    "royal",
+    "courtyard."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "grace",
+      "gracefulness",
+      "gracefully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> the peacock danced, use an adverb: <b>danced gracefully</b>."
+  },
+  {
+   "qid": "c7-14-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "if_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "the",
+    "lord,",
+    "trumpeters",
+    "would",
+    "called",
+    "me",
+    "to",
+    "every",
+    "meal."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "call",
+      "calling",
+      "calls"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>would</b>, use the base verb: <b>would call</b>."
+  },
+  {
+   "qid": "c7-14-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is",
+   "after": "honey I have ever tasted.",
+   "options": [
+    "sweeter",
+    "the sweeter",
+    "the sweetest"
+   ],
+   "answer": 2,
+   "rule": "<b>... I have ever tasted</b> needs the superlative: <b>the sweetest</b>."
+  },
+  {
+   "qid": "c7-14-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "conditional1",
+   "prompt": "Fill in the gap.",
+   "before": "If Mira practises daily, she",
+   "after": "the flute well at the school show.",
+   "options": [
+    "played",
+    "will play",
+    "play"
+   ],
+   "answer": 1,
+   "rule": "Type 1: <b>if + present</b> (practises), result <b>will + base verb</b> (will play)."
+  },
+  {
+   "qid": "c7-14-37",
+   "type": "build",
+   "level": 4,
+   "topic": "if_were",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "would",
+    "Neha",
+    "do",
+    "if",
+    "she",
+    "were",
+    "queen?"
+   ],
+   "alts": [
+    [
+     "What",
+     "would",
+     "she",
+     "do",
+     "if",
+     "Neha",
+     "were",
+     "queen?"
+    ]
+   ],
+   "rule": "Question word + <b>would</b> + subject + verb ... <b>if she were</b> ...?"
+  },
+  {
+   "qid": "c7-14-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "What did you see at the zoo?"
+    ]
+   ],
+   "options": [
+    "We seen two beautiful white peacocks.",
+    "We saw two beautifuls white peacocks.",
+    "We saw two beautiful white peacocks."
+   ],
+   "answer": 2,
+   "rule": "Simple past of see is <b>saw</b>. Adjectives never take a plural <b>-s</b>: <b>beautiful</b> peacocks."
+  },
+  {
+   "qid": "c7-14-39",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few birds are as colourful as the peacock.",
+   "options": [
+    "The peacock is one of the most colourful bird.",
+    "The peacock is one of the most colourful birds.",
+    "The peacock is the most colourful birds."
+   ],
+   "answer": 1,
+   "rule": "<b>Very few ... as ... as</b> becomes <b>one of the most ...</b> + plural noun (birds)."
+  },
+  {
+   "qid": "c7-14-40",
+   "type": "change",
+   "level": 4,
+   "topic": "if_were",
+   "prompt": "Change into reported speech.",
+   "source": "Meera said, \"I will plant citron trees.\"",
+   "options": [
+    "Meera said that I would plant citron trees.",
+    "Meera said that she would plant citron trees.",
+    "Meera said that she will planted citron trees."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>she</b>, and <b>will</b> becomes <b>would</b> in reported speech."
+  },
+  {
+   "qid": "c7-14-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I were the Lord of Tartary, I would ride through the glades every morning.",
+    "If I were the Lord of Tartary, I will ride through the glades every morning.",
+    "If I were the Lord of Tartary, I would rode through the glades every morning."
+   ],
+   "answer": 0,
+   "rule": "<b>If I were</b> goes with <b>would + base verb</b>: <b>would ride</b>."
+  },
+  {
+   "qid": "c7-14-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The night sky here is far more brighter than the sky in the city.",
+    "The night sky here is far brighter than the sky in the city.",
+    "The night sky here is far brightest than the sky in the city."
+   ],
+   "answer": 1,
+   "rule": "<b>far</b> can strengthen a comparative: <b>far brighter</b>. Never use 'more' with an -er word."
+  },
+  {
+   "qid": "c7-14-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "valleys",
+    "in",
+    "Tartary,",
+    "this",
+    "purple",
+    "valley",
+    "is",
+    "the",
+    "more",
+    "peaceful."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Of all</b> the valleys = more than two, so use the superlative: <b>the most peaceful</b>."
+  },
+  {
+   "qid": "c7-14-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "conditional1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "morning",
+    "star",
+    "fades",
+    "before",
+    "we",
+    "reach",
+    "the",
+    "glade,",
+    "we",
+    "will",
+    "missed",
+    "the",
+    "sunrise."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "miss",
+      "missing",
+      "misses"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb: <b>will miss</b>."
+  },
+  {
+   "qid": "c7-14-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The lake was so",
+   "after": "that it looked like a sheet of glass.",
+   "options": [
+    "calm",
+    "calmly",
+    "calmness"
+   ],
+   "answer": 0,
+   "rule": "<b>so + adjective + that</b>: the lake was <b>so calm that</b> ..."
+  },
+  {
+   "qid": "c7-14-46",
+   "type": "build",
+   "level": 5,
+   "topic": "conditional1",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "If",
+    "the",
+    "stars",
+    "shine,",
+    "we",
+    "will",
+    "sleep",
+    "outside."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If + simple present</b> (shine), <b>will + base verb</b> (will sleep)."
+  },
+  {
+   "qid": "c7-14-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional1",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If the peacocks are not fed, they will fly away.",
+   "options": [
+    "Unless the peacocks are not fed, they will fly away.",
+    "Unless the peacocks are fed, they would flew away.",
+    "Unless the peacocks are fed, they will fly away."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> already means 'if not', so remove 'not': <b>Unless the peacocks are fed</b> ..."
+  },
+  {
+   "qid": "c7-14-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What would you do if you were a king for a day?"
+    ]
+   ],
+   "options": [
+    "If I am a king for a day, I would opened free schools.",
+    "If I were a king for a day, I would open free schools.",
+    "If I were a king for a day, I will open free schools."
+   ],
+   "answer": 1,
+   "rule": "Answer the imagined question the same way: <b>If I were ..., I would + base verb</b>."
+  },
+  {
+   "qid": "c7-14-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Is the new trumpet louder than the old one?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much more louder than the old one.",
+    "Yes, it is much louder than the old one.",
+    "Yes, it is very louder than the old one."
+   ],
+   "answer": 1,
+   "rule": "Use <b>much</b> (not 'very') to strengthen a comparative: <b>much louder</b>."
+  },
+  {
+   "qid": "c7-14-50",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "The peacock is the most beautiful bird in the court.",
+   "options": [
+    "The peacock is more beautiful than any other bird in the court.",
+    "The peacock is more beautiful than any other birds in the court.",
+    "The peacock is most beautiful than any other bird in the court."
+   ],
+   "answer": 0,
+   "rule": "Superlative to comparative: <b>more ... than any other</b> + singular noun (bird)."
+  }
+ ]
+}

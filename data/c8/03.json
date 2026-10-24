@@ -1,0 +1,1167 @@
+{
+ "class": 8,
+ "id": "03",
+ "title": "The Pilgrim",
+ "topics": [
+  {
+   "tag": "inversion",
+   "name": "Inversion (Up came the sun, Never have I ...)"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "continuous",
+   "name": "Continuous tenses (present, past, perfect continuous)"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals (must, may, should, needn't, ought to)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-03-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Here comes the bus.",
+    "Here come the bus.",
+    "Here the bus come."
+   ],
+   "answer": 0,
+   "rule": "After <b>Here</b>, the verb can come before a noun subject. <b>the bus</b> is singular: <b>Here comes the bus</b>."
+  },
+  {
+   "qid": "c8-03-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I am build a bridge for him.",
+    "I building a bridge for him.",
+    "I am building a bridge for him."
+   ],
+   "answer": 2,
+   "rule": "The present continuous is <b>am/is/are</b> + verb<b>-ing</b>: <b>I am building</b>."
+  },
+  {
+   "qid": "c8-03-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "my",
+    "brothers",
+    "is",
+    "watching",
+    "the",
+    "match",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "are",
+      "was",
+      "am"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both my brothers</b> is plural, so the present continuous uses <b>are</b>: are watching."
+  },
+  {
+   "qid": "c8-03-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "cans",
+    "ride",
+    "a",
+    "cycle",
+    "without",
+    "hands."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "can",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Modals like <b>can</b> never take <b>-s</b>, even with he/she/a name: Arjun <b>can</b> ride."
+  },
+  {
+   "qid": "c8-03-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Down the hill",
+   "after": "the old cart.",
+   "options": [
+    "rolling",
+    "roll",
+    "rolled"
+   ],
+   "answer": 2,
+   "rule": "In this inversion the verb comes before the subject. <b>the old cart</b> is singular: Down the hill <b>rolled</b> the old cart."
+  },
+  {
+   "qid": "c8-03-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "The bridge is strong,",
+   "after": "it?",
+   "options": [
+    "is",
+    "isn't",
+    "doesn't"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>is</b> takes a negative tag with <b>is</b>: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c8-03-07",
+   "type": "build",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "The",
+    "pilgrim",
+    "crossed",
+    "the",
+    "chasm,",
+    "didn't",
+    "he?"
+   ],
+   "alts": [],
+   "rule": "A positive simple past sentence takes the tag <b>didn't</b> + pronoun: <b>didn't he?</b>"
+  },
+  {
+   "qid": "c8-03-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What are you doing, Riya?"
+    ]
+   ],
+   "options": [
+    "I doing my homework.",
+    "I am do my homework.",
+    "I am doing my homework."
+   ],
+   "answer": 2,
+   "rule": "For an action happening now use <b>am</b> + verb<b>-ing</b>: <b>I am doing</b>."
+  },
+  {
+   "qid": "c8-03-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "You like cricket, don't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I does. I play every Sunday.",
+    "Yes, I am. I play every Sunday.",
+    "Yes, I do. I play every Sunday."
+   ],
+   "answer": 2,
+   "rule": "Answer a tag question with the same helper: <b>don't you?</b> - <b>Yes, I do</b>."
+  },
+  {
+   "qid": "c8-03-10",
+   "type": "change",
+   "level": 1,
+   "topic": "continuous",
+   "prompt": "Change into the present continuous tense.",
+   "source": "The old man builds a bridge.",
+   "options": [
+    "The old man is building a bridge.",
+    "The old man is build a bridge.",
+    "The old man are building a bridge."
+   ],
+   "answer": 0,
+   "rule": "Present continuous: <b>is</b> (for a singular subject) + verb<b>-ing</b>: <b>is building</b>."
+  },
+  {
+   "qid": "c8-03-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You must not waste time.",
+    "You must not to waste time.",
+    "You must not wasting time."
+   ],
+   "answer": 0,
+   "rule": "A modal is followed by the base verb without <b>to</b>: <b>must not waste</b>."
+  },
+  {
+   "qid": "c8-03-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "She can swim, can't her?",
+    "She can swim, doesn't she?",
+    "She can swim, can't she?"
+   ],
+   "answer": 2,
+   "rule": "A positive sentence takes a negative tag with the same helper: <b>can</b> - <b>can't she?</b>"
+  },
+  {
+   "qid": "c8-03-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Here",
+    "come",
+    "Grandpa",
+    "with",
+    "a",
+    "box",
+    "of",
+    "sweets!"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "coming",
+      "comes",
+      "to"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Here</b> the verb comes first and agrees with the subject after it. <b>Grandpa</b> is one person: <b>Here comes</b>."
+  },
+  {
+   "qid": "c8-03-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The children",
+   "after": "across the old bridge.",
+   "options": [
+    "run",
+    "are running",
+    "ran"
+   ],
+   "answer": 1,
+   "rule": "<b>Look!</b> shows the action is happening now, so use the present continuous: <b>are running</b>."
+  },
+  {
+   "qid": "c8-03-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "It is very late. You",
+   "after": "go home now.",
+   "options": [
+    "should",
+    "ought",
+    "must to"
+   ],
+   "answer": 0,
+   "rule": "<b>should</b> + base verb gives advice. <b>ought</b> needs <b>to</b>, and <b>must</b> never takes <b>to</b>."
+  },
+  {
+   "qid": "c8-03-16",
+   "type": "build",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Make a sentence like a line of poetry.",
+   "answer": [
+    "Across",
+    "the",
+    "chasm",
+    "walked",
+    "a",
+    "tired",
+    "pilgrim."
+   ],
+   "alts": [],
+   "rule": "Inversion: a place phrase first, then the verb, then the subject: Across the chasm <b>walked a tired pilgrim</b>."
+  },
+  {
+   "qid": "c8-03-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "Do I need to bring my own lunch tomorrow?"
+    ]
+   ],
+   "options": [
+    "No, you needn't to bring it.",
+    "No, you needn't bring it.",
+    "No, you don't need bring it."
+   ],
+   "answer": 1,
+   "rule": "<b>needn't</b> is a modal, so the base verb follows without <b>to</b>. With <b>don't need</b>, you must add <b>to</b>."
+  },
+  {
+   "qid": "c8-03-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Mala",
+     "Your school bus is late today, isn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it does. It usually comes at eight.",
+    "Yes, it is. It usually comes at eight.",
+    "Yes, it is. It usually come at eight."
+   ],
+   "answer": 1,
+   "rule": "<b>isn't it?</b> is answered with <b>it is</b>. A habit uses the simple present: <b>it comes</b>."
+  },
+  {
+   "qid": "c8-03-19",
+   "type": "change",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Add a question tag.",
+   "source": "The pilgrim was tired.",
+   "options": [
+    "The pilgrim was tired, didn't he?",
+    "The pilgrim was tired, wasn't it?",
+    "The pilgrim was tired, wasn't he?"
+   ],
+   "answer": 2,
+   "rule": "The tag repeats the helper (<b>was</b> - <b>wasn't</b>) and uses a pronoun for the subject: <b>he</b>."
+  },
+  {
+   "qid": "c8-03-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "continuous",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Look!",
+    "The",
+    "sun",
+    "is",
+    "setting",
+    "and",
+    "the",
+    "parrots",
+    "and",
+    "crows",
+    "is",
+    "flying",
+    "home.",
+    "Grandpa",
+    "is",
+    "sit",
+    "on",
+    "the",
+    "porch",
+    "and",
+    "reading",
+    "the",
+    "newspaper."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "was",
+      "am",
+      "are"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "sitting",
+      "seat",
+      "sits"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Plural subjects take <b>are</b> + <b>-ing</b> (<b>are flying</b>); the continuous always needs the <b>-ing</b> form: <b>is sitting</b>."
+  },
+  {
+   "qid": "c8-03-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Never again you will pass this way.",
+    "Never again will you passing this way.",
+    "Never again will you pass this way."
+   ],
+   "answer": 2,
+   "rule": "When a sentence starts with <b>Never</b>, the helper comes before the subject: <b>will you pass</b>."
+  },
+  {
+   "qid": "c8-03-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We have been walk since morning.",
+    "We are walking since morning.",
+    "We have been walking since morning."
+   ],
+   "answer": 2,
+   "rule": "An action that started in the past and is still going on uses <b>have been</b> + <b>-ing</b> with <b>since</b>."
+  },
+  {
+   "qid": "c8-03-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "hardly",
+    "ever",
+    "misses",
+    "school,",
+    "doesn't",
+    "she?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "does",
+      "is",
+      "isn't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>hardly</b> makes the sentence negative, so the tag is positive: <b>does she?</b>"
+  },
+  {
+   "qid": "c8-03-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Pilgrims",
+    "needn't",
+    "carries",
+    "heavy",
+    "bags",
+    "on",
+    "this",
+    "trip."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "carried",
+      "carry",
+      "carrying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a modal like <b>needn't</b>, use the base verb: <b>needn't carry</b>."
+  },
+  {
+   "qid": "c8-03-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Let's build a bridge,",
+   "after": "we?",
+   "options": [
+    "will",
+    "shall",
+    "don't"
+   ],
+   "answer": 1,
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c8-03-26",
+   "type": "build",
+   "level": 3,
+   "topic": "continuous",
+   "prompt": "Make a sentence in the present perfect continuous.",
+   "answer": [
+    "He",
+    "has",
+    "been",
+    "building",
+    "the",
+    "bridge",
+    "since",
+    "noon."
+   ],
+   "alts": [],
+   "rule": "Present perfect continuous: <b>has been</b> + verb<b>-ing</b>, with <b>since</b> + the starting time."
+  },
+  {
+   "qid": "c8-03-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Varun",
+     "Why didn't you answer my call last night?"
+    ]
+   ],
+   "options": [
+    "Sorry, I was having a bath when you called.",
+    "Sorry, I was have a bath when you called.",
+    "Sorry, I am having a bath when you called."
+   ],
+   "answer": 0,
+   "rule": "An action in progress when something else happened in the past: <b>was</b> + <b>-ing</b>: <b>I was having</b> a bath."
+  },
+  {
+   "qid": "c8-03-28",
+   "type": "change",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Rewrite beginning with 'Never'.",
+   "source": "I have never seen such a deep chasm.",
+   "options": [
+    "Never have I seen such a deep chasm.",
+    "Never I have seen such a deep chasm.",
+    "Never have I see such a deep chasm."
+   ],
+   "answer": 0,
+   "rule": "After a starting <b>Never</b>, put the helper before the subject: <b>Never have I seen</b>."
+  },
+  {
+   "qid": "c8-03-29",
+   "type": "change",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Rewrite using 'must'.",
+   "source": "It is necessary for you to finish the work today.",
+   "options": [
+    "You must finished the work today.",
+    "You must to finish the work today.",
+    "You must finish the work today."
+   ],
+   "answer": 2,
+   "rule": "<b>It is necessary</b> = <b>must</b>. A modal takes the base verb without <b>to</b>: <b>must finish</b>."
+  },
+  {
+   "qid": "c8-03-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "You",
+    "are",
+    "free",
+    "on",
+    "Sunday,",
+    "isn't",
+    "you?",
+    "Let's",
+    "go",
+    "to",
+    "the",
+    "lake",
+    "by",
+    "bus,",
+    "will",
+    "we?",
+    "The",
+    "last",
+    "bus",
+    "leaves",
+    "at",
+    "six,",
+    "so",
+    "we",
+    "must",
+    "not",
+    "be",
+    "late."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "doesn't",
+      "aren't",
+      "wasn't"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "shall",
+      "do",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>You are</b> takes the tag <b>aren't you?</b>; a <b>Let's</b> suggestion takes <b>shall we?</b>"
+  },
+  {
+   "qid": "c8-03-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A new bridge is been built across the river.",
+    "A new bridge is being built across the river.",
+    "A new bridge is building across the river."
+   ],
+   "answer": 1,
+   "rule": "Present continuous passive: <b>is being</b> + past participle: <b>is being built</b>."
+  },
+  {
+   "qid": "c8-03-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Seldom",
+    "do",
+    "we",
+    "sees",
+    "such",
+    "kindness",
+    "in",
+    "strangers."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "seen",
+      "seeing",
+      "see"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>Seldom</b> the helper <b>do</b> comes first, and <b>do</b> is followed by the base verb: <b>do we see</b>."
+  },
+  {
+   "qid": "c8-03-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "days",
+    "ago,",
+    "Ravi",
+    "has",
+    "to",
+    "leave",
+    "school",
+    "early",
+    "because",
+    "he",
+    "was",
+    "ill."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>must</b> has no past form. For a past need, use <b>had to</b>: Two days ago, Ravi <b>had to</b> leave."
+  },
+  {
+   "qid": "c8-03-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Nobody came to help the old man,",
+   "after": "they?",
+   "options": [
+    "did",
+    "didn't",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> makes the sentence negative, so the tag is positive; the simple past uses <b>did</b>: <b>did they?</b>"
+  },
+  {
+   "qid": "c8-03-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "continuous",
+   "prompt": "Fill in the gap.",
+   "before": "When the young pilgrim arrived, the old man",
+   "after": "the bridge for an hour.",
+   "options": [
+    "has been building",
+    "had been building",
+    "is building"
+   ],
+   "answer": 1,
+   "rule": "An action that went on for a time before another past action uses the past perfect continuous: <b>had been building</b>."
+  },
+  {
+   "qid": "c8-03-36",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make a sentence about a possibility.",
+   "answer": [
+    "The",
+    "young",
+    "traveller",
+    "may",
+    "fall",
+    "into",
+    "the",
+    "chasm."
+   ],
+   "alts": [],
+   "rule": "<b>may</b> + base verb shows something that is possible: may <b>fall</b>."
+  },
+  {
+   "qid": "c8-03-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "You haven't seen my whistle, have you?"
+    ]
+   ],
+   "options": [
+    "No, I haven't. Did you left it here?",
+    "No, I hasn't. Did you leave it here?",
+    "No, I haven't. Did you leave it here?"
+   ],
+   "answer": 2,
+   "rule": "Answer with the helper from the tag: <b>No, I haven't</b>. After <b>Did</b>, use the base verb: <b>leave</b>."
+  },
+  {
+   "qid": "c8-03-38",
+   "type": "change",
+   "level": 4,
+   "topic": "continuous",
+   "prompt": "Change into passive voice.",
+   "source": "The old man is building a bridge.",
+   "options": [
+    "A bridge is being built by the old man.",
+    "A bridge is built by the old man.",
+    "A bridge is been built by the old man."
+   ],
+   "answer": 0,
+   "rule": "Present continuous active becomes <b>is being</b> + past participle: <b>is being built</b>."
+  },
+  {
+   "qid": "c8-03-39",
+   "type": "change",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Rewrite beginning with 'Down'.",
+   "source": "The stream flowed down the hill.",
+   "options": [
+    "Down the hill flowed the stream.",
+    "Down the hill did flowed the stream.",
+    "Down the hill flowed it the stream."
+   ],
+   "answer": 0,
+   "rule": "Put the place phrase first, then the verb, then the subject: <b>Down the hill flowed the stream</b>."
+  },
+  {
+   "qid": "c8-03-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Find and fix the 3 errors in this advice.",
+   "words": [
+    "Pilgrims",
+    "who",
+    "travel",
+    "at",
+    "night",
+    "should",
+    "carries",
+    "a",
+    "lamp.",
+    "They",
+    "mustn't",
+    "walks",
+    "alone,",
+    "and",
+    "they",
+    "ought",
+    "to",
+    "taking",
+    "plenty",
+    "of",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "carried",
+      "carry",
+      "carrying"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 11,
+     "options": [
+      "walk",
+      "walked",
+      "walking"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "took",
+      "take",
+      "taken"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Modals take the base verb: <b>should carry</b>, <b>mustn't walk</b>, <b>ought to take</b>."
+  },
+  {
+   "qid": "c8-03-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Little did the old man knows how much the bridge would help.",
+    "Little did the old man know how much the bridge would help.",
+    "Little the old man did know how much the bridge would help."
+   ],
+   "answer": 1,
+   "rule": "After a starting <b>Little</b>, use <b>did</b> + subject + base verb: <b>Little did the old man know</b>."
+  },
+  {
+   "qid": "c8-03-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nobody",
+    "was",
+    "hurt",
+    "in",
+    "the",
+    "accident,",
+    "wasn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "was",
+      "weren't",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Nobody</b> is negative, so the tag is positive, and it uses <b>they</b> with <b>were</b>: <b>were they?</b>"
+  },
+  {
+   "qid": "c8-03-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "carry an umbrella; it isn't going to rain.",
+   "options": [
+    "needn't",
+    "mustn't to",
+    "needn't to"
+   ],
+   "answer": 0,
+   "rule": "<b>needn't</b> = it is not necessary. As a modal it takes the base verb without <b>to</b>: <b>needn't carry</b>."
+  },
+  {
+   "qid": "c8-03-44",
+   "type": "build",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Make a sentence beginning with 'Never'.",
+   "answer": [
+    "Never",
+    "had",
+    "the",
+    "fellow",
+    "seen",
+    "such",
+    "kindness."
+   ],
+   "alts": [],
+   "rule": "<b>Never</b> at the start: helper + subject + past participle: <b>Never had the fellow seen</b>."
+  },
+  {
+   "qid": "c8-03-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Kulkarni",
+     "How long have you been learning the guitar, Aditi?"
+    ]
+   ],
+   "options": [
+    "I have been learning it for two years now.",
+    "I am learning it for two years now.",
+    "I have been learn it for two years now."
+   ],
+   "answer": 0,
+   "rule": "<b>How long have you been ...?</b> is answered with <b>have been</b> + <b>-ing</b> and <b>for</b> + a length of time."
+  },
+  {
+   "qid": "c8-03-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Can I borrow your bicycle this evening?"
+    ]
+   ],
+   "options": [
+    "Sure, but you must returned it by seven.",
+    "Sure, but you must to return it by seven.",
+    "Sure, but you must return it by seven."
+   ],
+   "answer": 2,
+   "rule": "<b>must</b> + base verb, with no <b>to</b> and no past form: <b>must return</b>."
+  },
+  {
+   "qid": "c8-03-47",
+   "type": "change",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Add a question tag.",
+   "source": "Everyone enjoyed the trip.",
+   "options": [
+    "Everyone enjoyed the trip, didn't them?",
+    "Everyone enjoyed the trip, didn't they?",
+    "Everyone enjoyed the trip, wasn't it?"
+   ],
+   "answer": 1,
+   "rule": "<b>Everyone</b> takes <b>they</b> in the tag. A positive past sentence takes a negative tag: <b>didn't they?</b>"
+  },
+  {
+   "qid": "c8-03-48",
+   "type": "change",
+   "level": 5,
+   "topic": "continuous",
+   "prompt": "Change into reported speech.",
+   "source": "The old man said, \"I am building this bridge for him.\"",
+   "options": [
+    "The old man said that he were building that bridge for him.",
+    "The old man said that he was building that bridge for him.",
+    "The old man said that I was building that bridge for him."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>he</b>, <b>am building</b> becomes <b>was building</b>, and <b>this</b> becomes <b>that</b>."
+  },
+  {
+   "qid": "c8-03-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Up",
+    "the",
+    "steep",
+    "path",
+    "climbed",
+    "the",
+    "old",
+    "pilgrim.",
+    "Never",
+    "had",
+    "he",
+    "saw",
+    "such",
+    "a",
+    "deep",
+    "chasm.",
+    "Seldom",
+    "has",
+    "a",
+    "traveller",
+    "took",
+    "such",
+    "pains",
+    "for",
+    "a",
+    "stranger."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "seen",
+      "see",
+      "seeing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "take",
+      "taking",
+      "taken"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After inversion the helper still needs the past participle: <b>had he seen</b>, <b>has a traveller taken</b>."
+  },
+  {
+   "qid": "c8-03-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Kabir!",
+    "We",
+    "are",
+    "meeting",
+    "at",
+    "the",
+    "science",
+    "fair",
+    "tomorrow,",
+    "isn't",
+    "we?",
+    "I",
+    "have",
+    "been",
+    "working",
+    "on",
+    "my",
+    "robot",
+    "since",
+    "three",
+    "days.",
+    "Nobody",
+    "has",
+    "saw",
+    "it",
+    "yet,",
+    "have",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "don't",
+      "won't",
+      "aren't"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "for",
+      "from",
+      "by"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "see",
+      "seen",
+      "seeing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>We are</b> takes <b>aren't we?</b>; a length of time takes <b>for</b>; <b>has</b> needs the past participle: <b>has seen</b>."
+  }
+ ]
+}

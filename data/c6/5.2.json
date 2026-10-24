@@ -1,0 +1,1014 @@
+{
+ "class": 6,
+ "id": "5.2",
+ "title": "Autobiography of a Comb",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs (manner, time, frequency)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-5.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Yesterday Meera opens her drawer.",
+    "Yesterday Meera opening her drawer.",
+    "Yesterday Meera opened her drawer."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> shows the past, so use the simple past: <b>opened</b>."
+  },
+  {
+   "qid": "c6-5.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The comb nodded happy at Meera.",
+    "The comb nodded happiness at Meera.",
+    "The comb nodded happily at Meera."
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> the comb nodded, use an adverb of manner: <b>happily</b>."
+  },
+  {
+   "qid": "c6-5.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This comb is older than that one.",
+    "This comb is more old than that one.",
+    "This comb is oldest than that one."
+   ],
+   "answer": 0,
+   "rule": "Comparing two things with a short adjective: add <b>-er</b> and use <b>than</b>: <b>older than</b>."
+  },
+  {
+   "qid": "c6-5.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "Meera",
+    "buy",
+    "a",
+    "pink",
+    "plastic",
+    "comb."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "buys",
+      "bought",
+      "buying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last year</b> is the past. The past of <b>buy</b> is <b>bought</b>."
+  },
+  {
+   "qid": "c6-5.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "picked",
+    "up",
+    "the",
+    "comb",
+    "gentle",
+    "and",
+    "cleaned",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "gently",
+      "gentler",
+      "gentleness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The word tells <b>how</b> she picked it up, so we need the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c6-5.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Meera",
+   "after": "in her room when the comb spoke.",
+   "options": [
+    "were sitting",
+    "was sitting",
+    "is sitting"
+   ],
+   "answer": 1,
+   "rule": "An action going on in the past uses <b>was/were + -ing</b>. Meera is one person, so <b>was sitting</b>."
+  },
+  {
+   "qid": "c6-5.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "A wooden comb is",
+   "after": "than a plastic one.",
+   "options": [
+    "stronger",
+    "strongest",
+    "strong"
+   ],
+   "answer": 0,
+   "rule": "<b>Than</b> compares two things, so use the comparative form: <b>stronger</b>."
+  },
+  {
+   "qid": "c6-5.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Meera",
+    "found",
+    "an",
+    "old",
+    "brown",
+    "comb."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object: <b>Meera found an old brown comb.</b> (<b>an</b> before the vowel sound of <b>old</b>)"
+  },
+  {
+   "qid": "c6-5.2-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Where did you find this comb, Meera?"
+    ]
+   ],
+   "options": [
+    "I found it in my drawer.",
+    "I find it in my drawer.",
+    "I founded it in my drawer."
+   ],
+   "answer": 0,
+   "rule": "The question is in the past (<b>did you find</b>), so reply with the past: <b>found</b>."
+  },
+  {
+   "qid": "c6-5.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "How does your grandmother speak to you?"
+    ]
+   ],
+   "options": [
+    "She always speaks kind.",
+    "She always speaks kindly.",
+    "She always speak kindly."
+   ],
+   "answer": 1,
+   "rule": "<b>She</b> takes <b>speaks</b>, and <b>how</b> she speaks needs the adverb <b>kindly</b>."
+  },
+  {
+   "qid": "c6-5.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "People was combing their hair with fish bones.",
+    "People were combing their hair with fish bones.",
+    "People were comb their hair with fish bones."
+   ],
+   "answer": 1,
+   "rule": "<b>People</b> is plural, so use <b>were</b> + verb-<b>ing</b>: <b>were combing</b>."
+  },
+  {
+   "qid": "c6-5.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera uses always her new comb.",
+    "Meera always use her new comb.",
+    "Meera always uses her new comb."
+   ],
+   "answer": 2,
+   "rule": "Adverbs of frequency like <b>always</b> come before the main verb, and <b>Meera</b> takes <b>uses</b>."
+  },
+  {
+   "qid": "c6-5.2-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct verb.",
+   "options": [
+    "Long ago, craftsmen maked combs from wood.",
+    "Long ago, craftsmen made combs from wood.",
+    "Long ago, craftsmen make combs from wood."
+   ],
+   "answer": 1,
+   "rule": "<b>Long ago</b> is the past. <b>Make</b> is irregular: its past is <b>made</b>."
+  },
+  {
+   "qid": "c6-5.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "carved",
+    "comb",
+    "is",
+    "the",
+    "more",
+    "beautiful",
+    "of",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Of all</b> compares more than two things, so use the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c6-5.2-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "were",
+    "brushing",
+    "her",
+    "hair",
+    "when",
+    "the",
+    "comb",
+    "broke."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "was",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Meera</b> is one person and the action was in the past, so use <b>was brushing</b>."
+  },
+  {
+   "qid": "c6-5.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The old comb glided",
+   "after": "through her long hair.",
+   "options": [
+    "smooth",
+    "smoothness",
+    "smoothly"
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> the comb glided, use the adverb <b>smoothly</b>."
+  },
+  {
+   "qid": "c6-5.2-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "When I was in Grade One, I",
+   "after": "to school by bus.",
+   "options": [
+    "go",
+    "went",
+    "goes"
+   ],
+   "answer": 1,
+   "rule": "<b>When I was in Grade One</b> is the past, so use the simple past <b>went</b>."
+  },
+  {
+   "qid": "c6-5.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "was",
+    "cleaning",
+    "the",
+    "dusty",
+    "comb."
+   ],
+   "alts": [],
+   "rule": "Past continuous: subject + <b>was</b> + verb-<b>ing</b> + object."
+  },
+  {
+   "qid": "c6-5.2-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What were you doing at seven this morning?"
+    ]
+   ],
+   "options": [
+    "I was brushing my hair.",
+    "I am brushing my hair.",
+    "I were brushing my hair."
+   ],
+   "answer": 0,
+   "rule": "The question uses the past continuous, so answer with <b>I was</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-5.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Which comb do you like, the wooden one or the plastic one?"
+    ]
+   ],
+   "options": [
+    "I like the wooden one more good.",
+    "I like the wooden one gooder.",
+    "I like the wooden one better."
+   ],
+   "answer": 2,
+   "rule": "<b>Good/well</b> are irregular: the comparative is <b>better</b>, never 'more good' or 'gooder'."
+  },
+  {
+   "qid": "c6-5.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera's room is more tidier than her brother's room.",
+    "Meera's room is tidiest than her brother's room.",
+    "Meera's room is tidier than her brother's room."
+   ],
+   "answer": 2,
+   "rule": "<b>Tidy</b> becomes <b>tidier</b> (y to i + er). Never use <b>more</b> and <b>-er</b> together."
+  },
+  {
+   "qid": "c6-5.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera was cleaning the drawer when she was find the comb.",
+    "Meera cleaning the drawer when she found the comb.",
+    "Meera was cleaning the drawer when she found the comb."
+   ],
+   "answer": 2,
+   "rule": "The longer action uses <b>was cleaning</b>; the short action that happened in the middle uses the simple past <b>found</b>."
+  },
+  {
+   "qid": "c6-5.2-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "comb",
+    "chuckled",
+    "and",
+    "spoke",
+    "very",
+    "proud",
+    "about",
+    "its",
+    "family."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "proudly",
+      "prouder",
+      "pride"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The word tells <b>how</b> the comb spoke, so use the adverb <b>proudly</b>."
+  },
+  {
+   "qid": "c6-5.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Long",
+    "ago,",
+    "people",
+    "placed",
+    "combs",
+    "in",
+    "tombs",
+    "because",
+    "they",
+    "think",
+    "combs",
+    "were",
+    "treasures."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "thought",
+      "thinks",
+      "thinking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Long ago</b> and <b>placed</b> are in the past, so use <b>thought</b>."
+  },
+  {
+   "qid": "c6-5.2-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "My grandmother's wooden comb is the",
+   "after": "comb in our house.",
+   "options": [
+    "better",
+    "best",
+    "good"
+   ],
+   "answer": 1,
+   "rule": "<b>The ... in our house</b> compares one with all the others, so use the superlative <b>best</b>."
+  },
+  {
+   "qid": "c6-5.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Meera listened",
+   "after": "to the comb's long story.",
+   "options": [
+    "careful",
+    "carefully",
+    "care"
+   ],
+   "answer": 1,
+   "rule": "To describe <b>how</b> she listened, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c6-5.2-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "handle",
+    "these",
+    "old",
+    "combs",
+    "carefully."
+   ],
+   "alts": [],
+   "rule": "An adverb of manner usually comes after the object: <b>handle these old combs carefully</b>."
+  },
+  {
+   "qid": "c6-5.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "bone",
+    "harder",
+    "than",
+    "wood?"
+   ],
+   "alts": [],
+   "rule": "A yes/no question starts with <b>Is</b>; comparing two things uses <b>harder than</b>."
+  },
+  {
+   "qid": "c6-5.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did people use to comb their hair long ago?"
+    ]
+   ],
+   "options": [
+    "They used fish bones and thorns.",
+    "They were use fish bones and thorns.",
+    "They uses fish bones and thorns."
+   ],
+   "answer": 0,
+   "rule": "The question is about the past, so answer with the simple past: <b>They used</b>."
+  },
+  {
+   "qid": "c6-5.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "I called you last night. Why didn't you answer?"
+    ]
+   ],
+   "options": [
+    "Sorry, I was helping Mum in the kitchen.",
+    "Sorry, I were helping Mum in the kitchen.",
+    "Sorry, I helping Mum in the kitchen."
+   ],
+   "answer": 0,
+   "rule": "An action in progress at that past time: <b>I was helping</b>."
+  },
+  {
+   "qid": "c6-5.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday Meera found a old comb in her drawer.",
+    "Yesterday Meera found an old comb in her drawer.",
+    "Yesterday Meera finds an old comb in her drawer."
+   ],
+   "answer": 1,
+   "rule": "<b>Yesterday</b> needs the past <b>found</b>, and <b>old</b> starts with a vowel sound, so <b>an</b>."
+  },
+  {
+   "qid": "c6-5.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The comb is one of the oldest tool in the world.",
+    "The comb is one of the older tools in the world.",
+    "The comb is one of the oldest tools in the world."
+   ],
+   "answer": 2,
+   "rule": "<b>One of the</b> + superlative + <b>plural noun</b>: one of the <b>oldest tools</b>."
+  },
+  {
+   "qid": "c6-5.2-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "was",
+    "playing",
+    "in",
+    "the",
+    "garden",
+    "when",
+    "it",
+    "started",
+    "to",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "has",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Children</b> is plural, so the past continuous is <b>were playing</b>."
+  },
+  {
+   "qid": "c6-5.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera's",
+    "brother",
+    "rarely",
+    "combs",
+    "his",
+    "hair",
+    "careful",
+    "before",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "care",
+      "carefully",
+      "cared"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>How</b> he combs needs an adverb: <b>carefully</b>. <b>Rarely</b> before the verb is correct."
+  },
+  {
+   "qid": "c6-5.2-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Meera",
+   "after": "mean to forget her old comb when she bought the new one.",
+   "options": [
+    "doesn't",
+    "wasn't",
+    "didn't"
+   ],
+   "answer": 2,
+   "rule": "The time is past (<b>bought</b>), so the negative is <b>didn't</b> + base verb <b>mean</b>."
+  },
+  {
+   "qid": "c6-5.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "My grandfather's bone comb is",
+   "after": "than my mother's plastic comb.",
+   "options": [
+    "oldest",
+    "older",
+    "more older"
+   ],
+   "answer": 1,
+   "rule": "Choosing between <b>two</b> things needs the comparative: <b>older</b>."
+  },
+  {
+   "qid": "c6-5.2-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "you",
+    "keep",
+    "my",
+    "old",
+    "comb?"
+   ],
+   "alts": [],
+   "rule": "Past question: <b>Wh-word + did + subject + base verb</b>: Where did you keep ...?"
+  },
+  {
+   "qid": "c6-5.2-38",
+   "type": "build",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "was",
+    "not",
+    "using",
+    "the",
+    "old",
+    "comb."
+   ],
+   "alts": [],
+   "rule": "Negative past continuous: <b>was not</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-5.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did you put my comb back in the drawer?"
+    ]
+   ],
+   "options": [
+    "Yes, I putted it back after combing my hair.",
+    "Yes, I puts it back after combing my hair.",
+    "Yes, I put it back after combing my hair."
+   ],
+   "answer": 2,
+   "rule": "<b>Put</b> is irregular: its past form is also <b>put</b>."
+  },
+  {
+   "qid": "c6-5.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Is your comb bigger than mine?"
+    ]
+   ],
+   "options": [
+    "No, mine is smaller than your.",
+    "No, mine is smaller than yours.",
+    "No, mine is more smaller than yours."
+   ],
+   "answer": 1,
+   "rule": "Use <b>smaller than</b> (not 'more smaller'), and <b>yours</b> stands alone without a noun."
+  },
+  {
+   "qid": "c6-5.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While the craftsmen were carving the comb, the princess watched them with great interest.",
+    "While the craftsmen was carving the comb, the princess watched them with great interest.",
+    "While the craftsmen were carve the comb, the princess watched them with great interest."
+   ],
+   "answer": 0,
+   "rule": "<b>Craftsmen</b> is plural: <b>were carving</b> (were + verb-ing)."
+  },
+  {
+   "qid": "c6-5.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Plastic combs are cheaper, but wooden combs are much more stronger and last longer.",
+    "Plastic combs are cheaper, but wooden combs are much stronger and last more long.",
+    "Plastic combs are cheaper, but wooden combs are much stronger and last longer."
+   ],
+   "answer": 2,
+   "rule": "Short words take <b>-er</b>: <b>stronger</b>, <b>longer</b>. Don't add <b>more</b> to them."
+  },
+  {
+   "qid": "c6-5.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "her",
+    "new",
+    "comb",
+    "broke,",
+    "Meera",
+    "went",
+    "to",
+    "the",
+    "drawer",
+    "and",
+    "take",
+    "out",
+    "the",
+    "old",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "took",
+      "takes",
+      "taken"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Verbs joined by <b>and</b> keep the same tense: <b>went ... and took</b>."
+  },
+  {
+   "qid": "c6-5.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "comb's",
+    "ancestors",
+    "were",
+    "carved",
+    "so",
+    "beautiful",
+    "that",
+    "people",
+    "kept",
+    "them",
+    "in",
+    "museums."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "beauty",
+      "beautifully",
+      "beautify"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The word tells <b>how</b> they were carved, so use the adverb <b>beautifully</b>."
+  },
+  {
+   "qid": "c6-5.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The comb",
+   "after": "in the dark drawer while Meera was using her new pink comb.",
+   "options": [
+    "was lying",
+    "were lying",
+    "was laying"
+   ],
+   "answer": 0,
+   "rule": "Something resting somewhere <b>lies</b>; its -ing form is <b>lying</b>. <b>Laying</b> means putting something down."
+  },
+  {
+   "qid": "c6-5.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "story I have ever heard from a comb!",
+   "options": [
+    "strangest",
+    "stranger",
+    "more strange"
+   ],
+   "answer": 0,
+   "rule": "<b>The ... I have ever heard</b> compares with all others, so use the superlative <b>strangest</b>."
+  },
+  {
+   "qid": "c6-5.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "were",
+    "you",
+    "doing",
+    "when",
+    "it",
+    "rained?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>What were you doing</b> + <b>when</b> + simple past."
+  },
+  {
+   "qid": "c6-5.2-48",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "this",
+    "comb",
+    "older",
+    "than",
+    "your",
+    "grandmother's?"
+   ],
+   "alts": [],
+   "rule": "Question: <b>Is</b> + subject + <b>older than</b> + the thing compared (<b>your grandmother's</b>)."
+  },
+  {
+   "qid": "c6-5.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you enjoy the visit to the museum yesterday?"
+    ],
+    [
+     "Riya",
+     "What did you like best?"
+    ]
+   ],
+   "options": [
+    "Yes! I liked the carved combs best. They was more beautiful than any picture.",
+    "Yes! I liked the carved combs best. They were most beautiful than any picture.",
+    "Yes! I liked the carved combs best. They were more beautiful than any picture."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> takes <b>were</b>, and <b>than</b> needs the comparative <b>more beautiful</b>."
+  },
+  {
+   "qid": "c6-5.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Tell me about your journey from Grade One to Grade Six."
+    ]
+   ],
+   "options": [
+    "In Grade One, I were very shy, but slowly I made many good friends.",
+    "In Grade One, I was very shy, but slowly I made many good friends.",
+    "In Grade One, I was very shy, but slowly I make many good friends."
+   ],
+   "answer": 1,
+   "rule": "Your past school years need the past tense all through: <b>I was</b> ... <b>I made</b>."
+  }
+ ]
+}

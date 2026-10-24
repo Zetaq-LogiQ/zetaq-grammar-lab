@@ -1,0 +1,1230 @@
+{
+ "class": 8,
+ "id": "13",
+ "title": "Leisure",
+ "topics": [
+  {
+   "tag": "questions",
+   "name": "Wh- questions and yes/no questions"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  },
+  {
+   "tag": "too_so",
+   "name": "too ... to / so ... that"
+  },
+  {
+   "tag": "used_to",
+   "name": "used to / would for past habits"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-13-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Pick the correctly formed question.",
+   "options": [
+    "When does the school picnic start?",
+    "When do the school picnic start?",
+    "When the school picnic does start?"
+   ],
+   "answer": 0,
+   "rule": "In a wh- question, put <b>does</b> before a singular subject: When <b>does</b> the picnic start?"
+  },
+  {
+   "qid": "c8-13-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sheep stood beneath of the trees.",
+    "The sheep stood beneath to the trees.",
+    "The sheep stood beneath the trees."
+   ],
+   "answer": 2,
+   "rule": "<b>Beneath</b> is a preposition by itself. Don't add <b>of</b> or <b>to</b> after it."
+  },
+  {
+   "qid": "c8-13-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "used_to",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandfather",
+    "use",
+    "to",
+    "walk",
+    "in",
+    "the",
+    "park",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "using",
+      "uses",
+      "used"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For a past habit, say <b>used to</b> + base verb: he <b>used to walk</b>."
+  },
+  {
+   "qid": "c8-13-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "Aryan",
+    "stares",
+    "at",
+    "the",
+    "clouds",
+    "every",
+    "evening?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "staring",
+      "stared",
+      "stare"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>does</b>, use the base verb: Why does Aryan <b>stare</b>...?"
+  },
+  {
+   "qid": "c8-13-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "too_so",
+   "prompt": "Fill in the gap.",
+   "before": "The stream was",
+   "after": "clear that we could see the pebbles.",
+   "options": [
+    "so",
+    "too",
+    "very"
+   ],
+   "answer": 0,
+   "rule": "<b>so</b> + adjective + <b>that</b> shows a result: so clear <b>that</b> we could see."
+  },
+  {
+   "qid": "c8-13-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Squirrels hide their nuts",
+   "after": "the grass.",
+   "options": [
+    "in",
+    "of",
+    "to"
+   ],
+   "answer": 0,
+   "rule": "Things are hidden <b>in</b> the grass, inside it."
+  },
+  {
+   "qid": "c8-13-07",
+   "type": "build",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "do",
+    "the",
+    "cows",
+    "stand?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>do</b> + subject + verb: Where <b>do</b> the cows stand?"
+  },
+  {
+   "qid": "c8-13-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "used_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Joshi",
+     "What did you use to do on Sundays when you were in Class 3?"
+    ]
+   ],
+   "options": [
+    "I used to fly kites with my cousins.",
+    "I use to flying kites with my cousins.",
+    "I used to flew kites with my cousins."
+   ],
+   "answer": 0,
+   "rule": "<b>used to</b> is always followed by the base verb: used to <b>fly</b>."
+  },
+  {
+   "qid": "c8-13-09",
+   "type": "change",
+   "level": 1,
+   "topic": "too_so",
+   "prompt": "Remove 'too'.",
+   "source": "The boy is too tired to walk.",
+   "options": [
+    "The boy is so tired that he cannot walk.",
+    "The boy is so tired that he can walk.",
+    "The boy is very tired that he cannot walk."
+   ],
+   "answer": 0,
+   "rule": "<b>too ... to</b> becomes <b>so ... that</b> + a negative: so tired that he <b>cannot</b> walk."
+  },
+  {
+   "qid": "c8-13-10",
+   "type": "change",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Frame a question to get the answer 'from the terrace'.",
+   "source": "Kabir watches the sunset from the terrace.",
+   "options": [
+    "Where does Kabir watches the sunset from?",
+    "Where does Kabir watch the sunset from?",
+    "Where Kabir does watch the sunset from?"
+   ],
+   "answer": 1,
+   "rule": "After <b>does</b>, use the base verb: Where <b>does</b> Kabir <b>watch</b>...?"
+  },
+  {
+   "qid": "c8-13-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The music was too loud for us to heard the birds.",
+    "The music was too loud for us to hear the birds.",
+    "The music was too loud that we hear the birds."
+   ],
+   "answer": 1,
+   "rule": "<b>too</b> + adjective + <b>for</b> someone + <b>to</b> + base verb: too loud for us <b>to hear</b>."
+  },
+  {
+   "qid": "c8-13-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We would to sit by the lake every evening.",
+    "Did you used to read comics as a child?",
+    "We used to sit by the lake every evening."
+   ],
+   "answer": 2,
+   "rule": "Say <b>used to sit</b> or <b>would sit</b> (no 'to' after would). In questions: Did you <b>use to</b>...?"
+  },
+  {
+   "qid": "c8-13-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "stars",
+    "shine",
+    "brightly",
+    "on",
+    "the",
+    "sky",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "of",
+      "to",
+      "in"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Stars, the sun and the moon are <b>in</b> the sky."
+  },
+  {
+   "qid": "c8-13-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you ever watched a sky full of stars?",
+   "options": [
+    "Did",
+    "Has",
+    "Have"
+   ],
+   "answer": 2,
+   "rule": "<b>ever</b> + past participle (watched) needs the present perfect: <b>Have</b> you ever watched...?"
+  },
+  {
+   "qid": "c8-13-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Fill in the gap.",
+   "before": "When my father was young, he",
+   "after": "to cycle ten kilometres to school.",
+   "options": [
+    "use",
+    "used",
+    "uses"
+   ],
+   "answer": 1,
+   "rule": "A past habit in a statement takes <b>used to</b>: he <b>used to</b> cycle."
+  },
+  {
+   "qid": "c8-13-16",
+   "type": "build",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Make a sentence with 'too ... to'.",
+   "answer": [
+    "The",
+    "river",
+    "was",
+    "too",
+    "deep",
+    "to",
+    "cross."
+   ],
+   "alts": [],
+   "rule": "<b>too</b> + adjective + <b>to</b> + verb: too deep <b>to cross</b>."
+  },
+  {
+   "qid": "c8-13-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Guess what! A bird has built a nest on our balcony."
+    ]
+   ],
+   "options": [
+    "Wow! What kind of bird it is?",
+    "Wow! What kind of bird is it?",
+    "Wow! What kind of bird are it?"
+   ],
+   "answer": 1,
+   "rule": "In a direct question the verb comes before the subject: What kind of bird <b>is it</b>?"
+  },
+  {
+   "qid": "c8-13-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Where did you leave my cricket bat?"
+    ]
+   ],
+   "options": [
+    "I left it behind of the door.",
+    "I left it behind the door.",
+    "I left it behind to the door."
+   ],
+   "answer": 1,
+   "rule": "<b>behind</b> needs no extra word after it: behind the door."
+  },
+  {
+   "qid": "c8-13-19",
+   "type": "change",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Rewrite using 'used to'.",
+   "source": "As a child, Meena played in the rain every monsoon.",
+   "options": [
+    "As a child, Meena used to played in the rain every monsoon.",
+    "As a child, Meena was used to play in the rain every monsoon.",
+    "As a child, Meena used to play in the rain every monsoon."
+   ],
+   "answer": 2,
+   "rule": "Past habit: <b>used to</b> + base verb (play). 'was used to' means 'was familiar with'."
+  },
+  {
+   "qid": "c8-13-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Every",
+    "Sunday",
+    "my",
+    "grandparents",
+    "used",
+    "to",
+    "went",
+    "to",
+    "the",
+    "lake.",
+    "They",
+    "would",
+    "sit",
+    "beneath",
+    "a",
+    "tall",
+    "tree",
+    "and",
+    "feed",
+    "the",
+    "ducks.",
+    "The",
+    "ducks",
+    "grew",
+    "so",
+    "tame",
+    "that",
+    "they",
+    "eat",
+    "from",
+    "their",
+    "hands."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "going",
+      "gone",
+      "go"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "ate",
+      "eating",
+      "eaten"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>used to</b> + base verb (go). The story is in the past, so: they <b>ate</b> from their hands."
+  },
+  {
+   "qid": "c8-13-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Pick the correctly formed question.",
+   "options": [
+    "Who were you talking to on the phone?",
+    "Who you were talking to on the phone?",
+    "Who was you talking to on the phone?"
+   ],
+   "answer": 0,
+   "rule": "Helping verb before the subject, and <b>were</b> goes with <b>you</b>: Who <b>were you</b> talking to?"
+  },
+  {
+   "qid": "c8-13-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "too_so",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "path",
+    "was",
+    "too",
+    "narrow",
+    "that",
+    "we",
+    "could",
+    "not",
+    "ride",
+    "our",
+    "bikes."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "so",
+      "very",
+      "much"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>so ... that</b> with a full clause after it: so narrow <b>that</b> we could not ride."
+  },
+  {
+   "qid": "c8-13-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "used_to",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Did",
+    "your",
+    "grandmother",
+    "used",
+    "to",
+    "tell",
+    "you",
+    "stories",
+    "at",
+    "bedtime?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "uses",
+      "use",
+      "using"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>did</b>, use the base form: Did she <b>use to</b> tell...?"
+  },
+  {
+   "qid": "c8-13-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "We sat on the bench and watched the boats sail",
+   "after": "the lake.",
+   "options": [
+    "across",
+    "between",
+    "among"
+   ],
+   "answer": 0,
+   "rule": "<b>across</b> = from one side to the other. <b>between</b>/<b>among</b> need two or more things."
+  },
+  {
+   "qid": "c8-13-25",
+   "type": "build",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "does",
+    "your",
+    "family",
+    "relax",
+    "at",
+    "weekends?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>does</b> + subject + base verb: How <b>does</b> your family <b>relax</b>?"
+  },
+  {
+   "qid": "c8-13-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "too_so",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Shall we go to the hill to watch the sunrise tomorrow?"
+    ]
+   ],
+   "options": [
+    "I'd love to, but the hill is too far for us to walking.",
+    "I'd love to, but the hill is so far for us to walk.",
+    "I'd love to, but the hill is too far for us to walk."
+   ],
+   "answer": 2,
+   "rule": "<b>too</b> + adjective + <b>for us to</b> + base verb. <b>so</b> needs <b>that</b> + a clause."
+  },
+  {
+   "qid": "c8-13-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "used_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Do you still play the guitar, Sana?"
+    ]
+   ],
+   "options": [
+    "No, I use to play it, but now I don't have time.",
+    "No, I used to play it, but now I don't have time.",
+    "No, I used to playing it, but now I don't have time."
+   ],
+   "answer": 1,
+   "rule": "A habit that has stopped: I <b>used to play</b> (used + to + base verb)."
+  },
+  {
+   "qid": "c8-13-28",
+   "type": "change",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Change into a yes/no question.",
+   "source": "The poet wants us to enjoy nature.",
+   "options": [
+    "Does the poet wants us to enjoy nature?",
+    "Does the poet want us to enjoy nature?",
+    "Do the poet want us to enjoy nature?"
+   ],
+   "answer": 1,
+   "rule": "<b>Does</b> + singular subject + base verb: Does the poet <b>want</b>...?"
+  },
+  {
+   "qid": "c8-13-29",
+   "type": "change",
+   "level": 3,
+   "topic": "too_so",
+   "prompt": "Rewrite using 'too ... to'.",
+   "source": "The mangoes are so high that Riya cannot reach them.",
+   "options": [
+    "The mangoes are too high that Riya cannot reach.",
+    "The mangoes are too high to Riya reach.",
+    "The mangoes are too high for Riya to reach."
+   ],
+   "answer": 2,
+   "rule": "too + adjective + <b>for</b> someone + <b>to</b> + verb, and drop the negative: too high for Riya to reach."
+  },
+  {
+   "qid": "c8-13-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Where",
+    "does",
+    "Aarav",
+    "go",
+    "every",
+    "evening?",
+    "He",
+    "walk",
+    "to",
+    "the",
+    "lake",
+    "and",
+    "listens",
+    "on",
+    "the",
+    "birds",
+    "in",
+    "the",
+    "trees.",
+    "He",
+    "says",
+    "it",
+    "is",
+    "the",
+    "best",
+    "part",
+    "of",
+    "his",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "walking",
+      "walked",
+      "walks"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 13,
+     "options": [
+      "to",
+      "at",
+      "for"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>He walks</b> every evening (habit, singular). We <b>listen to</b> something."
+  },
+  {
+   "qid": "c8-13-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When I was little, I used to collecting shells on the beach.",
+    "When I am little, I used to collect shells on the beach.",
+    "When I was little, I used to collect shells on the beach."
+   ],
+   "answer": 2,
+   "rule": "Past time needs <b>was</b>, and <b>used to</b> takes the base verb: used to <b>collect</b>."
+  },
+  {
+   "qid": "c8-13-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Pick the correctly formed question.",
+   "options": [
+    "How long have you been waiting under this tree?",
+    "How long you have been waiting under this tree?",
+    "How long have you been wait under this tree?"
+   ],
+   "answer": 0,
+   "rule": "Present perfect continuous question: How long <b>have you been waiting</b>?"
+  },
+  {
+   "qid": "c8-13-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "family",
+    "has",
+    "lived",
+    "beside",
+    "the",
+    "river",
+    "from",
+    "ten",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "for",
+      "since",
+      "by"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With a length of time, use <b>for</b>: has lived here <b>for</b> ten years."
+  },
+  {
+   "qid": "c8-13-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "too_so",
+   "prompt": "Fill in the gap.",
+   "before": "The question was",
+   "after": "difficult that nobody in the class could answer it.",
+   "options": [
+    "such",
+    "too",
+    "so"
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> + adjective + <b>that</b>. 'such' needs a noun (such a hard question)."
+  },
+  {
+   "qid": "c8-13-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "How long",
+   "after": "you been learning the sitar, Anaya?",
+   "options": [
+    "has",
+    "have",
+    "did"
+   ],
+   "answer": 1,
+   "rule": "<b>been learning</b> needs <b>have</b> with <b>you</b>: How long <b>have</b> you been learning?"
+  },
+  {
+   "qid": "c8-13-36",
+   "type": "build",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Make a sentence about the past.",
+   "answer": [
+    "There",
+    "used",
+    "to",
+    "be",
+    "a",
+    "pond",
+    "behind",
+    "our",
+    "school."
+   ],
+   "alts": [],
+   "rule": "<b>There used to be</b> = something existed in the past but not now."
+  },
+  {
+   "qid": "c8-13-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Where were you all afternoon?"
+    ]
+   ],
+   "options": [
+    "I was sit under the neem tree, reading a book.",
+    "I was sitting under the neem tree, reading a book.",
+    "I was sitting under of the neem tree, reading a book."
+   ],
+   "answer": 1,
+   "rule": "Past continuous: <b>was sitting</b>. <b>under</b> needs no extra 'of'."
+  },
+  {
+   "qid": "c8-13-38",
+   "type": "change",
+   "level": 4,
+   "topic": "too_so",
+   "prompt": "Rewrite using 'so ... that'.",
+   "source": "Nikhil was too busy to notice the rainbow.",
+   "options": [
+    "Nikhil was so busy that he cannot notice the rainbow.",
+    "Nikhil was so busy that he could notice the rainbow.",
+    "Nikhil was so busy that he could not notice the rainbow."
+   ],
+   "answer": 2,
+   "rule": "too ... to becomes so ... that + negative, in the same tense: so busy that he <b>could not</b> notice."
+  },
+  {
+   "qid": "c8-13-39",
+   "type": "change",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Change into reported speech.",
+   "source": "Meera asked me, \"Where do you go on Sundays?\"",
+   "options": [
+    "Meera asked me where did I go on Sundays.",
+    "Meera asked me where I went on Sundays.",
+    "Meera asked me where you went on Sundays."
+   ],
+   "answer": 1,
+   "rule": "Reported question: statement word order, <b>you</b> becomes <b>I</b>, and <b>go</b> becomes <b>went</b>."
+  },
+  {
+   "qid": "c8-13-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "My",
+    "grandfather",
+    "used",
+    "to",
+    "lived",
+    "in",
+    "a",
+    "small",
+    "village.",
+    "Every",
+    "morning",
+    "he",
+    "would",
+    "walk",
+    "across",
+    "the",
+    "fields",
+    "and",
+    "sit",
+    "besides",
+    "the",
+    "river.",
+    "The",
+    "air",
+    "was",
+    "so",
+    "fresh",
+    "that",
+    "he",
+    "never",
+    "feel",
+    "tired."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "live",
+      "living",
+      "lives"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "between",
+      "beside",
+      "among"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 30,
+     "options": [
+      "feels",
+      "feeling",
+      "felt"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "used to <b>live</b>; <b>beside</b> = next to (besides = also); past story, so he never <b>felt</b> tired."
+  },
+  {
+   "qid": "c8-13-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The poem was such moving that many of us had tears in our eyes.",
+    "The poem was so moving that many of us had tears in our eyes.",
+    "The poem was too moving that many of us had tears in our eyes."
+   ],
+   "answer": 1,
+   "rule": "Adjective alone: <b>so moving that</b>. 'such' needs a noun; 'too' does not pair with 'that'."
+  },
+  {
+   "qid": "c8-13-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "many",
+    "different",
+    "birds",
+    "did",
+    "you",
+    "saw",
+    "near",
+    "the",
+    "lake",
+    "during",
+    "your",
+    "trip",
+    "to",
+    "Bharatpur?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "seen",
+      "seeing",
+      "see"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did</b>, always use the base verb: did you <b>see</b>?"
+  },
+  {
+   "qid": "c8-13-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tired",
+    "farmer",
+    "rested",
+    "on",
+    "the",
+    "shade",
+    "of",
+    "the",
+    "tamarind",
+    "tree",
+    "until",
+    "sunset."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "by",
+      "in",
+      "at"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "We rest <b>in</b> the shade, inside the shaded area."
+  },
+  {
+   "qid": "c8-13-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "used_to",
+   "prompt": "Fill in the gap.",
+   "before": "Nowadays Grandma is busy with her phone, but she",
+   "after": "spend hours watching the birds in the garden.",
+   "options": [
+    "used to",
+    "is used to",
+    "use to"
+   ],
+   "answer": 0,
+   "rule": "Old habit, now stopped: she <b>used to spend</b>. 'is used to' would need 'spending'."
+  },
+  {
+   "qid": "c8-13-45",
+   "type": "build",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Make a sentence with 'so ... that'.",
+   "answer": [
+    "The",
+    "lake",
+    "was",
+    "so",
+    "still",
+    "that",
+    "it",
+    "looked",
+    "like",
+    "glass."
+   ],
+   "alts": [],
+   "rule": "<b>so</b> + adjective + <b>that</b> + result clause: so still that it looked like glass."
+  },
+  {
+   "qid": "c8-13-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "My cousin is coming from Canada next week."
+    ]
+   ],
+   "options": [
+    "That's great! How long is she going to stay?",
+    "That's great! How long she is going to stay?",
+    "That's great! How long is she go to stay?"
+   ],
+   "answer": 0,
+   "rule": "Question order: wh- word + <b>is</b> + subject + <b>going to</b> + base verb."
+  },
+  {
+   "qid": "c8-13-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why didn't you finish the race, Arjun?"
+    ]
+   ],
+   "options": [
+    "The sun was too hot that I felt dizzy halfway through.",
+    "The sun was so hot that I feel dizzy halfway through.",
+    "The sun was so hot that I felt dizzy halfway through."
+   ],
+   "answer": 2,
+   "rule": "<b>so ... that</b> + result, and keep the past tense: so hot that I <b>felt</b> dizzy."
+  },
+  {
+   "qid": "c8-13-48",
+   "type": "change",
+   "level": 5,
+   "topic": "used_to",
+   "prompt": "Rewrite using 'would' for the past habit.",
+   "source": "Every evening, Grandpa used to tell us stories under the stars.",
+   "options": [
+    "Every evening, Grandpa would told us stories under the stars.",
+    "Every evening, Grandpa would to tell us stories under the stars.",
+    "Every evening, Grandpa would tell us stories under the stars."
+   ],
+   "answer": 2,
+   "rule": "<b>would</b> + base verb also shows a repeated past action: Grandpa <b>would tell</b> us stories."
+  },
+  {
+   "qid": "c8-13-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "How",
+    "often",
+    "do",
+    "we",
+    "notices",
+    "the",
+    "beauty",
+    "around",
+    "us?",
+    "We",
+    "rush",
+    "to",
+    "school,",
+    "checks",
+    "our",
+    "phones",
+    "and",
+    "forget",
+    "the",
+    "sky.",
+    "When",
+    "did",
+    "we",
+    "last",
+    "stopped",
+    "to",
+    "watch",
+    "the",
+    "clouds?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "notice",
+      "noticed",
+      "noticing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 13,
+     "options": [
+      "check",
+      "checking",
+      "checked"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "stopping",
+      "stop",
+      "stops"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>do</b>/<b>did</b> use the base verb (notice, stop). <b>We</b> rush and <b>check</b>."
+  },
+  {
+   "qid": "c8-13-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Last",
+    "summer,",
+    "our",
+    "family",
+    "went",
+    "on",
+    "a",
+    "picnic",
+    "to",
+    "a",
+    "farm",
+    "near",
+    "Lonavala.",
+    "We",
+    "spread",
+    "a",
+    "mat",
+    "under",
+    "a",
+    "mango",
+    "tree",
+    "and",
+    "eat",
+    "our",
+    "lunch.",
+    "Later,",
+    "we",
+    "walked",
+    "for",
+    "the",
+    "fields",
+    "and",
+    "climbed",
+    "at",
+    "a",
+    "small",
+    "hill."
+   ],
+   "errors": [
+    {
+     "i": 22,
+     "options": [
+      "eaten",
+      "ate",
+      "eats"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "across",
+      "since",
+      "of"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 33,
+     "options": [
+      "up",
+      "from",
+      "with"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past story: we <b>ate</b>. We walk <b>across</b> fields and climb <b>up</b> a hill."
+  }
+ ]
+}

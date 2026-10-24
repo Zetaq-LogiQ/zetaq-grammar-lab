@@ -1,0 +1,999 @@
+{
+ "class": 7,
+ "id": "25",
+ "title": "Papa Panov's Special Christmas",
+ "topics": [
+  {
+   "tag": "homophones",
+   "name": "Homophones used as the right part of speech"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "joining",
+   "name": "Joining sentences (and, because, so, while, who, whose)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-25-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Papa Panov new that someone would come.",
+    "Papa Panov knowed that someone would come.",
+    "Papa Panov knew that someone would come."
+   ],
+   "answer": 2,
+   "rule": "<b>knew</b> is the past tense of the verb know. <b>new</b> is an adjective (not old)."
+  },
+  {
+   "qid": "c7-25-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "They were the best shoes he had ever made.",
+    "They were the goodest shoes he had ever made.",
+    "They were the better shoes he had ever made."
+   ],
+   "answer": 0,
+   "rule": "<b>good - better - best</b>. 'Ever made' compares with all of them, so use the superlative <b>best</b>."
+  },
+  {
+   "qid": "c7-25-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Papa",
+    "Panov's",
+    "children",
+    "had",
+    "grow",
+    "up",
+    "and",
+    "gone",
+    "away."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "grew",
+      "growing",
+      "grown"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had grown up</b>."
+  },
+  {
+   "qid": "c7-25-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "road",
+    "sweeper",
+    "looked",
+    "more",
+    "miserable",
+    "then",
+    "ever."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "that",
+      "than",
+      "as"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A comparative is followed by <b>than</b>: <b>more miserable than ever</b>. 'Then' is about time."
+  },
+  {
+   "qid": "c7-25-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "Did you",
+   "after": "the church bells this morning?",
+   "options": [
+    "here",
+    "hear",
+    "heard"
+   ],
+   "answer": 1,
+   "rule": "We need a verb after <b>Did you</b>: <b>hear</b>. 'Here' tells a place."
+  },
+  {
+   "qid": "c7-25-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "The armchair was",
+   "after": "than the stool.",
+   "options": [
+    "bigger",
+    "biggest",
+    "more big"
+   ],
+   "answer": 0,
+   "rule": "Comparing two things with <b>than</b> needs the comparative: <b>bigger</b>."
+  },
+  {
+   "qid": "c7-25-07",
+   "type": "build",
+   "level": 1,
+   "topic": "joining",
+   "prompt": "Join the ideas with 'so'.",
+   "answer": [
+    "He",
+    "was",
+    "tired,",
+    "so",
+    "he",
+    "slept."
+   ],
+   "alts": [],
+   "rule": "<b>so</b> joins a reason to its result: <b>He was tired, so he slept.</b>"
+  },
+  {
+   "qid": "c7-25-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Did you see the Christmas play?"
+    ]
+   ],
+   "options": [
+    "No, it had ended before I reached the hall.",
+    "No, it had end before I reached the hall.",
+    "No, it has ended before I reached the hall."
+   ],
+   "answer": 0,
+   "rule": "The play ended first, so use the past perfect: <b>had ended</b>."
+  },
+  {
+   "qid": "c7-25-09",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Change into the comparative degree.",
+   "source": "No other shoes were as good as these.",
+   "options": [
+    "These shoes were gooder than any other shoes.",
+    "These shoes were best than any other shoes.",
+    "These shoes were better than any other shoes."
+   ],
+   "answer": 2,
+   "rule": "The comparative of good is <b>better</b>, followed by <b>than any other</b>."
+  },
+  {
+   "qid": "c7-25-10",
+   "type": "change",
+   "level": 1,
+   "topic": "joining",
+   "prompt": "Join the sentences using 'and'.",
+   "source": "Papa Panov made coffee. He gave it to the sweeper.",
+   "options": [
+    "Papa Panov made coffee and give it to the sweeper.",
+    "Papa Panov made coffee and gave it to the sweeper.",
+    "Papa Panov made coffee and gave them to the sweeper."
+   ],
+   "answer": 1,
+   "rule": "Both verbs stay in the past (<b>made ... gave</b>), and coffee is <b>it</b>."
+  },
+  {
+   "qid": "c7-25-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I no the way to the next village.",
+    "I knows the way to the next village.",
+    "I know the way to the next village."
+   ],
+   "answer": 2,
+   "rule": "<b>know</b> is the verb; <b>no</b> is a negative word. With <b>I</b>, use know (no -s)."
+  },
+  {
+   "qid": "c7-25-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The bells had start ringing before Papa Panov woke up.",
+    "The bells had started ringing before Papa Panov woke up.",
+    "The bells has started ringing before Papa Panov woke up."
+   ],
+   "answer": 1,
+   "rule": "The bells began first, so <b>had started</b>; the later action stays in the simple past."
+  },
+  {
+   "qid": "c7-25-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sweeper,",
+    "who",
+    "clothes",
+    "were",
+    "old,",
+    "was",
+    "glad",
+    "to",
+    "come",
+    "inside."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The sweeper's clothes = <b>whose clothes</b>. Use whose to show belonging."
+  },
+  {
+   "qid": "c7-25-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Papa",
+    "Panov",
+    "was",
+    "the",
+    "kinder",
+    "man",
+    "in",
+    "the",
+    "whole",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "kindness",
+      "kinds",
+      "kindest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>the ... in the whole village</b> compares with everyone, so use the superlative <b>kindest</b>."
+  },
+  {
+   "qid": "c7-25-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "Fill in the gap.",
+   "before": "The girl had no money,",
+   "after": "she could not buy shoes.",
+   "options": [
+    "because of",
+    "so",
+    "despite"
+   ],
+   "answer": 1,
+   "rule": "Having no money is the reason; not buying shoes is the result. A result clause is joined with <b>so</b>."
+  },
+  {
+   "qid": "c7-25-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "A thin light was filtering",
+   "after": "the shutters.",
+   "options": [
+    "through",
+    "threw",
+    "thorough"
+   ],
+   "answer": 0,
+   "rule": "We need a preposition: <b>through</b>. 'Threw' is the past of throw."
+  },
+  {
+   "qid": "c7-25-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "had",
+    "walked",
+    "from",
+    "the",
+    "next",
+    "village."
+   ],
+   "alts": [],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had walked</b>."
+  },
+  {
+   "qid": "c7-25-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Is Pune colder than Mumbai in December?"
+    ]
+   ],
+   "options": [
+    "Yes, Pune is much more colder than Mumbai.",
+    "Yes, Pune is much colder than Mumbai.",
+    "Yes, Pune is much coldest than Mumbai."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives add -er: <b>colder</b>. Never use 'more' with an -er word."
+  },
+  {
+   "qid": "c7-25-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neighbour",
+     "Is anybody at home?"
+    ]
+   ],
+   "options": [
+    "Yes, I am hear. Please come in.",
+    "Yes, I am here. Please come in.",
+    "Yes, I is here. Please come in."
+   ],
+   "answer": 1,
+   "rule": "<b>here</b> tells the place; <b>hear</b> is a verb (listen). With <b>I</b>, use <b>am</b>."
+  },
+  {
+   "qid": "c7-25-20",
+   "type": "change",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "Join the sentences using 'because'.",
+   "source": "The girl was walking to the next village. She needed work.",
+   "options": [
+    "The girl was walking to the next village because she need work.",
+    "The girl was walking to the next village because her needed work.",
+    "The girl was walking to the next village because she needed work."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> joins the reason; keep the subject pronoun <b>she</b> and the past tense <b>needed</b>."
+  },
+  {
+   "qid": "c7-25-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The further he read, the sleepier he became.",
+    "The further he read, the sleepiest he became.",
+    "The further he read, more sleepy he became."
+   ],
+   "answer": 0,
+   "rule": "In <b>the ... the ...</b> sentences both parts use the comparative: <b>the further ... the sleepier</b>."
+  },
+  {
+   "qid": "c7-25-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When the girl arrived, Papa Panov had already gave coffee to the sweeper.",
+    "When the girl arrived, Papa Panov had already given coffee to the sweeper.",
+    "When the girl arrived, Papa Panov has already given coffee to the sweeper."
+   ],
+   "answer": 1,
+   "rule": "The earlier action takes <b>had + past participle</b>: <b>had already given</b>."
+  },
+  {
+   "qid": "c7-25-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Papa",
+    "Panov",
+    "remembered",
+    "the",
+    "shoes",
+    "that",
+    "he",
+    "had",
+    "look",
+    "at",
+    "the",
+    "night",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "looking",
+      "looks",
+      "looked"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had</b> is followed by the past participle: <b>had looked</b>."
+  },
+  {
+   "qid": "c7-25-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "joining",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Papa",
+    "Panov",
+    "fed",
+    "the",
+    "baby",
+    "while",
+    "her",
+    "mother",
+    "rest",
+    "by",
+    "the",
+    "fire."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "rested",
+      "rests",
+      "resting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both actions happened at the same past time, so both are in the past: <b>fed ... while ... rested</b>."
+  },
+  {
+   "qid": "c7-25-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "He watched the street the",
+   "after": "day.",
+   "options": [
+    "hole",
+    "wholly",
+    "whole"
+   ],
+   "answer": 2,
+   "rule": "We need an adjective before <b>day</b>: <b>whole</b> (all of it). 'Hole' is a noun."
+  },
+  {
+   "qid": "c7-25-26",
+   "type": "build",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "was",
+    "his",
+    "happiest",
+    "Christmas",
+    "ever."
+   ],
+   "alts": [],
+   "rule": "The superlative <b>happiest</b> comes before the noun; <b>ever</b> closes the sentence."
+  },
+  {
+   "qid": "c7-25-27",
+   "type": "build",
+   "level": 3,
+   "topic": "joining",
+   "prompt": "Join the ideas with 'because'.",
+   "answer": [
+    "He",
+    "went",
+    "indoors",
+    "because",
+    "it",
+    "was",
+    "cold."
+   ],
+   "alts": [],
+   "rule": "<b>because</b> introduces the reason: <b>because it was cold</b>."
+  },
+  {
+   "qid": "c7-25-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Why didn't you buy the cake?"
+    ]
+   ],
+   "options": [
+    "The shop had closed by the time I got there.",
+    "The shop had close by the time I got there.",
+    "The shop has closed by the time I got there."
+   ],
+   "answer": 0,
+   "rule": "<b>By the time</b> + past points to an earlier action: <b>had closed</b>."
+  },
+  {
+   "qid": "c7-25-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "joining",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "Why are you wearing a sweater?"
+    ]
+   ],
+   "options": [
+    "I am wearing it because it is cold today.",
+    "I am wearing it because it cold today.",
+    "I am wearing it because it are cold today."
+   ],
+   "answer": 0,
+   "rule": "The reason after <b>because</b> needs a full clause: <b>it is cold</b>."
+  },
+  {
+   "qid": "c7-25-30",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'Before'.",
+   "source": "Papa Panov gave the baby a pair of shoes. Then the girl left.",
+   "options": [
+    "Before the girl left, Papa Panov had given her baby a pair of shoes.",
+    "Before the girl left, Papa Panov has given her baby a pair of shoes.",
+    "Before the girl left, Papa Panov had gave her baby a pair of shoes."
+   ],
+   "answer": 0,
+   "rule": "The earlier action takes <b>had given</b>; the later one stays in the simple past <b>left</b>."
+  },
+  {
+   "qid": "c7-25-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya through the old box away and bought a new one.",
+    "Riya threw the old box away and bought a new one.",
+    "Riya threw the old box away and bought a knew one."
+   ],
+   "answer": 1,
+   "rule": "<b>threw</b> = past of throw (a verb); <b>new</b> = adjective. 'Through' and 'knew' don't fit."
+  },
+  {
+   "qid": "c7-25-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "It was one of the coldest days of the winter.",
+    "It was one of the coldest day of the winter.",
+    "It was one of the colder days of the winter."
+   ],
+   "answer": 0,
+   "rule": "<b>one of the</b> + superlative + <b>plural noun</b>: <b>one of the coldest days</b>."
+  },
+  {
+   "qid": "c7-25-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "shoes",
+    "had",
+    "been",
+    "keep",
+    "in",
+    "a",
+    "small,",
+    "dusty",
+    "box."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "keeping",
+      "kept",
+      "keeps"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect passive = <b>had been + past participle</b>: <b>had been kept</b>."
+  },
+  {
+   "qid": "c7-25-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sweeper",
+    "was",
+    "very",
+    "more",
+    "grateful",
+    "than",
+    "he",
+    "could",
+    "say."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We strengthen a comparative with <b>much</b> (or far), never with 'very': <b>much more grateful</b>."
+  },
+  {
+   "qid": "c7-25-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "joining",
+   "prompt": "Fill in the gap.",
+   "before": "He saw a young mother",
+   "after": "baby had no shoes.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 1,
+   "rule": "The mother's baby = <b>whose baby</b>. Use whose to show belonging."
+  },
+  {
+   "qid": "c7-25-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "By evening, Papa Panov",
+   "after": "many visitors, but not the one he expected.",
+   "options": [
+    "has met",
+    "meets",
+    "had met"
+   ],
+   "answer": 2,
+   "rule": "<b>By evening</b> (a past time) takes the past perfect: <b>had met</b>."
+  },
+  {
+   "qid": "c7-25-37",
+   "type": "build",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Nothing",
+    "is",
+    "more",
+    "precious",
+    "than",
+    "kindness."
+   ],
+   "alts": [],
+   "rule": "Long adjectives form the comparative with <b>more</b>: <b>more precious than</b>."
+  },
+  {
+   "qid": "c7-25-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Leela",
+     "Do you know the new boy in your class?"
+    ]
+   ],
+   "options": [
+    "Yes, I no him. He is very friendly.",
+    "Yes, I know him. He is very friendly.",
+    "Yes, I knows him. He is very friendly."
+   ],
+   "answer": 1,
+   "rule": "The verb is <b>know</b> (no -s with I). 'No' is not a verb."
+  },
+  {
+   "qid": "c7-25-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Who is the fastest runner in your team?"
+    ]
+   ],
+   "options": [
+    "Meera is the faster of us all.",
+    "Meera is the most fastest of us all.",
+    "Meera is the fastest of us all."
+   ],
+   "answer": 2,
+   "rule": "Comparing with the whole group needs the superlative <b>fastest</b>, never 'most fastest'."
+  },
+  {
+   "qid": "c7-25-40",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Change into the positive degree.",
+   "source": "Papa Panov was the kindest man in the village.",
+   "options": [
+    "No other man in the village was so kinder as Papa Panov.",
+    "No other man in the village were as kind as Papa Panov.",
+    "No other man in the village was as kind as Papa Panov."
+   ],
+   "answer": 2,
+   "rule": "Superlative -> positive: <b>No other ... was as kind as ...</b> (positive form <b>kind</b>)."
+  },
+  {
+   "qid": "c7-25-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although he was disappointed, but Papa Panov kept watching the street.",
+    "Although he disappointed, Papa Panov kept watching the street.",
+    "Although he was disappointed, Papa Panov kept watching the street."
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> already joins the two parts, so don't add 'but'. 'He was disappointed' needs <b>was</b>."
+  },
+  {
+   "qid": "c7-25-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Papa Panov realised that he had seen his visitor many times that day.",
+    "Papa Panov realised that he has seen his visitor many times that day.",
+    "Papa Panov realised that he had saw his visitor many times that day."
+   ],
+   "answer": 0,
+   "rule": "The seeing came before the realising: <b>had seen</b> (had + past participle)."
+  },
+  {
+   "qid": "c7-25-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "young",
+    "mother,",
+    "which",
+    "had",
+    "walked",
+    "for",
+    "miles,",
+    "sank",
+    "into",
+    "the",
+    "armchair."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "whose",
+      "who",
+      "whom"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The mother is a person and the subject of <b>had walked</b>, so use <b>who</b>."
+  },
+  {
+   "qid": "c7-25-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "Papa",
+    "Panov",
+    "opened",
+    "the",
+    "door",
+    "than",
+    "the",
+    "cold",
+    "air",
+    "rush",
+    "in."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "rushed",
+      "rushing",
+      "rushes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>No sooner had ... than</b> + simple past: <b>than the cold air rushed in</b>."
+  },
+  {
+   "qid": "c7-25-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the people he helped, the baby was the",
+   "after": "one.",
+   "options": [
+    "youngest",
+    "younger",
+    "more young"
+   ],
+   "answer": 0,
+   "rule": "<b>Of all</b> compares with more than two, so use the superlative <b>youngest</b>."
+  },
+  {
+   "qid": "c7-25-46",
+   "type": "build",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "shoes",
+    "that",
+    "he",
+    "had",
+    "kept",
+    "fitted",
+    "the",
+    "baby."
+   ],
+   "alts": [],
+   "rule": "<b>that he had kept</b> describes <b>the shoes</b> and comes right after them."
+  },
+  {
+   "qid": "c7-25-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Did you enjoy the story session at the library yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes! Until yesterday, I have never heard such a lovely story.",
+    "Yes! Until yesterday, I had never hear such a lovely story.",
+    "Yes! Until yesterday, I had never heard such a lovely story."
+   ],
+   "answer": 2,
+   "rule": "<b>Until yesterday</b> points to a time before a past moment, so use the past perfect: <b>had never heard</b>."
+  },
+  {
+   "qid": "c7-25-48",
+   "type": "change",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "Papa Panov was a shoemaker. He lived alone in a little village.",
+   "options": [
+    "Papa Panov, who he lived alone in a little village, was a shoemaker.",
+    "Papa Panov, who lived alone in a little village, was a shoemaker.",
+    "Papa Panov, which lived alone in a little village, was a shoemaker."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces <b>he</b>, so don't keep both; use who, not which, for a person."
+  },
+  {
+   "qid": "c7-25-49",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few villagers were as kind as Papa Panov.",
+   "options": [
+    "Papa Panov was one of the kindest villager.",
+    "Papa Panov was one of the kindest villagers.",
+    "Papa Panov was one of the kinder villagers."
+   ],
+   "answer": 1,
+   "rule": "<b>Very few ... as kind as</b> -> <b>one of the kindest</b> + plural noun."
+  },
+  {
+   "qid": "c7-25-50",
+   "type": "change",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "Join the sentences using 'As soon as'.",
+   "source": "Papa Panov saw the beggars. He hurried indoors to fetch soup.",
+   "options": [
+    "As soon as Papa Panov saw the beggars, he hurry indoors to fetch soup.",
+    "As soon as Papa Panov saw the beggars, he hurried indoors to fetch soup.",
+    "As soon as Papa Panov saw the beggars, so he hurried indoors to fetch soup."
+   ],
+   "answer": 1,
+   "rule": "<b>As soon as</b> joins the two actions; no 'so' is added, and both verbs stay in the past."
+  }
+ ]
+}

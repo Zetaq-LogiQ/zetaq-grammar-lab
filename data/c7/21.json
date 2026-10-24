@@ -1,0 +1,997 @@
+{
+ "class": 7,
+ "id": "21",
+ "title": "Unke Munke Timpetoo",
+ "topics": [
+  {
+   "tag": "adj_suffix",
+   "name": "Adjectives from nouns and verbs (harmless, fearful, courageous)"
+  },
+  {
+   "tag": "affixes",
+   "name": "Prefixes and suffixes (un-, dis-, -ship, -ness, -ly)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect (had asked, had climbed)"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  },
+  {
+   "tag": "modals_mw",
+   "name": "Modals might / would (Would you mind ...?)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-21-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adj_suffix",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Muk gave a thoughtfully smile.",
+    "Muk gave a thoughtful smile.",
+    "Muk gave a thoughts smile."
+   ],
+   "answer": 1,
+   "rule": "A noun (<b>smile</b>) is described by an adjective: thought + ful = <b>thoughtful</b>."
+  },
+  {
+   "qid": "c7-21-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "affixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rohan untied the strings impatience.",
+    "Rohan untieing the strings impatiently.",
+    "Rohan untied the strings impatiently."
+   ],
+   "answer": 2,
+   "rule": "To tell how he untied them, add the suffix -ly: <b>impatiently</b>."
+  },
+  {
+   "qid": "c7-21-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adj_suffix",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mrs",
+    "Groover",
+    "was",
+    "a",
+    "very",
+    "courage",
+    "lady."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "courageously",
+      "courageous",
+      "courages"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "We need an adjective before <b>lady</b>: courage + ous = <b>courageous</b>."
+  },
+  {
+   "qid": "c7-21-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bus",
+    "had",
+    "already",
+    "leave",
+    "when",
+    "we",
+    "reached",
+    "the",
+    "stop."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "left",
+      "leaving",
+      "leaves"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past perfect = <b>had</b> + past participle: <b>had already left</b>."
+  },
+  {
+   "qid": "c7-21-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals_mw",
+   "prompt": "Fill in the gap.",
+   "before": "Would you mind",
+   "after": "the window, please?",
+   "options": [
+    "opening",
+    "to open",
+    "open"
+   ],
+   "answer": 0,
+   "rule": "<b>Would you mind</b> is followed by the -ing form: <b>opening</b>."
+  },
+  {
+   "qid": "c7-21-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adj_suffix",
+   "prompt": "Fill in the gap.",
+   "before": "Don't worry, it is a",
+   "after": "game.",
+   "options": [
+    "harmless",
+    "harm",
+    "harmfully"
+   ],
+   "answer": 0,
+   "rule": "Before the noun <b>game</b> we need an adjective: harm + less = <b>harmless</b>."
+  },
+  {
+   "qid": "c7-21-07",
+   "type": "build",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Make a sentence in the past perfect.",
+   "answer": [
+    "I",
+    "had",
+    "never",
+    "received",
+    "such",
+    "a",
+    "big",
+    "parcel."
+   ],
+   "alts": [],
+   "rule": "<b>Had never received</b> = had + never + past participle."
+  },
+  {
+   "qid": "c7-21-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals_mw",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Muk",
+     "Should we try the chant tonight?"
+    ]
+   ],
+   "options": [
+    "It might help. Let's try it.",
+    "It might helps. Let's try it.",
+    "It might to help. Let's try it."
+   ],
+   "answer": 0,
+   "rule": "<b>Might</b> shows possibility and takes the base verb without <b>to</b>: <b>might help</b>."
+  },
+  {
+   "qid": "c7-21-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did Muk say?"
+    ]
+   ],
+   "options": [
+    "He said that he have no secret wish.",
+    "He said that he having no secret wish.",
+    "He said that he had no secret wish."
+   ],
+   "answer": 2,
+   "rule": "After <b>said</b>, the present <b>have</b> becomes the past <b>had</b>."
+  },
+  {
+   "qid": "c7-21-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Rohan said, \"I want a table tennis set.\"",
+   "options": [
+    "Rohan said that he wanted a table tennis set.",
+    "Rohan said that I wanted a table tennis set.",
+    "Rohan said that he wanting a table tennis set."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b> and <b>want</b> becomes <b>wanted</b>."
+  },
+  {
+   "qid": "c7-21-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When we reached the garden, Muk had already climb the wall.",
+    "When we reached the garden, Muk had already climbed the wall.",
+    "When we reached the garden, Muk has already climbed the wall."
+   ],
+   "answer": 1,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had already climbed</b>."
+  },
+  {
+   "qid": "c7-21-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adj_suffix",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dark garden looked mystery at night.",
+    "The dark garden looked mysteriously at night.",
+    "The dark garden looked mysterious at night."
+   ],
+   "answer": 2,
+   "rule": "After <b>looked</b> (meaning seemed) we use an adjective: <b>mysterious</b>."
+  },
+  {
+   "qid": "c7-21-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "affixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Muk",
+    "and",
+    "Rohan",
+    "shared",
+    "a",
+    "long",
+    "and",
+    "happy",
+    "friend",
+    "with",
+    "Mrs",
+    "Groover."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "friendship",
+      "friendly",
+      "friendless"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We need a noun for the relationship: friend + ship = <b>friendship</b>."
+  },
+  {
+   "qid": "c7-21-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals_mw",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "feared",
+    "that",
+    "she",
+    "might",
+    "not",
+    "believes",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "believed",
+      "believing",
+      "believe"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>might not</b> use the base verb: <b>believe</b>."
+  },
+  {
+   "qid": "c7-21-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Mrs Groover asked Rohan if he",
+   "after": "in the chant.",
+   "options": [
+    "believed",
+    "believe",
+    "believing"
+   ],
+   "answer": 0,
+   "rule": "After the past verb <b>asked</b>, the reported verb moves to the past: <b>he believed</b>."
+  },
+  {
+   "qid": "c7-21-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "affixes",
+   "prompt": "Fill in the gap.",
+   "before": "Rohan",
+   "after": "opened the parcel and found a table tennis set.",
+   "options": [
+    "eager",
+    "eagerly",
+    "eagerness"
+   ],
+   "answer": 1,
+   "rule": "The suffix -ly makes an adverb: eager + ly = <b>eagerly</b>. It tells how he opened it."
+  },
+  {
+   "qid": "c7-21-17",
+   "type": "build",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "Muk",
+    "said",
+    "that",
+    "his",
+    "cousin",
+    "knew",
+    "a",
+    "chant."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + past verb: <b>his cousin knew</b>."
+  },
+  {
+   "qid": "c7-21-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Muk",
+     "Why didn't you watch the match with us yesterday?"
+    ]
+   ],
+   "options": [
+    "By the time I got home, it has already ended.",
+    "By the time I got home, it had already end.",
+    "By the time I got home, it had already ended."
+   ],
+   "answer": 2,
+   "rule": "The match ended before I got home, so use the past perfect: <b>had already ended</b> (had + past participle)."
+  },
+  {
+   "qid": "c7-21-19",
+   "type": "change",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'after'.",
+   "source": "The boys climbed the wall. Then they jumped into the garden.",
+   "options": [
+    "After the boys had climb the wall, they jumped into the garden.",
+    "After the boys had climbed the wall, they jumped into the garden.",
+    "After the boys have climbed the wall, they jumped into the garden."
+   ],
+   "answer": 1,
+   "rule": "The first action takes the past perfect: <b>had climbed</b>; the second stays simple past."
+  },
+  {
+   "qid": "c7-21-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Muk said, \"I don't believe in charms.\"",
+   "options": [
+    "Muk said that he didn't believe in charms.",
+    "Muk said that he doesn't believed in charms.",
+    "Muk said that I didn't believe in charms."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b>, and <b>don't believe</b> becomes <b>didn't believe</b>."
+  },
+  {
+   "qid": "c7-21-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "affixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children were unhappy and disappoint.",
+    "The children were unhappy and disappointed.",
+    "The children were unhappily and disappointed."
+   ],
+   "answer": 1,
+   "rule": "After <b>were</b> use adjectives: <b>unhappy</b> (un + happy) and <b>disappointed</b>."
+  },
+  {
+   "qid": "c7-21-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals_mw",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Would you mind to close the gate?",
+    "Would you minding closing the gate?",
+    "Would you mind closing the gate?"
+   ],
+   "answer": 2,
+   "rule": "<b>Would you mind</b> + -ing form is a polite request: <b>closing</b>."
+  },
+  {
+   "qid": "c7-21-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adj_suffix",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "boys",
+    "were",
+    "fear",
+    "of",
+    "the",
+    "big",
+    "dog."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "fearfully",
+      "fearful",
+      "fearing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>were</b> we need an adjective: fear + ful = <b>fearful</b> (of)."
+  },
+  {
+   "qid": "c7-21-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "Rohan",
+    "had",
+    "finished",
+    "the",
+    "rounds,",
+    "he",
+    "leave",
+    "the",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "leaves",
+      "leaving",
+      "left"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a past perfect clause, the later action is in the simple past: <b>left</b>."
+  },
+  {
+   "qid": "c7-21-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "By the time Mrs Groover came out, Muk",
+   "after": "up the banyan tree.",
+   "options": [
+    "has climbed",
+    "climbing",
+    "had climbed"
+   ],
+   "answer": 2,
+   "rule": "<b>By the time</b> + past: the earlier action takes the past perfect: <b>had climbed</b>."
+  },
+  {
+   "qid": "c7-21-26",
+   "type": "build",
+   "level": 3,
+   "topic": "adj_suffix",
+   "prompt": "Make a sentence describing a person.",
+   "answer": [
+    "Mrs",
+    "Groover",
+    "was",
+    "kind",
+    "and",
+    "thoughtful."
+   ],
+   "alts": [],
+   "rule": "After <b>was</b> we use adjectives: <b>kind</b> and <b>thoughtful</b> (thought + ful)."
+  },
+  {
+   "qid": "c7-21-27",
+   "type": "build",
+   "level": 3,
+   "topic": "modals_mw",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Would",
+    "you",
+    "mind",
+    "using",
+    "the",
+    "front",
+    "gate?"
+   ],
+   "alts": [],
+   "rule": "<b>Would you mind</b> + -ing form makes a polite request."
+  },
+  {
+   "qid": "c7-21-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "adj_suffix",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How was the magic show?"
+    ]
+   ],
+   "options": [
+    "It was wonderful! I loved it.",
+    "It was wonder! I loved it.",
+    "It was wonderfully! I loved it."
+   ],
+   "answer": 0,
+   "rule": "After <b>was</b> we need an adjective: wonder + ful = <b>wonderful</b>."
+  },
+  {
+   "qid": "c7-21-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Mrs Groover said, \"I make the best cookies.\"",
+   "options": [
+    "Mrs Groover said that I made the best cookies.",
+    "Mrs Groover said that she make the best cookies.",
+    "Mrs Groover said that she made the best cookies."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b> and <b>make</b> becomes <b>made</b>."
+  },
+  {
+   "qid": "c7-21-30",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'before'.",
+   "source": "Rohan finished his rounds. Then he left through the front gate.",
+   "options": [
+    "Rohan has finished his rounds before he left through the front gate.",
+    "Rohan had finished his rounds before he leaves through the front gate.",
+    "Rohan had finished his rounds before he left through the front gate."
+   ],
+   "answer": 2,
+   "rule": "The earlier action takes <b>had finished</b>; the later one stays simple past: <b>left</b>."
+  },
+  {
+   "qid": "c7-21-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "affixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Their friendship grow stronger every week.",
+    "Their friendship grew stronger every week.",
+    "Their friendly grew stronger every week."
+   ],
+   "answer": 1,
+   "rule": "<b>Friendship</b> (friend + ship) is a singular noun, so use <b>grew</b>, not grow."
+  },
+  {
+   "qid": "c7-21-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rohan told Muk that he would never return.",
+    "Rohan told to Muk that he would never return.",
+    "Rohan told Muk that he would never returned."
+   ],
+   "answer": 0,
+   "rule": "<b>Told</b> takes a person directly (no <b>to</b>), and <b>would</b> takes the base verb."
+  },
+  {
+   "qid": "c7-21-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adj_suffix",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "It",
+    "was",
+    "the",
+    "most",
+    "wonder",
+    "gift",
+    "that",
+    "Rohan",
+    "had",
+    "ever",
+    "received."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "wonderful",
+      "wonderfully",
+      "wondering"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The most</b> + adjective: <b>the most wonderful</b> gift."
+  },
+  {
+   "qid": "c7-21-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals_mw",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Muk",
+    "said",
+    "that",
+    "the",
+    "chant",
+    "would",
+    "not",
+    "did",
+    "any",
+    "harm."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "do",
+      "done",
+      "doing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>would not</b> we use the base verb: <b>would not do</b>."
+  },
+  {
+   "qid": "c7-21-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "adj_suffix",
+   "prompt": "Fill in the gap.",
+   "before": "The table tennis set was not new, but it was in",
+   "after": "condition.",
+   "options": [
+    "excellence",
+    "excellent",
+    "excellently"
+   ],
+   "answer": 1,
+   "rule": "Before the noun <b>condition</b> we need an adjective: <b>excellent</b>."
+  },
+  {
+   "qid": "c7-21-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Rohan's mother asked him who",
+   "after": "sent the big parcel.",
+   "options": [
+    "have",
+    "had",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "In a reported question about an earlier action, use the past perfect: <b>who had sent</b>."
+  },
+  {
+   "qid": "c7-21-37",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Make a sentence in the past perfect.",
+   "answer": [
+    "Rohan",
+    "had",
+    "gone",
+    "over",
+    "his",
+    "lines",
+    "many",
+    "times."
+   ],
+   "alts": [],
+   "rule": "<b>Had gone over</b> = had + past participle of the phrasal verb <b>go over</b>."
+  },
+  {
+   "qid": "c7-21-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals_mw",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Groover",
+     "Would you like some tea and cookies?"
+    ]
+   ],
+   "options": [
+    "Yes, please. That would being lovely.",
+    "Yes, please. That would is lovely.",
+    "Yes, please. That would be lovely."
+   ],
+   "answer": 2,
+   "rule": "<b>Would</b> is followed by the base verb: <b>would be</b>."
+  },
+  {
+   "qid": "c7-21-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Muk",
+     "What did Mrs Groover tell you?"
+    ]
+   ],
+   "options": [
+    "She told me that she has wish for a visitor.",
+    "She told me that she had wished for a visitor.",
+    "She said me that she had wished for a visitor."
+   ],
+   "answer": 1,
+   "rule": "Use <b>told me</b> (not said me) and the past perfect <b>had wished</b> for the earlier wish."
+  },
+  {
+   "qid": "c7-21-40",
+   "type": "change",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Change into a question.",
+   "source": "Muk had climbed up the tree.",
+   "options": [
+    "Did Muk had climbed up the tree?",
+    "Had Muk climb up the tree?",
+    "Had Muk climbed up the tree?"
+   ],
+   "answer": 2,
+   "rule": "Move <b>Had</b> to the front and keep the past participle: <b>Had Muk climbed</b>."
+  },
+  {
+   "qid": "c7-21-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "affixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rohan felt so nervous that he spoke awkwardly and stammered.",
+    "Rohan felt so nervous that he spoke careless and stammered.",
+    "Rohan felt so nervously that he spoke awkwardly and stammered."
+   ],
+   "answer": 0,
+   "rule": "<b>Felt</b> takes an adjective (<b>nervous</b>); <b>spoke</b> takes an adverb with -ly (<b>awkwardly</b>)."
+  },
+  {
+   "qid": "c7-21-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Rohan wondered for a long time who have sent the fabulous gift.",
+    "Rohan wondered for a long time who had sent the fabulous gift.",
+    "Rohan wondered for a long time who had send the fabulous gift."
+   ],
+   "answer": 1,
+   "rule": "The sending happened before the wondering: <b>had sent</b> (had + past participle)."
+  },
+  {
+   "qid": "c7-21-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "told",
+    "his",
+    "mother",
+    "that",
+    "he",
+    "had",
+    "never",
+    "saw",
+    "such",
+    "a",
+    "big",
+    "parcel",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "seen",
+      "see",
+      "seeing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In reported speech, <b>had</b> needs the past participle: <b>had never seen</b>."
+  },
+  {
+   "qid": "c7-21-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "affixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mrs",
+    "Groover's",
+    "sudden",
+    "kind",
+    "surprised",
+    "the",
+    "two",
+    "boys."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "kindness",
+      "kindly",
+      "kinder"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>Mrs Groover's sudden</b> we need a noun: kind + ness = <b>kindness</b>."
+  },
+  {
+   "qid": "c7-21-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals_mw",
+   "prompt": "Fill in the gap.",
+   "before": "Rohan was worried that the dog",
+   "after": "bite him, so he begged Mrs Groover to hold it.",
+   "options": [
+    "ought",
+    "would to",
+    "might"
+   ],
+   "answer": 2,
+   "rule": "<b>Might</b> + base verb shows a possibility. <b>Ought</b> needs <b>to</b>, and <b>would</b> never takes <b>to</b>."
+  },
+  {
+   "qid": "c7-21-46",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "him",
+    "why",
+    "he",
+    "was",
+    "in",
+    "her",
+    "garden."
+   ],
+   "alts": [],
+   "rule": "A reported question keeps statement order: <b>why he was</b>, not why was he."
+  },
+  {
+   "qid": "c7-21-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "adj_suffix",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Did you like Mrs Groover in the end?"
+    ]
+   ],
+   "options": [
+    "Yes, she was really friend and helpful.",
+    "Yes, she was really friendly and helpfully.",
+    "Yes, she was really friendly and helpful."
+   ],
+   "answer": 2,
+   "rule": "After <b>was</b> use adjectives: <b>friendly</b> and <b>helpful</b> (help + ful)."
+  },
+  {
+   "qid": "c7-21-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why didn't you eat anything at the party?"
+    ]
+   ],
+   "options": [
+    "I have already eaten at home, so I wasn't hungry.",
+    "I had already eaten at home, so I wasn't hungry.",
+    "I had already ate at home, so I wasn't hungry."
+   ],
+   "answer": 1,
+   "rule": "Eating at home came before the party, so use the past perfect: <b>had already eaten</b>."
+  },
+  {
+   "qid": "c7-21-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Rohan said, \"I will go to the garden tonight.\"",
+   "options": [
+    "Rohan said that he would go to the garden that night.",
+    "Rohan said that I would go to the garden that night.",
+    "Rohan said that he will went to the garden that night."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b>, <b>will</b> becomes <b>would</b>, and <b>tonight</b> becomes <b>that night</b>."
+  },
+  {
+   "qid": "c7-21-50",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'because'.",
+   "source": "Rohan used the front gate. Mrs Groover had asked him to.",
+   "options": [
+    "Rohan used the front gate because Mrs Groover has asked him to.",
+    "Rohan used the front gate because Mrs Groover had asked him to.",
+    "Rohan used the front gate because of Mrs Groover had asked him to."
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> joins two clauses (not <b>because of</b>), and the earlier request stays <b>had asked</b>."
+  }
+ ]
+}

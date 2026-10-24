@@ -1,0 +1,995 @@
+{
+ "class": 7,
+ "id": "11",
+ "title": "Learn Yoga from Animals",
+ "topics": [
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions (and, but, or, because, if, that, when, although)"
+  },
+  {
+   "tag": "interjections",
+   "name": "Interjections and exclamations"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs and adverbial phrases"
+  },
+  {
+   "tag": "modals",
+   "name": "Instructions with modals: should, must, may, have to, ought to"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present and past)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-11-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya practises yoga because of she wants to stay fit.",
+    "Riya practises yoga because she wants to stay fit.",
+    "Riya practises yoga because she want to stay fit."
+   ],
+   "answer": 1,
+   "rule": "<b>because</b> joins a full clause (subject + verb): <b>because she wants</b>. <b>because of</b> needs a noun."
+  },
+  {
+   "qid": "c7-11-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ouch! I has twisted my ankle.",
+    "Ouch! I have twist my ankle.",
+    "Ouch! I have twisted my ankle."
+   ],
+   "answer": 2,
+   "rule": "<b>Ouch!</b> shows pain. With <b>I</b>, use <b>have + past participle</b>: <b>I have twisted</b>."
+  },
+  {
+   "qid": "c7-11-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Beginners",
+    "should",
+    "learns",
+    "yoga",
+    "from",
+    "a",
+    "trained",
+    "teacher."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "learn",
+      "learning",
+      "learnt"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a modal like <b>should</b>, use the base verb: <b>should learn</b>."
+  },
+  {
+   "qid": "c7-11-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "not",
+    "comes",
+    "up",
+    "with",
+    "a",
+    "jerk."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "coming",
+      "came",
+      "come"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A negative instruction is <b>Do not + base verb</b>: <b>Do not come up</b>."
+  },
+  {
+   "qid": "c7-11-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "I wanted to join the yoga class,",
+   "after": "it was already full.",
+   "options": [
+    "because",
+    "so",
+    "but"
+   ],
+   "answer": 2,
+   "rule": "<b>but</b> joins two ideas that contrast: I wanted to join, <b>but</b> it was full."
+  },
+  {
+   "qid": "c7-11-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Choose the interjection that fits.",
+   "before": "",
+   "after": "We have won the yoga contest!",
+   "options": [
+    "Hurrah!",
+    "Ouch!",
+    "Alas!"
+   ],
+   "answer": 0,
+   "rule": "<b>Hurrah!</b> shows joy. <b>Ouch!</b> shows pain and <b>Alas!</b> shows sadness."
+  },
+  {
+   "qid": "c7-11-07",
+   "type": "build",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Lie",
+    "face",
+    "down",
+    "on",
+    "the",
+    "mat."
+   ],
+   "alts": [],
+   "rule": "An instruction begins with the base verb: <b>Lie face down on the mat.</b>"
+  },
+  {
+   "qid": "c7-11-08",
+   "type": "build",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Make a rule for yoga practice.",
+   "answer": [
+    "You",
+    "must",
+    "not",
+    "eat",
+    "before",
+    "yoga."
+   ],
+   "alts": [],
+   "rule": "Negative modal: <b>must not + base verb</b>: <b>You must not eat</b>."
+  },
+  {
+   "qid": "c7-11-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "How do I start the cobra pose?"
+    ]
+   ],
+   "options": [
+    "First, lying face down and relax completely.",
+    "First, lie face down and relaxing completely.",
+    "First, lie face down and relax completely."
+   ],
+   "answer": 2,
+   "rule": "Instructions use the base verb, and <b>and</b> joins two of them: <b>lie ... and relax</b>."
+  },
+  {
+   "qid": "c7-11-10",
+   "type": "change",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It is a very nice picture.",
+   "options": [
+    "What a nice picture it is!",
+    "What nice picture it is!",
+    "How a nice picture it is!"
+   ],
+   "answer": 0,
+   "rule": "Use <b>What a + adjective + noun</b> for a singular noun: <b>What a nice picture it is!</b>"
+  },
+  {
+   "qid": "c7-11-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You may to practise outdoors on level ground.",
+    "You may practise outdoors on level ground.",
+    "You may practising outdoors on level ground."
+   ],
+   "answer": 1,
+   "rule": "<b>may</b> (permission) is followed by the base verb without <b>to</b>: <b>may practise</b>."
+  },
+  {
+   "qid": "c7-11-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Pick the sentence with the correct passive verb.",
+   "options": [
+    "Asanas are practised in a clean, airy room.",
+    "Asanas are practise in a clean, airy room.",
+    "Asanas is practised in a clean, airy room."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>is/are + past participle</b>. Plural <b>asanas</b> takes <b>are practised</b>."
+  },
+  {
+   "qid": "c7-11-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yoga",
+    "is",
+    "practise",
+    "by",
+    "millions",
+    "of",
+    "people",
+    "today."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "practising",
+      "practises",
+      "practised"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive voice needs the past participle after <b>is</b>: <b>is practised</b>."
+  },
+  {
+   "qid": "c7-11-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Breathe",
+    "in",
+    "deeply",
+    "as",
+    "you",
+    "slow",
+    "raise",
+    "your",
+    "head."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "slower",
+      "slowly",
+      "slowness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To tell <b>how</b> you raise your head, use the adverb <b>slowly</b>."
+  },
+  {
+   "qid": "c7-11-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Come down",
+   "after": "while you breathe out.",
+   "options": [
+    "smooth",
+    "smoothly",
+    "smoothness"
+   ],
+   "answer": 1,
+   "rule": "The word tells <b>how</b> to come down, so use the adverb <b>smoothly</b>."
+  },
+  {
+   "qid": "c7-11-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The cat pose",
+   "after": "by many beginners.",
+   "options": [
+    "loves",
+    "is loved",
+    "is love"
+   ],
+   "answer": 1,
+   "rule": "<b>by many beginners</b> shows a passive sentence: <b>is + past participle</b> = <b>is loved</b>."
+  },
+  {
+   "qid": "c7-11-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas in one sentence.",
+   "answer": [
+    "Raj",
+    "was",
+    "tired,",
+    "but",
+    "he",
+    "finished",
+    "the",
+    "class."
+   ],
+   "alts": [],
+   "rule": "<b>but</b> joins two contrasting clauses. A comma usually comes before it."
+  },
+  {
+   "qid": "c7-11-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "interjections",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "I got full marks in the science test!"
+    ]
+   ],
+   "options": [
+    "Wow! That's a wonderful news.",
+    "Wow! That wonderful news is.",
+    "Wow! That's wonderful news."
+   ],
+   "answer": 2,
+   "rule": "<b>Wow!</b> shows surprise and joy. <b>News</b> is uncountable, so no <b>a</b>."
+  },
+  {
+   "qid": "c7-11-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Can I practise yoga right after lunch?"
+    ]
+   ],
+   "options": [
+    "No, you should wait for a few hours after a meal.",
+    "No, you should waiting for a few hours after a meal.",
+    "No, you should to wait for a few hours after a meal."
+   ],
+   "answer": 0,
+   "rule": "<b>should</b> (advice) is followed by the base verb: <b>should wait</b>."
+  },
+  {
+   "qid": "c7-11-20",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The teacher explains the steps.",
+   "options": [
+    "The steps were explained by the teacher.",
+    "The steps are explain by the teacher.",
+    "The steps are explained by the teacher."
+   ],
+   "answer": 2,
+   "rule": "Simple present active becomes <b>are + past participle</b>: <b>The steps are explained</b>."
+  },
+  {
+   "qid": "c7-11-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Both Sahil and Rohan enjoys the eagle pose.",
+    "Both Sahil or Rohan enjoy the eagle pose.",
+    "Both Sahil and Rohan enjoy the eagle pose."
+   ],
+   "answer": 2,
+   "rule": "<b>Both ... and</b> go together, and two people take a plural verb: <b>enjoy</b>."
+  },
+  {
+   "qid": "c7-11-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Does he have to bring his own mat?",
+    "Does he has to bring his own mat?",
+    "Do he have to bring his own mat?"
+   ],
+   "answer": 0,
+   "rule": "Question with <b>have to</b>: <b>Does he have to ...?</b> After <b>does</b>, use the base form <b>have</b>."
+  },
+  {
+   "qid": "c7-11-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "lion",
+    "pose",
+    "was",
+    "name",
+    "after",
+    "the",
+    "king",
+    "of",
+    "the",
+    "jungle."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "named",
+      "naming",
+      "names"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive voice: <b>was + past participle</b>: <b>was named after</b>."
+  },
+  {
+   "qid": "c7-11-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yoga",
+    "is",
+    "good",
+    "not",
+    "only",
+    "for",
+    "the",
+    "body",
+    "and",
+    "also",
+    "for",
+    "the",
+    "mind."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "or",
+      "but",
+      "so"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The pair is <b>not only ... but also</b>."
+  },
+  {
+   "qid": "c7-11-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you are a beginner, you should learn from a teacher.",
+   "options": [
+    "So",
+    "If",
+    "And"
+   ],
+   "answer": 1,
+   "rule": "<b>If</b> introduces a condition: <b>If you are a beginner, you should ...</b>"
+  },
+  {
+   "qid": "c7-11-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "not inhale immediately after the lion pose.",
+   "options": [
+    "have",
+    "should",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "<b>should not + base verb</b> gives advice. <b>have not inhale</b> and <b>are not inhale</b> are wrong."
+  },
+  {
+   "qid": "c7-11-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Arch",
+    "your",
+    "spine",
+    "upwards",
+    "as",
+    "you",
+    "exhale."
+   ],
+   "alts": [],
+   "rule": "The adverb <b>upwards</b> comes after the object <b>your spine</b>; <b>as you exhale</b> tells when."
+  },
+  {
+   "qid": "c7-11-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sneha",
+     "When is International Yoga Day celebrated?"
+    ]
+   ],
+   "options": [
+    "It celebrated on 21st June every year.",
+    "It is celebrate on 21st June every year.",
+    "It is celebrated on 21st June every year."
+   ],
+   "answer": 2,
+   "rule": "The question is passive, so answer in the passive: <b>It is celebrated</b>."
+  },
+  {
+   "qid": "c7-11-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Join using 'because'.",
+   "source": "Meera did not come to school. She was ill.",
+   "options": [
+    "Meera did not came to school because she was ill.",
+    "Meera did not come to school because she is ill.",
+    "Meera did not come to school because she was ill."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> gives the reason. Keep both verbs in the past: <b>did not come</b>, <b>was ill</b>."
+  },
+  {
+   "qid": "c7-11-30",
+   "type": "change",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Change into a negative sentence.",
+   "source": "You must hold your breath for a long time.",
+   "options": [
+    "You must not to hold your breath for a long time.",
+    "You must not hold your breath for a long time.",
+    "You do not must hold your breath for a long time."
+   ],
+   "answer": 1,
+   "rule": "Put <b>not</b> after the modal: <b>must not hold</b>."
+  },
+  {
+   "qid": "c7-11-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi has felt fitter since he joined the yoga class.",
+    "Ravi felt fitter since he has joined the yoga class.",
+    "Ravi has felt fitter since he has join the yoga class."
+   ],
+   "answer": 0,
+   "rule": "Main clause in present perfect (<b>has felt</b>), and <b>since</b> + simple past (<b>joined</b>)."
+  },
+  {
+   "qid": "c7-11-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Garudasana, which is named after the eagle, improves balance.",
+    "Garudasana, who is named after the eagle, improves balance.",
+    "Garudasana, which is named after the eagle, improve balance."
+   ],
+   "answer": 0,
+   "rule": "Use <b>which</b> for things, <b>is named</b> for the passive, and singular <b>improves</b>."
+  },
+  {
+   "qid": "c7-11-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aditi",
+    "ought",
+    "to",
+    "practises",
+    "the",
+    "pose",
+    "with",
+    "a",
+    "teacher."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "practising",
+      "practise",
+      "practised"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>ought to</b> is followed by the base verb: <b>ought to practise</b>."
+  },
+  {
+   "qid": "c7-11-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Raghav",
+    "balances",
+    "more",
+    "steady",
+    "than",
+    "his",
+    "brother",
+    "in",
+    "the",
+    "eagle",
+    "pose."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "steadily",
+      "steadier",
+      "steadiness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To compare how two people balance, use <b>more + adverb</b>: <b>more steadily</b>."
+  },
+  {
+   "qid": "c7-11-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Yoga",
+   "after": "in ancient India.",
+   "options": [
+    "perfected",
+    "is perfecting",
+    "was perfected"
+   ],
+   "answer": 2,
+   "rule": "Yoga did not do the perfecting; people did. So use the past passive: <b>was perfected</b>."
+  },
+  {
+   "qid": "c7-11-36",
+   "type": "build",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Tell",
+    "him",
+    "that",
+    "we",
+    "are",
+    "going",
+    "to",
+    "the",
+    "park."
+   ],
+   "alts": [],
+   "rule": "<b>that</b> joins the message to the verb <b>tell</b>: <b>Tell him that ...</b>"
+  },
+  {
+   "qid": "c7-11-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "interjections",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "Ouch! I have hurt my knee."
+    ]
+   ],
+   "options": [
+    "Oh no! Sits down and rest for a while.",
+    "Oh no! Sit down and resting for a while.",
+    "Oh no! Sit down and rest for a while."
+   ],
+   "answer": 2,
+   "rule": "After the interjection <b>Oh no!</b>, give advice with base verbs: <b>Sit down and rest</b>."
+  },
+  {
+   "qid": "c7-11-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Do you have to go to the yoga camp tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, I have to been there by six o'clock.",
+    "Yes, I has to be there by six o'clock.",
+    "Yes, I have to be there by six o'clock."
+   ],
+   "answer": 2,
+   "rule": "<b>I have to + base verb</b>: <b>I have to be there</b>."
+  },
+  {
+   "qid": "c7-11-39",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The poses are shown by Sameer.",
+   "options": [
+    "Sameer shows the poses.",
+    "Sameer showed the poses.",
+    "Sameer is shown the poses."
+   ],
+   "answer": 0,
+   "rule": "Present passive <b>are shown</b> becomes simple present active: <b>Sameer shows the poses.</b>"
+  },
+  {
+   "qid": "c7-11-40",
+   "type": "change",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Join using 'when'.",
+   "source": "You are at home. You should help your parents.",
+   "options": [
+    "When you are at home, you should helps your parents.",
+    "When you at home, you should help your parents.",
+    "When you are at home, you should help your parents."
+   ],
+   "answer": 2,
+   "rule": "<b>When</b> + a full clause (<b>you are at home</b>), then a comma and the main clause."
+  },
+  {
+   "qid": "c7-11-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the pose looks simple, but it must be learnt from an instructor.",
+    "Although the pose looks simple, it must be learnt from an instructor.",
+    "Although the pose looks simple, it must be learn from an instructor."
+   ],
+   "answer": 1,
+   "rule": "Do not use <b>but</b> after <b>although</b>. Passive with a modal: <b>must be learnt</b>."
+  },
+  {
+   "qid": "c7-11-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Wow! How graceful you balanced in the eagle pose!",
+    "Wow! How gracefully you balanced in the eagle pose!",
+    "Wow! How gracefully did you balanced in the eagle pose!"
+   ],
+   "answer": 1,
+   "rule": "<b>gracefully</b> tells how you balanced, and an exclamation keeps statement order: <b>How gracefully you balanced!</b>"
+  },
+  {
+   "qid": "c7-11-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Marjaryasana",
+    "should",
+    "be",
+    "include",
+    "in",
+    "your",
+    "morning",
+    "yoga",
+    "routine."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "included",
+      "including",
+      "includes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive with a modal: <b>should be + past participle</b>: <b>should be included</b>."
+  },
+  {
+   "qid": "c7-11-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Breathe",
+    "out",
+    "slowly,",
+    "and",
+    "then",
+    "come",
+    "back",
+    "gentle",
+    "to",
+    "the",
+    "starting",
+    "pose."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "gently",
+      "gentler",
+      "gentleness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The word tells <b>how</b> you come back, so use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c7-11-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Simhasana looks funny,",
+   "after": "it is very good for the face and throat muscles.",
+   "options": [
+    "so",
+    "yet",
+    "because"
+   ],
+   "answer": 1,
+   "rule": "<b>yet</b> (like <b>but</b>) joins two ideas that contrast: it looks funny, <b>yet</b> it is useful."
+  },
+  {
+   "qid": "c7-11-46",
+   "type": "build",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "basic",
+    "poses",
+    "must",
+    "be",
+    "learnt",
+    "from",
+    "an",
+    "instructor."
+   ],
+   "alts": [],
+   "rule": "Passive with a modal: <b>must be + past participle</b>: <b>must be learnt</b>."
+  },
+  {
+   "qid": "c7-11-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Pooja",
+     "Why did you join the yoga class?"
+    ]
+   ],
+   "options": [
+    "I joined it because of my back felt stiff after long hours of study.",
+    "I joined it because my back feel stiff after long hours of study.",
+    "I joined it because my back felt stiff after long hours of study."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> + clause in the past: <b>because my back felt stiff</b>."
+  },
+  {
+   "qid": "c7-11-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ira",
+     "I can't touch my toes yet. Should I push harder?"
+    ]
+   ],
+   "options": [
+    "No, you shouldn't forcing it. Your body will slowly become more flexible.",
+    "No, you shouldn't force it. Your body will slowly becomes more flexible.",
+    "No, you shouldn't force it. Your body will slowly become more flexible."
+   ],
+   "answer": 2,
+   "rule": "Modals <b>shouldn't</b> and <b>will</b> are followed by the base verb: <b>force</b>, <b>become</b>."
+  },
+  {
+   "qid": "c7-11-49",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "People all over the world celebrate International Yoga Day.",
+   "options": [
+    "International Yoga Day was celebrated by people all over the world.",
+    "International Yoga Day is celebrated by people all over the world.",
+    "International Yoga Day is celebrating by people all over the world."
+   ],
+   "answer": 1,
+   "rule": "Simple present active becomes <b>is + past participle</b>: <b>is celebrated</b>."
+  },
+  {
+   "qid": "c7-11-50",
+   "type": "change",
+   "level": 5,
+   "topic": "interjections",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How flexible the yoga teacher is!",
+   "options": [
+    "The yoga teacher is very flexibly.",
+    "The yoga teacher is very flexible.",
+    "The yoga teacher are very flexible."
+   ],
+   "answer": 1,
+   "rule": "Replace <b>How</b> with <b>very</b>, use statement order and a full stop: <b>The yoga teacher is very flexible.</b>"
+  }
+ ]
+}

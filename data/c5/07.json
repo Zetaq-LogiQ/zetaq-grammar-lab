@@ -1,0 +1,1002 @@
+{
+ "class": 5,
+ "id": "07",
+ "title": "Major Dhyan Chand",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular verbs)"
+  },
+  {
+   "tag": "was_were",
+   "name": "was / were"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time and place (in, on, at, between)"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  },
+  {
+   "tag": "comparison",
+   "name": "Adjectives with -er / -est and more / most"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-07-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "Dhyan Chand scored two goals in the final.",
+    "Dhyan Chand scoring two goals in the final.",
+    "Dhyan Chand score two goals in the final."
+   ],
+   "answer": 0,
+   "rule": "The action is over, so use the simple past: <b>scored</b>."
+  },
+  {
+   "qid": "c5-07-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The ground were wet after the rain.",
+    "The ground was wet after the rain.",
+    "The ground am wet after the rain."
+   ],
+   "answer": 1,
+   "rule": "One thing (the ground) in the past takes <b>was</b>."
+  },
+  {
+   "qid": "c5-07-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hockey is played with an stick and a ball.",
+    "Hockey is played with a stick and a ball.",
+    "Hockey is played with a stick and an ball."
+   ],
+   "answer": 1,
+   "rule": "<b>stick</b> and <b>ball</b> begin with consonant sounds, so both take <b>a</b>."
+  },
+  {
+   "qid": "c5-07-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Kabir",
+    "buyed",
+    "a",
+    "new",
+    "hockey",
+    "stick."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "buys",
+      "bought",
+      "buying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Buy</b> is irregular. Its past form is <b>bought</b>, not buyed."
+  },
+  {
+   "qid": "c5-07-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "teams",
+    "was",
+    "ready",
+    "for",
+    "the",
+    "final",
+    "on",
+    "15",
+    "August."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both teams</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-07-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The final match started",
+   "after": "11 am.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with a clock time: at 11 am, at noon."
+  },
+  {
+   "qid": "c5-07-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Dhyan Chand was",
+   "after": "soldier in the Indian Army.",
+   "options": [
+    "an",
+    "many",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>soldier</b> begins with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c5-07-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "India",
+    "won",
+    "the",
+    "gold",
+    "medal."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object: India <b>won</b> the gold medal."
+  },
+  {
+   "qid": "c5-07-09",
+   "type": "build",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "field",
+    "was",
+    "very",
+    "wet."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>was</b> + describing words: The field was very wet."
+  },
+  {
+   "qid": "c5-07-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Did you watch the hockey match yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, I watched it on TV.",
+    "Yes, I watch it on TV.",
+    "Yes, I watching it on TV."
+   ],
+   "answer": 0,
+   "rule": "The question is about yesterday, so answer in the simple past: <b>watched</b>."
+  },
+  {
+   "qid": "c5-07-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "The German ruler left the stadium early.",
+    "The German ruler leaved the stadium early.",
+    "The German ruler leaving the stadium early."
+   ],
+   "answer": 0,
+   "rule": "<b>Leave</b> is irregular: leave - <b>left</b>."
+  },
+  {
+   "qid": "c5-07-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dhyan Chand was born in 29 August.",
+    "Dhyan Chand was born at 29 August.",
+    "Dhyan Chand was born on 29 August."
+   ],
+   "answer": 2,
+   "rule": "Use <b>on</b> with dates and days: on 29 August, on Monday."
+  },
+  {
+   "qid": "c5-07-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "National",
+    "Sports",
+    "Day",
+    "is",
+    "celebrated",
+    "in",
+    "29",
+    "August",
+    "every",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "on",
+      "at",
+      "by"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A date takes <b>on</b>: on 29 August."
+  },
+  {
+   "qid": "c5-07-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Germany",
+    "had",
+    "an",
+    "strong",
+    "team",
+    "in",
+    "1936."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "these",
+      "much",
+      "a"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>strong</b> begins with a consonant sound, so use <b>a</b>, not an."
+  },
+  {
+   "qid": "c5-07-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "Forty thousand people",
+   "after": "in the stadium that day.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>People</b> is plural, so use <b>were</b> in the past."
+  },
+  {
+   "qid": "c5-07-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Dhyan Chand",
+   "after": "off his shoes and ran barefoot.",
+   "options": [
+    "takes",
+    "took",
+    "taken"
+   ],
+   "answer": 1,
+   "rule": "<b>ran</b> shows the past, so use the past form too: take - <b>took</b>."
+  },
+  {
+   "qid": "c5-07-17",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "Olympics",
+    "were",
+    "held",
+    "in",
+    "Berlin."
+   ],
+   "alts": [],
+   "rule": "Use <b>in</b> with cities and countries: in Berlin, in India."
+  },
+  {
+   "qid": "c5-07-18",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ravi",
+    "had",
+    "an",
+    "orange",
+    "and",
+    "a",
+    "sandwich."
+   ],
+   "alts": [],
+   "rule": "<b>an</b> before a vowel sound (an orange), <b>a</b> before a consonant sound (a sandwich)."
+  },
+  {
+   "qid": "c5-07-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach Mehta",
+     "Where were you during practice?"
+    ]
+   ],
+   "options": [
+    "I was at the doctor's clinic.",
+    "I were at the doctor's clinic.",
+    "I am at the doctor's clinic yesterday."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>was</b> in the past, not were."
+  },
+  {
+   "qid": "c5-07-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "What did you buy at the sports shop?"
+    ]
+   ],
+   "options": [
+    "I bought a new pair of shoes.",
+    "I buyed a new pair of shoes.",
+    "I buy a new pair of shoes yesterday."
+   ],
+   "answer": 0,
+   "rule": "<b>Did you buy</b> asks about the past. Answer with the past form: <b>bought</b>."
+  },
+  {
+   "qid": "c5-07-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Indian team didn't lost the final.",
+    "The Indian team not lose the final.",
+    "The Indian team didn't lose the final."
+   ],
+   "answer": 2,
+   "rule": "After <b>didn't</b>, use the base form of the verb: didn't <b>lose</b>."
+  },
+  {
+   "qid": "c5-07-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Indians weren't comfortable on the wet ground.",
+    "The Indians wasn't comfortable on the wet ground.",
+    "The Indians not were comfortable on the wet ground."
+   ],
+   "answer": 0,
+   "rule": "<b>The Indians</b> is plural, so use <b>weren't</b> (were not)."
+  },
+  {
+   "qid": "c5-07-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "The match was played at the morning on 15 August.",
+    "The match was played in the morning on 15 August.",
+    "The match was played on the morning in 15 August."
+   ],
+   "answer": 1,
+   "rule": "Say <b>in</b> the morning, but <b>on</b> a date."
+  },
+  {
+   "qid": "c5-07-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "German",
+    "goalkeeper",
+    "pounced",
+    "on",
+    "Dhyan",
+    "Chand",
+    "and",
+    "hurted",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "hurts",
+      "hurting",
+      "hurt"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Hurt</b> does not change in the past: hurt - <b>hurt</b>. It matches <b>pounced</b>."
+  },
+  {
+   "qid": "c5-07-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "was",
+    "two",
+    "hockey",
+    "sticks",
+    "in",
+    "Dhyan",
+    "Chand's",
+    "bag."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two sticks</b> is plural, so say <b>There were</b>."
+  },
+  {
+   "qid": "c5-07-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Dhyan Chand always played",
+   "after": "honest game.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "The <b>h</b> in <b>honest</b> is silent, so it begins with a vowel sound: <b>an</b> honest game."
+  },
+  {
+   "qid": "c5-07-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Our practice match ended",
+   "after": "noon.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with exact times: at noon, at 11 am."
+  },
+  {
+   "qid": "c5-07-28",
+   "type": "build",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Make a question.",
+   "answer": [
+    "Were",
+    "the",
+    "Indian",
+    "players",
+    "nervous?"
+   ],
+   "alts": [],
+   "rule": "In a question, <b>were</b> comes before the subject: Were the players nervous?"
+  },
+  {
+   "qid": "c5-07-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "When is National Sports Day?"
+    ]
+   ],
+   "options": [
+    "It is in 29 August.",
+    "It is at 29 August.",
+    "It is on 29 August."
+   ],
+   "answer": 2,
+   "rule": "Dates take <b>on</b>: on 29 August."
+  },
+  {
+   "qid": "c5-07-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "What did you get for your birthday?"
+    ]
+   ],
+   "options": [
+    "I got a umbrella and a hockey stick.",
+    "I got an umbrella and an hockey stick.",
+    "I got an umbrella and a hockey stick."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> umbrella (vowel sound), <b>a</b> hockey stick (consonant sound)."
+  },
+  {
+   "qid": "c5-07-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children cheered when India scored.",
+    "The childs cheered when India scored.",
+    "The children cheer when India scored."
+   ],
+   "answer": 0,
+   "rule": "The plural of child is <b>children</b>, and both verbs stay in the past: cheered, scored."
+  },
+  {
+   "qid": "c5-07-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He and his team were proud of the win.",
+    "Him and his team were proud of the win.",
+    "He and his team was proud of the win."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>He</b> (not him). <b>He and his team</b> are more than one, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-07-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dhyan",
+    "Chand",
+    "was",
+    "more",
+    "faster",
+    "than",
+    "the",
+    "German",
+    "players."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "most",
+      "very",
+      "much"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>faster</b> already means 'more fast'. Never say more faster. Say <b>much faster</b>."
+  },
+  {
+   "qid": "c5-07-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mohan's",
+    "father",
+    "bought",
+    "him",
+    "an",
+    "hockey",
+    "stick",
+    "and",
+    "two",
+    "balls."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "few",
+      "a",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The <b>h</b> in <b>hockey</b> is sounded, so it takes <b>a</b>."
+  },
+  {
+   "qid": "c5-07-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "These spiked shoes",
+   "after": "too tight for me yesterday.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>These shoes</b> is plural and <b>yesterday</b> is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-07-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Who",
+   "after": "the first goal in the final?",
+   "options": [
+    "score",
+    "scoring",
+    "scored"
+   ],
+   "answer": 2,
+   "rule": "When <b>Who</b> is the subject, use the past verb directly: Who <b>scored</b>?"
+  },
+  {
+   "qid": "c5-07-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "Dhyan",
+    "Chand",
+    "run",
+    "barefoot?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>did</b> + subject + base verb: Why did he <b>run</b>?"
+  },
+  {
+   "qid": "c5-07-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "reached",
+    "the",
+    "stadium",
+    "on",
+    "Sunday",
+    "morning."
+   ],
+   "alts": [],
+   "rule": "Use <b>on</b> with a day, even with a part of it: on Sunday morning."
+  },
+  {
+   "qid": "c5-07-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Who is taller, you or your brother?"
+    ]
+   ],
+   "options": [
+    "My brother is more tall than me.",
+    "My brother is tallest than me.",
+    "My brother is taller than me."
+   ],
+   "answer": 2,
+   "rule": "To compare two people, add <b>-er</b> to short adjectives: tall - <b>taller</b> than."
+  },
+  {
+   "qid": "c5-07-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why did you come home late from practice?"
+    ]
+   ],
+   "options": [
+    "The bus was late, so I walked home.",
+    "The bus were late, so I walked home.",
+    "The bus was late, so I walk home."
+   ],
+   "answer": 0,
+   "rule": "One bus takes <b>was</b>, and both parts stay in the past: was, <b>walked</b>."
+  },
+  {
+   "qid": "c5-07-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the German players tried their level best, they could not stopped India.",
+    "Although the German players tried their level best, they could not stop India.",
+    "Although the German players try their level best, they could not stop India."
+   ],
+   "answer": 1,
+   "rule": "Keep both parts in the past (<b>tried</b>), and use the base form after <b>could not</b>: stop."
+  },
+  {
+   "qid": "c5-07-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dhyan Chand practised in night in the moonlight because he was busy during the day.",
+    "Dhyan Chand practised at night in the moonlight because he was busy during the day.",
+    "Dhyan Chand practised at night in a moonlight because he was busy during the day."
+   ],
+   "answer": 1,
+   "rule": "We say <b>at night</b> and <b>in the moonlight</b>."
+  },
+  {
+   "qid": "c5-07-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dhyan",
+    "Chand",
+    "was",
+    "the",
+    "more",
+    "famous",
+    "player",
+    "in",
+    "the",
+    "Indian",
+    "team",
+    "of",
+    "1936."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "much",
+      "most",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>the ... in the team</b> compares one with all the others, so use <b>the most</b> famous."
+  },
+  {
+   "qid": "c5-07-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hitler",
+    "offered",
+    "Dhyan",
+    "Chand",
+    "a",
+    "higher",
+    "rank,",
+    "but",
+    "he",
+    "refuse",
+    "the",
+    "offer."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "refuses",
+      "refusing",
+      "refused"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>offered</b> is past, so the second action is past too: <b>refused</b>."
+  },
+  {
+   "qid": "c5-07-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "The captain and his players",
+   "after": "ready long before the match began.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> are plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-07-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The ball rolled",
+   "after": "the two German defenders and into the goal.",
+   "options": [
+    "among",
+    "on",
+    "between"
+   ],
+   "answer": 2,
+   "rule": "Use <b>between</b> for two people or things; <b>among</b> is for more than two."
+  },
+  {
+   "qid": "c5-07-47",
+   "type": "build",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "German",
+    "players",
+    "were",
+    "surprised",
+    "by",
+    "his",
+    "skill."
+   ],
+   "alts": [],
+   "rule": "<b>The German players</b> is plural, so it takes <b>were</b>."
+  },
+  {
+   "qid": "c5-07-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did your team do after you won the match?"
+    ]
+   ],
+   "options": [
+    "We celebrated with ice cream and went home.",
+    "We celebrated with ice cream and go home.",
+    "We celebrate with ice cream and went home."
+   ],
+   "answer": 0,
+   "rule": "Both actions happened in the past, so both verbs are past: <b>celebrated</b>, <b>went</b>."
+  },
+  {
+   "qid": "c5-07-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Where is the hockey match today?"
+    ]
+   ],
+   "options": [
+    "It's at the stadium near an old temple.",
+    "It's at the stadium near a old temple.",
+    "It's at stadium near an old temple."
+   ],
+   "answer": 0,
+   "rule": "Say <b>the</b> stadium (a particular one) and <b>an</b> old temple (vowel sound)."
+  },
+  {
+   "qid": "c5-07-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Were you and Sahil at the match yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, we was. It was a thrilling game!",
+    "Yes, we were. It were a thrilling game!",
+    "Yes, we were. It was a thrilling game!"
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> takes <b>were</b>; <b>it</b> takes <b>was</b>."
+  }
+ ]
+}

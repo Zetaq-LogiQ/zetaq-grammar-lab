@@ -1,0 +1,1001 @@
+{
+ "class": 6,
+ "id": "2.5",
+ "title": "The Ancient Indian Doctor Charak",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner, place and time"
+  },
+  {
+   "tag": "suffix_forms",
+   "name": "Word forms with suffixes (-ly, -ness, -ion, -ful, -ment)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-2.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera spoke politely to the nurse.",
+    "Meera spoke polite to the nurse.",
+    "Meera spoke politeness to the nurse."
+   ],
+   "answer": 0,
+   "rule": "To tell <b>how</b> she spoke, use the adverb of manner <b>politely</b>."
+  },
+  {
+   "qid": "c6-2.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Grandfather was sitting on the mat.",
+    "Grandfather were sitting on the mat.",
+    "Grandfather was sit on the mat."
+   ],
+   "answer": 0,
+   "rule": "Past continuous = <b>was/were</b> + verb-ing. One person takes <b>was</b>: <b>was sitting</b>."
+  },
+  {
+   "qid": "c6-2.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Charaka was a man of great kind.",
+    "Charaka was a man of great kindness.",
+    "Charaka was a man of great kindly."
+   ],
+   "answer": 1,
+   "rule": "After <b>of great</b> we need a noun. <b>kind + ness = kindness</b>."
+  },
+  {
+   "qid": "c6-2.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dada",
+    "cleaned",
+    "the",
+    "wound",
+    "very",
+    "careful",
+    "with",
+    "warm",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "care",
+      "carefulness",
+      "carefully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To say <b>how</b> he cleaned it, use the adverb <b>carefully</b>, not the adjective careful."
+  },
+  {
+   "qid": "c6-2.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "was",
+    "play",
+    "with",
+    "a",
+    "wooden",
+    "top",
+    "in",
+    "the",
+    "backyard."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "playing",
+      "played",
+      "plays"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past continuous needs <b>was + verb-ing</b>: <b>was playing</b>."
+  },
+  {
+   "qid": "c6-2.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The banyan tree is",
+   "after": "than the mango tree.",
+   "options": [
+    "old",
+    "older",
+    "oldest"
+   ],
+   "answer": 1,
+   "rule": "Comparing two things with <b>than</b> needs the comparative: <b>older</b>."
+  },
+  {
+   "qid": "c6-2.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Choose the correct adverb of time.",
+   "before": "I will call the doctor",
+   "after": ".",
+   "options": [
+    "yesterday",
+    "last week",
+    "tomorrow"
+   ],
+   "answer": 2,
+   "rule": "<b>will call</b> is about the future, so the time adverb must be future: <b>tomorrow</b>."
+  },
+  {
+   "qid": "c6-2.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Make a sentence in the past continuous.",
+   "answer": [
+    "Meera",
+    "was",
+    "spinning",
+    "a",
+    "wooden",
+    "top."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>was</b> + verb-ing + object: <b>Meera was spinning a wooden top.</b>"
+  },
+  {
+   "qid": "c6-2.5-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "How did the old doctor speak to his patients?"
+    ]
+   ],
+   "options": [
+    "He spoke to them very gentle.",
+    "He spoke to them very gently.",
+    "He speaked to them very gently."
+   ],
+   "answer": 1,
+   "rule": "<b>How?</b> needs an adverb of manner: <b>gently</b>. The past of speak is <b>spoke</b>."
+  },
+  {
+   "qid": "c6-2.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Which is better for a cough, cold milk or ginger tea?"
+    ]
+   ],
+   "options": [
+    "Ginger tea is more better.",
+    "Ginger tea is best than cold milk.",
+    "Ginger tea is better."
+   ],
+   "answer": 2,
+   "rule": "<b>good - better - best</b>. Never say <b>more better</b>; use <b>better</b> for two things."
+  },
+  {
+   "qid": "c6-2.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Charaka was one of the greatest physicians of ancient India.",
+    "Charaka was one of the most greatest physicians of ancient India.",
+    "Charaka was one of the great physician of ancient India."
+   ],
+   "answer": 0,
+   "rule": "Never use <b>most</b> with -est. <b>one of the greatest</b> + plural noun: <b>physicians</b>."
+  },
+  {
+   "qid": "c6-2.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Regular exercise helps in the prevention of illness.",
+    "Regular exercise helps in the prevent of illness.",
+    "Regular exercise helps in the preventive of illness."
+   ],
+   "answer": 0,
+   "rule": "After <b>the</b> we need a noun: <b>prevent + ion = prevention</b>."
+  },
+  {
+   "qid": "c6-2.5-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "doctor",
+    "gave",
+    "a",
+    "careful",
+    "examine",
+    "of",
+    "her",
+    "knee."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "examination",
+      "examined",
+      "examines"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>a careful</b> we need a noun: <b>examine + ation = examination</b>."
+  },
+  {
+   "qid": "c6-2.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "waited",
+    "patient",
+    "outside",
+    "the",
+    "doctor's",
+    "clinic",
+    "for",
+    "an",
+    "hour."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "patience",
+      "patiently",
+      "patients"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>How</b> did we wait? Use the adverb of manner <b>patiently</b>."
+  },
+  {
+   "qid": "c6-2.5-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The children",
+   "after": "when Grandfather began the story.",
+   "options": [
+    "was laughing",
+    "is laughing",
+    "were laughing"
+   ],
+   "answer": 2,
+   "rule": "<b>children</b> is plural and the time is past, so use <b>were laughing</b>."
+  },
+  {
+   "qid": "c6-2.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Meera listened with",
+   "after": "to the story of Charaka.",
+   "options": [
+    "wonderful",
+    "wonder",
+    "wonderfully"
+   ],
+   "answer": 1,
+   "rule": "After <b>with</b> we need a noun: <b>wonder</b>. Wonderful is an adjective, wonderfully an adverb."
+  },
+  {
+   "qid": "c6-2.5-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Make a sentence with an adverb of place.",
+   "answer": [
+    "Grandfather",
+    "kept",
+    "his",
+    "glasses",
+    "upstairs."
+   ],
+   "alts": [],
+   "rule": "<b>upstairs</b> tells us <b>where</b>. It is an adverb of place."
+  },
+  {
+   "qid": "c6-2.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Make a sentence with a superlative.",
+   "answer": [
+    "Meera",
+    "is",
+    "the",
+    "youngest",
+    "in",
+    "her",
+    "family."
+   ],
+   "alts": [],
+   "rule": "Comparing with a whole group uses <b>the</b> + superlative: <b>the youngest</b>."
+  },
+  {
+   "qid": "c6-2.5-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What were you doing when the lights went out?"
+    ]
+   ],
+   "options": [
+    "I was reading a comic.",
+    "I am reading a comic.",
+    "I reading a comic."
+   ],
+   "answer": 0,
+   "rule": "The question is in the past continuous, so answer with <b>I was reading</b>."
+  },
+  {
+   "qid": "c6-2.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "suffix_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Why do you like Dr. Joshi so much?"
+    ]
+   ],
+   "options": [
+    "She treats every patient with kind.",
+    "She treats every patient with kindness.",
+    "She treat every patient with kindness."
+   ],
+   "answer": 1,
+   "rule": "After <b>with</b> use the noun <b>kindness</b>; <b>she</b> takes <b>treats</b>."
+  },
+  {
+   "qid": "c6-2.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sarita finishes her homework yesterday.",
+    "Sarita finished her homework tomorrow.",
+    "Sarita finished her homework yesterday."
+   ],
+   "answer": 2,
+   "rule": "<b>yesterday</b> is an adverb of past time, so the verb must be past: <b>finished</b>."
+  },
+  {
+   "qid": "c6-2.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Turmeric paste is usefuller than ginger for a wound.",
+    "Turmeric paste is more useful than ginger for a wound.",
+    "Turmeric paste is most useful than ginger for a wound."
+   ],
+   "answer": 1,
+   "rule": "Long adjectives like <b>useful</b> take <b>more</b> with <b>than</b>: <b>more useful than</b>."
+  },
+  {
+   "qid": "c6-2.5-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Grandfather was telling the story, Meera were listening.",
+    "While Grandfather telling the story, Meera was listening.",
+    "While Grandfather was telling the story, Meera was listening."
+   ],
+   "answer": 2,
+   "rule": "Two actions going on together use past continuous: <b>was telling</b> ... <b>was listening</b>."
+  },
+  {
+   "qid": "c6-2.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Healing",
+    "begins",
+    "with",
+    "care",
+    "and",
+    "compassionate",
+    "for",
+    "others."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "compassionately",
+      "compassion",
+      "passionate"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>care and ___</b> joins two nouns, so use the noun <b>compassion</b>."
+  },
+  {
+   "qid": "c6-2.5-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Swapnil",
+    "ran",
+    "fastest",
+    "than",
+    "his",
+    "younger",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "fast",
+      "quickly",
+      "faster"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative form: <b>faster than</b>."
+  },
+  {
+   "qid": "c6-2.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Grandfather picked Meera up",
+   "after": "and cleaned her wound.",
+   "options": [
+    "quickly",
+    "quick",
+    "quickness"
+   ],
+   "answer": 0,
+   "rule": "To tell <b>how</b> he picked her up, use the adverb <b>quickly</b>."
+  },
+  {
+   "qid": "c6-2.5-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Meera's knee looks",
+   "after": "today than it did yesterday.",
+   "options": [
+    "more good",
+    "better",
+    "best"
+   ],
+   "answer": 1,
+   "rule": "<b>good</b> is irregular: good - <b>better</b> - best. With <b>than</b>, use <b>better</b>."
+  },
+  {
+   "qid": "c6-2.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "were",
+    "the",
+    "children",
+    "laughing?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>Wh-word + were + subject + verb-ing?</b>"
+  },
+  {
+   "qid": "c6-2.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How often do you practise cricket?"
+    ]
+   ],
+   "options": [
+    "I practise every evening.",
+    "I am practise every evening.",
+    "I practise every evenings."
+   ],
+   "answer": 0,
+   "rule": "A habit takes the simple present <b>I practise</b>, and <b>every</b> is followed by a singular noun."
+  },
+  {
+   "qid": "c6-2.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "suffix_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "How was your visit to the herbal garden?"
+    ]
+   ],
+   "options": [
+    "It was very useful and enjoyment.",
+    "It was very useful and enjoyable.",
+    "It was very use and enjoyable."
+   ],
+   "answer": 1,
+   "rule": "After <b>was very</b> we need adjectives: <b>use + ful</b>, <b>enjoy + able</b>."
+  },
+  {
+   "qid": "c6-2.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An old banyan tree sways gently in the breeze.",
+    "A old banyan tree sways gently in the breeze.",
+    "An old banyan tree sways gentle in the breeze."
+   ],
+   "answer": 0,
+   "rule": "<b>an</b> before a vowel sound (<b>an old</b>), and the adverb <b>gently</b> tells how it sways."
+  },
+  {
+   "qid": "c6-2.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Charaka's book is one of the oldest books on medicine.",
+    "Charaka's book are one of the oldest books on medicine.",
+    "Charaka's book is one of the oldest book on medicine."
+   ],
+   "answer": 0,
+   "rule": "<b>book</b> is singular, so <b>is</b>; <b>one of the oldest</b> takes a plural noun: <b>books</b>."
+  },
+  {
+   "qid": "c6-2.5-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sun",
+    "was",
+    "shine",
+    "gently",
+    "through",
+    "the",
+    "leaves."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "shone",
+      "shines",
+      "shining"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>was</b>, the past continuous needs verb-ing: <b>was shining</b>."
+  },
+  {
+   "qid": "c6-2.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Doctor",
+    "Rao",
+    "speak",
+    "softly",
+    "to",
+    "every",
+    "patient",
+    "in",
+    "the",
+    "ward."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "speaking",
+      "spoken",
+      "speaks"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Doctor Rao</b> is one person, so the simple present takes -s: <b>speaks</b>. <b>softly</b> is the adverb."
+  },
+  {
+   "qid": "c6-2.5-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Grandfather",
+   "after": "tying a bandage when the phone rang.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "An action in progress when another happened: <b>was tying</b> (one person, past)."
+  },
+  {
+   "qid": "c6-2.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "suffix_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Ajwain is",
+   "after": "useful remedy for a stomach-ache.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>useful</b> begins with a 'yoo' sound, so use <b>a</b>, not an: <b>a useful remedy</b>."
+  },
+  {
+   "qid": "c6-2.5-37",
+   "type": "build",
+   "level": 4,
+   "topic": "suffix_forms",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Meera",
+    "was",
+    "grateful",
+    "for",
+    "his",
+    "kindness."
+   ],
+   "alts": [],
+   "rule": "<b>grateful for</b> + noun. <b>kindness</b> is the noun made with the suffix -ness."
+  },
+  {
+   "qid": "c6-2.5-38",
+   "type": "build",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Were",
+    "you",
+    "sleeping",
+    "when",
+    "I",
+    "called?"
+   ],
+   "alts": [],
+   "rule": "Yes/no question in past continuous: <b>Were + you + verb-ing</b> ... ?"
+  },
+  {
+   "qid": "c6-2.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dada",
+     "Did you drink your ginger tea?"
+    ]
+   ],
+   "options": [
+    "Yes, I drank it slowly.",
+    "Yes, I drinked it slowly.",
+    "Yes, I did drank it slowly."
+   ],
+   "answer": 0,
+   "rule": "The past of drink is <b>drank</b>; <b>slowly</b> tells how."
+  },
+  {
+   "qid": "c6-2.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "Who is the tallest boy in your class?"
+    ]
+   ],
+   "options": [
+    "Arjun is the taller boy in our class.",
+    "Arjun is the tallest boy in our class.",
+    "Arjun is tallest boy than all in our class."
+   ],
+   "answer": 1,
+   "rule": "Comparing one with the whole class needs <b>the tallest</b>."
+  },
+  {
+   "qid": "c6-2.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "suffix_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A good doctor must be wise, compassion and deeply observant.",
+    "A good doctor must be wise, compassionate and deep observant.",
+    "A good doctor must be wise, compassionate and deeply observant."
+   ],
+   "answer": 2,
+   "rule": "After <b>be</b> we list adjectives (<b>compassionate</b>); the adverb <b>deeply</b> describes the adjective observant."
+  },
+  {
+   "qid": "c6-2.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The more carefully you listen, the more you learn.",
+    "The more careful you listen, the more you learn.",
+    "The most carefully you listen, the more you learn."
+   ],
+   "answer": 0,
+   "rule": "<b>listen</b> needs an adverb (<b>carefully</b>), and the pattern is <b>the more ..., the more ...</b>."
+  },
+  {
+   "qid": "c6-2.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "was",
+    "running",
+    "in",
+    "the",
+    "backyard",
+    "when",
+    "she",
+    "suddenly",
+    "fall",
+    "down."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "falls",
+      "fell",
+      "falling"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The long action takes past continuous (<b>was running</b>); the sudden action takes simple past: <b>fell</b>."
+  },
+  {
+   "qid": "c6-2.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "suffix_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Charaka",
+    "was",
+    "one",
+    "of",
+    "the",
+    "wisest",
+    "and",
+    "most",
+    "compassion",
+    "healers",
+    "of",
+    "his",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "compassionate",
+      "compassionately",
+      "compassions"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>most ___ healers</b> needs an adjective: <b>compassion + ate = compassionate</b>."
+  },
+  {
+   "qid": "c6-2.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Ayurveda is much",
+   "after": "than many modern systems of medicine.",
+   "options": [
+    "oldest",
+    "older",
+    "more old"
+   ],
+   "answer": 1,
+   "rule": "<b>much</b> + comparative + <b>than</b>: <b>much older than</b>. Short adjectives take -er, not more."
+  },
+  {
+   "qid": "c6-2.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The doctor examined the X-ray",
+   "after": "before she gave her diagnosis.",
+   "options": [
+    "thorough",
+    "thoroughness",
+    "thoroughly"
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> she examined it, use the adverb <b>thoroughly</b>."
+  },
+  {
+   "qid": "c6-2.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "was",
+    "the",
+    "greatest",
+    "physician",
+    "of",
+    "ancient",
+    "India?"
+   ],
+   "alts": [],
+   "rule": "<b>the greatest</b> + noun + <b>of</b> + group is the superlative pattern."
+  },
+  {
+   "qid": "c6-2.5-48",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "was",
+    "the",
+    "little",
+    "girl",
+    "crying",
+    "so",
+    "loudly?"
+   ],
+   "alts": [],
+   "rule": "<b>Why + was + subject + verb-ing</b>; <b>so loudly</b> tells how she cried."
+  },
+  {
+   "qid": "c6-2.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "My grandmother puts turmeric on small cuts."
+    ],
+    [
+     "Sana",
+     "Does it really help?"
+    ]
+   ],
+   "options": [
+    "Yes, it heals them more quicker than plain water.",
+    "Yes, it heal them more quickly than plain water.",
+    "Yes, it heals them more quickly than plain water."
+   ],
+   "answer": 2,
+   "rule": "The adverb <b>quickly</b> compares with <b>more quickly</b>; <b>it</b> takes <b>heals</b>."
+  },
+  {
+   "qid": "c6-2.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What were you and Priya doing in the library at noon?"
+    ]
+   ],
+   "options": [
+    "We was reading about Indian scientists.",
+    "We were read about Indian scientists.",
+    "We were reading about Indian scientists."
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> takes <b>were</b>, and past continuous needs verb-ing: <b>were reading</b>."
+  }
+ ]
+}

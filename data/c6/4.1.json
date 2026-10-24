@@ -1,0 +1,1013 @@
+{
+ "class": 6,
+ "id": "4.1",
+ "title": "The Song of the Mischievous Dog",
+ "topics": [
+  {
+   "tag": "imperatives",
+   "name": "Imperative sentences (Do's and Don'ts)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech punctuation"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner and frequency"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-4.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Pick the correct Don't rule.",
+   "options": [
+    "Don't hits a stray dog.",
+    "Not hit a stray dog.",
+    "Don't hit a stray dog."
+   ],
+   "answer": 2,
+   "rule": "A Don't rule is <b>Don't</b> + the base form of the verb: <b>Don't hit</b>."
+  },
+  {
+   "qid": "c6-4.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dog love bones.",
+    "The dogs loves bones.",
+    "The dog loves bones."
+   ],
+   "answer": 2,
+   "rule": "A singular subject (<b>the dog</b>) takes a verb with -s in the simple present: <b>loves</b>."
+  },
+  {
+   "qid": "c6-4.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A horse is more tall than a dog.",
+    "A horse is taller than a dog.",
+    "A horse is tall than a dog."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives add -er before <b>than</b>: tall - <b>taller</b>. Don't add 'more' as well."
+  },
+  {
+   "qid": "c6-4.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "puppy",
+    "waited",
+    "patient",
+    "at",
+    "the",
+    "gate",
+    "for",
+    "Meera."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "patiently",
+      "patience",
+      "patients"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say HOW the puppy waited, use an adverb: <b>patiently</b>."
+  },
+  {
+   "qid": "c6-4.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera's",
+    "dog",
+    "Bruno",
+    "chase",
+    "rabbits",
+    "in",
+    "the",
+    "garden",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "chasing",
+      "chases",
+      "chaser"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Bruno</b> is one dog, so the present-tense verb takes -s: <b>chases</b>."
+  },
+  {
+   "qid": "c6-4.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "A red donkey is as",
+   "after": "as a horse with a horn.",
+   "options": [
+    "rarer",
+    "rarest",
+    "rare"
+   ],
+   "answer": 2,
+   "rule": "In <b>as ... as</b> comparisons, use the plain adjective: <b>as rare as</b>."
+  },
+  {
+   "qid": "c6-4.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a bowl of water for the stray dog, please.",
+   "options": [
+    "Keeps",
+    "Kept",
+    "Keep"
+   ],
+   "answer": 2,
+   "rule": "A request or instruction starts with the base form of the verb: <b>Keep</b> a bowl of water..."
+  },
+  {
+   "qid": "c6-4.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make a Don't rule.",
+   "answer": [
+    "Do",
+    "not",
+    "tease",
+    "stray",
+    "animals."
+   ],
+   "alts": [],
+   "rule": "A negative command is <b>Do not</b> + base verb: <b>Do not tease</b> stray animals."
+  },
+  {
+   "qid": "c6-4.1-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Does your dog like biscuits?"
+    ]
+   ],
+   "options": [
+    "Yes, he like biscuits a lot.",
+    "Yes, he likes biscuits a lot.",
+    "Yes, he liking biscuits a lot."
+   ],
+   "answer": 1,
+   "rule": "<b>He</b> takes a verb with -s in the simple present: he <b>likes</b>."
+  },
+  {
+   "qid": "c6-4.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "What should we do when we see a hungry stray dog?"
+    ]
+   ],
+   "options": [
+    "Gave it some food and water.",
+    "Gives it some food and water.",
+    "Give it some food and water."
+   ],
+   "answer": 2,
+   "rule": "Advice in the form of an instruction uses the base verb: <b>Give</b> it some food."
+  },
+  {
+   "qid": "c6-4.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "Mother asked, \"What are you doing, son?\"",
+    "Mother asked that, \"What are you doing, son?\"",
+    "Mother asked, \"What you are doing, son?\""
+   ],
+   "answer": 0,
+   "rule": "Direct speech needs no <b>that</b>: asked, \"...\" The spoken question keeps question order: <b>are you doing</b>."
+  },
+  {
+   "qid": "c6-4.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boy writes his letter careful.",
+    "The boy writes carefully his letter.",
+    "The boy writes his letter carefully."
+   ],
+   "answer": 2,
+   "rule": "Use the adverb <b>carefully</b>, and put it after the object: writes <b>his letter carefully</b>."
+  },
+  {
+   "qid": "c6-4.1-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bees",
+    "are",
+    "much",
+    "busy",
+    "than",
+    "the",
+    "sleepy",
+    "dog",
+    "on",
+    "the",
+    "porch."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "busiest",
+      "busier",
+      "busily"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>much ... than</b> compares two things, so use the comparative: <b>busier</b>."
+  },
+  {
+   "qid": "c6-4.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "doesn't",
+    "throw",
+    "stones",
+    "at",
+    "stray",
+    "cats."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "don't",
+      "didn't",
+      "isn't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Negative commands always use <b>don't</b> + base verb, never 'doesn't'."
+  },
+  {
+   "qid": "c6-4.1-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "many people who say that every dog has its day.",
+   "options": [
+    "is",
+    "are",
+    "was"
+   ],
+   "answer": 1,
+   "rule": "After <b>there</b>, the verb agrees with the noun that follows: <b>many people</b> - <b>are</b>."
+  },
+  {
+   "qid": "c6-4.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Our puppy",
+   "after": "sleeps on the sofa after lunch.",
+   "options": [
+    "usually",
+    "usual",
+    "more usual"
+   ],
+   "answer": 0,
+   "rule": "An adverb of frequency (<b>usually</b>) goes before the main verb: usually <b>sleeps</b>."
+  },
+  {
+   "qid": "c6-4.1-17",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "He",
+    "is",
+    "the",
+    "naughtiest",
+    "puppy",
+    "in",
+    "town."
+   ],
+   "alts": [],
+   "rule": "The superlative needs <b>the</b>: <b>the naughtiest</b> puppy in town."
+  },
+  {
+   "qid": "c6-4.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Write Raju's words as direct speech.",
+   "answer": [
+    "Raju",
+    "said,",
+    "\"My",
+    "eyesight",
+    "is",
+    "getting",
+    "worse.\""
+   ],
+   "alts": [],
+   "rule": "Put a comma after <b>said</b>, open the inverted commas, and close them after the full stop."
+  },
+  {
+   "qid": "c6-4.1-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anaya",
+     "Which pet is more playful, your cat or your dog?"
+    ]
+   ],
+   "options": [
+    "My dog is more playful than my cat.",
+    "My dog is most playful than my cat.",
+    "My dog is more playfuller than my cat."
+   ],
+   "answer": 0,
+   "rule": "Longer adjectives use <b>more</b> + adjective + <b>than</b>: <b>more playful than</b>."
+  },
+  {
+   "qid": "c6-4.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How did the puppy eat its dinner?"
+    ]
+   ],
+   "options": [
+    "It ate its food greedy.",
+    "It ate its food greedily.",
+    "It eat its food greedily."
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> asks for an adverb (<b>greedily</b>), and <b>did</b> asks for the past: <b>ate</b>."
+  },
+  {
+   "qid": "c6-4.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the puppies have a red collar.",
+    "Each of the puppy has a red collar.",
+    "Each of the puppies has a red collar."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of the</b> + plural noun takes a singular verb: each of the puppies <b>has</b>."
+  },
+  {
+   "qid": "c6-4.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Never hits a stray animal, and always be gentle with it.",
+    "Never hit a stray animal, and always be gentle with it.",
+    "Never hit a stray animal, and always being gentle with it."
+   ],
+   "answer": 1,
+   "rule": "Both parts are commands, so both use the base verb: <b>never hit</b> ... <b>always be</b>."
+  },
+  {
+   "qid": "c6-4.1-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "cat",
+    "Mini",
+    "sleep",
+    "on",
+    "the",
+    "wall",
+    "all",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sleeps",
+      "sleeping",
+      "sleepy"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Mini</b> is one cat, so the present-tense verb takes -s: <b>sleeps</b>."
+  },
+  {
+   "qid": "c6-4.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "dog",
+    "wagged",
+    "its",
+    "tail",
+    "happy",
+    "when",
+    "Meera",
+    "came",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "happier",
+      "happiness",
+      "happily"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To say HOW the dog wagged its tail, use the adverb <b>happily</b>."
+  },
+  {
+   "qid": "c6-4.1-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "My dog thinks a juicy bone is",
+   "after": "than a dry biscuit.",
+   "options": [
+    "better",
+    "good",
+    "best"
+   ],
+   "answer": 0,
+   "rule": "<b>Good</b> is irregular: good - <b>better</b> - best. Use <b>better</b> before 'than'."
+  },
+  {
+   "qid": "c6-4.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "Please",
+   "after": "the gate, or the puppy will run out.",
+   "options": [
+    "closes",
+    "close",
+    "closing"
+   ],
+   "answer": 1,
+   "rule": "After <b>Please</b> in a request, use the base verb: Please <b>close</b> the gate."
+  },
+  {
+   "qid": "c6-4.1-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "cat",
+    "is",
+    "always",
+    "hungry",
+    "at",
+    "night."
+   ],
+   "alts": [],
+   "rule": "An adverb of frequency comes after <b>is/am/are</b>: is <b>always</b> hungry."
+  },
+  {
+   "qid": "c6-4.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "There",
+    "are",
+    "two",
+    "humps",
+    "on",
+    "its",
+    "back."
+   ],
+   "alts": [],
+   "rule": "<b>There are</b> goes with a plural noun: <b>two humps</b>."
+  },
+  {
+   "qid": "c6-4.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "My puppy keeps chewing my shoes. What should I do?"
+    ]
+   ],
+   "options": [
+    "Kept your shoes in a cupboard.",
+    "Keep your shoes in a cupboard.",
+    "Keeps your shoes in a cupboard."
+   ],
+   "answer": 1,
+   "rule": "Advice given as an instruction starts with the base verb: <b>Keep</b> your shoes..."
+  },
+  {
+   "qid": "c6-4.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Who looks after the pets at your home?"
+    ]
+   ],
+   "options": [
+    "My brother and I look after them.",
+    "My brother and I looks after them.",
+    "My brother and me look after them."
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> take a plural verb (<b>look</b>); the subject form is <b>I</b>."
+  },
+  {
+   "qid": "c6-4.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday the dog was naughtier than the cat.",
+    "Yesterday the dog is naughtier than the cat.",
+    "Yesterday the dog was more naughtier than the cat."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> needs <b>was</b>; and never use 'more' with an -er word: <b>naughtier</b>."
+  },
+  {
+   "qid": "c6-4.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dog was chase the rabbit happily when it started to rain.",
+    "The dog was chasing the rabbit happy when it started to rain.",
+    "The dog was chasing the rabbit happily when it started to rain."
+   ],
+   "answer": 2,
+   "rule": "Past continuous is <b>was + -ing</b>, and HOW it chased needs the adverb <b>happily</b>."
+  },
+  {
+   "qid": "c6-4.1-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is punctuated correctly?",
+   "options": [
+    "\"Why you are writing so slowly?\" asked Mother.",
+    "\"Why are you writing so slowly?\" asked Mother.",
+    "\"Why are you write so slowly?\" asked Mother."
+   ],
+   "answer": 1,
+   "rule": "A spoken question keeps question order (<b>are you writing</b>) and its <b>?</b> stays inside the inverted commas."
+  },
+  {
+   "qid": "c6-4.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "funnier",
+    "joke",
+    "I",
+    "have",
+    "ever",
+    "heard."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "funny",
+      "funnily",
+      "funniest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>The ... I have ever heard</b> compares with all others, so use the superlative: <b>funniest</b>."
+  },
+  {
+   "qid": "c6-4.1-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "member",
+    "of",
+    "my",
+    "family",
+    "love",
+    "our",
+    "naughty",
+    "puppy."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "loving",
+      "lover",
+      "loves"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Each member</b> is singular, so the verb takes -s: <b>loves</b>."
+  },
+  {
+   "qid": "c6-4.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Our dog runs",
+   "after": "than our neighbour's dog.",
+   "options": [
+    "fastest",
+    "faster",
+    "more fastly"
+   ],
+   "answer": 1,
+   "rule": "<b>Fast</b> is both adjective and adverb; its comparative is <b>faster</b> (never 'fastly')."
+  },
+  {
+   "qid": "c6-4.1-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The news about the lost puppies",
+   "after": "made everyone sad.",
+   "options": [
+    "has",
+    "have",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>News</b> is uncountable and singular, so it takes <b>has</b>."
+  },
+  {
+   "qid": "c6-4.1-38",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Make a polite Don't rule.",
+   "answer": [
+    "Please",
+    "do",
+    "not",
+    "feed",
+    "the",
+    "monkeys."
+   ],
+   "alts": [],
+   "rule": "A polite negative command: <b>Please do not</b> + base verb."
+  },
+  {
+   "qid": "c6-4.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "How was the dog show yesterday?"
+    ]
+   ],
+   "options": [
+    "It was the goodest show I have ever seen!",
+    "It was the best show I have ever seen!",
+    "It is the best show I have ever saw!"
+   ],
+   "answer": 1,
+   "rule": "Good - better - <b>best</b>; with <b>have</b>, use the past participle <b>seen</b>."
+  },
+  {
+   "qid": "c6-4.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "Ira, what did the boy with the pen tell his mother?"
+    ]
+   ],
+   "options": [
+    "He said, \"I am writing a letter to my brother.\"",
+    "He said, \"I am write a letter to my brother.\"",
+    "He said, \"I writing a letter to my brother.\""
+   ],
+   "answer": 0,
+   "rule": "Inside the inverted commas, the present continuous is <b>am + -ing</b>: <b>I am writing</b>."
+  },
+  {
+   "qid": "c6-4.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "One of the dogs in our lane have learnt to open the gate.",
+    "One of the dogs in our lane has learnt to open the gate.",
+    "One of the dog in our lane has learnt to open the gate."
+   ],
+   "answer": 1,
+   "rule": "<b>One of the</b> + plural noun, and the verb agrees with <b>one</b>: one of the dogs <b>has</b>."
+  },
+  {
+   "qid": "c6-4.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A boy who jokes that a mare can build nests is as rarer as a red donkey.",
+    "A boy who jokes that a mare can build nests is so rare than a red donkey.",
+    "A boy who jokes that a mare can build nests is as rare as a red donkey."
+   ],
+   "answer": 2,
+   "rule": "Equal comparison is <b>as + plain adjective + as</b>: <b>as rare as</b>."
+  },
+  {
+   "qid": "c6-4.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Although",
+    "the",
+    "dog",
+    "looked",
+    "fierce,",
+    "it",
+    "behaved",
+    "very",
+    "gentle",
+    "with",
+    "the",
+    "little",
+    "children."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "gently",
+      "gentler",
+      "gentleness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Looked fierce</b> is right (looked = seemed), but HOW it behaved needs the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c6-4.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "a",
+    "stray",
+    "dog",
+    "looks",
+    "hungry,",
+    "gives",
+    "it",
+    "some",
+    "water",
+    "and",
+    "a",
+    "little",
+    "rice."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "giving",
+      "given",
+      "give"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After the <b>if</b> part, the instruction uses the base verb: <b>give</b> it some water."
+  },
+  {
+   "qid": "c6-4.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the animals on the farm, the plump calf was the",
+   "after": "target for the mischievous dog.",
+   "options": [
+    "more tempting",
+    "much tempting",
+    "most tempting"
+   ],
+   "answer": 2,
+   "rule": "<b>Of all</b> compares with many, so use the superlative: <b>the most tempting</b>."
+  },
+  {
+   "qid": "c6-4.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The pair of old shoes that the puppy chewed",
+   "after": "lying under the bed.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>the pair</b> (singular), so the verb is <b>was</b>, not 'were'."
+  },
+  {
+   "qid": "c6-4.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Write the question as direct speech.",
+   "answer": [
+    "The",
+    "boy",
+    "asked,",
+    "\"Can",
+    "you",
+    "read",
+    "fast?\""
+   ],
+   "alts": [],
+   "rule": "Comma after <b>asked</b>, question order inside: <b>\"Can you read fast?\"</b> with the ? inside the inverted commas."
+  },
+  {
+   "qid": "c6-4.1-48",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Raju",
+    "told",
+    "the",
+    "funniest",
+    "joke",
+    "of",
+    "all."
+   ],
+   "alts": [],
+   "rule": "Superlative pattern: <b>the funniest</b> + noun + <b>of all</b>."
+  },
+  {
+   "qid": "c6-4.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Why are you writing so slowly?"
+    ]
+   ],
+   "options": [
+    "Because my brother can't reads fast.",
+    "Because my brother can't read fastly.",
+    "Because my brother can't read fast."
+   ],
+   "answer": 2,
+   "rule": "After <b>can't</b> use the base verb <b>read</b>; <b>fast</b> is already an adverb ('fastly' is not a word)."
+  },
+  {
+   "qid": "c6-4.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "We found a puppy with a hurt leg near the bus stop!"
+    ],
+    [
+     "Priya",
+     "What should we do now?"
+    ]
+   ],
+   "options": [
+    "Don't touch its leg; call the animal helpline at once.",
+    "Don't touches its leg; call the animal helpline at once.",
+    "Not touch its leg; calling the animal helpline at once."
+   ],
+   "answer": 0,
+   "rule": "Both instructions use the base verb: <b>Don't touch</b> ... <b>call</b>."
+  }
+ ]
+}

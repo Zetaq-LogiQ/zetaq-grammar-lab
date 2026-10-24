@@ -1,0 +1,996 @@
+{
+ "class": 5,
+ "id": "18",
+ "title": "Weeds in the Garden",
+ "topics": [
+  {
+   "tag": "prepositions",
+   "name": "Prepositions (place, time, with, by)"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs: how, when and where"
+  },
+  {
+   "tag": "prefix_opposites",
+   "name": "Opposites with un- / dis- / in- / im-"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-18-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday Anshuman pulled out a small weed.",
+    "Yesterday Anshuman pull out a small weed.",
+    "Yesterday Anshuman pulling out a small weed."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> shows the past: add <b>-ed</b> to pull: <b>pulled</b>."
+  },
+  {
+   "qid": "c5-18-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the sentence with the correct adverb.",
+   "options": [
+    "Please speak gentle to the baby.",
+    "Please speak gently to the baby.",
+    "Please speak gentleness to the baby."
+   ],
+   "answer": 1,
+   "rule": "To tell <b>how</b> we speak, use an adverb: <b>gently</b>."
+  },
+  {
+   "qid": "c5-18-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the sentence with the correct word.",
+   "options": [
+    "Anshuman's parents were dishappy about his habits.",
+    "Anshuman's parents were unhappy about his habits.",
+    "Anshuman's parents were inhappy about his habits."
+   ],
+   "answer": 1,
+   "rule": "The opposite of happy is <b>unhappy</b>."
+  },
+  {
+   "qid": "c5-18-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anshuman",
+    "went",
+    "for",
+    "a",
+    "walk",
+    "of",
+    "his",
+    "father."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "with",
+      "at",
+      "into"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To show company, use <b>with</b>: a walk <b>with</b> his father."
+  },
+  {
+   "qid": "c5-18-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week",
+    "Anshuman",
+    "stay",
+    "on",
+    "his",
+    "grandfather's",
+    "farm."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "stays",
+      "staying",
+      "stayed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last week</b> is past time, so use <b>stayed</b>."
+  },
+  {
+   "qid": "c5-18-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The weed was growing",
+   "after": "the soil.",
+   "options": [
+    "in",
+    "of",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Plants grow with their roots <b>in</b> the soil."
+  },
+  {
+   "qid": "c5-18-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Please uproot the weed",
+   "after": "with this small spade.",
+   "options": [
+    "careful",
+    "care",
+    "carefully"
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> to do it, use an adverb: <b>carefully</b>."
+  },
+  {
+   "qid": "c5-18-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Father",
+    "pointed",
+    "at",
+    "a",
+    "weed."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + <b>at</b>: <b>Father pointed at a weed.</b>"
+  },
+  {
+   "qid": "c5-18-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "How did Anshuman pull out the big weed?"
+    ]
+   ],
+   "options": [
+    "He pulled it out slowly and careful.",
+    "He pull it out slowly and carefully.",
+    "He pulled it out slowly and carefully."
+   ],
+   "answer": 2,
+   "rule": "Both words tell <b>how</b>, so both are adverbs: <b>slowly and carefully</b>. Past: <b>pulled</b>."
+  },
+  {
+   "qid": "c5-18-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Do you like waking up early?"
+    ]
+   ],
+   "options": [
+    "No, I unlike waking up early.",
+    "No, I inlike waking up early.",
+    "No, I dislike waking up early."
+   ],
+   "answer": 2,
+   "rule": "The opposite of the verb like is <b>dislike</b>."
+  },
+  {
+   "qid": "c5-18-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "We travelled to Mumbai by train.",
+    "We travelled to Mumbai in train.",
+    "We travelled to Mumbai on train."
+   ],
+   "answer": 0,
+   "rule": "For how we travel, use <b>by</b>: by train, by bus, by car."
+  },
+  {
+   "qid": "c5-18-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Anshuman's father bringed some tools from the shed.",
+    "Anshuman's father brought some tools from the shed.",
+    "Anshuman's father brung some tools from the shed."
+   ],
+   "answer": 1,
+   "rule": "<b>bring</b> is irregular: its past is <b>brought</b>."
+  },
+  {
+   "qid": "c5-18-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the sentence with the correct adverb.",
+   "options": [
+    "Raju hit the nail hard with the hammer.",
+    "Raju hit the nail hardly with the hammer.",
+    "Raju hit the nail hardness with the hammer."
+   ],
+   "answer": 0,
+   "rule": "<b>hard</b> is also the adverb: hit it <b>hard</b>. hardly means almost not."
+  },
+  {
+   "qid": "c5-18-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anshuman",
+    "quick",
+    "pulled",
+    "the",
+    "weed",
+    "out",
+    "of",
+    "the",
+    "soil."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "quickly",
+      "quicker",
+      "quickest"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A word that tells <b>how</b> someone pulled is an adverb: <b>quickly</b>."
+  },
+  {
+   "qid": "c5-18-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "prefix_opposites",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tired",
+    "farmer",
+    "was",
+    "disable",
+    "to",
+    "lift",
+    "the",
+    "heavy",
+    "sack."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "unable",
+      "enable",
+      "ability"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Not able to do something = <b>unable</b> to do it."
+  },
+  {
+   "qid": "c5-18-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "His father",
+   "after": "him to uproot the weed carefully.",
+   "options": [
+    "tell",
+    "telled",
+    "told"
+   ],
+   "answer": 2,
+   "rule": "<b>tell</b> is irregular: its past is <b>told</b>."
+  },
+  {
+   "qid": "c5-18-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Put the cubes",
+   "after": "the box.",
+   "options": [
+    "of",
+    "in",
+    "at"
+   ],
+   "answer": 1,
+   "rule": "Inside something = <b>in</b>: put them <b>in</b> the box."
+  },
+  {
+   "qid": "c5-18-18",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "farmer",
+    "worked",
+    "hard",
+    "all",
+    "day."
+   ],
+   "alts": [],
+   "rule": "The adverb <b>hard</b> comes after the verb it describes: worked <b>hard</b>."
+  },
+  {
+   "qid": "c5-18-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did you enjoy the walk this morning?"
+    ]
+   ],
+   "options": [
+    "Yes, I did. We walk around the whole farm.",
+    "Yes, I did. We walked around the whole farm.",
+    "Yes, I enjoyed. We walked around the whole farm."
+   ],
+   "answer": 1,
+   "rule": "Short answer: <b>Yes, I did.</b> The walk is over, so use the past: <b>walked</b>."
+  },
+  {
+   "qid": "c5-18-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Where did you find the weed?"
+    ]
+   ],
+   "options": [
+    "We found it near of a small plant.",
+    "We found it near a small plant.",
+    "We found it near at a small plant."
+   ],
+   "answer": 1,
+   "rule": "<b>near</b> needs no other preposition after it: <b>near a small plant</b>."
+  },
+  {
+   "qid": "c5-18-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the sentence with the correct word.",
+   "options": [
+    "Don't unobey your parents.",
+    "Don't inobey your parents.",
+    "Don't disobey your parents."
+   ],
+   "answer": 2,
+   "rule": "The opposite of obey is <b>disobey</b>."
+  },
+  {
+   "qid": "c5-18-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Father stopped sudden and pointed at the weed.",
+    "Father stopped suddenly and pointed at the weed.",
+    "Father stopped suddenly and point at the weed."
+   ],
+   "answer": 1,
+   "rule": "Tell <b>how</b> he stopped with an adverb: <b>suddenly</b>. Both verbs are past."
+  },
+  {
+   "qid": "c5-18-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "weed",
+    "did",
+    "not",
+    "move,",
+    "so",
+    "Anshuman",
+    "pull",
+    "it",
+    "harder."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "pulled",
+      "pulls",
+      "pulling"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>did not move</b> is past, so the next action is past too: <b>pulled</b>."
+  },
+  {
+   "qid": "c5-18-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anshuman",
+    "woke",
+    "up",
+    "on",
+    "six",
+    "o'clock",
+    "and",
+    "went",
+    "for",
+    "a",
+    "walk."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "in",
+      "at",
+      "of"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at six o'clock</b>."
+  },
+  {
+   "qid": "c5-18-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The weed has grown",
+   "after": "deep into the soil.",
+   "options": [
+    "too",
+    "very much",
+    "so much"
+   ],
+   "answer": 0,
+   "rule": "<b>too</b> + adjective means more than is good: <b>too deep</b>."
+  },
+  {
+   "qid": "c5-18-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "prefix_opposites",
+   "prompt": "Fill in the gap.",
+   "before": "It is",
+   "after": "to let bad habits grow.",
+   "options": [
+    "unwise",
+    "diswise",
+    "inwise"
+   ],
+   "answer": 0,
+   "rule": "The opposite of wise is <b>unwise</b>."
+  },
+  {
+   "qid": "c5-18-27",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "tiger",
+    "jumped",
+    "into",
+    "the",
+    "river."
+   ],
+   "alts": [],
+   "rule": "<b>into</b> shows movement from outside to inside."
+  },
+  {
+   "qid": "c5-18-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "They",
+    "dug",
+    "around",
+    "the",
+    "weed."
+   ],
+   "alts": [],
+   "rule": "<b>dig</b> is irregular: its past is <b>dug</b>. <b>around</b> shows place."
+  },
+  {
+   "qid": "c5-18-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How should we hit the ball?"
+    ]
+   ],
+   "options": [
+    "Hit it hardly and run fast.",
+    "Hit it hard and run fast.",
+    "Hit it hard and run fastly."
+   ],
+   "answer": 1,
+   "rule": "<b>hard</b> and <b>fast</b> are adverbs too. There is no word fastly."
+  },
+  {
+   "qid": "c5-18-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Was the shopkeeper polite to you?"
+    ]
+   ],
+   "options": [
+    "No, he was very unpolite.",
+    "No, he was very dispolite.",
+    "No, he was very impolite."
+   ],
+   "answer": 2,
+   "rule": "The opposite of polite is <b>impolite</b>."
+  },
+  {
+   "qid": "c5-18-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Anshuman's parents was worried because he was not listening to them.",
+    "Anshuman's parents were worried because he were not listening to them.",
+    "Anshuman's parents were worried because he was not listening to them."
+   ],
+   "answer": 2,
+   "rule": "<b>parents</b> (plural) takes <b>were</b>; <b>he</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c5-18-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The farmer's tools are kept in the shed behind the house.",
+    "The farmer's tools is kept in the shed behind the house.",
+    "The farmer's tools are kept in the shed behind of the house."
+   ],
+   "answer": 0,
+   "rule": "<b>tools</b> is plural, so <b>are</b>. <b>behind</b> needs no 'of' after it."
+  },
+  {
+   "qid": "c5-18-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anshuman",
+    "and",
+    "his",
+    "father",
+    "were",
+    "tired,",
+    "so",
+    "both",
+    "of",
+    "them",
+    "walks",
+    "home",
+    "slowly."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "walking",
+      "walked",
+      "walker"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>were</b> shows the past, so the next verb is past too: <b>walked</b>."
+  },
+  {
+   "qid": "c5-18-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anshuman's",
+    "father",
+    "explained",
+    "the",
+    "lesson",
+    "patient",
+    "to",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "patience",
+      "patients",
+      "patiently"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> he explained, use the adverb <b>patiently</b>."
+  },
+  {
+   "qid": "c5-18-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Anshuman's family stayed on the farm",
+   "after": "the whole summer.",
+   "options": [
+    "for",
+    "since",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "For a length of time, use <b>for</b>: <b>for the whole summer</b>."
+  },
+  {
+   "qid": "c5-18-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "prefix_opposites",
+   "prompt": "Fill in the gap.",
+   "before": "Leaving the weed to grow was",
+   "after": "idea.",
+   "options": [
+    "a unwise",
+    "an unwise",
+    "an inwise"
+   ],
+   "answer": 1,
+   "rule": "The opposite of wise is <b>unwise</b>, and it starts with a vowel sound, so <b>an unwise</b> idea."
+  },
+  {
+   "qid": "c5-18-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "Anshuman",
+    "pull",
+    "the",
+    "weed?"
+   ],
+   "alts": [],
+   "rule": "Past question: Why + <b>did</b> + subject + base verb (<b>pull</b>, not pulled)."
+  },
+  {
+   "qid": "c5-18-38",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Please",
+    "come",
+    "in",
+    "very",
+    "quietly."
+   ],
+   "alts": [],
+   "rule": "<b>in</b> tells where and <b>very quietly</b> tells how: <b>come in very quietly</b>."
+  },
+  {
+   "qid": "c5-18-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "Do you have any bad habits?"
+    ]
+   ],
+   "options": [
+    "Yes, I has one. I often forget my water bottle.",
+    "Yes, I have one. I often forget my water bottle.",
+    "Yes, I have one. I often forgets my water bottle."
+   ],
+   "answer": 1,
+   "rule": "With <b>I</b>: <b>have</b> and <b>forget</b> (no -s). <b>often</b> goes before the main verb."
+  },
+  {
+   "qid": "c5-18-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Where were you yesterday?"
+    ]
+   ],
+   "options": [
+    "I were at my grandfather's farm in the village.",
+    "I was at my grandfather's farm in the village.",
+    "I was at my grandfather's farm on the village."
+   ],
+   "answer": 1,
+   "rule": "<b>I was</b> for the past; we live <b>in</b> a village."
+  },
+  {
+   "qid": "c5-18-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "After the hard work, Anshuman and his father returned to home along the narrow path.",
+    "After the hard work, Anshuman and his father returned home along of the narrow path.",
+    "After the hard work, Anshuman and his father returned home along the narrow path."
+   ],
+   "answer": 2,
+   "rule": "We say <b>returned home</b> (no 'to'), and <b>along</b> the path needs no 'of'."
+  },
+  {
+   "qid": "c5-18-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Anshuman twisted the plant and pulled it so hard that the whole root came out.",
+    "Anshuman twisted the plant and pulled it so hardly that the whole root came out.",
+    "Anshuman twisted the plant and pull it so hard that the whole root came out."
+   ],
+   "answer": 0,
+   "rule": "<b>hard</b> is the adverb for great force. Both actions are past: twisted, <b>pulled</b>."
+  },
+  {
+   "qid": "c5-18-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Anshuman's",
+    "father",
+    "take",
+    "him",
+    "for",
+    "a",
+    "long",
+    "walk",
+    "around",
+    "the",
+    "farm."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "took",
+      "taken",
+      "taking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last Sunday</b> is past time. take is irregular: its past is <b>took</b>."
+  },
+  {
+   "qid": "c5-18-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prefix_opposites",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gentle",
+    "words",
+    "were",
+    "uneffective",
+    "with",
+    "Anshuman",
+    "at",
+    "first."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "effectively",
+      "effect",
+      "ineffective"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The opposite of effective is <b>ineffective</b>."
+  },
+  {
+   "qid": "c5-18-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "When Anshuman pulled the weed carefully, no trace of the root was left",
+   "after": "the soil.",
+   "options": [
+    "at",
+    "into",
+    "in"
+   ],
+   "answer": 2,
+   "rule": "Roots stay <b>in</b> the soil. into shows movement, which this sentence does not have."
+  },
+  {
+   "qid": "c5-18-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The more Anshuman pulled, the",
+   "after": "the weed seemed to hold on.",
+   "options": [
+    "most tightly",
+    "much tightly",
+    "more tightly"
+   ],
+   "answer": 2,
+   "rule": "<b>the more ..., the more ...</b>; and <b>hold on</b> needs an adverb: <b>more tightly</b>."
+  },
+  {
+   "qid": "c5-18-47",
+   "type": "build",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Anshuman",
+    "finally",
+    "understood",
+    "his",
+    "father's",
+    "words."
+   ],
+   "alts": [],
+   "rule": "Adverbs like <b>finally</b> usually come before the main verb: <b>finally understood</b>."
+  },
+  {
+   "qid": "c5-18-48",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "weed",
+    "had",
+    "grown",
+    "into",
+    "a",
+    "big",
+    "plant."
+   ],
+   "alts": [],
+   "rule": "<b>grow into</b> means change and become something bigger."
+  },
+  {
+   "qid": "c5-18-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Did you finish your homework?"
+    ]
+   ],
+   "options": [
+    "Not yet. It is still disfinished, but I will complete it soon.",
+    "Not yet. It is still unfinished, but I will complete it soon.",
+    "Not yet. It is still infinished, but I will complete it soon."
+   ],
+   "answer": 1,
+   "rule": "Not finished = <b>unfinished</b>."
+  },
+  {
+   "qid": "c5-18-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What did you learn from the weeds today?"
+    ]
+   ],
+   "options": [
+    "I learnt that we should remove bad habits early.",
+    "I learnt that we should removing bad habits early.",
+    "I learnt that we should removes bad habits early."
+   ],
+   "answer": 0,
+   "rule": "Past: <b>learnt</b>. After <b>should</b>, use the base verb: <b>should remove</b>."
+  }
+ ]
+}

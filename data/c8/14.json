@@ -1,0 +1,1233 @@
+{
+ "class": 8,
+ "id": "14",
+ "title": "The Vet",
+ "topics": [
+  {
+   "tag": "conditionals",
+   "name": "Conditionals (type 1 and type 2)"
+  },
+  {
+   "tag": "reported_questions",
+   "name": "Reported questions (asked if / why / what)"
+  },
+  {
+   "tag": "perfect_continuous",
+   "name": "Present and past perfect continuous with since / for"
+  },
+  {
+   "tag": "passive_modals",
+   "name": "Passive with modals (must be treated)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-14-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the parrot will be ill, we will take it to the vet.",
+    "If the parrot is ill, we will take it to the vet.",
+    "If the parrot is ill, we took it to the vet."
+   ],
+   "answer": 1,
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb. No 'will' in the if-part."
+  },
+  {
+   "qid": "c8-14-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "perfect_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The puppy has been sleeping for morning.",
+    "The puppy has been sleeping since morning.",
+    "The puppy have been sleeping since morning."
+   ],
+   "answer": 1,
+   "rule": "<b>since</b> + starting point (morning). The puppy is singular, so <b>has been</b>."
+  },
+  {
+   "qid": "c8-14-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Tommy",
+    "eat",
+    "too",
+    "much,",
+    "he",
+    "will",
+    "get",
+    "a",
+    "stomach",
+    "ache."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "eaten",
+      "eating",
+      "eats"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Type 1 if-clause uses the simple present: If Tommy <b>eats</b> too much..."
+  },
+  {
+   "qid": "c8-14-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "perfect_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dr",
+    "Rao",
+    "has",
+    "been",
+    "working",
+    "at",
+    "this",
+    "animal",
+    "hospital",
+    "since",
+    "ten",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "from",
+      "by",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>for</b> + a length of time (ten years); <b>since</b> + a starting point (2015)."
+  },
+  {
+   "qid": "c8-14-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_questions",
+   "prompt": "Fill in the gap.",
+   "before": "The vet asked me if my cat",
+   "after": "drinking enough water.",
+   "options": [
+    "did",
+    "was",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "Reported yes/no question: <b>if</b> + subject + verb in the past: if my cat <b>was</b> drinking."
+  },
+  {
+   "qid": "c8-14-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_modals",
+   "prompt": "Fill in the gap.",
+   "before": "Sick animals must",
+   "after": "kept away from the others.",
+   "options": [
+    "been",
+    "being",
+    "be"
+   ],
+   "answer": 2,
+   "rule": "Modal passive: modal + <b>be</b> + past participle: must <b>be kept</b>."
+  },
+  {
+   "qid": "c8-14-07",
+   "type": "build",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Make a type 1 conditional sentence.",
+   "answer": [
+    "If",
+    "you",
+    "feed",
+    "the",
+    "cat,",
+    "it",
+    "will",
+    "purr."
+   ],
+   "alts": [],
+   "rule": "If + simple present, <b>will</b> + base verb: If you feed the cat, it will purr."
+  },
+  {
+   "qid": "c8-14-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "perfect_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are your eyes so red?"
+    ]
+   ],
+   "options": [
+    "I have been reading since lunch.",
+    "I have been read since lunch.",
+    "I am reading since lunch."
+   ],
+   "answer": 0,
+   "rule": "An action from a past point until now: <b>have been reading since</b> lunch."
+  },
+  {
+   "qid": "c8-14-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_questions",
+   "prompt": "Change into reported speech.",
+   "source": "Asha asked me, \"Do you have a pet?\"",
+   "options": [
+    "Asha asked me if I had a pet.",
+    "Asha asked me if you had a pet.",
+    "Asha asked me do I have a pet."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: use <b>if</b>, change <b>you</b> to <b>I</b>, and <b>have</b> to <b>had</b>."
+  },
+  {
+   "qid": "c8-14-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_modals",
+   "prompt": "Change into passive voice.",
+   "source": "We should feed the birds every day.",
+   "options": [
+    "The birds should be feed every day.",
+    "The birds should be fed every day.",
+    "The birds should fed every day."
+   ],
+   "answer": 1,
+   "rule": "should + <b>be</b> + past participle: should <b>be fed</b>."
+  },
+  {
+   "qid": "c8-14-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The keeper asked why was the lion not eating.",
+    "The keeper asked why the lion is not eat.",
+    "The keeper asked why the lion was not eating."
+   ],
+   "answer": 2,
+   "rule": "In a reported question, the subject comes before the verb: why <b>the lion was</b> not eating."
+  },
+  {
+   "qid": "c8-14-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive_modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The horse's leg must checked by a vet.",
+    "The horse's leg must be check by a vet.",
+    "The horse's leg must be checked by a vet."
+   ],
+   "answer": 2,
+   "rule": "must + <b>be</b> + past participle: must <b>be checked</b>."
+  },
+  {
+   "qid": "c8-14-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "perfect_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "canary",
+    "has",
+    "not",
+    "been",
+    "sing",
+    "well",
+    "for",
+    "a",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "sang",
+      "singing",
+      "sings"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect continuous: has (not) been + <b>-ing</b>: has not been <b>singing</b>."
+  },
+  {
+   "qid": "c8-14-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If the zebra",
+   "after": "a cold, it will stay in its shelter.",
+   "options": [
+    "catches",
+    "will catch",
+    "caught"
+   ],
+   "answer": 0,
+   "rule": "Type 1: the if-part takes the simple present (catches); the result takes <b>will</b>."
+  },
+  {
+   "qid": "c8-14-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_questions",
+   "prompt": "Fill in the gap.",
+   "before": "My sister asked me",
+   "after": "I wanted to become a vet.",
+   "options": [
+    "that",
+    "whether",
+    "what"
+   ],
+   "answer": 1,
+   "rule": "A reported yes/no question uses <b>whether</b> or <b>if</b>, not 'that'."
+  },
+  {
+   "qid": "c8-14-16",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_modals",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "injection",
+    "must",
+    "be",
+    "given",
+    "today."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>must be</b> + past participle: The injection must be given today."
+  },
+  {
+   "qid": "c8-14-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "My hamster isn't eating anything."
+    ]
+   ],
+   "options": [
+    "If he doesn't eat by evening, we'll take him to the vet.",
+    "If he don't eat by evening, we'll take him to the vet.",
+    "If he doesn't eat by evening, we took him to the vet."
+   ],
+   "answer": 0,
+   "rule": "Type 1: If + simple present (<b>doesn't eat</b>), <b>will</b> + base verb."
+  },
+  {
+   "qid": "c8-14-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "perfect_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Vet",
+     "How long has your dog been limping?"
+    ]
+   ],
+   "options": [
+    "He is limping since Monday.",
+    "He has been limping since Monday.",
+    "He has been limp since Monday."
+   ],
+   "answer": 1,
+   "rule": "Answer in the same tense: <b>has been limping since</b> Monday."
+  },
+  {
+   "qid": "c8-14-19",
+   "type": "change",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not clean the cage, the birds will fall ill.",
+   "options": [
+    "Unless you do not clean the cage, the birds will fall ill.",
+    "Unless you clean the cage, the birds will fall ill.",
+    "Unless you clean the cage, the birds would fall ill."
+   ],
+   "answer": 1,
+   "rule": "<b>unless</b> = if not, so drop the 'not': Unless you clean the cage... Keep <b>will</b>."
+  },
+  {
+   "qid": "c8-14-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "reported_questions",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "vet",
+    "asked",
+    "me",
+    "why",
+    "my",
+    "rabbit",
+    "had",
+    "not",
+    "ate",
+    "its",
+    "food",
+    "that",
+    "morning.",
+    "I",
+    "told",
+    "him",
+    "that",
+    "it",
+    "seemed",
+    "weak",
+    "and",
+    "tired.",
+    "He",
+    "said",
+    "that",
+    "its",
+    "medicine",
+    "must",
+    "be",
+    "give",
+    "twice",
+    "a",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "eat",
+      "eating",
+      "eaten"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "given",
+      "gave",
+      "giving"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "had (not) + past participle: had not <b>eaten</b>. Modal passive: must be <b>given</b>."
+  },
+  {
+   "qid": "c8-14-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct imaginary condition.",
+   "options": [
+    "If I were a vet, I would treat lions and tigers.",
+    "If I were a vet, I would treated lions and tigers.",
+    "If I were a vet, I will treat lions and tigers."
+   ],
+   "answer": 0,
+   "rule": "Type 2 (imaginary): If + past (<b>were</b>), <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-14-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mira",
+    "asked",
+    "the",
+    "keeper",
+    "why",
+    "the",
+    "bear",
+    "look",
+    "so",
+    "sad",
+    "that",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "looking",
+      "looks",
+      "looked"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Reported question about a past moment: subject + past verb: why the bear <b>looked</b> so sad."
+  },
+  {
+   "qid": "c8-14-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive_modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cobra's",
+    "cage",
+    "should",
+    "be",
+    "wash",
+    "with",
+    "great",
+    "care."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "washing",
+      "washes",
+      "washed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "should + be + <b>past participle</b>: should be <b>washed</b>."
+  },
+  {
+   "qid": "c8-14-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "perfect_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The old tortoise has not moved",
+   "after": "last winter.",
+   "options": [
+    "for",
+    "since",
+    "from"
+   ],
+   "answer": 1,
+   "rule": "<b>last winter</b> is a starting point, so use <b>since</b>."
+  },
+  {
+   "qid": "c8-14-25",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_questions",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "The",
+    "doctor",
+    "asked",
+    "me",
+    "how",
+    "I",
+    "was",
+    "feeling."
+   ],
+   "alts": [],
+   "rule": "Reported wh- question: wh- word + subject + verb: how <b>I was</b> feeling."
+  },
+  {
+   "qid": "c8-14-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive_modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Keeper",
+     "Help! The elephant has swallowed a paper bag!"
+    ]
+   ],
+   "options": [
+    "The vet must be call at once!",
+    "The vet must been called at once!",
+    "The vet must be called at once!"
+   ],
+   "answer": 2,
+   "rule": "must + <b>be</b> + past participle: must <b>be called</b>."
+  },
+  {
+   "qid": "c8-14-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did the vet ask you?"
+    ]
+   ],
+   "options": [
+    "He asked me how often did I feed the dog.",
+    "He asked me how often I fed the dog.",
+    "He asked me how often I feed to the dog."
+   ],
+   "answer": 1,
+   "rule": "Reported question: no 'did', statement order, past tense: how often <b>I fed</b> the dog."
+  },
+  {
+   "qid": "c8-14-28",
+   "type": "change",
+   "level": 3,
+   "topic": "perfect_continuous",
+   "prompt": "Join into one sentence using the present perfect continuous.",
+   "source": "Arjun started training as a vet in 2022. He is still training.",
+   "options": [
+    "Arjun has been training as a vet for 2022.",
+    "Arjun has been training as a vet since 2022.",
+    "Arjun is training as a vet since 2022."
+   ],
+   "answer": 1,
+   "rule": "Started in the past and still going on: <b>has been training since</b> 2022."
+  },
+  {
+   "qid": "c8-14-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Rewrite as an imaginary (type 2) condition.",
+   "source": "If the monkey stops pinching its tail, it will feel better.",
+   "options": [
+    "If the monkey stopped pinching its tail, it will feel better.",
+    "If the monkey stopped pinching its tail, it would feel better.",
+    "If the monkey stops pinching its tail, it would feel better."
+   ],
+   "answer": 1,
+   "rule": "Type 2: If + simple past (<b>stopped</b>), <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-14-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "If",
+    "the",
+    "giraffes",
+    "quarrel",
+    "again,",
+    "their",
+    "necks",
+    "will",
+    "feels",
+    "stiff.",
+    "If",
+    "I",
+    "were",
+    "their",
+    "keeper,",
+    "I",
+    "would",
+    "keep",
+    "them",
+    "apart.",
+    "They",
+    "would",
+    "be",
+    "happier",
+    "if",
+    "they",
+    "has",
+    "more",
+    "space."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "felt",
+      "feeling",
+      "feel"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "had",
+      "having",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "will + base verb (<b>feel</b>). Type 2 if-part takes the past: if they <b>had</b> more space."
+  },
+  {
+   "qid": "c8-14-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "perfect_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We have been visiting this zoo since we were children.",
+    "We are visiting this zoo since we were children.",
+    "We have been visiting this zoo since we are children."
+   ],
+   "answer": 0,
+   "rule": "Main clause: present perfect continuous. After <b>since</b>, the past: since we <b>were</b> children."
+  },
+  {
+   "qid": "c8-14-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boy asked whether he could touch the tortoise.",
+    "The boy asked whether could he touch the tortoise.",
+    "The boy asked whether he can touched the tortoise."
+   ],
+   "answer": 0,
+   "rule": "Reported question: subject before verb, <b>can</b> becomes <b>could</b> + base verb."
+  },
+  {
+   "qid": "c8-14-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Bruno",
+    "gets",
+    "more",
+    "exercise,",
+    "he",
+    "will",
+    "become",
+    "strongest",
+    "and",
+    "happier."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "strength",
+      "strongly",
+      "stronger"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Compare with how he is now, like <b>happier</b>: use the comparative <b>stronger</b>."
+  },
+  {
+   "qid": "c8-14-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive_modals",
+   "prompt": "Fill in the gap.",
+   "before": "The lion's cold can",
+   "after": "with simple medicine.",
+   "options": [
+    "treat",
+    "been treated",
+    "be treated"
+   ],
+   "answer": 2,
+   "rule": "The cold receives the action: can <b>be treated</b> (modal + be + past participle)."
+  },
+  {
+   "qid": "c8-14-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_questions",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa asked us where we",
+   "after": "the injured pigeon.",
+   "options": [
+    "had found",
+    "did we find",
+    "have we found"
+   ],
+   "answer": 0,
+   "rule": "Reported question: statement order and one step back in tense: where we <b>had found</b>."
+  },
+  {
+   "qid": "c8-14-36",
+   "type": "build",
+   "level": 4,
+   "topic": "perfect_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "long",
+    "have",
+    "you",
+    "been",
+    "feeding",
+    "the",
+    "stray",
+    "cats?"
+   ],
+   "alts": [],
+   "rule": "How long + <b>have</b> + subject + <b>been</b> + -ing?"
+  },
+  {
+   "qid": "c8-14-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Can I give my puppy some chocolate?"
+    ]
+   ],
+   "options": [
+    "No! Chocolate should never be given to dogs.",
+    "No! Chocolate should never be give to dogs.",
+    "No! Chocolate should never given to dogs."
+   ],
+   "answer": 0,
+   "rule": "should (never) + <b>be</b> + past participle: should never <b>be given</b>."
+  },
+  {
+   "qid": "c8-14-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_questions",
+   "prompt": "Change into reported speech.",
+   "source": "The vet said to the keeper, \"Has the bear eaten its buns?\"",
+   "options": [
+    "The vet asked the keeper had the bear eaten its buns.",
+    "The vet asked the keeper if the bear had eaten its buns.",
+    "The vet asked the keeper if the bear had ate its buns."
+   ],
+   "answer": 1,
+   "rule": "said to → <b>asked</b>, add <b>if</b>, statement order, <b>has eaten</b> → <b>had eaten</b>."
+  },
+  {
+   "qid": "c8-14-39",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_modals",
+   "prompt": "Change into passive voice.",
+   "source": "The zookeeper must give the hippo its medicine.",
+   "options": [
+    "The hippo must be gave its medicine by the zookeeper.",
+    "The hippo must given its medicine by the zookeeper.",
+    "The hippo must be given its medicine by the zookeeper."
+   ],
+   "answer": 2,
+   "rule": "must + <b>be</b> + past participle: The hippo must <b>be given</b> its medicine."
+  },
+  {
+   "qid": "c8-14-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "perfect_continuous",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "cat",
+    "Misty",
+    "has",
+    "been",
+    "sneezing",
+    "since",
+    "three",
+    "days.",
+    "Mum",
+    "and",
+    "I",
+    "has",
+    "taken",
+    "her",
+    "to",
+    "the",
+    "vet",
+    "twice.",
+    "He",
+    "has",
+    "been",
+    "give",
+    "her",
+    "medicine",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "for",
+      "by"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "have",
+      "is",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "gave",
+      "giving",
+      "gives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>for</b> three days (a length of time); Mum and I <b>have</b> taken; has been <b>giving</b>."
+  },
+  {
+   "qid": "c8-14-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct imaginary condition.",
+   "options": [
+    "If hyenas laughed at jokes, the keepers will tell them more.",
+    "If hyenas laughed at jokes, the keepers would tell them more.",
+    "If hyenas laughed at jokes, the keepers would told them more."
+   ],
+   "answer": 1,
+   "rule": "Type 2: If + past (<b>laughed</b>), <b>would</b> + base verb (<b>tell</b>)."
+  },
+  {
+   "qid": "c8-14-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "reported_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "wanted",
+    "to",
+    "know",
+    "how",
+    "long",
+    "the",
+    "panther",
+    "had",
+    "been",
+    "live",
+    "in",
+    "the",
+    "zoo."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "living",
+      "lived",
+      "lives"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past perfect continuous: had been + <b>-ing</b>: how long the panther had been <b>living</b> there."
+  },
+  {
+   "qid": "c8-14-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Wild",
+    "animals",
+    "ought",
+    "to",
+    "be",
+    "handle",
+    "only",
+    "by",
+    "trained",
+    "experts."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "handling",
+      "handles",
+      "handled"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "ought to + be + past participle: ought to be <b>handled</b>."
+  },
+  {
+   "qid": "c8-14-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "perfect_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "By the time the vet arrived, the bison",
+   "after": "shivering for over an hour.",
+   "options": [
+    "had been",
+    "has been",
+    "was been"
+   ],
+   "answer": 0,
+   "rule": "An action going on up to a past moment: past perfect continuous, <b>had been</b> shivering."
+  },
+  {
+   "qid": "c8-14-45",
+   "type": "build",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Make an imaginary question.",
+   "answer": [
+    "What",
+    "would",
+    "you",
+    "do",
+    "if",
+    "a",
+    "snake",
+    "entered",
+    "your",
+    "house?"
+   ],
+   "alts": [],
+   "rule": "Type 2 question: What <b>would</b> you do <b>if</b> + simple past?"
+  },
+  {
+   "qid": "c8-14-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive_modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Keeper",
+     "The crocodile keeps biting the other crocodiles!"
+    ]
+   ],
+   "options": [
+    "It should moved to a separate pond immediately.",
+    "It should be move to a separate pond immediately.",
+    "It should be moved to a separate pond immediately."
+   ],
+   "answer": 2,
+   "rule": "should + <b>be</b> + past participle: should <b>be moved</b>."
+  },
+  {
+   "qid": "c8-14-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Would you like to be a vet when you grow up?"
+    ]
+   ],
+   "options": [
+    "Yes! If I became a vet, I will treat wild animals too.",
+    "Yes! If I become a vet, I would treated wild animals too.",
+    "Yes! If I became a vet, I would treat wild animals too."
+   ],
+   "answer": 2,
+   "rule": "Type 2: If + past (<b>became</b>), <b>would</b> + base verb (<b>treat</b>)."
+  },
+  {
+   "qid": "c8-14-48",
+   "type": "change",
+   "level": 5,
+   "topic": "perfect_continuous",
+   "prompt": "Make a question beginning with 'How long'.",
+   "source": "The tortoise has been sleeping for several years.",
+   "options": [
+    "How long the tortoise has been sleeping?",
+    "How long has the tortoise been sleeping?",
+    "How long has the tortoise been slept?"
+   ],
+   "answer": 1,
+   "rule": "How long + <b>has</b> + subject + <b>been</b> + -ing?"
+  },
+  {
+   "qid": "c8-14-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_questions",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "My",
+    "little",
+    "brother",
+    "asked",
+    "me",
+    "what",
+    "Dr",
+    "Mehta",
+    "do",
+    "all",
+    "day.",
+    "I",
+    "told",
+    "him",
+    "that",
+    "she",
+    "treated",
+    "sick",
+    "animals",
+    "and",
+    "keep",
+    "them",
+    "healthy.",
+    "He",
+    "then",
+    "asked",
+    "me",
+    "whether",
+    "she",
+    "had",
+    "ever",
+    "been",
+    "bite",
+    "by",
+    "a",
+    "dog."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "did",
+      "doing",
+      "done"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "keeping",
+      "keeps",
+      "kept"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 32,
+     "options": [
+      "bitten",
+      "biting",
+      "bites"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Reported: what Dr Mehta <b>did</b>; treated and <b>kept</b> (same tense); had ever been <b>bitten</b>."
+  },
+  {
+   "qid": "c8-14-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "Dr",
+    "Mehta",
+    "had",
+    "a",
+    "helper,",
+    "she",
+    "would",
+    "finishes",
+    "her",
+    "rounds",
+    "early.",
+    "If",
+    "it",
+    "rain",
+    "tonight,",
+    "the",
+    "deer",
+    "will",
+    "need",
+    "shelter.",
+    "If",
+    "I",
+    "were",
+    "older,",
+    "I",
+    "would",
+    "gladly",
+    "worked",
+    "with",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "finish",
+      "finished",
+      "finishing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "raining",
+      "rained",
+      "rains"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "working",
+      "work",
+      "works"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "would + base verb (<b>finish</b>, <b>work</b>). Type 1 if-part: If it <b>rains</b> tonight."
+  }
+ ]
+}

@@ -1,0 +1,1002 @@
+{
+ "class": 6,
+ "id": "1.2",
+ "title": "Self Help is the Only Way",
+ "topics": [
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech punctuation"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-1.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I saw a elephant in the field.",
+    "I saw an elephants in the field.",
+    "I saw an elephant in the field."
+   ],
+   "answer": 2,
+   "rule": "<b>elephant</b> starts with a vowel sound, so use <b>an</b>, with a singular noun."
+  },
+  {
+   "qid": "c6-1.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The farmer come to the field yesterday.",
+    "The farmer came to the field yesterday.",
+    "The farmer comed to the field yesterday."
+   ],
+   "answer": 1,
+   "rule": "<b>come</b> is irregular: its past is <b>came</b>."
+  },
+  {
+   "qid": "c6-1.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mother lark told, \"Keep your eyes open.\"",
+    "The mother lark say, \"Keep your eyes open.\"",
+    "The mother lark said, \"Keep your eyes open.\""
+   ],
+   "answer": 2,
+   "rule": "Report words with <b>said</b> (past). <b>told</b> needs a person after it: told them."
+  },
+  {
+   "qid": "c6-1.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mother",
+    "lark",
+    "found",
+    "a",
+    "insect",
+    "for",
+    "her",
+    "babies."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "many",
+      "few",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>insect</b> starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-1.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "days",
+    "ago",
+    "the",
+    "larks",
+    "see",
+    "the",
+    "farmer",
+    "and",
+    "his",
+    "sons."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "saw",
+      "seen",
+      "seeing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two days ago</b> is in the past, so use the simple past. The past of see is <b>saw</b>."
+  },
+  {
+   "qid": "c6-1.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "sun rises in the east.",
+   "options": [
+    "An",
+    "The",
+    "A"
+   ],
+   "answer": 1,
+   "rule": "There is only one sun, so use <b>the</b>."
+  },
+  {
+   "qid": "c6-1.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The little larks",
+   "after": "playing in the nest.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>larks</b> is plural, so the past continuous is <b>were</b> + -ing."
+  },
+  {
+   "qid": "c6-1.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "farmer",
+    "came",
+    "with",
+    "his",
+    "sons."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb (<b>came</b>) + the rest."
+  },
+  {
+   "qid": "c6-1.2-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "Did you see the farmer today?"
+    ]
+   ],
+   "options": [
+    "Yes, I see him in the morning.",
+    "Yes, I saw him in the morning.",
+    "Yes, I seen him in the morning."
+   ],
+   "answer": 1,
+   "rule": "A <b>Did ...?</b> question is answered in the simple past: <b>I saw</b>."
+  },
+  {
+   "qid": "c6-1.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What do you want for lunch?"
+    ]
+   ],
+   "options": [
+    "I want an apple and a banana.",
+    "I want a apple and a banana.",
+    "I want an apple and an banana."
+   ],
+   "answer": 0,
+   "rule": "<b>an</b> before a vowel sound (an apple), <b>a</b> before a consonant sound (a banana)."
+  },
+  {
+   "qid": "c6-1.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer were talking to his sons.",
+    "The farmer was talk to his sons.",
+    "The farmer was talking to his sons."
+   ],
+   "answer": 2,
+   "rule": "Past continuous: <b>was</b> (one person) + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-1.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "She is reading an interesting book about birds.",
+    "She is reading a interesting book about birds.",
+    "She is reading an interesting books about birds."
+   ],
+   "answer": 0,
+   "rule": "The article goes with the next word's sound: <b>an interesting</b>; a/an needs a singular noun."
+  },
+  {
+   "qid": "c6-1.2-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "baby",
+    "larks",
+    "was",
+    "waiting",
+    "for",
+    "their",
+    "mother."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>larks</b> is plural, so use <b>were waiting</b>."
+  },
+  {
+   "qid": "c6-1.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mother",
+    "lark",
+    "listened",
+    "patiently",
+    "and",
+    "smile",
+    "at",
+    "her",
+    "babies."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "smiling",
+      "smiled",
+      "smiles"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both actions are in the past: <b>listened</b> and <b>smiled</b>."
+  },
+  {
+   "qid": "c6-1.2-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer",
+   "after": "to his sons about the ripe corn.",
+   "options": [
+    "speaked",
+    "spoken",
+    "spoke"
+   ],
+   "answer": 2,
+   "rule": "<b>speak</b> is irregular: past <b>spoke</b>. (spoken needs has/had.)"
+  },
+  {
+   "qid": "c6-1.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The larks lived in",
+   "after": "cosy nest.",
+   "options": [
+    "an",
+    "a",
+    "few"
+   ],
+   "answer": 1,
+   "rule": "<b>cosy</b> starts with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c6-1.2-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "larks",
+    "were",
+    "sleeping",
+    "in",
+    "their",
+    "nest."
+   ],
+   "alts": [],
+   "rule": "Past continuous: subject + <b>were</b> + verb-ing."
+  },
+  {
+   "qid": "c6-1.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "An",
+    "owl",
+    "sat",
+    "on",
+    "the",
+    "branch."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> goes before owl (vowel sound); <b>the</b> goes before branch."
+  },
+  {
+   "qid": "c6-1.2-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What were you doing at eight last night?"
+    ]
+   ],
+   "options": [
+    "I were reading a story.",
+    "I am reading a story.",
+    "I was reading a story."
+   ],
+   "answer": 2,
+   "rule": "Answer a past continuous question with <b>I was</b> + verb-ing."
+  },
+  {
+   "qid": "c6-1.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Where did you go on Sunday?"
+    ]
+   ],
+   "options": [
+    "I goes to my uncle's farm.",
+    "I went to my uncle's farm.",
+    "I gone to my uncle's farm."
+   ],
+   "answer": 1,
+   "rule": "The past of go is <b>went</b>."
+  },
+  {
+   "qid": "c6-1.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the mother lark returned, the babies were waiting.",
+    "When the mother lark returned, the babies was waiting.",
+    "When the mother lark return, the babies were waiting."
+   ],
+   "answer": 0,
+   "rule": "Short past action: <b>returned</b>. Longer action going on: <b>were waiting</b> (plural)."
+  },
+  {
+   "qid": "c6-1.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"Where the farmer is?\" asked the mother lark.",
+    "\"Where is the farmer?\" asked the mother lark.",
+    "\"Where is the farmer?\" told the mother lark."
+   ],
+   "answer": 1,
+   "rule": "A spoken question keeps question order (<b>Where is the farmer?</b>) and is reported with <b>asked</b>."
+  },
+  {
+   "qid": "c6-1.2-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The tallest tree in the field is a mango tree.",
+    "Tallest tree in the field is a mango tree.",
+    "A tallest tree in the field is a mango tree."
+   ],
+   "answer": 0,
+   "rule": "Use <b>the</b> before a superlative: <b>the tallest</b>."
+  },
+  {
+   "qid": "c6-1.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "larks",
+    "were",
+    "talking,",
+    "the",
+    "farmer",
+    "walk",
+    "into",
+    "the",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "walked",
+      "walking",
+      "walks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The longer action is past continuous; the short action that happened is simple past: <b>walked</b>."
+  },
+  {
+   "qid": "c6-1.2-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmer",
+    "is",
+    "an",
+    "hardworking",
+    "man."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "a",
+      "few",
+      "much"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In <b>hardworking</b> the h is spoken (consonant sound), so use <b>a</b>."
+  },
+  {
+   "qid": "c6-1.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "It",
+   "after": "raining when the farmer reached the field.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>reached</b> is past, and <b>It</b> is singular: <b>was raining</b>."
+  },
+  {
+   "qid": "c6-1.2-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "My uncle is",
+   "after": "engineer in Nagpur.",
+   "options": [
+    "a",
+    "much",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>engineer</b> starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-1.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Make a negative sentence.",
+   "answer": [
+    "The",
+    "farmer",
+    "did",
+    "not",
+    "come",
+    "today."
+   ],
+   "alts": [],
+   "rule": "Past negative: <b>did not</b> + base verb (<b>come</b>, not came)."
+  },
+  {
+   "qid": "c6-1.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What did you see at the zoo?"
+    ]
+   ],
+   "options": [
+    "I saw an owl and a elephant.",
+    "I saw an owl and an elephant.",
+    "I saw a owl and an elephant."
+   ],
+   "answer": 1,
+   "rule": "Both <b>owl</b> and <b>elephant</b> start with vowel sounds, so both take <b>an</b>."
+  },
+  {
+   "qid": "c6-1.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why didn't you answer my call?"
+    ]
+   ],
+   "options": [
+    "Sorry, I were having a bath.",
+    "Sorry, I was having a bath.",
+    "Sorry, I was have a bath."
+   ],
+   "answer": 1,
+   "rule": "An action going on at that time: <b>I was</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c6-1.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer and his sons was in the field.",
+    "The farmer and his son was in the field.",
+    "The farmer and his sons were in the field."
+   ],
+   "answer": 2,
+   "rule": "Two subjects joined by <b>and</b> are plural, so the past of be is <b>were</b>."
+  },
+  {
+   "qid": "c6-1.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"We must leaves tomorrow,\" said the larks.",
+    "\"We must leave tomorrow,\" says the larks.",
+    "\"We must leave tomorrow,\" said the larks."
+   ],
+   "answer": 2,
+   "rule": "Inside the quotes: <b>must leave</b>. Outside: the larks (plural, past) <b>said</b>, not says."
+  },
+  {
+   "qid": "c6-1.2-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "day,",
+    "the",
+    "farmer",
+    "did",
+    "not",
+    "came",
+    "to",
+    "reap",
+    "the",
+    "corn."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "comes",
+      "coming",
+      "come"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did not</b>, use the base verb: <b>did not come</b>."
+  },
+  {
+   "qid": "c6-1.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "neighbours",
+    "were",
+    "busy",
+    "because",
+    "they",
+    "was",
+    "cutting",
+    "their",
+    "own",
+    "crops."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>they</b> is plural, so the past continuous is <b>were cutting</b>."
+  },
+  {
+   "qid": "c6-1.2-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "There was",
+   "after": "old scarecrow in the field.",
+   "options": [
+    "an",
+    "a",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>old</b> starts with a vowel sound, so use <b>an</b>: an old scarecrow."
+  },
+  {
+   "qid": "c6-1.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the farmer was talking, the little larks were listening quietly.",
+   "options": [
+    "While",
+    "During",
+    "Despite"
+   ],
+   "answer": 0,
+   "rule": "<b>While</b> joins two actions going on at the same time. During/Despite cannot start a clause."
+  },
+  {
+   "qid": "c6-1.2-37",
+   "type": "build",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "We",
+    "must",
+    "find",
+    "a",
+    "new",
+    "home."
+   ],
+   "alts": [],
+   "rule": "Article + adjective + noun: <b>a new home</b>."
+  },
+  {
+   "qid": "c6-1.2-38",
+   "type": "build",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Were",
+    "the",
+    "larks",
+    "listening",
+    "carefully?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>Were</b> + subject + verb-ing ... <b>?</b>"
+  },
+  {
+   "qid": "c6-1.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Did you finish the poster on saving birds?"
+    ]
+   ],
+   "options": [
+    "Yes, I finish it last night.",
+    "Yes, I finished it last night.",
+    "Yes, I was finish it last night."
+   ],
+   "answer": 1,
+   "rule": "<b>Last night</b> needs the simple past: <b>finished</b>."
+  },
+  {
+   "qid": "c6-1.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What would you like to be when you grow up?"
+    ]
+   ],
+   "options": [
+    "I want to be a astronaut.",
+    "I wants to be an astronaut.",
+    "I want to be an astronaut."
+   ],
+   "answer": 2,
+   "rule": "<b>astronaut</b> starts with a vowel sound: <b>an astronaut</b>; and <b>I want</b>, not I wants."
+  },
+  {
+   "qid": "c6-1.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While the farmer cutting the corn, the larks flew away.",
+    "While the farmer was cutting the corn, the larks flew away.",
+    "While the farmer was cutting the corn, the larks fly away."
+   ],
+   "answer": 1,
+   "rule": "Longer action: <b>was cutting</b>; the short past action: <b>flew</b>."
+  },
+  {
+   "qid": "c6-1.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "It took the farmer a hour to reach the field.",
+    "It took the farmer an hour to reached the field.",
+    "It took the farmer an hour to reach the field."
+   ],
+   "answer": 2,
+   "rule": "In <b>hour</b> the h is silent (vowel sound), so <b>an hour</b>; after <b>to</b> use the base verb."
+  },
+  {
+   "qid": "c6-1.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "farmer",
+    "decided",
+    "to",
+    "do",
+    "the",
+    "work",
+    "himself,",
+    "the",
+    "larks",
+    "leaves",
+    "the",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "leave",
+      "leaving",
+      "left"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The story is in the past (<b>decided</b>), so use the past of leave: <b>left</b>."
+  },
+  {
+   "qid": "c6-1.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmer's",
+    "sons",
+    "went",
+    "to",
+    "their",
+    "uncle's",
+    "house",
+    "in",
+    "an",
+    "village",
+    "nearby."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "much",
+      "a",
+      "few"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>village</b> starts with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c6-1.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer's sons",
+   "after": "the field when it started to rain.",
+   "options": [
+    "was checking",
+    "checking",
+    "were checking"
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>sons</b> (plural), so <b>were checking</b>."
+  },
+  {
+   "qid": "c6-1.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The mother lark gave",
+   "after": "honest answer to her babies.",
+   "options": [
+    "a",
+    "an",
+    "much"
+   ],
+   "answer": 1,
+   "rule": "In <b>honest</b> the h is silent, so it starts with a vowel sound: <b>an honest answer</b>."
+  },
+  {
+   "qid": "c6-1.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Build the sentence with the spoken words.",
+   "answer": [
+    "The",
+    "mother",
+    "lark",
+    "said,",
+    "\"Don't",
+    "worry.\""
+   ],
+   "alts": [],
+   "rule": "Reporting words first, then a <b>comma</b>, then the spoken words inside quotation marks."
+  },
+  {
+   "qid": "c6-1.2-48",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "were",
+    "the",
+    "farmer's",
+    "sons",
+    "doing?"
+   ],
+   "alts": [],
+   "rule": "Wh-question: <b>What</b> + <b>were</b> + subject + verb-ing <b>?</b>"
+  },
+  {
+   "qid": "c6-1.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are you so happy today?"
+    ]
+   ],
+   "options": [
+    "Our team won the match, and I scored two goals!",
+    "Our team win the match, and I scored two goals!",
+    "Our team won the match, and I score two goal!"
+   ],
+   "answer": 0,
+   "rule": "Both actions are finished: <b>won</b> and <b>scored</b>; two takes a plural: <b>goals</b>."
+  },
+  {
+   "qid": "c6-1.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "I called you at six. What were you doing?"
+    ]
+   ],
+   "options": [
+    "I was helping my mother in the kitchen.",
+    "I was help my mother in the kitchen.",
+    "I helping my mother in the kitchen."
+   ],
+   "answer": 0,
+   "rule": "Action going on at six: <b>I was helping</b>."
+  }
+ ]
+}

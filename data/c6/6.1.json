@@ -1,0 +1,992 @@
+{
+ "class": 6,
+ "id": "6.1",
+ "title": "Mirror",
+ "topics": [
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement (simple present)"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner, time and frequency"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags (simple)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-6.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mirror hangs on the pink wall.",
+    "The mirror hang on the pink wall.",
+    "The mirror hanging on the pink wall."
+   ],
+   "answer": 0,
+   "rule": "A singular subject (<b>the mirror</b>) takes a verb with -s in the simple present: <b>hangs</b>."
+  },
+  {
+   "qid": "c6-6.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mirror shows faces truthful.",
+    "The mirror shows faces truthfully.",
+    "The mirror show faces truthfully."
+   ],
+   "answer": 1,
+   "rule": "An adverb tells <b>how</b> something is done: shows faces <b>truthfully</b>."
+  },
+  {
+   "qid": "c6-6.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lake is more deep than the pond.",
+    "The lake is deepest than the pond.",
+    "The lake is deeper than the pond."
+   ],
+   "answer": 2,
+   "rule": "Short adjectives add <b>-er</b> to compare two things: <b>deeper than</b>."
+  },
+  {
+   "qid": "c6-6.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "look",
+    "into",
+    "the",
+    "mirror",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "looking",
+      "looks",
+      "have"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Riya</b> = she, so the simple present verb takes -s: <b>looks</b>."
+  },
+  {
+   "qid": "c6-6.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "woman",
+    "walked",
+    "slow",
+    "towards",
+    "the",
+    "lake."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "slowly",
+      "slowness",
+      "slows"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To describe how she <b>walked</b>, use the adverb <b>slowly</b>."
+  },
+  {
+   "qid": "c6-6.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "The mirror is truthful,",
+   "after": "",
+   "options": [
+    "isn't it?",
+    "is it?",
+    "doesn't it?"
+   ],
+   "answer": 0,
+   "rule": "Positive sentence with <b>is</b> → negative tag with <b>isn't</b>: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c6-6.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The full moon is",
+   "after": "than a candle.",
+   "options": [
+    "brighter",
+    "brightest",
+    "bright"
+   ],
+   "answer": 0,
+   "rule": "Comparing two things with <b>than</b> needs the comparative: <b>brighter</b>."
+  },
+  {
+   "qid": "c6-6.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "looks",
+    "into",
+    "the",
+    "mirror."
+   ],
+   "alts": [],
+   "rule": "<b>She</b> + verb with -s: <b>She looks into the mirror.</b>"
+  },
+  {
+   "qid": "c6-6.1-09",
+   "type": "build",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "girl",
+    "smiled",
+    "happily."
+   ],
+   "alts": [],
+   "rule": "The adverb of manner <b>happily</b> comes after the verb <b>smiled</b>."
+  },
+  {
+   "qid": "c6-6.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "You saw the old mirror at Nani's house, didn't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I did. It was very big.",
+    "Yes, I done. It was very big.",
+    "Yes, I did. It were very big."
+   ],
+   "answer": 0,
+   "rule": "Answer a <b>didn't you?</b> tag with <b>Yes, I did</b>. <b>It</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c6-6.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "The lake is calm, is it?",
+    "The lake is calm, isn't it?",
+    "The lake is calm, doesn't it?"
+   ],
+   "answer": 1,
+   "rule": "Positive statement → negative tag, using the same helping verb: <b>is → isn't it?</b>"
+  },
+  {
+   "qid": "c6-6.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She looks always in the mirror before school.",
+    "She always looks in the mirror before school.",
+    "She always look in the mirror before school."
+   ],
+   "answer": 1,
+   "rule": "Adverbs of frequency like <b>always</b> come before the main verb: <b>always looks</b>."
+  },
+  {
+   "qid": "c6-6.1-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This mirror is better than the old one.",
+    "This mirror is more better than the old one.",
+    "This mirror is gooder than the old one."
+   ],
+   "answer": 0,
+   "rule": "<b>Good</b> is irregular: good, <b>better</b>, best. Never 'more better'."
+  },
+  {
+   "qid": "c6-6.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "tall",
+    "candles",
+    "flickers",
+    "in",
+    "the",
+    "dark",
+    "room."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "flickering",
+      "flickery",
+      "flicker"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Two tall candles</b> is plural, so the verb has no -s: <b>flicker</b>."
+  },
+  {
+   "qid": "c6-6.1-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mirror",
+    "reflects",
+    "her",
+    "face",
+    "faithful",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "faith",
+      "faithfully",
+      "faithless"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>How</b> does it reflect? Use the adverb <b>faithfully</b>."
+  },
+  {
+   "qid": "c6-6.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Each morning, her face",
+   "after": "the darkness.",
+   "options": [
+    "replace",
+    "replacing",
+    "replaces"
+   ],
+   "answer": 2,
+   "rule": "<b>Her face</b> is singular, so the verb takes -s: <b>replaces</b>."
+  },
+  {
+   "qid": "c6-6.1-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the mirrors in the shop, this is the",
+   "after": "one.",
+   "options": [
+    "clearer",
+    "clearest",
+    "clear"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> compares more than two, so use the superlative: <b>the clearest</b>."
+  },
+  {
+   "qid": "c6-6.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "like",
+    "this",
+    "mirror,",
+    "don't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive statement in the simple present → <b>don't you?</b>"
+  },
+  {
+   "qid": "c6-6.1-19",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "new",
+    "mirror",
+    "is",
+    "bigger",
+    "than",
+    "yours."
+   ],
+   "alts": [],
+   "rule": "Comparative + <b>than</b>: <b>bigger than yours</b>."
+  },
+  {
+   "qid": "c6-6.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where is your sister?"
+    ]
+   ],
+   "options": [
+    "She are combing her hair in front of the mirror.",
+    "She is comb her hair in front of the mirror.",
+    "She is combing her hair in front of the mirror."
+   ],
+   "answer": 2,
+   "rule": "<b>She</b> takes <b>is</b>, and the continuous needs -ing: <b>is combing</b>."
+  },
+  {
+   "qid": "c6-6.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The girl with two candles stand near the lake.",
+    "The girl with two candles standing near the lake.",
+    "The girl with two candles stands near the lake."
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>the girl</b> (not 'candles'), so the verb is singular: <b>stands</b>."
+  },
+  {
+   "qid": "c6-6.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "The mirror doesn't lie, does it?",
+    "The mirror doesn't lie, doesn't it?",
+    "The mirror doesn't lie, is it?"
+   ],
+   "answer": 0,
+   "rule": "Negative statement → positive tag with the same helper: <b>doesn't → does it?</b>"
+  },
+  {
+   "qid": "c6-6.1-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "clearer",
+    "reflection",
+    "I",
+    "have",
+    "ever",
+    "seen."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "clearest",
+      "clear",
+      "clearly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The ... I have ever seen</b> compares with everything, so use the superlative: <b>clearest</b>."
+  },
+  {
+   "qid": "c6-6.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandmother",
+    "speaks",
+    "soft",
+    "to",
+    "the",
+    "little",
+    "girl."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "softness",
+      "softly",
+      "softest"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>How</b> does she speak? Use the adverb <b>softly</b>."
+  },
+  {
+   "qid": "c6-6.1-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The mirror",
+   "after": "tells a lie; it is always truthful.",
+   "options": [
+    "never",
+    "ever",
+    "not"
+   ],
+   "answer": 0,
+   "rule": "The adverb of frequency <b>never</b> goes before the verb. 'Not' needs 'does': does not tell."
+  },
+  {
+   "qid": "c6-6.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Your grandmother lives in Pune,",
+   "after": "",
+   "options": [
+    "doesn't she?",
+    "isn't she?",
+    "don't she?"
+   ],
+   "answer": 0,
+   "rule": "<b>Lives</b> (simple present, she) → tag with <b>doesn't she?</b>"
+  },
+  {
+   "qid": "c6-6.1-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "quickly",
+    "wiped",
+    "the",
+    "dusty",
+    "mirror."
+   ],
+   "alts": [],
+   "rule": "The adverb <b>quickly</b> can come before the verb; it never goes between the verb and its object."
+  },
+  {
+   "qid": "c6-6.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "She",
+    "didn't",
+    "break",
+    "the",
+    "mirror,",
+    "did",
+    "she?"
+   ],
+   "alts": [],
+   "rule": "Negative statement (<b>didn't</b>) → positive tag: <b>did she?</b>"
+  },
+  {
+   "qid": "c6-6.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which is brighter, the moon or a candle?"
+    ]
+   ],
+   "options": [
+    "The moon is much more brighter than a candle.",
+    "The moon is much brightest than a candle.",
+    "The moon is much brighter than a candle."
+   ],
+   "answer": 2,
+   "rule": "<b>Much</b> can make a comparative stronger: <b>much brighter</b>. Never 'more brighter'."
+  },
+  {
+   "qid": "c6-6.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "How did you do in the recitation contest?"
+    ]
+   ],
+   "options": [
+    "I did good, but Meera spoke more clearly.",
+    "I did well, but Meera spoke more clear.",
+    "I did well, but Meera spoke more clearly."
+   ],
+   "answer": 2,
+   "rule": "Verbs need adverbs: <b>did well</b>, <b>spoke more clearly</b>."
+  },
+  {
+   "qid": "c6-6.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Every morning, the woman come to the mirror.",
+    "Every morning, the woman comes to the mirror.",
+    "Every morning, the woman coming to the mirror."
+   ],
+   "answer": 1,
+   "rule": "A daily habit takes the simple present; <b>the woman</b> is singular: <b>comes</b>."
+  },
+  {
+   "qid": "c6-6.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mira is youngest girl in her family.",
+    "Mira is the youngest girl in her family.",
+    "Mira is the most young girl in her family."
+   ],
+   "answer": 1,
+   "rule": "The superlative needs <b>the</b>, and short adjectives add -est: <b>the youngest</b>."
+  },
+  {
+   "qid": "c6-6.1-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "cleaned",
+    "the",
+    "mirror",
+    "yesterday,",
+    "don't",
+    "you?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "didn't",
+      "doesn't",
+      "weren't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The sentence is in the past (<b>cleaned</b>), so the tag is <b>didn't you</b>."
+  },
+  {
+   "qid": "c6-6.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "children",
+    "in",
+    "the",
+    "village",
+    "looks",
+    "at",
+    "their",
+    "faces",
+    "in",
+    "the",
+    "lake."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "looking",
+      "is",
+      "look"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>All the children</b> is plural, so the verb has no -s: <b>look</b>."
+  },
+  {
+   "qid": "c6-6.1-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The old mirror is",
+   "after": "than the new one, but it is still truthful.",
+   "options": [
+    "dustiest",
+    "more dust",
+    "dustier"
+   ],
+   "answer": 2,
+   "rule": "<b>Dusty</b> → <b>dustier</b> (y changes to i) when comparing two things with <b>than</b>."
+  },
+  {
+   "qid": "c6-6.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The girl was",
+   "after": "crying when her mother came in.",
+   "options": [
+    "quiet",
+    "quietly",
+    "quietest"
+   ],
+   "answer": 1,
+   "rule": "An adverb describes the verb <b>crying</b>: <b>was quietly crying</b>."
+  },
+  {
+   "qid": "c6-6.1-37",
+   "type": "build",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Truth",
+    "is",
+    "more",
+    "important",
+    "than",
+    "beauty."
+   ],
+   "alts": [],
+   "rule": "Long adjectives use <b>more</b> to compare: <b>more important than</b>."
+  },
+  {
+   "qid": "c6-6.1-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "It's a lovely old mirror, isn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it is. It belonged to my grandmother.",
+    "Yes, it is. It belong to my grandmother.",
+    "Yes, it does. It belonged to my grandmother."
+   ],
+   "answer": 0,
+   "rule": "Answer an <b>isn't it?</b> tag with <b>it is</b>. Past fact: <b>belonged</b>."
+  },
+  {
+   "qid": "c6-6.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Who uses this mirror?"
+    ]
+   ],
+   "options": [
+    "My sister and I use it every day.",
+    "My sister and I uses it every day.",
+    "My sister and me use it every day."
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> are plural: <b>use</b>. As a subject, say <b>I</b>, not 'me'."
+  },
+  {
+   "qid": "c6-6.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "Do you visit the lake often?"
+    ]
+   ],
+   "options": [
+    "Yes, we every Sunday go there.",
+    "Yes, we goes there every Sunday.",
+    "Yes, we go there every Sunday."
+   ],
+   "answer": 2,
+   "rule": "Time phrases like <b>every Sunday</b> go at the end; <b>we</b> takes <b>go</b>."
+  },
+  {
+   "qid": "c6-6.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lake reflects the trees as clear as a mirror does.",
+    "The lake reflects the trees as clearly as a mirror does.",
+    "The lake reflects the trees as clearly than a mirror does."
+   ],
+   "answer": 1,
+   "rule": "<b>As ... as</b> shows equality; it describes the verb, so use the adverb: <b>as clearly as</b>."
+  },
+  {
+   "qid": "c6-6.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nothing in the room escape the mirror's eye.",
+    "Nothing in the room escapes the mirror's eye.",
+    "Nothing in the room escaping the mirror's eye."
+   ],
+   "answer": 1,
+   "rule": "<b>Nothing</b> is singular, so it takes a verb with -s: <b>escapes</b>."
+  },
+  {
+   "qid": "c6-6.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "the",
+    "three",
+    "mirrors",
+    "in",
+    "the",
+    "hall,",
+    "the",
+    "round",
+    "one",
+    "is",
+    "the",
+    "more",
+    "beautiful."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "most",
+      "much",
+      "very"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With three or more things, use the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c6-6.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "day",
+    "the",
+    "mirror",
+    "watches",
+    "the",
+    "wall",
+    "and",
+    "silently",
+    "think",
+    "about",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "thinking",
+      "thought",
+      "thinks"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Both verbs belong to <b>the mirror</b> and match <b>watches</b>: <b>thinks</b>."
+  },
+  {
+   "qid": "c6-6.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Let's sit by the lake,",
+   "after": "",
+   "options": [
+    "will you?",
+    "shall we?",
+    "don't we?"
+   ],
+   "answer": 1,
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c6-6.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "mirror in the whole palace.",
+   "options": [
+    "most honest",
+    "honestest",
+    "more honest"
+   ],
+   "answer": 0,
+   "rule": "<b>In the whole palace</b> needs the superlative; <b>honest</b> uses <b>most</b>: <b>the most honest</b>."
+  },
+  {
+   "qid": "c6-6.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "mirror",
+    "hardly",
+    "ever",
+    "shows",
+    "a",
+    "smile."
+   ],
+   "alts": [],
+   "rule": "<b>Hardly ever</b> (almost never) goes before the main verb: <b>hardly ever shows</b>."
+  },
+  {
+   "qid": "c6-6.1-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "A mirror can't lie, can it?"
+    ]
+   ],
+   "options": [
+    "No, it can. It shows things just as they are.",
+    "No, it can't. It show things just as they are.",
+    "No, it can't. It shows things just as they are."
+   ],
+   "answer": 2,
+   "rule": "Short answer: <b>No, it can't</b>. <b>It</b> takes <b>shows</b>."
+  },
+  {
+   "qid": "c6-6.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Which of these photos do you like?"
+    ]
+   ],
+   "options": [
+    "The one with the two girls look the happiest.",
+    "The one with the two girls looks the happiest.",
+    "The one with the two girls looks the most happiest."
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>the one</b> (singular): <b>looks</b>. Never 'most happiest'."
+  },
+  {
+   "qid": "c6-6.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you so late?"
+    ]
+   ],
+   "options": [
+    "The bus was moving very slow because of the rain.",
+    "The bus was moved very slowly because of the rain.",
+    "The bus was moving very slowly because of the rain."
+   ],
+   "answer": 2,
+   "rule": "<b>Slowly</b> describes how the bus was <b>moving</b>, so use the adverb."
+  }
+ ]
+}

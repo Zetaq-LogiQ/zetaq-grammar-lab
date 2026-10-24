@@ -1,0 +1,991 @@
+{
+ "class": 7,
+ "id": "17",
+ "title": "The Brook",
+ "topics": [
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place, movement and time"
+  },
+  {
+   "tag": "many_a",
+   "name": "'Many a' + singular noun"
+  },
+  {
+   "tag": "present_simple",
+   "name": "Simple present and subject-verb agreement"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-17-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "many_a",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many a bridge stand over the brook.",
+    "Many a bridge stands over the brook.",
+    "Many a bridges stands over the brook."
+   ],
+   "answer": 1,
+   "rule": "<b>Many a</b> takes a singular noun and a singular verb: <b>many a bridge stands</b>."
+  },
+  {
+   "qid": "c7-17-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A trout jumped out of the water.",
+    "A trout jumped out from of the water.",
+    "A trout jumped out off the water."
+   ],
+   "answer": 0,
+   "rule": "Movement from inside something to outside: <b>out of</b>."
+  },
+  {
+   "qid": "c7-17-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_simple",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "little",
+    "brook",
+    "flow",
+    "into",
+    "a",
+    "bigger",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "flowing",
+      "flows",
+      "flown"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Each</b> + singular noun takes a singular verb: <b>each little brook flows</b>."
+  },
+  {
+   "qid": "c7-17-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look",
+    "at",
+    "the",
+    "leaves",
+    "floating",
+    "of",
+    "the",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "since",
+      "until",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Something resting on a surface takes <b>on</b>: leaves floating <b>on</b> the water."
+  },
+  {
+   "qid": "c7-17-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "many_a",
+   "prompt": "Fill in the gap.",
+   "before": "Many a fish",
+   "after": "in this clear brook.",
+   "options": [
+    "live",
+    "are living",
+    "lives"
+   ],
+   "answer": 2,
+   "rule": "<b>Many a</b> + singular noun takes a singular verb: <b>many a fish lives</b>."
+  },
+  {
+   "qid": "c7-17-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "A grayling swims",
+   "after": "the stones at the bottom of the brook.",
+   "options": [
+    "since",
+    "among",
+    "during"
+   ],
+   "answer": 1,
+   "rule": "<b>among</b> = in the middle of many things. <b>since</b> and <b>during</b> are about time."
+  },
+  {
+   "qid": "c7-17-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_simple",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Where does this stream go?"
+    ]
+   ],
+   "options": [
+    "It joins the big river near our village.",
+    "It join the big river near our village.",
+    "It joining the big river near our village."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> (he/she/it) takes the simple present with <b>-s</b>: <b>it joins</b>."
+  },
+  {
+   "qid": "c7-17-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where are your shoes, Tara?"
+    ]
+   ],
+   "options": [
+    "They are under the bed.",
+    "They are under of the bed.",
+    "They is under the bed."
+   ],
+   "answer": 0,
+   "rule": "<b>under</b> needs no 'of', and plural <b>they</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c7-17-09",
+   "type": "build",
+   "level": 1,
+   "topic": "present_simple",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "brook",
+    "never",
+    "stops",
+    "flowing."
+   ],
+   "alts": [],
+   "rule": "Frequency words like <b>never</b> go before the main verb: <b>never stops</b>."
+  },
+  {
+   "qid": "c7-17-10",
+   "type": "change",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "The Ganga is the longest river in India.",
+   "options": [
+    "The Ganga is longer than any other river in India.",
+    "The Ganga is long than any other river in India.",
+    "The Ganga is longest than any other river in India."
+   ],
+   "answer": 0,
+   "rule": "Superlative to comparative: <b>longer than any other river</b>."
+  },
+  {
+   "qid": "c7-17-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "many_a",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many a flower bloom on its banks.",
+    "Many a flower blooms on its banks.",
+    "Many a flowers bloom on its banks."
+   ],
+   "answer": 1,
+   "rule": "<b>Many a flower blooms</b>: singular noun, singular verb, even though the meaning is 'many'."
+  },
+  {
+   "qid": "c7-17-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Swallows fly over the brook at summer.",
+    "Swallows fly over the brook on summer.",
+    "Swallows fly over the brook in summer."
+   ],
+   "answer": 2,
+   "rule": "Use <b>in</b> with seasons, months and years: <b>in summer</b>."
+  },
+  {
+   "qid": "c7-17-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_simple",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "summer,",
+    "the",
+    "brook",
+    "dry",
+    "up",
+    "near",
+    "our",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "drying",
+      "driest",
+      "dries"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A habit with a singular subject: <b>the brook dries up</b> (y changes to <b>ies</b>)."
+  },
+  {
+   "qid": "c7-17-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Brahmaputra",
+    "is",
+    "wide",
+    "than",
+    "the",
+    "Mula",
+    "river",
+    "near",
+    "Pune."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "wider",
+      "widest",
+      "widely"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative: <b>wider than</b>."
+  },
+  {
+   "qid": "c7-17-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "many_a",
+   "prompt": "Fill in the gap.",
+   "before": "Many a traveller",
+   "after": "rested by this brook.",
+   "options": [
+    "have",
+    "are",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "<b>Many a traveller</b> is singular, so use <b>has rested</b>."
+  },
+  {
+   "qid": "c7-17-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "The brook never stops,",
+   "after": "?",
+   "options": [
+    "doesn't it",
+    "does it",
+    "does not it"
+   ],
+   "answer": 1,
+   "rule": "<b>never</b> makes the sentence negative, so the tag is positive: <b>does it?</b>"
+  },
+  {
+   "qid": "c7-17-17",
+   "type": "change",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The river is wider than the brook.",
+   "options": [
+    "The brook is not so wider as the river.",
+    "The brook is not so wide as the river.",
+    "The brook is so wide as the river."
+   ],
+   "answer": 1,
+   "rule": "Comparative to positive: <b>The brook is not so wide as the river.</b> Positive uses the plain adjective."
+  },
+  {
+   "qid": "c7-17-18",
+   "type": "change",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Add the correct question tag.",
+   "source": "The brook joins the river.",
+   "options": [
+    "The brook joins the river, isn't it?",
+    "The brook joins the river, don't it?",
+    "The brook joins the river, doesn't it?"
+   ],
+   "answer": 2,
+   "rule": "Simple present with <b>joins</b> uses <b>does</b>; positive sentence, negative tag: <b>doesn't it?</b>"
+  },
+  {
+   "qid": "c7-17-19",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ducks",
+    "swim",
+    "among",
+    "the",
+    "floating",
+    "leaves."
+   ],
+   "alts": [],
+   "rule": "<b>among</b> + a group of things: swim <b>among the floating leaves</b>."
+  },
+  {
+   "qid": "c7-17-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "many_a",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Do people still visit the old fort?"
+    ]
+   ],
+   "options": [
+    "Yes, many a tourist visits it every year.",
+    "Yes, many a tourists visit it every year.",
+    "Yes, many a tourist visit it every year."
+   ],
+   "answer": 0,
+   "rule": "<b>Many a tourist visits</b>: singular noun and singular verb."
+  },
+  {
+   "qid": "c7-17-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The brook has flowed through this valley since centuries.",
+    "The brook has flowed through this valley for centuries.",
+    "The brook has flowed through this valley from centuries."
+   ],
+   "answer": 1,
+   "rule": "Use <b>for</b> with a length of time (centuries, years) and <b>since</b> with a starting point."
+  },
+  {
+   "qid": "c7-17-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_simple",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The brook, with its many fish, sparkle in the sun.",
+    "The brook, with its many fish, sparkles in the sun.",
+    "The brook, with its many fish, sparkling in the sun."
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>the brook</b> (singular); the phrase 'with its many fish' does not change it: <b>sparkles</b>."
+  },
+  {
+   "qid": "c7-17-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "were",
+    "sitting",
+    "besides",
+    "the",
+    "brook",
+    "when",
+    "it",
+    "started",
+    "raining."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "among",
+      "into",
+      "beside"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>beside</b> = next to. <b>besides</b> means 'in addition to'."
+  },
+  {
+   "qid": "c7-17-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "many_a",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "a",
+    "farmer",
+    "depend",
+    "on",
+    "this",
+    "brook",
+    "for",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "depending",
+      "depends",
+      "dependent"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Many a farmer</b> is singular: <b>many a farmer depends</b>."
+  },
+  {
+   "qid": "c7-17-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "brook I have ever seen.",
+   "options": [
+    "clearer",
+    "most clearest",
+    "clearest"
+   ],
+   "answer": 2,
+   "rule": "<b>the ... I have ever seen</b> needs the superlative: <b>the clearest</b>. Never use 'most' with -est."
+  },
+  {
+   "qid": "c7-17-26",
+   "type": "build",
+   "level": 3,
+   "topic": "present_simple",
+   "prompt": "Make a question.",
+   "answer": [
+    "When",
+    "does",
+    "the",
+    "brook",
+    "dry",
+    "up?"
+   ],
+   "alts": [],
+   "rule": "Simple present question: <b>Wh-word + does + subject + base verb</b>: When does the brook <b>dry up</b>?"
+  },
+  {
+   "qid": "c7-17-27",
+   "type": "build",
+   "level": 3,
+   "topic": "many_a",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Many",
+    "a",
+    "bird",
+    "drinks",
+    "from",
+    "this",
+    "brook."
+   ],
+   "alts": [],
+   "rule": "<b>Many a bird drinks</b>: 'many a' + singular noun + singular verb."
+  },
+  {
+   "qid": "c7-17-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "The water in this brook is so clear!"
+    ]
+   ],
+   "options": [
+    "Yes, it is clear, isn't it?",
+    "Yes, it is clear, is it?",
+    "Yes, it is clear, doesn't it?"
+   ],
+   "answer": 0,
+   "rule": "Positive sentence with <b>is</b> takes the negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-17-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Which is colder, the brook or the river?"
+    ]
+   ],
+   "options": [
+    "The brook is colder than the river.",
+    "The brook is the colder than the river.",
+    "The brook is coldest than the river."
+   ],
+   "answer": 0,
+   "rule": "Comparing two things: <b>colder than</b>, with no 'the'."
+  },
+  {
+   "qid": "c7-17-30",
+   "type": "change",
+   "level": 3,
+   "topic": "present_simple",
+   "prompt": "Change into a negative sentence.",
+   "source": "The brook flows quietly.",
+   "options": [
+    "The brook does not flow quietly.",
+    "The brook does not flows quietly.",
+    "The brook is not flow quietly."
+   ],
+   "answer": 0,
+   "rule": "Simple present negative: <b>does not + base verb</b> = <b>does not flow</b>."
+  },
+  {
+   "qid": "c7-17-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "many_a",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many a boat have sailed down this river.",
+    "Many a boat has sailed down this river.",
+    "Many a boats has sailed down this river."
+   ],
+   "answer": 1,
+   "rule": "<b>Many a boat</b> is singular, so the present perfect is <b>has sailed</b>."
+  },
+  {
+   "qid": "c7-17-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the goodest spot for a picnic by the brook.",
+    "This is the most best spot for a picnic by the brook.",
+    "This is the best spot for a picnic by the brook."
+   ],
+   "answer": 2,
+   "rule": "<b>good - better - best</b> is irregular. Never add 'most' to <b>best</b>."
+  },
+  {
+   "qid": "c7-17-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_simple",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "Ravi",
+    "and",
+    "Sita",
+    "swims",
+    "in",
+    "the",
+    "brook",
+    "every",
+    "summer."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "swim",
+      "swimming",
+      "swum"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two subjects joined by <b>both ... and</b> are plural: <b>Ravi and Sita swim</b>."
+  },
+  {
+   "qid": "c7-17-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "villages",
+    "along",
+    "the",
+    "river",
+    "depend",
+    "of",
+    "its",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "on",
+      "at",
+      "in"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The verb <b>depend</b> is followed by <b>on</b>: depend <b>on</b> its water."
+  },
+  {
+   "qid": "c7-17-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "It is the",
+   "after": "rain we have had in years.",
+   "options": [
+    "heavier",
+    "heaviest",
+    "heavy"
+   ],
+   "answer": 1,
+   "rule": "<b>the ... we have had in years</b> compares with all others: superlative <b>the heaviest</b>."
+  },
+  {
+   "qid": "c7-17-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "The brook flooded the fields last year,",
+   "after": "?",
+   "options": [
+    "doesn't it",
+    "wasn't it",
+    "didn't it"
+   ],
+   "answer": 2,
+   "rule": "Simple past positive sentence (<b>flooded</b>) takes <b>didn't it?</b>"
+  },
+  {
+   "qid": "c7-17-37",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "No other brook in this valley is as fast as this one.",
+   "options": [
+    "This is the fastest brook in this valley.",
+    "This is the faster brook in this valley.",
+    "This is the most fastest brook in this valley."
+   ],
+   "answer": 0,
+   "rule": "'No other ... as fast as' becomes the superlative <b>the fastest</b>."
+  },
+  {
+   "qid": "c7-17-38",
+   "type": "change",
+   "level": 4,
+   "topic": "present_simple",
+   "prompt": "Change into a question.",
+   "source": "The brook sings over the stones.",
+   "options": [
+    "Does the brook sings over the stones?",
+    "Do the brook sing over the stones?",
+    "Does the brook sing over the stones?"
+   ],
+   "answer": 2,
+   "rule": "<b>Does</b> + singular subject + base verb: <b>Does the brook sing ...?</b>"
+  },
+  {
+   "qid": "c7-17-39",
+   "type": "build",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "river",
+    "is",
+    "deeper",
+    "than",
+    "this",
+    "brook."
+   ],
+   "alts": [],
+   "rule": "Comparative: <b>deeper than</b> + the thing compared."
+  },
+  {
+   "qid": "c7-17-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "Where did you find this smooth pebble?"
+    ]
+   ],
+   "options": [
+    "I find it among the stones near the brook.",
+    "I found it among the stones near the brook.",
+    "I found it among of the stones near the brook."
+   ],
+   "answer": 1,
+   "rule": "Past question, past answer: <b>found</b>. <b>among</b> takes no 'of'."
+  },
+  {
+   "qid": "c7-17-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "many_a",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many a stream that rise in these hills flows into the Godavari.",
+    "Many a stream that rises in these hills flows into the Godavari.",
+    "Many a streams that rise in these hills flow into the Godavari."
+   ],
+   "answer": 1,
+   "rule": "<b>that</b> refers to <b>many a stream</b> (singular), so both verbs are singular: <b>rises ... flows</b>."
+  },
+  {
+   "qid": "c7-17-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The brook is more smaller than the river, but it is no less beautiful.",
+    "The brook is much smallest than the river, but it is no less beautiful.",
+    "The brook is much smaller than the river, but it is no less beautiful."
+   ],
+   "answer": 2,
+   "rule": "Use <b>much</b> to make a comparative stronger: <b>much smaller than</b>. Never 'more smaller'."
+  },
+  {
+   "qid": "c7-17-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "present_simple",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "of",
+    "the",
+    "little",
+    "streams",
+    "in",
+    "these",
+    "hills",
+    "make",
+    "its",
+    "own",
+    "sound."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "making",
+      "makers",
+      "makes"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject is <b>Each</b> (singular), not 'streams': <b>each of the streams makes</b>."
+  },
+  {
+   "qid": "c7-17-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmers",
+    "have",
+    "used",
+    "this",
+    "brook",
+    "for",
+    "water",
+    "since",
+    "many",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "for",
+      "at",
+      "by"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A length of time (<b>many years</b>) takes <b>for</b>; <b>since</b> needs a starting point like 1990."
+  },
+  {
+   "qid": "c7-17-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "many_a",
+   "prompt": "Fill in the gap.",
+   "before": "Many a sailor",
+   "after": "lost at sea before the lighthouse was built.",
+   "options": [
+    "have been",
+    "had been",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "<b>Many a sailor</b> is singular, and the loss came before the building: <b>had been lost</b>."
+  },
+  {
+   "qid": "c7-17-46",
+   "type": "build",
+   "level": 5,
+   "topic": "present_simple",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Men",
+    "may",
+    "come",
+    "and",
+    "go,",
+    "but",
+    "the",
+    "brook",
+    "flows",
+    "on."
+   ],
+   "alts": [],
+   "rule": "A general truth uses the simple present: <b>the brook flows on</b>."
+  },
+  {
+   "qid": "c7-17-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "Is the Narmada as long as the Godavari?"
+    ]
+   ],
+   "options": [
+    "No, it is not as longer as the Godavari.",
+    "No, it is not so long than the Godavari.",
+    "No, it is not as long as the Godavari."
+   ],
+   "answer": 2,
+   "rule": "Positive degree comparison: <b>not as long as</b>. 'than' goes only with comparatives."
+  },
+  {
+   "qid": "c7-17-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "You haven't seen a real brook, have you?"
+    ]
+   ],
+   "options": [
+    "No, I hasn't, but I would love to see one.",
+    "No, I haven't, but I would love to seen one.",
+    "No, I haven't, but I would love to see one."
+   ],
+   "answer": 2,
+   "rule": "Answer a <b>have you?</b> tag with <b>I haven't</b> (I takes have). After <b>to</b>, use the base verb: <b>to see</b>."
+  },
+  {
+   "qid": "c7-17-49",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Very few rivers in India are as long as the Godavari.",
+   "options": [
+    "The Godavari is longer than most other rivers in India.",
+    "The Godavari is longest than most other rivers in India.",
+    "The Godavari is more longer than most other rivers in India."
+   ],
+   "answer": 0,
+   "rule": "'Very few ... as long as' becomes <b>longer than most other rivers</b>."
+  },
+  {
+   "qid": "c7-17-50",
+   "type": "change",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "Add the correct question tag.",
+   "source": "The brook has never dried up.",
+   "options": [
+    "The brook has never dried up, hasn't it?",
+    "The brook has never dried up, has it?",
+    "The brook has never dried up, does it?"
+   ],
+   "answer": 1,
+   "rule": "<b>never</b> makes it negative, so the tag is positive, using the helper <b>has</b>: <b>has it?</b>"
+  }
+ ]
+}

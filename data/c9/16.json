@@ -1,0 +1,1180 @@
+{
+ "class": 9,
+ "id": "16",
+ "title": "Please Listen !",
+ "topics": [
+  {
+   "tag": "imperative",
+   "name": "Imperatives: dos and don'ts"
+  },
+  {
+   "tag": "agree",
+   "name": "Agreeing and disagreeing (so / neither / nor)"
+  },
+  {
+   "tag": "questions",
+   "name": "Wh- and yes/no questions"
+  },
+  {
+   "tag": "deduction",
+   "name": "Modals of deduction (must have, can't have)"
+  },
+  {
+   "tag": "reported_command",
+   "name": "Reporting requests, commands and questions"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-16-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Which 'Don't' instruction is correct?",
+   "options": [
+    "Don't gives me advice right now.",
+    "Not give me advice right now.",
+    "Don't give me advice right now."
+   ],
+   "answer": 2,
+   "rule": "A negative imperative is <b>Don't</b> + base verb: <b>Don't give</b>."
+  },
+  {
+   "qid": "c9-16-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Do it belong to the history book?",
+    "Does it belong to the history book?",
+    "Does it belongs to the history book?"
+   ],
+   "answer": 1,
+   "rule": "With <b>it</b>, use <b>Does</b> + base verb: <b>Does it belong</b>? The verb after does never takes -s."
+  },
+  {
+   "qid": "c9-16-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "listens",
+    "to",
+    "me",
+    "and",
+    "do",
+    "not",
+    "interrupt."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "listen",
+      "listened",
+      "listening"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A request starts with the base verb: <b>Please listen</b> ... and <b>do not interrupt</b>."
+  },
+  {
+   "qid": "c9-16-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "looks",
+    "upset;",
+    "something",
+    "must",
+    "has",
+    "happened",
+    "at",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a modal, use the base form: <b>must have</b> + past participle, never <b>must has</b>."
+  },
+  {
+   "qid": "c9-16-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "agree",
+   "prompt": "Fill in the gap.",
+   "before": "Meera loves mobile games, and so",
+   "after": "her brother.",
+   "options": [
+    "is",
+    "do",
+    "does"
+   ],
+   "answer": 2,
+   "rule": "<b>So</b> + helper + subject agrees with a positive idea. <b>Loves</b> needs <b>does</b>, and <b>her brother</b> is singular."
+  },
+  {
+   "qid": "c9-16-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "do you think about the new traffic signal?",
+   "options": [
+    "How",
+    "What",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "We ask for an opinion with <b>What do you think about</b> ...? (We say <b>How do you feel</b>, but <b>What do you think</b>.)"
+  },
+  {
+   "qid": "c9-16-07",
+   "type": "build",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Make a polite 'don't' instruction.",
+   "answer": [
+    "Don't",
+    "talk",
+    "while",
+    "I",
+    "am",
+    "speaking."
+   ],
+   "alts": [],
+   "rule": "A negative command: <b>Don't</b> + base verb, then the time clause: <b>while I am speaking</b>."
+  },
+  {
+   "qid": "c9-16-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "agree",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "I think cricket is more fun than football."
+    ]
+   ],
+   "options": [
+    "I am totally agree with you.",
+    "I totally agrees with you.",
+    "I totally agree with you."
+   ],
+   "answer": 2,
+   "rule": "<b>Agree</b> is a verb, so no <b>am</b> before it, and with <b>I</b> it has no -s: <b>I totally agree</b>."
+  },
+  {
+   "qid": "c9-16-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_command",
+   "prompt": "Change into indirect speech.",
+   "source": "Aryan said to me, \"Please listen.\"",
+   "options": [
+    "Aryan requested me to listen.",
+    "Aryan requested me that listen.",
+    "Aryan requested me to listened."
+   ],
+   "answer": 0,
+   "rule": "A request is reported with <b>requested</b> + object + <b>to</b> + base verb: <b>requested me to listen</b>."
+  },
+  {
+   "qid": "c9-16-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "When",
+    "I",
+    "talk",
+    "to",
+    "you,",
+    "please",
+    "listen.",
+    "Don't",
+    "starts",
+    "giving",
+    "me",
+    "advice",
+    "and",
+    "don't",
+    "tells",
+    "me",
+    "how",
+    "I",
+    "should",
+    "feel.",
+    "Just",
+    "hear",
+    "me."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "start",
+      "started",
+      "starting"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "told",
+      "telling",
+      "tell"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>Don't</b>, use the base verb: <b>Don't start</b>, <b>don't tell</b>."
+  },
+  {
+   "qid": "c9-16-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "deduction",
+   "prompt": "The road is wet this morning. Which sentence is correct?",
+   "options": [
+    "It must have rained last night.",
+    "It must has rained last night.",
+    "It must have rain last night."
+   ],
+   "answer": 0,
+   "rule": "A sure guess about the past: <b>must have</b> + past participle: <b>must have rained</b>."
+  },
+  {
+   "qid": "c9-16-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "agree",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I don't like loud TV shows, and neither do my sister.",
+    "I don't like loud TV shows, and neither my sister does.",
+    "I don't like loud TV shows, and neither does my sister."
+   ],
+   "answer": 2,
+   "rule": "<b>Neither</b> + helper + subject agrees with a negative idea. <b>My sister</b> is singular: <b>neither does my sister</b>."
+  },
+  {
+   "qid": "c9-16-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "did",
+    "you",
+    "started",
+    "a",
+    "diary",
+    "last",
+    "week?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "starting",
+      "start",
+      "starts"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In a question with <b>did</b>, the main verb stays in the base form: <b>did you start</b>?"
+  },
+  {
+   "qid": "c9-16-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_command",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "coach",
+    "told",
+    "the",
+    "players",
+    "to",
+    "listening",
+    "to",
+    "his",
+    "plan."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "listened",
+      "listen",
+      "listens"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A reported command uses <b>told</b> + object + <b>to</b> + base verb: <b>told the players to listen</b>."
+  },
+  {
+   "qid": "c9-16-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "imperative",
+   "prompt": "Fill in the gap.",
+   "before": "Please",
+   "after": "worry; I can solve this problem myself.",
+   "options": [
+    "not",
+    "don't",
+    "doesn't"
+   ],
+   "answer": 1,
+   "rule": "A negative request is <b>Please don't</b> + base verb. <b>Doesn't</b> is not used in imperatives."
+  },
+  {
+   "qid": "c9-16-16",
+   "type": "build",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Ask your friend's opinion.",
+   "answer": [
+    "Do",
+    "you",
+    "agree",
+    "with",
+    "my",
+    "opinion?"
+   ],
+   "alts": [],
+   "rule": "A yes/no question: <b>Do</b> + subject + base verb: <b>Do you agree with</b> ...?"
+  },
+  {
+   "qid": "c9-16-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "I am thinking of something from our science book. Guess!"
+    ]
+   ],
+   "options": [
+    "Is it a plant or a animal?",
+    "Are it a plant or an animal?",
+    "Is it a plant or an animal?"
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes <b>is</b>, and <b>animal</b> starts with a vowel sound, so we say <b>an animal</b>."
+  },
+  {
+   "qid": "c9-16-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "agree",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "The new bus route is very useful."
+    ],
+    [
+     "Dev",
+     "What do you think?"
+    ]
+   ],
+   "options": [
+    "I suppose so, but it are too crowded.",
+    "I suppose so, but it is too crowded.",
+    "I suppose so, but it too crowded."
+   ],
+   "answer": 1,
+   "rule": "Every clause needs a verb, and <b>it</b> takes <b>is</b>: <b>it is too crowded</b>."
+  },
+  {
+   "qid": "c9-16-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_command",
+   "prompt": "Change into indirect speech.",
+   "source": "Mother said to Neha, \"Don't over-protect your little brother.\"",
+   "options": [
+    "Mother told Neha not to over-protect your little brother.",
+    "Mother told Neha don't over-protect her little brother.",
+    "Mother told Neha not to over-protect her little brother."
+   ],
+   "answer": 2,
+   "rule": "<b>Don't</b> becomes <b>not to</b> + base verb, and <b>your</b> changes to <b>her</b> for Neha."
+  },
+  {
+   "qid": "c9-16-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "deduction",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Kiran's",
+    "phone",
+    "is",
+    "switched",
+    "off.",
+    "He",
+    "must",
+    "have",
+    "forgot",
+    "to",
+    "charge",
+    "it,",
+    "or",
+    "his",
+    "battery",
+    "might",
+    "have",
+    "die",
+    "on",
+    "the",
+    "way",
+    "to",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "forgotten",
+      "forget",
+      "forgetting"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "dying",
+      "dies",
+      "died"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>must have</b> / <b>might have</b> + past participle: <b>must have forgotten</b>, <b>might have died</b>."
+  },
+  {
+   "qid": "c9-16-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She can't have heard the bell; she was wearing headphones.",
+    "She can't have hear the bell; she was wearing headphones.",
+    "She can't has heard the bell; she was wearing headphones."
+   ],
+   "answer": 0,
+   "rule": "A sure 'no' about the past: <b>can't have</b> + past participle: <b>can't have heard</b>."
+  },
+  {
+   "qid": "c9-16-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_command",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The speaker asked us that wait for our turn.",
+    "The speaker asked us waiting for our turn.",
+    "The speaker asked us to wait for our turn."
+   ],
+   "answer": 2,
+   "rule": "A reported request: <b>asked</b> + object + <b>to</b> + base verb: <b>asked us to wait</b>."
+  },
+  {
+   "qid": "c9-16-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "agree",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "friends",
+    "hate",
+    "fake",
+    "news,",
+    "and",
+    "so",
+    "am",
+    "I."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "does",
+      "do",
+      "did"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The short answer copies the helper of the first verb. <b>Hate</b> (simple present) needs <b>do</b>: <b>so do I</b>."
+  },
+  {
+   "qid": "c9-16-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "Nobody knows the answer,",
+   "after": "they?",
+   "options": [
+    "do",
+    "does",
+    "don't"
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> is negative, so the tag is positive, and it uses <b>they</b>: <b>do they</b>?"
+  },
+  {
+   "qid": "c9-16-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperative",
+   "prompt": "Fill in the gap.",
+   "before": "Let's agree to disagree,",
+   "after": "we?",
+   "options": [
+    "shall",
+    "will",
+    "don't"
+   ],
+   "answer": 0,
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we</b>?"
+  },
+  {
+   "qid": "c9-16-26",
+   "type": "build",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Make a sure guess about the past.",
+   "answer": [
+    "The",
+    "speaker",
+    "must",
+    "have",
+    "felt",
+    "very",
+    "lonely."
+   ],
+   "alts": [],
+   "rule": "<b>must have</b> + past participle (<b>felt</b>) shows we are sure about the past."
+  },
+  {
+   "qid": "c9-16-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Rohan didn't come to the match today."
+    ]
+   ],
+   "options": [
+    "He must have been ill.",
+    "He must had been ill.",
+    "He must have be ill."
+   ],
+   "answer": 0,
+   "rule": "<b>must have</b> + past participle: <b>must have been</b>. After <b>must</b> we never use <b>had</b>."
+  },
+  {
+   "qid": "c9-16-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_command",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Joshi",
+     "What did your father say about the phone?"
+    ]
+   ],
+   "options": [
+    "He told me to not using it after nine o'clock.",
+    "He told me don't use it after nine o'clock.",
+    "He told me not to use it after nine o'clock."
+   ],
+   "answer": 2,
+   "rule": "A reported 'don't' order: <b>told</b> + object + <b>not to</b> + base verb: <b>told me not to use</b>."
+  },
+  {
+   "qid": "c9-16-29",
+   "type": "change",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Change into a yes/no question.",
+   "source": "The leader gives truthful answers.",
+   "options": [
+    "Does the leader gives truthful answers?",
+    "Does the leader give truthful answers?",
+    "Is the leader give truthful answers?"
+   ],
+   "answer": 1,
+   "rule": "Simple present question: <b>Does</b> + subject + base verb. The -s moves to <b>does</b>: <b>Does the leader give</b>?"
+  },
+  {
+   "qid": "c9-16-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "agree",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Arjun",
+    "thinks",
+    "these",
+    "apps",
+    "is",
+    "better",
+    "than",
+    "books.",
+    "I",
+    "don't",
+    "think",
+    "so.",
+    "Does",
+    "he",
+    "really",
+    "believes",
+    "that?",
+    "I",
+    "totally",
+    "disagree",
+    "with",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "believed",
+      "believing",
+      "believe"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>These apps</b> is plural, so use <b>are</b>. After <b>Does</b>, use the base verb: <b>believe</b>."
+  },
+  {
+   "qid": "c9-16-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She must have been cry before we arrived.",
+    "She must have been crying before we arrived.",
+    "She must have been crying before we had arrive."
+   ],
+   "answer": 1,
+   "rule": "<b>must have been</b> + -ing guesses about an ongoing past action; <b>before we arrived</b> uses the simple past."
+  },
+  {
+   "qid": "c9-16-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "don't",
+    "told",
+    "me",
+    "why",
+    "I",
+    "shouldn't",
+    "feel",
+    "so",
+    "sad."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "tell",
+      "telling",
+      "tells"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>don't</b> in an imperative, use the base verb: <b>Please don't tell me</b>."
+  },
+  {
+   "qid": "c9-16-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "agree",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anil",
+    "has",
+    "finished",
+    "his",
+    "diary",
+    "for",
+    "the",
+    "week,",
+    "and",
+    "so",
+    "does",
+    "Meera."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "is",
+      "was",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The short answer copies the helper: <b>has finished</b> ... <b>so has Meera</b>."
+  },
+  {
+   "qid": "c9-16-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "How long",
+   "after": "you been writing this diary?",
+   "options": [
+    "did",
+    "have",
+    "has"
+   ],
+   "answer": 1,
+   "rule": "Present perfect continuous: <b>have</b> + <b>been</b> + -ing. With <b>you</b>, use <b>have</b>: <b>have you been writing</b>?"
+  },
+  {
+   "qid": "c9-16-35",
+   "type": "build",
+   "level": 4,
+   "topic": "deduction",
+   "prompt": "Ask a question that guesses about the past.",
+   "answer": [
+    "What",
+    "must",
+    "have",
+    "happened",
+    "before",
+    "this?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>must have</b> + past participle: <b>What must have happened</b> ...?"
+  },
+  {
+   "qid": "c9-16-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "agree",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "Mobile phones should be banned in school."
+    ],
+    [
+     "Tanvi",
+     "Do you agree?"
+    ]
+   ],
+   "options": [
+    "Not necessarily. Some students uses them for learning.",
+    "Not necessarily. Some students use them for learning.",
+    "Not necessarily. Some student use them for learning."
+   ],
+   "answer": 1,
+   "rule": "<b>Some</b> + plural noun (<b>students</b>) takes a plural verb without -s: <b>use</b>."
+  },
+  {
+   "qid": "c9-16-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "I tried to send you a photo, but it didn't work."
+    ]
+   ],
+   "options": [
+    "Don't worry, Grandpa. Let me show you how to do it.",
+    "Don't worry, Grandpa. Let me shows you how to do it.",
+    "Don't worry, Grandpa. Let me to show you how to do it."
+   ],
+   "answer": 0,
+   "rule": "<b>Let</b> + object + base verb, with no <b>to</b> and no -s: <b>Let me show you</b>."
+  },
+  {
+   "qid": "c9-16-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_command",
+   "prompt": "Change into indirect speech.",
+   "source": "The teacher said, \"Students, form groups of six.\"",
+   "options": [
+    "The teacher ordered the students to formed groups of six.",
+    "The teacher ordered the students that form groups of six.",
+    "The teacher ordered the students to form groups of six."
+   ],
+   "answer": 2,
+   "rule": "A command is reported with <b>ordered</b> + object + <b>to</b> + base verb: <b>ordered the students to form</b>."
+  },
+  {
+   "qid": "c9-16-39",
+   "type": "change",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Change into an interrogative sentence without changing the meaning.",
+   "source": "Advice is cheap.",
+   "options": [
+    "Isn't advice cheap?",
+    "Isn't advice is cheap?",
+    "Doesn't advice cheap?"
+   ],
+   "answer": 0,
+   "rule": "A positive statement becomes a negative question: <b>Isn't advice cheap?</b> The helper <b>is</b> moves to the front once."
+  },
+  {
+   "qid": "c9-16-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_command",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Yesterday",
+    "Mother",
+    "told",
+    "me",
+    "to",
+    "listen",
+    "more",
+    "and",
+    "talks",
+    "less.",
+    "She",
+    "also",
+    "told",
+    "me",
+    "to",
+    "wait",
+    "for",
+    "my",
+    "friend",
+    "to",
+    "finished",
+    "his",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "talk",
+      "talked",
+      "talking"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "finishing",
+      "finishes",
+      "finish"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b>, use the base verb: <b>to listen more and talk less</b>, <b>to finish</b>."
+  },
+  {
+   "qid": "c9-16-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "They can't have went far; their bikes are still outside the gate.",
+    "They can't have go far; their bikes are still outside the gate.",
+    "They can't have gone far; their bikes are still outside the gate."
+   ],
+   "answer": 2,
+   "rule": "<b>can't have</b> + past participle. The past participle of <b>go</b> is <b>gone</b>, not <b>went</b>."
+  },
+  {
+   "qid": "c9-16-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "agree",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ayaan",
+    "has",
+    "never",
+    "seen",
+    "snow",
+    "in",
+    "his",
+    "life,",
+    "and",
+    "neither",
+    "do",
+    "I."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "has",
+      "have",
+      "am"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Has never seen</b> is present perfect, so the reply copies it with <b>I</b>: <b>neither have I</b>."
+  },
+  {
+   "qid": "c9-16-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Fill in the gap.",
+   "before": "Someone",
+   "after": "taken my notebook; it isn't in my bag.",
+   "options": [
+    "must have",
+    "must has",
+    "must having"
+   ],
+   "answer": 0,
+   "rule": "A modal is followed by the base form: <b>must have taken</b>."
+  },
+  {
+   "qid": "c9-16-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_command",
+   "prompt": "Fill in the gap.",
+   "before": "The leader asked us what",
+   "after": "in mind.",
+   "options": [
+    "had we",
+    "did we have",
+    "we had"
+   ],
+   "answer": 2,
+   "rule": "A reported question uses statement word order: <b>what we had</b>, not question order."
+  },
+  {
+   "qid": "c9-16-45",
+   "type": "build",
+   "level": 5,
+   "topic": "reported_command",
+   "prompt": "Report the question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "why",
+    "I",
+    "was",
+    "so",
+    "upset."
+   ],
+   "alts": [],
+   "rule": "In a reported question, the subject comes before the verb: <b>why I was</b>, not <b>why was I</b>."
+  },
+  {
+   "qid": "c9-16-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Rao",
+     "The window is broken and there is a cricket ball on the floor."
+    ],
+    [
+     "Mrs Rao",
+     "Who do you think did it?"
+    ]
+   ],
+   "options": [
+    "The boys next door must have been play cricket.",
+    "The boys next door must have been playing cricket.",
+    "The boys next door must been playing cricket."
+   ],
+   "answer": 1,
+   "rule": "A guess about an ongoing past action: <b>must have been</b> + -ing: <b>must have been playing</b>."
+  },
+  {
+   "qid": "c9-16-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_command",
+   "prompt": "Change into indirect speech.",
+   "source": "He said to me, \"Please don't talk; just hear me.\"",
+   "options": [
+    "He requested me not to talk but just to hear him.",
+    "He requested me not to talk but just to hear me.",
+    "He requested me to not talking but just hear him."
+   ],
+   "answer": 0,
+   "rule": "<b>Please</b> becomes <b>requested</b>; <b>don't talk</b> becomes <b>not to talk</b>; the speaker's <b>me</b> becomes <b>him</b>."
+  },
+  {
+   "qid": "c9-16-48",
+   "type": "change",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Change into indirect speech.",
+   "source": "Ravi asked me, \"Do you agree with my opinion?\"",
+   "options": [
+    "Ravi asked me if did I agree with his opinion.",
+    "Ravi asked me if I agreed with his opinion.",
+    "Ravi asked me if I agreed with my opinion."
+   ],
+   "answer": 1,
+   "rule": "A yes/no question is reported with <b>if</b> + statement order; the tense moves back (<b>agreed</b>) and <b>my</b> becomes <b>his</b>."
+  },
+  {
+   "qid": "c9-16-49",
+   "type": "change",
+   "level": 5,
+   "topic": "agree",
+   "prompt": "Combine using 'neither ... nor'.",
+   "source": "The speaker does not want advice. He does not want pity either.",
+   "options": [
+    "The speaker wants neither advice or pity.",
+    "The speaker wants neither advice nor pity.",
+    "The speaker does not want neither advice nor pity."
+   ],
+   "answer": 1,
+   "rule": "<b>Neither</b> always pairs with <b>nor</b>, and it is already negative, so we do not add <b>not</b>."
+  },
+  {
+   "qid": "c9-16-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "imperative",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "If",
+    "you",
+    "really",
+    "want",
+    "to",
+    "help",
+    "me,",
+    "please",
+    "don't",
+    "gave",
+    "me",
+    "advice.",
+    "Advice",
+    "is",
+    "cheap,",
+    "but",
+    "a",
+    "patient",
+    "listener",
+    "are",
+    "rare.",
+    "Strange",
+    "as",
+    "it",
+    "may",
+    "seem,",
+    "listening",
+    "quietly",
+    "to",
+    "me",
+    "make",
+    "me",
+    "feel",
+    "much",
+    "stronger."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "given",
+      "giving",
+      "give"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "were",
+      "be",
+      "is"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "makes",
+      "making",
+      "maker"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>don't</b> + base verb (<b>give</b>); <b>a patient listener</b> is singular (<b>is</b>); a gerund subject (<b>listening ...</b>) takes a singular verb (<b>makes</b>)."
+  }
+ ]
+}

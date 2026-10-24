@@ -1,0 +1,988 @@
+{
+ "class": 6,
+ "id": "6.4",
+ "title": "The Clever Boy",
+ "topics": [
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech punctuation"
+  },
+  {
+   "tag": "sentence_kinds",
+   "name": "Kinds of sentences (statements, questions, exclamations)"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals can, could, may, should, must"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-6.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Cheemo answered proud.",
+    "Cheemo answered proudly.",
+    "Cheemo proudly answer."
+   ],
+   "answer": 1,
+   "rule": "To say <b>how</b> he answered, use an adverb: <b>proudly</b>."
+  },
+  {
+   "qid": "c6-6.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "What your father's job is?",
+    "What is your father's job?",
+    "What are your father's job?"
+   ],
+   "answer": 1,
+   "rule": "In a question, the verb comes before the subject: <b>What is</b> your father's job?"
+  },
+  {
+   "qid": "c6-6.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The rider could not see the cap.",
+    "The rider could not saw the cap.",
+    "The rider could not seeing the cap."
+   ],
+   "answer": 0,
+   "rule": "After a modal like <b>could</b>, use the base verb: <b>could not see</b>."
+  },
+  {
+   "qid": "c6-6.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Cheemo",
+    "replied",
+    "cheerful",
+    "to",
+    "the",
+    "young",
+    "man."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "cheer",
+      "cheerfulness",
+      "cheerfully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Replied</b> is a verb; to say how, use the adverb <b>cheerfully</b>."
+  },
+  {
+   "qid": "c6-6.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Cheemo",
+    "could",
+    "not",
+    "guessed",
+    "the",
+    "answer",
+    "at",
+    "first."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "guesses",
+      "guess",
+      "guessing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>could not</b>, use the base verb: <b>guess</b>."
+  },
+  {
+   "qid": "c6-6.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The shepherd boy counted his sheep",
+   "after": "every evening.",
+   "options": [
+    "carefully",
+    "careful",
+    "care"
+   ],
+   "answer": 0,
+   "rule": "To describe how he counted, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c6-6.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "before": "",
+   "after": "I come in, sir?",
+   "options": [
+    "Is",
+    "May",
+    "Are"
+   ],
+   "answer": 1,
+   "rule": "<b>May I ...?</b> is the polite way to ask for permission."
+  },
+  {
+   "qid": "c6-6.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Cheemo",
+    "said,",
+    "\"I",
+    "know",
+    "the",
+    "answer!\""
+   ],
+   "alts": [],
+   "rule": "Speaker + <b>said,</b> then the exact words inside quotation marks."
+  },
+  {
+   "qid": "c6-6.4-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Do you like riddles?"
+    ]
+   ],
+   "options": [
+    "Yes, I likes them a lot.",
+    "Yes, I am like them a lot.",
+    "Yes, I like them a lot."
+   ],
+   "answer": 2,
+   "rule": "Answer a <b>Do you ...?</b> question with the simple present: <b>I like</b>."
+  },
+  {
+   "qid": "c6-6.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Father",
+     "Can you count all the sheep in the pasture?"
+    ]
+   ],
+   "options": [
+    "Yes, I can count them.",
+    "Yes, I can counting them.",
+    "Yes, I can to count them."
+   ],
+   "answer": 0,
+   "rule": "After <b>can</b>, use the base verb without <b>to</b>: <b>can count</b>."
+  },
+  {
+   "qid": "c6-6.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Does the sun rises in the east?",
+    "Do the sun rise in the east?",
+    "Does the sun rise in the east?"
+   ],
+   "answer": 2,
+   "rule": "One thing takes <b>does</b>, and after <b>does</b> the verb has no -s: <b>Does the sun rise</b>?"
+  },
+  {
+   "qid": "c6-6.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He tossed his cap excite into the air.",
+    "He tossed his cap excitement into the air.",
+    "He tossed his cap excitedly into the air."
+   ],
+   "answer": 2,
+   "rule": "To say how he tossed it, use the adverb <b>excitedly</b>."
+  },
+  {
+   "qid": "c6-6.4-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Are",
+    "Cheemo",
+    "angry",
+    "with",
+    "the",
+    "rider?"
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Is",
+      "Do",
+      "Does"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Cheemo</b> is one person, so the question starts with <b>Is</b>."
+  },
+  {
+   "qid": "c6-6.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "can",
+    "sends",
+    "your",
+    "man",
+    "to",
+    "my",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "sending",
+      "sent",
+      "send"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>can</b>, use the base verb: <b>can send</b>."
+  },
+  {
+   "qid": "c6-6.4-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The young man",
+   "after": "asked for the answer.",
+   "options": [
+    "cleverly",
+    "clever",
+    "cleverness"
+   ],
+   "answer": 0,
+   "rule": "The word describes how he asked, so use the adverb <b>cleverly</b>."
+  },
+  {
+   "qid": "c6-6.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you know the answer to this riddle?",
+   "options": [
+    "Are",
+    "Do",
+    "Is"
+   ],
+   "answer": 1,
+   "rule": "With an action verb like <b>know</b>, make the question with <b>Do</b>."
+  },
+  {
+   "qid": "c6-6.4-17",
+   "type": "build",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "is",
+    "your",
+    "best",
+    "friend?"
+   ],
+   "alts": [],
+   "rule": "Wh-question: <b>Who + is + the rest</b>, ending with a question mark."
+  },
+  {
+   "qid": "c6-6.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "tell",
+    "me",
+    "the",
+    "answer?"
+   ],
+   "alts": [],
+   "rule": "Polite request: <b>Could you + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-6.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How did Cheemo answer the riddle?"
+    ]
+   ],
+   "options": [
+    "He answered it quickly and proudly.",
+    "He answered it quick and proud.",
+    "He answer it quickly and proudly."
+   ],
+   "answer": 0,
+   "rule": "<b>How</b> questions need adverbs: <b>quickly</b> and <b>proudly</b>. The past is <b>answered</b>."
+  },
+  {
+   "qid": "c6-6.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Cheemo",
+     "May I go out to play, Baba?"
+    ]
+   ],
+   "options": [
+    "Yes, you may go, but come back before sunset.",
+    "Yes, you may goes, but come back before sunset.",
+    "Yes, you may going, but come back before sunset."
+   ],
+   "answer": 0,
+   "rule": "After <b>may</b>, use the base verb: <b>may go</b>."
+  },
+  {
+   "qid": "c6-6.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Which question is correct?",
+   "options": [
+    "What did the rich man's son gave Cheemo?",
+    "What gave the rich man's son Cheemo?",
+    "What did the rich man's son give Cheemo?"
+   ],
+   "answer": 2,
+   "rule": "After <b>did</b>, use the base verb: <b>did ... give</b>."
+  },
+  {
+   "qid": "c6-6.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "How could I knew that the cap would fall on the horse?",
+    "How could I know that the cap will fell on the horse?",
+    "How could I know that the cap would fall on the horse?"
+   ],
+   "answer": 2,
+   "rule": "Modals (<b>could</b>, <b>would</b>, <b>will</b>) are followed by the base verb: <b>know</b>, <b>fall</b>."
+  },
+  {
+   "qid": "c6-6.4-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "horse",
+    "reared",
+    "up",
+    "and",
+    "the",
+    "rider",
+    "fell",
+    "heavy",
+    "on",
+    "the",
+    "ground."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "heavily",
+      "heaviness",
+      "heave"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To describe how he fell, use the adverb <b>heavily</b>."
+  },
+  {
+   "qid": "c6-6.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "do",
+    "Cheemo",
+    "go",
+    "to",
+    "the",
+    "pasture",
+    "every",
+    "day?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "does",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With one person (he/she) in a present question, use <b>does</b>: Why <b>does</b> Cheemo go ...?"
+  },
+  {
+   "qid": "c6-6.4-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "If you ever need a job, you",
+   "after": "come to me straight away.",
+   "options": [
+    "ought",
+    "can",
+    "must to"
+   ],
+   "answer": 1,
+   "rule": "<b>Can</b> + base verb. <b>Ought</b> needs <b>to</b>, and <b>must</b> never takes <b>to</b>."
+  },
+  {
+   "qid": "c6-6.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Cheemo had tossed his cap",
+   "after": "in the air.",
+   "options": [
+    "highly",
+    "height",
+    "high"
+   ],
+   "answer": 2,
+   "rule": "For height, the adverb is <b>high</b>. <b>Highly</b> means 'very much' (highly pleased)."
+  },
+  {
+   "qid": "c6-6.4-27",
+   "type": "build",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "rider",
+    "asked,",
+    "\"Is",
+    "the",
+    "sheep",
+    "ready?\""
+   ],
+   "alts": [],
+   "rule": "Speaker + <b>asked,</b> then the question inside quotation marks, with <b>?</b> inside the closing mark."
+  },
+  {
+   "qid": "c6-6.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "young",
+    "man",
+    "laughed",
+    "loudly."
+   ],
+   "alts": [],
+   "rule": "An adverb of manner usually comes after the verb: <b>laughed loudly</b>."
+  },
+  {
+   "qid": "c6-6.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Cheemo",
+     "What is higher than a man but shorter than a hen?"
+    ]
+   ],
+   "options": [
+    "Are it a cap?",
+    "Is it a cap?",
+    "Does it a cap?"
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes <b>is</b>; a yes/no question starts with the verb: <b>Is it ...?</b>"
+  },
+  {
+   "qid": "c6-6.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Friend",
+     "I lost my phone on the bus."
+    ]
+   ],
+   "options": [
+    "You should telling the conductor at once.",
+    "You should told the conductor at once.",
+    "You should tell the conductor at once."
+   ],
+   "answer": 2,
+   "rule": "To give advice, use <b>should</b> + base verb: <b>should tell</b>."
+  },
+  {
+   "qid": "c6-6.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The rider got up and dusts his clothes angrily.",
+    "The rider got up and dusted his clothes angry.",
+    "The rider got up and dusted his clothes angrily."
+   ],
+   "answer": 2,
+   "rule": "Both verbs stay in the past (<b>got</b>, <b>dusted</b>), and <b>angrily</b> tells how."
+  },
+  {
+   "qid": "c6-6.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Why the young man was so angry?",
+    "Why were the young man so angry?",
+    "Why was the young man so angry?"
+   ],
+   "answer": 2,
+   "rule": "In a wh-question, <b>was</b> comes before the subject, and one person takes <b>was</b>."
+  },
+  {
+   "qid": "c6-6.4-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Cheemo could think faster than the rich man's son.",
+    "Cheemo could think more fast than the rich man's son.",
+    "Cheemo could thinks faster than the rich man's son."
+   ],
+   "answer": 0,
+   "rule": "<b>Could</b> + base verb (<b>think</b>); the comparative of <b>fast</b> is <b>faster</b>."
+  },
+  {
+   "qid": "c6-6.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "merchant's",
+    "son",
+    "spoke",
+    "very",
+    "polite",
+    "to",
+    "Cheemo."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "politeness",
+      "politely",
+      "politer"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Spoke</b> is a verb; to say how, use the adverb <b>politely</b>."
+  },
+  {
+   "qid": "c6-6.4-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "did",
+    "Cheemo's",
+    "father",
+    "gave",
+    "him",
+    "the",
+    "riddle?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "giving",
+      "give",
+      "given"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Did</b> already shows the past, so the main verb is the base form: <b>did ... give</b>."
+  },
+  {
+   "qid": "c6-6.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "The sheep",
+   "after": "not be black, white or grey.",
+   "options": [
+    "should",
+    "is",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "<b>Should not be</b> = modal + <b>not</b> + base verb."
+  },
+  {
+   "qid": "c6-6.4-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the young man give Cheemo five gold coins?",
+   "options": [
+    "Was",
+    "Did",
+    "Has"
+   ],
+   "answer": 1,
+   "rule": "With the base verb <b>give</b>, a past question starts with <b>Did</b>."
+  },
+  {
+   "qid": "c6-6.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "boy",
+    "asked,",
+    "\"What",
+    "can",
+    "it",
+    "be?\""
+   ],
+   "alts": [],
+   "rule": "Comma after <b>asked</b>; the question goes inside quotation marks: \"What <b>can</b> it be?\""
+  },
+  {
+   "qid": "c6-6.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "How did you sing at the school show?"
+    ]
+   ],
+   "options": [
+    "I sang beautiful.",
+    "I sang beautifully.",
+    "I sung beautifully."
+   ],
+   "answer": 1,
+   "rule": "The past of <b>sing</b> is <b>sang</b>; to say how, use the adverb <b>beautifully</b>."
+  },
+  {
+   "qid": "c6-6.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rider",
+     "Can you get me a sheep of no colour?"
+    ]
+   ],
+   "options": [
+    "I will try, but it may not easy.",
+    "I will try, but it mays not be easy.",
+    "I will try, but it may not be easy."
+   ],
+   "answer": 2,
+   "rule": "Modals never take <b>-s</b>, and they need a base verb: <b>may not be</b>."
+  },
+  {
+   "qid": "c6-6.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Don't you know the answer to this riddle?",
+    "Doesn't you know the answer to this riddle?",
+    "Don't you knows the answer to this riddle?"
+   ],
+   "answer": 0,
+   "rule": "<b>You</b> takes <b>don't</b>, and after <b>don't</b> the verb is the base form: <b>know</b>."
+  },
+  {
+   "qid": "c6-6.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Cheemo cleverly told the rider that the man should not come on any day.",
+    "Cheemo clever told the rider that the man should not come on any day.",
+    "Cheemo cleverly told the rider that the man should not came on any day."
+   ],
+   "answer": 0,
+   "rule": "<b>Cleverly</b> (adverb) describes how he told; after <b>should not</b> use the base verb <b>come</b>."
+  },
+  {
+   "qid": "c6-6.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rider",
+    "said",
+    "that",
+    "he",
+    "would",
+    "gave",
+    "Cheemo",
+    "a",
+    "big",
+    "reward."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "given",
+      "giving",
+      "give"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>would</b>, use the base verb: <b>would give</b>."
+  },
+  {
+   "qid": "c6-6.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "the",
+    "young",
+    "man",
+    "wants",
+    "a",
+    "sheep",
+    "of",
+    "no",
+    "colour?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "want",
+      "wanted",
+      "wanting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b>, the verb loses its -s: Why <b>does</b> he <b>want</b> ...?"
+  },
+  {
+   "qid": "c6-6.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Cheemo worked",
+   "after": "than any other shepherd boy in the village.",
+   "options": [
+    "harder",
+    "more hardly",
+    "hardly"
+   ],
+   "answer": 0,
+   "rule": "The adverb <b>hard</b> becomes <b>harder</b>. <b>Hardly</b> means 'almost not'."
+  },
+  {
+   "qid": "c6-6.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "It",
+   "after": "be Sunday, Monday or any other day of the week.",
+   "options": [
+    "doesn't",
+    "shouldn't",
+    "isn't"
+   ],
+   "answer": 1,
+   "rule": "Use a modal + base verb: <b>shouldn't be</b>. We do not say <b>doesn't be</b> or <b>isn't be</b>."
+  },
+  {
+   "qid": "c6-6.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "young",
+    "man",
+    "said,",
+    "\"You",
+    "are",
+    "clever!\""
+   ],
+   "alts": [],
+   "rule": "Comma after <b>said</b>; the exact words go inside quotation marks, with <b>!</b> before the closing mark."
+  },
+  {
+   "qid": "c6-6.4-48",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make an offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "keep",
+    "a",
+    "sheep",
+    "ready?"
+   ],
+   "alts": [],
+   "rule": "To offer help, use <b>Shall I + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-6.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "I solved all five riddles!"
+    ]
+   ],
+   "options": [
+    "What a clever girl are you!",
+    "What clever girl you are!",
+    "What a clever girl you are!"
+   ],
+   "answer": 2,
+   "rule": "Exclamation: <b>What a + adjective + noun + subject + verb!</b>"
+  },
+  {
+   "qid": "c6-6.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did your team play today?"
+    ]
+   ],
+   "options": [
+    "We played bad in the first half but much better later.",
+    "We played badly in the first half but much more good later.",
+    "We played badly in the first half but much better later."
+   ],
+   "answer": 2,
+   "rule": "The adverb is <b>badly</b>; the comparative of <b>well</b> is <b>better</b>."
+  }
+ ]
+}

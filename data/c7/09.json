@@ -1,0 +1,966 @@
+{
+ "class": 7,
+ "id": "09",
+ "title": "Abdul Becomes a Courtier",
+ "topics": [
+  {
+   "tag": "abstract",
+   "name": "Abstract nouns and noun forms"
+  },
+  {
+   "tag": "plurals",
+   "name": "Irregular plurals (children, men, feet, mice, sheep)"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present and past)"
+  },
+  {
+   "tag": "requests",
+   "name": "Polite requests: May I / Could you / Would you mind"
+  },
+  {
+   "tag": "tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-09-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mouses ran into the library.",
+    "The mice runs into the library.",
+    "The mice ran into the library."
+   ],
+   "answer": 2,
+   "rule": "The plural of <b>mouse</b> is <b>mice</b>. A plural subject does not take -s on the verb."
+  },
+  {
+   "qid": "c7-09-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "abstract",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Abdul showed great patient.",
+    "Abdul showed great patience.",
+    "Abdul showed great patiently."
+   ],
+   "answer": 1,
+   "rule": "After <b>showed great</b> we need a noun. <b>Patience</b> is the abstract noun; patient is an adjective."
+  },
+  {
+   "qid": "c7-09-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "child",
+    "were",
+    "reading",
+    "in",
+    "the",
+    "library."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "children",
+      "childs",
+      "childes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two</b> needs a plural. The plural of <b>child</b> is <b>children</b>."
+  },
+  {
+   "qid": "c7-09-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "abstract",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "His",
+    "honest",
+    "won",
+    "him",
+    "the",
+    "Emperor's",
+    "trust."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "honesty",
+      "honestly",
+      "honester"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>His</b> we need a noun. The abstract noun of <b>honest</b> is <b>honesty</b>."
+  },
+  {
+   "qid": "c7-09-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The Emperor had many wise",
+   "after": "in his court.",
+   "options": [
+    "man",
+    "mans",
+    "men"
+   ],
+   "answer": 2,
+   "rule": "<b>Many</b> needs a plural. The plural of <b>man</b> is <b>men</b>."
+  },
+  {
+   "qid": "c7-09-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "requests",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you please help me carry these books?",
+   "options": [
+    "Are",
+    "Have",
+    "Could"
+   ],
+   "answer": 2,
+   "rule": "<b>Could you please + base verb</b> makes a polite request: <b>Could you please help me ...?</b>"
+  },
+  {
+   "qid": "c7-09-07",
+   "type": "build",
+   "level": 1,
+   "topic": "requests",
+   "prompt": "Ask for permission politely.",
+   "answer": [
+    "May",
+    "I",
+    "read",
+    "your",
+    "books,",
+    "sir?"
+   ],
+   "alts": [],
+   "rule": "<b>May I + base verb</b> asks for permission: <b>May I read your books, sir?</b>"
+  },
+  {
+   "qid": "c7-09-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Father",
+     "What do you need, Abdul?"
+    ]
+   ],
+   "options": [
+    "Could you please buys me a few books?",
+    "Could you please buy me a few books?",
+    "Could you please buying me a few books?"
+   ],
+   "answer": 1,
+   "rule": "<b>Could you please + base verb</b> makes a polite request: <b>Could you please buy ...?</b>"
+  },
+  {
+   "qid": "c7-09-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Minister",
+     "How many birds are there in the Murgikhana?"
+    ]
+   ],
+   "options": [
+    "There are fifty hens and ten gooses.",
+    "There are fifty hens and ten geese.",
+    "There is fifty hens and ten geese."
+   ],
+   "answer": 1,
+   "rule": "The plural of <b>goose</b> is <b>geese</b>. Plural nouns take <b>There are</b>."
+  },
+  {
+   "qid": "c7-09-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Abdul fed the hens.",
+   "options": [
+    "The hens was fed by Abdul.",
+    "The hens were fed by Abdul.",
+    "The hens were feed by Abdul."
+   ],
+   "answer": 1,
+   "rule": "Simple past passive = <b>was/were + past participle</b>. <b>Hens</b> is plural: <b>were fed</b>."
+  },
+  {
+   "qid": "c7-09-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The books were covered with silk.",
+    "The books was covered with silk.",
+    "The books were cover with silk."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>be + past participle</b>. Plural <b>books</b> takes <b>were</b>: <b>were covered</b>."
+  },
+  {
+   "qid": "c7-09-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "Abdul is a scholar, is he?",
+    "Abdul is a scholar, doesn't he?",
+    "Abdul is a scholar, isn't he?"
+   ],
+   "answer": 2,
+   "rule": "A positive sentence with <b>is</b> takes the negative tag <b>isn't he?</b>"
+  },
+  {
+   "qid": "c7-09-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "jackets",
+    "were",
+    "make",
+    "by",
+    "the",
+    "Royal",
+    "Tailors."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "made",
+      "making",
+      "makes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>were + past participle</b>: <b>were made</b>."
+  },
+  {
+   "qid": "c7-09-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hens",
+    "look",
+    "healthy,",
+    "doesn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "don't",
+      "aren't",
+      "didn't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The hens look</b> is simple present with a plural subject, so the tag is <b>don't they?</b>"
+  },
+  {
+   "qid": "c7-09-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "abstract",
+   "prompt": "Fill in the gap.",
+   "before": "Abdul's",
+   "after": "helped him get the job.",
+   "options": [
+    "intelligent",
+    "intelligently",
+    "intelligence"
+   ],
+   "answer": 2,
+   "rule": "After <b>Abdul's</b> we need a noun: the abstract noun <b>intelligence</b>."
+  },
+  {
+   "qid": "c7-09-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The hens",
+   "after": "fed with kitchen waste every day.",
+   "options": [
+    "is",
+    "are",
+    "do"
+   ],
+   "answer": 1,
+   "rule": "Simple present passive = <b>am/is/are + past participle</b>. Plural <b>hens</b>: <b>are fed</b>."
+  },
+  {
+   "qid": "c7-09-17",
+   "type": "build",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "love",
+    "books,",
+    "don't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive simple present <b>You love</b> takes the negative tag <b>don't you?</b>"
+  },
+  {
+   "qid": "c7-09-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "abstract",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What helped Abdul become a courtier?"
+    ]
+   ],
+   "options": [
+    "His wisdom and patiently helped him.",
+    "His wise and patience helped him.",
+    "His wisdom and patience helped him."
+   ],
+   "answer": 2,
+   "rule": "Both words after <b>His</b> must be nouns: <b>wisdom</b> and <b>patience</b> are abstract nouns."
+  },
+  {
+   "qid": "c7-09-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The Emperor rewarded Abdul.",
+   "options": [
+    "Abdul is rewarded by the Emperor.",
+    "Abdul was rewarded by the Emperor.",
+    "Abdul was rewarded from the Emperor."
+   ],
+   "answer": 1,
+   "rule": "Keep the past tense: <b>was rewarded</b>, and show the doer with <b>by</b>: <b>by the Emperor</b>."
+  },
+  {
+   "qid": "c7-09-20",
+   "type": "change",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Add a question tag.",
+   "source": "Abdul worked hard.",
+   "options": [
+    "Abdul worked hard, didn't he?",
+    "Abdul worked hard, wasn't he?",
+    "Abdul worked hard, did he?"
+   ],
+   "answer": 0,
+   "rule": "Simple past positive (<b>worked</b>) takes the negative tag with <b>did</b>: <b>didn't he?</b>"
+  },
+  {
+   "qid": "c7-09-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "abstract",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The wise of these men surprised everyone.",
+    "The wisdom of these men surprised everyone.",
+    "The wisdom of these mans surprised everyone."
+   ],
+   "answer": 1,
+   "rule": "<b>Wisdom</b> is the abstract noun needed as the subject, and the plural of <b>man</b> is <b>men</b>."
+  },
+  {
+   "qid": "c7-09-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "requests",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "Would you mind to lend me your pen?",
+    "Would you mind lend me your pen?",
+    "Would you mind lending me your pen?"
+   ],
+   "answer": 2,
+   "rule": "<b>Would you mind</b> is followed by the <b>-ing</b> form: <b>Would you mind lending ...?</b>"
+  },
+  {
+   "qid": "c7-09-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sheep",
+    "and",
+    "the",
+    "deers",
+    "grazed",
+    "near",
+    "the",
+    "palace."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "deer's",
+      "dear",
+      "deer"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Some nouns are the same in singular and plural: one <b>deer</b>, many <b>deer</b>; one <b>sheep</b>, many <b>sheep</b>."
+  },
+  {
+   "qid": "c7-09-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "silk",
+    "bags",
+    "was",
+    "thrown",
+    "away",
+    "after",
+    "use."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "be",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>All the silk bags</b> is plural, so the passive is <b>were thrown</b>."
+  },
+  {
+   "qid": "c7-09-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "The Emperor didn't spend much money,",
+   "after": "he?",
+   "options": [
+    "didn't",
+    "does",
+    "did"
+   ],
+   "answer": 2,
+   "rule": "A negative sentence (<b>didn't spend</b>) takes a positive tag: <b>did he?</b>"
+  },
+  {
+   "qid": "c7-09-26",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "library",
+    "was",
+    "given",
+    "to",
+    "Abdul."
+   ],
+   "alts": [],
+   "rule": "Passive = <b>was + past participle</b>: <b>The library was given to Abdul.</b>"
+  },
+  {
+   "qid": "c7-09-27",
+   "type": "build",
+   "level": 3,
+   "topic": "abstract",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Patience",
+    "is",
+    "the",
+    "key",
+    "to",
+    "success."
+   ],
+   "alts": [],
+   "rule": "<b>Patience</b> and <b>success</b> are abstract nouns: ideas you cannot touch."
+  },
+  {
+   "qid": "c7-09-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "The play about Abdul was so funny."
+    ]
+   ],
+   "options": [
+    "Yes, it was really funny, didn't it?",
+    "Yes, it was really funny, wasn't it?",
+    "Yes, it was really funny, was it?"
+   ],
+   "answer": 1,
+   "rule": "Positive <b>it was</b> takes the negative tag <b>wasn't it?</b>"
+  },
+  {
+   "qid": "c7-09-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mohan",
+     "Who made these book covers?"
+    ]
+   ],
+   "options": [
+    "They were make by my sister.",
+    "They was made by my sister.",
+    "They were made by my sister."
+   ],
+   "answer": 2,
+   "rule": "Passive past = <b>were + past participle</b>: <b>They were made by my sister.</b>"
+  },
+  {
+   "qid": "c7-09-30",
+   "type": "change",
+   "level": 3,
+   "topic": "abstract",
+   "prompt": "Rewrite using the noun form of 'brave'.",
+   "source": "Abdul was brave.",
+   "options": [
+    "Abdul showed great brave.",
+    "Abdul showed great bravery.",
+    "Abdul showed great bravely."
+   ],
+   "answer": 1,
+   "rule": "The abstract noun of <b>brave</b> is <b>bravery</b>: <b>Abdul showed great bravery.</b>"
+  },
+  {
+   "qid": "c7-09-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The scraps were collected from the royal kitchen.",
+    "The scraps were collect from the royal kitchen.",
+    "The scraps was collected from the royal kitchen."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>scraps</b> takes <b>were</b>, followed by the past participle <b>collected</b>."
+  },
+  {
+   "qid": "c7-09-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "His foots were tired after the long walk.",
+    "His feet was tired after the long walk.",
+    "His feet were tired after the long walk."
+   ],
+   "answer": 2,
+   "rule": "The plural of <b>foot</b> is <b>feet</b>, and a plural subject takes <b>were</b>."
+  },
+  {
+   "qid": "c7-09-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "please",
+    "opened",
+    "the",
+    "window",
+    "for",
+    "me?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "open",
+      "opening",
+      "opens"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>Could you (please)</b> use the base verb: <b>open</b>, not the past form <b>opened</b>."
+  },
+  {
+   "qid": "c7-09-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "abstract",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Abdul's",
+    "clever",
+    "impressed",
+    "the",
+    "Emperor",
+    "very",
+    "much."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "cleverness",
+      "cleverly",
+      "cleverer"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>Abdul's</b> the subject must be a noun: <b>cleverness</b>."
+  },
+  {
+   "qid": "c7-09-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The Royal Murgikhana",
+   "after": "given to Abdul last year.",
+   "options": [
+    "was",
+    "is",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "<b>Last year</b> is past and the subject is singular, so <b>was given</b>."
+  },
+  {
+   "qid": "c7-09-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "Both the",
+   "after": "were full of books.",
+   "options": [
+    "shelf",
+    "shelves",
+    "shelfs"
+   ],
+   "answer": 1,
+   "rule": "<b>Both</b> needs a plural. <b>shelf</b> becomes <b>shelves</b> (f changes to ves)."
+  },
+  {
+   "qid": "c7-09-37",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Waste",
+    "silk",
+    "was",
+    "used",
+    "to",
+    "cover",
+    "books."
+   ],
+   "alts": [],
+   "rule": "Passive past: <b>was used</b>, then <b>to + base verb</b> shows the purpose: <b>to cover books</b>."
+  },
+  {
+   "qid": "c7-09-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Librarian",
+     "Can I help you?"
+    ]
+   ],
+   "options": [
+    "Yes, please. Could you showed me the history books?",
+    "Yes, please. Could you show me the history books?",
+    "Yes, please. Could you to show me the history books?"
+   ],
+   "answer": 1,
+   "rule": "<b>Could you + base verb</b> (no <b>to</b>, no past form): <b>Could you show ...?</b>"
+  },
+  {
+   "qid": "c7-09-39",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The tailors stitched the jackets.",
+   "options": [
+    "The jackets were stitched by the tailors.",
+    "The jackets are stitched by the tailors.",
+    "The tailors were stitched by the jackets."
+   ],
+   "answer": 0,
+   "rule": "The object <b>the jackets</b> becomes the subject; past tense stays: <b>were stitched by the tailors</b>."
+  },
+  {
+   "qid": "c7-09-40",
+   "type": "change",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Add a question tag.",
+   "source": "The hens are healthy.",
+   "options": [
+    "The hens are healthy, isn't it?",
+    "The hens are healthy, aren't they?",
+    "The hens are healthy, don't they?"
+   ],
+   "answer": 1,
+   "rule": "Use the same helper (<b>are</b>) and the pronoun for <b>the hens</b>: <b>aren't they?</b>"
+  },
+  {
+   "qid": "c7-09-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The formal requests were send to the Emperor in bags made of fine silk.",
+    "The formal requests was sent to the Emperor in bags made of fine silk.",
+    "The formal requests were sent to the Emperor in bags made of fine silk."
+   ],
+   "answer": 2,
+   "rule": "Plural <b>requests</b> takes <b>were</b>, followed by the past participle <b>sent</b>."
+  },
+  {
+   "qid": "c7-09-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "abstract",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' happiness filled the whole library.",
+    "The children's happy filled the whole library.",
+    "The children's happiness filled the whole library."
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is already plural, so add <b>'s</b>. The subject needs the noun <b>happiness</b>."
+  },
+  {
+   "qid": "c7-09-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Abdul",
+    "never",
+    "wasted",
+    "anything,",
+    "didn't",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "did",
+      "was",
+      "had"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Never</b> makes the sentence negative, so the tag is positive: <b>did he?</b>"
+  },
+  {
+   "qid": "c7-09-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kitchen",
+    "waste",
+    "is",
+    "give",
+    "to",
+    "the",
+    "hens",
+    "by",
+    "Abdul."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "gave",
+      "giving",
+      "given"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive = <b>is + past participle</b>: <b>is given</b>. <b>by Abdul</b> shows who does it."
+  },
+  {
+   "qid": "c7-09-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "abstract",
+   "prompt": "Fill in the gap.",
+   "before": "Abdul worked with great",
+   "after": "and won the Emperor's trust.",
+   "options": [
+    "determination",
+    "determined",
+    "determine"
+   ],
+   "answer": 0,
+   "rule": "After <b>with great</b> we need a noun: the abstract noun <b>determination</b>."
+  },
+  {
+   "qid": "c7-09-46",
+   "type": "build",
+   "level": 5,
+   "topic": "requests",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Would",
+    "you",
+    "mind",
+    "closing",
+    "the",
+    "library",
+    "door?"
+   ],
+   "alts": [],
+   "rule": "<b>Would you mind + -ing</b> is a very polite request: <b>Would you mind closing ...?</b>"
+  },
+  {
+   "qid": "c7-09-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What are the plurals of 'tooth' and 'foot'?"
+    ]
+   ],
+   "options": [
+    "They are 'tooths' and 'feet'.",
+    "They are 'teeth' and 'feet'.",
+    "It are 'teeth' and 'feet'."
+   ],
+   "answer": 1,
+   "rule": "<b>tooth - teeth</b> and <b>foot - feet</b> change their vowels. Two plurals take <b>They are</b>."
+  },
+  {
+   "qid": "c7-09-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Is the new library ready?"
+    ]
+   ],
+   "options": [
+    "Yes, it was open by the mayor last week.",
+    "Yes, it is opened by the mayor last week.",
+    "Yes, it was opened by the mayor last week."
+   ],
+   "answer": 2,
+   "rule": "<b>Last week</b> is past, so the passive is <b>was + past participle</b>: <b>was opened</b>."
+  },
+  {
+   "qid": "c7-09-49",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The Emperor did not pay the tailors.",
+   "options": [
+    "The tailors did not paid by the Emperor.",
+    "The tailors were not paid by the Emperor.",
+    "The tailors were not pay by the Emperor."
+   ],
+   "answer": 1,
+   "rule": "Negative past passive = <b>were not + past participle</b>: <b>were not paid</b>."
+  },
+  {
+   "qid": "c7-09-50",
+   "type": "change",
+   "level": 5,
+   "topic": "requests",
+   "prompt": "Change into a polite request using 'Could'.",
+   "source": "Lend me a book.",
+   "options": [
+    "Could you please lend me a book?",
+    "Could you please lent me a book?",
+    "Could you please lending me a book?"
+   ],
+   "answer": 0,
+   "rule": "<b>Could you please + base verb</b> turns an order into a polite request: <b>Could you please lend ...?</b>"
+  }
+ ]
+}

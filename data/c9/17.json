@@ -1,0 +1,1208 @@
+{
+ "class": 9,
+ "id": "17",
+ "title": "The Storyteller",
+ "topics": [
+  {
+   "tag": "narrative_tenses",
+   "name": "Past tenses in a story (simple, continuous, perfect)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech with say, tell and ask"
+  },
+  {
+   "tag": "conditional3",
+   "name": "Third conditional (If ... had ..., would have ...)"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Colon and semicolon"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-17-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "narrative_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "One night a man had a dream.",
+    "One night a man was have a dream.",
+    "One night a man haved a dream."
+   ],
+   "answer": 0,
+   "rule": "A finished past event uses the simple past. The past of <b>have</b> is <b>had</b>."
+  },
+  {
+   "qid": "c9-17-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Which sentence uses the semicolon correctly?",
+   "options": [
+    "Cyril kept; asking questions as his aunt had no answers.",
+    "Cyril kept asking questions; his aunt had no answers.",
+    "Cyril kept asking questions; because his aunt had no answers."
+   ],
+   "answer": 1,
+   "rule": "A <b>semicolon</b> joins two complete, closely linked sentences. It never splits a verb, and is not used before <b>because</b>."
+  },
+  {
+   "qid": "c9-17-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "narrative_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "the",
+    "girls",
+    "was",
+    "asking",
+    "questions",
+    "all",
+    "afternoon."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "has",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both the girls</b> is plural, so the past continuous uses <b>were</b>: <b>were asking</b>."
+  },
+  {
+   "qid": "c9-17-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditional3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Bertha",
+    "had",
+    "been",
+    "less",
+    "good,",
+    "she",
+    "would",
+    "have",
+    "stay",
+    "safe",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "stayed",
+      "staying",
+      "stays"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional result: <b>would have</b> + past participle: <b>would have stayed</b>."
+  },
+  {
+   "qid": "c9-17-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Cyril said it was the",
+   "after": "story he had ever heard.",
+   "options": [
+    "better",
+    "good",
+    "best"
+   ],
+   "answer": 2,
+   "rule": "<b>the</b> ... <b>ever</b> compares with all others, so use the superlative: <b>the best</b>."
+  },
+  {
+   "qid": "c9-17-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The bachelor",
+   "after": "the children a story about Bertha.",
+   "options": [
+    "said",
+    "spoke",
+    "told"
+   ],
+   "answer": 2,
+   "rule": "We <b>tell</b> someone a story. <b>Said</b> and <b>spoke</b> cannot take a person + a story after them."
+  },
+  {
+   "qid": "c9-17-07",
+   "type": "build",
+   "level": 1,
+   "topic": "narrative_tenses",
+   "prompt": "Describe the scene in the past continuous.",
+   "answer": [
+    "The",
+    "wolf",
+    "was",
+    "sniffing",
+    "among",
+    "the",
+    "bushes."
+   ],
+   "alts": [],
+   "rule": "Past continuous: <b>was</b> + -ing for an action going on in the past: <b>was sniffing</b>."
+  },
+  {
+   "qid": "c9-17-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anya",
+     "Is your sister older than you?"
+    ]
+   ],
+   "options": [
+    "No, she is more young than me.",
+    "No, she is younger than me.",
+    "No, she is youngest than me."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives add <b>-er</b> before <b>than</b>: <b>younger than</b>."
+  },
+  {
+   "qid": "c9-17-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Cyril said, \"I am bored.\"",
+   "options": [
+    "Cyril said that I was bored.",
+    "Cyril said that he were bored.",
+    "Cyril said that he was bored."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b> for Cyril, and <b>am</b> moves back to <b>was</b>."
+  },
+  {
+   "qid": "c9-17-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "narrative_tenses",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "On",
+    "that",
+    "hot",
+    "afternoon,",
+    "the",
+    "two",
+    "girls",
+    "were",
+    "bored",
+    "and",
+    "keep",
+    "asking",
+    "silly",
+    "questions.",
+    "Their",
+    "aunt",
+    "decided",
+    "to",
+    "told",
+    "them",
+    "a",
+    "story,",
+    "but",
+    "it",
+    "was",
+    "very",
+    "dull."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "keeps",
+      "kept",
+      "keeping"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "telling",
+      "tell",
+      "tells"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The story is in the past: <b>were bored and kept asking</b>. After <b>to</b>, use the base verb: <b>to tell</b>."
+  },
+  {
+   "qid": "c9-17-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the aunt had told a better story, the children will have listened.",
+    "If the aunt has told a better story, the children would have listened.",
+    "If the aunt had told a better story, the children would have listened."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If</b> + <b>had</b> + past participle, <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-17-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The aunt said that the story was very good.",
+    "The aunt told that the story was very good.",
+    "The aunt said me that the story was very good."
+   ],
+   "answer": 0,
+   "rule": "<b>Say</b> needs no person after it: <b>said that</b>. <b>Tell</b> needs a person: <b>told me that</b>."
+  },
+  {
+   "qid": "c9-17-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bertha",
+    "was",
+    "the",
+    "more",
+    "obedient",
+    "child",
+    "of",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "most",
+      "much",
+      "mostly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Comparing with <b>all</b> the others needs the superlative: <b>the most obedient</b>."
+  },
+  {
+   "qid": "c9-17-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "narrative_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "last",
+    "scene",
+    "had",
+    "flashed,",
+    "he",
+    "look",
+    "back",
+    "at",
+    "the",
+    "footprints."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "looks",
+      "looking",
+      "looked"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The earlier action takes the past perfect (<b>had flashed</b>); the later one takes the simple past: <b>looked</b>."
+  },
+  {
+   "qid": "c9-17-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "narrative_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "When the wolf came, Bertha",
+   "after": "in the myrtle bushes.",
+   "options": [
+    "is hiding",
+    "has hiding",
+    "was hiding"
+   ],
+   "answer": 2,
+   "rule": "An action going on when another past action happened takes the past continuous: <b>was hiding</b>."
+  },
+  {
+   "qid": "c9-17-16",
+   "type": "build",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Report the aunt's order.",
+   "answer": [
+    "The",
+    "aunt",
+    "asked",
+    "Cyril",
+    "to",
+    "sit",
+    "down."
+   ],
+   "alts": [],
+   "rule": "A reported order: <b>asked</b> + person + <b>to</b> + base verb: <b>asked Cyril to sit down</b>."
+  },
+  {
+   "qid": "c9-17-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditional3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Oh no, we missed the school bus this morning!"
+    ]
+   ],
+   "options": [
+    "If we had left early, we would have catch it.",
+    "If we had left early, we would have caught it.",
+    "If we left early, we would have caught it."
+   ],
+   "answer": 1,
+   "rule": "For an unreal past: <b>If</b> + <b>had left</b>, <b>would have caught</b>."
+  },
+  {
+   "qid": "c9-17-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "narrative_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "Why didn't you answer my call?"
+    ]
+   ],
+   "options": [
+    "Sorry, Ma. I am travelling on the train yesterday.",
+    "Sorry, Ma. I was travelling on the train.",
+    "Sorry, Ma. I was travel on the train."
+   ],
+   "answer": 1,
+   "rule": "An action in progress at a past moment takes the past continuous: <b>I was travelling</b>."
+  },
+  {
+   "qid": "c9-17-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The girl said to the bachelor, \"Tell us a story.\"",
+   "options": [
+    "The girl asked the bachelor to tell us a story.",
+    "The girl asked the bachelor to tell them a story.",
+    "The girl asked the bachelor to told them a story."
+   ],
+   "answer": 1,
+   "rule": "An order becomes <b>asked</b> + person + <b>to</b> + base verb, and <b>us</b> becomes <b>them</b>."
+  },
+  {
+   "qid": "c9-17-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "bachelor's",
+    "story",
+    "was",
+    "more",
+    "exciting",
+    "than",
+    "the",
+    "aunt's.",
+    "The",
+    "children",
+    "said",
+    "it",
+    "was",
+    "the",
+    "better",
+    "story",
+    "they",
+    "had",
+    "ever",
+    "heard.",
+    "For",
+    "them,",
+    "the",
+    "aunt's",
+    "tale",
+    "was",
+    "not",
+    "as",
+    "good",
+    "than",
+    "his."
+   ],
+   "errors": [
+    {
+     "i": 15,
+     "options": [
+      "best",
+      "good",
+      "well"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 30,
+     "options": [
+      "so",
+      "then",
+      "as"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>The ... ever heard</b> needs the superlative <b>best</b>. The pattern is <b>as good as</b>, never <b>as good than</b>."
+  },
+  {
+   "qid": "c9-17-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Which sentence uses the colon correctly?",
+   "options": [
+    "Bertha had: three medals for obedience, punctuality and good behaviour.",
+    "Bertha had three medals: one for obedience, one for punctuality and one for good behaviour.",
+    "Bertha won three medals for: obedience, punctuality and good behaviour."
+   ],
+   "answer": 1,
+   "rule": "A <b>colon</b> comes after a complete statement to introduce a list. It never comes straight after a verb or a preposition."
+  },
+  {
+   "qid": "c9-17-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditional3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Bertha hadn't worn the medals, the wolf wouldn't have found her.",
+    "If Bertha hasn't worn the medals, the wolf wouldn't have found her.",
+    "If Bertha hadn't worn the medals, the wolf won't have found her."
+   ],
+   "answer": 0,
+   "rule": "Third conditional: <b>If</b> + <b>hadn't worn</b>, <b>wouldn't have found</b>."
+  },
+  {
+   "qid": "c9-17-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Cyril",
+    "said",
+    "his",
+    "aunt",
+    "that",
+    "the",
+    "story",
+    "was",
+    "stupid."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "told",
+      "spoke",
+      "talked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "When the listener is named, use <b>tell</b>: <b>told his aunt that</b>. <b>Said</b> needs <b>to</b> before a person."
+  },
+  {
+   "qid": "c9-17-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "narrative_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "The children",
+   "after": "bored long before the aunt started her story.",
+   "options": [
+    "had become",
+    "have become",
+    "become"
+   ],
+   "answer": 0,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had become</b> ... before she <b>started</b>."
+  },
+  {
+   "qid": "c9-17-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditional3",
+   "prompt": "Fill in the gap.",
+   "before": "If the wolf had not heard the medals, Bertha",
+   "after": "survived.",
+   "options": [
+    "will have",
+    "would have",
+    "would"
+   ],
+   "answer": 1,
+   "rule": "The result of an unreal past: <b>would have</b> + past participle: <b>would have survived</b>."
+  },
+  {
+   "qid": "c9-17-26",
+   "type": "build",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Join two ideas with a semicolon.",
+   "answer": [
+    "The",
+    "story",
+    "was",
+    "dull;",
+    "nobody",
+    "listened."
+   ],
+   "alts": [],
+   "rule": "A <b>semicolon</b> joins two complete, closely linked ideas: <b>The story was dull; nobody listened.</b>"
+  },
+  {
+   "qid": "c9-17-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did the bus conductor tell you?"
+    ]
+   ],
+   "options": [
+    "He told me that the bus will left at six.",
+    "He told me that the bus would leave at six.",
+    "He said me that the bus would leave at six."
+   ],
+   "answer": 1,
+   "rule": "<b>Told</b> + person + <b>that</b>; <b>will leave</b> moves back to <b>would leave</b>."
+  },
+  {
+   "qid": "c9-17-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Which story did you like more?"
+    ]
+   ],
+   "options": [
+    "The second one. It was far exciting than the first.",
+    "The second one. It was far more exciting than the first.",
+    "The second one. It was far most exciting than the first."
+   ],
+   "answer": 1,
+   "rule": "Long adjectives use <b>more</b> + adjective + <b>than</b>; <b>far</b> makes it stronger: <b>far more exciting than</b>."
+  },
+  {
+   "qid": "c9-17-29",
+   "type": "change",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "The bachelor's story was the most exciting story of all.",
+   "options": [
+    "The bachelor's story was more exciting than any other story.",
+    "The bachelor's story was more exciting than any story.",
+    "The bachelor's story was most exciting than any other story."
+   ],
+   "answer": 0,
+   "rule": "Superlative to comparative: <b>more exciting than any other</b>. Without <b>other</b>, the story is compared with itself."
+  },
+  {
+   "qid": "c9-17-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "conditional3",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "If",
+    "Bertha",
+    "had",
+    "stayed",
+    "at",
+    "home,",
+    "the",
+    "wolf",
+    "would",
+    "not",
+    "have",
+    "catch",
+    "her.",
+    "Her",
+    "medals",
+    "would",
+    "not",
+    "have",
+    "clinked",
+    "if",
+    "she",
+    "has",
+    "not",
+    "trembled",
+    "so",
+    "much."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "caught",
+      "catching",
+      "catches"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "have",
+      "is",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Third conditional: <b>would have</b> + past participle (<b>caught</b>) and <b>if</b> + <b>had</b> + past participle (<b>had not trembled</b>)."
+  },
+  {
+   "qid": "c9-17-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "narrative_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bertha had hid in the bushes before the wolf reached them.",
+    "Bertha has hidden in the bushes before the wolf reached them.",
+    "Bertha had hidden in the bushes before the wolf reached them."
+   ],
+   "answer": 2,
+   "rule": "Past perfect = <b>had</b> + past participle. The past participle of <b>hide</b> is <b>hidden</b>."
+  },
+  {
+   "qid": "c9-17-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "aunt",
+    "asked",
+    "the",
+    "children",
+    "to",
+    "came",
+    "and",
+    "listen",
+    "to",
+    "a",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "coming",
+      "come",
+      "comes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A reported request: <b>asked</b> + person + <b>to</b> + base verb: <b>to come and listen</b>."
+  },
+  {
+   "qid": "c9-17-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditional3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Bertha",
+    "has",
+    "been",
+    "naughty,",
+    "the",
+    "Prince",
+    "would",
+    "not",
+    "have",
+    "invited",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With <b>would have invited</b>, the if-clause needs the past perfect: <b>If Bertha had been</b>."
+  },
+  {
+   "qid": "c9-17-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "No other child in the town had",
+   "after": "medals as Bertha.",
+   "options": [
+    "as much",
+    "so much",
+    "as many"
+   ],
+   "answer": 2,
+   "rule": "<b>Medals</b> can be counted, so use <b>as many</b> ... <b>as</b>. <b>Much</b> is for uncountable nouns."
+  },
+  {
+   "qid": "c9-17-35",
+   "type": "build",
+   "level": 4,
+   "topic": "conditional3",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "If",
+    "Cyril",
+    "had",
+    "listened,",
+    "he",
+    "would",
+    "have",
+    "understood."
+   ],
+   "alts": [],
+   "rule": "<b>If</b> + <b>had</b> + past participle, <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-17-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mihir",
+     "What did the ticket checker ask you?"
+    ]
+   ],
+   "options": [
+    "He asked me where I was going.",
+    "He asked me where was I going.",
+    "He asked me where am I going."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order and moves the tense back: <b>where I was going</b>."
+  },
+  {
+   "qid": "c9-17-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "narrative_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why were you late for practice?"
+    ]
+   ],
+   "options": [
+    "By the time I reached the station, the train has already left.",
+    "By the time I reached the station, the train had already left.",
+    "By the time I reach the station, the train had already left."
+   ],
+   "answer": 1,
+   "rule": "The earlier past action takes the past perfect (<b>had left</b>); the later one takes the simple past (<b>reached</b>)."
+  },
+  {
+   "qid": "c9-17-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The bachelor said to the aunt, \"I don't agree with you.\"",
+   "options": [
+    "The bachelor told the aunt that he doesn't agree with you.",
+    "The bachelor told the aunt that he didn't agree with her.",
+    "The bachelor told the aunt that he didn't agreed with her."
+   ],
+   "answer": 1,
+   "rule": "<b>said to</b> becomes <b>told</b>; <b>don't</b> moves back to <b>didn't</b> + base verb; <b>I</b>/<b>you</b> become <b>he</b>/<b>her</b>."
+  },
+  {
+   "qid": "c9-17-39",
+   "type": "change",
+   "level": 4,
+   "topic": "conditional3",
+   "prompt": "Join using 'if'.",
+   "source": "The aunt did not tell a good story. So the children did not listen.",
+   "options": [
+    "If the aunt told a good story, the children would have listened.",
+    "If the aunt had told a good story, the children would listen.",
+    "If the aunt had told a good story, the children would have listened."
+   ],
+   "answer": 2,
+   "rule": "Imagining a different past: <b>If</b> + <b>had told</b>, <b>would have listened</b>."
+  },
+  {
+   "qid": "c9-17-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Cyril",
+    "asked",
+    "the",
+    "bachelor",
+    "if",
+    "there",
+    "were",
+    "any",
+    "sheep",
+    "in",
+    "the",
+    "park.",
+    "The",
+    "bachelor",
+    "said",
+    "there",
+    "were",
+    "none,",
+    "but",
+    "he",
+    "told",
+    "that",
+    "there",
+    "were",
+    "other",
+    "animals.",
+    "The",
+    "children",
+    "begged",
+    "him",
+    "to",
+    "continuing",
+    "the",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 20,
+     "options": [
+      "added",
+      "spoke",
+      "talked"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "continued",
+      "continues",
+      "continue"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Told</b> needs a listener; with no listener use a verb like <b>added that</b>. After <b>to</b>, use the base verb: <b>to continue</b>."
+  },
+  {
+   "qid": "c9-17-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditional3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Had Bertha not wore her medals, the wolf would never have found her.",
+    "Had Bertha not worn her medals, the wolf would never have found her.",
+    "Had Bertha not worn her medals, the wolf would never had found her."
+   ],
+   "answer": 1,
+   "rule": "<b>Had</b> + subject + past participle can replace <b>If</b>: <b>Had Bertha not worn</b> ..., <b>would never have found</b>."
+  },
+  {
+   "qid": "c9-17-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "Riya",
+    "and",
+    "her",
+    "sister,",
+    "Riya",
+    "is",
+    "the",
+    "tallest",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "taller",
+      "tall",
+      "most"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "When we compare only two people, we use the comparative: <b>the taller one</b>."
+  },
+  {
+   "qid": "c9-17-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "narrative_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Bertha",
+   "after": "in the bush for a few minutes when the medals clinked.",
+   "options": [
+    "has been hiding",
+    "had been hiding",
+    "have hidden"
+   ],
+   "answer": 1,
+   "rule": "An action that had gone on for some time before a past event takes the past perfect continuous: <b>had been hiding</b>."
+  },
+  {
+   "qid": "c9-17-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditional3",
+   "prompt": "Fill in the gap.",
+   "before": "If the bachelor",
+   "after": "the train earlier, the children would have troubled him even more.",
+   "options": [
+    "did not leave",
+    "has not left",
+    "had not left"
+   ],
+   "answer": 2,
+   "rule": "The result <b>would have troubled</b> needs the past perfect in the if-clause: <b>had not left</b>."
+  },
+  {
+   "qid": "c9-17-45",
+   "type": "build",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Report the question.",
+   "answer": [
+    "The",
+    "girl",
+    "asked",
+    "whether",
+    "Bertha",
+    "had",
+    "been",
+    "pretty."
+   ],
+   "alts": [],
+   "rule": "A reported yes/no question: <b>asked whether</b> + statement order; <b>was</b> moves back to <b>had been</b>."
+  },
+  {
+   "qid": "c9-17-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditional3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "You lost the semi-final. What went wrong?"
+    ]
+   ],
+   "options": [
+    "If I had practised harder, I would have won it.",
+    "If I had practised harder, I would won it.",
+    "If I would have practised harder, I would have won it."
+   ],
+   "answer": 0,
+   "rule": "Never put <b>would</b> in the if-clause. Use <b>If I had practised</b>, <b>I would have won</b>."
+  },
+  {
+   "qid": "c9-17-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"Were there any sheep in the park?\" demanded Cyril.",
+   "options": [
+    "Cyril asked whether were there any sheep in the park.",
+    "Cyril asked whether there have been any sheep in the park.",
+    "Cyril asked whether there had been any sheep in the park."
+   ],
+   "answer": 2,
+   "rule": "A yes/no question takes <b>whether</b> + statement order; <b>were</b> moves back to <b>had been</b>."
+  },
+  {
+   "qid": "c9-17-48",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "Bertha was the best child in the town.",
+   "options": [
+    "No other child in the town was so good than Bertha.",
+    "No other child in the town was as good as Bertha.",
+    "No other child in the town was as better as Bertha."
+   ],
+   "answer": 1,
+   "rule": "Superlative to positive: <b>No other</b> ... <b>as good as</b>. The positive degree uses the plain adjective."
+  },
+  {
+   "qid": "c9-17-49",
+   "type": "change",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Rewrite as one sentence using a semicolon.",
+   "source": "The wolf could not see Bertha. The myrtle bushes were too thick.",
+   "options": [
+    "The wolf could not see Bertha; the myrtle bushes were too thick.",
+    "The wolf could not see Bertha; because the myrtle bushes were too thick.",
+    "The wolf could not see Bertha: and the myrtle bushes were too thick."
+   ],
+   "answer": 0,
+   "rule": "A <b>semicolon</b> alone joins two closely linked sentences; it is not followed by <b>because</b> or <b>and</b>."
+  },
+  {
+   "qid": "c9-17-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "narrative_tenses",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Bertha",
+    "was",
+    "walking",
+    "in",
+    "the",
+    "park",
+    "when",
+    "an",
+    "enormous",
+    "wolf",
+    "come",
+    "prowling",
+    "in.",
+    "She",
+    "runs",
+    "as",
+    "fast",
+    "as",
+    "she",
+    "could",
+    "and",
+    "hid",
+    "in",
+    "the",
+    "thickest",
+    "bush.",
+    "The",
+    "wolf",
+    "would",
+    "have",
+    "went",
+    "away",
+    "if",
+    "her",
+    "medals",
+    "had",
+    "not",
+    "clinked."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "came",
+      "comes",
+      "coming"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "run",
+      "ran",
+      "running"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 30,
+     "options": [
+      "gone",
+      "go",
+      "going"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Tell a past story in the past: <b>came</b>, <b>ran</b>. After <b>would have</b>, use the past participle: <b>gone</b>."
+  }
+ ]
+}

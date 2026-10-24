@@ -1,0 +1,1225 @@
+{
+ "class": 9,
+ "id": "19",
+ "title": "My Financial Career",
+ "topics": [
+  {
+   "tag": "reported_speech",
+   "name": "Reported (indirect) speech"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect in stories"
+  },
+  {
+   "tag": "modal_deduction",
+   "name": "Modals of deduction (must have, can't have)"
+  },
+  {
+   "tag": "linking",
+   "name": "Linking words (although, despite, however, no sooner)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-19-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Which reported question is correct?",
+   "options": [
+    "The manager asked me what I wanted.",
+    "The manager asked me what did I want.",
+    "The manager asked me that what I wanted."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement word order and no <b>that</b>: <b>asked me what I wanted</b>."
+  },
+  {
+   "qid": "c9-19-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I realised that I had wrote fifty-six instead of six.",
+    "I realised that I had written fifty-six instead of six.",
+    "I realised that I had writing fifty-six instead of six."
+   ],
+   "answer": 1,
+   "rule": "Past perfect = <b>had</b> + past participle: <b>had written</b>."
+  },
+  {
+   "qid": "c9-19-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "had",
+    "never",
+    "open",
+    "a",
+    "bank",
+    "account",
+    "before",
+    "last",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "opening",
+      "opened",
+      "opens"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>had</b> we need the past participle: <b>had never opened</b>."
+  },
+  {
+   "qid": "c9-19-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "manager",
+    "told",
+    "me",
+    "to",
+    "came",
+    "out",
+    "of",
+    "the",
+    "safe."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "come",
+      "coming",
+      "comes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A reported command uses <b>told</b> + person + <b>to</b> + base verb: <b>told me to come out</b>."
+  },
+  {
+   "qid": "c9-19-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "modal_deduction",
+   "prompt": "Fill in the gap.",
+   "before": "The manager looked alarmed. He",
+   "after": "thought I was a detective.",
+   "options": [
+    "must have",
+    "must had",
+    "must has"
+   ],
+   "answer": 0,
+   "rule": "To guess about the past, use <b>must have</b> + past participle: <b>must have thought</b>."
+  },
+  {
+   "qid": "c9-19-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "linking",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "he was nervous, he went into the bank.",
+   "options": [
+    "Despite",
+    "However",
+    "Although"
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> joins a full clause (he was nervous). <b>Despite</b> needs a noun, and <b>however</b> cannot join two clauses."
+  },
+  {
+   "qid": "c9-19-07",
+   "type": "build",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Make the reported question.",
+   "answer": [
+    "He",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "kept",
+    "my",
+    "money."
+   ],
+   "alts": [],
+   "rule": "In a reported question the subject comes before the verb: <b>where I kept</b>, not <b>where did I keep</b>."
+  },
+  {
+   "qid": "c9-19-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modal_deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Aman's phone is on his desk, but he isn't here."
+    ]
+   ],
+   "options": [
+    "He must went to the canteen.",
+    "He must have gone to the canteen.",
+    "He must have go to the canteen."
+   ],
+   "answer": 1,
+   "rule": "A guess about the past: <b>must have</b> + past participle: <b>must have gone</b>."
+  },
+  {
+   "qid": "c9-19-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did the bank clerk say to you?"
+    ]
+   ],
+   "options": [
+    "He said that my account were ready.",
+    "He said that my account was ready.",
+    "He said me that my account was ready."
+   ],
+   "answer": 1,
+   "rule": "<b>Said</b> takes no person after it (said me is wrong), and <b>account</b> is singular: <b>was ready</b>."
+  },
+  {
+   "qid": "c9-19-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"Can I see the manager?\" I said.",
+   "options": [
+    "I asked if can I see the manager.",
+    "I asked if I could see the manager.",
+    "I asked that could I see the manager."
+   ],
+   "answer": 1,
+   "rule": "A yes/no question is reported with <b>if</b>, statement order, and <b>can</b> becomes <b>could</b>."
+  },
+  {
+   "qid": "c9-19-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although his fear, he opened an account.",
+    "Despite of his fear, he opened an account.",
+    "Despite his fear, he opened an account."
+   ],
+   "answer": 2,
+   "rule": "<b>Despite</b> is followed directly by a noun (no <b>of</b>). <b>Although</b> needs a full clause."
+  },
+  {
+   "qid": "c9-19-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nobody laughed, so they can't have heard the joke.",
+    "Nobody laughed, so they can't have hear the joke.",
+    "Nobody laughed, so they can't has heard the joke."
+   ],
+   "answer": 0,
+   "rule": "To say something surely did not happen, use <b>can't have</b> + past participle: <b>can't have heard</b>."
+  },
+  {
+   "qid": "c9-19-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena",
+    "must",
+    "have",
+    "leave",
+    "her",
+    "umbrella",
+    "on",
+    "the",
+    "bus",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "leaving",
+      "left",
+      "leaves"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Must have</b> is followed by the past participle: <b>must have left</b>."
+  },
+  {
+   "qid": "c9-19-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kavya",
+    "was",
+    "tired,",
+    "despite",
+    "she",
+    "still",
+    "played",
+    "cricket",
+    "with",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "during",
+      "with",
+      "but"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Despite</b> cannot join two clauses. Use the conjunction <b>but</b> to show contrast: <b>tired, but she still played</b>."
+  },
+  {
+   "qid": "c9-19-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The manager asked me",
+   "after": "I was one of Pinkerton's men.",
+   "options": [
+    "whether",
+    "that",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question is joined with <b>whether</b> or <b>if</b>, never <b>that</b>."
+  },
+  {
+   "qid": "c9-19-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "When I reached the bank, the manager",
+   "after": "already left.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The leaving happened before I reached (past), so use the past perfect: <b>had already left</b>."
+  },
+  {
+   "qid": "c9-19-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "Make a sentence that guesses about the past.",
+   "answer": [
+    "He",
+    "must",
+    "have",
+    "been",
+    "very",
+    "nervous."
+   ],
+   "alts": [],
+   "rule": "<b>must have been</b> shows we are sure about something in the past."
+  },
+  {
+   "qid": "c9-19-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you really go to the bank in that heavy rain?"
+    ]
+   ],
+   "options": [
+    "Yes, despite the rain, I went.",
+    "Yes, despite it rained, I went.",
+    "Yes, although the rain, I went."
+   ],
+   "answer": 0,
+   "rule": "<b>Despite</b> + noun: <b>despite the rain</b>. <b>Although</b> would need a clause: although it rained."
+  },
+  {
+   "qid": "c9-19-19",
+   "type": "change",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Join using 'after'.",
+   "source": "The clerk counted the money. He gave me a slip.",
+   "options": [
+    "After the clerk had counted the money, he had give me a slip.",
+    "After the clerk has counted the money, he gave me a slip.",
+    "After the clerk had counted the money, he gave me a slip."
+   ],
+   "answer": 2,
+   "rule": "The earlier action takes the past perfect (<b>had counted</b>); the later one takes the simple past (<b>gave</b>)."
+  },
+  {
+   "qid": "c9-19-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "narrator",
+    "told",
+    "the",
+    "manager",
+    "that",
+    "he",
+    "has",
+    "come",
+    "to",
+    "open",
+    "an",
+    "account.",
+    "The",
+    "manager",
+    "asked",
+    "how",
+    "much",
+    "he",
+    "want",
+    "to",
+    "deposit.",
+    "He",
+    "said",
+    "that",
+    "he",
+    "will",
+    "deposit",
+    "fifty-six",
+    "dollars."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "wants",
+      "wanting",
+      "wanted"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "shall",
+      "would",
+      "can"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a past reporting verb, tenses move back: <b>has</b> to <b>had</b>, <b>want</b> to <b>wanted</b>, <b>will</b> to <b>would</b>."
+  },
+  {
+   "qid": "c9-19-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Which reported command is correct?",
+   "options": [
+    "The manager ordered him that come out.",
+    "The manager ordered him to come out.",
+    "The manager ordered him to came out."
+   ],
+   "answer": 1,
+   "rule": "A command is reported with <b>ordered/told</b> + person + <b>to</b> + base verb: <b>ordered him to come out</b>."
+  },
+  {
+   "qid": "c9-19-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "the",
+    "clerk",
+    "asked",
+    "me",
+    "whether",
+    "I",
+    "am",
+    "drawing",
+    "out",
+    "all",
+    "my",
+    "money."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "were",
+      "is",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After the past verb <b>asked</b>, the present continuous moves back: <b>am drawing</b> becomes <b>was drawing</b>."
+  },
+  {
+   "qid": "c9-19-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "film",
+    "had",
+    "already",
+    "start",
+    "when",
+    "we",
+    "reached",
+    "the",
+    "hall."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "starting",
+      "started",
+      "starts"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect = <b>had</b> + past participle: <b>had already started</b>."
+  },
+  {
+   "qid": "c9-19-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "modal_deduction",
+   "prompt": "Fill in the gap.",
+   "before": "That young man",
+   "after": "have known much about banks; he even walked into the safe.",
+   "options": [
+    "don't",
+    "isn't",
+    "can't"
+   ],
+   "answer": 2,
+   "rule": "To say we are sure something was NOT true in the past, use <b>can't have</b> + past participle."
+  },
+  {
+   "qid": "c9-19-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "linking",
+   "prompt": "Fill in the gap.",
+   "before": "The bank was crowded;",
+   "after": "the clerk served me quickly.",
+   "options": [
+    "however,",
+    "although,",
+    "despite,"
+   ],
+   "answer": 0,
+   "rule": "<b>However</b> is a linking adverb; it comes after a semicolon and is followed by a comma."
+  },
+  {
+   "qid": "c9-19-26",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "I",
+    "had",
+    "never",
+    "seen",
+    "such",
+    "a",
+    "big",
+    "iron",
+    "safe."
+   ],
+   "alts": [],
+   "rule": "<b>had never seen</b> is the past perfect; size comes before material: <b>big iron safe</b>."
+  },
+  {
+   "qid": "c9-19-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did your teacher tell you today?"
+    ]
+   ],
+   "options": [
+    "She said us to bring our project files tomorrow.",
+    "She told us to bring our project files tomorrow.",
+    "She told us bring our project files tomorrow."
+   ],
+   "answer": 1,
+   "rule": "Use <b>told</b> + person + <b>to</b> + verb. <b>Said</b> cannot take a person straight after it."
+  },
+  {
+   "qid": "c9-19-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "modal_deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Is that Rohan at the door? I thought he was in Pune this week."
+    ]
+   ],
+   "options": [
+    "No, it can't be him; he is in Pune.",
+    "No, it can't is him; he is in Pune.",
+    "No, it can't been him; he is in Pune."
+   ],
+   "answer": 0,
+   "rule": "For a present deduction use <b>can't</b> + base verb: <b>it can't be him</b>."
+  },
+  {
+   "qid": "c9-19-29",
+   "type": "change",
+   "level": 3,
+   "topic": "linking",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although the manager was busy, he met me.",
+   "options": [
+    "Despite the manager was busy, he met me.",
+    "Despite being busy, the manager met me.",
+    "Despite of being busy, the manager met me."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> takes a noun or an <b>-ing</b> form, never a full clause and never <b>of</b>."
+  },
+  {
+   "qid": "c9-19-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "When",
+    "I",
+    "reached",
+    "the",
+    "bank,",
+    "the",
+    "doors",
+    "has",
+    "already",
+    "closed.",
+    "I",
+    "had",
+    "forget",
+    "my",
+    "passbook",
+    "too,",
+    "so",
+    "I",
+    "go",
+    "home",
+    "sadly."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "have",
+      "is",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "forgetting",
+      "forgotten",
+      "forgets"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "gone",
+      "goes",
+      "went"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Earlier past action: <b>had closed</b>, <b>had forgotten</b> (past participle). The story's next step is simple past: <b>went</b>."
+  },
+  {
+   "qid": "c9-19-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He asked me if my money had been deposited.",
+    "He asked me if had my money been deposited.",
+    "He asked me if my money had deposited."
+   ],
+   "answer": 0,
+   "rule": "Money does not deposit itself, so use the passive <b>had been deposited</b>, in statement word order."
+  },
+  {
+   "qid": "c9-19-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He was too nervous that he could not speak.",
+    "He was so nervous to speak.",
+    "He was so nervous that he could not speak."
+   ],
+   "answer": 2,
+   "rule": "Use <b>so ... that</b> or <b>too ... to</b>; do not mix them."
+  },
+  {
+   "qid": "c9-19-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modal_deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "money",
+    "must",
+    "have",
+    "been",
+    "count",
+    "by",
+    "the",
+    "clerk."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "counting",
+      "counted",
+      "counts"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive deduction: <b>must have been</b> + past participle: <b>must have been counted</b>."
+  },
+  {
+   "qid": "c9-19-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The clerk asked me how I",
+   "after": "to have the money.",
+   "options": [
+    "want",
+    "did want",
+    "wanted"
+   ],
+   "answer": 2,
+   "rule": "Reported question: past tense after <b>asked</b> and statement order: <b>how I wanted</b>."
+  },
+  {
+   "qid": "c9-19-35",
+   "type": "build",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "He",
+    "kept",
+    "his",
+    "savings",
+    "in",
+    "a",
+    "sock",
+    "because",
+    "he",
+    "feared banks."
+   ],
+   "alts": [],
+   "rule": "<b>because</b> joins the main clause to the clause that gives the reason."
+  },
+  {
+   "qid": "c9-19-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "What did the manager ask you when you went in?"
+    ]
+   ],
+   "options": [
+    "He asked me whether I was a detective.",
+    "He asked me whether was I a detective.",
+    "He asked to me whether I was a detective."
+   ],
+   "answer": 0,
+   "rule": "<b>asked</b> + person (no <b>to</b>) + <b>whether</b> + subject + verb: <b>whether I was</b>."
+  },
+  {
+   "qid": "c9-19-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Had you ever written a cheque before today?"
+    ]
+   ],
+   "options": [
+    "No, I had never written one before.",
+    "No, I had never wrote one before.",
+    "No, I had not never written one before."
+   ],
+   "answer": 0,
+   "rule": "Past perfect uses the past participle <b>written</b>; <b>not never</b> is a double negative."
+  },
+  {
+   "qid": "c9-19-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"Are you drawing it all out again?\" he asked in surprise.",
+   "options": [
+    "He asked in surprise whether was I drawing it all out again.",
+    "He asked in surprise whether I was drawing it all out again.",
+    "He asked in surprise whether I am drawing it all out again."
+   ],
+   "answer": 1,
+   "rule": "Use <b>whether</b>, statement order, change <b>you</b> to <b>I</b>, and move <b>are drawing</b> back to <b>was drawing</b>."
+  },
+  {
+   "qid": "c9-19-39",
+   "type": "change",
+   "level": 4,
+   "topic": "modal_deduction",
+   "prompt": "Rewrite using 'must have'.",
+   "source": "I am sure the clerks laughed at him.",
+   "options": [
+    "The clerks must have laughed at him.",
+    "The clerks must laughed at him.",
+    "The clerks must have laugh at him."
+   ],
+   "answer": 0,
+   "rule": "<b>I am sure</b> + past action = <b>must have</b> + past participle: <b>must have laughed</b>."
+  },
+  {
+   "qid": "c9-19-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Although",
+    "the",
+    "long",
+    "queue",
+    "at",
+    "the",
+    "bank,",
+    "Neha",
+    "waited",
+    "patient",
+    "for",
+    "her",
+    "turn.",
+    "She",
+    "smiled",
+    "at",
+    "the",
+    "clerk",
+    "despite",
+    "he",
+    "was",
+    "rude",
+    "to",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "However",
+      "Because",
+      "Despite"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 9,
+     "options": [
+      "patience",
+      "impatient",
+      "patiently"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 18,
+     "options": [
+      "during",
+      "nevertheless",
+      "although"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Despite</b> + noun, <b>although</b> + clause; the verb <b>waited</b> needs the adverb <b>patiently</b>."
+  },
+  {
+   "qid": "c9-19-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The manager told the accountant that I was opening an account and would deposit fifty-six dollars.",
+    "The manager told to the accountant that I was opening an account and would deposit fifty-six dollars.",
+    "The manager said the accountant that I was opening an account and would deposit fifty-six dollars."
+   ],
+   "answer": 0,
+   "rule": "<b>told</b> + person directly (no <b>to</b>); <b>said</b> needs <b>to</b> before a person: said to the accountant."
+  },
+  {
+   "qid": "c9-19-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "linking",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "clerk",
+    "handed",
+    "me",
+    "the",
+    "money",
+    "when",
+    "I",
+    "rushed",
+    "out",
+    "of",
+    "the",
+    "bank."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "than",
+      "then",
+      "that"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The pair is always <b>no sooner ... than</b> (but <b>hardly ... when</b>)."
+  },
+  {
+   "qid": "c9-19-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "Fill in the gap.",
+   "before": "He can't",
+   "after": "the cheque carefully, or he would not have written fifty-six instead of six.",
+   "options": [
+    "has checked",
+    "have checked",
+    "had checked"
+   ],
+   "answer": 1,
+   "rule": "After a modal, use <b>have</b> (never has/had) + past participle: <b>can't have checked</b>."
+  },
+  {
+   "qid": "c9-19-44",
+   "type": "build",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Make the reported question.",
+   "answer": [
+    "The",
+    "clerk",
+    "asked",
+    "me",
+    "how",
+    "I",
+    "would",
+    "have",
+    "the money."
+   ],
+   "alts": [],
+   "rule": "\"How will you have it?\" becomes <b>how I would have</b> the money: statement order, <b>will</b> to <b>would</b>."
+  },
+  {
+   "qid": "c9-19-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Why did the clerk look so surprised when he saw your cheque?"
+    ]
+   ],
+   "options": [
+    "Because I had wrote fifty-six instead of six on it.",
+    "Because I had written fifty-six instead of six on it.",
+    "Because I have been written fifty-six instead of six on it."
+   ],
+   "answer": 1,
+   "rule": "The mistake came before his surprise, so use the past perfect with the participle: <b>had written</b>."
+  },
+  {
+   "qid": "c9-19-46",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"Let us do this painful thing quickly,\" I said to the clerk.",
+   "options": [
+    "I suggested to the clerk that we should do that painful thing quickly.",
+    "I suggested to the clerk that let us do that painful thing quickly.",
+    "I suggested the clerk to do that painful thing quickly."
+   ],
+   "answer": 0,
+   "rule": "<b>Let us</b> is reported with <b>suggested (to someone) that we should</b>; <b>this</b> becomes <b>that</b>."
+  },
+  {
+   "qid": "c9-19-47",
+   "type": "change",
+   "level": 5,
+   "topic": "linking",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as I left the bank, the clerks burst out laughing.",
+   "options": [
+    "No sooner did I left the bank than the clerks burst out laughing.",
+    "No sooner had I left the bank when the clerks burst out laughing.",
+    "No sooner had I left the bank than the clerks burst out laughing."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b> + simple past."
+  },
+  {
+   "qid": "c9-19-48",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Join using 'before'.",
+   "source": "Mr Montgomery counted the money. Then I signed the book.",
+   "options": [
+    "Mr Montgomery had counted the money before I signed the book.",
+    "Mr Montgomery had counted the money before I had sign the book.",
+    "Mr Montgomery has counted the money before I signed the book."
+   ],
+   "answer": 0,
+   "rule": "The first action takes the past perfect (<b>had counted</b>), the second the simple past (<b>signed</b>)."
+  },
+  {
+   "qid": "c9-19-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Anil's",
+    "bike",
+    "is",
+    "not",
+    "outside,",
+    "so",
+    "he",
+    "must",
+    "have",
+    "went",
+    "to",
+    "the",
+    "market.",
+    "He",
+    "can't",
+    "have",
+    "walk",
+    "there",
+    "because",
+    "it",
+    "is",
+    "far,",
+    "so",
+    "he",
+    "must",
+    "have",
+    "ride",
+    "his",
+    "bike."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "go",
+      "gone",
+      "goes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "walking",
+      "walked",
+      "walks"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "rode",
+      "riding",
+      "ridden"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>must have / can't have</b> always take the past participle: <b>gone</b>, <b>walked</b>, <b>ridden</b>."
+  },
+  {
+   "qid": "c9-19-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Riya",
+    "asked",
+    "the",
+    "clerk",
+    "how",
+    "she",
+    "can",
+    "open",
+    "a",
+    "savings",
+    "account.",
+    "The",
+    "clerk",
+    "told",
+    "her",
+    "to",
+    "filling",
+    "in",
+    "a",
+    "form",
+    "and",
+    "said",
+    "that",
+    "she",
+    "will",
+    "need",
+    "two",
+    "photos."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "able",
+      "could",
+      "can't"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "filled",
+      "fills",
+      "fill"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "would",
+      "shall",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After past reporting verbs: <b>can</b> to <b>could</b>, <b>will</b> to <b>would</b>; <b>told her to</b> + base verb: <b>to fill in</b>."
+  }
+ ]
+}

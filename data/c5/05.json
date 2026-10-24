@@ -1,0 +1,1012 @@
+{
+ "class": 5,
+ "id": "05",
+ "title": "The Twelve Months",
+ "topics": [
+  {
+   "tag": "nouns",
+   "name": "Nouns: proper, plural and possessive"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular)"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns (she/her, they/them, mine/hers)"
+  },
+  {
+   "tag": "polite",
+   "name": "Commands and polite words"
+  },
+  {
+   "tag": "questions",
+   "name": "Wh- questions"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-05-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Holena had many pretty dress.",
+    "Holena had many pretty dresses.",
+    "Holena had many pretty dresss."
+   ],
+   "answer": 1,
+   "rule": "<b>many</b> needs a plural noun. Nouns ending in <b>ss</b> add <b>-es</b>: dress - dresses."
+  },
+  {
+   "qid": "c5-05-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "Marouckla goed into the forest.",
+    "Marouckla went into the forest.",
+    "Marouckla gone into the forest."
+   ],
+   "answer": 1,
+   "rule": "go is irregular: go - <b>went</b> - gone. The simple past is <b>went</b>."
+  },
+  {
+   "qid": "c5-05-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Marouckla was cold, so her warmed her hands.",
+    "Marouckla was cold, so she warmed she hands.",
+    "Marouckla was cold, so she warmed her hands."
+   ],
+   "answer": 2,
+   "rule": "<b>she</b> does the action (subject); <b>her</b> shows whose hands (possessive)."
+  },
+  {
+   "qid": "c5-05-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "winter,",
+    "Marouckla",
+    "walk",
+    "to",
+    "the",
+    "top",
+    "of",
+    "the",
+    "mountain."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "walking",
+      "walks",
+      "walked"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last winter</b> is in the past, so add <b>-ed</b>: walked."
+  },
+  {
+   "qid": "c5-05-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Twelve",
+    "man",
+    "were",
+    "sitting",
+    "round",
+    "the",
+    "fire."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "man's",
+      "mean",
+      "men"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "man has an irregular plural: one man, twelve <b>men</b>."
+  },
+  {
+   "qid": "c5-05-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Great January",
+   "after": "his head.",
+   "options": [
+    "nodded",
+    "nod",
+    "nodding"
+   ],
+   "answer": 0,
+   "rule": "The story happened in the past: nod - <b>nodded</b> (d is doubled)."
+  },
+  {
+   "qid": "c5-05-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Marouckla thanked the months with all",
+   "after": "heart.",
+   "options": [
+    "she",
+    "her",
+    "hers"
+   ],
+   "answer": 1,
+   "rule": "Before a noun, use the possessive word <b>her</b>: her heart."
+  },
+  {
+   "qid": "c5-05-08",
+   "type": "build",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "let",
+    "me",
+    "warm",
+    "my",
+    "hands."
+   ],
+   "alts": [],
+   "rule": "A polite request can begin with <b>Please</b> + base verb: Please let me ..."
+  },
+  {
+   "qid": "c5-05-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Can you help me with the cooking?"
+    ]
+   ],
+   "options": [
+    "Yes, Mother, I helps you.",
+    "Yes, Mother, I will help you.",
+    "Yes, Mother, me will help you."
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>I</b>, not me; after will, use the base verb: <b>I will help</b>."
+  },
+  {
+   "qid": "c5-05-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aryan",
+     "What did you do on Sunday?"
+    ]
+   ],
+   "options": [
+    "I readed a fairy tale about the twelve months.",
+    "I reading a fairy tale about the twelve months.",
+    "I read a fairy tale about the twelve months."
+   ],
+   "answer": 2,
+   "rule": "read is irregular: the past is also <b>read</b> (said 'red'). There is no word readed."
+  },
+  {
+   "qid": "c5-05-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Marouckla put the violets into two boxes.",
+    "Marouckla put the violets into two box.",
+    "Marouckla put the violets into two boxs."
+   ],
+   "answer": 0,
+   "rule": "Nouns ending in <b>x</b> add <b>-es</b>: box - <b>boxes</b>."
+  },
+  {
+   "qid": "c5-05-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Which command is correct?",
+   "options": [
+    "Pick the violets quickly, Marouckla!",
+    "Picks the violets quickly, Marouckla!",
+    "Picking the violets quickly, Marouckla!"
+   ],
+   "answer": 0,
+   "rule": "A command uses the <b>base form</b> of the verb: <b>Pick</b> the violets!"
+  },
+  {
+   "qid": "c5-05-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "the",
+    "fire",
+    "blazed",
+    "up",
+    "and",
+    "the",
+    "snow",
+    "begin",
+    "to",
+    "melt."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "began",
+      "begun",
+      "beginning"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last night</b> needs the simple past: begin - <b>began</b> - begun."
+  },
+  {
+   "qid": "c5-05-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Marouckla",
+    "and",
+    "Holena",
+    "lived",
+    "together,",
+    "but",
+    "them",
+    "were",
+    "not",
+    "friends."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "their",
+      "theirs",
+      "they"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject before a verb must be <b>they</b>, not them: <b>they were</b>."
+  },
+  {
+   "qid": "c5-05-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Marouckla saw a few",
+   "after": "on the snowy branches.",
+   "options": [
+    "birds",
+    "bird",
+    "bird's"
+   ],
+   "answer": 0,
+   "rule": "<b>a few</b> means more than one, so use the plural noun: <b>birds</b>."
+  },
+  {
+   "qid": "c5-05-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the tree at once, Marouckla!",
+   "options": [
+    "Shake",
+    "Shakes",
+    "Shook"
+   ],
+   "answer": 0,
+   "rule": "A command starts with the base verb: <b>Shake</b> the tree!"
+  },
+  {
+   "qid": "c5-05-17",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "ground",
+    "was",
+    "covered",
+    "with",
+    "grass."
+   ],
+   "alts": [],
+   "rule": "<b>was covered with</b> tells us what lay on the ground in the past."
+  },
+  {
+   "qid": "c5-05-18",
+   "type": "build",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Make a polite question.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "tell",
+    "me",
+    "the",
+    "way?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you please ...?</b> is a polite way to ask for help."
+  },
+  {
+   "qid": "c5-05-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Holena",
+     "Where did you get these violets?"
+    ]
+   ],
+   "options": [
+    "I found it under the bushes on the mountain.",
+    "I found them under the bushes on the mountain.",
+    "Me found them under the bushes on the mountain."
+   ],
+   "answer": 1,
+   "rule": "<b>violets</b> are many, so use <b>them</b>. The subject is <b>I</b>, not me."
+  },
+  {
+   "qid": "c5-05-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did Marouckla find the strawberries?"
+    ]
+   ],
+   "options": [
+    "Yes, she finded them in the forest.",
+    "Yes, she found them in the forest.",
+    "Yes, she find them in the forest."
+   ],
+   "answer": 1,
+   "rule": "find is irregular: find - <b>found</b>."
+  },
+  {
+   "qid": "c5-05-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Marouckla's apron was full of strawberries.",
+    "Maroucklas apron was full of strawberries.",
+    "Marouckla's apron were full of strawberries."
+   ],
+   "answer": 0,
+   "rule": "Use <b>'s</b> to show belonging: <b>Marouckla's</b> apron. One apron takes <b>was</b>."
+  },
+  {
+   "qid": "c5-05-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The stepmother catched Marouckla and shut the door.",
+    "The stepmother caught Marouckla and shutted the door.",
+    "The stepmother caught Marouckla and shut the door."
+   ],
+   "answer": 2,
+   "rule": "Irregular pasts: catch - <b>caught</b>; shut - <b>shut</b> (no change)."
+  },
+  {
+   "qid": "c5-05-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "That warm shawl is her, not mine.",
+    "That warm shawl is hers, not my.",
+    "That warm shawl is hers, not mine."
+   ],
+   "answer": 2,
+   "rule": "Without a noun after it, use <b>hers</b>, <b>mine</b> (not her, my)."
+  },
+  {
+   "qid": "c5-05-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "forest",
+    "was",
+    "full",
+    "of",
+    "tall",
+    "tree",
+    "and",
+    "deep",
+    "snow."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "tree's",
+      "trees",
+      "treetop"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>full of</b> many tall things needs a plural noun: tall <b>trees</b>."
+  },
+  {
+   "qid": "c5-05-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please,",
+    "kind",
+    "sirs,",
+    "lets",
+    "me",
+    "warm",
+    "my",
+    "hands",
+    "at",
+    "your",
+    "fire."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "letting",
+      "allowed",
+      "let"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A request uses the base verb: Please <b>let</b> me ... (lets is not used with please)."
+  },
+  {
+   "qid": "c5-05-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Three of the months",
+   "after": "very old, with snow-white beards.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>Three of the months</b> is plural and in the past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-05-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Holena and her mother lost",
+   "after": "way in the snow.",
+   "options": [
+    "there",
+    "their",
+    "they"
+   ],
+   "answer": 1,
+   "rule": "<b>their</b> shows that something belongs to them: their way. (there = a place)"
+  },
+  {
+   "qid": "c5-05-28",
+   "type": "build",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Twelve",
+    "months",
+    "sat",
+    "round",
+    "a",
+    "big",
+    "fire."
+   ],
+   "alts": [],
+   "rule": "<b>Twelve</b> needs the plural noun <b>months</b>."
+  },
+  {
+   "qid": "c5-05-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Marouckla, would you like some soup?"
+    ]
+   ],
+   "options": [
+    "Yes, please. Thank you very much.",
+    "Yes, please. Thanks you very much.",
+    "Yes, please. Thank to you very much."
+   ],
+   "answer": 0,
+   "rule": "Say <b>Thank you</b> or <b>Thanks</b>, never thanks you or thank to you."
+  },
+  {
+   "qid": "c5-05-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "How many months are there in a year?"
+    ]
+   ],
+   "options": [
+    "There is twelve months in a year.",
+    "There are twelve month in a year.",
+    "There are twelve months in a year."
+   ],
+   "answer": 2,
+   "rule": "<b>twelve</b> needs a plural noun (<b>months</b>) and <b>there are</b>."
+  },
+  {
+   "qid": "c5-05-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She shook the tree, and two apples fell down.",
+    "She shaked the tree, and two apples fell down.",
+    "She shook the tree, and two apples falled down."
+   ],
+   "answer": 0,
+   "rule": "Irregular pasts: shake - <b>shook</b>; fall - <b>fell</b>."
+  },
+  {
+   "qid": "c5-05-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Marouckla brought home a apple and some violets.",
+    "Marouckla brought home an apple and some violets.",
+    "Marouckla brought home an apple and some violet."
+   ],
+   "answer": 1,
+   "rule": "<b>an apple</b> (vowel sound); <b>some</b> with a countable noun needs the plural: some <b>violets</b>."
+  },
+  {
+   "qid": "c5-05-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "two",
+    "sisters",
+    "was",
+    "very",
+    "different",
+    "from",
+    "each",
+    "other."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The two sisters</b> is plural, so in the past use <b>were</b>, not was."
+  },
+  {
+   "qid": "c5-05-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "tell",
+    "I",
+    "where",
+    "I",
+    "can",
+    "find",
+    "the",
+    "violets."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "my",
+      "me",
+      "mine"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a verb like tell, use the object pronoun: tell <b>me</b>."
+  },
+  {
+   "qid": "c5-05-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "The stepmother had two",
+   "after": "in her cottage.",
+   "options": [
+    "daughter",
+    "daughters",
+    "daughter's"
+   ],
+   "answer": 1,
+   "rule": "<b>two</b> needs the plural: <b>daughters</b>. daughter's shows belonging, not a plural."
+  },
+  {
+   "qid": "c5-05-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "have you come here, my dear little girl?",
+   "options": [
+    "Who",
+    "Which",
+    "Why"
+   ],
+   "answer": 2,
+   "rule": "<b>Why</b> asks for a reason. Who asks about a person; which needs a choice."
+  },
+  {
+   "qid": "c5-05-37",
+   "type": "build",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "are",
+    "you",
+    "looking",
+    "for?"
+   ],
+   "alts": [],
+   "rule": "In a wh- question, the helping verb comes before the subject: What <b>are you</b> looking for?"
+  },
+  {
+   "qid": "c5-05-38",
+   "type": "build",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Holena",
+    "did",
+    "not",
+    "share",
+    "her",
+    "violets."
+   ],
+   "alts": [],
+   "rule": "<b>did not</b> + base verb (share). <b>her</b> shows whose violets."
+  },
+  {
+   "qid": "c5-05-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where did you go yesterday evening?"
+    ]
+   ],
+   "options": [
+    "I goed to my grandmother's house.",
+    "I go to my grandmother's house.",
+    "I went to my grandmother's house."
+   ],
+   "answer": 2,
+   "rule": "<b>yesterday</b> needs the past: go - <b>went</b>."
+  },
+  {
+   "qid": "c5-05-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "I just finished the story of the twelve months."
+    ]
+   ],
+   "options": [
+    "Which month did helped Marouckla first?",
+    "Which month helped Marouckla first?",
+    "Which month help Marouckla first?"
+   ],
+   "answer": 1,
+   "rule": "When the wh- word is the subject, no did is needed: Which month <b>helped</b> ...?"
+  },
+  {
+   "qid": "c5-05-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "When Marouckla came back, Holena snatch the flowers and did not give her even one.",
+    "When Marouckla came back, Holena snatched the flowers and did not gave her even one.",
+    "When Marouckla came back, Holena snatched the flowers and did not give her even one."
+   ],
+   "answer": 2,
+   "rule": "Past actions take the past: <b>snatched</b>. After <b>did not</b>, use the base verb: give."
+  },
+  {
+   "qid": "c5-05-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children, the women and the men all listened to the story.",
+    "The childrens, the women and the men all listened to the story.",
+    "The children, the womans and the men all listened to the story."
+   ],
+   "answer": 0,
+   "rule": "Irregular plurals: child - <b>children</b>; woman - <b>women</b>; man - <b>men</b>."
+  },
+  {
+   "qid": "c5-05-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "did",
+    "the",
+    "snow",
+    "began",
+    "to",
+    "fall",
+    "when",
+    "Great",
+    "January",
+    "swung",
+    "his",
+    "club?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "begin",
+      "begun",
+      "begins"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>did</b> in a question, use the base verb: Why did the snow <b>begin</b> ...?"
+  },
+  {
+   "qid": "c5-05-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Great",
+    "January",
+    "looked",
+    "at",
+    "Holena",
+    "and",
+    "her",
+    "mother",
+    "and",
+    "asked",
+    "they",
+    "a",
+    "question."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "their",
+      "them",
+      "theirs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a verb like asked, use the object pronoun: asked <b>them</b>."
+  },
+  {
+   "qid": "c5-05-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Marouckla waited and waited, but Holena and her mother never",
+   "after": "back.",
+   "options": [
+    "come",
+    "came",
+    "coming"
+   ],
+   "answer": 1,
+   "rule": "The whole sentence is in the past (<b>waited</b>), so use <b>came</b>."
+  },
+  {
+   "qid": "c5-05-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Marouckla could not tell why her",
+   "after": "face was always so cross.",
+   "options": [
+    "stepmothers",
+    "stepmother",
+    "stepmother's"
+   ],
+   "answer": 2,
+   "rule": "Use <b>'s</b> to show belonging: the <b>stepmother's</b> face."
+  },
+  {
+   "qid": "c5-05-47",
+   "type": "build",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "May",
+    "I",
+    "warm",
+    "my",
+    "hands",
+    "at",
+    "your",
+    "fire?"
+   ],
+   "alts": [],
+   "rule": "<b>May I ...?</b> politely asks for permission."
+  },
+  {
+   "qid": "c5-05-48",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "stepmother",
+    "pushed",
+    "Marouckla",
+    "out",
+    "of",
+    "the",
+    "door."
+   ],
+   "alts": [],
+   "rule": "push + <b>-ed</b> = pushed. <b>out of</b> the door shows the movement."
+  },
+  {
+   "qid": "c5-05-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Patil",
+     "Sameer, could you close the window, please?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. Shall I closed the door too?",
+    "Yes, ma'am. Shall I closing the door too?",
+    "Yes, ma'am. Shall I close the door too?"
+   ],
+   "answer": 2,
+   "rule": "<b>Shall I</b> + base verb makes a polite offer: Shall I <b>close</b> ...?"
+  },
+  {
+   "qid": "c5-05-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Is this your storybook or Neha's?"
+    ]
+   ],
+   "options": [
+    "It is her. Mine is at home.",
+    "It is hers. Mine is at home.",
+    "It is hers. My is at home."
+   ],
+   "answer": 1,
+   "rule": "Without a noun after it, use <b>hers</b> and <b>mine</b>."
+  }
+ ]
+}

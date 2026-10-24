@@ -1,0 +1,997 @@
+{
+ "class": 7,
+ "id": "13",
+ "title": "Great Scientists",
+ "topics": [
+  {
+   "tag": "subject_predicate",
+   "name": "Subject and predicate (verb agrees with the real subject)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative pronouns who, which, whose, that"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present and past)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-13-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "subject_predicate",
+   "prompt": "Which is a complete sentence with a subject and a predicate?",
+   "options": [
+    "Worked with a bookbinder all day.",
+    "Faraday with a bookbinder all day.",
+    "Faraday worked with a bookbinder."
+   ],
+   "answer": 2,
+   "rule": "A sentence needs a <b>subject</b> (Faraday) and a <b>predicate</b> with a verb (worked with a bookbinder)."
+  },
+  {
+   "qid": "c7-13-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The lecture had started before Faraday arrived.",
+    "The lecture had start before Faraday arrived.",
+    "The lecture has started before Faraday arrived."
+   ],
+   "answer": 0,
+   "rule": "The earlier past action takes the past perfect: <b>had + past participle</b> = <b>had started</b>."
+  },
+  {
+   "qid": "c7-13-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "first",
+    "electric",
+    "motor",
+    "was",
+    "build",
+    "by",
+    "Michael",
+    "Faraday."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "building",
+      "built",
+      "builds"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was/were + past participle</b>: <b>was built</b>."
+  },
+  {
+   "qid": "c7-13-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Faraday",
+    "read",
+    "a",
+    "book",
+    "who",
+    "was",
+    "about",
+    "electricity."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>which</b> for things (a book) and <b>who</b> for people."
+  },
+  {
+   "qid": "c7-13-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "subject_predicate",
+   "prompt": "Fill in the gap.",
+   "before": "The notes of the young man",
+   "after": "very detailed.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>the notes</b> (plural), not 'the young man', so use <b>were</b>."
+  },
+  {
+   "qid": "c7-13-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "When Faraday reached the hall, the lecture had already",
+   "after": ".",
+   "options": [
+    "began",
+    "begin",
+    "begun"
+   ],
+   "answer": 2,
+   "rule": "After <b>had</b>, use the past participle: <b>had begun</b> (begin - began - begun)."
+  },
+  {
+   "qid": "c7-13-07",
+   "type": "build",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "book",
+    "was",
+    "sent",
+    "for",
+    "binding."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>was sent</b> (was + past participle)."
+  },
+  {
+   "qid": "c7-13-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you see the start of the science show?"
+    ]
+   ],
+   "options": [
+    "No, it had already started when I got there.",
+    "No, it had already start when I got there.",
+    "No, it has already started when I got there."
+   ],
+   "answer": 0,
+   "rule": "The show started before you reached, so use the past perfect: <b>had already started</b>."
+  },
+  {
+   "qid": "c7-13-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "subject_predicate",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "How were the drawings at the science fair?"
+    ]
+   ],
+   "options": [
+    "The drawings of the magnets were beautiful.",
+    "The drawings of the magnets was beautiful.",
+    "The drawings of the magnets is beautiful."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>the drawings</b> (plural), so the verb is <b>were</b>."
+  },
+  {
+   "qid": "c7-13-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Faraday bound the notes into a book.",
+   "options": [
+    "The notes was bound into a book by Faraday.",
+    "The notes were bound into a book by Faraday.",
+    "The notes were binded into a book by Faraday."
+   ],
+   "answer": 1,
+   "rule": "Simple past passive: <b>were + past participle</b>. Bind - bound - <b>bound</b>; 'notes' is plural, so <b>were</b>."
+  },
+  {
+   "qid": "c7-13-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the sentence with the correct relative pronoun.",
+   "options": [
+    "Maxwell was a physicist which knew advanced mathematics.",
+    "Maxwell was a physicist who knew advanced mathematics.",
+    "Maxwell was a physicist whose knew advanced mathematics."
+   ],
+   "answer": 1,
+   "rule": "Maxwell is a person, so use <b>who</b>. <b>Whose</b> must be followed by a noun."
+  },
+  {
+   "qid": "c7-13-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bavarian glass was use in telescopes and microscopes.",
+    "Bavarian glass were used in telescopes and microscopes.",
+    "Bavarian glass was used in telescopes and microscopes."
+   ],
+   "answer": 2,
+   "rule": "Passive: <b>was + past participle</b> (used). 'Glass' is uncountable, so use <b>was</b>."
+  },
+  {
+   "qid": "c7-13-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Had",
+    "Faraday",
+    "wrote",
+    "all",
+    "those",
+    "notes",
+    "before",
+    "the",
+    "lecture",
+    "ended?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "written",
+      "writing",
+      "writes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: write - wrote - <b>written</b>."
+  },
+  {
+   "qid": "c7-13-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "glass",
+    "brick",
+    "whom",
+    "reminded",
+    "Faraday",
+    "of",
+    "his",
+    "failure."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A glass brick is a thing and it is the subject of 'reminded', so use <b>which</b>. <b>Whom</b> is only for people."
+  },
+  {
+   "qid": "c7-13-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Faraday was a boy",
+   "after": "speech was not clear.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 1,
+   "rule": "<b>Whose</b> shows possession: the boy's speech = the boy <b>whose</b> speech."
+  },
+  {
+   "qid": "c7-13-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Today, electric motors",
+   "after": "used in fans and trains.",
+   "options": [
+    "is",
+    "be",
+    "are"
+   ],
+   "answer": 2,
+   "rule": "Simple present passive: <b>are + past participle</b>. 'Motors' is plural, so <b>are used</b>."
+  },
+  {
+   "qid": "c7-13-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "By",
+    "noon,",
+    "Faraday",
+    "had",
+    "bound",
+    "fifty",
+    "books."
+   ],
+   "alts": [],
+   "rule": "<b>By noon</b> + past perfect: the work was finished before that time - <b>had bound</b>."
+  },
+  {
+   "qid": "c7-13-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Joshi",
+     "Who was Humphry Davy?"
+    ]
+   ],
+   "options": [
+    "He was a chemist which gave famous lectures.",
+    "He was a chemist who gave famous lectures.",
+    "He was a chemist whom gave famous lectures."
+   ],
+   "answer": 1,
+   "rule": "For a person doing the action, use <b>who</b>: a chemist <b>who</b> gave lectures."
+  },
+  {
+   "qid": "c7-13-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Davy hired Faraday as his secretary.",
+   "options": [
+    "Faraday is hired by Davy as his secretary.",
+    "Faraday was hire by Davy as his secretary.",
+    "Faraday was hired by Davy as his secretary."
+   ],
+   "answer": 2,
+   "rule": "'Hired' is simple past, so the passive is <b>was hired</b>. Keep the tense the same."
+  },
+  {
+   "qid": "c7-13-20",
+   "type": "change",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'after'.",
+   "source": "Faraday finished cleaning the lab. Then he tried the experiment.",
+   "options": [
+    "After Faraday has finished cleaning the lab, he tried the experiment.",
+    "After Faraday had finished cleaning the lab, he tried the experiment.",
+    "After Faraday had finish cleaning the lab, he tried the experiment."
+   ],
+   "answer": 1,
+   "rule": "The first action takes the past perfect: <b>After he had finished ..., he tried ...</b>"
+  },
+  {
+   "qid": "c7-13-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "subject_predicate",
+   "prompt": "Pick the sentence where the verb agrees with its subject.",
+   "options": [
+    "A box of iron filings were kept near the magnet.",
+    "A box of iron filings was kept near the magnet.",
+    "A box of iron filings are kept near the magnet."
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>a box</b> (singular). 'Of iron filings' only describes it, so use <b>was</b>."
+  },
+  {
+   "qid": "c7-13-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When Davy reached the lab, Faraday had already cleaned it.",
+    "When Davy reached the lab, Faraday has already cleaned it.",
+    "When Davy reached the lab, Faraday had already clean it."
+   ],
+   "answer": 0,
+   "rule": "The cleaning happened first, so use <b>had already cleaned</b> with the simple past <b>reached</b>."
+  },
+  {
+   "qid": "c7-13-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "subject_predicate",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fans,",
+    "sewing",
+    "machines",
+    "and",
+    "trains",
+    "all",
+    "depends",
+    "on",
+    "the",
+    "motor."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "depend",
+      "depending",
+      "dependent"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject has three things joined by <b>and</b>, so it is plural: they all <b>depend</b>."
+  },
+  {
+   "qid": "c7-13-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Faraday",
+    "was",
+    "gave",
+    "an",
+    "impossible",
+    "task",
+    "by",
+    "Davy."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "giving",
+      "gives",
+      "given"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: give - gave - <b>given</b>."
+  },
+  {
+   "qid": "c7-13-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Davy,",
+   "after": "lab had exploded, needed an assistant.",
+   "options": [
+    "whose",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "Davy's lab = Davy, <b>whose</b> lab. <b>Whose</b> joins a person to what belongs to him."
+  },
+  {
+   "qid": "c7-13-26",
+   "type": "build",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "He",
+    "admired",
+    "the",
+    "chemist",
+    "whose",
+    "lectures",
+    "were",
+    "famous."
+   ],
+   "alts": [],
+   "rule": "<b>whose</b> + noun: the chemist <b>whose lectures</b> were famous."
+  },
+  {
+   "qid": "c7-13-27",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "motor",
+    "was",
+    "built",
+    "within",
+    "a",
+    "few",
+    "days."
+   ],
+   "alts": [],
+   "rule": "Simple past passive: <b>was built</b>; the time phrase <b>within a few days</b> comes after."
+  },
+  {
+   "qid": "c7-13-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "subject_predicate",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Is the box of magnets in the lab?"
+    ]
+   ],
+   "options": [
+    "Yes, the box of magnets is on the top shelf.",
+    "Yes, the box of magnets are on the top shelf.",
+    "Yes, the box of magnets be on the top shelf."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>the box</b> (singular), so the verb is <b>is</b>."
+  },
+  {
+   "qid": "c7-13-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "When was this old microscope bought?"
+    ]
+   ],
+   "options": [
+    "It was bought by my grandfather in 1990.",
+    "It was buyed by my grandfather in 1990.",
+    "It is bought by my grandfather in 1990."
+   ],
+   "answer": 0,
+   "rule": "'In 1990' is past, so use <b>was + past participle</b>: buy - bought - <b>bought</b>."
+  },
+  {
+   "qid": "c7-13-30",
+   "type": "change",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "Faraday was a bookbinder. He loved reading.",
+   "options": [
+    "Faraday was a bookbinder who he loved reading.",
+    "Faraday was a bookbinder who loved reading.",
+    "Faraday was a bookbinder which loved reading."
+   ],
+   "answer": 1,
+   "rule": "<b>Who</b> replaces 'he', so do not repeat the pronoun: a bookbinder <b>who loved</b> reading."
+  },
+  {
+   "qid": "c7-13-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reported sentence.",
+   "options": [
+    "Davy said that he has saw Faraday's notes.",
+    "Davy said that he had saw Faraday's notes.",
+    "Davy said that he had seen Faraday's notes."
+   ],
+   "answer": 2,
+   "rule": "In reported speech the earlier action goes back to <b>had + past participle</b>: <b>had seen</b>."
+  },
+  {
+   "qid": "c7-13-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Maxwell was the most best mathematician that Faraday ever worked with.",
+    "Maxwell was the best mathematician that Faraday ever worked with.",
+    "Maxwell was the better mathematician that Faraday ever worked with."
+   ],
+   "answer": 1,
+   "rule": "After a superlative, <b>that</b> is used; <b>good - better - best</b>, and never 'most best'."
+  },
+  {
+   "qid": "c7-13-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Faraday",
+    "felt",
+    "sad",
+    "because",
+    "he",
+    "had",
+    "never",
+    "fail",
+    "at",
+    "anything",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "failing",
+      "fails",
+      "failed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had never failed</b>."
+  },
+  {
+   "qid": "c7-13-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Faraday",
+    "met",
+    "Maxwell,",
+    "whom",
+    "was",
+    "a",
+    "wealthy",
+    "physicist."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "which",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The pronoun is the subject of 'was', so use <b>who</b>. <b>Whom</b> is an object form."
+  },
+  {
+   "qid": "c7-13-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Faraday's laws",
+   "after": "studied by students for many years.",
+   "options": [
+    "have been",
+    "has been",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive: <b>have been + past participle</b>. 'Laws' is plural, so <b>have been</b>."
+  },
+  {
+   "qid": "c7-13-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "subject_predicate",
+   "prompt": "Fill in the gap.",
+   "before": "One of the old notebooks",
+   "after": "on Riya's desk.",
+   "options": [
+    "are",
+    "have",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>one</b> (singular), not 'notebooks', so use <b>is</b>."
+  },
+  {
+   "qid": "c7-13-37",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Had",
+    "you",
+    "finished",
+    "your",
+    "experiment",
+    "before",
+    "the",
+    "bell?"
+   ],
+   "alts": [],
+   "rule": "A past perfect question starts with <b>Had</b>: <b>Had you finished ...?</b>"
+  },
+  {
+   "qid": "c7-13-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which book are you reading these days?"
+    ]
+   ],
+   "options": [
+    "I am reading a book that tells the story of Faraday.",
+    "I am reading a book who tells the story of Faraday.",
+    "I am reading a book that tell the story of Faraday."
+   ],
+   "answer": 0,
+   "rule": "Use <b>that/which</b> for a thing; 'a book' is singular, so <b>that tells</b>."
+  },
+  {
+   "qid": "c7-13-39",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Students study Faraday's laws.",
+   "options": [
+    "Faraday's laws were studied by students.",
+    "Faraday's laws are studied by students.",
+    "Faraday's laws are study by students."
+   ],
+   "answer": 1,
+   "rule": "'Study' is simple present, so the passive is <b>are studied</b>. Keep the tense."
+  },
+  {
+   "qid": "c7-13-40",
+   "type": "change",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Change into reported speech.",
+   "source": "Davy said, \"I was hurt in an explosion.\"",
+   "options": [
+    "Davy said that he had been hurt in an explosion.",
+    "Davy said that I had been hurt in an explosion.",
+    "Davy said that he has been hurt in an explosion."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b>, and the simple past 'was' goes back to <b>had been</b>."
+  },
+  {
+   "qid": "c7-13-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "subject_predicate",
+   "prompt": "Pick the sentence where the verb agrees with its subject.",
+   "options": [
+    "Each of these discoveries have changed our lives.",
+    "Each of these discoveries has changed our lives.",
+    "Each of these discoveries were changed our lives."
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>each</b> (singular), so use <b>has changed</b>."
+  },
+  {
+   "qid": "c7-13-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The scientist who's drawings were rejected never gave up.",
+    "The scientist whom drawings were rejected never gave up.",
+    "The scientist whose drawings were rejected never gave up."
+   ],
+   "answer": 2,
+   "rule": "<b>Whose</b> shows possession (his drawings). <b>Who's</b> means 'who is'."
+  },
+  {
+   "qid": "c7-13-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "subject_predicate",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Michael",
+    "Faraday,",
+    "as",
+    "well",
+    "as",
+    "his",
+    "two",
+    "young",
+    "assistants,",
+    "were",
+    "working",
+    "late",
+    "in",
+    "the",
+    "laboratory."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "are",
+      "was",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>as well as</b>, the verb agrees with the first subject, <b>Michael Faraday</b>: <b>was</b> working."
+  },
+  {
+   "qid": "c7-13-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "patterns",
+    "made",
+    "by",
+    "the",
+    "iron",
+    "filings",
+    "were",
+    "cause",
+    "by",
+    "invisible",
+    "magnetic",
+    "fields."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "causing",
+      "causes",
+      "caused"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive = <b>were + past participle</b>: <b>were caused</b> by magnetic fields."
+  },
+  {
+   "qid": "c7-13-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The book on electricity,",
+   "after": "had been sent for binding, changed Faraday's life.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 2,
+   "rule": "The pronoun stands for a thing (the book) and is the subject of 'had been sent', so use <b>which</b>."
+  },
+  {
+   "qid": "c7-13-46",
+   "type": "build",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Faraday's",
+    "ideas",
+    "were",
+    "turned",
+    "into",
+    "equations",
+    "by",
+    "Maxwell."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>were turned</b> + <b>by</b> + the doer (Maxwell)."
+  },
+  {
+   "qid": "c7-13-47",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Change into a question.",
+   "source": "Faraday had finished the task.",
+   "options": [
+    "Had Faraday finished the task?",
+    "Did Faraday had finished the task?",
+    "Has Faraday finished the task?"
+   ],
+   "answer": 0,
+   "rule": "In a past perfect question, <b>Had</b> comes before the subject: <b>Had Faraday finished ...?</b>"
+  },
+  {
+   "qid": "c7-13-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why were you so late coming home from the science fair?"
+    ]
+   ],
+   "options": [
+    "The last bus has left by the time we finished packing.",
+    "The last bus had left by the time we finished packing.",
+    "The last bus had leave by the time we finished packing."
+   ],
+   "answer": 1,
+   "rule": "The bus left before you finished, so use <b>had left</b> (leave - left - left)."
+  },
+  {
+   "qid": "c7-13-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Is the volcano model ready for tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, it was finished by Kabir last night.",
+    "Yes, it was finish by Kabir last night.",
+    "Yes, it is finished by Kabir last night."
+   ],
+   "answer": 0,
+   "rule": "'Last night' is past, so use the past passive: <b>was finished</b>."
+  },
+  {
+   "qid": "c7-13-50",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The secret was never learnt by Faraday.",
+   "options": [
+    "Faraday never learnt the secret.",
+    "Faraday never learns the secret.",
+    "Faraday never learnt by the secret."
+   ],
+   "answer": 0,
+   "rule": "The doer (Faraday) becomes the subject and the tense stays simple past: <b>Faraday never learnt the secret</b>."
+  }
+ ]
+}

@@ -1,0 +1,1204 @@
+{
+ "class": 10,
+ "id": "19",
+ "title": "A Thing of Beauty is a Joy For Ever",
+ "topics": [
+  {
+   "tag": "exclamatory",
+   "name": "Exclamatory and assertive sentences"
+  },
+  {
+   "tag": "inversion",
+   "name": "Inversion after never, seldom, rarely, not only, hardly"
+  },
+  {
+   "tag": "contrast",
+   "name": "Although / in spite of / despite"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative clauses (who, which, that, whose)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-19-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sunset was more lovelier than the sunrise.",
+    "The sunset was lovelier than the sunrise.",
+    "The sunset was loveliest than the sunrise."
+   ],
+   "answer": 1,
+   "rule": "Comparing two things: use the comparative <b>lovelier</b> + <b>than</b>. Never add <b>more</b> to an -er word."
+  },
+  {
+   "qid": "c10-19-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The daffodils which grow by the stream are yellow.",
+    "The daffodils who grow by the stream are yellow.",
+    "The daffodils which grows by the stream are yellow."
+   ],
+   "answer": 0,
+   "rule": "Use <b>which</b> for things, and the verb agrees with <b>daffodils</b> (plural): which <b>grow</b>."
+  },
+  {
+   "qid": "c10-19-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "contrast",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Although",
+    "the",
+    "heavy",
+    "rain,",
+    "we",
+    "enjoyed",
+    "our",
+    "walk",
+    "by",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Because",
+      "Unless",
+      "Despite"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Although</b> needs a full clause. Before a noun phrase (the heavy rain) use <b>Despite</b>."
+  },
+  {
+   "qid": "c10-19-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "exclamatory",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "lovely",
+    "the",
+    "moon",
+    "looks",
+    "tonight!"
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "How",
+      "Which",
+      "Very"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>How</b> + adjective + subject + verb: <b>How lovely</b> the moon looks! (<b>What</b> needs a noun: What a lovely moon!)"
+  },
+  {
+   "qid": "c10-19-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Never",
+   "after": "I seen such a bright full moon.",
+   "options": [
+    "has",
+    "am",
+    "have"
+   ],
+   "answer": 2,
+   "rule": "After <b>Never</b> at the start, the helping verb comes before the subject: Never <b>have I</b> seen."
+  },
+  {
+   "qid": "c10-19-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Keats was a poet",
+   "after": "poems are full of nature.",
+   "options": [
+    "whose",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> shows possession: the poet's poems = the poet <b>whose</b> poems."
+  },
+  {
+   "qid": "c10-19-07",
+   "type": "build",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "most",
+    "beautiful",
+    "valley",
+    "we",
+    "have",
+    "ever",
+    "visited."
+   ],
+   "alts": [],
+   "rule": "Superlative: <b>the most beautiful</b> + noun, often with <b>ever</b> + present perfect."
+  },
+  {
+   "qid": "c10-19-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "exclamatory",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Look at the sunrise over the hills!"
+    ]
+   ],
+   "options": [
+    "What a beautiful sight it is!",
+    "What beautiful sight it is!",
+    "How a beautiful sight it is!"
+   ],
+   "answer": 0,
+   "rule": "<b>What a</b> + adjective + singular noun + subject + verb: <b>What a beautiful sight it is!</b>"
+  },
+  {
+   "qid": "c10-19-09",
+   "type": "change",
+   "level": 1,
+   "topic": "exclamatory",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How sweet the song of the birds is!",
+   "options": [
+    "The song of the birds was very sweet.",
+    "The song of the birds are very sweet.",
+    "The song of the birds is very sweet."
+   ],
+   "answer": 2,
+   "rule": "Replace <b>How</b> with <b>very</b>, keep the same tense (is) and end with a full stop."
+  },
+  {
+   "qid": "c10-19-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Daffodils",
+    "are",
+    "flowers",
+    "which",
+    "grows",
+    "beside",
+    "cool",
+    "streams.",
+    "Keats,",
+    "who",
+    "love",
+    "nature,",
+    "saw",
+    "beauty",
+    "in",
+    "the",
+    "sun,",
+    "the",
+    "moon",
+    "and",
+    "the",
+    "shady",
+    "trees."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "growing",
+      "grown",
+      "grow"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "loved",
+      "loving",
+      "lovely"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>which</b> refers to plural <b>flowers</b>, so <b>grow</b>; the story is in the past (saw), so <b>who loved</b>."
+  },
+  {
+   "qid": "c10-19-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Seldom we do see such a clear night sky in the city.",
+    "Seldom do we see such a clear night sky in the city.",
+    "Seldom do we saw such a clear night sky in the city."
+   ],
+   "answer": 1,
+   "rule": "After <b>Seldom</b> at the start: helping verb + subject + base verb: <b>do we see</b>."
+  },
+  {
+   "qid": "c10-19-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "contrast",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although it was cloudy, we enjoyed the trek.",
+    "Although it was cloudy, but we enjoyed the trek.",
+    "Despite it was cloudy, we enjoyed the trek."
+   ],
+   "answer": 0,
+   "rule": "<b>Although</b> takes a clause and does not need <b>but</b>. <b>Despite</b> cannot take a full clause."
+  },
+  {
+   "qid": "c10-19-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Venna",
+    "Lake",
+    "is",
+    "as",
+    "calmer",
+    "as",
+    "a",
+    "sleeping",
+    "baby",
+    "this",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "calmest",
+      "calm",
+      "calmly"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>as ... as</b> takes the positive degree: <b>as calm as</b>."
+  },
+  {
+   "qid": "c10-19-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Keats",
+    "is",
+    "the",
+    "poet",
+    "which",
+    "wrote",
+    "this",
+    "famous",
+    "line."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "For a person who does the action, use <b>who</b>: the poet <b>who</b> wrote."
+  },
+  {
+   "qid": "c10-19-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "exclamatory",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "peaceful the forest is at dawn!",
+   "options": [
+    "What",
+    "Which",
+    "How"
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> + adjective (peaceful) + subject + verb makes an exclamation."
+  },
+  {
+   "qid": "c10-19-16",
+   "type": "build",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Never",
+    "have",
+    "I",
+    "seen",
+    "such",
+    "a",
+    "lovely",
+    "sunrise."
+   ],
+   "alts": [],
+   "rule": "<b>Never</b> first, then helping verb before subject: <b>Never have I seen</b> ..."
+  },
+  {
+   "qid": "c10-19-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "contrast",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Did you enjoy the trip to Matheran?"
+    ],
+    [
+     "Aai",
+     "I heard it rained all day."
+    ]
+   ],
+   "options": [
+    "Yes, despite of the rain, we enjoyed it a lot.",
+    "Yes, although the rain, we enjoyed it a lot.",
+    "Yes, despite the rain, we enjoyed it a lot."
+   ],
+   "answer": 2,
+   "rule": "<b>despite</b> + noun, with no <b>of</b>. <b>although</b> needs a full clause."
+  },
+  {
+   "qid": "c10-19-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "Who is the man near the gate?"
+    ]
+   ],
+   "options": [
+    "He is the gardener which looks after our school garden.",
+    "He is the gardener who looks after our school garden.",
+    "He is the gardener who look after our school garden."
+   ],
+   "answer": 1,
+   "rule": "Use <b>who</b> for a person; it refers to <b>the gardener</b> (singular), so <b>looks</b>."
+  },
+  {
+   "qid": "c10-19-19",
+   "type": "change",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Kaas is the most colourful plateau in Maharashtra.",
+   "options": [
+    "Kaas is more colourful than any other plateaus in Maharashtra.",
+    "Kaas is more colourful than any other plateau in Maharashtra.",
+    "Kaas is most colourful than any other plateau in Maharashtra."
+   ],
+   "answer": 1,
+   "rule": "Superlative to comparative: <b>more colourful than any other</b> + singular noun."
+  },
+  {
+   "qid": "c10-19-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Despite",
+    "the",
+    "gloomy",
+    "weather,",
+    "we",
+    "walked",
+    "to",
+    "the",
+    "temple",
+    "and",
+    "sat",
+    "under",
+    "a",
+    "old",
+    "banyan",
+    "tree.",
+    "The",
+    "trees",
+    "which",
+    "stands",
+    "around",
+    "the",
+    "temple",
+    "whisper",
+    "softly",
+    "in",
+    "the",
+    "breeze."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "many",
+      "an",
+      "much"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "stand",
+      "standing",
+      "stance"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>an</b> before a vowel sound (an old tree); <b>which</b> refers to plural <b>trees</b>, so <b>stand</b>."
+  },
+  {
+   "qid": "c10-19-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "exclamatory",
+   "prompt": "Which exclamatory sentence is correct?",
+   "options": [
+    "How a sweet dream it was!",
+    "What a sweet dream was it!",
+    "What a sweet dream it was!"
+   ],
+   "answer": 2,
+   "rule": "<b>What a</b> + adjective + noun, then subject before verb: <b>it was</b>, not <b>was it</b>."
+  },
+  {
+   "qid": "c10-19-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only does nature heal us, but it also brings us joy.",
+    "Not only nature heals us, but it also brings us joy.",
+    "Not only does nature heals us, but it also brings us joy."
+   ],
+   "answer": 0,
+   "rule": "<b>Not only</b> at the start needs inversion with a base verb: <b>does nature heal</b>."
+  },
+  {
+   "qid": "c10-19-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "contrast",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "spite",
+    "for",
+    "the",
+    "hot",
+    "sun,",
+    "Kabir",
+    "finished",
+    "the",
+    "trek."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "of",
+      "from",
+      "with"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The fixed phrase is <b>in spite of</b> + noun."
+  },
+  {
+   "qid": "c10-19-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The village,",
+   "after": "streams stay cool even in May, lies in the Sahyadris.",
+   "options": [
+    "whose",
+    "which",
+    "who"
+   ],
+   "answer": 0,
+   "rule": "The streams belong to the village, so use <b>whose</b> + noun."
+  },
+  {
+   "qid": "c10-19-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The more we read Keats,",
+   "after": "we enjoy his poems.",
+   "options": [
+    "more",
+    "the more",
+    "most"
+   ],
+   "answer": 1,
+   "rule": "Double comparative: <b>The more</b> ..., <b>the more</b> ... Both parts need <b>the</b>."
+  },
+  {
+   "qid": "c10-19-26",
+   "type": "build",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Keats",
+    "wrote",
+    "poems",
+    "that",
+    "give",
+    "readers",
+    "so",
+    "much",
+    "joy."
+   ],
+   "alts": [],
+   "rule": "The relative clause <b>that give readers so much joy</b> comes right after <b>poems</b>."
+  },
+  {
+   "qid": "c10-19-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "How was the view from Sinhagad?"
+    ]
+   ],
+   "options": [
+    "Rarely I have enjoyed a view so much!",
+    "Rarely have I enjoy a view so much!",
+    "Rarely have I enjoyed a view so much!"
+   ],
+   "answer": 2,
+   "rule": "After <b>Rarely</b>: helping verb + subject + past participle: <b>have I enjoyed</b>."
+  },
+  {
+   "qid": "c10-19-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Which is cooler, Lonavala or Mumbai?"
+    ]
+   ],
+   "options": [
+    "Lonavala is much more cooler than Mumbai.",
+    "Lonavala is much coolest than Mumbai.",
+    "Lonavala is much cooler than Mumbai."
+   ],
+   "answer": 2,
+   "rule": "Two places compared: <b>cooler than</b>. <b>much</b> can strengthen it, but never add <b>more</b>."
+  },
+  {
+   "qid": "c10-19-29",
+   "type": "change",
+   "level": 3,
+   "topic": "contrast",
+   "prompt": "Rewrite using 'in spite of'.",
+   "source": "Although the sky was dark, the children kept playing.",
+   "options": [
+    "In spite of the sky was dark, the children kept playing.",
+    "In spite of the dark sky, the children kept playing.",
+    "In spite the dark sky, the children kept playing."
+   ],
+   "answer": 1,
+   "rule": "<b>In spite of</b> is followed by a noun phrase (the dark sky), not a clause."
+  },
+  {
+   "qid": "c10-19-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "seasons,",
+    "spring",
+    "is",
+    "the",
+    "more",
+    "beautiful.",
+    "The",
+    "flowers",
+    "which",
+    "bloom",
+    "in",
+    "March",
+    "makes",
+    "our",
+    "garden",
+    "look",
+    "like",
+    "a",
+    "painting."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "making",
+      "make",
+      "maker"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Of all</b> needs the superlative <b>the most</b>; the subject is <b>flowers</b> (plural), so <b>make</b>."
+  },
+  {
+   "qid": "c10-19-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "No sooner had we reached the beach when the sun set.",
+    "No sooner did we reached the beach than the sun set.",
+    "No sooner had we reached the beach than the sun set."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> + helping verb + subject ... <b>than</b> (not <b>when</b>)."
+  },
+  {
+   "qid": "c10-19-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "temple,",
+    "which",
+    "was",
+    "build",
+    "long",
+    "ago,",
+    "stands",
+    "among",
+    "tall",
+    "trees."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "built",
+      "building",
+      "builds"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive voice = <b>was</b> + past participle: <b>was built</b>."
+  },
+  {
+   "qid": "c10-19-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "exclamatory",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "much",
+    "more",
+    "peaceful",
+    "a",
+    "village",
+    "is",
+    "then",
+    "a",
+    "city!"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "as",
+      "from",
+      "than"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A comparative (<b>more peaceful</b>) is followed by <b>than</b>; <b>then</b> means 'after that'."
+  },
+  {
+   "qid": "c10-19-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "contrast",
+   "prompt": "Fill in the gap.",
+   "before": "Despite",
+   "after": "tired, Riya finished painting the sunset.",
+   "options": [
+    "been",
+    "being",
+    "was"
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> is a preposition, so a verb after it takes the -ing form: <b>despite being</b>."
+  },
+  {
+   "qid": "c10-19-35",
+   "type": "build",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "rain",
+    "stopped",
+    "than",
+    "Kabir",
+    "ran",
+    "outside."
+   ],
+   "alts": [],
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b> + simple past."
+  },
+  {
+   "qid": "c10-19-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you like the poem by Keats?"
+    ]
+   ],
+   "options": [
+    "Yes, I did. It is one of the most beautiful poems I have ever read.",
+    "Yes, I do. It is one of the most beautiful poems I have ever read.",
+    "Yes, I did. It is one of the most beautiful poem I have ever read."
+   ],
+   "answer": 0,
+   "rule": "<b>Did you ...?</b> is answered with <b>I did</b>; <b>one of the</b> + superlative + plural noun (poems)."
+  },
+  {
+   "qid": "c10-19-37",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The moon is brighter than the stars.",
+   "options": [
+    "The stars are not as brighter as the moon.",
+    "The stars are not as bright as the moon.",
+    "The stars are not as bright than the moon."
+   ],
+   "answer": 1,
+   "rule": "Comparative to positive: <b>not as</b> + positive adjective + <b>as</b>."
+  },
+  {
+   "qid": "c10-19-38",
+   "type": "change",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Begin the sentence with 'Never'.",
+   "source": "I have never felt so peaceful.",
+   "options": [
+    "Never I have felt so peaceful.",
+    "Never had I felt so peaceful.",
+    "Never have I felt so peaceful."
+   ],
+   "answer": 2,
+   "rule": "Keep the tense (have felt) and invert: <b>Never have I felt</b>."
+  },
+  {
+   "qid": "c10-19-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "We",
+    "visited",
+    "Kaas",
+    "Plateau",
+    "last",
+    "Sunday.",
+    "The",
+    "flowers",
+    "which",
+    "covered",
+    "the",
+    "hills",
+    "were",
+    "brightest",
+    "than",
+    "a",
+    "rainbow.",
+    "In",
+    "spite",
+    "for",
+    "the",
+    "drizzle,",
+    "we",
+    "stayed",
+    "there",
+    "for",
+    "a",
+    "hour."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "brighter",
+      "bright",
+      "brightly"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "of",
+      "from",
+      "with"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "many",
+      "much",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative <b>brighter</b>; <b>in spite of</b>; <b>an</b> before the vowel sound in <b>hour</b>."
+  },
+  {
+   "qid": "c10-19-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "contrast",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "John",
+    "Keats,",
+    "who",
+    "wrote",
+    "about",
+    "daffodils",
+    "and",
+    "rills,",
+    "were",
+    "a",
+    "Romantic",
+    "poet.",
+    "Despite",
+    "his",
+    "illness,",
+    "he",
+    "continue",
+    "to",
+    "write",
+    "until",
+    "he",
+    "died",
+    "on",
+    "the",
+    "age",
+    "of",
+    "twenty-five."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "continuing",
+      "continues",
+      "continued"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "in",
+      "at",
+      "by"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Subject <b>John Keats</b> is singular: <b>was</b>; past story: <b>continued</b>; fixed phrase: <b>at the age of</b>."
+  },
+  {
+   "qid": "c10-19-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardly had the clouds parted than the moon appeared.",
+    "Hardly the clouds had parted when the moon appeared.",
+    "Hardly had the clouds parted when the moon appeared."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly had</b> + subject + past participle ... <b>when</b> (not <b>than</b>)."
+  },
+  {
+   "qid": "c10-19-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "trees,",
+    "under",
+    "whom",
+    "we",
+    "sat",
+    "for",
+    "hours,",
+    "were",
+    "older",
+    "than",
+    "the",
+    "temple."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "which",
+      "whose",
+      "who"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Trees are things, so after a preposition use <b>which</b>: under <b>which</b>. <b>whom</b> is only for people."
+  },
+  {
+   "qid": "c10-19-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "contrast",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "how gloomy the day is, a walk in the garden always lifts my spirits.",
+   "options": [
+    "No matter",
+    "Even",
+    "Unless"
+   ],
+   "answer": 0,
+   "rule": "<b>No matter how</b> + adjective + clause shows contrast: whatever the situation, the result stays the same."
+  },
+  {
+   "qid": "c10-19-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of the two paths, the river path is",
+   "after": "one.",
+   "options": [
+    "more shadier",
+    "the shadier",
+    "most shady"
+   ],
+   "answer": 1,
+   "rule": "Choosing between <b>two</b> things: <b>the</b> + comparative (<b>the shadier</b>)."
+  },
+  {
+   "qid": "c10-19-45",
+   "type": "build",
+   "level": 5,
+   "topic": "exclamatory",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "How",
+    "gracefully",
+    "those",
+    "old",
+    "trees",
+    "sway",
+    "in",
+    "the",
+    "evening",
+    "breeze!"
+   ],
+   "alts": [],
+   "rule": "<b>How</b> + adverb (gracefully) + subject + verb ... + <b>!</b>"
+  },
+  {
+   "qid": "c10-19-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "exclamatory",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Look! The sky is full of stars tonight."
+    ],
+    [
+     "Riya",
+     "Let's stay on the terrace a little longer."
+    ]
+   ],
+   "options": [
+    "Yes, let's. How bright they are!",
+    "Yes, let's. How bright are they!",
+    "Yes, let's. How bright it are!"
+   ],
+   "answer": 0,
+   "rule": "In an exclamation the subject comes before the verb: <b>How bright they are!</b>"
+  },
+  {
+   "qid": "c10-19-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Is this the cafe you told me about?"
+    ]
+   ],
+   "options": [
+    "Yes, this is the cafe which we celebrated Riya's birthday.",
+    "Yes, this is the cafe where we celebrated Riya's birthday.",
+    "Yes, this is the cafe where we celebrate Riya's birthday last year."
+   ],
+   "answer": 1,
+   "rule": "For a place where something happened, use <b>where</b>; a past event needs the past tense: <b>celebrated</b>."
+  },
+  {
+   "qid": "c10-19-48",
+   "type": "change",
+   "level": 5,
+   "topic": "exclamatory",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It is a great joy to watch the sun rise over the sea.",
+   "options": [
+    "What a great joy is it to watch the sun rise over the sea!",
+    "What a great joy it is to watch the sun rise over the sea!",
+    "How a great joy it is to watch the sun rise over the sea!"
+   ],
+   "answer": 1,
+   "rule": "<b>What a</b> + adjective + noun + subject + verb: <b>What a great joy it is</b> ...!"
+  },
+  {
+   "qid": "c10-19-49",
+   "type": "change",
+   "level": 5,
+   "topic": "contrast",
+   "prompt": "Rewrite using 'Although'.",
+   "source": "In spite of the gloomy days, beauty still brings us hope.",
+   "options": [
+    "Although the days are gloomy, beauty still brings us hope.",
+    "Although the days are gloomy, but beauty still brings us hope.",
+    "Although the gloomy days, beauty still brings us hope."
+   ],
+   "answer": 0,
+   "rule": "<b>Although</b> needs a clause (the days are gloomy) and never takes <b>but</b> in the other half."
+  },
+  {
+   "qid": "c10-19-50",
+   "type": "change",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Combine using 'whose'.",
+   "source": "Keats was a Romantic poet. His poems are full of nature.",
+   "options": [
+    "Keats was a Romantic poet whose his poems are full of nature.",
+    "Keats was a Romantic poet whom poems are full of nature.",
+    "Keats was a Romantic poet whose poems are full of nature."
+   ],
+   "answer": 2,
+   "rule": "<b>whose</b> replaces <b>His</b>: do not keep both. <b>whom</b> cannot show possession."
+  }
+ ]
+}

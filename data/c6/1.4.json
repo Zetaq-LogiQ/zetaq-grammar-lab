@@ -1,0 +1,997 @@
+{
+ "class": 6,
+ "id": "1.4",
+ "title": "Love for One's Motherland",
+ "topics": [
+  {
+   "tag": "pronouns",
+   "name": "Types of pronouns (personal, relative, demonstrative)"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals (should, must, can, could, shall)"
+  },
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech punctuation"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-1.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She is reading a book in the inn.",
+    "Her is reading a book in the inn.",
+    "She are reading a book in the inn."
+   ],
+   "answer": 0,
+   "rule": "The subject pronoun is <b>she</b> (not her), and <b>she</b> takes <b>is</b>."
+  },
+  {
+   "qid": "c6-1.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Those are stars in the sky.",
+    "That are stars in the sky.",
+    "This are stars in the sky."
+   ],
+   "answer": 0,
+   "rule": "<b>Stars</b> is plural, so use the plural demonstrative <b>those</b> with <b>are</b>."
+  },
+  {
+   "qid": "c6-1.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The tourists was staying in an inn.",
+    "The tourists were stay in an inn.",
+    "The tourists were staying in an inn."
+   ],
+   "answer": 2,
+   "rule": "Past continuous = <b>was/were + -ing</b>. Plural <b>tourists</b> takes <b>were staying</b>."
+  },
+  {
+   "qid": "c6-1.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "should",
+    "goes",
+    "to",
+    "the",
+    "king",
+    "for",
+    "help."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "going",
+      "go",
+      "went"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a modal like <b>should</b>, use the base form of the verb: <b>should go</b>."
+  },
+  {
+   "qid": "c6-1.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "king",
+    "gave",
+    "they",
+    "many",
+    "costly",
+    "presents."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "them",
+      "their",
+      "theirs"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a verb we use the object pronoun: gave <b>them</b>, not gave <b>they</b>."
+  },
+  {
+   "qid": "c6-1.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Riya and",
+   "after": "went to the museum.",
+   "options": [
+    "me",
+    "mine",
+    "I"
+   ],
+   "answer": 2,
+   "rule": "The gap is part of the subject, so use the subject pronoun <b>I</b>: Riya and <b>I</b> went."
+  },
+  {
+   "qid": "c6-1.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "At nine o'clock last night, we",
+   "after": "our homework.",
+   "options": [
+    "were doing",
+    "was doing",
+    "are do"
+   ],
+   "answer": 0,
+   "rule": "<b>We</b> takes <b>were</b>; a past moment (nine o'clock last night) needs the past continuous: <b>were doing</b>."
+  },
+  {
+   "qid": "c6-1.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Make a sentence in the past continuous.",
+   "answer": [
+    "The",
+    "tourists",
+    "were",
+    "visiting",
+    "Ethiopia."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>were</b> + verb-<b>ing</b> + object: The tourists <b>were visiting</b> Ethiopia."
+  },
+  {
+   "qid": "c6-1.4-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Whose pen is this?"
+    ]
+   ],
+   "options": [
+    "It is mine.",
+    "It is my.",
+    "It is mines."
+   ],
+   "answer": 0,
+   "rule": "Use the possessive pronoun <b>mine</b> when no noun follows. <b>My</b> needs a noun, and <b>mines</b> is not a word here."
+  },
+  {
+   "qid": "c6-1.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "It is raining heavily outside."
+    ]
+   ],
+   "options": [
+    "Then I should take my umbrella.",
+    "Then I should taking my umbrella.",
+    "Then I should to take my umbrella."
+   ],
+   "answer": 0,
+   "rule": "<b>Should</b> is followed by the base verb without <b>to</b>: should <b>take</b>."
+  },
+  {
+   "qid": "c6-1.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Which sentence uses the correct relative pronoun?",
+   "options": [
+    "I liked the photo who Meera clicked.",
+    "I liked the photo whom Meera clicked.",
+    "I liked the photo which Meera clicked."
+   ],
+   "answer": 2,
+   "rule": "<b>Which</b> is used for things like a photo; <b>who/whom</b> are used for people."
+  },
+  {
+   "qid": "c6-1.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The king asked, \"Did you liked my country?\"",
+    "The king asked, \"Did you like my country?\"",
+    "The king asked, \"Does you like my country?\""
+   ],
+   "answer": 1,
+   "rule": "Spoken words keep normal grammar: <b>Did you</b> + base verb <b>like</b>. Note the capital D and the ? inside the quotation marks."
+  },
+  {
+   "qid": "c6-1.4-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "two",
+    "tourists",
+    "was",
+    "boarding",
+    "the",
+    "ship,",
+    "a",
+    "minister",
+    "whispered",
+    "orders."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>The two tourists</b> is plural, so the past continuous is <b>were boarding</b>."
+  },
+  {
+   "qid": "c6-1.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "girl",
+    "which",
+    "won",
+    "the",
+    "race."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For a person who does the action, use <b>who</b>: the girl <b>who</b> won. <b>Which</b> is for things."
+  },
+  {
+   "qid": "c6-1.4-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Students",
+   "after": "keep their school clean.",
+   "options": [
+    "musts",
+    "must",
+    "must to"
+   ],
+   "answer": 1,
+   "rule": "<b>Must</b> never takes -s and is followed by the base verb without <b>to</b>: <b>must keep</b>."
+  },
+  {
+   "qid": "c6-1.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "shoes over there belong to the tourists.",
+   "options": [
+    "Those",
+    "This",
+    "That"
+   ],
+   "answer": 0,
+   "rule": "<b>Shoes</b> is plural and far away (over there), so use <b>those</b>."
+  },
+  {
+   "qid": "c6-1.4-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Make a rule for the class.",
+   "answer": [
+    "You",
+    "must",
+    "not",
+    "waste",
+    "water."
+   ],
+   "alts": [],
+   "rule": "Negative modal: <b>must not</b> + base verb. It tells us something is not allowed."
+  },
+  {
+   "qid": "c6-1.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Kabir",
+    "found",
+    "the",
+    "map",
+    "which",
+    "was",
+    "lost."
+   ],
+   "alts": [],
+   "rule": "The relative pronoun <b>which</b> comes right after the thing it describes: the map <b>which</b> was lost."
+  },
+  {
+   "qid": "c6-1.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "I called you at seven. Why didn't you answer?"
+    ]
+   ],
+   "options": [
+    "Sorry, I were having dinner with my family.",
+    "Sorry, I was having dinner with my family.",
+    "Sorry, I was have dinner with my family."
+   ],
+   "answer": 1,
+   "rule": "An action going on at a past time: <b>I was having</b>. <b>I</b> takes <b>was</b>, and the verb needs -ing."
+  },
+  {
+   "qid": "c6-1.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who cleaned the classroom today?"
+    ]
+   ],
+   "options": [
+    "Neha and me cleaned it.",
+    "Neha and I cleaned it.",
+    "Neha and I cleaned them."
+   ],
+   "answer": 1,
+   "rule": "In the subject use <b>I</b>, not <b>me</b>. One classroom = <b>it</b>, not <b>them</b>."
+  },
+  {
+   "qid": "c6-1.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The guide which we met spoke our language.",
+    "The guide whose we met spoke our language.",
+    "The guide whom we met spoke our language."
+   ],
+   "answer": 2,
+   "rule": "A guide is a person, and he is the object of <b>met</b>, so use <b>whom</b>. <b>Whose</b> must be followed by a noun."
+  },
+  {
+   "qid": "c6-1.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "When the soldier was came near, the tourists were waiting.",
+    "When the soldier came near, the tourists waiting.",
+    "When the soldier came near, the tourists were waiting."
+   ],
+   "answer": 2,
+   "rule": "Short action = simple past (<b>came</b>); longer action going on = past continuous (<b>were waiting</b>)."
+  },
+  {
+   "qid": "c6-1.4-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We cannot go back without shoes.",
+    "We can not to go back without shoes.",
+    "We cannot going back without shoes."
+   ],
+   "answer": 0,
+   "rule": "<b>Cannot</b> is followed by the base verb, with no <b>to</b> and no -ing: <b>cannot go</b>."
+  },
+  {
+   "qid": "c6-1.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tourists",
+    "thanked",
+    "the",
+    "king",
+    "and",
+    "praised",
+    "he",
+    "warmly."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "him",
+      "his",
+      "himself"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the verb <b>praised</b>, use the object pronoun <b>him</b>."
+  },
+  {
+   "qid": "c6-1.4-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "tourists",
+    "was",
+    "getting",
+    "angry",
+    "at",
+    "the",
+    "harbour."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>All the tourists</b> means more than one, so use <b>were getting</b>."
+  },
+  {
+   "qid": "c6-1.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "This is the boy",
+   "after": "bag was stolen.",
+   "options": [
+    "whose",
+    "who",
+    "whom"
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> shows belonging and is followed by a noun: the boy <b>whose</b> bag."
+  },
+  {
+   "qid": "c6-1.4-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday the tourists",
+   "after": "see the king because he was busy.",
+   "options": [
+    "cannot",
+    "can not to",
+    "could not"
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is past, so use the past form <b>could not</b> + base verb."
+  },
+  {
+   "qid": "c6-1.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Put the tiles in order to write what the minister said.",
+   "answer": [
+    "The",
+    "minister",
+    "said,",
+    "\"We",
+    "love",
+    "our",
+    "soil.\""
+   ],
+   "alts": [],
+   "rule": "Reporting words, a comma, then the spoken words in quotation marks with the full stop inside."
+  },
+  {
+   "qid": "c6-1.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What were you doing at the harbour?"
+    ]
+   ],
+   "options": [
+    "We was watching the big ships.",
+    "We were watch the big ships.",
+    "We were watching the big ships."
+   ],
+   "answer": 2,
+   "rule": "Answer in the same tense as the question: <b>were</b> + verb-<b>ing</b> = <b>were watching</b>."
+  },
+  {
+   "qid": "c6-1.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Which shoes do you want?"
+    ]
+   ],
+   "options": [
+    "I want those black ones on the top shelf.",
+    "I want that black ones on the top shelf.",
+    "I want this black ones on the top shelf."
+   ],
+   "answer": 0,
+   "rule": "<b>Ones</b> is plural, so use the plural demonstrative <b>those</b> (or these), never that/this."
+  },
+  {
+   "qid": "c6-1.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A tourist who was from Europe asked an question.",
+    "A tourist who was from Europe asked a question.",
+    "A tourist which was from Europe asked a question."
+   ],
+   "answer": 1,
+   "rule": "Use <b>who</b> for a person, and <b>a</b> before a consonant sound: <b>a question</b>."
+  },
+  {
+   "qid": "c6-1.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "It was raining while we was walking to the bus stop.",
+    "It was raining while we were walking to the bus stop.",
+    "It were raining while we were walking to the bus stop."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes <b>was</b> and <b>we</b> takes <b>were</b>: It <b>was</b> raining while we <b>were</b> walking."
+  },
+  {
+   "qid": "c6-1.4-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "monitor",
+    "and",
+    "his",
+    "friends",
+    "should",
+    "keeps",
+    "the",
+    "classroom",
+    "clean",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "kept",
+      "keep",
+      "keeping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>should</b>, the verb stays in its base form: should <b>keep</b>, not should keeps."
+  },
+  {
+   "qid": "c6-1.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Those",
+    "diaries",
+    "are",
+    "their",
+    "and",
+    "these",
+    "are",
+    "ours."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "them",
+      "they",
+      "theirs"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With no noun after it, use the possessive pronoun <b>theirs</b>, just like <b>ours</b>."
+  },
+  {
+   "qid": "c6-1.4-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "When the guide arrived, the tourists",
+   "after": "breakfast at the inn.",
+   "options": [
+    "was having",
+    "were having",
+    "are having"
+   ],
+   "answer": 1,
+   "rule": "An action already going on when another happened (arrived): past continuous, plural = <b>were having</b>."
+  },
+  {
+   "qid": "c6-1.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "The tourists and",
+   "after": "guide visited many famous places.",
+   "options": [
+    "they",
+    "them",
+    "their"
+   ],
+   "answer": 2,
+   "rule": "Before a noun (guide), use the possessive adjective <b>their</b>."
+  },
+  {
+   "qid": "c6-1.4-37",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "show",
+    "us",
+    "the",
+    "way?"
+   ],
+   "alts": [],
+   "rule": "Polite request: <b>Could you please</b> + base verb ...?"
+  },
+  {
+   "qid": "c6-1.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "I",
+    "know",
+    "the",
+    "man",
+    "who",
+    "guides",
+    "tourists."
+   ],
+   "alts": [],
+   "rule": "<b>Who</b> follows the person it describes; <b>the man</b> is singular, so <b>guides</b> takes -s."
+  },
+  {
+   "qid": "c6-1.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Did you enjoy the trip to Mahabaleshwar?"
+    ]
+   ],
+   "options": [
+    "Yes, us enjoyed it a lot. The hills were lovely.",
+    "Yes, we enjoyed it a lot. The hills were lovely.",
+    "Yes, we enjoyed ourself a lot. The hills were lovely."
+   ],
+   "answer": 1,
+   "rule": "Subject pronoun <b>we</b> (not us). The reflexive of <b>we</b> is <b>ourselves</b>, never ourself."
+  },
+  {
+   "qid": "c6-1.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma'am",
+     "Why were you late today?"
+    ]
+   ],
+   "options": [
+    "The bus broke down while we were going to school.",
+    "The bus broke down while we was going to school.",
+    "The bus broke down while we going to school."
+   ],
+   "answer": 0,
+   "rule": "The longer action uses the past continuous: <b>we were going</b>. It needs both <b>were</b> and -ing."
+  },
+  {
+   "qid": "c6-1.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"If that's so,\" said a tourist, \"please give us a new shoes.\"",
+    "\"If that's so,\" said a tourist, \"please giving us new shoes.\"",
+    "\"If that's so,\" said a tourist, \"please give us new shoes.\""
+   ],
+   "answer": 2,
+   "rule": "A request uses the base verb <b>give</b>; <b>a</b> cannot go before plural <b>shoes</b>. The split quote rightly goes on with a small <b>please</b>."
+  },
+  {
+   "qid": "c6-1.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The tourists, whose shoes had been taken, looked at one another.",
+    "The tourists, who's shoes had been taken, looked at one another.",
+    "The tourists, whom shoes had been taken, looked at one another."
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> shows belonging (their shoes). <b>Who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c6-1.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "soldiers",
+    "were",
+    "dusting",
+    "the",
+    "shoes,",
+    "the",
+    "five",
+    "tourists",
+    "was",
+    "talking",
+    "angrily."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both actions were going on together; plural <b>tourists</b> needs <b>were talking</b>."
+  },
+  {
+   "qid": "c6-1.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "one",
+    "explained",
+    "nothing",
+    "to",
+    "the",
+    "puzzled",
+    "tourists."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "none",
+      "anything",
+      "nobody"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>No one</b> is already negative, so use <b>anything</b>. Two negatives in one sentence are wrong."
+  },
+  {
+   "qid": "c6-1.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "The soldier",
+   "after": "the minister had sent came back with the shoes.",
+   "options": [
+    "whose",
+    "which",
+    "whom"
+   ],
+   "answer": 2,
+   "rule": "The soldier is a person and the object of <b>had sent</b>, so use <b>whom</b>."
+  },
+  {
+   "qid": "c6-1.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "have told us earlier; we were so worried!",
+   "options": [
+    "must to",
+    "should",
+    "ought"
+   ],
+   "answer": 1,
+   "rule": "<b>Should have</b> + past participle talks about the right thing that was not done. <b>Ought</b> needs <b>to</b>."
+  },
+  {
+   "qid": "c6-1.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Put the tiles in order to write the question.",
+   "answer": [
+    "He",
+    "asked,",
+    "\"Where",
+    "do",
+    "you",
+    "come",
+    "from?\""
+   ],
+   "alts": [],
+   "rule": "Reporting words + comma, then the question in quotation marks with the question mark inside."
+  },
+  {
+   "qid": "c6-1.4-48",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "help",
+    "you",
+    "carry",
+    "those",
+    "bags?"
+   ],
+   "alts": [],
+   "rule": "Offer: <b>Shall I</b> + base verb ...? Here: Shall I <b>help</b> you <b>carry</b> ...?"
+  },
+  {
+   "qid": "c6-1.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Who were you talking to at the gate?"
+    ]
+   ],
+   "options": [
+    "I was talking to the new girl who joined our class.",
+    "I was talking to the new girl which joined our class.",
+    "I was talk to the new girl who joined our class."
+   ],
+   "answer": 0,
+   "rule": "Use <b>who</b> for a person, and <b>was</b> + verb-<b>ing</b>: was <b>talking</b>."
+  },
+  {
+   "qid": "c6-1.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What should we do to show love for our country?"
+    ]
+   ],
+   "options": [
+    "We should keeps our surroundings clean and respect everyone.",
+    "We should keeping our surroundings clean and respect everyone.",
+    "We should keep our surroundings clean and respect everyone."
+   ],
+   "answer": 2,
+   "rule": "<b>Should</b> + base verb: should <b>keep</b> ... and (should) <b>respect</b>."
+  }
+ ]
+}

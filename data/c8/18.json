@@ -1,0 +1,1222 @@
+{
+ "class": 8,
+ "id": "18",
+ "title": "A Battle to Baffle",
+ "topics": [
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements, questions, commands, exclamations)"
+  },
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison (as ... as, No other ...)"
+  },
+  {
+   "tag": "joining",
+   "name": "Joining sentences (so, because, when)"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals for permission and advice (may, shall, had better)"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Apostrophe for possession"
+  },
+  {
+   "tag": "transform",
+   "name": "Do as directed: assertive and word forms"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-18-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Emperors court was full of scholars.",
+    "The Emperor's court was full of scholars.",
+    "The Emperor's court were full of scholars."
+   ],
+   "answer": 1,
+   "rule": "The court belongs to the Emperor: <b>Emperor's</b>. One court takes <b>was</b>."
+  },
+  {
+   "qid": "c8-18-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "May I have your permission to speak?",
+    "May I having your permission to speak?",
+    "May I has your permission to speak?"
+   ],
+   "answer": 0,
+   "rule": "After a modal like <b>may</b>, use the base form of the verb: <b>have</b>."
+  },
+  {
+   "qid": "c8-18-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tenali",
+    "Raman",
+    "was",
+    "wittiest",
+    "than",
+    "all",
+    "the",
+    "other",
+    "courtiers."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "witty",
+      "wittier",
+      "wit"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative degree: <b>wittier</b> than."
+  },
+  {
+   "qid": "c8-18-04",
+   "type": "fill",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Tenali Raman was as",
+   "after": "as a fox.",
+   "options": [
+    "cleverer",
+    "cleverest",
+    "clever"
+   ],
+   "answer": 2,
+   "rule": "<b>as + plain adjective + as</b>: as clever as a fox."
+  },
+  {
+   "qid": "c8-18-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "joining",
+   "prompt": "Fill in the gap.",
+   "before": "Pundit Shahane had never heard of the scripture,",
+   "after": "he gave up.",
+   "options": [
+    "because of",
+    "so",
+    "due to"
+   ],
+   "answer": 1,
+   "rule": "<b>so</b> joins a cause to its result. 'Because of' and 'due to' need a noun, not a clause."
+  },
+  {
+   "qid": "c8-18-06",
+   "type": "build",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Report the teacher's command.",
+   "answer": [
+    "The",
+    "teacher",
+    "told",
+    "us",
+    "to",
+    "be",
+    "quiet."
+   ],
+   "alts": [],
+   "rule": "Commands are reported with <b>told/ordered + person + to + verb</b>."
+  },
+  {
+   "qid": "c8-18-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mantriji",
+     "May I announce the guest now, Your Majesty?"
+    ]
+   ],
+   "options": [
+    "Yes, you may announce him now.",
+    "Yes, you may announces him now.",
+    "Yes, you mays announce him now."
+   ],
+   "answer": 0,
+   "rule": "A modal never takes -s, and the verb after it stays in the base form: <b>may announce</b>."
+  },
+  {
+   "qid": "c8-18-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did Ma ask you?"
+    ]
+   ],
+   "options": [
+    "She asked me if was I hungry.",
+    "She asked me if I was hungry.",
+    "She asked me that was I hungry."
+   ],
+   "answer": 1,
+   "rule": "A reported yes/no question uses <b>if</b> + statement order: if <b>I was</b> hungry."
+  },
+  {
+   "qid": "c8-18-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Riya said, \"What is the score?\"",
+   "options": [
+    "Riya asked what the score was.",
+    "Riya asked what was the score.",
+    "Riya asked that what the score was."
+   ],
+   "answer": 0,
+   "rule": "Use <b>asked</b>, no 'that' before the wh-word, statement order (the score was), and move the tense back: <b>was</b>."
+  },
+  {
+   "qid": "c8-18-10",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Rewrite using 'not as witty as'.",
+   "source": "Tenali Raman was wittier than Pundit Shahane.",
+   "options": [
+    "Pundit Shahane was as witty as Tenali Raman.",
+    "Pundit Shahane was not as witty as Tenali Raman.",
+    "Pundit Shahane was not as wittier as Tenali Raman."
+   ],
+   "answer": 1,
+   "rule": "Swap the two and use <b>not as + plain adjective + as</b>."
+  },
+  {
+   "qid": "c8-18-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The coach ordered the players run faster.",
+    "The coach ordered the players that run faster.",
+    "The coach ordered the players to run faster."
+   ],
+   "answer": 2,
+   "rule": "Reported command: <b>ordered + person + to + verb</b>."
+  },
+  {
+   "qid": "c8-18-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raman was clever, so he win the debate.",
+    "Raman was clever, so he won the debate.",
+    "Raman was clever, so won he the debate."
+   ],
+   "answer": 1,
+   "rule": "After <b>so</b> use normal order and keep the past tense: he <b>won</b>."
+  },
+  {
+   "qid": "c8-18-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "had",
+    "better",
+    "leaves",
+    "the",
+    "court",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "leaving",
+      "left",
+      "leave"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had better</b> is followed by the base form: had better <b>leave</b>."
+  },
+  {
+   "qid": "c8-18-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "Mother",
+    "asked",
+    "me",
+    "whether",
+    "I",
+    "am",
+    "hungry."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "were",
+      "is",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With a past reporting verb the tense moves back: am becomes <b>was</b>."
+  },
+  {
+   "qid": "c8-18-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The guard asked Raman",
+   "after": "he was ready.",
+   "options": [
+    "if",
+    "that",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question is joined with <b>if</b> (or whether)."
+  },
+  {
+   "qid": "c8-18-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "No other scholar in the court was as",
+   "after": "as Tenali Raman.",
+   "options": [
+    "wise",
+    "wiser",
+    "wisest"
+   ],
+   "answer": 0,
+   "rule": "<b>No other ... as + plain adjective + as</b>."
+  },
+  {
+   "qid": "c8-18-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "bring",
+    "you",
+    "a",
+    "glass",
+    "of",
+    "water?"
+   ],
+   "alts": [],
+   "rule": "Offers use <b>Shall I + base verb</b>?"
+  },
+  {
+   "qid": "c8-18-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Why didn't you come to the cricket match?"
+    ]
+   ],
+   "options": [
+    "I had a fever, so I stay at home.",
+    "I had a fever, so I stayed at home.",
+    "I had a fever, so I staying at home."
+   ],
+   "answer": 1,
+   "rule": "Both clauses are about the past: had ... <b>stayed</b>."
+  },
+  {
+   "qid": "c8-18-19",
+   "type": "change",
+   "level": 2,
+   "topic": "joining",
+   "prompt": "Combine using 'because'.",
+   "source": "Raman was rewarded. He saved the honour of the empire.",
+   "options": [
+    "Raman was rewarded because he saved the honour of the empire.",
+    "Raman was rewarded because he saves the honour of the empire.",
+    "Raman was rewarded because of he saved the honour of the empire."
+   ],
+   "answer": 0,
+   "rule": "<b>because</b> + a full clause; keep the past tense: he <b>saved</b>."
+  },
+  {
+   "qid": "c8-18-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Tara!",
+    "Our",
+    "teacher",
+    "told",
+    "us",
+    "to",
+    "bringing",
+    "our",
+    "costumes",
+    "tomorrow.",
+    "She",
+    "said",
+    "that",
+    "the",
+    "skit",
+    "must",
+    "be",
+    "ready",
+    "by",
+    "Friday,",
+    "so",
+    "we",
+    "should",
+    "practises",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "bring",
+      "brought",
+      "brings"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "practising",
+      "practise",
+      "practised"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>told us to + base verb</b>: to bring. After a modal: should <b>practise</b>."
+  },
+  {
+   "qid": "c8-18-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Which reported sentence is correct?",
+   "options": [
+    "Mother exclaimed with delight that how beautiful the garden looked.",
+    "Mother exclaimed with delight that the garden looked very beautifully.",
+    "Mother exclaimed with delight that the garden looked very beautiful."
+   ],
+   "answer": 2,
+   "rule": "In a reported exclamation, 'how' becomes <b>very</b>, the tense moves back (<b>looked</b>), and after 'looked' we use an adjective."
+  },
+  {
+   "qid": "c8-18-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Pundit",
+    "Shahane",
+    "was",
+    "one",
+    "of",
+    "the",
+    "most",
+    "learned",
+    "scholar",
+    "in",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "scholarly",
+      "scholarship",
+      "scholars"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>one of the most ...</b> is followed by a plural noun: scholars."
+  },
+  {
+   "qid": "c8-18-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Emperor",
+    "asked",
+    "Raman",
+    "what",
+    "he",
+    "want",
+    "as",
+    "a",
+    "reward."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "wanting",
+      "wanted",
+      "wish"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the past verb <b>asked</b>, the reported question moves back: what he <b>wanted</b>."
+  },
+  {
+   "qid": "c8-18-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "better be quiet during the debate.",
+   "options": [
+    "would",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The fixed phrase for strong advice is <b>had better</b> + base verb."
+  },
+  {
+   "qid": "c8-18-25",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Report the question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "had",
+    "kept",
+    "the",
+    "bundle."
+   ],
+   "alts": [],
+   "rule": "In a reported question the subject comes before the verb: where <b>I had kept</b>."
+  },
+  {
+   "qid": "c8-18-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "What did the principal say in the assembly?"
+    ]
+   ],
+   "options": [
+    "She told us not to run in the corridors.",
+    "She told us to not running in the corridors.",
+    "She told us don't run in the corridors."
+   ],
+   "answer": 0,
+   "rule": "A negative command is reported with <b>told + person + not to + verb</b>."
+  },
+  {
+   "qid": "c8-18-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Who is the best player in your team?"
+    ]
+   ],
+   "options": [
+    "Rohan is the best of all.",
+    "Rohan is the most best of all.",
+    "Rohan is best than all of us."
+   ],
+   "answer": 0,
+   "rule": "<b>best</b> is already superlative: the best. Never 'most best' or 'best than'."
+  },
+  {
+   "qid": "c8-18-28",
+   "type": "change",
+   "level": 3,
+   "topic": "transform",
+   "prompt": "Make it assertive.",
+   "source": "How can anyone forget such a clever trick?",
+   "options": [
+    "Anyone can forget such a clever trick.",
+    "No one can forgets such a clever trick.",
+    "No one can forget such a clever trick."
+   ],
+   "answer": 2,
+   "rule": "A question that expects 'no' becomes a negative statement: <b>No one can forget</b>."
+  },
+  {
+   "qid": "c8-18-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The Emperor said to the guards, \"Bring Tenali Raman at once.\"",
+   "options": [
+    "The Emperor ordered the guards that bring Tenali Raman at once.",
+    "The Emperor ordered the guards to bring Tenali Raman at once.",
+    "The Emperor ordered the guards to brought Tenali Raman at once."
+   ],
+   "answer": 1,
+   "rule": "Reported command: <b>ordered + person + to + base verb</b>."
+  },
+  {
+   "qid": "c8-18-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Pundit",
+    "Shahane",
+    "had",
+    "read",
+    "thousands",
+    "of",
+    "books,",
+    "but",
+    "he",
+    "was",
+    "not",
+    "as",
+    "wiser",
+    "as",
+    "Raman.",
+    "He",
+    "could",
+    "not",
+    "discuss",
+    "the",
+    "strange",
+    "scripture,",
+    "so",
+    "he",
+    "concede",
+    "defeat."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "wisest",
+      "wisely",
+      "wise"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "conceded",
+      "conceding",
+      "concedes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>not as wise as</b> uses the plain adjective; the story is past, so he <b>conceded</b>."
+  },
+  {
+   "qid": "c8-18-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raman said that he had bring the scripture with him.",
+    "Raman said that he had brought the scripture with him.",
+    "Raman said that he have brought the scripture with him."
+   ],
+   "answer": 1,
+   "rule": "Past perfect = <b>had + past participle</b>: had brought."
+  },
+  {
+   "qid": "c8-18-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Pundit Shahanes visit to our court was an open challenge.",
+    "Pundit Shahane's visit to our court was an open challenge.",
+    "Pundit Shahane's visit to our court were an open challenge."
+   ],
+   "answer": 1,
+   "rule": "The visit belongs to Pundit Shahane, so add <b>'s</b>: Shahane's visit. One visit takes <b>was</b>."
+  },
+  {
+   "qid": "c8-18-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "joining",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Since",
+    "the",
+    "Pundit",
+    "had",
+    "never",
+    "heard",
+    "of",
+    "the",
+    "scripture,",
+    "he",
+    "give",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "given",
+      "giving",
+      "gave"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The reason clause is in the past perfect, so the result is in the simple past: he <b>gave</b> up."
+  },
+  {
+   "qid": "c8-18-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "transform",
+   "prompt": "Fill in the gap.",
+   "before": "Pundit Shahane was",
+   "after": "of the scripture that Raman mentioned.",
+   "options": [
+    "unaware",
+    "unaware that",
+    "unawareness"
+   ],
+   "answer": 0,
+   "rule": "<b>was unaware of</b> + noun means 'did not know about'."
+  },
+  {
+   "qid": "c8-18-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Pundit Shahane asked the courtiers what",
+   "after": "meant.",
+   "options": [
+    "did the name",
+    "the name",
+    "does the name"
+   ],
+   "answer": 1,
+   "rule": "A reported question uses statement order with no 'did/does': what <b>the name meant</b>."
+  },
+  {
+   "qid": "c8-18-36",
+   "type": "build",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "No",
+    "other",
+    "courtier",
+    "was",
+    "cleverer",
+    "than",
+    "Raman."
+   ],
+   "alts": [],
+   "rule": "<b>No other + noun + comparative + than</b>."
+  },
+  {
+   "qid": "c8-18-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Can I borrow your costume for the skit?"
+    ]
+   ],
+   "options": [
+    "Of course you could, but please returning it by Friday.",
+    "Of course you can, but please returns it by Friday.",
+    "Of course you can, but please return it by Friday."
+   ],
+   "answer": 2,
+   "rule": "A request with <b>please</b> uses the base verb: please <b>return</b>."
+  },
+  {
+   "qid": "c8-18-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Grandpa said to me, \"Have you finished your homework?\"",
+   "options": [
+    "Grandpa asked me if had I finished my homework.",
+    "Grandpa asked me if I had finished my homework.",
+    "Grandpa asked me that had I finished my homework."
+   ],
+   "answer": 1,
+   "rule": "Yes/no question: <b>asked + if</b> (not 'that'), statement order, and present perfect becomes <b>had finished</b>."
+  },
+  {
+   "qid": "c8-18-39",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Begin with 'No other ...'.",
+   "source": "Raman was the wittiest poet in the court.",
+   "options": [
+    "No other poet in the court was as witty as Raman.",
+    "No other poet in the court was as wittiest as Raman.",
+    "No other poet in the court were as witty as Raman."
+   ],
+   "answer": 0,
+   "rule": "Superlative becomes <b>No other ... was as + plain adjective + as</b>."
+  },
+  {
+   "qid": "c8-18-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Anil!",
+    "Our",
+    "skit",
+    "about",
+    "Tenali",
+    "Raman",
+    "will",
+    "be",
+    "hold",
+    "next",
+    "Friday.",
+    "Yesterday",
+    "Ms",
+    "Rao",
+    "ask",
+    "me",
+    "if",
+    "I",
+    "would",
+    "play",
+    "the",
+    "Emperor.",
+    "She",
+    "told",
+    "me",
+    "to",
+    "learns",
+    "my",
+    "lines",
+    "and",
+    "to",
+    "speak",
+    "loudly."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "holding",
+      "holds",
+      "held"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "asked",
+      "asks",
+      "asking"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 27,
+     "options": [
+      "learning",
+      "learned",
+      "learn"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: <b>will be held</b>; yesterday needs the past: <b>asked</b>; told me to <b>learn</b>."
+  },
+  {
+   "qid": "c8-18-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Emperor asked Raman to what great work had he referred.",
+    "The Emperor asked Raman to what great work he had refer.",
+    "The Emperor asked Raman to what great work he had referred."
+   ],
+   "answer": 2,
+   "rule": "A reported question takes statement order, and the past moves back: <b>he had referred</b> (had + past participle)."
+  },
+  {
+   "qid": "c8-18-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Raman,",
+    "who",
+    "had",
+    "been",
+    "carried",
+    "in",
+    "on",
+    "a",
+    "palanquin,",
+    "thank",
+    "the",
+    "Emperor",
+    "politely."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "thanking",
+      "thanked",
+      "thankful"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The main verb of this past story needs the simple past: Raman ... <b>thanked</b> the Emperor."
+  },
+  {
+   "qid": "c8-18-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "courtiers,",
+    "Raman",
+    "was",
+    "the",
+    "more",
+    "confident",
+    "when",
+    "the",
+    "scholar",
+    "arrived."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing one with all the others (more than two) needs the superlative: <b>the most</b> confident."
+  },
+  {
+   "qid": "c8-18-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The Emperor exclaimed with joy that it",
+   "after": "a very clever trick.",
+   "options": [
+    "was",
+    "were",
+    "be"
+   ],
+   "answer": 0,
+   "rule": "After the past verb <b>exclaimed</b>, the tense moves back, and 'it' is singular: it <b>was</b>."
+  },
+  {
+   "qid": "c8-18-45",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Report the question.",
+   "answer": [
+    "The",
+    "Emperor",
+    "asked",
+    "Raman",
+    "what",
+    "the",
+    "bundle",
+    "contained."
+   ],
+   "alts": [],
+   "rule": "Reported wh-question: <b>asked + person + wh-word + subject + verb</b>, no 'did'."
+  },
+  {
+   "qid": "c8-18-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sid",
+     "What did Pundit Shahane say before he left?"
+    ]
+   ],
+   "options": [
+    "He said that he had not read that scripture.",
+    "He said that he not had read that scripture.",
+    "He said to he had not read that scripture."
+   ],
+   "answer": 0,
+   "rule": "Reported statement: <b>said that</b> + past perfect, with 'not' after 'had'."
+  },
+  {
+   "qid": "c8-18-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Is Raman cleverer than Birbal?"
+    ]
+   ],
+   "options": [
+    "I think Raman is as cleverer as Birbal.",
+    "I think Raman is so clever than Birbal.",
+    "I think Raman is as clever as Birbal."
+   ],
+   "answer": 2,
+   "rule": "Equal comparison: <b>as + plain adjective + as</b>."
+  },
+  {
+   "qid": "c8-18-48",
+   "type": "change",
+   "level": 5,
+   "topic": "transform",
+   "prompt": "Rewrite using the noun form of 'proud'.",
+   "source": "I am proud of you.",
+   "options": [
+    "I take proud in you.",
+    "I take pride in you.",
+    "I take pride on you."
+   ],
+   "answer": 1,
+   "rule": "The noun of proud is <b>pride</b>, and we say <b>take pride in</b>."
+  },
+  {
+   "qid": "c8-18-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "When",
+    "the",
+    "Emperor",
+    "asked",
+    "who",
+    "would",
+    "face",
+    "the",
+    "scholar,",
+    "nobody",
+    "dare",
+    "to",
+    "answer.",
+    "Then",
+    "a",
+    "scholar",
+    "suggests",
+    "calling",
+    "Raman,",
+    "who",
+    "was",
+    "famous",
+    "for",
+    "his",
+    "wit.",
+    "Raman",
+    "agreed,",
+    "but",
+    "he",
+    "asked",
+    "everyone",
+    "to",
+    "honouring",
+    "him",
+    "as",
+    "the",
+    "Chief",
+    "Pundit",
+    "for",
+    "a",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "dared",
+      "daring",
+      "dares"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "suggested",
+      "suggesting",
+      "suggestion"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 32,
+     "options": [
+      "honoured",
+      "honour",
+      "honours"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Keep the story in the past: <b>dared</b>, <b>suggested</b>; asked everyone <b>to honour</b> (to + base verb)."
+  },
+  {
+   "qid": "c8-18-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "joining",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Raman",
+    "was",
+    "more",
+    "quick-witted",
+    "than",
+    "any",
+    "other",
+    "man",
+    "in",
+    "the",
+    "court.",
+    "When",
+    "he",
+    "open",
+    "the",
+    "bundle",
+    "of",
+    "sticks,",
+    "everyone",
+    "laughed",
+    "loudly,",
+    "and",
+    "the",
+    "Emperor",
+    "praise",
+    "Raman",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "opening",
+      "opened",
+      "opens"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "praising",
+      "praised",
+      "praises"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Clauses joined by <b>when</b> and <b>and</b> keep the same past tense: opened, laughed, praised."
+  }
+ ]
+}

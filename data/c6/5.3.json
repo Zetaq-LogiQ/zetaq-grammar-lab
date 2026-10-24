@@ -1,0 +1,1000 @@
+{
+ "class": 6,
+ "id": "5.3",
+ "title": "A Courage that Saved Lives",
+ "topics": [
+  {
+   "tag": "articles",
+   "name": "Articles a, an, the"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "prepositions_time",
+   "name": "Prepositions of time, place and movement"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions (but, so, because, although, when, while)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-5.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kareena got an medal and a certificate.",
+    "Kareena got a medal and an certificate.",
+    "Kareena got a medal and a certificate."
+   ],
+   "answer": 2,
+   "rule": "<b>Medal</b> and <b>certificate</b> begin with consonant sounds, so use <b>a</b>."
+  },
+  {
+   "qid": "c6-5.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The award consists of a medal, a plaque and a certificate.",
+    "The award consist of a medal, a plaque and a certificate.",
+    "The award consisting of a medal, a plaque and a certificate."
+   ],
+   "answer": 0,
+   "rule": "<b>The award</b> is singular, so the verb takes <b>-s</b>: <b>consists</b>."
+  },
+  {
+   "qid": "c6-5.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct preposition.",
+   "options": [
+    "The function was held in Thursday.",
+    "The function was held on Thursday.",
+    "The function was held at Thursday."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days and dates: <b>on Thursday</b>."
+  },
+  {
+   "qid": "c6-5.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kareena",
+    "is",
+    "an",
+    "brave",
+    "girl",
+    "from",
+    "Amravati."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "many",
+      "a",
+      "few"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Brave</b> begins with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c6-5.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kareena",
+    "live",
+    "in",
+    "Amravati",
+    "with",
+    "her",
+    "family."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "lives",
+      "alive",
+      "living"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Kareena</b> is one person (he/she), so the present verb is <b>lives</b>."
+  },
+  {
+   "qid": "c6-5.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions_time",
+   "prompt": "Fill in the gap.",
+   "before": "The fire broke out",
+   "after": "15 May 2024.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "A full date takes <b>on</b>: <b>on 15 May 2024</b>."
+  },
+  {
+   "qid": "c6-5.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "She stopped",
+   "after": "LPG cylinder from exploding.",
+   "options": [
+    "a",
+    "some",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>LPG</b> is read 'el-pee-jee', which starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-5.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "threw",
+    "a",
+    "bucket",
+    "of",
+    "water."
+   ],
+   "alts": [],
+   "rule": "<b>A</b> goes before the singular noun <b>bucket</b>: She threw a bucket of water."
+  },
+  {
+   "qid": "c6-5.3-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "When did Kareena get the award?"
+    ]
+   ],
+   "options": [
+    "She got it in December 2024.",
+    "She got it on December 2024.",
+    "She got it at December 2024."
+   ],
+   "answer": 0,
+   "rule": "Use <b>in</b> with months and years: <b>in December 2024</b>."
+  },
+  {
+   "qid": "c6-5.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Does your father read the newspaper every day?"
+    ]
+   ],
+   "options": [
+    "Yes, he do read it every morning.",
+    "Yes, he reads it every morning.",
+    "Yes, he reading it every morning."
+   ],
+   "answer": 1,
+   "rule": "With <b>he</b> in the simple present, the verb takes <b>-s</b>: <b>he reads</b>."
+  },
+  {
+   "qid": "c6-5.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the smoke was thick, but she kept throwing water.",
+    "Although the smoke was thick, she kept throwing water.",
+    "Although the smoke was thick, she keep throwing water."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> already joins the two parts, so don't add <b>but</b>."
+  },
+  {
+   "qid": "c6-5.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "President gave her the award.",
+    "The President gave her a award.",
+    "The President gave her the award."
+   ],
+   "answer": 2,
+   "rule": "There is only one President of India, so say <b>the President</b>; <b>award</b> needs <b>an</b> or <b>the</b>."
+  },
+  {
+   "qid": "c6-5.3-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct preposition.",
+   "options": [
+    "Veer Bal Din is observed in 26 December.",
+    "Veer Bal Din is observed at 26 December.",
+    "Veer Bal Din is observed on 26 December."
+   ],
+   "answer": 2,
+   "rule": "A particular date takes <b>on</b>: <b>on 26 December</b>."
+  },
+  {
+   "qid": "c6-5.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Seventeen",
+    "children",
+    "was",
+    "honoured",
+    "with",
+    "the",
+    "award."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "has",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Children</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c6-5.3-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Despite",
+    "she",
+    "was",
+    "afraid,",
+    "she",
+    "broke",
+    "the",
+    "lock."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "However",
+      "Although",
+      "Yet"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Despite</b> is followed by a noun, not a clause. Before 'she was afraid' use <b>Although</b>."
+  },
+  {
+   "qid": "c6-5.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Every child in the hall",
+   "after": "clapping for Kareena.",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "<b>Every child</b> is singular, so use <b>was</b>."
+  },
+  {
+   "qid": "c6-5.3-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions_time",
+   "prompt": "Fill in the gap.",
+   "before": "Kareena has lived in Amravati",
+   "after": "many years.",
+   "options": [
+    "since",
+    "from",
+    "for"
+   ],
+   "answer": 2,
+   "rule": "Use <b>for</b> with a length of time (many years) and <b>since</b> with a starting point (2015)."
+  },
+  {
+   "qid": "c6-5.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "sister",
+    "watches",
+    "the",
+    "news",
+    "daily."
+   ],
+   "alts": [],
+   "rule": "<b>My sister</b> is singular, so the verb is <b>watches</b>."
+  },
+  {
+   "qid": "c6-5.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Why did Kareena get the award?"
+    ]
+   ],
+   "options": [
+    "She got it because of she saved seventy families.",
+    "She got it because she save seventy families.",
+    "She got it because she saved seventy families."
+   ],
+   "answer": 2,
+   "rule": "<b>Because</b> is followed by a clause: because she <b>saved</b> ... ('because of' needs a noun)."
+  },
+  {
+   "qid": "c6-5.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What time does the news come on TV?"
+    ]
+   ],
+   "options": [
+    "It comes on in eight o'clock.",
+    "It comes on at eight o'clock.",
+    "It comes on on eight o'clock."
+   ],
+   "answer": 1,
+   "rule": "Use <b>at</b> with clock times: <b>at eight o'clock</b>."
+  },
+  {
+   "qid": "c6-5.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "One of the children was from Amravati.",
+    "One of the children were from Amravati.",
+    "One of the child was from Amravati."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>one</b>, so use <b>was</b>; after <b>one of the</b> the noun is plural: <b>children</b>."
+  },
+  {
+   "qid": "c6-5.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kareena is an honest and brave girl.",
+    "Kareena is a honest and brave girl.",
+    "Kareena is an honest and brave girls."
+   ],
+   "answer": 0,
+   "rule": "<b>Honest</b> starts with a silent h (a vowel sound), so use <b>an</b>."
+  },
+  {
+   "qid": "c6-5.3-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "award",
+    "function",
+    "was",
+    "held",
+    "in",
+    "Thursday",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "at",
+      "on",
+      "since"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With a named day, even with 'morning', use <b>on</b>: <b>on Thursday morning</b>."
+  },
+  {
+   "qid": "c6-5.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kareena",
+    "is",
+    "one",
+    "of",
+    "a",
+    "bravest",
+    "children",
+    "in",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "the",
+      "an",
+      "some"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A superlative (<b>bravest</b>) takes <b>the</b>: one of <b>the</b> bravest children."
+  },
+  {
+   "qid": "c6-5.3-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the fire was spreading, Kareena kept throwing buckets of water.",
+   "options": [
+    "While",
+    "During",
+    "Despite"
+   ],
+   "answer": 0,
+   "rule": "<b>While</b> joins two actions happening together. <b>During</b> and <b>despite</b> need a noun, not a clause."
+  },
+  {
+   "qid": "c6-5.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The news about her courage",
+   "after": "on every channel.",
+   "options": [
+    "were",
+    "are",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "<b>News</b> looks plural but is uncountable and singular: <b>the news was</b>."
+  },
+  {
+   "qid": "c6-5.3-27",
+   "type": "build",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "door",
+    "was",
+    "locked,",
+    "so",
+    "Kareena",
+    "broke",
+    "in."
+   ],
+   "alts": [],
+   "rule": "<b>So</b> joins a cause to its result: the door was locked, <b>so</b> she broke in."
+  },
+  {
+   "qid": "c6-5.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions_time",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "ceremony",
+    "began",
+    "at",
+    "ten",
+    "o'clock."
+   ],
+   "alts": [],
+   "rule": "Use <b>at</b> with clock times: the ceremony began <b>at ten o'clock</b>."
+  },
+  {
+   "qid": "c6-5.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "What did the award consist of?"
+    ]
+   ],
+   "options": [
+    "It had a medal, a plaque and a certificate.",
+    "It had a medal, an plaque and a certificate.",
+    "It had a medal, a plaque and certificate."
+   ],
+   "answer": 0,
+   "rule": "Each singular countable noun needs <b>a</b>: a medal, a plaque and <b>a</b> certificate."
+  },
+  {
+   "qid": "c6-5.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Did you finish your homework before dinner?"
+    ]
+   ],
+   "options": [
+    "Yes, I finished it while you cooking.",
+    "Yes, I finished it while you were cooking.",
+    "Yes, I finished it during you were cooking."
+   ],
+   "answer": 1,
+   "rule": "<b>While</b> + a full clause (<b>you were cooking</b>); <b>during</b> needs a noun."
+  },
+  {
+   "qid": "c6-5.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kareena and her mother were invited to Delhi.",
+    "Kareena and her mother was invited to Delhi.",
+    "Kareena and her mother were invite to Delhi."
+   ],
+   "answer": 0,
+   "rule": "Two people joined by <b>and</b> make a plural subject: <b>were invited</b>."
+  },
+  {
+   "qid": "c6-5.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children received medals and certificates.",
+    "The childrens received medals and certificates.",
+    "The children received medals and an certificates."
+   ],
+   "answer": 0,
+   "rule": "<b>Children</b> is already plural; plural nouns take no <b>a/an</b>."
+  },
+  {
+   "qid": "c6-5.3-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kareena",
+    "acted",
+    "quickly,",
+    "so",
+    "not",
+    "a",
+    "single",
+    "child",
+    "were",
+    "hurt."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "are",
+      "was",
+      "have"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Not a single child</b> is singular, so use <b>was</b>."
+  },
+  {
+   "qid": "c6-5.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandfather",
+    "always",
+    "reads",
+    "the",
+    "newspaper",
+    "on",
+    "the",
+    "morning",
+    "before",
+    "breakfast."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "at",
+      "since",
+      "in"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Parts of the day take <b>in</b>: <b>in the morning</b>. Use <b>on</b> for days and dates."
+  },
+  {
+   "qid": "c6-5.3-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "It was",
+   "after": "honour for the whole city of Amravati.",
+   "options": [
+    "a",
+    "much",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>Honour</b> begins with a silent h, so it has a vowel sound: <b>an honour</b>."
+  },
+  {
+   "qid": "c6-5.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "She was only seventeen,",
+   "after": "she showed great courage.",
+   "options": [
+    "but",
+    "despite",
+    "because of"
+   ],
+   "answer": 0,
+   "rule": "<b>But</b> joins two contrasting clauses. <b>Despite</b> and <b>because of</b> need a noun, not a clause."
+  },
+  {
+   "qid": "c6-5.3-37",
+   "type": "build",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "the",
+    "award",
+    "include",
+    "a",
+    "medal?"
+   ],
+   "alts": [],
+   "rule": "Singular subject: <b>Does</b> + subject + base verb (<b>include</b>)."
+  },
+  {
+   "qid": "c6-5.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "It",
+    "was",
+    "an",
+    "act",
+    "of",
+    "great",
+    "courage."
+   ],
+   "alts": [],
+   "rule": "<b>Act</b> starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-5.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "How long have you lived in Amravati?"
+    ]
+   ],
+   "options": [
+    "I have lived here for 2015.",
+    "I have lived here since 2015.",
+    "I have lived here from 2015."
+   ],
+   "answer": 1,
+   "rule": "A starting point in time (2015) takes <b>since</b>."
+  },
+  {
+   "qid": "c6-5.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Which award do brave children get?"
+    ]
+   ],
+   "options": [
+    "Brave children gets the Bal Puraskar.",
+    "Brave children getting the Bal Puraskar.",
+    "Brave children get the Bal Puraskar."
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is plural, so the verb has no <b>-s</b>: <b>get</b>."
+  },
+  {
+   "qid": "c6-5.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the seventeen children were honoured with a medal, a plaque and a certificate.",
+    "Each of the seventeen children was honoured with a medal, a plaque and a certificate.",
+    "Each of the seventeen child was honoured with a medal, a plaque and a certificate."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of</b> + plural noun takes a singular verb: each ... <b>was</b>."
+  },
+  {
+   "qid": "c6-5.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the flat was full of smoke, but Kareena went inside and pulled out the cylinder.",
+    "Despite the flat was full of smoke, Kareena went inside and pulled out the cylinder.",
+    "Although the flat was full of smoke, Kareena went inside and pulled out the cylinder."
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> + clause, with no <b>but</b>. <b>Despite</b> cannot be followed by a clause."
+  },
+  {
+   "qid": "c6-5.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "ceremony",
+    "was",
+    "organised",
+    "at",
+    "Rashtrapati",
+    "Bhavan",
+    "in",
+    "the",
+    "occasion",
+    "of",
+    "Veer",
+    "Bal",
+    "Din."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "at",
+      "on",
+      "by"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "We say <b>on the occasion of</b>."
+  },
+  {
+   "qid": "c6-5.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "news",
+    "of",
+    "her",
+    "courage",
+    "reached",
+    "the",
+    "District",
+    "Collector's",
+    "office",
+    "quickly."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Many",
+      "The",
+      "An"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>News</b> is uncountable, so it never takes <b>a</b>. Use <b>the news</b>."
+  },
+  {
+   "qid": "c6-5.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The number of children who received awards this year",
+   "after": "seventeen.",
+   "options": [
+    "were",
+    "are",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "<b>The number of</b> ... is singular, so use <b>was</b>."
+  },
+  {
+   "qid": "c6-5.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Kareena heard people shouting about the fire, she rushed upstairs with a bucket of water.",
+   "options": [
+    "During",
+    "Despite",
+    "When"
+   ],
+   "answer": 2,
+   "rule": "<b>When</b> joins a clause of time. <b>During</b> and <b>despite</b> must be followed by a noun."
+  },
+  {
+   "qid": "c6-5.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Although",
+    "the",
+    "room",
+    "was",
+    "smoky,",
+    "she",
+    "stayed",
+    "calm."
+   ],
+   "alts": [],
+   "rule": "<b>Although</b> + clause, comma, then the main clause."
+  },
+  {
+   "qid": "c6-5.3-48",
+   "type": "build",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "presents",
+    "the",
+    "awards",
+    "every",
+    "year?"
+   ],
+   "alts": [],
+   "rule": "When <b>who</b> is the subject, it takes a singular verb: <b>Who presents</b> ...?"
+  },
+  {
+   "qid": "c6-5.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "I read about Kareena in the newspaper."
+    ],
+    [
+     "Ishaan",
+     "What did she do?"
+    ]
+   ],
+   "options": [
+    "She put out a fire and pulled an LPG cylinder out of a burning flat.",
+    "She put out a fire and pulled a LPG cylinder out of a burning flat.",
+    "She put out a fire and pulled an LPG cylinder out of an burning flat."
+   ],
+   "answer": 0,
+   "rule": "Choose <b>a/an</b> by sound: <b>an</b> LPG ('el'), <b>a</b> burning flat."
+  },
+  {
+   "qid": "c6-5.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Where and when was the award ceremony held?"
+    ]
+   ],
+   "options": [
+    "It was held at Rashtrapati Bhavan in 26 December 2024.",
+    "It was held at Rashtrapati Bhavan on 26 December 2024.",
+    "It was held on Rashtrapati Bhavan on 26 December 2024."
+   ],
+   "answer": 1,
+   "rule": "<b>At</b> a building or place, <b>on</b> a date."
+  }
+ ]
+}

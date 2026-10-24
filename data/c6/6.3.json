@@ -1,0 +1,994 @@
+{
+ "class": 6,
+ "id": "6.3",
+ "title": "Dadaji and International Women's Day",
+ "topics": [
+  {
+   "tag": "parts_of_speech",
+   "name": "Parts of speech (nouns, pronouns, verbs, word forms)"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "possessive",
+   "name": "Possessive 's and s'"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-6.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Dadaji was sitting near the window.",
+    "Dadaji were sitting near the window.",
+    "Dadaji was sit near the window."
+   ],
+   "answer": 0,
+   "rule": "Past continuous = <b>was/were + -ing</b>. One person takes <b>was</b>: <b>was sitting</b>."
+  },
+  {
+   "qid": "c6-6.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Today is International Women's Day.",
+    "Today is International Womens Day.",
+    "Today is International Womans Day."
+   ],
+   "answer": 0,
+   "rule": "<b>Women</b> is already plural, so add <b>'s</b>: <b>Women's</b>."
+  },
+  {
+   "qid": "c6-6.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya like posters about brave women.",
+    "Riya liking posters about brave women.",
+    "Riya likes posters about brave women."
+   ],
+   "answer": 2,
+   "rule": "One person (he/she) in the simple present takes <b>-s</b>: <b>Riya likes</b>."
+  },
+  {
+   "qid": "c6-6.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "were",
+    "angry",
+    "with",
+    "her",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Riya</b> is one person, so use <b>was</b>, not <b>were</b>."
+  },
+  {
+   "qid": "c6-6.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "parts_of_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dadaji",
+    "smiled",
+    "and",
+    "told",
+    "we",
+    "a",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "our",
+      "us",
+      "ours"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a verb like <b>told</b>, use the object pronoun <b>us</b>, not <b>we</b>."
+  },
+  {
+   "qid": "c6-6.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "parts_of_speech",
+   "prompt": "Choose the correct pronoun.",
+   "before": "Riya was angry, so Dadaji spoke to",
+   "after": "gently.",
+   "options": [
+    "she",
+    "her",
+    "hers"
+   ],
+   "answer": 1,
+   "rule": "After <b>to</b>, use the object pronoun <b>her</b>."
+  },
+  {
+   "qid": "c6-6.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Mary Kom",
+   "after": "a famous Indian boxer.",
+   "options": [
+    "are",
+    "am",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "One person (she) takes <b>is</b>."
+  },
+  {
+   "qid": "c6-6.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Make a sentence in the past continuous.",
+   "answer": [
+    "Rahul",
+    "was",
+    "teasing",
+    "his",
+    "sister."
+   ],
+   "alts": [],
+   "rule": "Past continuous: subject + <b>was</b> + verb-<b>ing</b>: <b>Rahul was teasing</b>."
+  },
+  {
+   "qid": "c6-6.3-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadaji",
+     "What were you two doing?"
+    ]
+   ],
+   "options": [
+    "We was reading an article about women.",
+    "We were read an article about women.",
+    "We were reading an article about women."
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> takes <b>were</b>, and the past continuous needs the <b>-ing</b> form: <b>were reading</b>."
+  },
+  {
+   "qid": "c6-6.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Whose poster is this?"
+    ]
+   ],
+   "options": [
+    "It is Meena poster.",
+    "It is Meena's poster.",
+    "It is Meenas' poster."
+   ],
+   "answer": 1,
+   "rule": "To show that something belongs to one person, add <b>'s</b>: <b>Meena's poster</b>."
+  },
+  {
+   "qid": "c6-6.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Women play an important role in every field.",
+    "Women plays an important role in every field.",
+    "Women is playing an important role in every field."
+   ],
+   "answer": 0,
+   "rule": "<b>Women</b> is plural, so the verb has no <b>-s</b>: <b>women play</b>."
+  },
+  {
+   "qid": "c6-6.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Which sentence uses the apostrophe correctly?",
+   "options": [
+    "Malala spoke up for girls's education.",
+    "Malala spoke up for girls' education.",
+    "Malala spoke up for girls education's."
+   ],
+   "answer": 1,
+   "rule": "For a plural noun ending in <b>s</b>, add only an apostrophe: <b>girls'</b>."
+  },
+  {
+   "qid": "c6-6.3-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "and",
+    "her",
+    "friends",
+    "was",
+    "making",
+    "posters",
+    "at",
+    "noon."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Riya and her friends</b> = more than one person, so use <b>were making</b>."
+  },
+  {
+   "qid": "c6-6.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "mothers",
+    "friend",
+    "is",
+    "a",
+    "pilot",
+    "like",
+    "Sarla",
+    "Thukral."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "mother",
+      "mothers's",
+      "mother's"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The friend belongs to my mother (one person), so write <b>mother's</b>."
+  },
+  {
+   "qid": "c6-6.3-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "parts_of_speech",
+   "prompt": "Choose the correct word form.",
+   "before": "Kalpana Chawla's",
+   "after": "make every Indian proud.",
+   "options": [
+    "achievements",
+    "achieve",
+    "achieved"
+   ],
+   "answer": 0,
+   "rule": "After <b>Kalpana Chawla's</b> we need a noun: <b>achievements</b>."
+  },
+  {
+   "qid": "c6-6.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "When Dadaji came in, the children",
+   "after": "about the article.",
+   "options": [
+    "was arguing",
+    "were arguing",
+    "are arguing"
+   ],
+   "answer": 1,
+   "rule": "<b>Came</b> shows the past, and <b>children</b> is plural: <b>were arguing</b>."
+  },
+  {
+   "qid": "c6-6.3-17",
+   "type": "build",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "grandmother",
+    "teaches",
+    "young",
+    "children."
+   ],
+   "alts": [],
+   "rule": "One person (she) in the simple present: <b>my grandmother teaches</b>."
+  },
+  {
+   "qid": "c6-6.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Riya's",
+    "face",
+    "lit",
+    "up",
+    "with",
+    "joy."
+   ],
+   "alts": [],
+   "rule": "<b>Riya's face</b> = the face of Riya. The owner comes first with <b>'s</b>."
+  },
+  {
+   "qid": "c6-6.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "Does your sister play cricket?"
+    ]
+   ],
+   "options": [
+    "Yes, she plays cricket every Sunday.",
+    "Yes, she play cricket every Sunday.",
+    "Yes, she playing cricket every Sunday."
+   ],
+   "answer": 0,
+   "rule": "<b>She</b> in the simple present takes <b>-s</b>: <b>she plays</b>."
+  },
+  {
+   "qid": "c6-6.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "parts_of_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who inspires you, Aarav?"
+    ]
+   ],
+   "options": [
+    "My mother inspires me every day.",
+    "My mother inspires I every day.",
+    "My mother inspire me every day."
+   ],
+   "answer": 0,
+   "rule": "After the verb use the object pronoun <b>me</b>, and <b>my mother</b> takes <b>inspires</b>."
+  },
+  {
+   "qid": "c6-6.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Rahul was laughing when Riya was grab the paper.",
+    "Rahul laughing when Riya grabbed the paper.",
+    "Rahul was laughing when Riya grabbed the paper."
+   ],
+   "answer": 2,
+   "rule": "The longer action uses <b>was + -ing</b> (<b>was laughing</b>); the short action uses the simple past (<b>grabbed</b>)."
+  },
+  {
+   "qid": "c6-6.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' posters were on the art wall.",
+    "The children's posters were on the art wall.",
+    "The childs' posters were on the art wall."
+   ],
+   "answer": 1,
+   "rule": "<b>Children</b> is a plural that does not end in s, so add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c6-6.3-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "packet",
+    "of",
+    "sketch",
+    "pens",
+    "are",
+    "on",
+    "the",
+    "table."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "were",
+      "be",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject is <b>a packet</b> (one), not <b>pens</b>, so use <b>is</b>."
+  },
+  {
+   "qid": "c6-6.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dadaji",
+    "was",
+    "sitting",
+    "nearby",
+    "when",
+    "Rahul",
+    "was",
+    "showed",
+    "Riya",
+    "the",
+    "article."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "showing",
+      "show",
+      "shown"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past continuous = <b>was + -ing</b>: <b>was showing</b>."
+  },
+  {
+   "qid": "c6-6.3-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "parts_of_speech",
+   "prompt": "Choose the correct word form.",
+   "before": "Women",
+   "after": "to every field, from science to sports.",
+   "options": [
+    "contribution",
+    "contribute",
+    "contributing"
+   ],
+   "answer": 1,
+   "rule": "The sentence needs a verb after <b>Women</b>: <b>contribute</b>."
+  },
+  {
+   "qid": "c6-6.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "Rahul borrowed his",
+   "after": "phone to read the article.",
+   "options": [
+    "uncle's",
+    "uncles",
+    "uncle"
+   ],
+   "answer": 0,
+   "rule": "The phone belongs to his uncle, so write <b>uncle's phone</b>."
+  },
+  {
+   "qid": "c6-6.3-27",
+   "type": "build",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "were",
+    "you",
+    "two",
+    "talking",
+    "about?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>What + were + subject + -ing</b>?"
+  },
+  {
+   "qid": "c6-6.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "parts_of_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "gave",
+    "them",
+    "a",
+    "short",
+    "speech."
+   ],
+   "alts": [],
+   "rule": "<b>She</b> is the subject pronoun; <b>them</b> is the object pronoun after the verb."
+  },
+  {
+   "qid": "c6-6.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "I called you at eight last night. You didn't answer."
+    ]
+   ],
+   "options": [
+    "Sorry, I am helping Dadaji with his medicines.",
+    "Sorry, I was helping Dadaji with his medicines.",
+    "Sorry, I were helping Dadaji with his medicines."
+   ],
+   "answer": 1,
+   "rule": "An action going on at a past time (eight last night) takes the past continuous: <b>I was helping</b>."
+  },
+  {
+   "qid": "c6-6.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "Who are those women in the photo?"
+    ]
+   ],
+   "options": [
+    "They is my teachers from school.",
+    "They are my teacher from school.",
+    "They are my teachers from school."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> takes <b>are</b>, and more than one person needs the plural <b>teachers</b>."
+  },
+  {
+   "qid": "c6-6.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sarla Thukral was India's first woman pilot.",
+    "Sarla Thukral were India's first woman pilot.",
+    "Sarla Thukral was India's first woman pilots."
+   ],
+   "answer": 0,
+   "rule": "One person takes <b>was</b>, and <b>first ... pilot</b> is singular."
+  },
+  {
+   "qid": "c6-6.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "The girls were practising boxing when it start to rain.",
+    "The girls were practising boxing when it started to rain.",
+    "The girls was practising boxing when it started to rain."
+   ],
+   "answer": 1,
+   "rule": "<b>The girls</b> takes <b>were practising</b>; the sudden action is in the simple past: <b>started</b>."
+  },
+  {
+   "qid": "c6-6.3-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We celebrate Women's Day in 8 March every year.",
+    "We celebrates Women's Day on 8 March every year.",
+    "We celebrate Women's Day on 8 March every year."
+   ],
+   "answer": 2,
+   "rule": "Use <b>on</b> with dates, and <b>we</b> takes <b>celebrate</b> (no -s)."
+  },
+  {
+   "qid": "c6-6.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "parts_of_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "spoke",
+    "angry",
+    "to",
+    "her",
+    "brother",
+    "about",
+    "the",
+    "article."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "angrily",
+      "anger",
+      "angrier"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say how she spoke, use an adverb: <b>spoke angrily</b>."
+  },
+  {
+   "qid": "c6-6.3-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Savitribai",
+    "Phules",
+    "dream",
+    "was",
+    "to",
+    "see",
+    "every",
+    "girl",
+    "in",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "Phule",
+      "Phules's",
+      "Phule's"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The dream belongs to Savitribai Phule (one person), so add <b>'s</b>: <b>Phule's dream</b>."
+  },
+  {
+   "qid": "c6-6.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Riya, along with her friends,",
+   "after": "making a poster now.",
+   "options": [
+    "are",
+    "is",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>Riya</b>; <b>along with her friends</b> does not change it. <b>Now</b> needs the present: <b>is</b>."
+  },
+  {
+   "qid": "c6-6.3-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Dadaji was reading the newspaper while the children",
+   "after": "in the garden.",
+   "options": [
+    "were playing",
+    "was playing",
+    "are play"
+   ],
+   "answer": 0,
+   "rule": "Two actions going on at the same past time: <b>was reading</b> ... <b>were playing</b>."
+  },
+  {
+   "qid": "c6-6.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Everyone",
+    "deserves",
+    "an",
+    "equal",
+    "chance."
+   ],
+   "alts": [],
+   "rule": "<b>Everyone</b> is singular, so the verb takes <b>-s</b>: <b>deserves</b>."
+  },
+  {
+   "qid": "c6-6.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "parts_of_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you find your brother's cap?"
+    ]
+   ],
+   "options": [
+    "Yes, I founded it under his bed.",
+    "Yes, I found it under his bed.",
+    "Yes, I find it under he bed."
+   ],
+   "answer": 1,
+   "rule": "The past of <b>find</b> is <b>found</b>; <b>it</b> stands for the cap and <b>his</b> shows whose bed."
+  },
+  {
+   "qid": "c6-6.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadaji",
+     "Why was Riya so upset this morning?"
+    ]
+   ],
+   "options": [
+    "Because Rahul was teasing her about an article.",
+    "Because Rahul were teasing her about an article.",
+    "Because Rahul was tease her about an article."
+   ],
+   "answer": 0,
+   "rule": "One person takes <b>was</b>, followed by the <b>-ing</b> form: <b>was teasing</b>."
+  },
+  {
+   "qid": "c6-6.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The list of women who showed great courage is very long.",
+    "The list of women who showed great courage are very long.",
+    "The list of women who shows great courage is very long."
+   ],
+   "answer": 0,
+   "rule": "The main subject is <b>the list</b> (one), so <b>is</b>. <b>Who showed</b> refers back to <b>women</b> and is past."
+  },
+  {
+   "qid": "c6-6.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya's friends were reading the womens' stories aloud.",
+    "Riya's friends were reading the women's stories aloud.",
+    "Riya's friend's were reading the women's stories aloud."
+   ],
+   "answer": 1,
+   "rule": "<b>Women's</b> (plural not ending in s + 's). A simple plural like <b>friends</b> needs no apostrophe."
+  },
+  {
+   "qid": "c6-6.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "girls",
+    "were",
+    "practising",
+    "their",
+    "speeches,",
+    "Dadaji",
+    "were",
+    "arranging",
+    "the",
+    "chairs",
+    "in",
+    "the",
+    "hall."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "is",
+      "are",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject of the second part is <b>Dadaji</b> (one person), so use <b>was arranging</b>, even though <b>the girls were</b> comes first."
+  },
+  {
+   "qid": "c6-6.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "one",
+    "of",
+    "these",
+    "brave",
+    "women",
+    "have",
+    "made",
+    "the",
+    "world",
+    "a",
+    "better",
+    "place."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "has",
+      "having",
+      "were"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>every one</b> (singular), not <b>women</b>, so use <b>has made</b>."
+  },
+  {
+   "qid": "c6-6.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "Both my",
+   "after": "names are on the school's list of toppers.",
+   "options": [
+    "sister's",
+    "sister",
+    "sisters'"
+   ],
+   "answer": 2,
+   "rule": "<b>Both</b> means two sisters; for a plural ending in s, add only an apostrophe: <b>sisters'</b>."
+  },
+  {
+   "qid": "c6-6.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "parts_of_speech",
+   "prompt": "Choose the correct word form.",
+   "before": "Dadaji explained the",
+   "after": "of International Women's Day to the children.",
+   "options": [
+    "important",
+    "importantly",
+    "importance"
+   ],
+   "answer": 2,
+   "rule": "After <b>the</b> and before <b>of</b> we need a noun: <b>importance</b>."
+  },
+  {
+   "qid": "c6-6.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "was",
+    "Rahul",
+    "covering",
+    "the",
+    "word?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>Why + was + subject + -ing</b>?"
+  },
+  {
+   "qid": "c6-6.3-48",
+   "type": "build",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Kalpana's",
+    "story",
+    "inspires",
+    "many",
+    "young",
+    "girls."
+   ],
+   "alts": [],
+   "rule": "The subject is <b>Kalpana's story</b> (one), so the verb takes <b>-s</b>: <b>inspires</b>."
+  },
+  {
+   "qid": "c6-6.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meena",
+     "Who is the woman in your speech?"
+    ]
+   ],
+   "options": [
+    "She is my grandmother, and she have taught me to be brave.",
+    "She are my grandmother, and she has taught me to be brave.",
+    "She is my grandmother, and she has taught me to be brave."
+   ],
+   "answer": 2,
+   "rule": "<b>She</b> takes <b>is</b> and <b>has</b>: <b>she has taught</b>."
+  },
+  {
+   "qid": "c6-6.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "What were you doing when the power went off?"
+    ]
+   ],
+   "options": [
+    "I practising my speech for Women's Day.",
+    "I was practising my speech for Women's Day.",
+    "I was practise my speech for Women's Day."
+   ],
+   "answer": 1,
+   "rule": "The question uses the past continuous, so answer with <b>I was practising</b>."
+  }
+ ]
+}

@@ -1,0 +1,1205 @@
+{
+ "class": 9,
+ "id": "05",
+ "title": "The Necklace",
+ "topics": [
+  {
+   "tag": "determiners",
+   "name": "Determiners (articles, possessives, quantifiers, each/every/neither)"
+  },
+  {
+   "tag": "verb_forms",
+   "name": "Verb forms (base, -s, past, -ing, past participle)"
+  },
+  {
+   "tag": "modal_perfect",
+   "name": "Modal + have + past participle (must have, should have, can't have)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech (statements, questions, orders)"
+  },
+  {
+   "tag": "conditional_3",
+   "name": "Third conditional (If ... had ..., would have ...)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-05-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mathilde had no rich dresses and a jewels.",
+    "Mathilde had no rich dresses and many jewel.",
+    "Mathilde had no rich dresses and no jewels."
+   ],
+   "answer": 2,
+   "rule": "<b>No</b> + plural noun is fine (<b>no jewels</b>); <b>a</b> needs a singular noun and <b>many</b> needs a plural one."
+  },
+  {
+   "qid": "c9-05-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Pick the sentence with the correct past forms.",
+   "options": [
+    "She teared open the envelope and drew out a card.",
+    "She tore open the envelope and drew out a card.",
+    "She tore open the envelope and drawed out a card."
+   ],
+   "answer": 1,
+   "rule": "<b>Tear</b> and <b>draw</b> are irregular: their past forms are <b>tore</b> and <b>drew</b>."
+  },
+  {
+   "qid": "c9-05-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You must have made a mistake, madam.",
+    "You must had made a mistake, madam.",
+    "You must have make a mistake, madam."
+   ],
+   "answer": 0,
+   "rule": "To guess about the past, use <b>must have + past participle</b>: <b>must have made</b>."
+  },
+  {
+   "qid": "c9-05-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each guests received an invitation card.",
+    "Each guest received an invitation card.",
+    "Each guest received a invitation card."
+   ],
+   "answer": 1,
+   "rule": "<b>Each</b> takes a singular noun (<b>guest</b>), and <b>an</b> goes before a vowel sound (<b>an invitation</b>)."
+  },
+  {
+   "qid": "c9-05-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reported question.",
+   "options": [
+    "Loisel asked her whether had she taken the cab's number.",
+    "Loisel asked her that whether she had taken the cab's number.",
+    "Loisel asked her whether she had taken the cab's number."
+   ],
+   "answer": 2,
+   "rule": "A reported question uses statement order (<b>she had taken</b>) and no <b>that</b> before whether."
+  },
+  {
+   "qid": "c9-05-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If they had found the necklace, they would not borrowed money.",
+    "If they would have found the necklace, they would not have borrowed money.",
+    "If they had found the necklace, they would not have borrowed money."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If + had + past participle</b>, then <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-05-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "determiners",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many money was needed to replace the necklace.",
+    "Much money was needed to replace the necklace.",
+    "Much money were needed to replace the necklace."
+   ],
+   "answer": 1,
+   "rule": "<b>Money</b> is uncountable: use <b>much</b> and a singular verb <b>was</b>."
+  },
+  {
+   "qid": "c9-05-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "modal_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Madame Forestier need not to have worried about her necklace.",
+    "Madame Forestier need not have worry about her necklace.",
+    "Madame Forestier need not have worried about her necklace."
+   ],
+   "answer": 2,
+   "rule": "<b>Need not have + past participle</b> (no 'to') means something was done but was not necessary."
+  },
+  {
+   "qid": "c9-05-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mathilde",
+    "wash",
+    "the",
+    "dishes",
+    "every",
+    "morning",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "washes",
+      "washing",
+      "washer"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Simple present with a third person singular subject takes the <b>-s form</b>: <b>washes</b>."
+  },
+  {
+   "qid": "c9-05-10",
+   "type": "fix",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mathilde",
+    "returned",
+    "the",
+    "necklace",
+    "to",
+    "she",
+    "friend."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "hers",
+      "her",
+      "herself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before a noun, use the possessive determiner <b>her</b>: <b>her friend</b>."
+  },
+  {
+   "qid": "c9-05-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "should",
+    "have",
+    "return",
+    "the",
+    "necklace",
+    "last",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "returning",
+      "returns",
+      "returned"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Should have + past participle</b> talks about the past: <b>should have returned</b>."
+  },
+  {
+   "qid": "c9-05-12",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mathilde",
+    "wrote",
+    "to",
+    "her",
+    "friend",
+    "that",
+    "she",
+    "has",
+    "broken",
+    "the",
+    "clasp",
+    "the",
+    "day",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "have",
+      "had",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a past reporting verb (<b>wrote</b>), <b>has broken</b> moves back to <b>had broken</b>; <b>the day before</b> also needs the past perfect."
+  },
+  {
+   "qid": "c9-05-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Mathilde",
+    "has",
+    "not",
+    "lost",
+    "the",
+    "necklace,",
+    "her",
+    "life",
+    "would",
+    "have",
+    "been",
+    "easier."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: the if-part takes the past perfect - <b>If Mathilde had not lost</b>."
+  },
+  {
+   "qid": "c9-05-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "necklace",
+    "was",
+    "bought",
+    "from",
+    "a",
+    "shop",
+    "and",
+    "pay",
+    "for",
+    "with",
+    "borrowed",
+    "money."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "paying",
+      "paid",
+      "pays"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both verbs share <b>was</b> (passive), so both need the past participle: <b>bought</b> and <b>paid</b>."
+  },
+  {
+   "qid": "c9-05-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "modal_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Madame",
+    "Forestier",
+    "can't",
+    "have",
+    "knew",
+    "about",
+    "the",
+    "new",
+    "necklace."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "know",
+      "knowing",
+      "known"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Can't have + past participle</b> says something was impossible in the past: <b>can't have known</b>."
+  },
+  {
+   "qid": "c9-05-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "determiners",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "Mathilde",
+    "nor",
+    "her",
+    "husband",
+    "were",
+    "able",
+    "to",
+    "forget",
+    "the",
+    "ten",
+    "hard",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "being",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Neither ... nor</b> with two singular nouns takes a singular verb: <b>was</b>."
+  },
+  {
+   "qid": "c9-05-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "Fill in the gap.",
+   "before": "Mathilde had",
+   "after": "rich friend from her school days.",
+   "options": [
+    "an",
+    "much",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>Rich</b> starts with a consonant sound, so use <b>a</b>; <b>much</b> is only for uncountable nouns."
+  },
+  {
+   "qid": "c9-05-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Mathilde",
+   "after": "the necklace around her neck and looked in the mirror.",
+   "options": [
+    "fasten",
+    "fastened",
+    "fastening"
+   ],
+   "answer": 1,
+   "rule": "Both actions are in the past (<b>looked</b>), so use <b>fastened</b>."
+  },
+  {
+   "qid": "c9-05-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The necklace must",
+   "after": "fallen in the cab.",
+   "options": [
+    "has",
+    "had",
+    "have"
+   ],
+   "answer": 2,
+   "rule": "After a modal like <b>must</b>, always use the base form <b>have</b>."
+  },
+  {
+   "qid": "c9-05-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "Fill in the gap.",
+   "before": "There was",
+   "after": "money left after the party.",
+   "options": [
+    "few",
+    "little",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>Money</b> is uncountable, so use <b>little</b>; <b>few</b> and <b>many</b> go with plural nouns."
+  },
+  {
+   "qid": "c9-05-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Madame Forestier asked Mathilde how",
+   "after": "changed so much.",
+   "options": [
+    "she had",
+    "had she",
+    "did she"
+   ],
+   "answer": 0,
+   "rule": "Reported questions use statement word order: <b>how she had changed</b>."
+  },
+  {
+   "qid": "c9-05-22",
+   "type": "fill",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Fill in the gap.",
+   "before": "If Mathilde had stayed at home, she",
+   "after": "lost the necklace.",
+   "options": [
+    "would not have",
+    "will not have",
+    "would not"
+   ],
+   "answer": 0,
+   "rule": "Third conditional result clause: <b>would (not) have + past participle</b>."
+  },
+  {
+   "qid": "c9-05-23",
+   "type": "fill",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "They stared at each other,",
+   "after": "by the loss.",
+   "options": [
+    "stunning",
+    "stunned",
+    "stun"
+   ],
+   "answer": 1,
+   "rule": "The past participle <b>stunned</b> describes how they felt; it pairs with <b>by</b>."
+  },
+  {
+   "qid": "c9-05-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "determiners",
+   "prompt": "Fill in the gap.",
+   "before": "The jeweller showed them two necklaces, but",
+   "after": "of them was cheap.",
+   "options": [
+    "neither",
+    "all",
+    "every"
+   ],
+   "answer": 0,
+   "rule": "For two things, use <b>neither</b> with a singular verb; <b>every</b> cannot take 'of', and <b>all</b> needs 'were'."
+  },
+  {
+   "qid": "c9-05-25",
+   "type": "build",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "She",
+    "had",
+    "no",
+    "jewels",
+    "to",
+    "wear."
+   ],
+   "alts": [],
+   "rule": "The determiner <b>no</b> comes right before the noun: <b>no jewels</b>."
+  },
+  {
+   "qid": "c9-05-26",
+   "type": "build",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "Make a sentence in the past continuous.",
+   "answer": [
+    "Her",
+    "hands",
+    "were",
+    "trembling",
+    "with",
+    "joy."
+   ],
+   "alts": [],
+   "rule": "Past continuous: <b>was/were + -ing form</b> - <b>were trembling</b>."
+  },
+  {
+   "qid": "c9-05-27",
+   "type": "build",
+   "level": 3,
+   "topic": "modal_perfect",
+   "prompt": "Make a guess about the past.",
+   "answer": [
+    "She",
+    "must",
+    "have",
+    "dropped",
+    "it",
+    "in",
+    "the",
+    "street."
+   ],
+   "alts": [],
+   "rule": "A sure guess about the past: <b>must have + past participle</b>."
+  },
+  {
+   "qid": "c9-05-28",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "He",
+    "asked",
+    "her",
+    "what",
+    "the",
+    "matter",
+    "was."
+   ],
+   "alts": [],
+   "rule": "In a reported question the verb comes after the subject: <b>what the matter was</b>."
+  },
+  {
+   "qid": "c9-05-29",
+   "type": "build",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "They",
+    "would",
+    "have",
+    "saved",
+    "ten",
+    "years",
+    "if",
+    "she",
+    "had",
+    "known."
+   ],
+   "alts": [],
+   "rule": "<b>would have + past participle</b> in the result, <b>had + past participle</b> after <b>if</b>."
+  },
+  {
+   "qid": "c9-05-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Can I borrow your blue pen?"
+    ]
+   ],
+   "options": [
+    "Sure, take it. It's on mine desk.",
+    "Sure, take it. It's on me desk.",
+    "Sure, take it. It's on my desk."
+   ],
+   "answer": 2,
+   "rule": "Before a noun, use the possessive determiner <b>my</b>, not mine or me."
+  },
+  {
+   "qid": "c9-05-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Did you give the invitation to Mrs Joshi?"
+    ]
+   ],
+   "options": [
+    "Yes, I gave it to her.",
+    "Yes, I gived it to her.",
+    "Yes, I given it to her."
+   ],
+   "answer": 0,
+   "rule": "<b>Give</b> is irregular: past <b>gave</b>, past participle <b>given</b>."
+  },
+  {
+   "qid": "c9-05-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "I can't find my phone anywhere!"
+    ]
+   ],
+   "options": [
+    "You might have left it on the bus.",
+    "You might has left it on the bus.",
+    "You might have leave it on the bus."
+   ],
+   "answer": 0,
+   "rule": "A possible past event: <b>might have + past participle</b> - <b>might have left</b>."
+  },
+  {
+   "qid": "c9-05-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "What did your teacher say?"
+    ]
+   ],
+   "options": [
+    "She told that we had a test on Monday.",
+    "She told us that we had a test on Monday.",
+    "She said us that we had a test on Monday."
+   ],
+   "answer": 1,
+   "rule": "<b>Told</b> needs a person after it (<b>told us</b>); <b>said</b> does not take one directly."
+  },
+  {
+   "qid": "c9-05-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dhruv",
+     "We missed the train by two minutes!"
+    ]
+   ],
+   "options": [
+    "If we had left earlier, we would have caught it.",
+    "If we left earlier, we would have caught it.",
+    "If we had left earlier, we would caught it."
+   ],
+   "answer": 0,
+   "rule": "For an unreal past: <b>If + had left</b>, <b>would have caught</b>."
+  },
+  {
+   "qid": "c9-05-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "determiners",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Did the players get their jerseys?"
+    ]
+   ],
+   "options": [
+    "Yes, each players got a jersey.",
+    "Yes, each player got an jersey.",
+    "Yes, each player got a jersey."
+   ],
+   "answer": 2,
+   "rule": "<b>Each</b> takes a singular noun, and <b>jersey</b> starts with a consonant sound, so <b>a jersey</b>."
+  },
+  {
+   "qid": "c9-05-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "modal_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riddhi",
+     "Anu didn't come to the party."
+    ],
+    [
+     "Riddhi",
+     "Was she ill?"
+    ]
+   ],
+   "options": [
+    "She can't have be ill. I saw her at the market.",
+    "She can't have been ill. I saw her at the market.",
+    "She can't had been ill. I saw her at the market."
+   ],
+   "answer": 1,
+   "rule": "To say something was impossible in the past: <b>can't have + past participle</b> - <b>can't have been</b>."
+  },
+  {
+   "qid": "c9-05-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who told you about the change in the timetable?"
+    ]
+   ],
+   "options": [
+    "Kunal told me that the timetable had been change.",
+    "Kunal told to me that the timetable had been changed.",
+    "Kunal told me that the timetable had been changed."
+   ],
+   "answer": 2,
+   "rule": "<b>Told me</b> (no 'to'), and the passive needs the past participle: <b>had been changed</b>."
+  },
+  {
+   "qid": "c9-05-38",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Loisel said to his wife, \"Try and get a really beautiful dress.\"",
+   "options": [
+    "Loisel told his wife to tried and get a really beautiful dress.",
+    "Loisel told his wife to try and get a really beautiful dress.",
+    "Loisel told to his wife try and get a really beautiful dress."
+   ],
+   "answer": 1,
+   "rule": "An order or advice is reported with <b>told + person + to + base form</b>."
+  },
+  {
+   "qid": "c9-05-39",
+   "type": "change",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "Change into the past continuous tense.",
+   "source": "Mathilde danced at the party.",
+   "options": [
+    "Mathilde were dancing at the party.",
+    "Mathilde was danced at the party.",
+    "Mathilde was dancing at the party."
+   ],
+   "answer": 2,
+   "rule": "Past continuous: <b>was + -ing form</b> with a singular subject - <b>was dancing</b>."
+  },
+  {
+   "qid": "c9-05-40",
+   "type": "change",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "Make it negative using 'any'.",
+   "source": "Mathilde had some jewels.",
+   "options": [
+    "Mathilde did not had any jewels.",
+    "Mathilde did not have any jewels.",
+    "Mathilde did not have some jewel."
+   ],
+   "answer": 1,
+   "rule": "In negatives, <b>some</b> becomes <b>any</b>; after <b>did not</b>, use the base form <b>have</b>."
+  },
+  {
+   "qid": "c9-05-41",
+   "type": "change",
+   "level": 3,
+   "topic": "modal_perfect",
+   "prompt": "Rewrite using 'must have'.",
+   "source": "I am sure that the guests enjoyed the party.",
+   "options": [
+    "The guests must enjoyed the party.",
+    "The guests must have enjoyed the party.",
+    "The guests must had enjoyed the party."
+   ],
+   "answer": 1,
+   "rule": "Being sure about the past = <b>must have + past participle</b>."
+  },
+  {
+   "qid": "c9-05-42",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Loisel asked Mathilde, \"Did you take his number?\"",
+   "options": [
+    "Loisel asked Mathilde if had she taken his number.",
+    "Loisel asked Mathilde if she has took his number.",
+    "Loisel asked Mathilde if she had taken his number."
+   ],
+   "answer": 2,
+   "rule": "Yes/no questions are reported with <b>if/whether</b>, statement order and backshift: <b>she had taken</b>."
+  },
+  {
+   "qid": "c9-05-43",
+   "type": "change",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Combine the sentences using 'If'.",
+   "source": "Loisel did not take the cab's number. He could not find the cab.",
+   "options": [
+    "If Loisel took the cab's number, he could have found the cab.",
+    "If Loisel had taken the cab's number, he could have found the cab.",
+    "If Loisel had taken the cab's number, he could found the cab."
+   ],
+   "answer": 1,
+   "rule": "Imagining a different past: <b>If + had + past participle</b>, <b>could have + past participle</b>."
+  },
+  {
+   "qid": "c9-05-44",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Rewrite beginning with 'Had'.",
+   "source": "If Mathilde had told her friend the truth, she would not have suffered so much.",
+   "options": [
+    "Had Mathilde told her friend the truth, she would not suffered so much.",
+    "Had Mathilde tell her friend the truth, she would not have suffered so much.",
+    "Had Mathilde told her friend the truth, she would not have suffered so much."
+   ],
+   "answer": 2,
+   "rule": "Drop <b>if</b> and put <b>had</b> before the subject; the rest stays the same."
+  },
+  {
+   "qid": "c9-05-45",
+   "type": "change",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Change into passive voice, beginning with 'Mathilde'.",
+   "source": "Madame Forestier lent Mathilde a diamond necklace.",
+   "options": [
+    "Mathilde was lend a diamond necklace by Madame Forestier.",
+    "Mathilde is lent a diamond necklace by Madame Forestier.",
+    "Mathilde was lent a diamond necklace by Madame Forestier."
+   ],
+   "answer": 2,
+   "rule": "Simple past passive: <b>was + past participle</b>; the past participle of lend is <b>lent</b>."
+  },
+  {
+   "qid": "c9-05-46",
+   "type": "proof",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mathilde's",
+    "husband",
+    "come",
+    "home",
+    "one",
+    "evening",
+    "with",
+    "a",
+    "large",
+    "envelope.",
+    "She",
+    "tore",
+    "it",
+    "open",
+    "and",
+    "draw",
+    "out",
+    "a",
+    "card.",
+    "It",
+    "was",
+    "an",
+    "invitation",
+    "to",
+    "a",
+    "grand",
+    "party."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "came",
+      "comes",
+      "coming"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "drew",
+      "draws",
+      "drawn"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is in the past: <b>came</b> and <b>drew</b> (irregular past forms)."
+  },
+  {
+   "qid": "c9-05-47",
+   "type": "proof",
+   "level": 3,
+   "topic": "determiners",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mathilde",
+    "did",
+    "not",
+    "have",
+    "much",
+    "dresses,",
+    "and",
+    "those",
+    "she",
+    "had",
+    "were",
+    "all",
+    "old.",
+    "She",
+    "had",
+    "very",
+    "little",
+    "friends,",
+    "and",
+    "only",
+    "one",
+    "of",
+    "them",
+    "was",
+    "rich."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "a",
+      "many",
+      "every"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "few",
+      "much",
+      "less"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Countable plural nouns take <b>many</b> and <b>few</b>; much and little are for uncountable nouns. <b>those ... were</b> and <b>one of them</b> show the nouns are plural."
+  },
+  {
+   "qid": "c9-05-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "modal_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Madame",
+    "Forestier",
+    "said",
+    "coldly",
+    "that",
+    "Mathilde",
+    "should",
+    "of",
+    "returned",
+    "the",
+    "necklace",
+    "sooner.",
+    "She",
+    "must",
+    "have",
+    "been",
+    "annoyed,",
+    "but",
+    "she",
+    "can't",
+    "have",
+    "saw",
+    "the",
+    "change",
+    "in",
+    "the",
+    "diamonds."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "has",
+      "had",
+      "have"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "seen",
+      "see",
+      "seeing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Modal + <b>have</b> (never 'of') + past participle: <b>should have returned</b>, <b>can't have seen</b>."
+  },
+  {
+   "qid": "c9-05-49",
+   "type": "proof",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "the",
+    "Loisels",
+    "had",
+    "not",
+    "borrowed",
+    "so",
+    "much",
+    "money,",
+    "they",
+    "would",
+    "not",
+    "have",
+    "became",
+    "so",
+    "poor.",
+    "They",
+    "had",
+    "to",
+    "rent",
+    "a",
+    "small",
+    "garret",
+    "and",
+    "done",
+    "all",
+    "the",
+    "housework",
+    "themselves."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "become",
+      "becoming",
+      "becomes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "doing",
+      "does",
+      "do"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>would have + past participle</b> (<b>become</b>); after <b>had to</b>, both verbs take the base form: <b>rent ... and do</b>."
+  },
+  {
+   "qid": "c9-05-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Ten",
+    "years",
+    "later,",
+    "Mathilde",
+    "met",
+    "Madame",
+    "Forestier,",
+    "which",
+    "was",
+    "still",
+    "young",
+    "and",
+    "charming.",
+    "She",
+    "explained",
+    "that",
+    "she",
+    "had",
+    "worked",
+    "hard",
+    "to",
+    "replace",
+    "the",
+    "necklace",
+    "she",
+    "had",
+    "borrow",
+    "from",
+    "her.",
+    "Madame",
+    "Forestier,",
+    "deeply",
+    "moved,",
+    "took",
+    "both",
+    "of",
+    "her",
+    "hand",
+    "in",
+    "her",
+    "own."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "borrowed",
+      "borrowing",
+      "borrows"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 37,
+     "options": [
+      "handed",
+      "handing",
+      "hands"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>who</b> for a person, <b>had borrowed</b> (past participle), and <b>both of her hands</b> (plural)."
+  }
+ ]
+}

@@ -1,0 +1,988 @@
+{
+ "class": 6,
+ "id": "2.3",
+ "title": "The Value of Time",
+ "topics": [
+  {
+   "tag": "simple_tenses",
+   "name": "Simple present, past and future"
+  },
+  {
+   "tag": "irregular_past",
+   "name": "Irregular past tense verbs"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner, time and frequency"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals can / could / may / must / should"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-2.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The moon go round the earth.",
+    "The moon going round the earth.",
+    "The moon goes round the earth."
+   ],
+   "answer": 2,
+   "rule": "A universal fact takes the simple present. <b>The moon</b> is singular: <b>goes</b>."
+  },
+  {
+   "qid": "c6-2.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "irregular_past",
+   "prompt": "Pick the correct past tense.",
+   "options": [
+    "Bhikhu drinked a glass of milk.",
+    "Bhikhu drank a glass of milk.",
+    "Bhikhu drunk a glass of milk."
+   ],
+   "answer": 1,
+   "rule": "<b>drink</b> is irregular: drink - <b>drank</b> - drunk. The simple past is <b>drank</b>."
+  },
+  {
+   "qid": "c6-2.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bhikhu should wakes up early.",
+    "Bhikhu should wake up early.",
+    "Bhikhu should woke up early."
+   ],
+   "answer": 1,
+   "rule": "After <b>should</b> use the base verb: <b>should wake</b>."
+  },
+  {
+   "qid": "c6-2.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Water",
+    "boil",
+    "at",
+    "100",
+    "degrees",
+    "Celsius."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "boils",
+      "boiler",
+      "boiling"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A scientific fact takes the simple present, and <b>water</b> is singular: <b>boils</b>."
+  },
+  {
+   "qid": "c6-2.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "irregular_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Bhikhu",
+    "bring",
+    "water",
+    "from",
+    "the",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "brought",
+      "brings",
+      "bringing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Yesterday</b> needs the past. bring - <b>brought</b>."
+  },
+  {
+   "qid": "c6-2.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Bhikhu",
+   "after": "visit the field tomorrow.",
+   "options": [
+    "was",
+    "has",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "<b>tomorrow</b> is the future: <b>will + base verb</b>."
+  },
+  {
+   "qid": "c6-2.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Bhikhu",
+   "after": "wakes up late.",
+   "options": [
+    "yesterday",
+    "tomorrow",
+    "always"
+   ],
+   "answer": 2,
+   "rule": "<b>wakes</b> shows a present habit, so a frequency adverb like <b>always</b> fits; <b>yesterday</b> and <b>tomorrow</b> clash with the present."
+  },
+  {
+   "qid": "c6-2.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_tenses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "farmer",
+    "works",
+    "very",
+    "hard."
+   ],
+   "alts": [],
+   "rule": "Subject + verb + adverb: The farmer works very hard."
+  },
+  {
+   "qid": "c6-2.3-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "irregular_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did you do last Sunday?"
+    ]
+   ],
+   "options": [
+    "I weared my new shoes to a wedding.",
+    "I wore my new shoes to a wedding.",
+    "I worn my new shoes to a wedding."
+   ],
+   "answer": 1,
+   "rule": "<b>wear</b> is irregular: wear - <b>wore</b> - worn."
+  },
+  {
+   "qid": "c6-2.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What will you do tomorrow?"
+    ]
+   ],
+   "options": [
+    "I will visited my grandparents.",
+    "I will visit my grandparents.",
+    "I visiting my grandparents."
+   ],
+   "answer": 1,
+   "rule": "Simple future: <b>will + base verb</b>: <b>will visit</b>."
+  },
+  {
+   "qid": "c6-2.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "irregular_past",
+   "prompt": "Pick the correct past tense.",
+   "options": [
+    "The woodcutter finded a bag of gold.",
+    "The woodcutter find a bag of gold yesterday.",
+    "The woodcutter found a bag of gold."
+   ],
+   "answer": 2,
+   "rule": "<b>find</b> is irregular: find - <b>found</b>."
+  },
+  {
+   "qid": "c6-2.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera often goes to the library.",
+    "Meera often going to the library.",
+    "Meera often go to the library."
+   ],
+   "answer": 0,
+   "rule": "Frequency adverb before the main verb, and <b>Meera</b> takes <b>goes</b>: <b>often goes</b>."
+  },
+  {
+   "qid": "c6-2.3-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bhikhu",
+    "should",
+    "not",
+    "wastes",
+    "his",
+    "precious",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "wasted",
+      "waste",
+      "wasting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>should not</b> use the base verb: <b>should not waste</b>."
+  },
+  {
+   "qid": "c6-2.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bhikhu",
+    "did",
+    "his",
+    "work",
+    "lazy",
+    "and",
+    "slowly."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "laziness",
+      "lazily",
+      "lazier"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To describe how he worked, use adverbs: <b>lazily</b> and <b>slowly</b>."
+  },
+  {
+   "qid": "c6-2.3-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "irregular_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last year, my brother",
+   "after": "to swim.",
+   "options": [
+    "began",
+    "begun",
+    "begin"
+   ],
+   "answer": 0,
+   "rule": "<b>Last year</b> needs the simple past: begin - <b>began</b> - begun."
+  },
+  {
+   "qid": "c6-2.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "The moon",
+   "after": "at night.",
+   "options": [
+    "appears",
+    "appear",
+    "appearing"
+   ],
+   "answer": 0,
+   "rule": "A fact of nature takes the simple present. <b>The moon</b> is singular: <b>appears</b>."
+  },
+  {
+   "qid": "c6-2.3-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "must",
+    "not",
+    "waste",
+    "time."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>must not</b> + base verb: We must not waste time."
+  },
+  {
+   "qid": "c6-2.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "irregular_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Grandma",
+    "forgave",
+    "me",
+    "for",
+    "the",
+    "mistake."
+   ],
+   "alts": [],
+   "rule": "forgive - <b>forgave</b>: Grandma forgave me for the mistake."
+  },
+  {
+   "qid": "c6-2.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How often do you practise?"
+    ]
+   ],
+   "options": [
+    "I practise every evening, sir.",
+    "I practising every evening, sir.",
+    "I practise every evenings, sir."
+   ],
+   "answer": 0,
+   "rule": "A habit takes the simple present <b>I practise</b>. <b>every</b> is followed by a singular noun: <b>every evening</b>."
+  },
+  {
+   "qid": "c6-2.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the best advice.",
+   "chat": [
+    [
+     "Aditi",
+     "I have a test tomorrow, but I want to watch a movie."
+    ]
+   ],
+   "options": [
+    "You should revising first and watch the movie later.",
+    "You should to revise first and watch the movie later.",
+    "You should revise first and watch the movie later."
+   ],
+   "answer": 2,
+   "rule": "Give advice with <b>should + base verb</b>: <b>should revise</b>. No <b>to</b> after should."
+  },
+  {
+   "qid": "c6-2.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Yesterday I eat an apple, and tomorrow I will eat a mango.",
+    "Yesterday I ate an apple, and tomorrow I will ate a mango.",
+    "Yesterday I ate an apple, and tomorrow I will eat a mango."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> takes the past <b>ate</b>; <b>tomorrow</b> takes <b>will + base verb</b>: <b>will eat</b>."
+  },
+  {
+   "qid": "c6-2.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "irregular_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bhikhu knew about the gold but did not go.",
+    "Bhikhu knowed about the gold but did not go.",
+    "Bhikhu knew about the gold but did not went."
+   ],
+   "answer": 0,
+   "rule": "know - <b>knew</b>. After <b>did not</b> use the base verb: <b>did not go</b>."
+  },
+  {
+   "qid": "c6-2.3-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The woodcutter could not believe his eyes.",
+    "The woodcutter could not believed his eyes.",
+    "The woodcutter could not believes his eyes."
+   ],
+   "answer": 0,
+   "rule": "<b>could</b> is already past; the verb after it stays in the base form: <b>could not believe</b>."
+  },
+  {
+   "qid": "c6-2.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bhikhu",
+    "will",
+    "learns",
+    "the",
+    "value",
+    "of",
+    "time",
+    "one",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "learn",
+      "learnt",
+      "learning"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Simple future: <b>will + base verb</b>: <b>will learn</b>."
+  },
+  {
+   "qid": "c6-2.3-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmer",
+    "spoke",
+    "kind",
+    "to",
+    "his",
+    "lazy",
+    "son."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "kinder",
+      "kindness",
+      "kindly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To say how he spoke, use the adverb <b>kindly</b>, not the adjective <b>kind</b>."
+  },
+  {
+   "qid": "c6-2.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The woodcutter",
+   "after": "cut down the dry tree.",
+   "options": [
+    "quick",
+    "quickly",
+    "quicker"
+   ],
+   "answer": 1,
+   "rule": "A word describing an action is an adverb: <b>quickly</b> cut down."
+  },
+  {
+   "qid": "c6-2.3-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "not keep your friends waiting.",
+   "options": [
+    "are",
+    "does",
+    "should"
+   ],
+   "answer": 2,
+   "rule": "Advice: <b>should not + base verb</b>. <b>are keep</b> and <b>you does</b> are wrong forms."
+  },
+  {
+   "qid": "c6-2.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_tenses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "will",
+    "win",
+    "the",
+    "next",
+    "match."
+   ],
+   "alts": [],
+   "rule": "Simple future: subject + <b>will</b> + base verb: We will win the next match."
+  },
+  {
+   "qid": "c6-2.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "irregular_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did you see the sunrise this morning?"
+    ]
+   ],
+   "options": [
+    "Yes, I seen it from the terrace.",
+    "Yes, I seed it from the terrace.",
+    "Yes, I saw it from the terrace."
+   ],
+   "answer": 2,
+   "rule": "see - <b>saw</b> - seen. The simple past is <b>saw</b>."
+  },
+  {
+   "qid": "c6-2.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Does your teacher give homework every day?"
+    ]
+   ],
+   "options": [
+    "Yes, she give us homework every day.",
+    "Yes, she gives us homework every day.",
+    "Yes, she is give us homework every day."
+   ],
+   "answer": 1,
+   "rule": "A daily habit takes the simple present. <b>she</b> takes <b>gives</b>."
+  },
+  {
+   "qid": "c6-2.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer was a honest and hardworking man.",
+    "The farmer was an honest and hardworking man.",
+    "The farmer were an honest and hardworking man."
+   ],
+   "answer": 1,
+   "rule": "<b>honest</b> starts with a vowel sound, so use <b>an</b>. One farmer takes <b>was</b>."
+  },
+  {
+   "qid": "c6-2.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "irregular_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children brought many mangoes from the farm.",
+    "The children bringed many mangoes from the farm.",
+    "The childrens brought many mangoes from the farm."
+   ],
+   "answer": 0,
+   "rule": "bring - <b>brought</b>. <b>children</b> is already plural; no extra s."
+  },
+  {
+   "qid": "c6-2.3-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "irregular_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "Bhikhu",
+    "sleeped",
+    "for",
+    "ten",
+    "hours",
+    "and",
+    "missed",
+    "the",
+    "sunrise."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sleeps",
+      "slept",
+      "sleeping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>sleep</b> is irregular: sleep - <b>slept</b>."
+  },
+  {
+   "qid": "c6-2.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "finished",
+    "the",
+    "race",
+    "more",
+    "quick",
+    "than",
+    "his",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "quicker",
+      "quickest",
+      "quickly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing how two people did something needs the adverb: <b>more quickly than</b>."
+  },
+  {
+   "qid": "c6-2.3-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Bhikhu always",
+   "after": "late, so he never sees the sunrise.",
+   "options": [
+    "woke up",
+    "waking up",
+    "wakes up"
+   ],
+   "answer": 2,
+   "rule": "A habit with <b>always</b> and <b>sees</b> is in the simple present: <b>wakes up</b>."
+  },
+  {
+   "qid": "c6-2.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "The next day, Bhikhu",
+   "after": "find the gold because the woodcutter had taken it home.",
+   "options": [
+    "could not",
+    "cannot",
+    "must not"
+   ],
+   "answer": 0,
+   "rule": "Inability in the past: <b>could not</b>. <b>The next day</b> is in the past, so <b>cannot</b> is wrong."
+  },
+  {
+   "qid": "c6-2.3-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_tenses",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "Bhikhu",
+    "lose",
+    "the",
+    "gold?"
+   ],
+   "alts": [],
+   "rule": "Past question: Wh- word + <b>did</b> + subject + base verb: Why did Bhikhu lose the gold?"
+  },
+  {
+   "qid": "c6-2.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "irregular_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "wore",
+    "the",
+    "red",
+    "jersey",
+    "yesterday?"
+   ],
+   "alts": [],
+   "rule": "When <b>Who</b> is the subject, use the past verb directly: Who <b>wore</b> ...?"
+  },
+  {
+   "qid": "c6-2.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "May I borrow your ruler?"
+    ]
+   ],
+   "options": [
+    "Yes, you mays. Please return it after the class.",
+    "Yes, you may. Please returns it after the class.",
+    "Yes, you may. Please return it after the class."
+   ],
+   "answer": 2,
+   "rule": "Modals never add s: <b>you may</b>. A request uses the base verb: <b>Please return</b>."
+  },
+  {
+   "qid": "c6-2.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you finish your science project?"
+    ]
+   ],
+   "options": [
+    "Not yet. I will finish it tonight.",
+    "Not yet. I will finished it tonight.",
+    "Not yet. I finishing it tonight."
+   ],
+   "answer": 0,
+   "rule": "A plan for later uses <b>will + base verb</b>: <b>will finish</b>."
+  },
+  {
+   "qid": "c6-2.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the rain comes, the white lily blossoms, and when the rain goes, the lily disappears too.",
+    "When the rain comes, the white lily blossom, and when the rain goes, the lily disappears too.",
+    "When the rain comes, the white lily blossoms, and when the rain go, the lily disappears too."
+   ],
+   "answer": 0,
+   "rule": "Every singular subject in the present needs -s: <b>rain comes</b>, <b>lily blossoms</b>, <b>rain goes</b>."
+  },
+  {
+   "qid": "c6-2.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "irregular_past",
+   "prompt": "Pick the sentence with the correct past forms.",
+   "options": [
+    "Bhikhu begun the day late, drank his tea slowly and forgot all about the gold.",
+    "Bhikhu began the day late, drunk his tea slowly and forgot all about the gold.",
+    "Bhikhu began the day late, drank his tea slowly and forgot all about the gold."
+   ],
+   "answer": 2,
+   "rule": "Simple past forms: <b>began</b>, <b>drank</b>, <b>forgot</b>. <b>begun</b> and <b>drunk</b> need has/had."
+  },
+  {
+   "qid": "c6-2.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "woodcutter",
+    "cut",
+    "the",
+    "tree,",
+    "finds",
+    "the",
+    "gold",
+    "and",
+    "took",
+    "it",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "found",
+      "find",
+      "finding"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "All three actions are in the past: <b>cut</b>, <b>found</b>, <b>took</b>."
+  },
+  {
+   "qid": "c6-2.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "want",
+    "to",
+    "succeed,",
+    "you",
+    "must",
+    "works",
+    "hard",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "worked",
+      "work",
+      "working"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>must</b> use the base verb: <b>must work</b>."
+  },
+  {
+   "qid": "c6-2.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Every year, the white lily",
+   "after": "only once, when the rain comes.",
+   "options": [
+    "blossomed",
+    "blossoms",
+    "blossom"
+   ],
+   "answer": 1,
+   "rule": "<b>Every year</b> and <b>comes</b> show a present fact. <b>The lily</b> is singular: <b>blossoms</b>."
+  },
+  {
+   "qid": "c6-2.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The breeze",
+   "after": "bends the branches of the tall trees.",
+   "options": [
+    "gentle",
+    "gentler",
+    "gently"
+   ],
+   "answer": 2,
+   "rule": "The word tells how the breeze bends, so use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c6-2.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Bhikhu",
+    "never",
+    "saw",
+    "the",
+    "sunrise",
+    "because",
+    "he",
+    "overslept."
+   ],
+   "alts": [],
+   "rule": "Frequency adverb <b>never</b> goes before the main verb: Bhikhu never saw the sunrise."
+  },
+  {
+   "qid": "c6-2.3-48",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "should",
+    "we",
+    "do",
+    "with",
+    "our",
+    "free",
+    "time?"
+   ],
+   "alts": [],
+   "rule": "Question with a modal: Wh- word + <b>should</b> + subject + base verb."
+  },
+  {
+   "qid": "c6-2.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you learn from the story of the lazy son?"
+    ]
+   ],
+   "options": [
+    "I learnt that we should never putting off our work.",
+    "I learnt that we should never put off our work.",
+    "I learnt that we should never puts off our work."
+   ],
+   "answer": 1,
+   "rule": "After <b>should never</b> use the base verb: <b>should never put off</b>."
+  },
+  {
+   "qid": "c6-2.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Will you come cycling with me at six tomorrow morning?"
+    ]
+   ],
+   "options": [
+    "Sure! I will set an alarm, so I won't overslept.",
+    "Sure! I will set an alarm, so I won't oversleep.",
+    "Sure! I will sets an alarm, so I won't oversleep."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> and <b>won't</b> are followed by the base verb: <b>will set</b>, <b>won't oversleep</b>."
+  }
+ ]
+}

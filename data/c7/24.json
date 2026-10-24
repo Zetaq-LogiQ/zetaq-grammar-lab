@@ -1,0 +1,992 @@
+{
+ "class": 7,
+ "id": "24",
+ "title": "Seeing Eyes Helping Hands",
+ "topics": [
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect and simple past"
+  },
+  {
+   "tag": "gerund",
+   "name": "Gerunds after prepositions and verbs"
+  },
+  {
+   "tag": "phrasal_verbs",
+   "name": "Phrasal verbs"
+  },
+  {
+   "tag": "sentence_transform",
+   "name": "Negative, question and affirmative sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-24-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The students has helped the residents.",
+    "The students have helped the residents.",
+    "The students have help the residents."
+   ],
+   "answer": 1,
+   "rule": "Present perfect = <b>have/has + past participle</b>. Plural <b>students</b> takes <b>have helped</b>."
+  },
+  {
+   "qid": "c7-24-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "gerund",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Thank you for helping us at the Home.",
+    "Thank you for help us at the Home.",
+    "Thank you for helped us at the Home."
+   ],
+   "answer": 0,
+   "rule": "After <b>Thank you for</b> use the -ing form: <b>for helping</b>."
+  },
+  {
+   "qid": "c7-24-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Bendre",
+    "has",
+    "known",
+    "the",
+    "Principal",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "for",
+      "during"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (five years); <b>since</b> needs a starting point (since 2020)."
+  },
+  {
+   "qid": "c7-24-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "gerund",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "residents",
+    "are",
+    "fond",
+    "of",
+    "listen",
+    "to",
+    "old",
+    "songs."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "listening",
+      "listened",
+      "listens"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, the verb takes -ing: <b>fond of listening</b>."
+  },
+  {
+   "qid": "c7-24-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "The children carried",
+   "after": "all the tasks willingly.",
+   "options": [
+    "up",
+    "down",
+    "out"
+   ],
+   "answer": 2,
+   "rule": "<b>carry out</b> a task = do or complete it."
+  },
+  {
+   "qid": "c7-24-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "never visited a Home for the Aged before.",
+   "options": [
+    "has",
+    "have",
+    "had been"
+   ],
+   "answer": 1,
+   "rule": "With <b>I</b>, the present perfect uses <b>have</b> + past participle: <b>have never visited</b>."
+  },
+  {
+   "qid": "c7-24-07",
+   "type": "build",
+   "level": 1,
+   "topic": "gerund",
+   "prompt": "Say thank you.",
+   "answer": [
+    "Thank",
+    "you",
+    "for",
+    "visiting",
+    "us."
+   ],
+   "alts": [],
+   "rule": "<b>Thank you for</b> + -ing form: <b>for visiting</b>."
+  },
+  {
+   "qid": "c7-24-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "Have you watered the plants on the balcony?"
+    ]
+   ],
+   "options": [
+    "Yes, I has watered them.",
+    "Yes, I have water them.",
+    "Yes, I have watered them."
+   ],
+   "answer": 2,
+   "rule": "Answer a present perfect question with <b>I have + past participle</b>: <b>have watered</b>."
+  },
+  {
+   "qid": "c7-24-09",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_transform",
+   "prompt": "Change into a negative sentence.",
+   "source": "The students came late.",
+   "options": [
+    "The students did not came late.",
+    "The students did not come late.",
+    "The students not came late."
+   ],
+   "answer": 1,
+   "rule": "Simple past negative = <b>did not</b> + base verb: <b>did not come</b>."
+  },
+  {
+   "qid": "c7-24-10",
+   "type": "change",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Change into a question.",
+   "source": "You have met Ms Ambekar.",
+   "options": [
+    "Have you met Ms Ambekar?",
+    "Has you met Ms Ambekar?",
+    "Have you meet Ms Ambekar?"
+   ],
+   "answer": 0,
+   "rule": "Move <b>have</b> before the subject and keep the past participle: <b>Have you met ...?</b>"
+  },
+  {
+   "qid": "c7-24-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The students visited the Home on 5th January.",
+    "The students have visited the Home on 5th January.",
+    "The students has visited the Home on 5th January."
+   ],
+   "answer": 0,
+   "rule": "A finished time like <b>on 5th January</b> needs the simple past: <b>visited</b>."
+  },
+  {
+   "qid": "c7-24-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please looks after Grandpa while I am away.",
+    "Please look after Grandpa while I am away.",
+    "Please look after to Grandpa while I am away."
+   ],
+   "answer": 1,
+   "rule": "<b>look after</b> = take care of. A request uses the base verb, and no extra 'to'."
+  },
+  {
+   "qid": "c7-24-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ms",
+    "Ambekar",
+    "have",
+    "received",
+    "a",
+    "letter",
+    "from",
+    "the",
+    "Home."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "having",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Ms Ambekar</b> is one person, so the present perfect uses <b>has received</b>."
+  },
+  {
+   "qid": "c7-24-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children's",
+    "visit",
+    "brightened",
+    "on",
+    "the",
+    "whole",
+    "week",
+    "for",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "in",
+      "off",
+      "up"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>brighten up</b> = make something happier or more cheerful."
+  },
+  {
+   "qid": "c7-24-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "gerund",
+   "prompt": "Fill in the gap.",
+   "before": "Mr Bendre thanked the Principal for",
+   "after": "attention to the children's behaviour.",
+   "options": [
+    "pay",
+    "paid",
+    "paying"
+   ],
+   "answer": 2,
+   "rule": "After the preposition <b>for</b>, use the -ing form: <b>for paying</b>."
+  },
+  {
+   "qid": "c7-24-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "Please fill",
+   "after": "this form for the visit.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "<b>fill in</b> a form = write the details in the spaces."
+  },
+  {
+   "qid": "c7-24-17",
+   "type": "build",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Have",
+    "you",
+    "ever",
+    "visited",
+    "a",
+    "Home",
+    "for",
+    "the",
+    "Aged?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Have + you + ever + past participle</b>."
+  },
+  {
+   "qid": "c7-24-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "The guests are coming at six. Can you help?"
+    ]
+   ],
+   "options": [
+    "Sure, I will set up the chairs in the hall.",
+    "Sure, I will sets up the chairs in the hall.",
+    "Sure, I will setting up the chairs in the hall."
+   ],
+   "answer": 0,
+   "rule": "<b>will</b> + base verb: <b>will set up</b> (set up = arrange)."
+  },
+  {
+   "qid": "c7-24-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "gerund",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What did you like most about the trip?"
+    ]
+   ],
+   "options": [
+    "I liked sing songs with the residents.",
+    "I liked singing songs with the residents.",
+    "I liked to singing songs with the residents."
+   ],
+   "answer": 1,
+   "rule": "<b>like</b> can take the -ing form: <b>liked singing</b> (or 'liked to sing')."
+  },
+  {
+   "qid": "c7-24-20",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_transform",
+   "prompt": "Change into a question.",
+   "source": "The residents enjoyed the stories.",
+   "options": [
+    "Did the residents enjoyed the stories?",
+    "Did the residents enjoy the stories?",
+    "Do the residents enjoyed the stories?"
+   ],
+   "answer": 1,
+   "rule": "Simple past question: <b>Did</b> + subject + base verb: <b>Did ... enjoy?</b>"
+  },
+  {
+   "qid": "c7-24-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I have been following their activities from June.",
+    "I am following their activities since June.",
+    "I have been following their activities since June."
+   ],
+   "answer": 2,
+   "rule": "An action that started in the past and is still going on takes <b>have been ...ing</b> + <b>since</b>."
+  },
+  {
+   "qid": "c7-24-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The residents have setted up a small library in the hall.",
+    "The residents have set up a small library in the hall.",
+    "The residents has set up a small library in the hall."
+   ],
+   "answer": 1,
+   "rule": "<b>set up</b> = start or arrange. Its past participle is <b>set</b>, and plural <b>residents</b> take <b>have</b>."
+  },
+  {
+   "qid": "c7-24-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "the",
+    "boys",
+    "has",
+    "changed",
+    "a",
+    "lot",
+    "this",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "have",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both the boys</b> is plural, so use <b>have changed</b>."
+  },
+  {
+   "qid": "c7-24-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "students",
+    "were",
+    "praised",
+    "for",
+    "complete",
+    "all",
+    "the",
+    "tasks."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "completed",
+      "completing",
+      "completes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the preposition <b>for</b>, use the -ing form: <b>for completing</b>."
+  },
+  {
+   "qid": "c7-24-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "It is the first time that school children",
+   "after": "come to help us.",
+   "options": [
+    "has",
+    "are",
+    "have"
+   ],
+   "answer": 2,
+   "rule": "<b>It is the first time</b> is followed by the present perfect: <b>have come</b>."
+  },
+  {
+   "qid": "c7-24-26",
+   "type": "build",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "help",
+    "me",
+    "fill",
+    "in",
+    "this",
+    "form?"
+   ],
+   "alts": [],
+   "rule": "<b>help me</b> + base verb; <b>fill in</b> is the phrasal verb used for forms."
+  },
+  {
+   "qid": "c7-24-27",
+   "type": "build",
+   "level": 3,
+   "topic": "gerund",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "am",
+    "interested",
+    "in",
+    "working",
+    "with",
+    "old",
+    "people."
+   ],
+   "alts": [],
+   "rule": "<b>interested in</b> + -ing form: <b>in working</b>."
+  },
+  {
+   "qid": "c7-24-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Is Mr Bendre still in the office?"
+    ]
+   ],
+   "options": [
+    "No, he has just gone home.",
+    "No, he have just gone home.",
+    "No, he has just go home."
+   ],
+   "answer": 0,
+   "rule": "For something that happened a moment ago, use <b>has just + past participle</b>: <b>has just gone</b>."
+  },
+  {
+   "qid": "c7-24-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "gerund",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Do you want to join the Helping Hands club?"
+    ]
+   ],
+   "options": [
+    "Yes, I am keen on join it.",
+    "Yes, I am keen to joining it.",
+    "Yes, I am keen on joining it."
+   ],
+   "answer": 2,
+   "rule": "<b>keen on</b> + -ing form: <b>keen on joining</b> (or 'keen to join')."
+  },
+  {
+   "qid": "c7-24-30",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_transform",
+   "prompt": "Change into an affirmative sentence without changing the meaning.",
+   "source": "The children were not unwilling to help.",
+   "options": [
+    "The children were willing to help.",
+    "The children were unwilling to help.",
+    "The children was willing to help."
+   ],
+   "answer": 0,
+   "rule": "<b>not unwilling</b> = willing. Plural <b>children</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c7-24-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the residents have thanked the students.",
+    "Each of the residents has thanked the students.",
+    "Each of the residents has thank the students."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of</b> is singular, so <b>has</b>, followed by the past participle <b>thanked</b>."
+  },
+  {
+   "qid": "c7-24-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Please switch it off before you leave.",
+    "Please switch off it before you leave.",
+    "Please switches it off before you leave."
+   ],
+   "answer": 0,
+   "rule": "With a pronoun like <b>it</b>, put it between the verb and the particle: <b>switch it off</b>."
+  },
+  {
+   "qid": "c7-24-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "gerund",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Bendre",
+    "congratulated",
+    "the",
+    "Principal",
+    "on",
+    "run",
+    "the",
+    "programme",
+    "so",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "ran",
+      "runs",
+      "running"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>congratulate someone on</b> + -ing form: <b>on running</b>."
+  },
+  {
+   "qid": "c7-24-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nitin",
+    "has",
+    "already",
+    "went",
+    "home,",
+    "hasn't",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "gone",
+      "go",
+      "going"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>has</b> takes the past participle: <b>has gone</b>, not 'has went'."
+  },
+  {
+   "qid": "c7-24-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday the volunteers",
+   "after": "their old books to the library.",
+   "options": [
+    "give away",
+    "gave away",
+    "have given away"
+   ],
+   "answer": 1,
+   "rule": "<b>Yesterday</b> needs the simple past: <b>gave away</b> (gave them free)."
+  },
+  {
+   "qid": "c7-24-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The residents",
+   "after": "the students' visit very much last Sunday.",
+   "options": [
+    "have enjoyed",
+    "enjoy",
+    "enjoyed"
+   ],
+   "answer": 2,
+   "rule": "<b>last Sunday</b> is a finished time, so use the simple past <b>enjoyed</b>, not the present perfect."
+  },
+  {
+   "qid": "c7-24-37",
+   "type": "build",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "long",
+    "have",
+    "you",
+    "known",
+    "Mr",
+    "Bendre?"
+   ],
+   "alts": [],
+   "rule": "<b>How long</b> + present perfect asks about time up to now: <b>have you known</b>."
+  },
+  {
+   "qid": "c7-24-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "How long have you lived in Girgaon?"
+    ]
+   ],
+   "options": [
+    "I have lived here for 2019.",
+    "I have lived here since 2019.",
+    "I am living here since 2019."
+   ],
+   "answer": 1,
+   "rule": "From a starting point (2019) up to now: <b>have lived ... since</b>."
+  },
+  {
+   "qid": "c7-24-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What will you do this Sunday?"
+    ]
+   ],
+   "options": [
+    "I will help Grandma clear out her old cupboard.",
+    "I will helps Grandma clear out her old cupboard.",
+    "I will help Grandma clearing out her old cupboard."
+   ],
+   "answer": 0,
+   "rule": "<b>will help</b> + person + base verb: <b>help Grandma clear out</b> (clear out = empty and tidy)."
+  },
+  {
+   "qid": "c7-24-40",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_transform",
+   "prompt": "Change into a negative sentence without changing the meaning.",
+   "source": "Everyone was present at the PTA meeting.",
+   "options": [
+    "No one was not absent from the PTA meeting.",
+    "No one was absent from the PTA meeting.",
+    "No one were absent from the PTA meeting."
+   ],
+   "answer": 1,
+   "rule": "<b>Everyone ... present</b> = <b>No one ... absent</b>. 'No one' is singular, so <b>was</b>."
+  },
+  {
+   "qid": "c7-24-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children, who has visited the Home twice, want to go again next month.",
+    "The children, who have visited the Home twice, want to go again next month.",
+    "The children, who have visited the Home twice, wants to go again next month."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> refers to <b>the children</b> (plural): <b>who have visited</b> ... <b>want</b>."
+  },
+  {
+   "qid": "c7-24-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "gerund",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Apart from tell stories, the students helped serve lunch.",
+    "Apart from telling stories, the students helped served lunch.",
+    "Apart from telling stories, the students helped serve lunch."
+   ],
+   "answer": 2,
+   "rule": "<b>Apart from</b> + -ing (<b>telling</b>); <b>helped</b> + base verb (<b>serve</b>)."
+  },
+  {
+   "qid": "c7-24-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Since",
+    "the",
+    "students",
+    "started",
+    "visiting,",
+    "the",
+    "residents",
+    "have",
+    "became",
+    "more",
+    "cheerful."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "become",
+      "becoming",
+      "becomes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>have</b> takes the past participle: <b>have become</b>, not 'have became'."
+  },
+  {
+   "qid": "c7-24-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ms",
+    "Ambekar",
+    "promised",
+    "to",
+    "look",
+    "in",
+    "the",
+    "matter",
+    "as",
+    "soon",
+    "as",
+    "she",
+    "returned."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "on",
+      "into",
+      "off"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>look into</b> a matter = examine or find out about it."
+  },
+  {
+   "qid": "c7-24-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "gerund",
+   "prompt": "Fill in the gap.",
+   "before": "The residents would love",
+   "after": "more young visitors every month.",
+   "options": [
+    "having had",
+    "have",
+    "to have"
+   ],
+   "answer": 2,
+   "rule": "<b>would love</b> is followed by the infinitive: <b>would love to have</b>."
+  },
+  {
+   "qid": "c7-24-46",
+   "type": "build",
+   "level": 5,
+   "topic": "sentence_transform",
+   "prompt": "Make a wh- question.",
+   "answer": [
+    "Why",
+    "did",
+    "Mr",
+    "Bendre",
+    "want",
+    "to",
+    "meet",
+    "the",
+    "Principal?"
+   ],
+   "alts": [],
+   "rule": "Wh- question in the past: <b>Why + did + subject + base verb</b>."
+  },
+  {
+   "qid": "c7-24-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Rao",
+     "Have you ever written a thank-you letter?"
+    ]
+   ],
+   "options": [
+    "Yes, I have written one to my aunt last week.",
+    "Yes, I written one to my aunt last week.",
+    "Yes, I wrote one to my aunt last week."
+   ],
+   "answer": 2,
+   "rule": "Once you name a finished time (<b>last week</b>), switch to the simple past: <b>wrote</b>."
+  },
+  {
+   "qid": "c7-24-48",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_transform",
+   "prompt": "Change into a negative sentence without changing the meaning.",
+   "source": "The visit was a great success.",
+   "options": [
+    "The visit was not a success.",
+    "The visit were not a failure.",
+    "The visit was not a failure."
+   ],
+   "answer": 2,
+   "rule": "Keep the meaning by using the opposite word: <b>a success</b> -> <b>not a failure</b>."
+  },
+  {
+   "qid": "c7-24-49",
+   "type": "change",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Change into the present perfect tense.",
+   "source": "The children brightened up the whole week for the residents.",
+   "options": [
+    "The children have brightened up the whole week for the residents.",
+    "The children has brightened up the whole week for the residents.",
+    "The children have brighten up the whole week for the residents."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>have</b> (plural subject) + past participle <b>brightened</b>."
+  },
+  {
+   "qid": "c7-24-50",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_transform",
+   "prompt": "Make a question beginning with 'How much'.",
+   "source": "Our residents enjoyed the visit very much.",
+   "options": [
+    "How much did our residents enjoy the visit?",
+    "How much did our residents enjoyed the visit?",
+    "How much our residents enjoyed the visit?"
+   ],
+   "answer": 0,
+   "rule": "Wh- question in the past: <b>How much + did + subject + base verb</b>."
+  }
+ ]
+}

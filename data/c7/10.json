@@ -1,0 +1,990 @@
+{
+ "class": 7,
+ "id": "10",
+ "title": "How doth the little busy bee",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner (skilful - skilfully)"
+  },
+  {
+   "tag": "exclamations",
+   "name": "Exclamatory sentences with How and What"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present and subject-verb agreement"
+  },
+  {
+   "tag": "gerund_inf",
+   "name": "Gerund and infinitive"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "revision",
+   "name": "Revision: present perfect, relatives, passive, reported speech"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-10-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bee builds her cell skilfully.",
+    "The bee builds her cell skilful.",
+    "The bee builds her cell skill."
+   ],
+   "answer": 0,
+   "rule": "An adverb tells <b>how</b> something is done. Add <b>-ly</b> to the adjective: <b>skilful</b> becomes <b>skilfully</b>."
+  },
+  {
+   "qid": "c7-10-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the sentence with the correct verb.",
+   "options": [
+    "The crocodile grin at the little fish.",
+    "The crocodile grins at the little fish.",
+    "The crocodile grinning at the little fish."
+   ],
+   "answer": 1,
+   "rule": "With a singular subject like <b>the crocodile</b>, the simple present verb takes <b>-s</b>: <b>grins</b>."
+  },
+  {
+   "qid": "c7-10-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "morning,",
+    "Meena",
+    "water",
+    "the",
+    "roses",
+    "in",
+    "her",
+    "garden",
+    "by",
+    "herself."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "watering",
+      "watery",
+      "waters"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Meena</b> is one person (he/she), so the simple present verb needs <b>-s</b>: <b>Meena waters</b>."
+  },
+  {
+   "qid": "c7-10-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bee",
+    "flies",
+    "quick",
+    "from",
+    "flower",
+    "to",
+    "flower."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "quicker",
+      "quickest",
+      "quickly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To describe <b>how</b> the bee flies, use the adverb <b>quickly</b>, not the adjective <b>quick</b>."
+  },
+  {
+   "qid": "c7-10-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The crocodile smiles",
+   "after": "at the little fishes.",
+   "options": [
+    "gentle",
+    "gently",
+    "gentleness"
+   ],
+   "answer": 1,
+   "rule": "The word describes <b>how</b> it smiles, so we need the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c7-10-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "A busy bee",
+   "after": "honey all day long.",
+   "options": [
+    "gather",
+    "gathers",
+    "gathering"
+   ],
+   "answer": 1,
+   "rule": "<b>A busy bee</b> is singular, so the simple present verb takes <b>-s</b>: <b>gathers</b>."
+  },
+  {
+   "qid": "c7-10-07",
+   "type": "build",
+   "level": 1,
+   "topic": "exclamations",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "busy",
+    "bee",
+    "it",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "Exclamation pattern: <b>What a + adjective + noun + subject + verb!</b>"
+  },
+  {
+   "qid": "c7-10-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Make a sentence about the bee.",
+   "answer": [
+    "She",
+    "lives",
+    "in",
+    "a",
+    "busy",
+    "hive."
+   ],
+   "alts": [],
+   "rule": "Subject + verb + place: <b>She lives in a busy hive.</b> <b>She</b> takes <b>lives</b> with <b>-s</b>."
+  },
+  {
+   "qid": "c7-10-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Where does a bee keep its honey?"
+    ]
+   ],
+   "options": [
+    "It keep the honey in the cells of the hive.",
+    "It keeping the honey in the cells of the hive.",
+    "It keeps the honey in the cells of the hive."
+   ],
+   "answer": 2,
+   "rule": "With <b>it</b>, the simple present verb takes <b>-s</b>: <b>It keeps</b>."
+  },
+  {
+   "qid": "c7-10-10",
+   "type": "change",
+   "level": 1,
+   "topic": "exclamations",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "The bee is very busy.",
+   "options": [
+    "How busy the bee is!",
+    "What busy the bee is!",
+    "How the bee is busy!"
+   ],
+   "answer": 0,
+   "rule": "Drop <b>very</b> and use <b>How + adjective + subject + verb!</b>: <b>How busy the bee is!</b>"
+  },
+  {
+   "qid": "c7-10-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "exclamations",
+   "prompt": "Pick the correct exclamation.",
+   "options": [
+    "What shining tail the crocodile has!",
+    "What a shining tail the crocodile has!",
+    "How a shining tail the crocodile has!"
+   ],
+   "answer": 1,
+   "rule": "With a singular noun, use <b>What a + adjective + noun</b>: <b>What a shining tail!</b>"
+  },
+  {
+   "qid": "c7-10-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bees enjoy to visit bright flowers.",
+    "Bees enjoy visit bright flowers.",
+    "Bees enjoy visiting bright flowers."
+   ],
+   "answer": 2,
+   "rule": "<b>Enjoy</b> is followed by a gerund (<b>-ing</b> form): <b>enjoy visiting</b>."
+  },
+  {
+   "qid": "c7-10-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aarav",
+    "is",
+    "fond",
+    "of",
+    "watch",
+    "the",
+    "bees",
+    "in",
+    "the",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "watching",
+      "watched",
+      "watches"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: <b>fond of watching</b>."
+  },
+  {
+   "qid": "c7-10-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandpa",
+    "careful",
+    "lifted",
+    "the",
+    "lid",
+    "of",
+    "the",
+    "beehive."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "carefully",
+      "carefulness",
+      "care"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The word tells <b>how</b> Grandpa lifted the lid, so use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c7-10-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "The crocodile loves",
+   "after": "in the warm sun.",
+   "options": [
+    "lies",
+    "lain",
+    "lying"
+   ],
+   "answer": 2,
+   "rule": "After <b>love</b> we can use the <b>-ing</b> form: <b>loves lying</b>."
+  },
+  {
+   "qid": "c7-10-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "exclamations",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "cheerfully the crocodile grins!",
+   "options": [
+    "How",
+    "What",
+    "Which"
+   ],
+   "answer": 0,
+   "rule": "Before an adverb or adjective, start the exclamation with <b>How</b>: <b>How cheerfully ...!</b>"
+  },
+  {
+   "qid": "c7-10-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "bee",
+    "hums",
+    "very",
+    "softly."
+   ],
+   "alts": [],
+   "rule": "The adverb <b>very softly</b> comes after the verb <b>hums</b>."
+  },
+  {
+   "qid": "c7-10-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "What do you want to do this Sunday?"
+    ]
+   ],
+   "options": [
+    "I want to visit the honey farm near Mahabaleshwar.",
+    "I want visit the honey farm near Mahabaleshwar.",
+    "I want visiting the honey farm near Mahabaleshwar."
+   ],
+   "answer": 0,
+   "rule": "<b>Want</b> is followed by the infinitive: <b>want to visit</b>."
+  },
+  {
+   "qid": "c7-10-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Look at that crocodile in the river."
+    ]
+   ],
+   "options": [
+    "It has a long tail, isn't it?",
+    "It has a long tail, doesn't it?",
+    "It has a long tail, don't it?"
+   ],
+   "answer": 1,
+   "rule": "<b>It has</b> (simple present) takes the tag <b>doesn't it?</b>"
+  },
+  {
+   "qid": "c7-10-20",
+   "type": "change",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Change into a negative sentence.",
+   "source": "The crocodile swims fast.",
+   "options": [
+    "The crocodile does not swims fast.",
+    "The crocodile does not swim fast.",
+    "The crocodile do not swim fast."
+   ],
+   "answer": 1,
+   "rule": "Negative simple present: <b>does not + base verb</b>: <b>does not swim</b>."
+  },
+  {
+   "qid": "c7-10-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the bees work hard all day.",
+    "Each of the bees works hard all day.",
+    "Each of the bee works hard all day."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of the + plural noun</b> takes a singular verb: <b>Each of the bees works</b>."
+  },
+  {
+   "qid": "c7-10-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the sentence with the correct word.",
+   "options": [
+    "The crocodile seems happy in the warm water.",
+    "The crocodile seems happily in the warm water.",
+    "The crocodile seems happiness in the warm water."
+   ],
+   "answer": 0,
+   "rule": "After linking verbs like <b>seem</b>, <b>look</b>, <b>feel</b>, use an adjective: <b>seems happy</b>."
+  },
+  {
+   "qid": "c7-10-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "exclamations",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "a",
+    "neatly",
+    "cell",
+    "the",
+    "bee",
+    "has",
+    "built!"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "neatness",
+      "neatest",
+      "neat"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A noun (<b>cell</b>) is described by an adjective: <b>What a neat cell!</b>"
+  },
+  {
+   "qid": "c7-10-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kunal",
+    "is",
+    "good",
+    "at",
+    "draw",
+    "bees",
+    "and",
+    "butterflies."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "drew",
+      "drawn",
+      "drawing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After the preposition <b>at</b>, use the gerund: <b>good at drawing</b>."
+  },
+  {
+   "qid": "c7-10-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "Bees work hard",
+   "after": "honey for the winter.",
+   "options": [
+    "stored",
+    "to store",
+    "stores"
+   ],
+   "answer": 1,
+   "rule": "The infinitive shows purpose (why they work): <b>work hard to store honey</b>."
+  },
+  {
+   "qid": "c7-10-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "The children in the garden",
+   "after": "the bees from a safe distance.",
+   "options": [
+    "watch",
+    "watches",
+    "watching"
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>the children</b> (plural), not <b>the garden</b>, so the verb is <b>watch</b>."
+  },
+  {
+   "qid": "c7-10-27",
+   "type": "build",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Make a sentence that begins with a gerund.",
+   "answer": [
+    "Collecting",
+    "nectar",
+    "is",
+    "the",
+    "bee's",
+    "main",
+    "job."
+   ],
+   "alts": [],
+   "rule": "A gerund phrase can be the subject: <b>Collecting nectar</b> is ... It takes a singular verb."
+  },
+  {
+   "qid": "c7-10-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "exclamations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "I scored a century in today's match!"
+    ]
+   ],
+   "options": [
+    "What a great news! Well done!",
+    "How great news! Well done!",
+    "What great news! Well done!"
+   ],
+   "answer": 2,
+   "rule": "<b>News</b> is uncountable, so no <b>a</b>: <b>What great news!</b>"
+  },
+  {
+   "qid": "c7-10-29",
+   "type": "change",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Begin the sentence with 'How'.",
+   "source": "The bee works very skilfully.",
+   "options": [
+    "How skilfully the bee works!",
+    "How skilful the bee works!",
+    "How skilfully does the bee works!"
+   ],
+   "answer": 0,
+   "rule": "Keep the adverb: <b>How skilfully + subject + verb!</b> The word order stays like a statement."
+  },
+  {
+   "qid": "c7-10-30",
+   "type": "change",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Begin the sentence with 'Swimming'.",
+   "source": "It is fun to swim in the river.",
+   "options": [
+    "Swimming in the river is fun.",
+    "Swimming in the river are fun.",
+    "Swimming in the river it is fun."
+   ],
+   "answer": 0,
+   "rule": "The gerund phrase becomes the subject and takes a singular verb: <b>Swimming in the river is fun.</b>"
+  },
+  {
+   "qid": "c7-10-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "The bees have filled the hive, didn't they?",
+    "The bees have filled the hive, haven't they?",
+    "The bees have filled the hive, haven't it?"
+   ],
+   "answer": 1,
+   "rule": "Present perfect <b>have filled</b> takes the tag <b>haven't they?</b> (<b>they</b> for the bees)."
+  },
+  {
+   "qid": "c7-10-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bee that live in this hive makes sweet honey.",
+    "The bee that lives in this hive make sweet honey.",
+    "The bee that lives in this hive makes sweet honey."
+   ],
+   "answer": 2,
+   "rule": "<b>The bee</b> is singular, so both verbs take <b>-s</b>: <b>that lives</b> ... <b>makes</b>."
+  },
+  {
+   "qid": "c7-10-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "beekeeper",
+    "who",
+    "hives",
+    "are",
+    "near",
+    "our",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To show belonging (the beekeeper's hives), use the relative pronoun <b>whose</b>."
+  },
+  {
+   "qid": "c7-10-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sana",
+    "sings",
+    "more",
+    "sweet",
+    "than",
+    "her",
+    "brother",
+    "in",
+    "the",
+    "choir."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sweetly",
+      "sweetness",
+      "sweeter"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To compare <b>how</b> people sing, use <b>more + adverb</b>: <b>more sweetly</b>."
+  },
+  {
+   "qid": "c7-10-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Fill in the gap.",
+   "before": "The bees",
+   "after": "busy since sunrise.",
+   "options": [
+    "are",
+    "were",
+    "have been"
+   ],
+   "answer": 2,
+   "rule": "<b>Since sunrise</b> means from then till now, so use the present perfect: <b>have been</b>."
+  },
+  {
+   "qid": "c7-10-36",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "flower",
+    "that",
+    "bees",
+    "love."
+   ],
+   "alts": [],
+   "rule": "<b>that bees love</b> describes the flower. Plural <b>bees</b> takes <b>love</b>."
+  },
+  {
+   "qid": "c7-10-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Have you finished your project on bees?"
+    ]
+   ],
+   "options": [
+    "Yes, I have just finish it.",
+    "Yes, I have just finished it.",
+    "Yes, I just have finishing it."
+   ],
+   "answer": 1,
+   "rule": "Present perfect = <b>have + past participle</b>: <b>have just finished</b>."
+  },
+  {
+   "qid": "c7-10-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "The crocodile looks very cheerful."
+    ]
+   ],
+   "options": [
+    "Yes, but it isn't really gentle, isn't it?",
+    "Yes, but it isn't really gentle, does it?",
+    "Yes, but it isn't really gentle, is it?"
+   ],
+   "answer": 2,
+   "rule": "A negative sentence takes a positive tag with the same helper: <b>isn't ... , is it?</b>"
+  },
+  {
+   "qid": "c7-10-39",
+   "type": "change",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Change into passive voice.",
+   "source": "The bee builds the cell.",
+   "options": [
+    "The cell was built by the bee.",
+    "The cell is build by the bee.",
+    "The cell is built by the bee."
+   ],
+   "answer": 2,
+   "rule": "Simple present passive: <b>is/are + past participle</b>: <b>The cell is built by the bee.</b>"
+  },
+  {
+   "qid": "c7-10-40",
+   "type": "change",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Change into reported speech.",
+   "source": "Riya said, \"I am watching the bees.\"",
+   "options": [
+    "Riya said that I was watching the bees.",
+    "Riya said that she was watching the bees.",
+    "Riya said that she is watch the bees."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>she</b>, and <b>am watching</b> moves back to <b>was watching</b>."
+  },
+  {
+   "qid": "c7-10-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Instead of resting, the bee keeps working skilfully from dawn to dusk.",
+    "Instead of rest, the bee keeps working skilfully from dawn to dusk.",
+    "Instead of resting, the bee keeps to work skilfully from dawn to dusk."
+   ],
+   "answer": 0,
+   "rule": "After <b>instead of</b> and after <b>keep</b>, use the <b>-ing</b> form: <b>instead of resting</b>, <b>keeps working</b>."
+  },
+  {
+   "qid": "c7-10-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the sentence with correct agreement.",
+   "options": [
+    "The honey that the bees store in their cells keeps them fed through the winter.",
+    "The honey that the bees store in their cells keep them fed through the winter.",
+    "The honey that the bees stores in their cells keeps them fed through the winter."
+   ],
+   "answer": 0,
+   "rule": "<b>The bees store</b> (plural) and the main subject <b>the honey keeps</b> (singular)."
+  },
+  {
+   "qid": "c7-10-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "finish",
+    "the",
+    "race,",
+    "Siddharth",
+    "thanked",
+    "his",
+    "coach",
+    "warmly."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "finished",
+      "finishing",
+      "finishes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a preposition like <b>after</b>, use the gerund: <b>After finishing the race</b>."
+  },
+  {
+   "qid": "c7-10-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "cheerful",
+    "the",
+    "crocodile",
+    "welcomes",
+    "the",
+    "little",
+    "fishes",
+    "into",
+    "its",
+    "jaws!"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "cheerfulness",
+      "cheer",
+      "cheerfully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The word tells <b>how</b> it welcomes the fishes, so use the adverb: <b>How cheerfully</b>."
+  },
+  {
+   "qid": "c7-10-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "Instead of",
+   "after": "about the work, the bee simply gets on with it.",
+   "options": [
+    "complain",
+    "complaining",
+    "to complain"
+   ],
+   "answer": 1,
+   "rule": "<b>Instead of</b> is followed by the gerund: <b>instead of complaining</b>."
+  },
+  {
+   "qid": "c7-10-46",
+   "type": "build",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "is",
+    "looking",
+    "forward",
+    "to",
+    "visiting",
+    "the",
+    "honey",
+    "farm."
+   ],
+   "alts": [],
+   "rule": "In <b>look forward to</b>, <b>to</b> is a preposition, so it takes the gerund: <b>to visiting</b>."
+  },
+  {
+   "qid": "c7-10-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Let's watch the documentary on bees tonight."
+    ]
+   ],
+   "options": [
+    "Sure! You've already downloaded it, haven't you?",
+    "Sure! You've already downloaded it, didn't you?",
+    "Sure! You've already download it, haven't you?"
+   ],
+   "answer": 0,
+   "rule": "<b>You've (have) downloaded</b> takes the tag <b>haven't you?</b> Use the past participle <b>downloaded</b>."
+  },
+  {
+   "qid": "c7-10-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Why do you like watching the bees so much?"
+    ]
+   ],
+   "options": [
+    "I love how careful they work without stopping to rest.",
+    "I love how carefully they work without stop to rest.",
+    "I love how carefully they work without stopping to rest."
+   ],
+   "answer": 2,
+   "rule": "<b>carefully</b> describes how they work, and <b>without</b> takes the <b>-ing</b> form: <b>without stopping</b>."
+  },
+  {
+   "qid": "c7-10-49",
+   "type": "change",
+   "level": 5,
+   "topic": "exclamations",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How proudly the crocodile spreads his claws!",
+   "options": [
+    "The crocodile spreading his claws very proudly.",
+    "The crocodile spreads his claws very proudly.",
+    "The crocodile spreads his claws very proud."
+   ],
+   "answer": 1,
+   "rule": "Put <b>very</b> in place of <b>How</b>, use statement order and end with a full stop: <b>... spreads his claws very proudly.</b>"
+  },
+  {
+   "qid": "c7-10-50",
+   "type": "change",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Rewrite using 'fond of'.",
+   "source": "Kavya likes to read about insects.",
+   "options": [
+    "Kavya is fond of reading about insects.",
+    "Kavya is fond of read about insects.",
+    "Kavya is fond to reading about insects."
+   ],
+   "answer": 0,
+   "rule": "<b>Fond of</b> is followed by the gerund: <b>is fond of reading</b>."
+  }
+ ]
+}

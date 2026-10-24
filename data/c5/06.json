@@ -1,0 +1,1010 @@
+{
+ "class": 5,
+ "id": "06",
+ "title": "Announcements",
+ "topics": [
+  {
+   "tag": "future_will",
+   "name": "Simple future with will"
+  },
+  {
+   "tag": "imperatives",
+   "name": "Commands and requests"
+  },
+  {
+   "tag": "has_have",
+   "name": "has / have"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Capital letters and punctuation"
+  },
+  {
+   "tag": "prep_time",
+   "name": "Prepositions of time (in, on, at)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-06-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The match will start at four o'clock.",
+    "The match will starts at four o'clock.",
+    "The match will started at four o'clock."
+   ],
+   "answer": 0,
+   "rule": "After <b>will</b>, use the base form of the verb: <b>will start</b>."
+  },
+  {
+   "qid": "c5-06-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "has_have",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Ravi have found a key chain.",
+    "Ravi has find a key chain.",
+    "Ravi has found a key chain."
+   ],
+   "answer": 2,
+   "rule": "One person (he/she/Ravi) takes <b>has</b>; has + found (not find)."
+  },
+  {
+   "qid": "c5-06-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ms Pintos key chain is blue.",
+    "Ms Pinto's key chain is blue.",
+    "Ms Pinto's key chain are blue."
+   ],
+   "answer": 1,
+   "rule": "Use an apostrophe + s to show belonging: <b>Ms Pinto's</b>. One key chain takes <b>is</b>."
+  },
+  {
+   "qid": "c5-06-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "stay",
+    "away",
+    "from",
+    "the",
+    "fence",
+    "and",
+    "keeps",
+    "off",
+    "the",
+    "grass."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "keep",
+      "kept",
+      "keeping"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both requests use the base verb: Please <b>stay</b> away ... and <b>keep</b> off the grass."
+  },
+  {
+   "qid": "c5-06-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "students",
+    "has",
+    "a",
+    "holiday",
+    "on",
+    "Friday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "have",
+      "having",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A plural subject (<b>all the students</b>) takes <b>have</b>."
+  },
+  {
+   "qid": "c5-06-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "Construction work",
+   "after": "start next week.",
+   "options": [
+    "was",
+    "did",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "<b>next week</b> is in the future, so use <b>will</b> + base verb."
+  },
+  {
+   "qid": "c5-06-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "quietly in the corridor.",
+   "options": [
+    "Walks",
+    "Walk",
+    "Walked"
+   ],
+   "answer": 1,
+   "rule": "A command starts with the base verb: <b>Walk</b> quietly."
+  },
+  {
+   "qid": "c5-06-08",
+   "type": "build",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "school",
+    "will",
+    "reopen",
+    "on",
+    "Monday."
+   ],
+   "alts": [],
+   "rule": "<b>will</b> + base verb talks about the future: will reopen."
+  },
+  {
+   "qid": "c5-06-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "has_have",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Do you have a pen?"
+    ]
+   ],
+   "options": [
+    "Yes, I have two pens.",
+    "Yes, I has two pens.",
+    "Yes, I having two pens."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>have</b>, not has."
+  },
+  {
+   "qid": "c5-06-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Will you come to the football match?"
+    ]
+   ],
+   "options": [
+    "Yes, I will comes with my brother.",
+    "Yes, I will come with my brother.",
+    "Yes, I will came with my brother."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> is always followed by the base verb: <b>will come</b>."
+  },
+  {
+   "qid": "c5-06-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The story-telling competition is in 5th August.",
+    "The story-telling competition is at 5th August.",
+    "The story-telling competition is on 5th August."
+   ],
+   "answer": 2,
+   "rule": "Use <b>on</b> with dates and days: <b>on 5th August</b>."
+  },
+  {
+   "qid": "c5-06-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct notice.",
+   "options": [
+    "Please keep the classroom clean.",
+    "Please keeps the classroom clean.",
+    "Please kept the classroom clean."
+   ],
+   "answer": 0,
+   "rule": "Requests use the base verb: Please <b>keep</b> ..."
+  },
+  {
+   "qid": "c5-06-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "From",
+    "Monday,",
+    "school",
+    "will",
+    "begin",
+    "on",
+    "7:30",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "in",
+      "of",
+      "at"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at 7:30</b>."
+  },
+  {
+   "qid": "c5-06-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "future_will",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "Saturday,",
+    "our",
+    "team",
+    "will",
+    "played",
+    "a",
+    "football",
+    "match."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "plays",
+      "playing",
+      "play"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb: <b>will play</b>."
+  },
+  {
+   "qid": "c5-06-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "has_have",
+   "prompt": "Fill in the gap.",
+   "before": "Someone",
+   "after": "found a blue key chain near the gate.",
+   "options": [
+    "have",
+    "having",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "<b>Someone</b> is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c5-06-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "The school will remain closed",
+   "after": "Sunday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>on</b> with days of the week: <b>on Sunday</b>."
+  },
+  {
+   "qid": "c5-06-17",
+   "type": "build",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Make a warning.",
+   "answer": [
+    "Do",
+    "not",
+    "cross",
+    "the",
+    "fence."
+   ],
+   "alts": [],
+   "rule": "A negative command starts with <b>Do not</b> + base verb."
+  },
+  {
+   "qid": "c5-06-18",
+   "type": "build",
+   "level": 2,
+   "topic": "has_have",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ms",
+    "Pinto",
+    "has",
+    "a",
+    "blue",
+    "key",
+    "chain."
+   ],
+   "alts": [],
+   "rule": "One person (<b>Ms Pinto</b>) takes <b>has</b>."
+  },
+  {
+   "qid": "c5-06-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "When is the football match?"
+    ]
+   ],
+   "options": [
+    "It is in Saturday at four o'clock.",
+    "It is on Saturday at four o'clock.",
+    "It is on Saturday in four o'clock."
+   ],
+   "answer": 1,
+   "rule": "<b>on</b> a day, <b>at</b> a clock time: on Saturday at four o'clock."
+  },
+  {
+   "qid": "c5-06-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "There is building work near your school. Be careful!"
+    ]
+   ],
+   "options": [
+    "Don't worry, Aai. I will stay away from it.",
+    "Doesn't worry, Aai. I will stay away from it.",
+    "Don't worry, Aai. I will stays away from it."
+   ],
+   "answer": 0,
+   "rule": "A negative command is <b>Don't</b> + base verb; after will, use the base verb (stay)."
+  },
+  {
+   "qid": "c5-06-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "future_will",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Where the football match will be held?",
+    "Where will the football match be held?",
+    "Where will the football match held?"
+   ],
+   "answer": 1,
+   "rule": "In a question, <b>will</b> comes before the subject: Where <b>will</b> the match <b>be</b> held?"
+  },
+  {
+   "qid": "c5-06-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "future_will",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our new library will opens next month.",
+    "Our new library will open next month.",
+    "Our new library opened next month."
+   ],
+   "answer": 1,
+   "rule": "<b>next month</b> is the future: <b>will open</b>."
+  },
+  {
+   "qid": "c5-06-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Each class has its own notice-board.",
+    "Each class have its own notice-board.",
+    "Each class has it's own notice-board."
+   ],
+   "answer": 0,
+   "rule": "<b>Each class</b> is singular: <b>has</b>. <b>its</b> (belonging) has no apostrophe; it's = it is."
+  },
+  {
+   "qid": "c5-06-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "They",
+    "has",
+    "cleaned",
+    "the",
+    "whole",
+    "classroom",
+    "themselves."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "having",
+      "have",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>They</b> takes <b>have</b>: they have cleaned."
+  },
+  {
+   "qid": "c5-06-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "not",
+    "leaves",
+    "your",
+    "bags",
+    "in",
+    "the",
+    "corridor."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "leave",
+      "left",
+      "leaving"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Do not</b> is followed by the base verb: do not <b>leave</b>."
+  },
+  {
+   "qid": "c5-06-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "Mr Joshi",
+   "after": "announce the results tomorrow.",
+   "options": [
+    "did",
+    "has",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "<b>tomorrow</b> is in the future: <b>will announce</b>."
+  },
+  {
+   "qid": "c5-06-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "Our summer holidays begin",
+   "after": "May.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>in</b> with months: <b>in May</b>."
+  },
+  {
+   "qid": "c5-06-28",
+   "type": "build",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Make a question.",
+   "answer": [
+    "Has",
+    "anyone",
+    "seen",
+    "my",
+    "blue",
+    "key",
+    "chain?"
+   ],
+   "alts": [],
+   "rule": "In a question, <b>Has</b> comes before the subject: Has anyone seen ...?"
+  },
+  {
+   "qid": "c5-06-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Rao",
+     "Has anyone found a lunch box?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. Riya have found one.",
+    "Yes, ma'am. Riya has find one.",
+    "Yes, ma'am. Riya has found one."
+   ],
+   "answer": 2,
+   "rule": "<b>Riya</b> (one person) takes <b>has</b>, followed by <b>found</b>."
+  },
+  {
+   "qid": "c5-06-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "Whose lunch box is on my desk?"
+    ]
+   ],
+   "options": [
+    "It is Rohans lunch box.",
+    "It is Rohan's lunch box.",
+    "It is Rohan's lunch boxes."
+   ],
+   "answer": 1,
+   "rule": "Show belonging with <b>'s</b>: <b>Rohan's</b>. One box on the desk: lunch box."
+  },
+  {
+   "qid": "c5-06-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A old student will give a talk tomorrow.",
+    "An old student will gives a talk tomorrow.",
+    "An old student will give a talk tomorrow."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> before a vowel sound (an old student); <b>will</b> + base verb (will give)."
+  },
+  {
+   "qid": "c5-06-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Pick the correct request.",
+   "options": [
+    "Please give this key chain to her.",
+    "Please give this key chain to she.",
+    "Please gives this key chain to her."
+   ],
+   "answer": 0,
+   "rule": "Requests use the base verb (<b>give</b>); after <b>to</b>, use <b>her</b>, not she."
+  },
+  {
+   "qid": "c5-06-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "Rahul",
+    "and",
+    "Sima",
+    "has",
+    "lost",
+    "their",
+    "library",
+    "cards."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "having",
+      "is",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both Rahul and Sima</b> means two people, so use <b>have</b>."
+  },
+  {
+   "qid": "c5-06-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "the",
+    "buses",
+    "will",
+    "leave",
+    "the",
+    "school",
+    "in",
+    "seven",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "on",
+      "at",
+      "for"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Clock times take <b>at</b>: at seven o'clock."
+  },
+  {
+   "qid": "c5-06-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "careful near the construction site.",
+   "options": [
+    "Being",
+    "Be",
+    "Is"
+   ],
+   "answer": 1,
+   "rule": "A command with an adjective uses <b>Be</b>: Be careful!"
+  },
+  {
+   "qid": "c5-06-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "Last year the match was on a Monday, but this year it",
+   "after": "be on a Friday.",
+   "options": [
+    "will",
+    "was",
+    "did"
+   ],
+   "answer": 0,
+   "rule": "<b>this year</b> points to what is coming: it <b>will be</b>. (was is past)"
+  },
+  {
+   "qid": "c5-06-37",
+   "type": "build",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "clerk",
+    "will",
+    "give",
+    "you",
+    "the",
+    "key."
+   ],
+   "alts": [],
+   "rule": "<b>will give</b> + person + thing: will give you the key."
+  },
+  {
+   "qid": "c5-06-38",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "throw",
+    "your",
+    "wrappers",
+    "into",
+    "the",
+    "bin."
+   ],
+   "alts": [],
+   "rule": "<b>Please</b> + base verb makes a polite request."
+  },
+  {
+   "qid": "c5-06-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "When will your school reopen?"
+    ]
+   ],
+   "options": [
+    "It will reopens on 15th June.",
+    "It will reopen on 15th June.",
+    "It will reopen in 15th June."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> + base verb (reopen); dates take <b>on</b>."
+  },
+  {
+   "qid": "c5-06-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "has_have",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "Have you seen the notice about the trip?"
+    ]
+   ],
+   "options": [
+    "Yes, I has read it already.",
+    "Yes, I have readed it already.",
+    "Yes, I have read it already."
+   ],
+   "answer": 2,
+   "rule": "<b>I have</b> + past form: read - read - <b>read</b>. There is no word readed."
+  },
+  {
+   "qid": "c5-06-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' drawings will be put up on Friday.",
+    "The children's drawings will be put up in Friday.",
+    "The children's drawings will be put up on Friday."
+   ],
+   "answer": 2,
+   "rule": "children is already plural, so add <b>'s</b>: <b>children's</b>. Days take <b>on</b>."
+  },
+  {
+   "qid": "c5-06-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "has_have",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The school have decided that the new hall will open in March.",
+    "The school has decided that the new hall will open in March.",
+    "The school has decided that the new hall will opens in March."
+   ],
+   "answer": 1,
+   "rule": "<b>The school</b> is singular: <b>has</b> decided. After will, use the base verb: will open."
+  },
+  {
+   "qid": "c5-06-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "find",
+    "a",
+    "lost",
+    "item,",
+    "take",
+    "it",
+    "to",
+    "the",
+    "office",
+    "and",
+    "tells",
+    "the",
+    "clerk."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "tell",
+      "told",
+      "telling"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both commands use the base verb: <b>take</b> it ... and <b>tell</b> the clerk."
+  },
+  {
+   "qid": "c5-06-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "work",
+    "will",
+    "begin",
+    "on",
+    "Monday",
+    "morning",
+    "and",
+    "end",
+    "in",
+    "30th",
+    "March."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "on",
+      "at",
+      "since"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A date takes <b>on</b>: end <b>on 30th March</b>. (in March, but on 30th March)"
+  },
+  {
+   "qid": "c5-06-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "has_have",
+   "prompt": "Fill in the gap.",
+   "before": "Each of the two key chains",
+   "after": "a name on it.",
+   "options": [
+    "have",
+    "having",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "<b>Each of</b> means every single one, so it is singular: <b>has</b>."
+  },
+  {
+   "qid": "c5-06-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "Students who want to join the football team",
+   "after": "meet the coach in the hall after lunch.",
+   "options": [
+    "are",
+    "has",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "<b>will</b> + base verb (meet) tells what is going to happen."
+  },
+  {
+   "qid": "c5-06-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future_will",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "will",
+    "present",
+    "the",
+    "announcement",
+    "in",
+    "class?"
+   ],
+   "alts": [],
+   "rule": "<b>Who will</b> + base verb asks about a future action."
+  },
+  {
+   "qid": "c5-06-48",
+   "type": "build",
+   "level": 5,
+   "topic": "has_have",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Someone",
+    "has",
+    "left",
+    "a",
+    "blue",
+    "umbrella",
+    "here."
+   ],
+   "alts": [],
+   "rule": "<b>Someone</b> is singular, so <b>has left</b>."
+  },
+  {
+   "qid": "c5-06-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "The trip to the science centre is next week."
+    ],
+    [
+     "Dev",
+     "Do you know the day and time?"
+    ]
+   ],
+   "options": [
+    "Yes, we will leave on Tuesday at nine in the morning.",
+    "Yes, we will leave in Tuesday at nine in the morning.",
+    "Yes, we will leave on Tuesday at nine on the morning."
+   ],
+   "answer": 0,
+   "rule": "<b>on</b> Tuesday, <b>at</b> nine, <b>in</b> the morning."
+  },
+  {
+   "qid": "c5-06-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Pinto",
+     "Whose key chain is this?"
+    ]
+   ],
+   "options": [
+    "It is mine. Please gives it to me.",
+    "It is mine. Please give it to me.",
+    "It is my. Please give it to me."
+   ],
+   "answer": 1,
+   "rule": "Requests use the base verb (<b>give</b>); without a noun after it, say <b>mine</b>."
+  }
+ ]
+}

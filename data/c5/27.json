@@ -1,0 +1,1012 @@
+{
+ "class": 5,
+ "id": "27",
+ "title": "The Legend of Marathon",
+ "topics": [
+  {
+   "tag": "comparison",
+   "name": "Comparing: -er/-est, more/most"
+  },
+  {
+   "tag": "was_were",
+   "name": "was / were"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time and place"
+  },
+  {
+   "tag": "much_many",
+   "name": "much / many"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-27-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sea route was shortest than the land route.",
+    "The sea route was shorter than the land route.",
+    "The sea route was more short than the land route."
+   ],
+   "answer": 1,
+   "rule": "To compare two things, add <b>-er</b> to a short adjective and use <b>than</b>: <b>shorter than</b>."
+  },
+  {
+   "qid": "c5-27-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Athenian soldiers was very brave.",
+    "The Athenian soldiers were very brave.",
+    "The Athenian soldiers is very brave."
+   ],
+   "answer": 1,
+   "rule": "<b>Soldiers</b> is plural, so the past form is <b>were</b>."
+  },
+  {
+   "qid": "c5-27-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Pheidippides ran like the wind.",
+    "Pheidippides runned like the wind.",
+    "Pheidippides running like the wind."
+   ],
+   "answer": 0,
+   "rule": "<b>Run</b> is irregular. Its past form is <b>ran</b>."
+  },
+  {
+   "qid": "c5-27-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Persians",
+    "was",
+    "skilled",
+    "archers",
+    "with",
+    "sharp",
+    "arrows."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The Persians</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-27-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Pheidippides",
+    "was",
+    "the",
+    "faster",
+    "runner",
+    "in",
+    "all",
+    "of",
+    "Athens."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "fastest",
+      "quick",
+      "quicker"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Compared with everyone (<b>in all of Athens</b>), use the <b>-est</b> form: <b>the fastest</b>."
+  },
+  {
+   "qid": "c5-27-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The race started early",
+   "after": "the morning.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "We say <b>in the morning</b>, <b>in the evening</b>."
+  },
+  {
+   "qid": "c5-27-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "kilometres did he run?",
+   "options": [
+    "much",
+    "more",
+    "many"
+   ],
+   "answer": 2,
+   "rule": "<b>Kilometres</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c5-27-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "brave",
+    "runner",
+    "won",
+    "the",
+    "race."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object: <b>The brave runner won the race.</b>"
+  },
+  {
+   "qid": "c5-27-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Where were you yesterday?"
+    ]
+   ],
+   "options": [
+    "I were at my cousin's wedding.",
+    "I am at my cousin's wedding.",
+    "I was at my cousin's wedding."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is past, and <b>I</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c5-27-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Who is taller, you or your brother?"
+    ]
+   ],
+   "options": [
+    "My brother is tallest than I am.",
+    "My brother is more taller than I am.",
+    "My brother is taller than I am."
+   ],
+   "answer": 2,
+   "rule": "Comparing two people: <b>taller than</b>. Never use <b>more</b> with an <b>-er</b> word."
+  },
+  {
+   "qid": "c5-27-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The city marathon is held on March.",
+    "The city marathon is held in March.",
+    "The city marathon is held at March."
+   ],
+   "answer": 1,
+   "rule": "Use <b>in</b> with months: <b>in March</b>."
+  },
+  {
+   "qid": "c5-27-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There were much soldiers in the army.",
+    "There were many soldiers in the army.",
+    "There was many soldiers in the army."
+   ],
+   "answer": 1,
+   "rule": "<b>Soldiers</b> can be counted: <b>many soldiers</b>, and plural takes <b>were</b>."
+  },
+  {
+   "qid": "c5-27-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Long",
+    "ago,",
+    "Pheidippides",
+    "carry",
+    "an",
+    "important",
+    "message",
+    "to",
+    "Athens."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "carries",
+      "carrying",
+      "carried"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Long ago</b> shows the past, so use <b>carried</b>."
+  },
+  {
+   "qid": "c5-27-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "will",
+    "meet",
+    "at",
+    "the",
+    "stadium",
+    "on",
+    "seven",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "at",
+      "in",
+      "under"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at seven o'clock</b>."
+  },
+  {
+   "qid": "c5-27-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The land route was",
+   "after": "than the sea route.",
+   "options": [
+    "longest",
+    "long",
+    "longer"
+   ],
+   "answer": 2,
+   "rule": "Two routes are compared with <b>than</b>, so use <b>longer</b>."
+  },
+  {
+   "qid": "c5-27-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "Only old people, women and children",
+   "after": "left in the city.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "Many people are the subject, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-27-17",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ships",
+    "are",
+    "faster",
+    "than",
+    "soldiers",
+    "on",
+    "foot."
+   ],
+   "alts": [],
+   "rule": "Thing + <b>are</b> + <b>-er</b> word + <b>than</b> + the other thing."
+  },
+  {
+   "qid": "c5-27-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "runners",
+    "ran",
+    "between",
+    "the",
+    "hills."
+   ],
+   "alts": [],
+   "rule": "<b>Between</b> shows a place in the middle, with hills on each side of the runners."
+  },
+  {
+   "qid": "c5-27-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How much water did you drink after the race?"
+    ]
+   ],
+   "options": [
+    "I drank a lot. I had many glasses.",
+    "I drank a lot. I had much glasses.",
+    "I drank a lot. I had many glass."
+   ],
+   "answer": 0,
+   "rule": "<b>Glasses</b> can be counted, so use <b>many glasses</b>."
+  },
+  {
+   "qid": "c5-27-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Did you take part in the school race?"
+    ]
+   ],
+   "options": [
+    "Yes, I runned and came second.",
+    "Yes, I ran and come second.",
+    "Yes, I ran and came second."
+   ],
+   "answer": 2,
+   "rule": "Both actions are past: <b>ran</b> and <b>came</b>."
+  },
+  {
+   "qid": "c5-27-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It was the difficultest run of his life.",
+    "It was the more difficult run of his life.",
+    "It was the most difficult run of his life."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives use <b>most</b> for the top degree: <b>the most difficult</b>."
+  },
+  {
+   "qid": "c5-27-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Persians was not ready, so they lost the battle.",
+    "The Persians were not ready, so they lost the battle.",
+    "The Persians were not ready, so they losed the battle."
+   ],
+   "answer": 1,
+   "rule": "Plural <b>Persians</b> takes <b>were</b>; the past of <b>lose</b> is <b>lost</b>."
+  },
+  {
+   "qid": "c5-27-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He reached at Athens before the Persians.",
+    "He reached to Athens before the Persians.",
+    "He reached Athens before the Persians."
+   ],
+   "answer": 2,
+   "rule": "<b>Reach</b> needs no preposition: <b>reached Athens</b>."
+  },
+  {
+   "qid": "c5-27-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Persians",
+    "had",
+    "much",
+    "ships,",
+    "and",
+    "all",
+    "of",
+    "them",
+    "waited",
+    "in",
+    "the",
+    "bay."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "a",
+      "many",
+      "lot"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Ships</b> can be counted, so use <b>many</b>."
+  },
+  {
+   "qid": "c5-27-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Persian",
+    "army",
+    "was",
+    "biggest",
+    "than",
+    "the",
+    "army",
+    "of",
+    "Athens."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "bigger",
+      "big",
+      "much"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Than</b> compares two things, so use the <b>-er</b> form: <b>bigger</b>."
+  },
+  {
+   "qid": "c5-27-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The first modern Olympic Games were held",
+   "after": "1896.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>in</b> with years: <b>in 1896</b>."
+  },
+  {
+   "qid": "c5-27-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "He did not have",
+   "after": "time to rest.",
+   "options": [
+    "many",
+    "much",
+    "a few"
+   ],
+   "answer": 1,
+   "rule": "<b>Time</b> here cannot be counted, so use <b>much</b>."
+  },
+  {
+   "qid": "c5-27-28",
+   "type": "build",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Make a question.",
+   "answer": [
+    "Were",
+    "the",
+    "Persians",
+    "ready",
+    "for",
+    "battle?"
+   ],
+   "alts": [],
+   "rule": "To ask, put <b>were</b> before the subject: <b>Were the Persians ...?</b>"
+  },
+  {
+   "qid": "c5-27-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "When is the city marathon?"
+    ]
+   ],
+   "options": [
+    "It is in the first Sunday of January.",
+    "It is on the first Sunday of January.",
+    "It is at the first Sunday of January."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days, even <b>on the first Sunday</b> of a month."
+  },
+  {
+   "qid": "c5-27-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Which race was harder for you?"
+    ]
+   ],
+   "options": [
+    "The second race was harder than the first.",
+    "The second race was hardest than the first.",
+    "The second race was more harder than the first."
+   ],
+   "answer": 0,
+   "rule": "Two races are compared: <b>harder than</b>. Do not add <b>more</b> to an <b>-er</b> word."
+  },
+  {
+   "qid": "c5-27-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There were not much food in the city.",
+    "There was not many food in the city.",
+    "There was not much food in the city."
+   ],
+   "answer": 2,
+   "rule": "<b>Food</b> cannot be counted: <b>much food</b>, with <b>was</b>."
+  },
+  {
+   "qid": "c5-27-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A marathon is longest than a hundred-metre race.",
+    "A marathon is more long than a hundred-metre race.",
+    "A marathon is longer than a hundred-metre race."
+   ],
+   "answer": 2,
+   "rule": "Short adjective + <b>-er</b> + <b>than</b>: <b>longer than</b>."
+  },
+  {
+   "qid": "c5-27-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "That",
+    "day",
+    "the",
+    "people",
+    "opened",
+    "the",
+    "gates",
+    "and",
+    "welcome",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "welcomed",
+      "welcomes",
+      "welcoming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Opened</b> is past, so the joined action is past too: <b>welcomed</b>."
+  },
+  {
+   "qid": "c5-27-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "and",
+    "Sam",
+    "was",
+    "excited",
+    "to",
+    "watch",
+    "the",
+    "marathon."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Two people (<b>Riya and Sam</b>) take <b>were</b>."
+  },
+  {
+   "qid": "c5-27-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Pheidippides reached Athens",
+   "after": "the Persian ships.",
+   "options": [
+    "before",
+    "between",
+    "since"
+   ],
+   "answer": 0,
+   "rule": "<b>Before</b> shows that one thing happened earlier than another."
+  },
+  {
+   "qid": "c5-27-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This mountain road is",
+   "after": "than the old road.",
+   "options": [
+    "dangerouser",
+    "more dangerous",
+    "most dangerous"
+   ],
+   "answer": 1,
+   "rule": "Long adjectives use <b>more</b> to compare two things: <b>more dangerous than</b>."
+  },
+  {
+   "qid": "c5-27-37",
+   "type": "build",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "many",
+    "people",
+    "ran",
+    "the",
+    "marathon?"
+   ],
+   "alts": [],
+   "rule": "<b>People</b> can be counted, so ask <b>How many people</b>."
+  },
+  {
+   "qid": "c5-27-38",
+   "type": "build",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "soldiers",
+    "were",
+    "tired",
+    "after",
+    "the",
+    "battle."
+   ],
+   "alts": [],
+   "rule": "Plural <b>soldiers</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c5-27-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Do you have much homework today?"
+    ]
+   ],
+   "options": [
+    "Not much. I have only a few sums.",
+    "Not much. I have only a little sums.",
+    "Not many. I have only a few sums."
+   ],
+   "answer": 0,
+   "rule": "<b>Homework</b> cannot be counted (<b>much</b>), but <b>sums</b> can (<b>a few</b>)."
+  },
+  {
+   "qid": "c5-27-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Were you tired after the race?"
+    ]
+   ],
+   "options": [
+    "Yes, I were very tired, but I was happy.",
+    "Yes, I was very tired, but I were happy.",
+    "Yes, I was very tired, but I was happy."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> always takes <b>was</b> in the past."
+  },
+  {
+   "qid": "c5-27-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Persians had more ships, but the Athenians knowed the seashore better.",
+    "The Persians had more ships, but the Athenians knew the seashore better.",
+    "The Persians had more ships, but the Athenians knew the seashore more better."
+   ],
+   "answer": 1,
+   "rule": "<b>Better</b> already compares, so never say <b>more better</b>; the past of <b>know</b> is <b>knew</b>."
+  },
+  {
+   "qid": "c5-27-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Pheidippides ran from Marathon at Athens in a few hours.",
+    "Pheidippides ran from Marathon to Athens in a few hours.",
+    "Pheidippides ran from Marathon to Athens on a few hours."
+   ],
+   "answer": 1,
+   "rule": "<b>From</b> ... <b>to</b> shows a journey; <b>in a few hours</b> shows how long it took."
+  },
+  {
+   "qid": "c5-27-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "news",
+    "came,",
+    "both",
+    "Generals",
+    "was",
+    "ready",
+    "to",
+    "fight",
+    "on",
+    "their",
+    "own."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "were",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both Generals</b> is plural and the story is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-27-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "He",
+    "was",
+    "thirsty",
+    "because",
+    "there",
+    "was",
+    "very",
+    "few",
+    "water",
+    "on",
+    "the",
+    "road."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "many",
+      "lots",
+      "little"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Water</b> cannot be counted, so use <b>little</b>, not <b>few</b>."
+  },
+  {
+   "qid": "c5-27-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the runners in the race, Pheidippides was the",
+   "after": ".",
+   "options": [
+    "strongest",
+    "stronger",
+    "more strong"
+   ],
+   "answer": 0,
+   "rule": "<b>Of all</b> the runners means the top one: <b>the strongest</b>."
+  },
+  {
+   "qid": "c5-27-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "The Persians did not know",
+   "after": "about the land near Marathon.",
+   "options": [
+    "many",
+    "much",
+    "a few"
+   ],
+   "answer": 1,
+   "rule": "Knowledge cannot be counted, so use <b>much</b>."
+  },
+  {
+   "qid": "c5-27-47",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "marathon",
+    "route",
+    "passes",
+    "through",
+    "our",
+    "village."
+   ],
+   "alts": [],
+   "rule": "<b>Through</b> shows going from one side to the other side of a place."
+  },
+  {
+   "qid": "c5-27-48",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "route",
+    "was",
+    "shorter",
+    "and",
+    "safer?"
+   ],
+   "alts": [],
+   "rule": "Two <b>-er</b> words joined by <b>and</b> compare two routes."
+  },
+  {
+   "qid": "c5-27-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Leena",
+     "You finished the race so quickly!"
+    ],
+    [
+     "Leena",
+     "How did you do it?"
+    ]
+   ],
+   "options": [
+    "I practised hardest than ever this year.",
+    "I practised harder than ever this year.",
+    "I practised more harder than ever this year."
+   ],
+   "answer": 1,
+   "rule": "<b>Than</b> needs the <b>-er</b> form alone: <b>harder than ever</b>."
+  },
+  {
+   "qid": "c5-27-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Where shall we meet for the fun run?"
+    ]
+   ],
+   "options": [
+    "Let's meet on the main gate at six o'clock.",
+    "Let's meet at the main gate in six o'clock.",
+    "Let's meet at the main gate at six o'clock."
+   ],
+   "answer": 2,
+   "rule": "<b>At</b> for a point in place (<b>at the gate</b>) and for clock time (<b>at six o'clock</b>)."
+  }
+ ]
+}

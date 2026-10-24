@@ -1,0 +1,1205 @@
+{
+ "class": 9,
+ "id": "12",
+ "title": "Silver",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "Adverbs (manner, degree, frequency)"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions"
+  },
+  {
+   "tag": "participles",
+   "name": "Participles (non-finite verbs)"
+  },
+  {
+   "tag": "sentence_types",
+   "name": "Simple, compound and complex sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-12-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The moon moved slow across the sky.",
+    "The moon moved slowly across the sky.",
+    "The moon moved slowness across the sky."
+   ],
+   "answer": 1,
+   "rule": "To tell how an action happens, use an adverb: moved <b>slowly</b>."
+  },
+  {
+   "qid": "c9-12-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dog is sleeping in its kennel.",
+    "The dog is sleeping into its kennel.",
+    "The dog are sleeping in its kennel."
+   ],
+   "answer": 0,
+   "rule": "<b>In</b> shows position inside a place; <b>into</b> shows movement. <b>The dog</b> is singular: <b>is</b>."
+  },
+  {
+   "qid": "c9-12-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "closed",
+    "the",
+    "door",
+    "quiet",
+    "so",
+    "that",
+    "the",
+    "baby",
+    "would",
+    "not",
+    "wake",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "quietly",
+      "quietness",
+      "quieten"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The word tells how she closed the door, so it must be an adverb: <b>quietly</b>."
+  },
+  {
+   "qid": "c9-12-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kabir",
+    "has",
+    "been",
+    "waiting",
+    "at",
+    "the",
+    "gate",
+    "since",
+    "two",
+    "hours."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "from",
+      "by",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (for two hours) and <b>since</b> with a starting point (since noon)."
+  },
+  {
+   "qid": "c9-12-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The moon walks",
+   "after": "across the night sky.",
+   "options": [
+    "silent",
+    "silence",
+    "silently"
+   ],
+   "answer": 2,
+   "rule": "The word describes how the moon walks, so use the adverb <b>silently</b>."
+  },
+  {
+   "qid": "c9-12-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Silver fruit hangs",
+   "after": "the silver trees.",
+   "options": [
+    "since",
+    "into",
+    "from"
+   ],
+   "answer": 2,
+   "rule": "Fruit <b>hangs from</b> a branch or tree. <b>Since</b> is for time; <b>into</b> shows movement inside."
+  },
+  {
+   "qid": "c9-12-07",
+   "type": "build",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Hearing",
+    "the",
+    "alarm,",
+    "Neha",
+    "jumped",
+    "out",
+    "of",
+    "bed."
+   ],
+   "alts": [],
+   "rule": "The participle phrase <b>Hearing the alarm</b> comes first and describes the subject, <b>Neha</b>."
+  },
+  {
+   "qid": "c9-12-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "How did the cat climb the wall?"
+    ]
+   ],
+   "options": [
+    "It climbed it very careful.",
+    "It climb it very carefully.",
+    "It climbed it very carefully."
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> asks for manner, so use the adverb <b>carefully</b>, with the past tense <b>climbed</b>."
+  },
+  {
+   "qid": "c9-12-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nani",
+     "Where did you keep my spectacles?"
+    ]
+   ],
+   "options": [
+    "I kept them on the table beside your bed.",
+    "I kept them on the table besides your bed.",
+    "I keep them on the table beside your bed."
+   ],
+   "answer": 0,
+   "rule": "<b>Beside</b> means 'next to'; <b>besides</b> means 'in addition to'. The question is past: <b>kept</b>."
+  },
+  {
+   "qid": "c9-12-10",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Combine into one sentence using 'and'.",
+   "source": "The moon rose. The stars came out.",
+   "options": [
+    "The moon rose and the stars come out.",
+    "The moon rose and the stars came out.",
+    "The moon rises and the stars came out."
+   ],
+   "answer": 1,
+   "rule": "Joining two simple sentences with <b>and</b> makes a compound sentence. Keep both verbs in the past."
+  },
+  {
+   "qid": "c9-12-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The doves slept in the shadowy cote, hide from the cold wind.",
+    "The doves slept in the shadowy cote, hidden from the cold wind.",
+    "The doves slept in the shadowy cote, hid from the cold wind."
+   ],
+   "answer": 1,
+   "rule": "The doves were hidden, so use the past participle <b>hidden</b> to describe them."
+  },
+  {
+   "qid": "c9-12-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our dog always sleep in the kennel.",
+    "Our dog always sleeps in the kennel.",
+    "Our dog always sleeping in the kennel."
+   ],
+   "answer": 1,
+   "rule": "A frequency adverb (<b>always</b>) goes before the main verb, and <b>our dog</b> takes <b>sleeps</b>."
+  },
+  {
+   "qid": "c9-12-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "reached",
+    "Nani's",
+    "village",
+    "in",
+    "midnight",
+    "on",
+    "Diwali."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "on",
+      "into",
+      "at"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>at</b> with exact times: <b>at</b> midnight, <b>at</b> noon, <b>at</b> seven o'clock."
+  },
+  {
+   "qid": "c9-12-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bark",
+    "dog",
+    "next",
+    "door",
+    "woke",
+    "up",
+    "the",
+    "whole",
+    "lane."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "barking",
+      "barked",
+      "barks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A present participle can describe a noun: the <b>barking</b> dog (the dog that is barking)."
+  },
+  {
+   "qid": "c9-12-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "The night was cold,",
+   "after": "the dog stayed in its kennel.",
+   "options": [
+    "because of",
+    "despite",
+    "so"
+   ],
+   "answer": 2,
+   "rule": "<b>So</b> joins two clauses to show a result. <b>Because of</b> and <b>despite</b> need a noun, not a clause."
+  },
+  {
+   "qid": "c9-12-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The night was",
+   "after": "quiet that we could hear the leaves fall.",
+   "options": [
+    "such",
+    "so",
+    "too"
+   ],
+   "answer": 1,
+   "rule": "<b>So</b> + adjective + <b>that</b> shows a result. <b>Such</b> needs a noun; <b>too</b> is not used with <b>that</b>."
+  },
+  {
+   "qid": "c9-12-17",
+   "type": "build",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Make a complex sentence.",
+   "answer": [
+    "Moti",
+    "barked",
+    "because",
+    "he",
+    "heard",
+    "footsteps."
+   ],
+   "alts": [],
+   "rule": "<b>Because</b> starts the clause that gives the reason: because he heard footsteps."
+  },
+  {
+   "qid": "c9-12-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you see the fireworks last night?"
+    ]
+   ],
+   "options": [
+    "Yes! I watched them standing on the terrace.",
+    "Yes! I watched them stood on the terrace.",
+    "Yes! I watch them standing on the terrace."
+   ],
+   "answer": 0,
+   "rule": "The present participle <b>standing</b> shows what I was doing; <b>last night</b> needs <b>watched</b>."
+  },
+  {
+   "qid": "c9-12-19",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Combine using 'who'.",
+   "source": "I saw an old man. He was feeding the doves.",
+   "options": [
+    "I saw an old man who was feeding the doves.",
+    "I saw an old man which was feeding the doves.",
+    "I saw an old man who he was feeding the doves."
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> replaces <b>he</b> for a person, so drop <b>he</b>. <b>Which</b> is for things and animals."
+  },
+  {
+   "qid": "c9-12-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Om!",
+    "Last",
+    "night",
+    "the",
+    "moon",
+    "was",
+    "so",
+    "bright",
+    "that",
+    "the",
+    "whole",
+    "village",
+    "look",
+    "silver.",
+    "Even",
+    "Moti",
+    "sleep",
+    "peacefully",
+    "on",
+    "the",
+    "porch."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "looking",
+      "looks",
+      "looked"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "slept",
+      "sleeping",
+      "sleepy"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last night</b> is past, so both verbs need the simple past: <b>looked</b> and <b>slept</b>."
+  },
+  {
+   "qid": "c9-12-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Which is a correct complex sentence?",
+   "options": [
+    "Although the stream was still, but the fish were awake.",
+    "Though the stream was still, so the fish were awake.",
+    "Although the stream was still, the fish were awake."
+   ],
+   "answer": 2,
+   "rule": "<b>Although/Though</b> already joins the clauses, so don't add <b>but</b> or <b>so</b>."
+  },
+  {
+   "qid": "c9-12-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our old dog Moti has always been afraid from loud thunder.",
+    "Our old dog Moti has always been afraid of loud thunder.",
+    "Our old dog Moti has always been afraid with loud thunder."
+   ],
+   "answer": 1,
+   "rule": "We say <b>afraid of</b> something: afraid <b>of</b> loud thunder. <b>From</b> and <b>with</b> are wrong here."
+  },
+  {
+   "qid": "c9-12-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Curl",
+    "up",
+    "in",
+    "his",
+    "kennel,",
+    "Moti",
+    "slept",
+    "like",
+    "a",
+    "log."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Curled",
+      "Curls",
+      "Curler"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A past participle phrase can describe the subject: <b>Curled up</b> in his kennel, Moti slept."
+  },
+  {
+   "qid": "c9-12-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "This is the stream",
+   "after": "silver reeds grow.",
+   "options": [
+    "which",
+    "where",
+    "who"
+   ],
+   "answer": 1,
+   "rule": "Use <b>where</b> for a place when the clause already has its own subject and verb (silver reeds grow)."
+  },
+  {
+   "qid": "c9-12-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Moti barked",
+   "after": "that he woke the whole lane.",
+   "options": [
+    "so loudly",
+    "such loudly",
+    "too loudly"
+   ],
+   "answer": 0,
+   "rule": "<b>So</b> + adverb + <b>that</b> shows a result: so loudly that... <b>Such</b> goes with a noun."
+  },
+  {
+   "qid": "c9-12-26",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Doves",
+    "peeped",
+    "out",
+    "of",
+    "their",
+    "cote."
+   ],
+   "alts": [],
+   "rule": "<b>Out of</b> shows movement from inside a place to outside."
+  },
+  {
+   "qid": "c9-12-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are you still awake?"
+    ]
+   ],
+   "options": [
+    "I can't sleep because of the moon is so bright.",
+    "I can't sleep, because so the moon is bright.",
+    "I can't sleep because the moon is so bright."
+   ],
+   "answer": 2,
+   "rule": "<b>Because</b> + clause gives a reason. <b>Because of</b> needs a noun, not a full clause."
+  },
+  {
+   "qid": "c9-12-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "What did you do on the night trek?"
+    ]
+   ],
+   "options": [
+    "We walked for hours, guided by the moon.",
+    "We walked for hours, guiding by the moon.",
+    "We walk for hours, guided by the moon."
+   ],
+   "answer": 0,
+   "rule": "We were guided (passive meaning), so use the past participle <b>guided</b>; the trek is past: <b>walked</b>."
+  },
+  {
+   "qid": "c9-12-29",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Make it a simple sentence using a participle.",
+   "source": "The mouse saw the dog and ran away.",
+   "options": [
+    "Seen the dog, the mouse ran away.",
+    "Seeing the dog, the mouse run away.",
+    "Seeing the dog, the mouse ran away."
+   ],
+   "answer": 2,
+   "rule": "Replace the first verb with the present participle <b>Seeing</b>; the main verb stays past: <b>ran</b>."
+  },
+  {
+   "qid": "c9-12-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Dear",
+    "Asha,",
+    "yesterday",
+    "we",
+    "walked",
+    "careful",
+    "through",
+    "the",
+    "dark",
+    "orchard.",
+    "The",
+    "moonlight",
+    "made",
+    "every",
+    "fruit",
+    "looks",
+    "silver,",
+    "and",
+    "the",
+    "trees",
+    "stood",
+    "still",
+    "like",
+    "statues."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "carefulness",
+      "cared",
+      "carefully"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "looking",
+      "look",
+      "looked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "How we walked needs the adverb <b>carefully</b>. After <b>made</b> + object, use the base verb: made every fruit <b>look</b>."
+  },
+  {
+   "qid": "c9-12-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Building many years ago, the old temple still looks beautiful.",
+    "Built many years ago, the old temple still looks beautiful.",
+    "Built many years ago, the old temple still look beautiful."
+   ],
+   "answer": 1,
+   "rule": "The temple was built (passive), so use <b>Built</b>. <b>The temple</b> is singular: <b>looks</b>."
+  },
+  {
+   "qid": "c9-12-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "moon",
+    "risen",
+    "when",
+    "the",
+    "dog",
+    "began",
+    "to",
+    "bark."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "than",
+      "then",
+      "that"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The pair is <b>no sooner ... than</b>. <b>When</b> goes with <b>hardly/scarcely</b>."
+  },
+  {
+   "qid": "c9-12-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "speaks",
+    "English",
+    "very",
+    "good",
+    "for",
+    "a",
+    "ten-year-old."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "better",
+      "nice",
+      "well"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Good</b> is an adjective. To describe how someone speaks, use the adverb <b>well</b>."
+  },
+  {
+   "qid": "c9-12-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "During the thunderstorm, Moti hid",
+   "after": "the bed.",
+   "options": [
+    "since",
+    "among",
+    "under"
+   ],
+   "answer": 2,
+   "rule": "<b>Under</b> shows a place below something. <b>Since</b> is for time; <b>among</b> is for a group of things."
+  },
+  {
+   "qid": "c9-12-35",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "often",
+    "do",
+    "you",
+    "walk",
+    "your",
+    "dog?"
+   ],
+   "alts": [],
+   "rule": "<b>How often</b> asks about frequency, followed by <b>do</b> + subject + base verb."
+  },
+  {
+   "qid": "c9-12-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Why didn't you call me last night?"
+    ]
+   ],
+   "options": [
+    "I was too tired that I fell asleep early.",
+    "I was so tired that I fell asleep early.",
+    "I was so tired than I fell asleep early."
+   ],
+   "answer": 1,
+   "rule": "Use <b>so ... that</b> to show a result. <b>Too</b> goes with <b>to</b> + verb, not <b>that</b>."
+  },
+  {
+   "qid": "c9-12-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "When does your school trip start?"
+    ]
+   ],
+   "options": [
+    "It starts at Monday on seven in the morning.",
+    "It starts on Monday at seven in the morning.",
+    "It starts on Monday at seven on the morning."
+   ],
+   "answer": 1,
+   "rule": "<b>On</b> + day, <b>at</b> + clock time, <b>in</b> the morning."
+  },
+  {
+   "qid": "c9-12-38",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Make it a complex sentence using 'as'.",
+   "source": "Being tired, the old dog slept all day.",
+   "options": [
+    "As the old dog was tired, it slept all day.",
+    "As the old dog was tired, so it slept all day.",
+    "As the old dog is tired, it slept all day."
+   ],
+   "answer": 0,
+   "rule": "The participle <b>Being tired</b> becomes a reason clause: <b>As</b> the old dog <b>was</b> tired. No <b>so</b> after <b>as</b>."
+  },
+  {
+   "qid": "c9-12-39",
+   "type": "change",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Join using a past participle.",
+   "source": "The house was painted white. It shone in the moonlight.",
+   "options": [
+    "Painting white, the house shone in the moonlight.",
+    "Painted white, the house shines in the moonlight.",
+    "Painted white, the house shone in the moonlight."
+   ],
+   "answer": 2,
+   "rule": "<b>Was painted</b> becomes the past participle <b>Painted</b>; the main verb stays <b>shone</b>."
+  },
+  {
+   "qid": "c9-12-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Neha!",
+    "We",
+    "are",
+    "camping",
+    "besides",
+    "a",
+    "quiet",
+    "lake.",
+    "Last",
+    "night",
+    "the",
+    "moon",
+    "rose",
+    "over",
+    "the",
+    "hills",
+    "and",
+    "the",
+    "water",
+    "turn",
+    "silver.",
+    "Have",
+    "you",
+    "ever",
+    "saw",
+    "such",
+    "a",
+    "beautiful",
+    "sight?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "between",
+      "among",
+      "beside"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "turned",
+      "turning",
+      "turns"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "seen",
+      "see",
+      "seeing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Beside</b> = next to; <b>last night</b> needs <b>turned</b>; present perfect question: have you ever <b>seen</b>."
+  },
+  {
+   "qid": "c9-12-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Walking through the orchard, the silver fruit caught my eye.",
+    "Walking through the orchard, I noticed the silver fruit on the trees.",
+    "Walked through the orchard, I noticed the silver fruit on the trees."
+   ],
+   "answer": 1,
+   "rule": "A participle phrase must describe the subject. <b>I</b> was walking, not the fruit, so the subject must be <b>I</b>."
+  },
+  {
+   "qid": "c9-12-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "For",
+    "the",
+    "Diwali",
+    "party,",
+    "Riya",
+    "prefers",
+    "silver",
+    "anklets",
+    "than",
+    "gold",
+    "ones."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "from",
+      "to",
+      "with"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Prefer</b> takes <b>to</b>: prefer one thing <b>to</b> another. <b>Than</b> goes with comparatives."
+  },
+  {
+   "qid": "c9-12-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "by the silver moonlight, the old house looked like a palace.",
+   "options": [
+    "Bathing",
+    "Bathe",
+    "Bathed"
+   ],
+   "answer": 2,
+   "rule": "The house was bathed by the moonlight (passive meaning), so use the past participle <b>Bathed</b>."
+  },
+  {
+   "qid": "c9-12-44",
+   "type": "build",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Hardly",
+    "had",
+    "the",
+    "moon",
+    "risen",
+    "when",
+    "Moti",
+    "began",
+    "to",
+    "bark."
+   ],
+   "alts": [],
+   "rule": "<b>Hardly</b> at the start is followed by <b>had</b> + subject + past participle, then <b>when</b>."
+  },
+  {
+   "qid": "c9-12-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ira",
+     "Did you finish the moon-watching project?"
+    ],
+    [
+     "Ira",
+     "It was due today."
+    ]
+   ],
+   "options": [
+    "Not only I finished it, but I also made a model.",
+    "Not only did I finished it, but I also made a model.",
+    "Not only did I finish it, but I also made a model."
+   ],
+   "answer": 2,
+   "rule": "<b>Not only</b> at the start needs question order: <b>did I</b> + base verb <b>finish</b>."
+  },
+  {
+   "qid": "c9-12-46",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Change into a compound sentence.",
+   "source": "Although the night was cold, the doves slept peacefully.",
+   "options": [
+    "The night was cold, but the doves slept peaceful.",
+    "The night was cold, but the doves slept peacefully.",
+    "The night was cold, but the doves sleep peacefully."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> (contrast) becomes <b>but</b>. Keep the past <b>slept</b> and the adverb <b>peacefully</b>."
+  },
+  {
+   "qid": "c9-12-47",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the moon rose, the stream began to gleam.",
+   "options": [
+    "No sooner did the moon rose than the stream began to gleam.",
+    "No sooner did the moon rise than the stream began to gleam.",
+    "No sooner the moon rose than the stream began to gleam."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner</b> needs question order: <b>did</b> + subject + base verb (<b>rise</b>), then <b>than</b>."
+  },
+  {
+   "qid": "c9-12-48",
+   "type": "change",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "The moon is shining very brightly.",
+   "options": [
+    "How brightly the moon is shining!",
+    "How brightly is the moon shining!",
+    "What brightly the moon is shining!"
+   ],
+   "answer": 0,
+   "rule": "<b>Very</b> + adverb becomes <b>How</b> + adverb, then statement order: how brightly <b>the moon is</b> shining!"
+  },
+  {
+   "qid": "c9-12-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Seen",
+    "from",
+    "the",
+    "hill,",
+    "Shirgaon",
+    "look",
+    "like",
+    "a",
+    "silver",
+    "painting.",
+    "Every",
+    "roof",
+    "and",
+    "every",
+    "tree",
+    "were",
+    "shining",
+    "in",
+    "the",
+    "moonlight.",
+    "Not",
+    "a",
+    "single",
+    "leaf",
+    "moved,",
+    "and",
+    "the",
+    "stream",
+    "flowed",
+    "gently",
+    "past",
+    "the",
+    "sleep",
+    "houses."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "looking",
+      "looker",
+      "looked"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 32,
+     "options": [
+      "slept",
+      "sleeping",
+      "sleeps"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past story: <b>looked</b>; <b>every ... and every ...</b> takes <b>was</b>; the participle <b>sleeping</b> describes the houses."
+  },
+  {
+   "qid": "c9-12-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Kabir!",
+    "If",
+    "I",
+    "had",
+    "knew",
+    "about",
+    "the",
+    "full",
+    "moon,",
+    "I",
+    "would",
+    "have",
+    "join",
+    "you",
+    "on",
+    "the",
+    "hill.",
+    "Next",
+    "time,",
+    "please",
+    "call",
+    "me",
+    "before",
+    "you",
+    "left",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "knowing",
+      "known",
+      "know"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "joining",
+      "joins",
+      "joined"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "leave",
+      "leaving",
+      "leaves"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: <b>had known</b> ... <b>would have joined</b>. A future request needs the present: before you <b>leave</b>."
+  }
+ ]
+}

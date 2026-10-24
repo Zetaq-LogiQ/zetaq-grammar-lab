@@ -1,0 +1,1197 @@
+{
+ "class": 9,
+ "id": "13",
+ "title": "Reading Works of Art",
+ "topics": [
+  {
+   "tag": "adjective_clause",
+   "name": "Adjective (relative) clauses"
+  },
+  {
+   "tag": "noun_clause",
+   "name": "Noun clauses"
+  },
+  {
+   "tag": "adverb_clause",
+   "name": "Adverb clauses"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "used_to",
+   "name": "Used to for past habits"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-13-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjective_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raza was an artist who loved the colour blue.",
+    "Raza was an artist which loved the colour blue.",
+    "Raza was an artist whom loved the colour blue."
+   ],
+   "answer": 0,
+   "rule": "For a person doing the action, the relative pronoun is <b>who</b>. <b>Which</b> is for things; <b>whom</b> is an object."
+  },
+  {
+   "qid": "c9-13-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Gond art is preserve by the Gond people.",
+    "Gond art is preserved by the Gond people.",
+    "Gond art preserved by the Gond people."
+   ],
+   "answer": 1,
+   "rule": "Passive voice = <b>be</b> + past participle: <b>is preserved</b>. Both parts are needed."
+  },
+  {
+   "qid": "c9-13-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Long ago, people used to draw pictures on mud walls.",
+    "Long ago, people use to draw pictures on mud walls.",
+    "Long ago, people used to drew pictures on mud walls."
+   ],
+   "answer": 0,
+   "rule": "A past habit takes <b>used to</b> + base verb: <b>used to draw</b>."
+  },
+  {
+   "qid": "c9-13-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "noun_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I wonder where did Raza study art.",
+    "I wonder where Raza did studied art.",
+    "I wonder where Raza studied art."
+   ],
+   "answer": 2,
+   "rule": "A noun clause inside a sentence uses statement order: <b>where Raza studied</b>, not question order."
+  },
+  {
+   "qid": "c9-13-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverb_clause",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "If you look closely, you will notice the tiny dots.",
+    "If you will look closely, you will notice the tiny dots.",
+    "If you looked closely, you will notice the tiny dots."
+   ],
+   "answer": 0,
+   "rule": "In an <b>if</b> clause about the future, use the simple present: <b>If you look</b> ..., you <b>will notice</b>."
+  },
+  {
+   "qid": "c9-13-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjective_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Gond artists, which colours come from plants, paint with great care.",
+    "Gond artists, whom colours come from plants, paint with great care.",
+    "Gond artists, whose colours come from plants, paint with great care."
+   ],
+   "answer": 2,
+   "rule": "<b>Whose</b> shows possession: the colours belong to the artists."
+  },
+  {
+   "qid": "c9-13-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many of Raza's paintings was made in France.",
+    "Many of Raza's paintings were made in France.",
+    "Many of Raza's paintings were make in France."
+   ],
+   "answer": 1,
+   "rule": "<b>Many of</b> + plural noun takes a plural verb: <b>were made</b> (were + past participle)."
+  },
+  {
+   "qid": "c9-13-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "What Raza wanted to show was his own inner experience.",
+    "What did Raza want to show was his own inner experience.",
+    "What Raza wanted to show were his own inner experience."
+   ],
+   "answer": 0,
+   "rule": "A noun clause as subject uses statement order (<b>What Raza wanted</b>) and takes a singular verb: <b>was</b>."
+  },
+  {
+   "qid": "c9-13-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gond",
+    "pictures",
+    "are",
+    "draw",
+    "with",
+    "dots",
+    "and",
+    "lines."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "drawing",
+      "drew",
+      "drawn"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive voice needs the past participle: <b>are drawn</b>."
+  },
+  {
+   "qid": "c9-13-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "adjective_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Raza",
+    "is",
+    "the",
+    "artist",
+    "which",
+    "painted",
+    "many",
+    "bindu",
+    "pictures."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "who",
+      "whom"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An artist is a person, so the relative pronoun is <b>who</b>."
+  },
+  {
+   "qid": "c9-13-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "As",
+    "a",
+    "child,",
+    "Raza",
+    "use",
+    "to",
+    "sketch",
+    "the",
+    "forests",
+    "near",
+    "his",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "using",
+      "used",
+      "uses"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A past habit is shown with <b>used to</b> + base verb."
+  },
+  {
+   "qid": "c9-13-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverb_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "1950,",
+    "Raza",
+    "moved",
+    "to",
+    "France",
+    "after",
+    "he",
+    "had",
+    "finish",
+    "his",
+    "studies."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "finishing",
+      "finishes",
+      "finished"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The past perfect is <b>had</b> + past participle: after he <b>had finished</b>."
+  },
+  {
+   "qid": "c9-13-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "noun_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "guide",
+    "told",
+    "us",
+    "that",
+    "Raza",
+    "is",
+    "born",
+    "in",
+    "Madhya",
+    "Pradesh."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "was",
+      "were",
+      "has"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Birth is a past event: <b>was born</b>. The noun clause also follows the past verb <b>told</b>."
+  },
+  {
+   "qid": "c9-13-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "years",
+    "ago,",
+    "our",
+    "walls",
+    "are",
+    "decorated",
+    "by",
+    "my",
+    "grandmother."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two years ago</b> is past and <b>walls</b> is plural, so use <b>were decorated</b>."
+  },
+  {
+   "qid": "c9-13-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "adjective_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gond",
+    "artists,",
+    "who",
+    "live",
+    "mostly",
+    "in",
+    "Central",
+    "India,",
+    "uses",
+    "natural",
+    "colours."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "using",
+      "use",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>Gond artists</b> (plural); the clause between commas does not change it: artists <b>use</b>."
+  },
+  {
+   "qid": "c9-13-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "make",
+    "Raza's",
+    "paintings",
+    "special",
+    "is",
+    "the",
+    "bright",
+    "bindu",
+    "at",
+    "their",
+    "centre."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "makes",
+      "making",
+      "maker"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Inside the noun clause, <b>What</b> is the singular subject: What <b>makes</b> them special."
+  },
+  {
+   "qid": "c9-13-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjective_clause",
+   "prompt": "Fill in the gap.",
+   "before": "This is the village",
+   "after": "Raza was born.",
+   "options": [
+    "which",
+    "who",
+    "where"
+   ],
+   "answer": 2,
+   "rule": "For a place, use <b>where</b> (= in which)."
+  },
+  {
+   "qid": "c9-13-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Raza",
+   "after": "honoured with the Padma Vibhushan.",
+   "options": [
+    "was",
+    "were",
+    "did"
+   ],
+   "answer": 0,
+   "rule": "Singular past passive: <b>was</b> + past participle (<b>was honoured</b>)."
+  },
+  {
+   "qid": "c9-13-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Fill in the gap.",
+   "before": "My grandmother",
+   "after": "make colours from flowers when she was young.",
+   "options": [
+    "used to",
+    "use to",
+    "uses to"
+   ],
+   "answer": 0,
+   "rule": "A past habit: <b>used to</b> + base verb. There is no present form 'uses to'."
+  },
+  {
+   "qid": "c9-13-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "noun_clause",
+   "prompt": "Fill in the gap.",
+   "before": "Can you tell me",
+   "after": "the art gallery opens?",
+   "options": [
+    "what",
+    "which",
+    "when"
+   ],
+   "answer": 2,
+   "rule": "We ask about time, so the noun clause begins with <b>when</b>."
+  },
+  {
+   "qid": "c9-13-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverb_clause",
+   "prompt": "Choose the linking word.",
+   "before": "",
+   "after": "Raza lived in France for decades, he never forgot his Indian roots.",
+   "options": [
+    "Because",
+    "Although",
+    "Unless"
+   ],
+   "answer": 1,
+   "rule": "Two contrasting ideas are joined by <b>Although</b>."
+  },
+  {
+   "qid": "c9-13-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "In the old days, the colours",
+   "after": "from soil, leaves and bark.",
+   "options": [
+    "prepared",
+    "were preparing",
+    "were prepared"
+   ],
+   "answer": 2,
+   "rule": "Colours cannot prepare anything; they receive the action, so use the passive <b>were prepared</b>."
+  },
+  {
+   "qid": "c9-13-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "adjective_clause",
+   "prompt": "Fill in the gap.",
+   "before": "Raza,",
+   "after": "paintings are full of colour, lived to the age of 94.",
+   "options": [
+    "whose",
+    "who",
+    "whom"
+   ],
+   "answer": 0,
+   "rule": "The paintings belong to Raza, so use the possessive relative <b>whose</b>."
+  },
+  {
+   "qid": "c9-13-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "Fill in the gap.",
+   "before": "The guide explained",
+   "after": "Raza placed a bindu at the heart of his paintings.",
+   "options": [
+    "what",
+    "whom",
+    "why"
+   ],
+   "answer": 2,
+   "rule": "The clause already has a subject and object, so it needs <b>why</b> (the reason), not <b>what</b> or <b>whom</b>."
+  },
+  {
+   "qid": "c9-13-25",
+   "type": "build",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "walls",
+    "were",
+    "painted",
+    "red."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>were</b> + past participle."
+  },
+  {
+   "qid": "c9-13-26",
+   "type": "build",
+   "level": 2,
+   "topic": "used_to",
+   "prompt": "Make a sentence about a past habit.",
+   "answer": [
+    "My",
+    "aunt",
+    "used",
+    "to",
+    "draw",
+    "Gond",
+    "pictures."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>used to</b> + base verb + object."
+  },
+  {
+   "qid": "c9-13-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adjective_clause",
+   "prompt": "Make a sentence with a relative clause.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "painting",
+    "that",
+    "Meena",
+    "liked."
+   ],
+   "alts": [],
+   "rule": "The clause <b>that Meena liked</b> comes right after the noun it describes."
+  },
+  {
+   "qid": "c9-13-28",
+   "type": "build",
+   "level": 4,
+   "topic": "adverb_clause",
+   "prompt": "Make a sentence with a time clause.",
+   "answer": [
+    "We",
+    "fell",
+    "silent",
+    "when",
+    "the",
+    "lights",
+    "went",
+    "out."
+   ],
+   "alts": [],
+   "rule": "Main clause + adverb clause of time beginning with <b>when</b>."
+  },
+  {
+   "qid": "c9-13-29",
+   "type": "build",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "Make a sentence with a noun clause.",
+   "answer": [
+    "Nobody",
+    "knew",
+    "why",
+    "Raza",
+    "had",
+    "left",
+    "the",
+    "canvas",
+    "blank."
+   ],
+   "alts": [],
+   "rule": "The noun clause <b>why Raza had left the canvas blank</b> is the object of <b>knew</b> and uses statement order."
+  },
+  {
+   "qid": "c9-13-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Who painted this lovely bindu picture?"
+    ]
+   ],
+   "options": [
+    "It painted by Raza.",
+    "It was painted by Raza.",
+    "It was paint by Raza."
+   ],
+   "answer": 1,
+   "rule": "Passive past: <b>was</b> + past participle: <b>was painted</b>."
+  },
+  {
+   "qid": "c9-13-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "used_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "Do you still go to drawing classes?"
+    ]
+   ],
+   "options": [
+    "No, but I use to go every Sunday.",
+    "No, but I used to go every Sunday.",
+    "No, but I used to went every Sunday."
+   ],
+   "answer": 1,
+   "rule": "A habit that has stopped: <b>used to</b> + base verb (<b>go</b>)."
+  },
+  {
+   "qid": "c9-13-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "noun_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Do you know where the Gond paintings are kept?"
+    ]
+   ],
+   "options": [
+    "Yes, I know where they are kept.",
+    "Yes, I know where are they kept.",
+    "Yes, I know where they keeps."
+   ],
+   "answer": 0,
+   "rule": "After <b>I know</b>, the clause uses statement order: <b>where they are kept</b>."
+  },
+  {
+   "qid": "c9-13-33",
+   "type": "chat",
+   "level": 2,
+   "topic": "adjective_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "Which book did you borrow from the library?"
+    ]
+   ],
+   "options": [
+    "The one that has Raza's paintings.",
+    "The one who has Raza's paintings.",
+    "The one that have Raza's paintings."
+   ],
+   "answer": 0,
+   "rule": "For a thing use <b>that</b>; <b>one</b> is singular, so <b>has</b>."
+  },
+  {
+   "qid": "c9-13-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverb_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Will you call me when you reach the art gallery?"
+    ]
+   ],
+   "options": [
+    "Yes, I will call you as soon as I will reach.",
+    "Yes, I call you as soon as I reached.",
+    "Yes, I will call you as soon as I reach."
+   ],
+   "answer": 2,
+   "rule": "A time clause about the future uses the simple present: <b>as soon as I reach</b>."
+  },
+  {
+   "qid": "c9-13-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Has the school wall been painted yet?"
+    ]
+   ],
+   "options": [
+    "Yes, it has been painted with Gond designs.",
+    "Yes, it has painted with Gond designs.",
+    "Yes, it has been paint with Gond designs."
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive: <b>has been</b> + past participle (<b>painted</b>)."
+  },
+  {
+   "qid": "c9-13-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "You draw so well!"
+    ],
+    [
+     "Arjun",
+     "Did someone teach you?"
+    ]
+   ],
+   "options": [
+    "My uncle used to teach me when I was small.",
+    "My uncle used to teaching me when I was small.",
+    "My uncle used to teach me when I am small."
+   ],
+   "answer": 0,
+   "rule": "<b>Used to</b> + base verb, and the time clause stays in the past: <b>when I was small</b>."
+  },
+  {
+   "qid": "c9-13-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Rohan, what did the guide tell you about Raza?"
+    ]
+   ],
+   "options": [
+    "He said that Raza have studied art in Nagpur and Mumbai.",
+    "He said that Raza had studied art in Nagpur and Mumbai.",
+    "He said that did Raza study art in Nagpur and Mumbai."
+   ],
+   "answer": 1,
+   "rule": "After <b>said that</b>, use statement order and shift back the tense: <b>had studied</b>."
+  },
+  {
+   "qid": "c9-13-38",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Raza painted this picture.",
+   "options": [
+    "This picture is painted by Raza.",
+    "This picture was paint by Raza.",
+    "This picture was painted by Raza."
+   ],
+   "answer": 2,
+   "rule": "Simple past active becomes <b>was</b> + past participle in the passive."
+  },
+  {
+   "qid": "c9-13-39",
+   "type": "change",
+   "level": 2,
+   "topic": "adjective_clause",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "Raza was a great painter. He was born in Madhya Pradesh.",
+   "options": [
+    "Raza, who he was born in Madhya Pradesh, was a great painter.",
+    "Raza, who was born in Madhya Pradesh, were a great painter.",
+    "Raza, who was born in Madhya Pradesh, was a great painter."
+   ],
+   "answer": 2,
+   "rule": "<b>Who</b> replaces <b>he</b>, so do not repeat the pronoun. Raza is singular: <b>was</b>."
+  },
+  {
+   "qid": "c9-13-40",
+   "type": "change",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "Gond art has been preserved by the Gond people.",
+   "options": [
+    "The Gond people preserved Gond art.",
+    "The Gond people have preserved Gond art.",
+    "The Gond people has preserved Gond art."
+   ],
+   "answer": 1,
+   "rule": "Keep the tense (present perfect) and match the plural subject: <b>have preserved</b>."
+  },
+  {
+   "qid": "c9-13-41",
+   "type": "change",
+   "level": 3,
+   "topic": "noun_clause",
+   "prompt": "Change into indirect speech.",
+   "source": "Meena said, \"I love Raza's colours.\"",
+   "options": [
+    "Meena said that I loved Raza's colours.",
+    "Meena said that she love Raza's colours.",
+    "Meena said that she loved Raza's colours."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b> and the present shifts to the past: <b>she loved</b>."
+  },
+  {
+   "qid": "c9-13-42",
+   "type": "change",
+   "level": 4,
+   "topic": "adverb_clause",
+   "prompt": "Join the sentences using 'As soon as'.",
+   "source": "The guide switched on the lights. We saw the bright colours.",
+   "options": [
+    "As soon as the guide switched on the lights, we see the bright colours.",
+    "As soon as the guide switched on the lights, we saw the bright colours.",
+    "As soon as the guide will switch on the lights, we saw the bright colours."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past, so both clauses keep the simple past."
+  },
+  {
+   "qid": "c9-13-43",
+   "type": "change",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Make the sentence negative.",
+   "source": "People used to buy ready-made paints.",
+   "options": [
+    "People did not using to buy ready-made paints.",
+    "People did not use to buy ready-made paints.",
+    "People not use to buy ready-made paints."
+   ],
+   "answer": 1,
+   "rule": "With <b>did not</b>, the verb goes back to its base form: <b>did not use to</b>."
+  },
+  {
+   "qid": "c9-13-44",
+   "type": "change",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "Rewrite using 'Unless'.",
+   "source": "If you do not mix the colours carefully, the picture will look dull.",
+   "options": [
+    "Unless you do not mix the colours carefully, the picture will look dull.",
+    "Unless you mix the colours carefully, the picture will look dull.",
+    "Unless you will mix the colours carefully, the picture will look dull."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> already means 'if not', so drop the <b>not</b>; keep the simple present."
+  },
+  {
+   "qid": "c9-13-45",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Did Raza use the colour blue in this painting?",
+   "options": [
+    "Did the colour blue used by Raza in this painting?",
+    "Was the colour blue use by Raza in this painting?",
+    "Was the colour blue used by Raza in this painting?"
+   ],
+   "answer": 2,
+   "rule": "A past question in the passive: <b>Was</b> + subject + past participle (<b>used</b>)?"
+  },
+  {
+   "qid": "c9-13-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this note.",
+   "words": [
+    "Gond",
+    "art",
+    "is",
+    "practised",
+    "by",
+    "many",
+    "tribal",
+    "families.",
+    "Long",
+    "ago,",
+    "colours",
+    "were",
+    "make",
+    "from",
+    "soil",
+    "and",
+    "leaves,",
+    "and",
+    "every",
+    "wall",
+    "were",
+    "decorated",
+    "with",
+    "dots."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "making",
+      "makes",
+      "made"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive needs the past participle (<b>were made</b>); <b>every wall</b> is singular, so <b>was decorated</b>."
+  },
+  {
+   "qid": "c9-13-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "used_to",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Kamla",
+    "Bai,",
+    "who",
+    "live",
+    "in",
+    "a",
+    "village",
+    "near",
+    "Nagpur,",
+    "use",
+    "to",
+    "paint",
+    "birds",
+    "on",
+    "her",
+    "walls.",
+    "The",
+    "colours",
+    "which",
+    "she",
+    "used",
+    "came",
+    "from",
+    "flowers",
+    "and",
+    "bark."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lives",
+      "living",
+      "life"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 9,
+     "options": [
+      "uses",
+      "using",
+      "used"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Who</b> refers to Kamla Bai (singular): <b>who lives</b>. A past habit: <b>used to paint</b>."
+  },
+  {
+   "qid": "c9-13-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "noun_clause",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Meena",
+    "and",
+    "me",
+    "visits",
+    "the",
+    "Raza",
+    "gallery",
+    "in",
+    "Mumbai.",
+    "The",
+    "guide",
+    "told",
+    "us",
+    "why",
+    "Raza",
+    "love",
+    "the",
+    "bindu",
+    "so",
+    "much."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "myself",
+      "I",
+      "mine"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 5,
+     "options": [
+      "visit",
+      "visiting",
+      "visited"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "loved",
+      "loving",
+      "lover"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Subject pronoun <b>I</b>; <b>Last Sunday</b> needs the past (<b>visited</b>); the clause after <b>told</b> also takes the past: <b>loved</b>."
+  },
+  {
+   "qid": "c9-13-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Raza",
+    "was",
+    "born",
+    "in",
+    "a",
+    "small",
+    "village",
+    "in",
+    "Madhya",
+    "Pradesh.",
+    "He",
+    "was",
+    "honour",
+    "with",
+    "all",
+    "three",
+    "Padma",
+    "awards,",
+    "and",
+    "his",
+    "paintings",
+    "are",
+    "now",
+    "display",
+    "in",
+    "many",
+    "countries.",
+    "He",
+    "passed",
+    "away",
+    "on",
+    "2016."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "honouring",
+      "honoured",
+      "honours"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "displayed",
+      "displaying",
+      "displays"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 30,
+     "options": [
+      "at",
+      "of",
+      "in"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive needs past participles: <b>was honoured</b>, <b>are displayed</b>. Use <b>in</b> with a year."
+  },
+  {
+   "qid": "c9-13-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Gond",
+    "art",
+    "began",
+    "on",
+    "mud",
+    "walls,",
+    "but",
+    "today",
+    "it",
+    "is",
+    "painting",
+    "on",
+    "paper",
+    "and",
+    "cloth.",
+    "Last",
+    "month,",
+    "we",
+    "waited",
+    "outside",
+    "the",
+    "Bhopal",
+    "museum",
+    "until",
+    "the",
+    "guide",
+    "come",
+    "back."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "painted",
+      "paints",
+      "paint"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "coming",
+      "came",
+      "comes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Art is painted by people: <b>is painted</b>. <b>Waited</b> is past, so the time clause is past too: until the guide <b>came</b> back."
+  }
+ ]
+}

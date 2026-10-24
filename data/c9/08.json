@@ -1,0 +1,1206 @@
+{
+ "class": 9,
+ "id": "08",
+ "title": "Somebody's Mother",
+ "topics": [
+  {
+   "tag": "degrees_comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals (types 1, 2 and 3)"
+  },
+  {
+   "tag": "participles",
+   "name": "Non-finite verbs: participles, gerunds, infinitives"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-08-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raju was the happier boy in the whole group.",
+    "Raju was the most happiest boy in the whole group.",
+    "Raju was the happiest boy in the whole group."
+   ],
+   "answer": 2,
+   "rule": "Comparing one with a whole group needs the superlative: <b>the happiest</b>. Never use 'most' with '-est'."
+  },
+  {
+   "qid": "c9-08-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Heard the bell, the boys ran out of school.",
+    "Hear the bell, the boys ran out of school.",
+    "Hearing the bell, the boys ran out of school."
+   ],
+   "answer": 2,
+   "rule": "The boys did the hearing, so use the present participle: <b>Hearing the bell</b>, ..."
+  },
+  {
+   "qid": "c9-08-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "woman",
+    "was",
+    "weaker",
+    "then",
+    "the",
+    "young",
+    "boy."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "than",
+      "that",
+      "as"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A comparative (<b>weaker</b>) is followed by <b>than</b>. 'then' is about time."
+  },
+  {
+   "qid": "c9-08-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "teacher",
+    "said",
+    "us",
+    "to",
+    "help",
+    "old",
+    "people."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "spoke",
+      "talked",
+      "told"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>told</b> takes a person as object (told us to ...). 'said' cannot be followed directly by 'us'."
+  },
+  {
+   "qid": "c9-08-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "The boys came out of school,",
+   "after": "and shouting.",
+   "options": [
+    "laughed",
+    "laughing",
+    "laugh"
+   ],
+   "answer": 1,
+   "rule": "Two matching -ing participles describe what the boys were doing: <b>laughing and shouting</b>."
+  },
+  {
+   "qid": "c9-08-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If you",
+   "after": "to go, I will help you across.",
+   "options": [
+    "wished",
+    "wish",
+    "will wish"
+   ],
+   "answer": 1,
+   "rule": "First conditional: <b>If + simple present</b>, <b>will + verb</b>. No 'will' in the if-clause."
+  },
+  {
+   "qid": "c9-08-07",
+   "type": "build",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Make a sentence with a superlative.",
+   "answer": [
+    "She",
+    "is",
+    "the",
+    "oldest",
+    "woman",
+    "in",
+    "our",
+    "street."
+   ],
+   "alts": [],
+   "rule": "Superlative: <b>the oldest</b> + noun + <b>in</b> the place."
+  },
+  {
+   "qid": "c9-08-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What did the boy say to the old woman?"
+    ]
+   ],
+   "options": [
+    "He said that he will helps her across.",
+    "He said that he would help her across.",
+    "He said that I would help you across."
+   ],
+   "answer": 1,
+   "rule": "In reported speech, 'I' becomes <b>he</b>, 'you' becomes <b>her</b>, and 'will' becomes <b>would</b>."
+  },
+  {
+   "qid": "c9-08-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Will you help Grandpa if he needs you?"
+    ]
+   ],
+   "options": [
+    "Yes, if he needs me, I will help him.",
+    "Yes, if he will need me, I help him.",
+    "Yes, if he needs me, I helped him."
+   ],
+   "answer": 0,
+   "rule": "First conditional: <b>if he needs</b> (present), <b>I will help</b> (future)."
+  },
+  {
+   "qid": "c9-08-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Tanvi said, \"I am cold.\"",
+   "options": [
+    "Tanvi said that I was cold.",
+    "Tanvi said that she were cold.",
+    "Tanvi said that she was cold."
+   ],
+   "answer": 2,
+   "rule": "'I' becomes <b>she</b> (Tanvi), and 'am' moves back to <b>was</b>."
+  },
+  {
+   "qid": "c9-08-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The road was as slippery as a sheet of ice.",
+    "The road was as slippery than a sheet of ice.",
+    "The road was as slipperier as a sheet of ice."
+   ],
+   "answer": 0,
+   "rule": "Positive degree: <b>as</b> + plain adjective + <b>as</b>: as slippery as."
+  },
+  {
+   "qid": "c9-08-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The woman waited at the crossing, felt very nervous.",
+    "The woman waited at the crossing, feeling very nervous.",
+    "The woman waited at the crossing, feels very nervous."
+   ],
+   "answer": 1,
+   "rule": "A participle phrase adds a second action to the same subject: <b>feeling very nervous</b>."
+  },
+  {
+   "qid": "c9-08-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "snows",
+    "tomorrow,",
+    "the",
+    "roads",
+    "will",
+    "became",
+    "slippery."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "become",
+      "becomes",
+      "becoming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base form of the verb: <b>will become</b>."
+  },
+  {
+   "qid": "c9-08-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "boys",
+    "went",
+    "home,",
+    "singing",
+    "and",
+    "throw",
+    "snowballs."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "threw",
+      "throwing",
+      "thrown"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Words joined by 'and' should match: <b>singing and throwing</b>."
+  },
+  {
+   "qid": "c9-08-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Sameer was the",
+   "after": "boy in the whole group.",
+   "options": [
+    "kindest",
+    "kinder",
+    "more kind"
+   ],
+   "answer": 0,
+   "rule": "'the ... in the whole group' compares one with all: superlative <b>kindest</b>."
+  },
+  {
+   "qid": "c9-08-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The old woman",
+   "after": "the boy where he lived.",
+   "options": [
+    "said",
+    "spoke",
+    "asked"
+   ],
+   "answer": 2,
+   "rule": "A reported question uses <b>asked</b> + person. 'said' and 'spoke' cannot take 'the boy' like this."
+  },
+  {
+   "qid": "c9-08-17",
+   "type": "build",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Begin with a participle.",
+   "answer": [
+    "Seeing",
+    "the",
+    "old",
+    "woman,",
+    "Raj",
+    "stopped",
+    "at",
+    "once."
+   ],
+   "alts": [],
+   "rule": "<b>Seeing the old woman</b> is a participle phrase. It describes Raj, who comes right after the comma."
+  },
+  {
+   "qid": "c9-08-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "How was the weather in Manali?"
+    ]
+   ],
+   "options": [
+    "It was much colder than I expected.",
+    "It was more colder than I expected.",
+    "It was very colder than I expected."
+   ],
+   "answer": 0,
+   "rule": "To make a comparative stronger, use <b>much</b>: much colder. Not 'more colder' or 'very colder'."
+  },
+  {
+   "qid": "c9-08-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The boy said to the woman, \"I will help you across.\"",
+   "options": [
+    "The boy told the woman that I would help her across.",
+    "The boy told the woman that he would help her across.",
+    "The boy said the woman that he would help her across."
+   ],
+   "answer": 1,
+   "rule": "'said to' becomes <b>told</b>; 'I' becomes <b>he</b>, 'you' becomes <b>her</b>, and 'will' becomes <b>would</b>."
+  },
+  {
+   "qid": "c9-08-20",
+   "type": "change",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Sameer was the strongest boy in the group.",
+   "options": [
+    "Sameer was stronger than any boy in the group.",
+    "Sameer was more stronger than any other boy in the group.",
+    "Sameer was stronger than any other boy in the group."
+   ],
+   "answer": 2,
+   "rule": "Sameer is in the group, so he is compared with <b>any other boy</b>. Do not use 'more' with '-er'."
+  },
+  {
+   "qid": "c9-08-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the boy had not helped her, she might have slipped on the ice.",
+    "If the boy has not helped her, she might have slipped on the ice.",
+    "If the boy had not helped her, she might slipped on the ice."
+   ],
+   "answer": 0,
+   "rule": "Third conditional (past, unreal): <b>If + had + past participle</b>, <b>might/would have + past participle</b>."
+  },
+  {
+   "qid": "c9-08-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Which indirect speech is correct?",
+   "options": [
+    "She asked him where was he going.",
+    "She asked him where he was going.",
+    "She asked him where is he going."
+   ],
+   "answer": 1,
+   "rule": "In a reported question, use statement order (subject before verb): <b>where he was going</b>."
+  },
+  {
+   "qid": "c9-08-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "second",
+    "street",
+    "was",
+    "even",
+    "busiest",
+    "than",
+    "the",
+    "first",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "busy",
+      "busily",
+      "busier"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative: <b>even busier than</b>."
+  },
+  {
+   "qid": "c9-08-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Covering",
+    "in",
+    "fresh",
+    "snow,",
+    "the",
+    "street",
+    "looked",
+    "white."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Covered",
+      "Cover",
+      "Covers"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The street was covered by snow (passive idea), so use the past participle: <b>Covered in snow</b>."
+  },
+  {
+   "qid": "c9-08-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "you, I would wait for the green signal.",
+   "options": [
+    "am",
+    "will be",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "For an imaginary situation (second conditional), use <b>If I were you</b>, ... <b>would</b>."
+  },
+  {
+   "qid": "c9-08-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "where",
+    "the",
+    "bus",
+    "stop",
+    "was."
+   ],
+   "alts": [],
+   "rule": "Reported questions keep statement order: <b>where the bus stop was</b>, not 'where was the bus stop'."
+  },
+  {
+   "qid": "c9-08-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Why were the boys so noisy?"
+    ]
+   ],
+   "options": [
+    "They were excited, ran out of school after the exam.",
+    "They were excited, having just finished their last exam.",
+    "They were excited, have just finished their last exam."
+   ],
+   "answer": 1,
+   "rule": "A perfect participle (<b>having finished</b>) shows an action completed before another."
+  },
+  {
+   "qid": "c9-08-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Why did you wait for me at the crossing?"
+    ]
+   ],
+   "options": [
+    "If I would leave you alone, you would have been afraid.",
+    "If I had left you alone, you would have been afraid.",
+    "If I had left you alone, you will be afraid."
+   ],
+   "answer": 1,
+   "rule": "An unreal past needs the third conditional: <b>If I had left</b> ..., <b>you would have been</b> ..."
+  },
+  {
+   "qid": "c9-08-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The teacher said to us, \"Help those who are in need.\"",
+   "options": [
+    "The teacher advised us that help those who were in need.",
+    "The teacher advised us to helped those who are in need.",
+    "The teacher advised us to help those who are in need."
+   ],
+   "answer": 2,
+   "rule": "An imperative becomes <b>advised/told + person + to + base verb</b>. A general truth ('are in need') can stay present."
+  },
+  {
+   "qid": "c9-08-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Yesterday",
+    "I",
+    "saw",
+    "an",
+    "old",
+    "man",
+    "waiting",
+    "at",
+    "the",
+    "busy",
+    "signal.",
+    "Nobody",
+    "stopped,",
+    "so",
+    "I",
+    "asked",
+    "him",
+    "if",
+    "he",
+    "need",
+    "help.",
+    "He",
+    "smiled",
+    "and",
+    "say",
+    "thank",
+    "you."
+   ],
+   "errors": [
+    {
+     "i": 19,
+     "options": [
+      "needed",
+      "needing",
+      "wanting"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "says",
+      "saying",
+      "said"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The reported question moves back to the past: <b>if he needed</b>. 'smiled and said' keeps both verbs in the past."
+  },
+  {
+   "qid": "c9-08-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "No other boy in the group was as kind than Sameer.",
+    "No other boy in the group were as kind as Sameer.",
+    "No other boy in the group was as kind as Sameer."
+   ],
+   "answer": 2,
+   "rule": "<b>No other boy</b> is singular (was), and the positive degree uses <b>as ... as</b>."
+  },
+  {
+   "qid": "c9-08-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "boys",
+    "were",
+    "not",
+    "so",
+    "busy,",
+    "they",
+    "would",
+    "helped",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "help",
+      "helping",
+      "helps"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Second conditional: <b>If + past</b>, <b>would + base verb</b>: would help."
+  },
+  {
+   "qid": "c9-08-33",
+   "type": "fill",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "The old woman was afraid of",
+   "after": "on the icy road.",
+   "options": [
+    "slipping",
+    "slip",
+    "slipped"
+   ],
+   "answer": 0,
+   "rule": "After a preposition like <b>of</b>, use the gerund (-ing form): <b>afraid of slipping</b>."
+  },
+  {
+   "qid": "c9-08-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Every year, the boy grew",
+   "after": "and stronger.",
+   "options": [
+    "tallest",
+    "taller",
+    "tall"
+   ],
+   "answer": 1,
+   "rule": "'and stronger' is comparative, so match it: <b>taller and stronger</b> (growing more and more)."
+  },
+  {
+   "qid": "c9-08-35",
+   "type": "build",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Make an offer with an if-clause.",
+   "answer": [
+    "I'll",
+    "hold",
+    "your",
+    "arm",
+    "if",
+    "you",
+    "want",
+    "to",
+    "cross."
+   ],
+   "alts": [],
+   "rule": "Main clause first (<b>I'll hold your arm</b>), then the condition <b>if you want to cross</b>, in the present."
+  },
+  {
+   "qid": "c9-08-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "What did your teacher ask you today?"
+    ]
+   ],
+   "options": [
+    "She asked me why I had come late.",
+    "She asked me why had I come late.",
+    "She asked me why did I come late."
+   ],
+   "answer": 0,
+   "rule": "Reported wh-questions use statement order and move the tense back: <b>why I had come late</b>."
+  },
+  {
+   "qid": "c9-08-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiara",
+     "Did you see the snow in Gulmarg?"
+    ]
+   ],
+   "options": [
+    "Yes! Reached the top, we saw snow everywhere.",
+    "Yes! Having reached the top, we saw snow everywhere.",
+    "Yes! Having reach the top, we saw snow everywhere."
+   ],
+   "answer": 1,
+   "rule": "Perfect participle = <b>having + past participle</b>: Having reached the top, ..."
+  },
+  {
+   "qid": "c9-08-38",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not hold the railing, you will slip.",
+   "options": [
+    "Unless you do not hold the railing, you will slip.",
+    "Unless you hold the railing, you slipped.",
+    "Unless you hold the railing, you will slip."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> = 'if ... not', so remove 'do not'. Keep 'will slip' in the main clause."
+  },
+  {
+   "qid": "c9-08-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "old",
+    "woman",
+    "stood",
+    "at",
+    "the",
+    "busy",
+    "crossing,",
+    "waited",
+    "for",
+    "help.",
+    "Nobody",
+    "stopped",
+    "that",
+    "evening",
+    "because",
+    "each",
+    "driver",
+    "were",
+    "in",
+    "a",
+    "hurry."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "waits",
+      "waiting",
+      "wait"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "are",
+      "was",
+      "being"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A participle adds the second action: <b>waiting for help</b>. <b>each driver</b> is singular: <b>was</b>."
+  },
+  {
+   "qid": "c9-08-40",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Had the boy not stopped, the old woman would waited much longer.",
+    "Had the boy not stopped, the old woman would have waited much longer.",
+    "If had the boy not stopped, the old woman would have waited much longer."
+   ],
+   "answer": 1,
+   "rule": "<b>Had + subject + not + past participle</b> replaces 'If ... had not'. The result is <b>would have waited</b>."
+  },
+  {
+   "qid": "c9-08-41",
+   "type": "fix",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helping",
+    "a",
+    "stranger",
+    "is",
+    "one",
+    "of",
+    "the",
+    "noblest",
+    "thing",
+    "a",
+    "person",
+    "can",
+    "do."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "things",
+      "thinks",
+      "thinking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>one of the</b> + superlative + <b>plural noun</b>: one of the noblest things."
+  },
+  {
+   "qid": "c9-08-42",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The old woman asked the boy",
+   "after": "he would help her across the street.",
+   "options": [
+    "if",
+    "that",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question is joined with <b>if</b> or <b>whether</b>, not 'that'."
+  },
+  {
+   "qid": "c9-08-43",
+   "type": "build",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Begin with a perfect participle.",
+   "answer": [
+    "Having",
+    "helped",
+    "Grandma",
+    "across,",
+    "Arjun",
+    "ran",
+    "back",
+    "to",
+    "his",
+    "friends."
+   ],
+   "alts": [],
+   "rule": "<b>Having helped</b> shows the first action was finished before Arjun ran back."
+  },
+  {
+   "qid": "c9-08-44",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sir",
+     "Who is the most helpful student in your class?"
+    ]
+   ],
+   "options": [
+    "Ravi is, because he is more helpful than any student in our class.",
+    "Ravi is, because no other student is as helpful as he is.",
+    "Ravi is, because he is the more helpful of all of us."
+   ],
+   "answer": 1,
+   "rule": "Ravi is one of the class, so say <b>no other student</b> (or 'any other'). For all of us, use the superlative, not 'more'."
+  },
+  {
+   "qid": "c9-08-45",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "That boy is kinder than most other people.",
+   "options": [
+    "Very few people are kinder as that boy.",
+    "Very few people are as kind as that boy.",
+    "Very few people is as kind as that boy."
+   ],
+   "answer": 1,
+   "rule": "Comparative with 'most other' becomes <b>Very few ... are as kind as</b> in the positive degree."
+  },
+  {
+   "qid": "c9-08-46",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The old woman said, \"God, be kind to that noble boy!\"",
+   "options": [
+    "The old woman prayed that God would be kind to that noble boy.",
+    "The old woman said that God, be kind to that noble boy.",
+    "The old woman prayed to God that be kind to that noble boy."
+   ],
+   "answer": 0,
+   "rule": "A prayer or wish is reported with <b>prayed that</b> + subject + <b>would/might</b> + verb."
+  },
+  {
+   "qid": "c9-08-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Combine using 'If' (third conditional).",
+   "source": "The other boys did not notice her. So they did not help her.",
+   "options": [
+    "If the other boys had noticed her, they would have helped her.",
+    "If the other boys noticed her, they would have helped her.",
+    "If the other boys had noticed her, they would helped her."
+   ],
+   "answer": 0,
+   "rule": "Unreal past: <b>If + had noticed</b>, <b>would have helped</b>."
+  },
+  {
+   "qid": "c9-08-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Seeing",
+    "the",
+    "woman",
+    "alone,",
+    "the",
+    "boy",
+    "walked",
+    "over",
+    "and",
+    "asked",
+    "her",
+    "whether",
+    "she",
+    "want",
+    "help.",
+    "He",
+    "was",
+    "more",
+    "cheerful",
+    "then",
+    "all",
+    "the",
+    "other",
+    "boys,",
+    "and",
+    "if",
+    "he",
+    "had",
+    "not",
+    "helped",
+    "her,",
+    "she",
+    "will",
+    "have",
+    "waited",
+    "for",
+    "hours."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "wanting",
+      "needing",
+      "wanted"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "that",
+      "as",
+      "than"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 32,
+     "options": [
+      "shall",
+      "can",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Reported question: <b>whether she wanted</b>. A comparative takes <b>than</b>. Third conditional: <b>would have waited</b>."
+  },
+  {
+   "qid": "c9-08-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "winter",
+    "my",
+    "brother",
+    "and",
+    "I",
+    "visited",
+    "Shimla.",
+    "It",
+    "was",
+    "the",
+    "colder",
+    "place",
+    "we",
+    "had",
+    "ever",
+    "seen.",
+    "Our",
+    "guide",
+    "said",
+    "that",
+    "we",
+    "must",
+    "wore",
+    "warm",
+    "gloves,",
+    "and",
+    "we",
+    "were",
+    "glad",
+    "that",
+    "we",
+    "listen",
+    "to",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "cold",
+      "coldly",
+      "coldest"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "wearing",
+      "worn",
+      "wear"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 32,
+     "options": [
+      "listened",
+      "listens",
+      "listening"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "'the ... we had ever seen' needs <b>the coldest</b>. After 'must', use <b>wear</b>. 'were glad' is past, so <b>listened</b>."
+  },
+  {
+   "qid": "c9-08-50",
+   "type": "proof",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Grandma",
+    "said",
+    "that",
+    "she",
+    "had",
+    "felt",
+    "very",
+    "scared.",
+    "If",
+    "I",
+    "had",
+    "not",
+    "come",
+    "in",
+    "time,",
+    "she",
+    "would",
+    "have",
+    "stand",
+    "there",
+    "for",
+    "hours.",
+    "She",
+    "thanked",
+    "me",
+    "and",
+    "give",
+    "me",
+    "a",
+    "sweet."
+   ],
+   "errors": [
+    {
+     "i": 18,
+     "options": [
+      "standing",
+      "stood",
+      "stands"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "gives",
+      "given",
+      "gave"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>would have</b> + past participle: <b>would have stood</b>. 'thanked ... and gave' keeps both verbs in the past."
+  }
+ ]
+}

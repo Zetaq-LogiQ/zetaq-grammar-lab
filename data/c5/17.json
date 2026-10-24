@@ -1,0 +1,1007 @@
+{
+ "class": 5,
+ "id": "17",
+ "title": "On the Water",
+ "topics": [
+  {
+   "tag": "present_continuous",
+   "name": "Present continuous (is / am / are + -ing)"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present (he / she / it + -s)"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the, some / any"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-17-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We is gliding across the lake.",
+    "We are gliding across the lake.",
+    "We are glide across the lake."
+   ],
+   "answer": 1,
+   "rule": "Present continuous: <b>are</b> + verb-<b>ing</b>. We takes <b>are</b>: <b>We are gliding</b>."
+  },
+  {
+   "qid": "c5-17-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Pick the sentence with the correct article.",
+   "options": [
+    "An swallow is flying over the water.",
+    "A swallow is flying over the water.",
+    "A swallow are flying over the water."
+   ],
+   "answer": 1,
+   "rule": "<b>swallow</b> begins with a consonant sound, so use <b>a</b>. One swallow takes <b>is</b>."
+  },
+  {
+   "qid": "c5-17-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The kingfisher catch fish every day.",
+    "The kingfisher catchs fish every day.",
+    "The kingfisher catches fish every day."
+   ],
+   "answer": 2,
+   "rule": "With he/she/it, the simple present adds <b>-s</b> or <b>-es</b>. After -ch, add <b>-es</b>: <b>catches</b>."
+  },
+  {
+   "qid": "c5-17-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look!",
+    "Two",
+    "ducks",
+    "is",
+    "swimming",
+    "near",
+    "our",
+    "boat."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two ducks</b> is plural, so use <b>are</b>: <b>are swimming</b>."
+  },
+  {
+   "qid": "c5-17-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "morning,",
+    "Uncle",
+    "Raju",
+    "row",
+    "his",
+    "boat",
+    "across",
+    "the",
+    "lake."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "rows",
+      "rowing",
+      "rower"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A habit (<b>every morning</b>) with one person takes the <b>-s</b> form: <b>Uncle Raju rows</b>."
+  },
+  {
+   "qid": "c5-17-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The lilies are floating",
+   "after": "the water.",
+   "options": [
+    "of",
+    "than",
+    "on"
+   ],
+   "answer": 2,
+   "rule": "Things that float stay <b>on</b> the water."
+  },
+  {
+   "qid": "c5-17-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "We saw",
+   "after": "orange sunset from our boat.",
+   "options": [
+    "a",
+    "these",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "Use <b>an</b> before a vowel sound: <b>an orange</b> sunset."
+  },
+  {
+   "qid": "c5-17-08",
+   "type": "build",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Say what is happening now.",
+   "answer": [
+    "The",
+    "swallow",
+    "is",
+    "flying",
+    "low."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>is</b> + verb-<b>ing</b>: <b>The swallow is flying</b> low."
+  },
+  {
+   "qid": "c5-17-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "What are you doing, Anu?"
+    ]
+   ],
+   "options": [
+    "I am painting a picture of a lake.",
+    "I painting a picture of a lake.",
+    "I am paint a picture of a lake."
+   ],
+   "answer": 0,
+   "rule": "For an action going on now: <b>I am</b> + verb-<b>ing</b>: <b>I am painting</b>."
+  },
+  {
+   "qid": "c5-17-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Where does a kingfisher live?"
+    ]
+   ],
+   "options": [
+    "It lives near rivers and lakes.",
+    "It live near rivers and lakes.",
+    "It living near rivers and lakes."
+   ],
+   "answer": 0,
+   "rule": "A fact about <b>it</b> takes the <b>-s</b> form: <b>It lives</b>."
+  },
+  {
+   "qid": "c5-17-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The dragonfly is sitting on a lily leaf.",
+    "The dragonfly is sitting of a lily leaf.",
+    "The dragonfly is sitting into a lily leaf."
+   ],
+   "answer": 0,
+   "rule": "Something resting on top of a surface is <b>on</b> it: <b>on a lily leaf</b>."
+  },
+  {
+   "qid": "c5-17-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The ripples shines brightly in the sun.",
+    "The ripples shining brightly in the sun.",
+    "The ripples shine brightly in the sun."
+   ],
+   "answer": 2,
+   "rule": "<b>ripples</b> is plural, so the verb has no -s: <b>The ripples shine</b>."
+  },
+  {
+   "qid": "c5-17-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the sentence with the correct article.",
+   "options": [
+    "A sun is shining brightly today.",
+    "The sun is shining brightly today.",
+    "An sun is shining brightly today."
+   ],
+   "answer": 1,
+   "rule": "There is only one sun, so we say <b>the sun</b>."
+  },
+  {
+   "qid": "c5-17-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Right",
+    "now",
+    "Meena",
+    "and",
+    "I",
+    "is",
+    "sitting",
+    "in",
+    "a",
+    "small",
+    "boat."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Meena and I</b> means two people (we), so use <b>are</b>: <b>are sitting</b>."
+  },
+  {
+   "qid": "c5-17-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look,",
+    "a",
+    "ducks",
+    "are",
+    "diving",
+    "under",
+    "the",
+    "water!"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "an",
+      "the",
+      "this"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>a</b>, <b>an</b> and <b>this</b> go with one thing. <b>ducks are</b> is plural, so use <b>the</b>."
+  },
+  {
+   "qid": "c5-17-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "A swallow",
+   "after": "low over the water to catch insects.",
+   "options": [
+    "flies",
+    "fly",
+    "flying"
+   ],
+   "answer": 0,
+   "rule": "One bird (it) takes the <b>-s</b> form. fly - <b>flies</b> (y changes to ies)."
+  },
+  {
+   "qid": "c5-17-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Shadows of the hills are reflected",
+   "after": "the lake.",
+   "options": [
+    "in",
+    "at",
+    "of"
+   ],
+   "answer": 0,
+   "rule": "We see a reflection <b>in</b> water, like <b>in a mirror</b>."
+  },
+  {
+   "qid": "c5-17-18",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Ducks",
+    "float",
+    "on",
+    "the",
+    "pond."
+   ],
+   "alts": [],
+   "rule": "Plural subject + base verb (no -s): <b>Ducks float</b>."
+  },
+  {
+   "qid": "c5-17-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What did you see near the reeds?"
+    ]
+   ],
+   "options": [
+    "I saw a old boat and a heron.",
+    "I saw an old boat and an heron.",
+    "I saw an old boat and a heron."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> before a vowel sound (<b>an old</b> boat), <b>a</b> before a consonant sound (<b>a heron</b>)."
+  },
+  {
+   "qid": "c5-17-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Where is the kingfisher sitting?"
+    ]
+   ],
+   "options": [
+    "It is sitting on the branch above the water.",
+    "It is sitting into the branch above the water.",
+    "It is sitting on the branch above of the water."
+   ],
+   "answer": 0,
+   "rule": "A bird sits <b>on</b> a branch. <b>above</b> needs no 'of' after it."
+  },
+  {
+   "qid": "c5-17-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Look! The swallows skims over the lake.",
+    "Look! The swallows is skimming over the lake.",
+    "Look! The swallows are skimming over the lake."
+   ],
+   "answer": 2,
+   "rule": "<b>Look!</b> shows it is happening now. Plural swallows: <b>are skimming</b>."
+  },
+  {
+   "qid": "c5-17-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the sentence with the correct articles.",
+   "options": [
+    "The lake has a island with a tall tree.",
+    "The lake has an island with an tall tree.",
+    "The lake has an island with a tall tree."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> before a vowel sound (<b>an island</b>), <b>a</b> before a consonant sound (<b>a tall</b> tree)."
+  },
+  {
+   "qid": "c5-17-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Does",
+    "the",
+    "swallow",
+    "builds",
+    "its",
+    "nest",
+    "near",
+    "the",
+    "water?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "building",
+      "build",
+      "built"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>does</b>, use the base verb with no -s: <b>Does ... build</b>?"
+  },
+  {
+   "qid": "c5-17-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "boat",
+    "stopped",
+    "in",
+    "front",
+    "from",
+    "the",
+    "old",
+    "temple."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "of",
+      "at",
+      "by"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The phrase is always <b>in front of</b>."
+  },
+  {
+   "qid": "c5-17-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Listen! The birds",
+   "after": "sweetly in the trees.",
+   "options": [
+    "is singing",
+    "are singing",
+    "sings"
+   ],
+   "answer": 1,
+   "rule": "<b>Listen!</b> means it is happening now. Plural birds: <b>are singing</b>."
+  },
+  {
+   "qid": "c5-17-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The kingfisher is",
+   "after": "beautiful bird.",
+   "options": [
+    "an",
+    "many",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>beautiful</b> starts with a consonant sound, so use <b>a</b>. many goes with plurals."
+  },
+  {
+   "qid": "c5-17-27",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Say where the frog is.",
+   "answer": [
+    "A",
+    "frog",
+    "is",
+    "sitting",
+    "under",
+    "the",
+    "lily",
+    "leaf."
+   ],
+   "alts": [],
+   "rule": "<b>under</b> shows a place below something: <b>under the lily leaf</b>."
+  },
+  {
+   "qid": "c5-17-28",
+   "type": "build",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Say what is happening now.",
+   "answer": [
+    "An",
+    "eagle",
+    "is",
+    "flying",
+    "above",
+    "the",
+    "boat."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> before the vowel sound in <b>eagle</b>; <b>is flying</b> for now."
+  },
+  {
+   "qid": "c5-17-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ria",
+     "Do fish sleep at night?"
+    ]
+   ],
+   "options": [
+    "Yes, they does. They rest quietly near the bottom.",
+    "Yes, they do. They rest quietly near the bottom.",
+    "Yes, they do. They rests quietly near the bottom."
+   ],
+   "answer": 1,
+   "rule": "<b>they</b> takes <b>do</b> and a verb without -s: <b>they rest</b>."
+  },
+  {
+   "qid": "c5-17-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Why is the water moving like that?"
+    ]
+   ],
+   "options": [
+    "A fish splashing near the boat.",
+    "A fish is splashing near the boat.",
+    "A fish are splashing near the boat."
+   ],
+   "answer": 1,
+   "rule": "Happening now, one fish: <b>is</b> + verb-<b>ing</b>: <b>A fish is splashing</b>."
+  },
+  {
+   "qid": "c5-17-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My sister and I am rowing the boat while Papa is fishing.",
+    "My sister and I are rowing the boat while Papa is fishing.",
+    "My sister and me are rowing the boat while Papa is fishing."
+   ],
+   "answer": 1,
+   "rule": "<b>My sister and I</b> is the subject (we), so use <b>I</b> and <b>are rowing</b>."
+  },
+  {
+   "qid": "c5-17-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "There are some lilies near the shore, but there aren't any lotuses.",
+    "There is some lilies near the shore, but there aren't any lotuses.",
+    "There are some lilies near the shore, but there aren't some lotuses."
+   ],
+   "answer": 0,
+   "rule": "Use <b>some</b> in positive sentences and <b>any</b> in negative ones. Plural lilies: <b>There are</b>."
+  },
+  {
+   "qid": "c5-17-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "year",
+    "many",
+    "swallow",
+    "fly",
+    "to",
+    "our",
+    "village",
+    "in",
+    "winter."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "swallowed",
+      "swallowing",
+      "swallows"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>many</b> needs a plural noun: <b>many swallows fly</b>."
+  },
+  {
+   "qid": "c5-17-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "is",
+    "tired,",
+    "so",
+    "her",
+    "two",
+    "brothers",
+    "is",
+    "rowing",
+    "the",
+    "boat."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>her two brothers</b> is plural, so use <b>are rowing</b>."
+  },
+  {
+   "qid": "c5-17-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "many reeds at the edge of the lake.",
+   "options": [
+    "is",
+    "am",
+    "are"
+   ],
+   "answer": 2,
+   "rule": "<b>many reeds</b> is plural, so use <b>There are</b>."
+  },
+  {
+   "qid": "c5-17-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Is there",
+   "after": "water in the bottle for our boat trip?",
+   "options": [
+    "any",
+    "many",
+    "a"
+   ],
+   "answer": 0,
+   "rule": "In questions, use <b>any</b>. Water cannot be counted, so not many or a."
+  },
+  {
+   "qid": "c5-17-37",
+   "type": "build",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "you",
+    "enjoying",
+    "the",
+    "boat",
+    "ride?"
+   ],
+   "alts": [],
+   "rule": "Present continuous question: <b>Are</b> + you + verb-<b>ing</b> ...?"
+  },
+  {
+   "qid": "c5-17-38",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "does",
+    "a",
+    "kingfisher",
+    "eat?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>does</b> + subject + base verb: <b>What does a kingfisher eat?</b>"
+  },
+  {
+   "qid": "c5-17-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anil",
+     "Is your little brother swimming in the lake?"
+    ]
+   ],
+   "options": [
+    "No, he isn't. He sitting in the boat.",
+    "No, he doesn't. He is sitting in the boat.",
+    "No, he isn't. He is sitting in the boat."
+   ],
+   "answer": 2,
+   "rule": "Answer an <b>Is ...?</b> question with <b>isn't</b>, then <b>is</b> + verb-<b>ing</b>."
+  },
+  {
+   "qid": "c5-17-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Rao",
+     "Who took these lovely photos of the lake?"
+    ]
+   ],
+   "options": [
+    "My uncle took them with a old camera.",
+    "My uncle took them with an old camera.",
+    "My uncle taked them with an old camera."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> before the vowel sound in <b>old</b>. The past of take is <b>took</b>."
+  },
+  {
+   "qid": "c5-17-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While we is floating on the lake, a bright kingfisher darts into the water.",
+    "While we are floating on the lake, a bright kingfisher dart into the water.",
+    "While we are floating on the lake, a bright kingfisher darts into the water."
+   ],
+   "answer": 2,
+   "rule": "<b>we are</b> floating; one kingfisher (it) <b>darts</b>."
+  },
+  {
+   "qid": "c5-17-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "The dragonfly flew from the reeds to a lily in the middle of the pond.",
+    "The dragonfly flew from the reeds at a lily in the middle of the pond.",
+    "The dragonfly flew from the reeds to a lily in the middle on the pond."
+   ],
+   "answer": 0,
+   "rule": "Moving: <b>from</b> one place <b>to</b> another. The phrase is <b>in the middle of</b>."
+  },
+  {
+   "qid": "c5-17-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "ripples",
+    "on",
+    "the",
+    "water",
+    "is",
+    "twinkling",
+    "brightly",
+    "in",
+    "the",
+    "morning",
+    "sun."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "am",
+      "be",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject is <b>All the ripples</b> (plural), not water, so use <b>are twinkling</b>."
+  },
+  {
+   "qid": "c5-17-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "summer,",
+    "both",
+    "my",
+    "grandparents",
+    "rents",
+    "a",
+    "houseboat",
+    "on",
+    "Dal",
+    "Lake."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "renting",
+      "rental",
+      "rent"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>both my grandparents</b> is plural, so the verb has no -s: <b>rent</b>."
+  },
+  {
+   "qid": "c5-17-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Our little boat glided slowly",
+   "after": "the bridge and came out on the other side.",
+   "options": [
+    "of",
+    "among",
+    "under"
+   ],
+   "answer": 2,
+   "rule": "A boat passes <b>under</b> a bridge. among is for many things around you."
+  },
+  {
+   "qid": "c5-17-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Look over there! Two boys",
+   "after": "a race in their little boats.",
+   "options": [
+    "are having",
+    "is having",
+    "have having"
+   ],
+   "answer": 0,
+   "rule": "Happening now, two boys: <b>are</b> + verb-<b>ing</b>: <b>are having</b>."
+  },
+  {
+   "qid": "c5-17-47",
+   "type": "build",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "are",
+    "the",
+    "swallows",
+    "flying",
+    "so",
+    "low",
+    "today?"
+   ],
+   "alts": [],
+   "rule": "Why + <b>are</b> + subject + verb-<b>ing</b> ...? The question mark ends it."
+  },
+  {
+   "qid": "c5-17-48",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Make a sentence about a habit.",
+   "answer": [
+    "My",
+    "uncle",
+    "sails",
+    "across",
+    "the",
+    "lake",
+    "every",
+    "weekend."
+   ],
+   "alts": [],
+   "rule": "A habit with one person: verb + <b>-s</b>: <b>My uncle sails</b> ... every weekend."
+  },
+  {
+   "qid": "c5-17-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Can you see the kingfisher?"
+    ],
+    [
+     "Kiran",
+     "What is it doing now?"
+    ]
+   ],
+   "options": [
+    "Yes! It diving into the stream to catch a fish.",
+    "Yes! It is diving into the stream to catch a fish.",
+    "Yes! It is diving into the stream to catch an fish."
+   ],
+   "answer": 1,
+   "rule": "<b>It is diving</b> (is + -ing for now) and <b>a fish</b> (consonant sound)."
+  },
+  {
+   "qid": "c5-17-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do you see in the picture of the lake?"
+    ]
+   ],
+   "options": [
+    "I see a island, a few boats and some ducks on the water.",
+    "I see an island, a few boats and some ducks on the water.",
+    "I sees an island, a few boats and some ducks on the water."
+   ],
+   "answer": 1,
+   "rule": "<b>an island</b> (vowel sound). With I, the verb has no -s: <b>I see</b>."
+  }
+ ]
+}

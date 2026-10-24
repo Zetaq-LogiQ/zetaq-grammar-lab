@@ -1,0 +1,994 @@
+{
+ "class": 6,
+ "id": "1.3",
+ "title": "Mindfulness",
+ "topics": [
+  {
+   "tag": "verb_forms",
+   "name": "Verb forms (talk, talks, talked, talking)"
+  },
+  {
+   "tag": "nouns",
+   "name": "Kinds of nouns, plurals and countable/uncountable"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Punctuation marks"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-1.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She practise yoga every morning.",
+    "She practises yoga every morning.",
+    "She practising yoga every morning."
+   ],
+   "answer": 1,
+   "rule": "Simple present with <b>she</b>: verb + -s: <b>practises</b>."
+  },
+  {
+   "qid": "c6-1.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Kolkata and Mumbai are big cities.",
+    "Kolkata and Mumbai are big citys.",
+    "Kolkata and Mumbai is big cities."
+   ],
+   "answer": 0,
+   "rule": "Two proper nouns joined by <b>and</b> take <b>are</b>; city ends in consonant + y, so plural <b>cities</b>."
+  },
+  {
+   "qid": "c6-1.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera answered the question calmly.",
+    "Meera answered the question calm.",
+    "Meera answered the question calmness."
+   ],
+   "answer": 0,
+   "rule": "To tell <b>how</b> she answered, use an adverb: <b>calmly</b>."
+  },
+  {
+   "qid": "c6-1.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "are",
+    "talking",
+    "to",
+    "her",
+    "grandmother",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "am",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Riya</b> is one person, so the present continuous is <b>is</b> + verb-ing: is talking."
+  },
+  {
+   "qid": "c6-1.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "are",
+    "many",
+    "childs",
+    "in",
+    "the",
+    "yoga",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "child",
+      "childish",
+      "children"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>child</b> has an irregular plural: <b>children</b>."
+  },
+  {
+   "qid": "c6-1.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Close your eyes and breathe",
+   "after": "through your nose.",
+   "options": [
+    "gentle",
+    "gentleness",
+    "gently"
+   ],
+   "answer": 2,
+   "rule": "An adverb tells how you breathe: <b>gently</b>."
+  },
+  {
+   "qid": "c6-1.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Yoga",
+   "after": "us stay healthy.",
+   "options": [
+    "help",
+    "helps",
+    "helping"
+   ],
+   "answer": 1,
+   "rule": "<b>Yoga</b> is singular, so the present verb takes -s: <b>helps</b>."
+  },
+  {
+   "qid": "c6-1.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Yoga",
+    "keeps",
+    "our",
+    "body",
+    "healthy."
+   ],
+   "alts": [],
+   "rule": "Subject + verb (<b>keeps</b>) + object + describing word."
+  },
+  {
+   "qid": "c6-1.3-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Do you do yoga every day?"
+    ]
+   ],
+   "options": [
+    "Yes, I do yoga every morning.",
+    "Yes, I does yoga every morning.",
+    "Yes, I doing yoga every morning."
+   ],
+   "answer": 0,
+   "rule": "With <b>I</b>, the simple present has no -s: <b>I do</b>."
+  },
+  {
+   "qid": "c6-1.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did the team play today?"
+    ]
+   ],
+   "options": [
+    "They played very well.",
+    "They played very good.",
+    "They played very goodly."
+   ],
+   "answer": 0,
+   "rule": "<b>good</b> is an adjective; the adverb is <b>well</b>: played well."
+  },
+  {
+   "qid": "c6-1.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' yoga mats are blue.",
+    "The childs' yoga mats are blue.",
+    "The children's yoga mats are blue."
+   ],
+   "answer": 2,
+   "rule": "<b>children</b> is already plural without -s, so add <b>'s</b>: children's."
+  },
+  {
+   "qid": "c6-1.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The firefighter showed great brave.",
+    "The firefighter showed great bravery.",
+    "The firefighter showed great bravely."
+   ],
+   "answer": 1,
+   "rule": "After <b>showed great</b> we need a noun. The abstract noun of brave is <b>bravery</b>."
+  },
+  {
+   "qid": "c6-1.3-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "days",
+    "ago",
+    "we",
+    "practise",
+    "the",
+    "three-minute",
+    "breathing",
+    "space."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "practising",
+      "practises",
+      "practised"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Two days ago</b> is in the past, so use the simple past: <b>practised</b>."
+  },
+  {
+   "qid": "c6-1.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Bring",
+    "your",
+    "mind",
+    "back",
+    "gentle",
+    "to",
+    "your",
+    "breath."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "gentler",
+      "gentleness",
+      "gently"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell how you bring it back, use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c6-1.3-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Many",
+   "after": "joined the yoga class.",
+   "options": [
+    "woman",
+    "women",
+    "woman's"
+   ],
+   "answer": 1,
+   "rule": "<b>Many</b> needs a plural noun. The plural of woman is <b>women</b>."
+  },
+  {
+   "qid": "c6-1.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The children",
+   "after": "yoga in the park.",
+   "options": [
+    "does",
+    "do",
+    "are doing"
+   ],
+   "answer": 2,
+   "rule": "<b>Look!</b> shows it is happening now: present continuous <b>are doing</b>."
+  },
+  {
+   "qid": "c6-1.3-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "She",
+    "eats",
+    "her",
+    "lunch",
+    "slowly."
+   ],
+   "alts": [],
+   "rule": "An adverb of manner usually comes after the object: eats her lunch <b>slowly</b>."
+  },
+  {
+   "qid": "c6-1.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "your",
+    "sister",
+    "practise",
+    "yoga?"
+   ],
+   "alts": [],
+   "rule": "<b>Does</b> + subject + base verb (no -s): Does your sister <b>practise</b>?"
+  },
+  {
+   "qid": "c6-1.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "What did you buy at the market?"
+    ]
+   ],
+   "options": [
+    "I bought two loaves of bread.",
+    "I bought two loafs of bread.",
+    "I bought two loaves of breads."
+   ],
+   "answer": 0,
+   "rule": "loaf becomes <b>loaves</b>; <b>bread</b> is uncountable, so it has no plural -s."
+  },
+  {
+   "qid": "c6-1.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What is Kabir doing?"
+    ]
+   ],
+   "options": [
+    "He is reading in the library.",
+    "He is read in the library.",
+    "He reading in the library."
+   ],
+   "answer": 0,
+   "rule": "Present continuous: <b>is</b> + verb-<b>ing</b>: is reading."
+  },
+  {
+   "qid": "c6-1.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bird flapped it's wings.",
+    "The bird flapped it wings.",
+    "The bird flapped its wings."
+   ],
+   "answer": 2,
+   "rule": "<b>its</b> (no apostrophe) shows possession. <b>it's</b> means it is."
+  },
+  {
+   "qid": "c6-1.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Arjun waited patient for his turn.",
+    "Arjun waited patiently for his turn.",
+    "Arjun waited patience for his turn."
+   ],
+   "answer": 1,
+   "rule": "To tell how he waited, use the adverb <b>patiently</b>."
+  },
+  {
+   "qid": "c6-1.3-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Mindfulness reduce stress and helps us sleep better.",
+    "Mindfulness reduces stress and help us sleep better.",
+    "Mindfulness reduces stress and helps us sleep better."
+   ],
+   "answer": 2,
+   "rule": "<b>Mindfulness</b> is singular, so both verbs take -s: <b>reduces</b> and <b>helps</b>."
+  },
+  {
+   "qid": "c6-1.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Regular",
+    "practice",
+    "brings",
+    "calm",
+    "and",
+    "happy",
+    "to",
+    "our",
+    "lives."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "happiness",
+      "happily",
+      "happier"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>brings calm and ___</b> needs a noun. The abstract noun of happy is <b>happiness</b>."
+  },
+  {
+   "qid": "c6-1.3-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "my",
+    "parents",
+    "is",
+    "reducing",
+    "the",
+    "sugar",
+    "in",
+    "their",
+    "tea."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "are",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both my parents</b> is plural, so the present continuous uses <b>are</b>: are reducing."
+  },
+  {
+   "qid": "c6-1.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The old man walked",
+   "after": "across the busy road.",
+   "options": [
+    "carefully",
+    "careful",
+    "care"
+   ],
+   "answer": 0,
+   "rule": "To tell how he walked, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c6-1.3-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "We need",
+   "after": "water for the plants.",
+   "options": [
+    "a few",
+    "a little",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>water</b> is uncountable, so use <b>a little</b>. (a few/many go with countable nouns.)"
+  },
+  {
+   "qid": "c6-1.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "calm",
+    "morning",
+    "it",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "Exclamation: <b>What a</b> + adjective + noun + subject + verb, ending with <b>!</b>"
+  },
+  {
+   "qid": "c6-1.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How did you do in the yoga competition?"
+    ]
+   ],
+   "options": [
+    "I did very good. I won second prize!",
+    "I did very well. I won second prize!",
+    "I did very well. I winned second prize!"
+   ],
+   "answer": 1,
+   "rule": "Use the adverb <b>well</b> after did; the past of win is <b>won</b>."
+  },
+  {
+   "qid": "c6-1.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "How many players are there in a cricket team?"
+    ]
+   ],
+   "options": [
+    "There is eleven players in a team.",
+    "There are eleven players in a team.",
+    "There are eleven player in a team."
+   ],
+   "answer": 1,
+   "rule": "<b>eleven</b> needs a plural noun (<b>players</b>) and <b>There are</b>."
+  },
+  {
+   "qid": "c6-1.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A hour of yoga makes me feel fresh.",
+    "An hour of yoga make me feel fresh.",
+    "An hour of yoga makes me feel fresh."
+   ],
+   "answer": 2,
+   "rule": "<b>an hour</b> (silent h), and the subject <b>an hour</b> is singular: <b>makes</b>."
+  },
+  {
+   "qid": "c6-1.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Gold and silver are precious metals.",
+    "Gold and silver is precious metals.",
+    "Gold and silver are a precious metals."
+   ],
+   "answer": 0,
+   "rule": "Two material nouns joined by <b>and</b> take <b>are</b>; plural <b>metals</b> takes no a/an."
+  },
+  {
+   "qid": "c6-1.3-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "baby",
+    "was",
+    "sleeping",
+    "peaceful",
+    "in",
+    "her",
+    "cradle."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "peace",
+      "peacefully",
+      "peaceable"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To tell how the baby was sleeping, use the adverb <b>peacefully</b>."
+  },
+  {
+   "qid": "c6-1.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "should",
+    "practises",
+    "yoga",
+    "daily",
+    "to",
+    "stay",
+    "fit."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "practise",
+      "practising",
+      "practised"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a modal like <b>should</b>, use the base verb: <b>practise</b>."
+  },
+  {
+   "qid": "c6-1.3-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Dad",
+   "after": "the dishes when the phone rang.",
+   "options": [
+    "were washing",
+    "washing",
+    "was washing"
+   ],
+   "answer": 2,
+   "rule": "Longer action going on in the past: <b>was washing</b> (Dad = one person)."
+  },
+  {
+   "qid": "c6-1.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "There are only",
+   "after": "mats left in the yoga room.",
+   "options": [
+    "a little",
+    "much",
+    "a few"
+   ],
+   "answer": 2,
+   "rule": "<b>mats</b> is countable and plural, so use <b>a few</b>."
+  },
+  {
+   "qid": "c6-1.3-37",
+   "type": "build",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "My",
+    "grandparents",
+    "go",
+    "for",
+    "a",
+    "walk",
+    "daily."
+   ],
+   "alts": [],
+   "rule": "Plural subject (<b>grandparents</b>) takes the base verb <b>go</b> in the simple present."
+  },
+  {
+   "qid": "c6-1.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Our",
+    "team",
+    "has",
+    "eleven",
+    "players."
+   ],
+   "alts": [],
+   "rule": "<b>team</b> is a collective noun for one group, so it takes <b>has</b> here."
+  },
+  {
+   "qid": "c6-1.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you watch the yoga talk online?"
+    ]
+   ],
+   "options": [
+    "Yes, I watched it yesterday.",
+    "Yes, I watch it yesterday.",
+    "Yes, I watching it yesterday."
+   ],
+   "answer": 0,
+   "rule": "<b>yesterday</b> needs the simple past: <b>watched</b>."
+  },
+  {
+   "qid": "c6-1.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Can you read the poem aloud, Rahul?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. I can reads it clearly.",
+    "Yes, ma'am. I can read it clearly.",
+    "Yes, ma'am. I can read it clear."
+   ],
+   "answer": 1,
+   "rule": "<b>can</b> + base verb (<b>read</b>), and the adverb <b>clearly</b> tells how."
+  },
+  {
+   "qid": "c6-1.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Practising yoga every day keeps my grandmother active.",
+    "Practising yoga every day keep my grandmother active.",
+    "Practise yoga every day keeps my grandmother active."
+   ],
+   "answer": 0,
+   "rule": "The subject <b>Practising yoga</b> is one activity (singular), so the verb is <b>keeps</b>."
+  },
+  {
+   "qid": "c6-1.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "My brothers friends are coming home today.",
+    "My brother's friends is coming home today.",
+    "My brother's friends are coming home today."
+   ],
+   "answer": 2,
+   "rule": "Possession needs an apostrophe: <b>brother's</b>; <b>friends</b> is plural, so <b>are</b>."
+  },
+  {
+   "qid": "c6-1.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Even",
+    "when",
+    "the",
+    "traffic",
+    "is",
+    "heavy,",
+    "my",
+    "father",
+    "speaks",
+    "to",
+    "other",
+    "drivers",
+    "polite",
+    "and",
+    "never",
+    "shouts."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "politer",
+      "politely",
+      "politeness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To tell how he speaks, use the adverb <b>politely</b>."
+  },
+  {
+   "qid": "c6-1.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "doctor",
+    "said",
+    "that",
+    "daily",
+    "yoga",
+    "can",
+    "improve",
+    "our",
+    "immune",
+    "and",
+    "reduce",
+    "pain."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "immunise",
+      "immunity",
+      "immunised"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>improve our</b> we need a noun. The noun form is <b>immunity</b>."
+  },
+  {
+   "qid": "c6-1.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Every morning, my grandfather",
+   "after": "the newspaper before he goes for a walk.",
+   "options": [
+    "reading",
+    "have read",
+    "reads"
+   ],
+   "answer": 2,
+   "rule": "A daily habit with <b>he</b> takes the simple present + -s: <b>reads</b>."
+  },
+  {
+   "qid": "c6-1.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Mindfulness helps us respond",
+   "after": "to problems.",
+   "options": [
+    "thoughtful",
+    "thought",
+    "thoughtfully"
+   ],
+   "answer": 2,
+   "rule": "<b>respond</b> is a verb, so describe it with an adverb: <b>thoughtfully</b>."
+  },
+  {
+   "qid": "c6-1.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "does",
+    "your",
+    "yoga",
+    "teacher",
+    "teach",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "<b>What does</b> + subject + base verb (<b>teach</b>, no -s) ... <b>?</b>"
+  },
+  {
+   "qid": "c6-1.3-48",
+   "type": "build",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Meena's",
+    "brother",
+    "plays",
+    "for",
+    "the",
+    "school",
+    "team."
+   ],
+   "alts": [],
+   "rule": "<b>Meena's</b> shows possession with an apostrophe + s."
+  },
+  {
+   "qid": "c6-1.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Do we need more rice and plates for the party?"
+    ]
+   ],
+   "options": [
+    "Yes, we need a few more rice and a little more plates.",
+    "Yes, we need a little more rice and a few more plates.",
+    "Yes, we need a little more rice and a little more plates."
+   ],
+   "answer": 1,
+   "rule": "<b>rice</b> is uncountable: <b>a little</b>. <b>plates</b> are countable: <b>a few</b>."
+  },
+  {
+   "qid": "c6-1.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "verb_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Is your sister enjoying her new yoga class?"
+    ]
+   ],
+   "options": [
+    "Yes, she enjoys it a lot. She goes there every evening.",
+    "Yes, she enjoy it a lot. She goes there every evening.",
+    "Yes, she enjoys it a lot. She go there every evening."
+   ],
+   "answer": 0,
+   "rule": "With <b>she</b>, simple present verbs take -s: <b>enjoys</b>, <b>goes</b>."
+  }
+ ]
+}

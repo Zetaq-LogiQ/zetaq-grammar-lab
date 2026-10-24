@@ -1,0 +1,1019 @@
+{
+ "class": 5,
+ "id": "01",
+ "title": "What a Bird Thought",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense (regular and irregular verbs)"
+  },
+  {
+   "tag": "was_were",
+   "name": "was / were"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  },
+  {
+   "tag": "adjectives_compare",
+   "name": "Adjectives with -er / -est"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-01-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Last spring, the little bird lives in a shell.",
+    "Last spring, the little bird living in a shell.",
+    "Last spring, the little bird lived in a shell."
+   ],
+   "answer": 2,
+   "rule": "<b>Last spring</b> is in the past, so use the past tense: <b>lived</b>."
+  },
+  {
+   "qid": "c5-01-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The eggs was pale blue.",
+    "The eggs were pale blue.",
+    "The eggs am pale blue."
+   ],
+   "answer": 1,
+   "rule": "<b>Eggs</b> is plural, so use <b>were</b>. Use <b>was</b> for one thing."
+  },
+  {
+   "qid": "c5-01-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The cat is sleeping under of the tree.",
+    "The cat is sleeping under the tree.",
+    "The cat is sleeping the under tree."
+   ],
+   "answer": 1,
+   "rule": "A preposition comes before its noun, alone: <b>under the tree</b>."
+  },
+  {
+   "qid": "c5-01-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "days",
+    "ago,",
+    "the",
+    "baby",
+    "bird",
+    "fly",
+    "out",
+    "of",
+    "the",
+    "nest."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "flew",
+      "flies",
+      "flown"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two days ago</b> shows the past, so <b>fly</b> becomes <b>flew</b>."
+  },
+  {
+   "qid": "c5-01-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Those",
+    "leaves",
+    "on",
+    "the",
+    "big",
+    "tree",
+    "was",
+    "green",
+    "and",
+    "soft."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "is",
+      "am",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Those leaves</b> is plural, so use <b>were</b>, not was."
+  },
+  {
+   "qid": "c5-01-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives_compare",
+   "prompt": "Fill in the gap.",
+   "before": "The sky is",
+   "after": "than the sea today.",
+   "options": [
+    "bluer",
+    "blue",
+    "bluest"
+   ],
+   "answer": 0,
+   "rule": "When we compare two things with <b>than</b>, use the -er form: <b>bluer</b>."
+  },
+  {
+   "qid": "c5-01-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The little bird slept",
+   "after": "its mother's wings.",
+   "options": [
+    "under",
+    "of",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "<b>under</b> shows that something is below something else: <b>under its mother's wings</b>."
+  },
+  {
+   "qid": "c5-01-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence in the past tense.",
+   "answer": [
+    "The",
+    "bird",
+    "flew",
+    "out",
+    "of",
+    "the",
+    "nest."
+   ],
+   "alts": [],
+   "rule": "<b>flew</b> is the past form of <b>fly</b>. Subject + verb + place: The bird flew out of the nest."
+  },
+  {
+   "qid": "c5-01-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Where were you yesterday evening?"
+    ]
+   ],
+   "options": [
+    "I were in the park with my cousin.",
+    "I am in the park with my cousin yesterday.",
+    "I was in the park with my cousin."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b> in the past, use <b>was</b>: I was in the park."
+  },
+  {
+   "qid": "c5-01-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "adjectives_compare",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Which is the tallest tree in your school?"
+    ]
+   ],
+   "options": [
+    "The neem tree is the most tallest.",
+    "The neem tree is the tallest.",
+    "The neem tree is the more taller."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives take <b>-est</b> alone: <b>the tallest</b>. Never add most or more as well."
+  },
+  {
+   "qid": "c5-01-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bird thought the world was made of straw.",
+    "The bird thinked the world was made of straw.",
+    "The bird think the world was made of straw."
+   ],
+   "answer": 0,
+   "rule": "<b>think</b> is irregular: its past form is <b>thought</b>."
+  },
+  {
+   "qid": "c5-01-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The nest sat between two thin branch.",
+    "The nest sat between to two thin branches.",
+    "The nest sat between two thin branches."
+   ],
+   "answer": 2,
+   "rule": "<b>between</b> comes straight before the two things, and <b>two</b> needs a plural: <b>branches</b>."
+  },
+  {
+   "qid": "c5-01-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjectives_compare",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "This nest is more small than that one.",
+    "This nest is smaller than that one.",
+    "This nest is smallest than that one."
+   ],
+   "answer": 1,
+   "rule": "For two things, add <b>-er</b> to a short adjective and use <b>than</b>: <b>smaller than</b>."
+  },
+  {
+   "qid": "c5-01-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bird",
+    "was",
+    "flying",
+    "high",
+    "on",
+    "the",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "at",
+      "in",
+      "of"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Birds and clouds are <b>in the sky</b>, not on the sky."
+  },
+  {
+   "qid": "c5-01-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Kabir",
+    "saw",
+    "the",
+    "nest,",
+    "he",
+    "take",
+    "a",
+    "photo",
+    "with",
+    "his",
+    "phone."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "takes",
+      "taken",
+      "took"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>saw</b> tells us the story is in the past, so <b>take</b> must be <b>took</b>."
+  },
+  {
+   "qid": "c5-01-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "The world",
+   "after": "small and round for the baby bird.",
+   "options": [
+    "was",
+    "were",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>The world</b> is one thing, so the past form is <b>was</b>."
+  },
+  {
+   "qid": "c5-01-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday, a tiny bird",
+   "after": "on our window.",
+   "options": [
+    "sat",
+    "sits",
+    "sitting"
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> shows the past: <b>sit</b> becomes <b>sat</b>."
+  },
+  {
+   "qid": "c5-01-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "kite",
+    "is",
+    "stuck",
+    "in",
+    "the",
+    "tree."
+   ],
+   "alts": [],
+   "rule": "The preposition <b>in</b> comes before <b>the tree</b> to show the place."
+  },
+  {
+   "qid": "c5-01-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you see the parrot in the garden?"
+    ]
+   ],
+   "options": [
+    "Yes, I seen it on the guava tree.",
+    "Yes, I see it on the guava tree yesterday.",
+    "Yes, I saw it on the guava tree."
+   ],
+   "answer": 2,
+   "rule": "Answer a <b>Did</b> question in the simple past: <b>I saw</b>. <b>Seen</b> needs has/have."
+  },
+  {
+   "qid": "c5-01-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Where is my cricket ball?"
+    ]
+   ],
+   "options": [
+    "It is under in the sofa.",
+    "It is under the sofa.",
+    "It is the sofa under."
+   ],
+   "answer": 1,
+   "rule": "Use one preposition, placed before the noun: <b>under the sofa</b>."
+  },
+  {
+   "qid": "c5-01-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mother bird was busy, and the babies were hungry.",
+    "The mother bird were busy, and the babies were hungry.",
+    "The mother bird was busy, and the babies was hungry."
+   ],
+   "answer": 0,
+   "rule": "One bird takes <b>was</b>; many babies take <b>were</b>."
+  },
+  {
+   "qid": "c5-01-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives_compare",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Of all the birds, the peacock has the longer tail.",
+    "Of all the birds, the peacock has the most long tail.",
+    "Of all the birds, the peacock has the longest tail."
+   ],
+   "answer": 2,
+   "rule": "<b>Of all</b> compares more than two, so use the -est form: <b>the longest</b>."
+  },
+  {
+   "qid": "c5-01-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adjectives_compare",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "nest",
+    "is",
+    "strongest",
+    "than",
+    "the",
+    "old",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "strong",
+      "stronger",
+      "strength"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>than</b> we compare two things, so use the -er form: <b>stronger than</b>."
+  },
+  {
+   "qid": "c5-01-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "all",
+    "the",
+    "stars",
+    "was",
+    "shining",
+    "over",
+    "the",
+    "trees."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "were",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>All the stars</b> is plural and <b>last night</b> is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-01-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The ball rolled and stopped",
+   "after": "the two chairs.",
+   "options": [
+    "of",
+    "into",
+    "between"
+   ],
+   "answer": 2,
+   "rule": "<b>between</b> is used for a place in the middle of two things."
+  },
+  {
+   "qid": "c5-01-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adjectives_compare",
+   "prompt": "Fill in the gap.",
+   "before": "The blue egg is the",
+   "after": "of all the eggs in the nest.",
+   "options": [
+    "smaller",
+    "smallest",
+    "most small"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> means more than two, so use <b>the smallest</b>."
+  },
+  {
+   "qid": "c5-01-27",
+   "type": "build",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "were",
+    "you",
+    "last",
+    "Sunday?"
+   ],
+   "alts": [],
+   "rule": "In a question, <b>were</b> comes before <b>you</b>: Where were you?"
+  },
+  {
+   "qid": "c5-01-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Riya",
+    "found",
+    "a",
+    "feather",
+    "near",
+    "the",
+    "pond."
+   ],
+   "alts": [],
+   "rule": "<b>found</b> is the past form of <b>find</b>. Who + did what + where."
+  },
+  {
+   "qid": "c5-01-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Was the bird park crowded today?"
+    ]
+   ],
+   "options": [
+    "No, it were quite empty.",
+    "No, it was quite empty.",
+    "No, it is quite empty yesterday."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> is singular, so in the past use <b>was</b>: it was quite empty."
+  },
+  {
+   "qid": "c5-01-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "adjectives_compare",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Which kite flew higher, yours or mine?"
+    ]
+   ],
+   "options": [
+    "Yours flew more higher than mine.",
+    "Yours flew highest than mine.",
+    "Yours flew higher than mine."
+   ],
+   "answer": 2,
+   "rule": "Two kites are compared, so use <b>higher than</b>. Don't add more before an -er word."
+  },
+  {
+   "qid": "c5-01-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An owl lives into a hole in an old tree.",
+    "An owl lives in a hole between an old tree.",
+    "An owl lives in a hole in an old tree."
+   ],
+   "answer": 2,
+   "rule": "An owl lives <b>in</b> a hole: in = inside. <b>Into</b> shows movement, and <b>between</b> needs two things."
+  },
+  {
+   "qid": "c5-01-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children saw three sparrows on the wall.",
+    "The childs saw three sparrows on the wall.",
+    "The children seen three sparrows on the wall."
+   ],
+   "answer": 0,
+   "rule": "The plural of child is <b>children</b>, and the past of see is <b>saw</b>."
+  },
+  {
+   "qid": "c5-01-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "friends",
+    "and",
+    "I",
+    "was",
+    "watching",
+    "the",
+    "birds",
+    "near",
+    "the",
+    "lake."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "were",
+      "is",
+      "am"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>My friends and I</b> means many people, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-01-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "little",
+    "bird",
+    "hopped",
+    "on",
+    "the",
+    "branch",
+    "and",
+    "look",
+    "at",
+    "the",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "looked",
+      "looks",
+      "looking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two actions joined by <b>and</b> keep the same tense: <b>hopped</b> ... and <b>looked</b>."
+  },
+  {
+   "qid": "c5-01-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Two days ago, Kabir",
+   "after": "an owl on the old banyan tree.",
+   "options": [
+    "see",
+    "seen",
+    "saw"
+   ],
+   "answer": 2,
+   "rule": "<b>Two days ago</b> is past, so use <b>saw</b>. <b>Seen</b> needs has/have before it."
+  },
+  {
+   "qid": "c5-01-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Fill in the gap.",
+   "before": "These feathers",
+   "after": "on the floor of the cage this morning.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>These feathers</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-01-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adjectives_compare",
+   "prompt": "Make a comparison.",
+   "answer": [
+    "My",
+    "brother's",
+    "kite",
+    "is",
+    "bigger",
+    "than",
+    "mine."
+   ],
+   "alts": [],
+   "rule": "<b>brother's</b> shows whose kite it is; <b>bigger than</b> compares two kites."
+  },
+  {
+   "qid": "c5-01-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "is",
+    "Bholu",
+    "hiding",
+    "under",
+    "the",
+    "bed?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>is</b> + subject + -ing verb; <b>under the bed</b> tells the place."
+  },
+  {
+   "qid": "c5-01-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Rao",
+     "What did you see on your trip to the hills?"
+    ]
+   ],
+   "options": [
+    "We seen many eagles and a waterfall.",
+    "We saw many eagles and a waterfall.",
+    "We saw many eagle and a waterfall."
+   ],
+   "answer": 1,
+   "rule": "Use the simple past <b>saw</b>, and <b>many</b> takes a plural noun: <b>eagles</b>."
+  },
+  {
+   "qid": "c5-01-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "was_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Thank you for the bird book. Was it expensive?"
+    ]
+   ],
+   "options": [
+    "No, it were not expensive at all.",
+    "No, it was not expensive at all.",
+    "No, it not was expensive at all."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes <b>was</b>, and <b>not</b> comes after it: <b>it was not</b>."
+  },
+  {
+   "qid": "c5-01-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bird flown beyond the tree and saw that the sky was blue.",
+    "The bird flew beyond the tree and saw that the sky was blue.",
+    "The bird flew beyond the tree and see that the sky was blue."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past: <b>flew</b> and <b>saw</b>. <b>Flown</b> needs has/had."
+  },
+  {
+   "qid": "c5-01-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adjectives_compare",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The world outside the nest was more bigger and brighter than the bird had thought.",
+    "The world outside the nest was biggest and brighter than the bird had thought.",
+    "The world outside the nest was bigger and brighter than the bird had thought."
+   ],
+   "answer": 2,
+   "rule": "With <b>than</b>, both adjectives take <b>-er</b>: <b>bigger and brighter</b>. Never more + -er."
+  },
+  {
+   "qid": "c5-01-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Inside",
+    "the",
+    "shell,",
+    "the",
+    "whole",
+    "world",
+    "were",
+    "small",
+    "and",
+    "round",
+    "to",
+    "the",
+    "bird."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "are",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>The whole world</b> is singular, so use <b>was</b>."
+  },
+  {
+   "qid": "c5-01-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mother",
+    "bird",
+    "leaves",
+    "the",
+    "nest",
+    "at",
+    "the",
+    "morning",
+    "and",
+    "returns",
+    "at",
+    "sunset."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "on",
+      "under",
+      "in"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "We say <b>in the morning</b> but <b>at sunset</b>, <b>at night</b>."
+  },
+  {
+   "qid": "c5-01-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "At last the little bird",
+   "after": "beyond the tree and saw the wide blue sky.",
+   "options": [
+    "flew",
+    "flies",
+    "has flew"
+   ],
+   "answer": 0,
+   "rule": "<b>saw</b> is past, so the first verb must match: <b>flew</b>."
+  },
+  {
+   "qid": "c5-01-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "adjectives_compare",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the sounds in the forest, the cuckoo's song was the",
+   "after": "one I heard.",
+   "options": [
+    "sweeter",
+    "sweetest",
+    "most sweetest"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> compares many things, so use <b>the sweetest</b> (never most + -est)."
+  },
+  {
+   "qid": "c5-01-47",
+   "type": "build",
+   "level": 5,
+   "topic": "was_were",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "were",
+    "the",
+    "little",
+    "birds",
+    "so",
+    "quiet",
+    "yesterday?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>were</b> + plural subject: Why were the little birds so quiet?"
+  },
+  {
+   "qid": "c5-01-48",
+   "type": "build",
+   "level": 5,
+   "topic": "adjectives_compare",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Mira's",
+    "kite",
+    "flew",
+    "the",
+    "highest",
+    "of",
+    "all."
+   ],
+   "alts": [],
+   "rule": "<b>the highest of all</b> compares Mira's kite with all the other kites."
+  },
+  {
+   "qid": "c5-01-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "You came home late. What happened?"
+    ],
+    [
+     "Dad",
+     "Did the bus break down?"
+    ]
+   ],
+   "options": [
+    "Yes, it breaked down near the market, so I walked.",
+    "Yes, it broke down near the market, so I walked.",
+    "Yes, it broke down near the market, so I walk."
+   ],
+   "answer": 1,
+   "rule": "<b>break</b> is irregular: past <b>broke</b>. Both actions are past: broke ... <b>walked</b>."
+  },
+  {
+   "qid": "c5-01-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Sunita",
+     "I can't find the bird feeder. Where did you put it?"
+    ]
+   ],
+   "options": [
+    "I hung it on the hook between of the two windows.",
+    "I hung it on the hook between the two windows.",
+    "I hung it in the hook among the two windows."
+   ],
+   "answer": 1,
+   "rule": "Things hang <b>on a hook</b>, and for two things use <b>between</b> with no extra word."
+  }
+ ]
+}

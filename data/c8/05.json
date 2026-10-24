@@ -1,0 +1,1209 @@
+{
+ "class": 8,
+ "id": "05",
+ "title": "Vocation",
+ "topics": [
+  {
+   "tag": "wish_were",
+   "name": "Wishes: I wish I were / wish + could"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present for habits and agreement"
+  },
+  {
+   "tag": "time_clauses",
+   "name": "Time clauses (when, as soon as, until, just as)"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time and place"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-05-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "wish_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I wish I were a hawker.",
+    "I wish I am a hawker.",
+    "I wish I be a hawker."
+   ],
+   "answer": 0,
+   "rule": "For a wish about the present that is not true, use <b>were</b>: <b>I wish I were ...</b>"
+  },
+  {
+   "qid": "c8-05-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The gardener digs the ground every afternoon.",
+    "The gardener dig the ground every afternoon.",
+    "The gardener digging the ground every afternoon."
+   ],
+   "answer": 0,
+   "rule": "A habit with a singular subject takes verb + <b>-s</b>: <b>The gardener digs</b>."
+  },
+  {
+   "qid": "c8-05-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "I come back from school on four in the afternoon.",
+    "I come back from school at four on the afternoon.",
+    "I come back from school at four in the afternoon."
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> for clock time and <b>in</b> for parts of the day: <b>at four in the afternoon</b>."
+  },
+  {
+   "qid": "c8-05-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the bell will ring, we go out to play.",
+    "When the bell rings, we go out to play.",
+    "When the bell ring, we go out to play."
+   ],
+   "answer": 1,
+   "rule": "In a <b>when</b> clause about habits, use the simple present: <b>When the bell rings</b>."
+  },
+  {
+   "qid": "c8-05-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nobody take the gardener to task.",
+    "Nobody are taking the gardener to task.",
+    "Nobody takes the gardener to task."
+   ],
+   "answer": 2,
+   "rule": "<b>Nobody</b> is singular, so the verb takes <b>-s</b>: <b>Nobody takes</b>."
+  },
+  {
+   "qid": "c8-05-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "wish_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi wishes he can stay out in the rain.",
+    "Ravi wish he could stay out in the rain.",
+    "Ravi wishes he could stay out in the rain."
+   ],
+   "answer": 2,
+   "rule": "After <b>wish</b>, <b>can</b> moves back to <b>could</b>; <b>Ravi</b> takes <b>wishes</b>."
+  },
+  {
+   "qid": "c8-05-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Just as it was getting dark, my mother send me to bed.",
+    "Just as it was getting dark, my mother sent me to bed.",
+    "Just as it getting dark, my mother sent me to bed."
+   ],
+   "answer": 1,
+   "rule": "Past continuous needs <b>was getting</b>; the main action is simple past: <b>sent</b>."
+  },
+  {
+   "qid": "c8-05-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "wish_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I were a watchman, I will walk the street all night.",
+    "If I am a watchman, I would walk the street all night.",
+    "If I were a watchman, I would walk the street all night."
+   ],
+   "answer": 2,
+   "rule": "An imagined situation: <b>If I were ..., I would ...</b>"
+  },
+  {
+   "qid": "c8-05-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "watchman",
+    "swing",
+    "his",
+    "lantern",
+    "as",
+    "he",
+    "walks."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "swings",
+      "swinging",
+      "swung"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The watchman</b> is singular and <b>walks</b> is present: <b>swings</b>."
+  },
+  {
+   "qid": "c8-05-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "watchman",
+    "walks",
+    "up",
+    "and",
+    "down",
+    "the",
+    "lane",
+    "in",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "on",
+      "with",
+      "at"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "We say <b>at night</b> (but <b>in the morning</b>, <b>in the evening</b>)."
+  },
+  {
+   "qid": "c8-05-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "wish_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "wish",
+    "I",
+    "am",
+    "a",
+    "gardener",
+    "with",
+    "a",
+    "big",
+    "spade."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "be",
+      "being"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A wish about something unreal now uses <b>were</b>: <b>I wish I were ...</b>"
+  },
+  {
+   "qid": "c8-05-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "As",
+    "soon",
+    "as",
+    "the",
+    "gong",
+    "sounds,",
+    "my",
+    "two",
+    "brothers",
+    "runs",
+    "to",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "run",
+      "running",
+      "runner"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>My two brothers</b> is plural, so the verb has no <b>-s</b>: <b>run</b>."
+  },
+  {
+   "qid": "c8-05-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gandhi",
+    "Road",
+    "look",
+    "dark",
+    "and",
+    "lonely",
+    "after",
+    "ten",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "looking",
+      "looks",
+      "looker"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Gandhi Road</b> is one place (singular), so use <b>looks</b>."
+  },
+  {
+   "qid": "c8-05-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hawker",
+    "has",
+    "been",
+    "selling",
+    "bangles",
+    "in",
+    "this",
+    "lane",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "for",
+      "from",
+      "during"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (<b>for five years</b>) and <b>since</b> with a starting point (<b>since 2020</b>)."
+  },
+  {
+   "qid": "c8-05-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "evening,",
+    "the",
+    "street",
+    "lamp",
+    "comes",
+    "on",
+    "just",
+    "as",
+    "the",
+    "sun",
+    "go",
+    "down."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "going",
+      "gone",
+      "goes"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In the time clause, <b>the sun</b> takes the simple present with <b>-s</b>: <b>just as the sun goes down</b>."
+  },
+  {
+   "qid": "c8-05-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "gong",
+    "sounded",
+    "ten",
+    "when",
+    "the",
+    "hawker",
+    "started",
+    "crying,",
+    "\"Bangles!\""
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "then",
+      "that",
+      "than"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>No sooner</b> is always followed by <b>than</b>: <b>No sooner had ... than ...</b>"
+  },
+  {
+   "qid": "c8-05-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "wish_were",
+   "prompt": "Fill in the gap.",
+   "before": "I wish I",
+   "after": "a watchman with a lantern.",
+   "options": [
+    "am",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "rule": "Use <b>were</b> after <b>I wish I</b> for an unreal present wish."
+  },
+  {
+   "qid": "c8-05-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The hawker walks",
+   "after": "our lane every morning.",
+   "options": [
+    "at",
+    "along",
+    "of"
+   ],
+   "answer": 1,
+   "rule": "<b>Along</b> shows movement from one end towards the other: <b>walks along our lane</b>."
+  },
+  {
+   "qid": "c8-05-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "The gardener",
+   "after": "his clothes with dust every day.",
+   "options": [
+    "soil",
+    "soiling",
+    "soils"
+   ],
+   "answer": 2,
+   "rule": "<b>Every day</b> shows a habit; singular <b>gardener</b> takes <b>soils</b>."
+  },
+  {
+   "qid": "c8-05-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "I will wave to the gardener when I",
+   "after": "past his gate tomorrow.",
+   "options": [
+    "will walk",
+    "walk",
+    "walked"
+   ],
+   "answer": 1,
+   "rule": "A <b>when</b> clause about the future uses the simple present: <b>when I walk</b>."
+  },
+  {
+   "qid": "c8-05-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "wish_were",
+   "prompt": "Fill in the gap.",
+   "before": "Riya wishes she",
+   "after": "fly like the little clouds.",
+   "options": [
+    "can",
+    "will",
+    "could"
+   ],
+   "answer": 2,
+   "rule": "A wish for an ability you don't have uses <b>could</b>: <b>wishes she could fly</b>."
+  },
+  {
+   "qid": "c8-05-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The watchman never goes",
+   "after": "bed in his life.",
+   "options": [
+    "in",
+    "to",
+    "at"
+   ],
+   "answer": 1,
+   "rule": "The fixed phrase is <b>go to bed</b>."
+  },
+  {
+   "qid": "c8-05-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The hawker",
+   "after": "towards our gate right now.",
+   "options": [
+    "is coming",
+    "comes",
+    "come"
+   ],
+   "answer": 0,
+   "rule": "<b>Look!</b> and <b>right now</b> show an action happening now: present continuous <b>is coming</b>."
+  },
+  {
+   "qid": "c8-05-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "I will not go to bed",
+   "after": "the watchman has passed our window.",
+   "options": [
+    "by",
+    "during",
+    "until"
+   ],
+   "answer": 2,
+   "rule": "<b>Until</b> joins a clause and means 'up to the time when'; <b>by</b> and <b>during</b> need a noun."
+  },
+  {
+   "qid": "c8-05-25",
+   "type": "build",
+   "level": 1,
+   "topic": "wish_were",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ravi",
+    "wishes",
+    "he",
+    "were",
+    "a",
+    "hawker."
+   ],
+   "alts": [],
+   "rule": "<b>wish</b> + subject + <b>were</b> expresses an unreal wish."
+  },
+  {
+   "qid": "c8-05-26",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "hawker",
+    "never",
+    "hurries",
+    "home."
+   ],
+   "alts": [],
+   "rule": "Frequency words like <b>never</b> come before the main verb: <b>never hurries</b>."
+  },
+  {
+   "qid": "c8-05-27",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "He",
+    "walks",
+    "up",
+    "and",
+    "down",
+    "the",
+    "dark",
+    "lane."
+   ],
+   "alts": [],
+   "rule": "<b>Up and down</b> + place shows movement to and fro."
+  },
+  {
+   "qid": "c8-05-28",
+   "type": "build",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "As",
+    "soon",
+    "as",
+    "the",
+    "bell",
+    "rang,",
+    "we",
+    "ran",
+    "out."
+   ],
+   "alts": [],
+   "rule": "<b>As soon as</b> + clause, then the main clause."
+  },
+  {
+   "qid": "c8-05-29",
+   "type": "build",
+   "level": 5,
+   "topic": "wish_were",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Rohan",
+    "wishes",
+    "he",
+    "could",
+    "walk",
+    "the",
+    "streets",
+    "all",
+    "night."
+   ],
+   "alts": [],
+   "rule": "<b>wishes he could</b> + base verb expresses a wish for something not possible now."
+  },
+  {
+   "qid": "c8-05-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What does that hawker sell?"
+    ]
+   ],
+   "options": [
+    "He sell crystal bangles.",
+    "He sells crystal bangles.",
+    "He selling crystal bangles."
+   ],
+   "answer": 1,
+   "rule": "<b>He</b> takes verb + <b>-s</b> in the simple present: <b>He sells</b>."
+  },
+  {
+   "qid": "c8-05-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "When do you leave for school?"
+    ]
+   ],
+   "options": [
+    "I leave at ten in the morning.",
+    "I leave on ten in the morning.",
+    "I leave at ten on the morning."
+   ],
+   "answer": 0,
+   "rule": "<b>at</b> + clock time, <b>in</b> + the morning."
+  },
+  {
+   "qid": "c8-05-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "wish_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Do you like being a student?"
+    ]
+   ],
+   "options": [
+    "Yes, but sometimes I wish I am a gardener.",
+    "Yes, but sometimes I wish I were a gardener.",
+    "Yes, but sometimes I wishes I were a gardener."
+   ],
+   "answer": 1,
+   "rule": "<b>I wish</b> (no -s with I) + <b>I were</b> for an unreal wish."
+  },
+  {
+   "qid": "c8-05-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "time_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Will you call me when you reach school?"
+    ]
+   ],
+   "options": [
+    "Yes, I will call you when I reach.",
+    "Yes, I will call you when I will reach.",
+    "Yes, I call you when I reached."
+   ],
+   "answer": 0,
+   "rule": "Future in the main clause, simple present in the <b>when</b> clause: <b>will call ... when I reach</b>."
+  },
+  {
+   "qid": "c8-05-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Does your gardener work on Sundays?"
+    ]
+   ],
+   "options": [
+    "No, he doesn't work on Sundays.",
+    "No, he don't work on Sundays.",
+    "No, he doesn't works on Sundays."
+   ],
+   "answer": 0,
+   "rule": "<b>He doesn't</b> + base verb: <b>doesn't work</b>."
+  },
+  {
+   "qid": "c8-05-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "How long have you lived in this lane?"
+    ]
+   ],
+   "options": [
+    "We have lived here for 2019.",
+    "We are living here since 2019.",
+    "We have lived here since 2019."
+   ],
+   "answer": 2,
+   "rule": "Present perfect + <b>since</b> + starting point: <b>have lived here since 2019</b>."
+  },
+  {
+   "qid": "c8-05-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "wish_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Why do you watch your paper boats so closely?"
+    ]
+   ],
+   "options": [
+    "I wish they can float all the way to a faraway land.",
+    "I wish they could floated all the way to a faraway land.",
+    "I wish they could float all the way to a faraway land."
+   ],
+   "answer": 2,
+   "rule": "After <b>wish</b>, use <b>could</b> + base verb: <b>could float</b>."
+  },
+  {
+   "qid": "c8-05-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Go to bed now. It's very late."
+    ]
+   ],
+   "options": [
+    "I'll go as soon as I will finish this page.",
+    "I'll go as soon as I finished this page.",
+    "I'll go as soon as I finish this page."
+   ],
+   "answer": 2,
+   "rule": "After <b>as soon as</b>, use the simple present for a future action: <b>as soon as I finish</b>."
+  },
+  {
+   "qid": "c8-05-38",
+   "type": "change",
+   "level": 1,
+   "topic": "wish_were",
+   "prompt": "Rewrite, beginning with 'I wish'.",
+   "source": "I am not a gardener.",
+   "options": [
+    "I wish I were a gardener.",
+    "I wish I am a gardener.",
+    "I wish I were not a gardener."
+   ],
+   "answer": 0,
+   "rule": "The wish is the opposite of the fact, with <b>were</b>: <b>I wish I were a gardener.</b>"
+  },
+  {
+   "qid": "c8-05-39",
+   "type": "change",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Make it negative.",
+   "source": "The watchman goes to bed early.",
+   "options": [
+    "The watchman does not goes to bed early.",
+    "The watchman does not go to bed early.",
+    "The watchman do not go to bed early."
+   ],
+   "answer": 1,
+   "rule": "Singular subject: <b>does not</b> + base verb <b>go</b>."
+  },
+  {
+   "qid": "c8-05-40",
+   "type": "change",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "Join using 'When'.",
+   "source": "The gong sounds ten. I walk to school.",
+   "options": [
+    "When the gong sounds ten, I walk to school.",
+    "When the gong will sound ten, I walk to school.",
+    "When the gong sound ten, I walk to school."
+   ],
+   "answer": 0,
+   "rule": "Keep the simple present in both parts: <b>When the gong sounds ten, I walk ...</b>"
+  },
+  {
+   "qid": "c8-05-41",
+   "type": "change",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Change into a question.",
+   "source": "The gardener waters the roses every afternoon.",
+   "options": [
+    "Does the gardener waters the roses every afternoon?",
+    "Does the gardener water the roses every afternoon?",
+    "Do the gardener water the roses every afternoon?"
+   ],
+   "answer": 1,
+   "rule": "Singular subject: <b>Does</b> + subject + base verb: <b>Does the gardener water ...?</b>"
+  },
+  {
+   "qid": "c8-05-42",
+   "type": "change",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "Join using 'As soon as'.",
+   "source": "It gets dark. My mother sends me to bed.",
+   "options": [
+    "As soon as it will get dark, my mother sends me to bed.",
+    "As soon as it gets dark, my mother send me to bed.",
+    "As soon as it gets dark, my mother sends me to bed."
+   ],
+   "answer": 2,
+   "rule": "Simple present in both clauses; <b>my mother</b> takes <b>sends</b>."
+  },
+  {
+   "qid": "c8-05-43",
+   "type": "change",
+   "level": 4,
+   "topic": "wish_were",
+   "prompt": "Rewrite, beginning with 'I wish'.",
+   "source": "I cannot stay out in the rain.",
+   "options": [
+    "I wish I could stay out in the rain.",
+    "I wish I can stay out in the rain.",
+    "I wish I could not stay out in the rain."
+   ],
+   "answer": 0,
+   "rule": "<b>cannot</b> (fact) becomes the wish <b>I wish I could ...</b>"
+  },
+  {
+   "qid": "c8-05-44",
+   "type": "change",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Change into passive voice.",
+   "source": "Nobody takes him to task.",
+   "options": [
+    "He is not took to task by anybody.",
+    "He was not taken to task by anybody.",
+    "He is not taken to task by anybody."
+   ],
+   "answer": 2,
+   "rule": "Simple present passive: <b>is</b> + past participle <b>taken</b>; <b>nobody</b> becomes <b>not ... by anybody</b>."
+  },
+  {
+   "qid": "c8-05-45",
+   "type": "change",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the watchman lit his lantern, the street became bright.",
+   "options": [
+    "No sooner had the watchman lit his lantern than the street became bright.",
+    "No sooner did the watchman lit his lantern than the street became bright.",
+    "No sooner had the watchman lit his lantern when the street became bright."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b> ..."
+  },
+  {
+   "qid": "c8-05-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Every",
+    "morning",
+    "Ramu",
+    "walk",
+    "down",
+    "our",
+    "lane",
+    "with",
+    "a",
+    "basket",
+    "of",
+    "bangles.",
+    "Nobody",
+    "hurries",
+    "him,",
+    "and",
+    "he",
+    "never",
+    "come",
+    "home",
+    "at",
+    "a",
+    "fixed",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "walking",
+      "walks",
+      "walker"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "coming",
+      "comes",
+      "arrive"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Ramu walks</b> and <b>he comes</b>: singular subjects take <b>-s</b> in the simple present."
+  },
+  {
+   "qid": "c8-05-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "wish_were",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Sometimes",
+    "I",
+    "wish",
+    "I",
+    "am",
+    "a",
+    "watchman.",
+    "He",
+    "walks",
+    "up",
+    "and",
+    "down",
+    "the",
+    "street",
+    "in",
+    "night",
+    "and",
+    "never",
+    "goes",
+    "to",
+    "bed",
+    "in",
+    "his",
+    "life."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "were",
+      "be",
+      "being"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "at",
+      "on",
+      "under"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>I wish I were</b> for an unreal wish; we say <b>at night</b>."
+  },
+  {
+   "qid": "c8-05-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "When",
+    "my",
+    "mother",
+    "call",
+    "me,",
+    "she",
+    "wants",
+    "me",
+    "home",
+    "at",
+    "once.",
+    "As",
+    "soon",
+    "as",
+    "I",
+    "reach,",
+    "I",
+    "wash",
+    "my",
+    "hands",
+    "and",
+    "sits",
+    "down",
+    "to",
+    "eat."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "calling",
+      "calls",
+      "caller"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "sitting",
+      "sat",
+      "sit"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>my mother calls</b> (singular); <b>I wash ... and sit</b> (no -s with I)."
+  },
+  {
+   "qid": "c8-05-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Every",
+    "day,",
+    "Arjun",
+    "float",
+    "paper",
+    "boats",
+    "on",
+    "the",
+    "stream.",
+    "He",
+    "wishes",
+    "someone",
+    "in",
+    "a",
+    "faraway",
+    "land",
+    "could",
+    "find",
+    "them.",
+    "When",
+    "the",
+    "moon",
+    "rise",
+    "over",
+    "the",
+    "hills,",
+    "he",
+    "dreams",
+    "that",
+    "all",
+    "his",
+    "boats",
+    "sails",
+    "on",
+    "under",
+    "the",
+    "stars."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "floating",
+      "floater",
+      "floats"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "rising",
+      "rises",
+      "risen"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 32,
+     "options": [
+      "sailing",
+      "sailor",
+      "sail"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Arjun floats</b>, <b>the moon rises</b> (singular); <b>all his boats sail</b> (plural, no -s)."
+  },
+  {
+   "qid": "c8-05-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "lane",
+    "is",
+    "dark",
+    "and",
+    "lonely",
+    "on",
+    "night.",
+    "The",
+    "tall",
+    "street",
+    "lamp",
+    "stand",
+    "near",
+    "my",
+    "window",
+    "like",
+    "a",
+    "giant",
+    "with",
+    "one",
+    "red",
+    "eye",
+    "in",
+    "its",
+    "head.",
+    "I",
+    "often",
+    "wish",
+    "I",
+    "can",
+    "stay",
+    "awake",
+    "and",
+    "watch",
+    "it",
+    "until",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "in",
+      "under",
+      "at"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "standing",
+      "stands",
+      "stance"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 30,
+     "options": [
+      "could",
+      "will",
+      "should"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>at night</b>; <b>the lamp stands</b> (singular); <b>wish</b> + <b>could</b>, not <b>can</b>."
+  }
+ ]
+}

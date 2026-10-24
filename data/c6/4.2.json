@@ -1,0 +1,998 @@
+{
+ "class": 6,
+ "id": "4.2",
+ "title": "The Indian Root of Mathematics",
+ "topics": [
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place, time and movement"
+  },
+  {
+   "tag": "adj_prep",
+   "name": "Phrases with prepositions (fond of, afraid of, in search of)"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Framing wh- questions"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense (irregular verbs)"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-4.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The hole is far away of the tree.",
+    "The hole is far away to the tree.",
+    "The hole is far away from the tree."
+   ],
+   "answer": 2,
+   "rule": "We say far away <b>from</b> a place."
+  },
+  {
+   "qid": "c6-4.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bhaskaracharya wrote a famous book on arithmetic.",
+    "Bhaskaracharya writed a famous book on arithmetic.",
+    "Bhaskaracharya written a famous book on arithmetic."
+   ],
+   "answer": 0,
+   "rule": "<b>Write</b> is irregular: write - <b>wrote</b> - written. The simple past is <b>wrote</b>."
+  },
+  {
+   "qid": "c6-4.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "adj_prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Leelavati was fond of lotus flowers.",
+    "Leelavati was fond with lotus flowers.",
+    "Leelavati was fond for lotus flowers."
+   ],
+   "answer": 0,
+   "rule": "The fixed phrase is <b>fond of</b>: to be fond of something."
+  },
+  {
+   "qid": "c6-4.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "peacock",
+    "flied",
+    "down",
+    "and",
+    "caught",
+    "the",
+    "serpent."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "flew",
+      "flown",
+      "flying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Fly</b> is irregular: fly - <b>flew</b> - flown. 'Flied' is not used."
+  },
+  {
+   "qid": "c6-4.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aryabhata",
+    "was",
+    "born",
+    "on",
+    "the",
+    "5th",
+    "century."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "in",
+      "at",
+      "since"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>in</b> with centuries, years and months: <b>in</b> the 5th century."
+  },
+  {
+   "qid": "c6-4.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "do you go to school, by bus or on foot?",
+   "options": [
+    "Who",
+    "How",
+    "Whose"
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> asks about the way or means: by bus, by train, on foot."
+  },
+  {
+   "qid": "c6-4.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adj_prep",
+   "prompt": "Fill in the gap.",
+   "before": "My little sister is afraid",
+   "after": "the dark.",
+   "options": [
+    "from",
+    "of",
+    "with"
+   ],
+   "answer": 1,
+   "rule": "The fixed phrase is <b>afraid of</b>."
+  },
+  {
+   "qid": "c6-4.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "far",
+    "is",
+    "the",
+    "station?"
+   ],
+   "alts": [],
+   "rule": "Wh- question order: <b>How far</b> + <b>is</b> + subject: How far is the station?"
+  },
+  {
+   "qid": "c6-4.2-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "Did you see the peacock in the garden?"
+    ]
+   ],
+   "options": [
+    "Yes, I seen it on the coconut tree.",
+    "Yes, I did saw it on the coconut tree.",
+    "Yes, I saw it on the coconut tree."
+   ],
+   "answer": 2,
+   "rule": "In a statement, the simple past of see is <b>saw</b>. After 'did', use the base form, so 'did saw' is wrong."
+  },
+  {
+   "qid": "c6-4.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "I'm coming to Mumbai by train tomorrow!"
+    ]
+   ],
+   "options": [
+    "Great! What time your train arrives?",
+    "Great! What time does your train arrives?",
+    "Great! What time does your train arrive?"
+   ],
+   "answer": 2,
+   "rule": "Wh- question: <b>What time + does + subject + base verb</b>: does your train <b>arrive</b>?"
+  },
+  {
+   "qid": "c6-4.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The lotus were swaying in the wind.",
+    "The lotus was swaying in the wind.",
+    "The lotus was sway in the wind."
+   ],
+   "answer": 1,
+   "rule": "Past continuous = <b>was/were + -ing</b>. One lotus, so <b>was swaying</b>."
+  },
+  {
+   "qid": "c6-4.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "How much the train ticket costs?",
+    "How much does the train ticket cost?",
+    "How much does the train ticket costs?"
+   ],
+   "answer": 1,
+   "rule": "Use <b>does</b> + base verb in the question: How much <b>does</b> it <b>cost</b>?"
+  },
+  {
+   "qid": "c6-4.2-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "adj_prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Leelavati",
+    "was",
+    "very",
+    "fond",
+    "on",
+    "maths",
+    "puzzles."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "with",
+      "at",
+      "of"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The fixed phrase is <b>fond of</b>, never 'fond on'."
+  },
+  {
+   "qid": "c6-4.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "monkeys",
+    "were",
+    "play",
+    "and",
+    "chattering",
+    "on",
+    "the",
+    "branches",
+    "when",
+    "we",
+    "arrived."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "plays",
+      "player",
+      "playing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>were</b> + -ing makes the past continuous, like <b>chattering</b>: <b>were playing</b>."
+  },
+  {
+   "qid": "c6-4.2-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The peacock saw a serpent moving",
+   "after": "its hole.",
+   "options": [
+    "to",
+    "of",
+    "for"
+   ],
+   "answer": 0,
+   "rule": "<b>To</b> shows movement towards a place: moving <b>to</b> its hole."
+  },
+  {
+   "qid": "c6-4.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The peacock",
+   "after": "the serpent just before it entered the hole.",
+   "options": [
+    "catched",
+    "catch",
+    "caught"
+   ],
+   "answer": 2,
+   "rule": "<b>Catch</b> is irregular: catch - <b>caught</b> - caught."
+  },
+  {
+   "qid": "c6-4.2-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adj_prep",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Rohan",
+    "is",
+    "afraid",
+    "of",
+    "snakes."
+   ],
+   "alts": [],
+   "rule": "Pattern: subject + <b>is afraid of</b> + noun."
+  },
+  {
+   "qid": "c6-4.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Leelavati",
+    "loved",
+    "the",
+    "graceful",
+    "swan."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object: Leelavati <b>loved</b> the graceful swan."
+  },
+  {
+   "qid": "c6-4.2-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "I'm going to the science museum on Sunday."
+    ]
+   ],
+   "options": [
+    "How you will get there?",
+    "How will you get there?",
+    "How will you got there?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>How + will + you + base verb</b>: How will you <b>get</b> there?"
+  },
+  {
+   "qid": "c6-4.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What were you doing at five o'clock?"
+    ]
+   ],
+   "options": [
+    "I was solving maths puzzles.",
+    "I was solve maths puzzles.",
+    "I were solving maths puzzles."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>was</b>, and the past continuous needs -ing: I <b>was solving</b>."
+  },
+  {
+   "qid": "c6-4.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "The train leaves at 8.45 am on Monday.",
+    "The train leaves in 8.45 am on Monday.",
+    "The train leaves at 8.45 am in Monday."
+   ],
+   "answer": 0,
+   "rule": "Use <b>at</b> with clock times and <b>on</b> with days: at 8.45 am <b>on</b> Monday."
+  },
+  {
+   "qid": "c6-4.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adj_prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children was afraid of the large serpent.",
+    "The children were afraid from the large serpent.",
+    "The children were afraid of the large serpent."
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is plural, so <b>were</b>; and the phrase is <b>afraid of</b>."
+  },
+  {
+   "qid": "c6-4.2-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "time",
+    "does",
+    "the",
+    "train",
+    "arrives",
+    "in",
+    "Mumbai?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "arrive",
+      "arrived",
+      "arriving"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b>, the main verb is in its base form: does ... <b>arrive</b>."
+  },
+  {
+   "qid": "c6-4.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "peacock",
+    "was",
+    "sit",
+    "on",
+    "a",
+    "tall",
+    "tree",
+    "and",
+    "watching",
+    "the",
+    "serpent."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sits",
+      "sitting",
+      "seat"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>was</b> + -ing makes the past continuous, like <b>watching</b>: <b>was sitting</b>."
+  },
+  {
+   "qid": "c6-4.2-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "does a ticket to Mumbai cost?",
+   "options": [
+    "How long",
+    "How much",
+    "How many"
+   ],
+   "answer": 1,
+   "rule": "Ask about price with <b>How much</b> ... cost?"
+  },
+  {
+   "qid": "c6-4.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adj_prep",
+   "prompt": "Fill in the gap.",
+   "before": "We should be proud",
+   "after": "our great mathematicians.",
+   "options": [
+    "for",
+    "of",
+    "on"
+   ],
+   "answer": 1,
+   "rule": "The fixed phrase is <b>proud of</b>."
+  },
+  {
+   "qid": "c6-4.2-27",
+   "type": "build",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "swans",
+    "were",
+    "swimming",
+    "in",
+    "the",
+    "lake."
+   ],
+   "alts": [],
+   "rule": "Past continuous: subject + <b>were + -ing</b> + place: were <b>swimming</b>."
+  },
+  {
+   "qid": "c6-4.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "It",
+    "flew",
+    "straight",
+    "towards",
+    "its",
+    "nest."
+   ],
+   "alts": [],
+   "rule": "<b>Towards</b> shows the direction of movement: flew straight <b>towards</b> its nest."
+  },
+  {
+   "qid": "c6-4.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "When did Bhaskaracharya live?"
+    ]
+   ],
+   "options": [
+    "He live in the 12th century.",
+    "He lived on the 12th century.",
+    "He lived in the 12th century."
+   ],
+   "answer": 2,
+   "rule": "<b>Did</b> asks for the past (<b>lived</b>), and centuries take <b>in</b>."
+  },
+  {
+   "qid": "c6-4.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "chat": [
+    [
+     "Kiran",
+     "You can reach my house from the station by taxi."
+    ]
+   ],
+   "options": [
+    "How long the taxi ride takes?",
+    "How long does the taxi ride take?",
+    "How long does the taxi ride took?"
+   ],
+   "answer": 1,
+   "rule": "Wh- question: <b>How long + does + subject + base verb</b>: does it <b>take</b>?"
+  },
+  {
+   "qid": "c6-4.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "'Leelavati' was a book that taught arithmetic through verses.",
+    "'Leelavati' were a book that taught arithmetic through verses.",
+    "'Leelavati' was a book that teached arithmetic through verses."
+   ],
+   "answer": 0,
+   "rule": "One book takes <b>was</b>; teach is irregular: teach - <b>taught</b>."
+  },
+  {
+   "qid": "c6-4.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The peacock was sitting on the tree when it saw the serpent.",
+    "The peacock sitting on the tree when it saw the serpent.",
+    "The peacock was sitting on the tree when it was see the serpent."
+   ],
+   "answer": 0,
+   "rule": "Longer action: <b>was sitting</b>; sudden short action: simple past <b>saw</b>."
+  },
+  {
+   "qid": "c6-4.2-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi walked across of the bridge and into the temple.",
+    "Ravi walked across the bridge and into the temple.",
+    "Ravi walk across the bridge and into the temple."
+   ],
+   "answer": 1,
+   "rule": "<b>Across</b> needs no 'of', and a finished past action takes the past: <b>walked</b>."
+  },
+  {
+   "qid": "c6-4.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adj_prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Leelavati",
+    "was",
+    "never",
+    "afraid",
+    "at",
+    "difficult",
+    "sums."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "to",
+      "for",
+      "of"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The fixed phrase is <b>afraid of</b>, even with 'never' in between."
+  },
+  {
+   "qid": "c6-4.2-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "do",
+    "Kiran",
+    "live",
+    "in",
+    "Mumbai?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "are",
+      "does"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Kiran</b> is singular, so the helper is <b>does</b>: Where does Kiran live?"
+  },
+  {
+   "qid": "c6-4.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "about Aryabhata when the bell rang.",
+   "options": [
+    "was reading",
+    "are reading",
+    "were reading"
+   ],
+   "answer": 2,
+   "rule": "An action in progress when another happened: <b>were reading</b> (we takes were)."
+  },
+  {
+   "qid": "c6-4.2-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Indians have known algebra",
+   "after": "hundreds of years.",
+   "options": [
+    "since",
+    "for",
+    "from"
+   ],
+   "answer": 1,
+   "rule": "Use <b>for</b> with a length of time (hundreds of years); <b>since</b> needs a starting point."
+  },
+  {
+   "qid": "c6-4.2-38",
+   "type": "build",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "When",
+    "does",
+    "the",
+    "train",
+    "reach",
+    "Mumbai?"
+   ],
+   "alts": [],
+   "rule": "Wh- question: <b>When + does + subject + base verb</b>."
+  },
+  {
+   "qid": "c6-4.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "adj_prep",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "Why do you visit the library so often?"
+    ]
+   ],
+   "options": [
+    "Because I am fond to reading about Indian mathematicians.",
+    "Because I am fond of reading about Indian mathematicians.",
+    "Because I fond of reading about Indian mathematicians."
+   ],
+   "answer": 1,
+   "rule": "<b>Fond of</b> + -ing; and the sentence needs the verb <b>am</b>."
+  },
+  {
+   "qid": "c6-4.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What did you learn in your maths class today?"
+    ]
+   ],
+   "options": [
+    "We learnt how to find square roots.",
+    "We learnt how to found square roots.",
+    "We learnt how to finding square roots."
+   ],
+   "answer": 0,
+   "rule": "After <b>how to</b>, use the base verb: how to <b>find</b>."
+  },
+  {
+   "qid": "c6-4.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The peacock flew down from the branch and swooped upon the serpent.",
+    "The peacock flew down of the branch and swooped upon the serpent.",
+    "The peacock flew down from the branch and swooped upon to the serpent."
+   ],
+   "answer": 0,
+   "rule": "Movement away from a place uses <b>from</b>; <b>upon</b> already means 'on', so no 'to'."
+  },
+  {
+   "qid": "c6-4.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Do you know what time does the train leave?",
+    "Do you know what time the train leave?",
+    "Do you know what time the train leaves?"
+   ],
+   "answer": 2,
+   "rule": "Inside a bigger question, the wh- part uses statement order: what time <b>the train leaves</b>."
+  },
+  {
+   "qid": "c6-4.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Long",
+    "ago,",
+    "Bhaskaracharya",
+    "wrote",
+    "a",
+    "book",
+    "on",
+    "arithmetic",
+    "and",
+    "explain",
+    "its",
+    "rules",
+    "through",
+    "beautiful",
+    "verses."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "explains",
+      "explained",
+      "explaining"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Long ago</b> and <b>wrote</b> show the past, so the joined verb is past too: <b>explained</b>."
+  },
+  {
+   "qid": "c6-4.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Leelavati",
+    "was",
+    "gazing",
+    "at",
+    "the",
+    "swan",
+    "when",
+    "a",
+    "peacock",
+    "suddenly",
+    "flying",
+    "past",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "flew",
+      "fly",
+      "flown"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The sudden action that interrupts takes the simple past: a peacock suddenly <b>flew</b> past."
+  },
+  {
+   "qid": "c6-4.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adj_prep",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer went to the market",
+   "after": "fresh lotus seeds.",
+   "options": [
+    "in search to",
+    "in need to",
+    "in search of"
+   ],
+   "answer": 2,
+   "rule": "The fixed phrase is <b>in search of</b> + noun: looking for something."
+  },
+  {
+   "qid": "c6-4.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "of the two books on Indian mathematics did you like more?",
+   "options": [
+    "What",
+    "Who",
+    "Which"
+   ],
+   "answer": 2,
+   "rule": "Use <b>Which</b> to choose from a small, known group: which of the two books."
+  },
+  {
+   "qid": "c6-4.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "were",
+    "you",
+    "doing",
+    "at",
+    "noon?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>What + were + you + -ing</b>?"
+  },
+  {
+   "qid": "c6-4.2-48",
+   "type": "build",
+   "level": 5,
+   "topic": "adj_prep",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "is",
+    "fond",
+    "of",
+    "walking",
+    "by",
+    "the",
+    "lake."
+   ],
+   "alts": [],
+   "rule": "<b>Fond of</b> is followed by a noun or an -ing word: fond of <b>walking</b>."
+  },
+  {
+   "qid": "c6-4.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "How do I get to your house from the station?"
+    ]
+   ],
+   "options": [
+    "Take a taxi from the station till my house.",
+    "Take a taxi from the station to my house.",
+    "Take a taxi from the station in my house."
+   ],
+   "answer": 1,
+   "rule": "For a journey, use <b>from</b> ... <b>to</b>. 'Till' is for time, not places."
+  },
+  {
+   "qid": "c6-4.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct question.",
+   "chat": [
+    [
+     "Riya",
+     "I went to Mumbai last weekend. Ask me anything!"
+    ]
+   ],
+   "options": [
+    "How did you travelled there?",
+    "How you travelled there?",
+    "How did you travel there?"
+   ],
+   "answer": 2,
+   "rule": "Past question: <b>did</b> + subject + base verb: How did you <b>travel</b>?"
+  }
+ ]
+}

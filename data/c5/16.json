@@ -1,0 +1,1017 @@
+{
+ "class": 5,
+ "id": "16",
+ "title": "Write your own Story",
+ "topics": [
+  {
+   "tag": "adjectives",
+   "name": "Adjectives and -er / -est"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past for telling a story"
+  },
+  {
+   "tag": "plurals",
+   "name": "Nouns: singular, plural and possessive"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-16-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The elf is smallest than the mouse.",
+    "The elf is smaller than the mouse.",
+    "The elf is more small than the mouse."
+   ],
+   "answer": 1,
+   "rule": "To compare two, add <b>-er</b> to a short adjective and use <b>than</b>: <b>smaller than</b>."
+  },
+  {
+   "qid": "c5-16-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the sentence with the correct plural.",
+   "options": [
+    "Two thiefs hid in the forest.",
+    "Two thieve hid in the forest.",
+    "Two thieves hid in the forest."
+   ],
+   "answer": 2,
+   "rule": "Many nouns ending in <b>-f</b> change to <b>-ves</b>: thief - <b>thieves</b>."
+  },
+  {
+   "qid": "c5-16-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Once upon a time, a kind farmer live in a village.",
+    "Once upon a time, a kind farmer living in a village.",
+    "Once upon a time, a kind farmer lived in a village."
+   ],
+   "answer": 2,
+   "rule": "<b>Once upon a time</b> starts a story in the past, so use the simple past: <b>lived</b>."
+  },
+  {
+   "qid": "c5-16-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Meera",
+    "write",
+    "a",
+    "funny",
+    "story",
+    "about",
+    "a",
+    "robot."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "wrote",
+      "writes",
+      "written"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past. The past of write is <b>wrote</b>."
+  },
+  {
+   "qid": "c5-16-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "two",
+    "little",
+    "child",
+    "were",
+    "playing",
+    "on",
+    "the",
+    "island."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "childish",
+      "children",
+      "childhood"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two</b> needs a plural noun. The plural of child is <b>children</b>."
+  },
+  {
+   "qid": "c5-16-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The brave pilot lives",
+   "after": "a small island.",
+   "options": [
+    "into",
+    "of",
+    "on"
+   ],
+   "answer": 2,
+   "rule": "We live <b>on</b> an island."
+  },
+  {
+   "qid": "c5-16-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The giant was",
+   "after": "than the king.",
+   "options": [
+    "tall",
+    "tallest",
+    "taller"
+   ],
+   "answer": 2,
+   "rule": "<b>than</b> compares two, so use the <b>-er</b> form: <b>taller than</b>."
+  },
+  {
+   "qid": "c5-16-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence for a magic story.",
+   "answer": [
+    "The",
+    "magician",
+    "waved",
+    "his",
+    "wand."
+   ],
+   "alts": [],
+   "rule": "Who + did what (past) + to what: <b>The magician waved his wand.</b>"
+  },
+  {
+   "qid": "c5-16-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "What did you write in class today?"
+    ]
+   ],
+   "options": [
+    "I writed a story about a brave robot.",
+    "I wrote a story about a brave robot.",
+    "I written a story about a brave robot."
+   ],
+   "answer": 1,
+   "rule": "<b>write</b> is irregular: write - <b>wrote</b> - written. Use <b>wrote</b> alone for the past."
+  },
+  {
+   "qid": "c5-16-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How many characters are there in your story?"
+    ]
+   ],
+   "options": [
+    "There are five characters in it.",
+    "There is five characters in it.",
+    "There are five character in it."
+   ],
+   "answer": 0,
+   "rule": "More than one: <b>There are</b> + plural noun: <b>five characters</b>."
+  },
+  {
+   "qid": "c5-16-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The king's party starts on seven o'clock.",
+    "The king's party starts at seven o'clock.",
+    "The king's party starts in seven o'clock."
+   ],
+   "answer": 1,
+   "rule": "Use <b>at</b> with clock times: <b>at seven o'clock</b>."
+  },
+  {
+   "qid": "c5-16-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raju is the intelligentest scholar in the kingdom.",
+    "Raju is most intelligent scholar in the kingdom.",
+    "Raju is the most intelligent scholar in the kingdom."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives take <b>the most</b>: <b>the most intelligent</b>. Never add -est to them."
+  },
+  {
+   "qid": "c5-16-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Pick the sentence with the correct plural.",
+   "options": [
+    "The mice ran across the kitchen floor.",
+    "The mouses ran across the kitchen floor.",
+    "The mices ran across the kitchen floor."
+   ],
+   "answer": 0,
+   "rule": "<b>mouse</b> has an irregular plural: <b>mice</b>."
+  },
+  {
+   "qid": "c5-16-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tiny",
+    "is",
+    "the",
+    "clever",
+    "of",
+    "all",
+    "the",
+    "mice",
+    "in",
+    "the",
+    "forest."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "cleverest",
+      "cleverer",
+      "cleverly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>the ... of all</b> compares one with many, so use <b>-est</b>: <b>the cleverest</b>."
+  },
+  {
+   "qid": "c5-16-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hawker",
+    "stood",
+    "among",
+    "the",
+    "farmer",
+    "and",
+    "the",
+    "king."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "into",
+      "from",
+      "between"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For two people or things, use <b>between</b>. <b>among</b> is for more than two."
+  },
+  {
+   "qid": "c5-16-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last night the detective",
+   "after": "the missing jewels.",
+   "options": [
+    "found",
+    "find",
+    "finds"
+   ],
+   "answer": 0,
+   "rule": "<b>Last night</b> is past time. The past of find is <b>found</b>."
+  },
+  {
+   "qid": "c5-16-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer has ten",
+   "after": "and two cows.",
+   "options": [
+    "sheeps",
+    "sheep",
+    "a sheep"
+   ],
+   "answer": 1,
+   "rule": "<b>sheep</b> stays the same in the plural: one sheep, ten <b>sheep</b>."
+  },
+  {
+   "qid": "c5-16-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Make a sentence about a place.",
+   "answer": [
+    "The",
+    "dinosaur",
+    "lived",
+    "on",
+    "an",
+    "island."
+   ],
+   "alts": [],
+   "rule": "Use <b>on</b> with an island, and <b>an</b> before a vowel sound: <b>on an island</b>."
+  },
+  {
+   "qid": "c5-16-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Where does your story happen?"
+    ]
+   ],
+   "options": [
+    "It happens at space.",
+    "It happens on space.",
+    "It happens in space."
+   ],
+   "answer": 2,
+   "rule": "We say <b>in space</b>, like <b>in the sky</b>."
+  },
+  {
+   "qid": "c5-16-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did the superhero save the city?"
+    ]
+   ],
+   "options": [
+    "Yes, he save it just in time.",
+    "Yes, he saved it just in time.",
+    "Yes, he did saved it just in time."
+   ],
+   "answer": 1,
+   "rule": "Use the simple past <b>saved</b>. After <b>did</b> we would use the base form (did save), never did saved."
+  },
+  {
+   "qid": "c5-16-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sonu is the forgetfullest boy in our class.",
+    "Sonu is the most forgetfuller boy in our class.",
+    "Sonu is the most forgetful boy in our class."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives like forgetful take <b>the most</b>: <b>the most forgetful</b>."
+  },
+  {
+   "qid": "c5-16-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct verbs.",
+   "options": [
+    "The brave school girl caught the thief and called the police.",
+    "The brave school girl catched the thief and called the police.",
+    "The brave school girl caught the thief and call the police."
+   ],
+   "answer": 0,
+   "rule": "Both actions are past: <b>caught</b> (irregular) and <b>called</b>."
+  },
+  {
+   "qid": "c5-16-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Long",
+    "ago,",
+    "a",
+    "selfish",
+    "king",
+    "hide",
+    "all",
+    "the",
+    "gold",
+    "in",
+    "a",
+    "cave."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "hidden",
+      "hides",
+      "hid"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Long ago</b> shows the past. The past of hide is <b>hid</b>."
+  },
+  {
+   "qid": "c5-16-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "thief",
+    "hid",
+    "two",
+    "sharp",
+    "knifes",
+    "under",
+    "his",
+    "bed."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "knifed",
+      "knife's",
+      "knives"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "knife changes <b>-fe</b> to <b>-ves</b> in the plural: <b>knives</b>."
+  },
+  {
+   "qid": "c5-16-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The little elf sat",
+   "after": "the two big dogs.",
+   "options": [
+    "between",
+    "among",
+    "of"
+   ],
+   "answer": 0,
+   "rule": "With <b>two</b> people or things, use <b>between</b>."
+  },
+  {
+   "qid": "c5-16-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "story I have ever read!",
+   "options": [
+    "funniest",
+    "funnier",
+    "funny"
+   ],
+   "answer": 0,
+   "rule": "<b>the ... I have ever read</b> compares with all others, so use <b>-est</b>: <b>funniest</b> (y changes to i)."
+  },
+  {
+   "qid": "c5-16-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Make a comparing sentence.",
+   "answer": [
+    "My",
+    "robot",
+    "is",
+    "faster",
+    "than",
+    "your",
+    "car."
+   ],
+   "alts": [],
+   "rule": "Thing + is + <b>-er</b> adjective + <b>than</b> + other thing."
+  },
+  {
+   "qid": "c5-16-28",
+   "type": "build",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Make a sentence for a mystery story.",
+   "answer": [
+    "The",
+    "thieves",
+    "hid",
+    "their",
+    "knives."
+   ],
+   "alts": [],
+   "rule": "Plural people take <b>their</b>. thief - <b>thieves</b>, knife - <b>knives</b>."
+  },
+  {
+   "qid": "c5-16-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Who is braver, the dog or the cat?"
+    ]
+   ],
+   "options": [
+    "The dog is bravest than the cat.",
+    "The dog is braver than the cat.",
+    "The dog is more braver than the cat."
+   ],
+   "answer": 1,
+   "rule": "Two things: <b>braver than</b>. Don't use more with an -er word."
+  },
+  {
+   "qid": "c5-16-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What happened at the end of your story?"
+    ]
+   ],
+   "options": [
+    "The detective finded the thief and the people cheered.",
+    "The detective found the thief and the people cheered.",
+    "The detective found the thief and the people cheers."
+   ],
+   "answer": 1,
+   "rule": "Tell the whole ending in the past: <b>found</b> (irregular) and <b>cheered</b>."
+  },
+  {
+   "qid": "c5-16-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer and his dog was very loyal friends.",
+    "The farmer and his dog were very loyal friend.",
+    "The farmer and his dog were very loyal friends."
+   ],
+   "answer": 2,
+   "rule": "Two subjects joined by <b>and</b> take <b>were</b>, and the noun after is plural: <b>friends</b>."
+  },
+  {
+   "qid": "c5-16-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The queens crown was stolen by a sly thief.",
+    "The queen's crown was stolen by a sly thief.",
+    "The queen's crown was stole by a sly thief."
+   ],
+   "answer": 1,
+   "rule": "Show who owns something with <b>'s</b>: <b>the queen's crown</b>. After was, use <b>stolen</b>."
+  },
+  {
+   "qid": "c5-16-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week",
+    "the",
+    "two",
+    "brave",
+    "pilots",
+    "was",
+    "flying",
+    "over",
+    "the",
+    "desert."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "were",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>two pilots</b> is plural and <b>last week</b> is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-16-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "scholar",
+    "was",
+    "very",
+    "tired,",
+    "so",
+    "he",
+    "sleep",
+    "early",
+    "last",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "sleeps",
+      "slept",
+      "sleeping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>last night</b> is past. The past of sleep is <b>slept</b>."
+  },
+  {
+   "qid": "c5-16-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "dinosaurs lived on the earth long ago?",
+   "options": [
+    "many",
+    "much",
+    "more"
+   ],
+   "answer": 0,
+   "rule": "Use <b>how many</b> with things we can count: <b>how many dinosaurs</b>."
+  },
+  {
+   "qid": "c5-16-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "silly mice are always talking to each other.",
+   "options": [
+    "These",
+    "This",
+    "That"
+   ],
+   "answer": 0,
+   "rule": "<b>mice</b> is plural, so use <b>these</b>. this/that go with one thing."
+  },
+  {
+   "qid": "c5-16-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "the",
+    "thief",
+    "hide",
+    "his",
+    "gold?"
+   ],
+   "alts": [],
+   "rule": "Past question: Wh- word + <b>did</b> + subject + base verb: <b>Where did the thief hide ...?</b>"
+  },
+  {
+   "qid": "c5-16-38",
+   "type": "build",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Make a comparing sentence.",
+   "answer": [
+    "Ali's",
+    "robot",
+    "is",
+    "smaller",
+    "than",
+    "mine."
+   ],
+   "alts": [],
+   "rule": "<b>Ali's robot</b> (owner + 's) is <b>smaller than</b> mine."
+  },
+  {
+   "qid": "c5-16-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "Whose idea was the dinosaur story?"
+    ]
+   ],
+   "options": [
+    "It was Kabirs idea.",
+    "It were Kabir's idea.",
+    "It was Kabir's idea."
+   ],
+   "answer": 2,
+   "rule": "<b>Whose</b> asks about the owner. Answer with <b>'s</b>: <b>Kabir's idea</b>."
+  },
+  {
+   "qid": "c5-16-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Which story type did your group choose?"
+    ],
+    [
+     "Teacher",
+     "And why?"
+    ]
+   ],
+   "options": [
+    "We chosen a mystery because we love solving puzzles.",
+    "We chose a mystery because we loves solving puzzles.",
+    "We chose a mystery because we love solving puzzles."
+   ],
+   "answer": 2,
+   "rule": "Past choice: <b>chose</b>. A thing we always like: <b>we love</b> (no -s with we)."
+  },
+  {
+   "qid": "c5-16-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The wiser of the three scholars quietly solved the king's riddle.",
+    "The wisest of the three scholars quietly solved the king's riddle.",
+    "The wisest of the three scholars quietly solve the king's riddle."
+   ],
+   "answer": 1,
+   "rule": "For one out of three or more, use <b>-est</b>: <b>the wisest of the three</b>."
+  },
+  {
+   "qid": "c5-16-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Twenty years from now, robots will cooks our food and clean our houses.",
+    "Twenty years from now, robot will cook our food and clean our houses.",
+    "Twenty years from now, robots will cook our food and clean our houses."
+   ],
+   "answer": 2,
+   "rule": "Robots in general is plural: <b>robots</b>. After <b>will</b>, use the base verb: <b>will cook</b>."
+  },
+  {
+   "qid": "c5-16-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "the",
+    "detective",
+    "looked",
+    "under",
+    "the",
+    "bed",
+    "and",
+    "finds",
+    "a",
+    "box",
+    "of",
+    "coins."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "find",
+      "finding",
+      "found"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last night</b> and <b>looked</b> are past, so the second verb is past too: <b>found</b>."
+  },
+  {
+   "qid": "c5-16-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena",
+    "jumped",
+    "the",
+    "higher",
+    "of",
+    "all",
+    "the",
+    "acrobats",
+    "in",
+    "the",
+    "circus."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "highest",
+      "high",
+      "highly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>of all the acrobats</b> compares one with many, so use <b>the highest</b>."
+  },
+  {
+   "qid": "c5-16-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The story moves from a hill fort",
+   "after": "a big city two hundred years from now.",
+   "options": [
+    "to",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "rule": "Moving between two places: <b>from</b> ... <b>to</b> ...."
+  },
+  {
+   "qid": "c5-16-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The tiny elves washed their",
+   "after": "in the cold stream.",
+   "options": [
+    "foots",
+    "feet",
+    "footing"
+   ],
+   "answer": 1,
+   "rule": "<b>foot</b> has an irregular plural: <b>feet</b>."
+  },
+  {
+   "qid": "c5-16-47",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Begin a story.",
+   "answer": [
+    "Long",
+    "ago,",
+    "a",
+    "wicked",
+    "wizard",
+    "ruled",
+    "the",
+    "island."
+   ],
+   "alts": [],
+   "rule": "A story often starts with a time phrase + comma, then who did what in the past: <b>ruled</b>."
+  },
+  {
+   "qid": "c5-16-48",
+   "type": "build",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Make a sentence about a hero.",
+   "answer": [
+    "Tara",
+    "is",
+    "the",
+    "bravest",
+    "pilot",
+    "in",
+    "our",
+    "city."
+   ],
+   "alts": [],
+   "rule": "<b>the</b> + <b>-est</b> adjective + noun + <b>in</b> + place: <b>the bravest pilot in our city</b>."
+  },
+  {
+   "qid": "c5-16-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "I chose a mouse, a robot and a king."
+    ],
+    [
+     "Ishaan",
+     "What did you choose?"
+    ]
+   ],
+   "options": [
+    "I chose two elfs, a farmer and a pilot.",
+    "I chose two elves, a farmer and a pilot.",
+    "I choosed two elves, a farmer and a pilot."
+   ],
+   "answer": 1,
+   "rule": "elf - <b>elves</b> (f to ves). choose - <b>chose</b> in the past."
+  },
+  {
+   "qid": "c5-16-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Pooja",
+     "Was your story funnier than ours?"
+    ]
+   ],
+   "options": [
+    "No, your was much funnier than ours.",
+    "No, yours was much funnier than ours.",
+    "No, yours was much funniest than ours."
+   ],
+   "answer": 1,
+   "rule": "<b>yours</b> stands alone for your story; <b>funnier than</b> compares two stories."
+  }
+ ]
+}

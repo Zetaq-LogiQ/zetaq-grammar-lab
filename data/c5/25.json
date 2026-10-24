@@ -1,0 +1,1010 @@
+{
+ "class": 5,
+ "id": "25",
+ "title": "The Man in the Moon",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a, an, the"
+  },
+  {
+   "tag": "there_is_are",
+   "name": "There is / There are"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Joining words: and, but, or, because"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns: I/me, my/mine"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-25-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The skipper fill his cup last night.",
+    "The skipper filling his cup last night.",
+    "The skipper filled his cup last night."
+   ],
+   "answer": 2,
+   "rule": "<b>Last night</b> is in the past, so use the simple past: <b>filled</b>."
+  },
+  {
+   "qid": "c5-25-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The moon looks like an old boat.",
+    "The moon looks like a old boat.",
+    "The moon looks like an boat."
+   ],
+   "answer": 0,
+   "rule": "<b>Old</b> begins with a vowel sound, so say <b>an old boat</b>. <b>Boat</b> alone takes <b>a</b>."
+  },
+  {
+   "qid": "c5-25-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are many stars in the Milky Way.",
+    "There is many stars in the Milky Way.",
+    "There am many stars in the Milky Way."
+   ],
+   "answer": 0,
+   "rule": "<b>Stars</b> is plural, so use <b>There are</b>."
+  },
+  {
+   "qid": "c5-25-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "are",
+    "a",
+    "big",
+    "moon",
+    "in",
+    "the",
+    "sky",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "am",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>A big moon</b> is one thing, so use <b>There is</b>."
+  },
+  {
+   "qid": "c5-25-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "the",
+    "Little",
+    "Bear",
+    "howl",
+    "at",
+    "the",
+    "man."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "howled",
+      "howling",
+      "howls"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last night</b> is in the past, so the verb takes <b>-ed</b>: <b>howled</b>."
+  },
+  {
+   "qid": "c5-25-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The man in the moon wanted",
+   "after": "drink of milk.",
+   "options": [
+    "an",
+    "a",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>Drink</b> begins with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c5-25-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday the little boy",
+   "after": "his milk on the floor.",
+   "options": [
+    "spill",
+    "spilled",
+    "spilling"
+   ],
+   "answer": 1,
+   "rule": "<b>Yesterday</b> shows the past, so use <b>spilled</b>."
+  },
+  {
+   "qid": "c5-25-08",
+   "type": "build",
+   "level": 1,
+   "topic": "there_is_are",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "There",
+    "are",
+    "seven",
+    "stars",
+    "in",
+    "the",
+    "Big",
+    "Dipper."
+   ],
+   "alts": [],
+   "rule": "<b>Seven stars</b> is plural, so we say <b>There are</b>."
+  },
+  {
+   "qid": "c5-25-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "What did you see in the sky last night?"
+    ]
+   ],
+   "options": [
+    "I see the full moon and many stars.",
+    "I seen the full moon and many stars.",
+    "I saw the full moon and many stars."
+   ],
+   "answer": 2,
+   "rule": "The question is about <b>last night</b>, so answer in the simple past: <b>I saw</b>."
+  },
+  {
+   "qid": "c5-25-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did you see in the sky last night?"
+    ]
+   ],
+   "options": [
+    "I saw a orange moon.",
+    "I saw an oranges moon.",
+    "I saw an orange moon."
+   ],
+   "answer": 2,
+   "rule": "<b>Orange</b> begins with a vowel sound, so say <b>an orange</b> moon."
+  },
+  {
+   "qid": "c5-25-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the sentence with the correct joining word.",
+   "options": [
+    "He tried to drink the milk, because he spilled it.",
+    "He tried to drink the milk, but he spilled it.",
+    "He tried to drink the milk, or he spilled it."
+   ],
+   "answer": 1,
+   "rule": "<b>But</b> joins two ideas that go against each other: he tried, <b>but</b> it went wrong."
+  },
+  {
+   "qid": "c5-25-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The skipper maked a big mistake.",
+    "The skipper made a big mistake.",
+    "The skipper did made a big mistake."
+   ],
+   "answer": 1,
+   "rule": "<b>Make</b> is irregular. Its past form is <b>made</b>, not <i>maked</i>."
+  },
+  {
+   "qid": "c5-25-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "man",
+    "dipped",
+    "the",
+    "cup",
+    "and",
+    "fill",
+    "it",
+    "with",
+    "milk."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "filling",
+      "fills",
+      "filled"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Both actions happened in the past: <b>dipped</b> ... and <b>filled</b>."
+  },
+  {
+   "qid": "c5-25-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "is",
+    "two",
+    "bears",
+    "near",
+    "the",
+    "Milky",
+    "Way."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two bears</b> is plural, so use <b>There are</b>."
+  },
+  {
+   "qid": "c5-25-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Do you want milk",
+   "after": "juice?",
+   "options": [
+    "or",
+    "but",
+    "because"
+   ],
+   "answer": 0,
+   "rule": "Use <b>or</b> to give a choice between two things."
+  },
+  {
+   "qid": "c5-25-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "We saw",
+   "after": "owl in the tree.",
+   "options": [
+    "a",
+    "many",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>Owl</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-25-17",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Raju",
+    "spilled",
+    "milk",
+    "on",
+    "his",
+    "shirt."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object + place: <b>Raju spilled milk on his shirt.</b>"
+  },
+  {
+   "qid": "c5-25-18",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "An",
+    "old",
+    "man",
+    "saw",
+    "a",
+    "bear."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> goes before the vowel sound in <b>old</b>; <b>a</b> goes before <b>bear</b>."
+  },
+  {
+   "qid": "c5-25-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "there_is_are",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Look up! What can you see?"
+    ]
+   ],
+   "options": [
+    "There is a bright star near the moon.",
+    "There are a bright star near the moon.",
+    "There is a bright stars near the moon."
+   ],
+   "answer": 0,
+   "rule": "One star: <b>There is a bright star</b>."
+  },
+  {
+   "qid": "c5-25-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why is your shirt wet, Kabir?"
+    ]
+   ],
+   "options": [
+    "I spill water on it at lunch today.",
+    "I spilled water on it at lunch today.",
+    "I spilling water on it at lunch today."
+   ],
+   "answer": 1,
+   "rule": "Lunch is already over, so use the simple past: <b>spilled</b>."
+  },
+  {
+   "qid": "c5-25-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the sentence with the correct joining word.",
+   "options": [
+    "The man wanted milk but he was thirsty.",
+    "The man wanted milk because he was thirsty.",
+    "The man wanted milk or he was thirsty."
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> gives the reason: he wanted milk <b>because</b> he was thirsty."
+  },
+  {
+   "qid": "c5-25-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He taked an empty cup and filled it.",
+    "He took a empty cup and filled it.",
+    "He took an empty cup and filled it."
+   ],
+   "answer": 2,
+   "rule": "Past of <b>take</b> is <b>took</b>; <b>empty</b> begins with a vowel sound, so <b>an empty cup</b>."
+  },
+  {
+   "qid": "c5-25-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are some bread on the plate.",
+    "There is some bread on the plate.",
+    "There is some breads on the plate."
+   ],
+   "answer": 1,
+   "rule": "<b>Bread</b> cannot be counted, so it has no plural and takes <b>There is</b>."
+  },
+  {
+   "qid": "c5-25-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bears",
+    "frightened",
+    "the",
+    "man,",
+    "and",
+    "he",
+    "run",
+    "away."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "runs",
+      "running",
+      "ran"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The story is in the past (<b>frightened</b>), so <b>run</b> becomes <b>ran</b>."
+  },
+  {
+   "qid": "c5-25-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "there",
+    "was",
+    "many",
+    "clouds",
+    "over",
+    "the",
+    "moon."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last night</b> needs the past, and <b>many clouds</b> is plural: <b>there were</b>."
+  },
+  {
+   "qid": "c5-25-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "When the Big Bear growled, the man",
+   "after": "the cup.",
+   "options": [
+    "drop",
+    "dropped",
+    "drops"
+   ],
+   "answer": 1,
+   "rule": "<b>Growled</b> is past, so the other action is past too: <b>dropped</b>."
+  },
+  {
+   "qid": "c5-25-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "there_is_are",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "no milk left in the cup.",
+   "options": [
+    "are",
+    "am",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "<b>Milk</b> cannot be counted, so use <b>There is</b>."
+  },
+  {
+   "qid": "c5-25-28",
+   "type": "build",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "milk",
+    "spilled",
+    "because",
+    "Sam",
+    "was",
+    "scared."
+   ],
+   "alts": [],
+   "rule": "<b>Because</b> joins the event to its reason."
+  },
+  {
+   "qid": "c5-25-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What is that bright thing in the sky?"
+    ]
+   ],
+   "options": [
+    "It is a aeroplane, not a star.",
+    "It is an aeroplane, not a star.",
+    "It is an aeroplane, not an star."
+   ],
+   "answer": 1,
+   "rule": "<b>An</b> before the vowel sound in <b>aeroplane</b>; <b>a</b> before <b>star</b>."
+  },
+  {
+   "qid": "c5-25-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Shall we watch the moon from the roof or the garden?"
+    ]
+   ],
+   "options": [
+    "Let's go to the roof because it is higher.",
+    "Let's go to the roof but it is higher.",
+    "Let's go to the roof or it is higher."
+   ],
+   "answer": 0,
+   "rule": "We are giving a reason, so the joining word is <b>because</b>."
+  },
+  {
+   "qid": "c5-25-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Both bear howled at the man.",
+    "Both bears howling at the man.",
+    "Both bears howled at the man."
+   ],
+   "answer": 2,
+   "rule": "<b>Both</b> needs a plural noun (<b>bears</b>), and the sentence needs a past verb: <b>howled</b>."
+  },
+  {
+   "qid": "c5-25-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The moon is a brightest object in the night sky.",
+    "The moon is the brightest object in the night sky.",
+    "The moon is the brighter object in the night sky."
+   ],
+   "answer": 1,
+   "rule": "The <b>-est</b> form compares with all others and always takes <b>the</b>: <b>the brightest</b>."
+  },
+  {
+   "qid": "c5-25-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "and",
+    "me",
+    "watched",
+    "the",
+    "moon",
+    "from",
+    "the",
+    "roof."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "I",
+      "myself",
+      "mine"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The doers of the action take <b>I</b>, not <b>me</b>: <b>Riya and I watched</b>."
+  },
+  {
+   "qid": "c5-25-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "milk",
+    "fell",
+    "down",
+    "because",
+    "the",
+    "man",
+    "drop",
+    "the",
+    "cup."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "dropping",
+      "drops",
+      "dropped"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Both parts joined by <b>because</b> are in the past: <b>fell</b> ... <b>dropped</b>."
+  },
+  {
+   "qid": "c5-25-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "The cup belongs to Kabir. It is",
+   "after": ".",
+   "options": [
+    "him",
+    "his",
+    "he"
+   ],
+   "answer": 1,
+   "rule": "To show that something belongs to a boy, use <b>his</b>."
+  },
+  {
+   "qid": "c5-25-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "three children on the roof.",
+   "options": [
+    "is",
+    "am",
+    "are"
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is the plural of <b>child</b>, so use <b>There are</b>."
+  },
+  {
+   "qid": "c5-25-37",
+   "type": "build",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "gave",
+    "me",
+    "a",
+    "glass",
+    "of",
+    "milk."
+   ],
+   "alts": [],
+   "rule": "<b>She</b> does the action; <b>me</b> receives it."
+  },
+  {
+   "qid": "c5-25-38",
+   "type": "build",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "there",
+    "any",
+    "stars",
+    "near",
+    "the",
+    "moon?"
+   ],
+   "alts": [],
+   "rule": "To ask, put <b>are</b> before <b>there</b>: <b>Are there any ...?</b>"
+  },
+  {
+   "qid": "c5-25-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "Whose telescope is this?"
+    ]
+   ],
+   "options": [
+    "It is mine. My uncle gave it to me.",
+    "It is my. My uncle gave it to me.",
+    "It is mine. My uncle gave it to I."
+   ],
+   "answer": 0,
+   "rule": "Use <b>mine</b> without a noun after it, and <b>me</b> after <b>to</b>."
+  },
+  {
+   "qid": "c5-25-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "there_is_are",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Is there any milk in the fridge?"
+    ]
+   ],
+   "options": [
+    "Yes, there is some milk in the jug.",
+    "Yes, there are some milk in the jug.",
+    "Yes, there is some milks in the jug."
+   ],
+   "answer": 0,
+   "rule": "<b>Milk</b> cannot be counted: no plural, and use <b>there is</b>."
+  },
+  {
+   "qid": "c5-25-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the bears growl, the frightened man spilled all the milk.",
+    "When the bears growled, the frightened man spilled all the milk.",
+    "When the bears growled, the frightened man spilled all the milks."
+   ],
+   "answer": 1,
+   "rule": "Keep both actions in the past (<b>growled</b>, <b>spilled</b>); <b>milk</b> has no plural."
+  },
+  {
+   "qid": "c5-25-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A honest boy found a wallet and gave it to the teacher.",
+    "An honest boy found an wallet and gave it to the teacher.",
+    "An honest boy found a wallet and gave it to the teacher."
+   ],
+   "answer": 2,
+   "rule": "The <b>h</b> in <b>honest</b> is silent, so it starts with a vowel sound: <b>an honest</b>. But <b>a wallet</b>."
+  },
+  {
+   "qid": "c5-25-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week",
+    "our",
+    "class",
+    "went",
+    "to",
+    "the",
+    "planetarium",
+    "and",
+    "see",
+    "the",
+    "Big",
+    "Dipper."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "seen",
+      "saw",
+      "sees"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last week</b> and <b>went</b> show the past, so <b>see</b> becomes <b>saw</b>."
+  },
+  {
+   "qid": "c5-25-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "there_is_are",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "night",
+    "there",
+    "is",
+    "thousands",
+    "of",
+    "stars",
+    "above",
+    "our",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Thousands of stars</b> is plural, and it happens every night: <b>there are</b>."
+  },
+  {
+   "qid": "c5-25-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "I wanted to see the Milky Way,",
+   "after": "the sky was too cloudy.",
+   "options": [
+    "but",
+    "or",
+    "because of"
+   ],
+   "answer": 0,
+   "rule": "The second idea goes against the first, so join them with <b>but</b>."
+  },
+  {
+   "qid": "c5-25-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The man in the moon",
+   "after": "a drink of milk, but he could not keep it.",
+   "options": [
+    "wants",
+    "wanting",
+    "wanted"
+   ],
+   "answer": 2,
+   "rule": "<b>Could not</b> is past, so the first verb is past too: <b>wanted</b>."
+  },
+  {
+   "qid": "c5-25-47",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "the",
+    "man",
+    "spill",
+    "his",
+    "milk?"
+   ],
+   "alts": [],
+   "rule": "In a past question, <b>did</b> takes the past, so the main verb stays in base form: <b>did ... spill</b>."
+  },
+  {
+   "qid": "c5-25-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "stayed",
+    "indoors",
+    "because",
+    "it",
+    "was",
+    "raining."
+   ],
+   "alts": [],
+   "rule": "Action first, then <b>because</b> + the reason."
+  },
+  {
+   "qid": "c5-25-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "You were busy yesterday."
+    ],
+    [
+     "Sara",
+     "Did you finish the moon project?"
+    ]
+   ],
+   "options": [
+    "Yes, I finish it, but I forgot the cover.",
+    "Yes, I finished it, but I forgetted the cover.",
+    "Yes, I finished it, but I forgot the cover."
+   ],
+   "answer": 2,
+   "rule": "Both parts are in the past: <b>finished</b> ... <b>but</b> ... <b>forgot</b> (not <i>forgetted</i>)."
+  },
+  {
+   "qid": "c5-25-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Name one thing you saw at the science museum."
+    ]
+   ],
+   "options": [
+    "I saw an huge model of the Earth.",
+    "I saw a huge model of the Earth.",
+    "I saw a huge model of a Earth."
+   ],
+   "answer": 1,
+   "rule": "<b>Huge</b> begins with a consonant sound: <b>a huge</b>. There is only one Earth: <b>the Earth</b>."
+  }
+ ]
+}

@@ -1,0 +1,1196 @@
+{
+ "class": 8,
+ "id": "08",
+ "title": "Three Visions for India",
+ "topics": [
+  {
+   "tag": "finite_nonfinite",
+   "name": "Finite and non-finite verbs"
+  },
+  {
+   "tag": "phrase_clause",
+   "name": "Phrases and clauses"
+  },
+  {
+   "tag": "perfect",
+   "name": "Present perfect and present perfect continuous"
+  },
+  {
+   "tag": "conditional",
+   "name": "Conditionals (type 1 and 2)"
+  },
+  {
+   "tag": "not_only",
+   "name": "Not only ... but also"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-08-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "finite_nonfinite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We want to build a strong India.",
+    "We want to builds a strong India.",
+    "We want to building a strong India."
+   ],
+   "answer": 0,
+   "rule": "After <b>to</b>, use the base form (the infinitive): <b>to build</b>. It never takes -s or -ing."
+  },
+  {
+   "qid": "c8-08-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "India has been a free country for 1947.",
+    "India has been a free country since 1947.",
+    "India is a free country since 1947."
+   ],
+   "answer": 1,
+   "rule": "From a point in the past till now, use the present perfect with <b>since</b> + point of time: <b>has been ... since 1947</b>."
+  },
+  {
+   "qid": "c8-08-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we work hard, India will become a developed nation.",
+    "If we will work hard, India will become a developed nation.",
+    "If we work hard, India become a developed nation."
+   ],
+   "answer": 0,
+   "rule": "Type 1 conditional: <b>If</b> + simple present, <b>will</b> + base verb. No <b>will</b> in the if-part."
+  },
+  {
+   "qid": "c8-08-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The new metro is not only fast but also cheaply.",
+    "The new metro is not only fast but also cheap.",
+    "The new metro is not only fast and also cheap."
+   ],
+   "answer": 1,
+   "rule": "<b>not only</b> pairs with <b>but also</b>, and both parts must match: two adjectives, <b>fast</b> and <b>cheap</b>."
+  },
+  {
+   "qid": "c8-08-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "phrase_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Can you tell me where the ISRO office is?",
+    "Can you tell me where is the ISRO office?",
+    "Can you tell me where the ISRO office?"
+   ],
+   "answer": 0,
+   "rule": "Inside a sentence, a wh-clause keeps statement order: <b>where the ISRO office is</b>."
+  },
+  {
+   "qid": "c8-08-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "finite_nonfinite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Manish like to play football every evening.",
+    "Manish likes to play football every evening.",
+    "Manish likes to plays football every evening."
+   ],
+   "answer": 1,
+   "rule": "The finite verb agrees with Manish (<b>likes</b>); the non-finite <b>to play</b> never changes."
+  },
+  {
+   "qid": "c8-08-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Our scientists has been working on this satellite for three years.",
+    "Our scientists have been worked on this satellite for three years.",
+    "Our scientists have been working on this satellite for three years."
+   ],
+   "answer": 2,
+   "rule": "Present perfect continuous = <b>have/has been</b> + -ing. Plural <b>scientists</b> take <b>have</b>."
+  },
+  {
+   "qid": "c8-08-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we were more self-reliant, we will not depend on imported goods.",
+    "If we were more self-reliant, we would not depend on imported goods.",
+    "If we are more self-reliant, we would not depend on imported goods."
+   ],
+   "answer": 1,
+   "rule": "Type 2 conditional (imagined): <b>If</b> + simple past, <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-08-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "finite_nonfinite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "hopes",
+    "to",
+    "becomes",
+    "a",
+    "scientist",
+    "like",
+    "Dr",
+    "Kalam."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "became",
+      "becoming",
+      "become"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b>, the verb stays in the base form: <b>to become</b>."
+  },
+  {
+   "qid": "c8-08-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "have",
+    "lived",
+    "in",
+    "Hyderabad",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "for",
+      "from",
+      "during"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (five years) and <b>since</b> with a starting point (2020)."
+  },
+  {
+   "qid": "c8-08-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Arjun",
+    "miss",
+    "the",
+    "bus,",
+    "he",
+    "will",
+    "walk",
+    "to",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "missed",
+      "missing",
+      "misses"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Type 1: <b>If</b> + simple present. <b>Arjun</b> is one person, so <b>misses</b>."
+  },
+  {
+   "qid": "c8-08-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "not",
+    "only",
+    "plays",
+    "the",
+    "sitar",
+    "and",
+    "also",
+    "sings."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "or",
+      "but",
+      "so"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>not only</b> is always paired with <b>but also</b>."
+  },
+  {
+   "qid": "c8-08-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "phrase_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "believe",
+    "what",
+    "India",
+    "will",
+    "become",
+    "a",
+    "developed",
+    "nation."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "which",
+      "whom",
+      "that"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A clause that reports a belief or thought begins with <b>that</b>: I believe <b>that</b> ..."
+  },
+  {
+   "qid": "c8-08-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "finite_nonfinite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Having",
+    "finish",
+    "the",
+    "experiment,",
+    "the",
+    "students",
+    "cleaned",
+    "the",
+    "lab."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "finished",
+      "finishing",
+      "finishes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The perfect participle is <b>having</b> + past participle: <b>Having finished</b>."
+  },
+  {
+   "qid": "c8-08-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "scientists",
+    "have",
+    "been",
+    "work",
+    "on",
+    "the",
+    "new",
+    "satellite",
+    "since",
+    "January."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "working",
+      "worked",
+      "works"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect continuous = <b>have been</b> + -ing: <b>have been working</b>."
+  },
+  {
+   "qid": "c8-08-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "India",
+    "produced",
+    "more",
+    "of",
+    "its",
+    "own",
+    "technology,",
+    "we",
+    "would",
+    "not",
+    "needed",
+    "so",
+    "many",
+    "imported",
+    "phones."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "needs",
+      "needing",
+      "need"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>would</b> (and <b>would not</b>), use the base verb: <b>would not need</b>."
+  },
+  {
+   "qid": "c8-08-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "finite_nonfinite",
+   "prompt": "Fill in the gap.",
+   "before": "Dr Kalam loved",
+   "after": "children.",
+   "options": [
+    "meets",
+    "to meet",
+    "met"
+   ],
+   "answer": 1,
+   "rule": "After <b>loved</b>, use a non-finite form such as the infinitive <b>to meet</b>."
+  },
+  {
+   "qid": "c8-08-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "perfect",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "in this town since 2015.",
+   "options": [
+    "have lived",
+    "live",
+    "are living"
+   ],
+   "answer": 0,
+   "rule": "<b>since 2015</b> means from then till now, so use the present perfect: <b>have lived</b>."
+  },
+  {
+   "qid": "c8-08-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Fill in the gap.",
+   "before": "If we protect our freedom, no one",
+   "after": "us.",
+   "options": [
+    "ruled",
+    "will rule",
+    "ruling"
+   ],
+   "answer": 1,
+   "rule": "Type 1: <b>If</b> + simple present, then <b>will</b> + base verb."
+  },
+  {
+   "qid": "c8-08-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "Fill in the gap.",
+   "before": "Ananya not only sings",
+   "after": "dances beautifully.",
+   "options": [
+    "and",
+    "or",
+    "but also"
+   ],
+   "answer": 2,
+   "rule": "<b>not only</b> ... <b>but also</b> always go together."
+  },
+  {
+   "qid": "c8-08-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "phrase_clause",
+   "prompt": "Fill in the gap.",
+   "before": "This is the place",
+   "after": "Dr Kalam was born.",
+   "options": [
+    "where",
+    "which",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "For a place, the clause begins with <b>where</b>: the place <b>where</b> he was born."
+  },
+  {
+   "qid": "c8-08-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "finite_nonfinite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "his work, the scientist went home.",
+   "options": [
+    "Has finished",
+    "Having finished",
+    "Finished having"
+   ],
+   "answer": 1,
+   "rule": "<b>Having finished</b> is a non-finite (participle) phrase showing the first of two actions."
+  },
+  {
+   "qid": "c8-08-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Arjun is tired because he",
+   "after": "for the exam since morning.",
+   "options": [
+    "studies",
+    "has been studying",
+    "was study"
+   ],
+   "answer": 1,
+   "rule": "An action that began in the past and is still going on: <b>has been</b> + -ing."
+  },
+  {
+   "qid": "c8-08-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Fill in the gap.",
+   "before": "If we were not only strong but also self-reliant, the world",
+   "after": "us more.",
+   "options": [
+    "would respect",
+    "will respect",
+    "respected"
+   ],
+   "answer": 0,
+   "rule": "<b>If</b> + simple past (<b>were</b>) is type 2, so the result takes <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-08-25",
+   "type": "build",
+   "level": 1,
+   "topic": "finite_nonfinite",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "We",
+    "like",
+    "to",
+    "play",
+    "cricket."
+   ],
+   "alts": [],
+   "rule": "Finite verb <b>like</b>, then the infinitive <b>to play</b>."
+  },
+  {
+   "qid": "c8-08-26",
+   "type": "build",
+   "level": 2,
+   "topic": "perfect",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "She",
+    "has",
+    "been",
+    "reading",
+    "since",
+    "morning."
+   ],
+   "alts": [],
+   "rule": "Present perfect continuous: <b>has been</b> + -ing + <b>since</b> + starting point."
+  },
+  {
+   "qid": "c8-08-27",
+   "type": "build",
+   "level": 3,
+   "topic": "phrase_clause",
+   "prompt": "Make a sentence with a clause.",
+   "answer": [
+    "I",
+    "know",
+    "where",
+    "he",
+    "was",
+    "born."
+   ],
+   "alts": [],
+   "rule": "The clause <b>where he was born</b> keeps statement order: subject before verb."
+  },
+  {
+   "qid": "c8-08-28",
+   "type": "build",
+   "level": 4,
+   "topic": "conditional",
+   "prompt": "Make a conditional sentence.",
+   "answer": [
+    "If",
+    "we",
+    "work",
+    "hard,",
+    "India",
+    "will",
+    "grow."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb."
+  },
+  {
+   "qid": "c8-08-29",
+   "type": "build",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "India",
+    "is",
+    "not",
+    "only",
+    "large",
+    "but",
+    "also",
+    "strong."
+   ],
+   "alts": [],
+   "rule": "<b>not only</b> X <b>but also</b> Y, with X and Y of the same kind (two adjectives)."
+  },
+  {
+   "qid": "c8-08-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "finite_nonfinite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Karan",
+     "What do you want to be when you grow up?"
+    ]
+   ],
+   "options": [
+    "I want to becomes a scientist.",
+    "I want become a scientist.",
+    "I want to become a scientist."
+   ],
+   "answer": 2,
+   "rule": "<b>want</b> + <b>to</b> + base verb: <b>want to become</b>."
+  },
+  {
+   "qid": "c8-08-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How long have you been waiting here?"
+    ]
+   ],
+   "options": [
+    "I am waiting for twenty minutes.",
+    "I have been wait for twenty minutes.",
+    "I have been waiting for twenty minutes."
+   ],
+   "answer": 2,
+   "rule": "Waiting from the past till now: <b>have been</b> + -ing + <b>for</b> + length of time."
+  },
+  {
+   "qid": "c8-08-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Will you come to the science exhibition tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, if I finish my homework, I will come.",
+    "Yes, if I will finish my homework, I come.",
+    "Yes, if I finished my homework, I will come."
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>if</b> + simple present (<b>finish</b>), then <b>will</b> + base verb (<b>will come</b>)."
+  },
+  {
+   "qid": "c8-08-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "phrase_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Do you know why Dr Kalam is called the Missile Man?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. It is because of he led India's missile programme.",
+    "Yes, ma'am. It is because led India's missile programme.",
+    "Yes, ma'am. It is because he led India's missile programme."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> begins a clause (subject + verb). <b>because of</b> is followed by a noun phrase, not a clause."
+  },
+  {
+   "qid": "c8-08-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "not_only",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Is your new school bag good?"
+    ]
+   ],
+   "options": [
+    "Yes, it is not only light but also strong.",
+    "Yes, it not only light but also strong.",
+    "Yes, it is not only light and also strong."
+   ],
+   "answer": 0,
+   "rule": "Keep the verb <b>is</b>, and pair <b>not only</b> with <b>but also</b>."
+  },
+  {
+   "qid": "c8-08-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Have you finished your project on Dr Kalam?"
+    ]
+   ],
+   "options": [
+    "Not yet. I am working on it since Monday.",
+    "Not yet. I have been worked on it since Monday.",
+    "Not yet. I have been working on it since Monday."
+   ],
+   "answer": 2,
+   "rule": "Still working, starting Monday: present perfect continuous <b>have been working ... since</b>."
+  },
+  {
+   "qid": "c8-08-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "finite_nonfinite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Why did you go to the library?"
+    ]
+   ],
+   "options": [
+    "I went there to borrow a book on satellites.",
+    "I went there to borrowed a book on satellites.",
+    "I went there for borrow a book on satellites."
+   ],
+   "answer": 0,
+   "rule": "Purpose is shown by the infinitive <b>to</b> + base verb: <b>to borrow</b>."
+  },
+  {
+   "qid": "c8-08-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "What would you do if you were the Prime Minister?"
+    ]
+   ],
+   "options": [
+    "If I was the Prime Minister, I will build more schools.",
+    "If I were the Prime Minister, I build more schools.",
+    "If I were the Prime Minister, I would build more schools."
+   ],
+   "answer": 2,
+   "rule": "Imagined situation (type 2): <b>If I were</b> ..., <b>I would</b> + base verb."
+  },
+  {
+   "qid": "c8-08-38",
+   "type": "change",
+   "level": 1,
+   "topic": "phrase_clause",
+   "prompt": "Replace the phrase 'his place of birth' with a clause.",
+   "source": "Do you know his place of birth?",
+   "options": [
+    "Do you know where was he born?",
+    "Do you know where he was born?",
+    "Do you know where he is born?"
+   ],
+   "answer": 1,
+   "rule": "The clause <b>where he was born</b> has a subject and verb in statement order."
+  },
+  {
+   "qid": "c8-08-39",
+   "type": "change",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not practise, you will not improve.",
+   "options": [
+    "Unless you do not practise, you will not improve.",
+    "Unless you practise, you will improve.",
+    "Unless you practise, you will not improve."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> means <b>if not</b>, so drop the <b>not</b> from the if-part only."
+  },
+  {
+   "qid": "c8-08-40",
+   "type": "change",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "Join using 'not only ... but also'.",
+   "source": "Dr Kalam was a scientist. He was also a poet.",
+   "options": [
+    "Dr Kalam was not only a scientist and also a poet.",
+    "Dr Kalam was not only a scientist but also a poet.",
+    "Dr Kalam were not only a scientist but also a poet."
+   ],
+   "answer": 1,
+   "rule": "Place <b>not only</b> and <b>but also</b> just before the two matching parts: <b>a scientist</b> / <b>a poet</b>."
+  },
+  {
+   "qid": "c8-08-41",
+   "type": "change",
+   "level": 3,
+   "topic": "finite_nonfinite",
+   "prompt": "Combine into one sentence beginning with 'Having'.",
+   "source": "Kabir finished his homework. He went out to play.",
+   "options": [
+    "Having finish his homework, Kabir went out to play.",
+    "Having finished his homework, Kabir went out to play.",
+    "Having finished his homework, went out to play."
+   ],
+   "answer": 1,
+   "rule": "<b>Having</b> + past participle shows the first action; the main clause still needs its subject, <b>Kabir</b>."
+  },
+  {
+   "qid": "c8-08-42",
+   "type": "change",
+   "level": 4,
+   "topic": "perfect",
+   "prompt": "Rewrite using 'since'.",
+   "source": "Neha started learning the violin in 2022, and she is still learning it.",
+   "options": [
+    "Neha has been learning the violin since 2022.",
+    "Neha is learning the violin since 2022.",
+    "Neha has been learnt the violin since 2022."
+   ],
+   "answer": 0,
+   "rule": "Started in the past and still going on: <b>has been</b> + -ing + <b>since</b> + starting point."
+  },
+  {
+   "qid": "c8-08-43",
+   "type": "change",
+   "level": 4,
+   "topic": "phrase_clause",
+   "prompt": "Replace the phrase 'In his absence' with a clause.",
+   "source": "In his absence, the thieves looted his house.",
+   "options": [
+    "While he away, the thieves looted his house.",
+    "While he was away, the thieves looted his house.",
+    "While was he away, the thieves looted his house."
+   ],
+   "answer": 1,
+   "rule": "A clause needs a subject and a verb in statement order: <b>While he was away</b>."
+  },
+  {
+   "qid": "c8-08-44",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Rewrite using 'If'.",
+   "source": "We do not have enough satellites, so we cannot forecast every storm.",
+   "options": [
+    "If we had enough satellites, we could forecast every storm.",
+    "If we have enough satellites, we could forecast every storm.",
+    "If we had enough satellites, we can forecast every storm."
+   ],
+   "answer": 0,
+   "rule": "An imagined present (type 2): <b>If</b> + simple past (<b>had</b>), then <b>could</b> + base verb."
+  },
+  {
+   "qid": "c8-08-45",
+   "type": "change",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Rewrite using 'not only ... but also'.",
+   "source": "We must be strong as a military power and as an economic power.",
+   "options": [
+    "We must be strong not only as a military power and also as an economic power.",
+    "We must not only be strong as a military power but also an economic power.",
+    "We must be strong not only as a military power but also as an economic power."
+   ],
+   "answer": 2,
+   "rule": "Pair <b>not only</b> with <b>but also</b> and keep both parts alike: <b>as a military power</b> / <b>as an economic power</b>."
+  },
+  {
+   "qid": "c8-08-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Meera!",
+    "I",
+    "have",
+    "been",
+    "live",
+    "in",
+    "Pune",
+    "since",
+    "last",
+    "year.",
+    "My",
+    "neighbour,",
+    "Dr",
+    "Rao,",
+    "have",
+    "been",
+    "writing",
+    "a",
+    "book",
+    "on",
+    "satellites",
+    "for",
+    "two",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "living",
+      "lived",
+      "lives"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "is",
+      "having",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Present perfect continuous: <b>have been living</b>. <b>Dr Rao</b> is one person: <b>has been writing</b>."
+  },
+  {
+   "qid": "c8-08-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "finite_nonfinite",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Dr",
+    "Kalam",
+    "wanted",
+    "to",
+    "makes",
+    "India",
+    "strong.",
+    "He",
+    "believed",
+    "what",
+    "every",
+    "child",
+    "could",
+    "dream",
+    "big.",
+    "He",
+    "enjoyed",
+    "meet",
+    "students",
+    "and",
+    "answered",
+    "their",
+    "questions",
+    "happily."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "made",
+      "making",
+      "make"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 9,
+     "options": [
+      "that",
+      "which",
+      "whom"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "meeting",
+      "met",
+      "meets"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>to make</b> (infinitive); <b>believed that</b> + clause; <b>enjoy</b> is followed by -ing: <b>enjoyed meeting</b>."
+  },
+  {
+   "qid": "c8-08-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "we",
+    "buying",
+    "only",
+    "imported",
+    "goods,",
+    "our",
+    "own",
+    "factories",
+    "will",
+    "suffer.",
+    "If",
+    "every",
+    "Indian",
+    "chose",
+    "local",
+    "products,",
+    "our",
+    "economy",
+    "would",
+    "grows",
+    "faster.",
+    "Self-respect",
+    "comes",
+    "with",
+    "self-reliance,",
+    "isn't",
+    "it?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "bought",
+      "buy",
+      "buys"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "grew",
+      "growing",
+      "grow"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "doesn't",
+      "wasn't",
+      "don't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Type 1: <b>If we buy</b> ... <b>will</b>. Type 2: <b>would grow</b>. <b>comes</b> (simple present) takes the tag <b>doesn't it?</b>"
+  },
+  {
+   "qid": "c8-08-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Our",
+    "village",
+    "has",
+    "changed",
+    "a",
+    "lot",
+    "since",
+    "the",
+    "last",
+    "ten",
+    "years.",
+    "It",
+    "now",
+    "has",
+    "not",
+    "only",
+    "a",
+    "new",
+    "school",
+    "and",
+    "also",
+    "a",
+    "small",
+    "health",
+    "centre,",
+    "and",
+    "everyone",
+    "is",
+    "proud",
+    "of",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "in",
+      "at"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "or",
+      "but",
+      "so"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Say <b>in the last ten years</b> (since needs a starting point). <b>not only</b> pairs with <b>but also</b>."
+  },
+  {
+   "qid": "c8-08-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "phrase_clause",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "He",
+    "helped",
+    "a",
+    "tribal",
+    "village",
+    "to",
+    "became",
+    "self-sustaining.",
+    "People",
+    "from",
+    "many",
+    "states",
+    "come",
+    "to",
+    "learned",
+    "from",
+    "him.",
+    "I",
+    "hope",
+    "what",
+    "I",
+    "can",
+    "meet",
+    "him",
+    "one",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "becomes",
+      "become",
+      "becoming"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "learn",
+      "learning",
+      "learnt"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "which",
+      "that",
+      "whom"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>to</b>, use the base verb: <b>to become</b>, <b>to learn</b>. A clause after <b>hope</b> begins with <b>that</b>."
+  }
+ ]
+}

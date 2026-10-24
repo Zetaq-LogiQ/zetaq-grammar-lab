@@ -1,0 +1,1204 @@
+{
+ "class": 9,
+ "id": "14",
+ "title": "The Road Not Taken",
+ "topics": [
+  {
+   "tag": "third_conditional",
+   "name": "Third and mixed conditionals"
+  },
+  {
+   "tag": "modal_deduction",
+   "name": "Modals of deduction (must have / can't have)"
+  },
+  {
+   "tag": "gerund_infinitive",
+   "name": "Gerunds and infinitives"
+  },
+  {
+   "tag": "linking_words",
+   "name": "Linking words (although, despite, however, moreover)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-14-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I decided taking the grassy path.",
+    "I decided to take the grassy path.",
+    "I decided take the grassy path."
+   ],
+   "answer": 1,
+   "rule": "<b>Decide</b> is followed by the infinitive: <b>decided to take</b>."
+  },
+  {
+   "qid": "c9-14-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Despite of the rain, we went for a walk in the woods.",
+    "Despite the rain, we went for a walk in the woods.",
+    "Despite it rained, we went for a walk in the woods."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> takes a noun directly (no <b>of</b>) and is not followed by a full clause."
+  },
+  {
+   "qid": "c9-14-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "third_conditional",
+   "prompt": "Pick the sentence with the correct verb forms.",
+   "options": [
+    "If he would have taken the other road, he would have reached the river.",
+    "If he had taken the other road, he will have reached the river.",
+    "If he had taken the other road, he would have reached the river."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If</b> + past perfect, <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-14-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The ground is wet, so it must have rained last night.",
+    "The ground is wet, so it must rained last night.",
+    "The ground is wet, so it must has rained last night."
+   ],
+   "answer": 0,
+   "rule": "A sure guess about the past: <b>must have</b> + past participle."
+  },
+  {
+   "qid": "c9-14-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Choose a career is not an easy task.",
+    "Choosing a career is not an easy task.",
+    "Chose a career is not an easy task."
+   ],
+   "answer": 1,
+   "rule": "An action used as the subject takes the gerund (-ing form): <b>Choosing</b> a career is ..."
+  },
+  {
+   "qid": "c9-14-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The first road looked fine; however, he has took the other one.",
+    "The first road looked fine; however, he taking the other one.",
+    "The first road looked fine; however, he took the other one."
+   ],
+   "answer": 2,
+   "rule": "After <b>; however,</b> you need a full clause with a proper past verb: <b>he took</b>. 'Has took' and 'he taking' are wrong."
+  },
+  {
+   "qid": "c9-14-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "third_conditional",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Neha had practised more, she would have won the match.",
+    "If Neha had practised more, she would won the match.",
+    "If Neha had practise more, she would have won the match."
+   ],
+   "answer": 0,
+   "rule": "Past perfect needs the past participle (<b>had practised</b>); the result is <b>would have won</b>."
+  },
+  {
+   "qid": "c9-14-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Arjun can't have chosen science; he hates physics.",
+    "Arjun can't have choose science; he hates physics.",
+    "Arjun can't has chosen science; he hates physics."
+   ],
+   "answer": 0,
+   "rule": "To say something is impossible in the past: <b>can't have</b> + past participle (<b>chosen</b>)."
+  },
+  {
+   "qid": "c9-14-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "is",
+    "fond",
+    "of",
+    "read",
+    "poems",
+    "by",
+    "Robert",
+    "Frost."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "reads",
+      "reader",
+      "reading"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: fond of <b>reading</b>."
+  },
+  {
+   "qid": "c9-14-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sana",
+    "kept",
+    "walking",
+    "through",
+    "the",
+    "woods",
+    "although",
+    "her",
+    "aching",
+    "legs."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "because",
+      "unless",
+      "despite"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Although</b> needs a full clause. Before a noun phrase (<b>her aching legs</b>) use <b>despite</b>."
+  },
+  {
+   "qid": "c9-14-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "third_conditional",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "had",
+    "known",
+    "about",
+    "the",
+    "fork,",
+    "I",
+    "will",
+    "have",
+    "brought",
+    "a",
+    "map."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional result clause: <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-14-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Someone",
+    "must",
+    "have",
+    "walking",
+    "on",
+    "this",
+    "path",
+    "last",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "walk",
+      "walked",
+      "walks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Must have</b> is followed by the past participle: <b>must have walked</b>."
+  },
+  {
+   "qid": "c9-14-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kiran",
+    "is",
+    "thinking",
+    "of",
+    "choose",
+    "science",
+    "after",
+    "Class",
+    "10."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "chose",
+      "choosing",
+      "chosen"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A verb after the preposition <b>of</b> takes the -ing form: thinking of <b>choosing</b>."
+  },
+  {
+   "qid": "c9-14-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "third_conditional",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Frost",
+    "has",
+    "not",
+    "stopped",
+    "at",
+    "the",
+    "fork,",
+    "he",
+    "would",
+    "not",
+    "have",
+    "written",
+    "the",
+    "poem."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With <b>would not have written</b>, the if-clause needs the past perfect: <b>had not stopped</b>."
+  },
+  {
+   "qid": "c9-14-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Despite",
+    "he",
+    "loves",
+    "cricket,",
+    "Neel",
+    "stayed",
+    "home",
+    "to",
+    "study."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Unless",
+      "Until",
+      "Although"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A full clause (<b>he loves cricket</b>) needs <b>Although</b>; <b>Despite</b> takes a noun or -ing form."
+  },
+  {
+   "qid": "c9-14-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rhea",
+    "can't",
+    "have",
+    "saw",
+    "the",
+    "notice,",
+    "or",
+    "she",
+    "would",
+    "have",
+    "come",
+    "to",
+    "the",
+    "meeting."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "see",
+      "seeing",
+      "seen"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Can't have</b> + past participle: <b>can't have seen</b>. <b>Saw</b> is the simple past, not the participle."
+  },
+  {
+   "qid": "c9-14-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "Frost wanted",
+   "after": "both roads.",
+   "options": [
+    "to travel",
+    "travelling",
+    "travel"
+   ],
+   "answer": 0,
+   "rule": "<b>Want</b> is followed by the infinitive: <b>wanted to travel</b>."
+  },
+  {
+   "qid": "c9-14-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Choose the linking word.",
+   "before": "",
+   "after": "the path was steep, we reached the top.",
+   "options": [
+    "However",
+    "Although",
+    "Despite"
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> joins a contrasting clause. <b>However</b> cannot join two clauses with a comma; <b>Despite</b> needs a noun."
+  },
+  {
+   "qid": "c9-14-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "third_conditional",
+   "prompt": "Fill in the gap.",
+   "before": "If you had left earlier, you",
+   "after": "the bus.",
+   "options": [
+    "would have caught",
+    "will catch",
+    "would catch"
+   ],
+   "answer": 0,
+   "rule": "<b>Had left</b> (past perfect) pairs with <b>would have caught</b> for an unreal past."
+  },
+  {
+   "qid": "c9-14-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "Fill in the gap.",
+   "before": "The leaves are not crushed, so people",
+   "after": "used this road much.",
+   "options": [
+    "can't have",
+    "can't has",
+    "must had"
+   ],
+   "answer": 0,
+   "rule": "Uncrushed leaves show it is impossible: <b>can't have used</b>. After a modal always use <b>have</b> + past participle."
+  },
+  {
+   "qid": "c9-14-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "I am looking forward to",
+   "after": "my cousin in Pune.",
+   "options": [
+    "meet",
+    "meeting",
+    "met"
+   ],
+   "answer": 1,
+   "rule": "In <b>look forward to</b>, <b>to</b> is a preposition, so it takes the -ing form: <b>meeting</b>."
+  },
+  {
+   "qid": "c9-14-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Choose the linking word.",
+   "before": "",
+   "after": "his doubts, he took the less-travelled road.",
+   "options": [
+    "Although",
+    "However",
+    "Despite"
+   ],
+   "answer": 2,
+   "rule": "<b>His doubts</b> is a noun phrase, not a clause, so use <b>Despite</b>."
+  },
+  {
+   "qid": "c9-14-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "third_conditional",
+   "prompt": "Fill in the gap.",
+   "before": "Riya would have won the race if she",
+   "after": "fallen.",
+   "options": [
+    "has not",
+    "did not",
+    "had not"
+   ],
+   "answer": 2,
+   "rule": "With <b>would have won</b>, the if-clause takes the past perfect: <b>had not fallen</b>."
+  },
+  {
+   "qid": "c9-14-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "third_conditional",
+   "prompt": "Fill in the gap (mixed conditional).",
+   "before": "If he had taken the other road, he",
+   "after": "be lost now.",
+   "options": [
+    "would have",
+    "will have",
+    "would"
+   ],
+   "answer": 2,
+   "rule": "Past condition, present result (<b>now</b>): <b>had taken</b> ... <b>would be</b>."
+  },
+  {
+   "qid": "c9-14-25",
+   "type": "build",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "We",
+    "decided",
+    "to",
+    "walk",
+    "home."
+   ],
+   "alts": [],
+   "rule": "<b>Decide</b> + infinitive: <b>decided to walk</b>."
+  },
+  {
+   "qid": "c9-14-26",
+   "type": "build",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Make a sentence with 'Despite'.",
+   "answer": [
+    "Despite",
+    "the",
+    "rain,",
+    "we",
+    "kept",
+    "walking."
+   ],
+   "alts": [],
+   "rule": "<b>Despite</b> + noun phrase, then the main clause."
+  },
+  {
+   "qid": "c9-14-27",
+   "type": "build",
+   "level": 3,
+   "topic": "modal_deduction",
+   "prompt": "Make a sentence that shows a sure guess about the past.",
+   "answer": [
+    "The",
+    "road",
+    "must",
+    "have",
+    "been",
+    "quiet."
+   ],
+   "alts": [],
+   "rule": "<b>Must have been</b> = I am sure it was."
+  },
+  {
+   "qid": "c9-14-28",
+   "type": "build",
+   "level": 4,
+   "topic": "third_conditional",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "Meera",
+    "would",
+    "have",
+    "helped",
+    "if",
+    "she",
+    "had",
+    "known."
+   ],
+   "alts": [],
+   "rule": "Result <b>would have helped</b> + <b>if</b> + past perfect (<b>had known</b>)."
+  },
+  {
+   "qid": "c9-14-29",
+   "type": "build",
+   "level": 5,
+   "topic": "gerund_infinitive",
+   "prompt": "Make a sentence about a regret.",
+   "answer": [
+    "He",
+    "regretted",
+    "not",
+    "having",
+    "chosen",
+    "the",
+    "other",
+    "road."
+   ],
+   "alts": [
+    [
+     "He",
+     "regretted",
+     "having",
+     "not",
+     "chosen",
+     "the",
+     "other",
+     "road."
+    ]
+   ],
+   "rule": "<b>Regret</b> + perfect gerund (<b>not having chosen</b>) talks about an earlier action."
+  },
+  {
+   "qid": "c9-14-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "What do you enjoy doing on Sundays?"
+    ]
+   ],
+   "options": [
+    "I enjoy cycling with my friends.",
+    "I enjoy to cycle with my friends.",
+    "I enjoy cycle with my friends."
+   ],
+   "answer": 0,
+   "rule": "<b>Enjoy</b> is followed by the gerund: <b>enjoy cycling</b>."
+  },
+  {
+   "qid": "c9-14-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Did you go to the park yesterday?"
+    ]
+   ],
+   "options": [
+    "No. Because of the rain, we stayed in.",
+    "No. Although it rained, so we stayed in.",
+    "No. Because the rain, we stayed in."
+   ],
+   "answer": 0,
+   "rule": "Before a noun use <b>because of</b>. <b>Although</b> and <b>so</b> are never used together."
+  },
+  {
+   "qid": "c9-14-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "third_conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Did you watch the final yesterday?"
+    ]
+   ],
+   "options": [
+    "No. If I would have known it was on, I would have watched it.",
+    "No. If I had known it was on, I would have watched it.",
+    "No. If I had known it was on, I will watch it."
+   ],
+   "answer": 1,
+   "rule": "Unreal past: <b>If I had known</b>, <b>I would have watched</b>. Never put <b>would have</b> in the if-clause."
+  },
+  {
+   "qid": "c9-14-33",
+   "type": "chat",
+   "level": 2,
+   "topic": "modal_deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where are my keys?"
+    ],
+    [
+     "Mom",
+     "I had them this morning."
+    ]
+   ],
+   "options": [
+    "You must have leave them in the car.",
+    "You must have left them in the car.",
+    "You must had left them in the car."
+   ],
+   "answer": 1,
+   "rule": "A sure guess about the past: <b>must have</b> + past participle (<b>left</b>)."
+  },
+  {
+   "qid": "c9-14-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why did you stop at the shop on the way?"
+    ]
+   ],
+   "options": [
+    "I stopped buy some water.",
+    "I stopped to buy some water.",
+    "I stopped for buy some water."
+   ],
+   "answer": 1,
+   "rule": "<b>Stop to do</b> gives the purpose of stopping: <b>stopped to buy</b>."
+  },
+  {
+   "qid": "c9-14-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Are you taking science or commerce?"
+    ]
+   ],
+   "options": [
+    "Science. I love biology; moreover, I wants to be a doctor.",
+    "Science. I love biology; moreover, I want be a doctor.",
+    "Science. I love biology; moreover, I want to be a doctor."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, use <b>want</b>, and <b>want</b> takes the infinitive: <b>want to be</b>."
+  },
+  {
+   "qid": "c9-14-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "third_conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "You missed the school trip!"
+    ],
+    [
+     "Sam",
+     "Why didn't you come?"
+    ]
+   ],
+   "options": [
+    "I had a fever. If I had been well, I would have come.",
+    "I had a fever. If I had been well, I would had come.",
+    "I had a fever. If I had been well, I will come."
+   ],
+   "answer": 0,
+   "rule": "Third conditional: <b>If I had been</b> ..., <b>I would have come</b>."
+  },
+  {
+   "qid": "c9-14-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Rohan didn't answer my call."
+    ],
+    [
+     "Tara",
+     "Do you think he was angry?"
+    ]
+   ],
+   "options": [
+    "He can't have be angry; he must have been asleep.",
+    "He can't have been angry; he must have been asleep.",
+    "He can't had been angry; he must have been asleep."
+   ],
+   "answer": 1,
+   "rule": "Past deduction: <b>can't have been</b> (impossible) and <b>must have been</b> (sure)."
+  },
+  {
+   "qid": "c9-14-38",
+   "type": "change",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Rewrite using a gerund as the subject.",
+   "source": "To walk in the woods is relaxing.",
+   "options": [
+    "Walking in the woods is relaxing.",
+    "Walk in the woods is relaxing.",
+    "Walked in the woods is relaxing."
+   ],
+   "answer": 0,
+   "rule": "The infinitive subject <b>To walk</b> becomes the gerund <b>Walking</b>."
+  },
+  {
+   "qid": "c9-14-39",
+   "type": "change",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Join the sentences using 'Although'.",
+   "source": "The road was less travelled. He took it.",
+   "options": [
+    "Although the road was less travelled, but he took it.",
+    "Although the road was less travelled, he took it.",
+    "Although the road was less travelled, he taken it."
+   ],
+   "answer": 1,
+   "rule": "Do not add <b>but</b> after an <b>although</b> clause; the simple past is <b>took</b>, not taken."
+  },
+  {
+   "qid": "c9-14-40",
+   "type": "change",
+   "level": 3,
+   "topic": "third_conditional",
+   "prompt": "Combine the sentences using 'If'.",
+   "source": "He did not take the first road. He did not see the river.",
+   "options": [
+    "If he had taken the first road, he would have seen the river.",
+    "If he took the first road, he would see the river.",
+    "If he had taken the first road, he would saw the river."
+   ],
+   "answer": 0,
+   "rule": "Facts in the past become a third conditional: <b>If he had taken</b> ..., <b>he would have seen</b>."
+  },
+  {
+   "qid": "c9-14-41",
+   "type": "change",
+   "level": 3,
+   "topic": "modal_deduction",
+   "prompt": "Rewrite using 'must have'.",
+   "source": "I am sure that Aman forgot the meeting.",
+   "options": [
+    "Aman must have forgot the meeting.",
+    "Aman must forgotten the meeting.",
+    "Aman must have forgotten the meeting."
+   ],
+   "answer": 2,
+   "rule": "<b>Must have</b> + past participle; the participle of <b>forget</b> is <b>forgotten</b>."
+  },
+  {
+   "qid": "c9-14-42",
+   "type": "change",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'Despite'.",
+   "source": "Although she was afraid, Meera chose the dark path.",
+   "options": [
+    "Despite she was afraid, Meera chose the dark path.",
+    "Despite being afraid, Meera chose the dark path.",
+    "Despite of being afraid, Meera chose the dark path."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> + -ing form (<b>being afraid</b>), with no <b>of</b> and no full clause."
+  },
+  {
+   "qid": "c9-14-43",
+   "type": "change",
+   "level": 4,
+   "topic": "gerund_infinitive",
+   "prompt": "Join the sentences using 'Instead of'.",
+   "source": "He did not take the busy road. He took the quiet one.",
+   "options": [
+    "Instead of take the busy road, he took the quiet one.",
+    "Instead of to take the busy road, he took the quiet one.",
+    "Instead of taking the busy road, he took the quiet one."
+   ],
+   "answer": 2,
+   "rule": "<b>Instead of</b> is a preposition, so the verb after it takes -ing: <b>taking</b>."
+  },
+  {
+   "qid": "c9-14-44",
+   "type": "change",
+   "level": 5,
+   "topic": "third_conditional",
+   "prompt": "Rewrite beginning with 'Had' (omit 'if').",
+   "source": "If I had known the way, I would have gone alone.",
+   "options": [
+    "Had I know the way, I would have gone alone.",
+    "Had I known the way, I would have gone alone.",
+    "Had known I the way, I would have gone alone."
+   ],
+   "answer": 1,
+   "rule": "Drop <b>if</b> and put <b>Had</b> before the subject: <b>Had I known</b>."
+  },
+  {
+   "qid": "c9-14-45",
+   "type": "change",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'however'.",
+   "source": "Both roads looked the same, but he chose the grassy one.",
+   "options": [
+    "Both roads looked the same; however, he choose the grassy one.",
+    "Both roads looked the same; however, he chose the grassy one.",
+    "Both roads looked the same; however, he chosen the grassy one."
+   ],
+   "answer": 1,
+   "rule": "Use <b>; however,</b> between the clauses and keep the simple past <b>chose</b> (not choose or chosen)."
+  },
+  {
+   "qid": "c9-14-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Find and fix the 2 errors in this note.",
+   "words": [
+    "After",
+    "finishing",
+    "Class",
+    "10,",
+    "Varun",
+    "hopes",
+    "to",
+    "studying",
+    "music.",
+    "He",
+    "is",
+    "good",
+    "at",
+    "play",
+    "the",
+    "sitar,",
+    "and",
+    "his",
+    "parents",
+    "have",
+    "agreed",
+    "to",
+    "support",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "study",
+      "studied",
+      "studies"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 13,
+     "options": [
+      "plays",
+      "played",
+      "playing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Hope</b> + infinitive: <b>hopes to study</b>. After the preposition <b>at</b>, use -ing: <b>good at playing</b>."
+  },
+  {
+   "qid": "c9-14-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Ira",
+    "wanted",
+    "to",
+    "visited",
+    "the",
+    "lake;",
+    "however,",
+    "the",
+    "path",
+    "was",
+    "blocked.",
+    "Although",
+    "the",
+    "delay,",
+    "she",
+    "waited",
+    "patiently",
+    "and",
+    "finally",
+    "reached",
+    "the",
+    "water",
+    "before",
+    "sunset."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "visits",
+      "visiting",
+      "visit"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 11,
+     "options": [
+      "Despite",
+      "Because",
+      "Unless"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Want</b> + to + base verb: <b>wanted to visit</b>. Before a noun (<b>the delay</b>) use <b>Despite</b>."
+  },
+  {
+   "qid": "c9-14-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "third_conditional",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "Mohit",
+    "had",
+    "listen",
+    "to",
+    "his",
+    "teacher,",
+    "he",
+    "would",
+    "have",
+    "chose",
+    "the",
+    "right",
+    "subject.",
+    "Now",
+    "he",
+    "wishes",
+    "he",
+    "had",
+    "think",
+    "more",
+    "carefully."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "listened",
+      "listening",
+      "listens"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "chosen",
+      "choose",
+      "choosing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "thinking",
+      "thinks",
+      "thought"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Had</b> and <b>would have</b> need past participles: <b>had listened</b>, <b>would have chosen</b>, <b>had thought</b>."
+  },
+  {
+   "qid": "c9-14-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "modal_deduction",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "leaves",
+    "on",
+    "this",
+    "road",
+    "are",
+    "fresh",
+    "and",
+    "uncrushed.",
+    "Raju",
+    "can't",
+    "have",
+    "walking",
+    "here",
+    "today;",
+    "he",
+    "must",
+    "have",
+    "came",
+    "by",
+    "the",
+    "river",
+    "path,",
+    "and",
+    "he",
+    "must",
+    "has",
+    "reached",
+    "home",
+    "by",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "walk",
+      "walked",
+      "walks"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "coming",
+      "come",
+      "comes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Deduction about the past: <b>can't have walked</b>, <b>must have come</b>. After a modal, always <b>have</b>, never <b>has</b>."
+  },
+  {
+   "qid": "c9-14-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "gerund_infinitive",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Choosing",
+    "between",
+    "football",
+    "and",
+    "studies",
+    "was",
+    "hard",
+    "for",
+    "Dev.",
+    "Now",
+    "he",
+    "manages",
+    "to",
+    "finishing",
+    "his",
+    "homework",
+    "early",
+    "and",
+    "enjoys",
+    "play",
+    "football",
+    "on",
+    "weekends."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "finished",
+      "finishes",
+      "finish"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "played",
+      "plays",
+      "playing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Manage</b> + infinitive: <b>manages to finish</b>. <b>Enjoy</b> + gerund: <b>enjoys playing</b>."
+  }
+ ]
+}

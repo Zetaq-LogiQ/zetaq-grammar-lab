@@ -1,0 +1,1202 @@
+{
+ "class": 9,
+ "id": "20",
+ "title": "Tansen",
+ "topics": [
+  {
+   "tag": "archaic_modern",
+   "name": "Archaic words to modern English (thou, thee, thy, thine)"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals (second, third and mixed)"
+  },
+  {
+   "tag": "non_finite",
+   "name": "Non-finite verbs (infinitive, gerund, participle)"
+  },
+  {
+   "tag": "sentence_conversion",
+   "name": "Simple, compound and complex sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-20-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "archaic_modern",
+   "prompt": "'Thy Teacher must be great' in modern English is:",
+   "options": [
+    "Your teacher must be great.",
+    "You teacher must be great.",
+    "Yours teacher must be great."
+   ],
+   "answer": 0,
+   "rule": "<b>Thy</b> is old English for <b>your</b>. Before a noun we use the possessive adjective <b>your</b>."
+  },
+  {
+   "qid": "c9-20-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Akbar heard the Ostad, he will be happy.",
+    "If Akbar hears the Ostad, he would be happy.",
+    "If Akbar heard the Ostad, he would be happy."
+   ],
+   "answer": 2,
+   "rule": "Second conditional: <b>If</b> + simple past, <b>would</b> + base verb."
+  },
+  {
+   "qid": "c9-20-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tansen",
+    "wanted",
+    "to",
+    "singing",
+    "for",
+    "the",
+    "king."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sang",
+      "sing",
+      "sung"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An infinitive is <b>to</b> + base verb: <b>wanted to sing</b>."
+  },
+  {
+   "qid": "c9-20-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "tomorrow,",
+    "the",
+    "farmers",
+    "will",
+    "danced",
+    "with",
+    "joy."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "dancing",
+      "dances",
+      "dance"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "First conditional: <b>If</b> + simple present, <b>will</b> + base verb: <b>will dance</b>."
+  },
+  {
+   "qid": "c9-20-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "Akbar enjoyed",
+   "after": "to Tansen's songs.",
+   "options": [
+    "listening",
+    "to listen",
+    "listen"
+   ],
+   "answer": 0,
+   "rule": "<b>Enjoy</b> is followed by a gerund (<b>-ing</b> form): <b>enjoyed listening</b>."
+  },
+  {
+   "qid": "c9-20-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "archaic_modern",
+   "prompt": "Fill in the gap with the modern word for 'thine'.",
+   "before": "This song is",
+   "after": "and that one is mine.",
+   "options": [
+    "yours",
+    "your",
+    "you"
+   ],
+   "answer": 0,
+   "rule": "<b>Thine</b> = <b>yours</b>. A possessive pronoun stands alone without a noun, like <b>mine</b>."
+  },
+  {
+   "qid": "c9-20-07",
+   "type": "build",
+   "level": 1,
+   "topic": "archaic_modern",
+   "prompt": "Say 'Bless us with thy song' in modern English.",
+   "answer": [
+    "Please",
+    "bless",
+    "us",
+    "with",
+    "your",
+    "song."
+   ],
+   "alts": [],
+   "rule": "<b>Thy</b> becomes <b>your</b> in modern English: <b>your song</b>."
+  },
+  {
+   "qid": "c9-20-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Would you go to the Himalayas to hear a great singer?"
+    ]
+   ],
+   "options": [
+    "Yes, if I have the chance, I would go.",
+    "Yes, if I had the chance, I would go.",
+    "Yes, if I had the chance, I will go."
+   ],
+   "answer": 1,
+   "rule": "Second conditional: <b>if I had</b> ..., <b>I would go</b>. Do not mix <b>have</b> with <b>would</b> or <b>had</b> with <b>will</b>."
+  },
+  {
+   "qid": "c9-20-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do you plan to do this summer?"
+    ]
+   ],
+   "options": [
+    "I plan learning the tabla.",
+    "I plan to learn the tabla.",
+    "I plan to learning the tabla."
+   ],
+   "answer": 1,
+   "rule": "<b>Plan</b> is followed by the infinitive: <b>plan to learn</b>."
+  },
+  {
+   "qid": "c9-20-10",
+   "type": "change",
+   "level": 1,
+   "topic": "archaic_modern",
+   "prompt": "Change into modern English.",
+   "source": "Magic indeed is thine.",
+   "options": [
+    "Magic indeed is yours.",
+    "Magic indeed is your.",
+    "Magic indeed is you."
+   ],
+   "answer": 0,
+   "rule": "<b>Thine</b> = <b>yours</b>. At the end, with no noun after it, use the pronoun <b>yours</b>."
+  },
+  {
+   "qid": "c9-20-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Heard the Malkous Raga, the birds gathered around.",
+    "Hear the Malkous Raga, the birds gathered around.",
+    "Hearing the Malkous Raga, the birds gathered around."
+   ],
+   "answer": 2,
+   "rule": "A present participle (<b>-ing</b>) can open a sentence to show an action by the subject: <b>Hearing ..., the birds</b>."
+  },
+  {
+   "qid": "c9-20-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "sentence_conversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although Akbar was a king, but he dressed like a slave.",
+    "Although Akbar was a king, he dressed like a slave.",
+    "Although Akbar was a king, he dressing like a slave."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> already joins the clauses, so do not add <b>but</b>. The main clause needs a finite verb: <b>dressed</b>."
+  },
+  {
+   "qid": "c9-20-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "maiden",
+    "had",
+    "not",
+    "sang",
+    "Malhar,",
+    "Tansen",
+    "would",
+    "have",
+    "burnt."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "sung",
+      "sing",
+      "singing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: <b>If</b> + <b>had</b> + past participle: <b>had not sung</b> (sing, sang, sung)."
+  },
+  {
+   "qid": "c9-20-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "king",
+    "was",
+    "eager",
+    "to",
+    "met",
+    "the",
+    "holy",
+    "teacher."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "meets",
+      "meet",
+      "meeting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>eager to</b>, use the base verb: <b>eager to meet</b>."
+  },
+  {
+   "qid": "c9-20-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "Akbar, I would also want to hear the Ostad.",
+   "options": [
+    "were",
+    "am",
+    "be"
+   ],
+   "answer": 0,
+   "rule": "For an imaginary situation, use <b>If I were</b> ..., <b>I would</b> ...."
+  },
+  {
+   "qid": "c9-20-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "sentence_conversion",
+   "prompt": "Fill in the gap.",
+   "before": "Tansen bowed",
+   "after": "thanked the king.",
+   "options": [
+    "although",
+    "despite",
+    "and"
+   ],
+   "answer": 2,
+   "rule": "Two actions by the same subject are joined by <b>and</b> to make a compound sentence."
+  },
+  {
+   "qid": "c9-20-17",
+   "type": "build",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "singers",
+    "were",
+    "eager",
+    "to",
+    "perform."
+   ],
+   "alts": [],
+   "rule": "Adjective + infinitive: <b>eager to perform</b>."
+  },
+  {
+   "qid": "c9-20-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_conversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Why did Akbar dress like a poor man?"
+    ]
+   ],
+   "options": [
+    "He dressed like that because of the Ostad never sang for kings.",
+    "He dressed like that because the Ostad never sang for kings.",
+    "He dressed like that because the Ostad never sing for kings."
+   ],
+   "answer": 1,
+   "rule": "<b>because</b> + clause (because of + noun only). <b>The Ostad</b> is singular, so <b>sang</b>, not sing."
+  },
+  {
+   "qid": "c9-20-19",
+   "type": "change",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not practise daily, you will not sing well.",
+   "options": [
+    "Unless you do not practise daily, you will not sing well.",
+    "Unless you practise daily, you will not sing well.",
+    "Unless you practise daily, you would not sing well."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> means <b>if not</b>, so drop the <b>not</b> from that clause and keep <b>will</b>."
+  },
+  {
+   "qid": "c9-20-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Tansen",
+    "was",
+    "fond",
+    "of",
+    "sing",
+    "for",
+    "the",
+    "king.",
+    "One",
+    "day",
+    "he",
+    "decided",
+    "to",
+    "singing",
+    "the",
+    "Deepak",
+    "Raga,",
+    "and",
+    "soon",
+    "his",
+    "body",
+    "started",
+    "burn",
+    "like",
+    "a",
+    "fire."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "sang",
+      "sung",
+      "singing"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 13,
+     "options": [
+      "sing",
+      "sung",
+      "sang"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "burnt",
+      "burns",
+      "burning"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a preposition use <b>-ing</b> (<b>of singing</b>); after <b>to</b> use the base verb (<b>to sing</b>); <b>started burning</b>."
+  },
+  {
+   "qid": "c9-20-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "archaic_modern",
+   "prompt": "'Thou art my teacher' in modern English is:",
+   "options": [
+    "You are my teacher.",
+    "You is my teacher.",
+    "You am my teacher."
+   ],
+   "answer": 0,
+   "rule": "<b>Thou art</b> is old English for <b>you are</b>. <b>You</b> always takes <b>are</b>."
+  },
+  {
+   "qid": "c9-20-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Enchanted",
+    "by",
+    "the",
+    "song,",
+    "the",
+    "birds",
+    "and",
+    "beasts",
+    "gathers",
+    "to",
+    "listen."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "gathering",
+      "gather",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>The birds and beasts</b> is plural, so the finite verb is <b>gather</b>. <b>Enchanted</b> is a past participle."
+  },
+  {
+   "qid": "c9-20-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Akbar",
+    "had",
+    "stayed",
+    "in",
+    "his",
+    "palace,",
+    "he",
+    "would",
+    "never",
+    "have",
+    "hear",
+    "the",
+    "Ostad."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "hearing",
+      "hears",
+      "heard"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Third conditional result: <b>would have</b> + past participle: <b>would never have heard</b>."
+  },
+  {
+   "qid": "c9-20-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "The birds stood still,",
+   "after": "by the beautiful raga.",
+   "options": [
+    "charming",
+    "charmed",
+    "charm"
+   ],
+   "answer": 1,
+   "rule": "The birds were charmed by the raga (passive meaning), so use the past participle <b>charmed</b>."
+  },
+  {
+   "qid": "c9-20-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_conversion",
+   "prompt": "Fill in the gap.",
+   "before": "Not only did Tansen sing well,",
+   "after": "he also taught music.",
+   "options": [
+    "but",
+    "and",
+    "so"
+   ],
+   "answer": 0,
+   "rule": "The pair is <b>not only ... but also</b>."
+  },
+  {
+   "qid": "c9-20-26",
+   "type": "build",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "If",
+    "the",
+    "maiden",
+    "hadn't",
+    "sung,",
+    "Tansen's",
+    "body",
+    "would",
+    "have",
+    "burnt."
+   ],
+   "alts": [],
+   "rule": "Third conditional: <b>If</b> + <b>hadn't</b> + past participle, then <b>would have</b> + past participle: <b>would have burnt</b>."
+  },
+  {
+   "qid": "c9-20-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "archaic_modern",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Do you know what 'Whither goest thou?' means?"
+    ]
+   ],
+   "options": [
+    "It means 'Where are you going?'",
+    "It means 'Where you are going?'",
+    "It means 'Where are you go?'"
+   ],
+   "answer": 0,
+   "rule": "A wh- question puts the helping verb before the subject: <b>Where are you going?</b>"
+  },
+  {
+   "qid": "c9-20-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "What would you have done if you had been Akbar?"
+    ]
+   ],
+   "options": [
+    "I would have went to the cave too.",
+    "I will have gone to the cave too.",
+    "I would have gone to the cave too."
+   ],
+   "answer": 2,
+   "rule": "Third conditional answer: <b>would have</b> + past participle: <b>would have gone</b>."
+  },
+  {
+   "qid": "c9-20-29",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_conversion",
+   "prompt": "Make it a complex sentence using 'when'.",
+   "source": "Hearing the song, Akbar fell into a trance.",
+   "options": [
+    "When Akbar heard the song, and he fell into a trance.",
+    "When Akbar heard the song, he fell into a trance.",
+    "When Akbar hears the song, he fell into a trance."
+   ],
+   "answer": 1,
+   "rule": "A complex sentence has one main clause and a <b>when</b> clause; don't add <b>and</b>, and keep both verbs in the past."
+  },
+  {
+   "qid": "c9-20-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "I",
+    "had",
+    "known",
+    "about",
+    "the",
+    "concert,",
+    "I",
+    "would",
+    "have",
+    "came",
+    "with",
+    "you.",
+    "If",
+    "you",
+    "hear",
+    "about",
+    "the",
+    "next",
+    "one,",
+    "please",
+    "tells",
+    "me."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "coming",
+      "come",
+      "comes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "telling",
+      "told",
+      "tell"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>would have</b> + past participle: <b>come</b>. A request with <b>please</b> uses the base verb: <b>please tell me</b>."
+  },
+  {
+   "qid": "c9-20-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The raga singing by the Ostad filled the cave with peace.",
+    "The raga sang by the Ostad filled the cave with peace.",
+    "The raga sung by the Ostad filled the cave with peace."
+   ],
+   "answer": 2,
+   "rule": "The raga was sung (passive meaning), so use the past participle <b>sung</b>: <b>the raga sung by the Ostad</b>."
+  },
+  {
+   "qid": "c9-20-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Had Akbar not travelled, he would have missed the song.",
+    "Had Akbar not travelled, he would missed the song.",
+    "Had Akbar not travel, he would have missed the song."
+   ],
+   "answer": 0,
+   "rule": "<b>Had</b> + subject + past participle can replace <b>If</b>; the result is <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-20-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_conversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Ostad",
+    "lived",
+    "in",
+    "a",
+    "cave",
+    "who",
+    "was",
+    "high",
+    "in",
+    "the",
+    "mountains."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "whom",
+      "whose",
+      "which"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For things like a cave, the relative pronoun is <b>which</b> (or that), not <b>who</b>."
+  },
+  {
+   "qid": "c9-20-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "archaic_modern",
+   "prompt": "'Thou knowest the answer' in modern English:",
+   "before": "You",
+   "after": "the answer.",
+   "options": [
+    "knows",
+    "knowing",
+    "know"
+   ],
+   "answer": 2,
+   "rule": "<b>Thou knowest</b> = <b>you know</b>. With <b>you</b> the present verb has no <b>-s</b>."
+  },
+  {
+   "qid": "c9-20-35",
+   "type": "build",
+   "level": 4,
+   "topic": "sentence_conversion",
+   "prompt": "Make a complex sentence that shows purpose.",
+   "answer": [
+    "Akbar",
+    "wore",
+    "plain",
+    "clothes",
+    "so",
+    "that",
+    "the",
+    "Ostad",
+    "would",
+    "sing."
+   ],
+   "alts": [],
+   "rule": "<b>so that</b> + <b>would</b> introduces a clause of purpose in the past."
+  },
+  {
+   "qid": "c9-20-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why did you stop going to music class?"
+    ]
+   ],
+   "options": [
+    "I stopped going because I wanted preparing for exams.",
+    "I stopped going because I wanted to prepare for exams.",
+    "I stopped go because I wanted to prepare for exams."
+   ],
+   "answer": 1,
+   "rule": "<b>Stop</b> + gerund (<b>stopped going</b>); <b>want</b> + infinitive (<b>wanted to prepare</b>)."
+  },
+  {
+   "qid": "c9-20-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "sentence_conversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How was the concert last night?"
+    ]
+   ],
+   "options": [
+    "Not only was the singing good, but the tabla player were also great.",
+    "Not only was the singing good, but the tabla player was also great.",
+    "Not only was the singing good, and the tabla player was also great."
+   ],
+   "answer": 1,
+   "rule": "When <b>Not only</b> begins a clause, invert the verb (<b>was the singing</b>) and pair it with <b>but also</b>; <b>the tabla player</b> is singular."
+  },
+  {
+   "qid": "c9-20-38",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_conversion",
+   "prompt": "Make it a simple sentence using 'Having'.",
+   "source": "The Ostad finished his song and vanished.",
+   "options": [
+    "Having finished his song, the Ostad vanished.",
+    "Having finish his song, the Ostad vanished.",
+    "Having finished his song, the Ostad vanish."
+   ],
+   "answer": 0,
+   "rule": "<b>Having</b> + past participle shows the first action; the sentence keeps one finite verb: <b>vanished</b>."
+  },
+  {
+   "qid": "c9-20-39",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Combine as one mixed conditional sentence using 'if'.",
+   "source": "Riya did not practise yesterday. She is nervous now.",
+   "options": [
+    "If Riya had practised yesterday, she would not be nervous now.",
+    "If Riya practised yesterday, she would not be nervous now.",
+    "If Riya had practised yesterday, she would not have been nervous now."
+   ],
+   "answer": 0,
+   "rule": "Mixed conditional: past condition (<b>had practised</b>) with a present result (<b>would not be ... now</b>)."
+  },
+  {
+   "qid": "c9-20-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Akbar",
+    "agreed",
+    "to",
+    "going",
+    "with",
+    "Tansen",
+    "as",
+    "a",
+    "poor",
+    "man.",
+    "Tired",
+    "of",
+    "walk",
+    "for",
+    "days,",
+    "they",
+    "finally",
+    "reached",
+    "the",
+    "cave",
+    "high",
+    "in",
+    "the",
+    "mountains."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "go",
+      "gone",
+      "goes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 12,
+     "options": [
+      "walked",
+      "walking",
+      "walks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>agree to</b> + base verb (<b>agreed to go</b>); after the preposition <b>of</b> use a gerund (<b>tired of walking</b>)."
+  },
+  {
+   "qid": "c9-20-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the maiden would not have sung Malhar, Tansen might have died.",
+    "If the maiden had not sung Malhar, Tansen might have died.",
+    "If the maiden had not sung Malhar, Tansen might have die."
+   ],
+   "answer": 1,
+   "rule": "Never put <b>would</b> in the <b>if</b> clause. Third conditional: <b>had not sung</b> ..., <b>might have died</b>."
+  },
+  {
+   "qid": "c9-20-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "sentence_conversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hardly",
+    "had",
+    "the",
+    "Ostad",
+    "finished",
+    "his",
+    "song",
+    "than",
+    "he",
+    "disappeared",
+    "from",
+    "sight."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "when",
+      "then",
+      "after"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The pair is <b>hardly ... when</b> (but <b>no sooner ... than</b>)."
+  },
+  {
+   "qid": "c9-20-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the long road, Akbar finally reached the holy cave.",
+   "options": [
+    "Travelled",
+    "Having travel",
+    "Having travelled"
+   ],
+   "answer": 2,
+   "rule": "A perfect participle (<b>Having</b> + past participle) shows an action completed before the main action."
+  },
+  {
+   "qid": "c9-20-44",
+   "type": "build",
+   "level": 5,
+   "topic": "sentence_conversion",
+   "prompt": "Make a complex sentence with 'although'.",
+   "answer": [
+    "Although",
+    "Akbar",
+    "was",
+    "a",
+    "mighty",
+    "king,",
+    "he",
+    "travelled",
+    "on",
+    "foot."
+   ],
+   "alts": [
+    [
+     "Although",
+     "he",
+     "was",
+     "a",
+     "mighty",
+     "king,",
+     "Akbar",
+     "travelled",
+     "on",
+     "foot."
+    ]
+   ],
+   "rule": "<b>Although</b> starts the subordinate clause; the main clause follows the comma, without <b>but</b>."
+  },
+  {
+   "qid": "c9-20-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "archaic_modern",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "How would you say 'Mighty thy Teacher must be' in modern English?"
+    ]
+   ],
+   "options": [
+    "I would say 'Your teacher must is mighty.'",
+    "I would say 'You teacher must be mighty.'",
+    "I would say 'Your teacher must be mighty.'"
+   ],
+   "answer": 2,
+   "rule": "<b>Thy</b> becomes <b>your</b>, and a modal like <b>must</b> is followed by the base verb <b>be</b>."
+  },
+  {
+   "qid": "c9-20-46",
+   "type": "change",
+   "level": 5,
+   "topic": "archaic_modern",
+   "prompt": "Change into modern English.",
+   "source": "To thee I sing; he sings to God.",
+   "options": [
+    "I sing to thou; he sings to God.",
+    "I sing to your; he sings to God.",
+    "I sing to you; he sings to God."
+   ],
+   "answer": 2,
+   "rule": "<b>Thee</b> is the old object form; after the preposition <b>to</b>, modern English uses <b>you</b>."
+  },
+  {
+   "qid": "c9-20-47",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_conversion",
+   "prompt": "Make it a compound sentence.",
+   "source": "Won by their humility, the Ostad sang for them.",
+   "options": [
+    "The Ostad was won by their humility, and he sung for them.",
+    "The Ostad was won by their humility, and he sang for them.",
+    "The Ostad was winning by their humility, and he sang for them."
+   ],
+   "answer": 1,
+   "rule": "A compound sentence joins two main clauses with <b>and</b>; <b>was won by</b> is passive, and the past of sing is <b>sang</b>."
+  },
+  {
+   "qid": "c9-20-48",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Rewrite as a third conditional sentence.",
+   "source": "Akbar was humble, so the Ostad sang for him.",
+   "options": [
+    "If Akbar was not humble, the Ostad would not have sung for him.",
+    "If Akbar had not been humble, the Ostad would not have sang for him.",
+    "If Akbar had not been humble, the Ostad would not have sung for him."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If</b> + <b>had not been</b> ..., <b>would not have</b> + past participle <b>sung</b> (not sang)."
+  },
+  {
+   "qid": "c9-20-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_conversion",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "they",
+    "reached",
+    "the",
+    "cave",
+    "when",
+    "the",
+    "Ostad",
+    "began",
+    "to",
+    "sing.",
+    "Each",
+    "of",
+    "the",
+    "listeners",
+    "were",
+    "enchanted,",
+    "and",
+    "Akbar",
+    "sit",
+    "in",
+    "silence."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "than",
+      "then",
+      "after"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "are",
+      "was",
+      "being"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "sits",
+      "sat",
+      "sitting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>No sooner ... than</b>; <b>Each of</b> takes a singular verb (<b>was</b>); the story is past, so <b>sat</b>."
+  },
+  {
+   "qid": "c9-20-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "archaic_modern",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Akbar",
+    "praised",
+    "Tansen",
+    "and",
+    "gave",
+    "he",
+    "many",
+    "precious",
+    "gems.",
+    "Tansen",
+    "bowed",
+    "and",
+    "said",
+    "that",
+    "the",
+    "true",
+    "magic",
+    "came",
+    "from",
+    "him",
+    "teacher,",
+    "who",
+    "lived",
+    "far",
+    "away",
+    "in",
+    "the",
+    "mountains."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "we",
+      "they",
+      "him"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "he",
+      "he's",
+      "his"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Like thee/thy, modern pronouns change form: object <b>him</b> after <b>gave</b>, possessive <b>his</b> before a noun."
+  }
+ ]
+}

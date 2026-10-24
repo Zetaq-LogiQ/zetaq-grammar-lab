@@ -1,0 +1,1189 @@
+{
+ "class": 8,
+ "id": "04",
+ "title": "Revathi's Musical Plants",
+ "topics": [
+  {
+   "tag": "affirm_neg",
+   "name": "Affirmative and negative sentences"
+  },
+  {
+   "tag": "sentence_kinds",
+   "name": "Kinds of sentences (assertive, interrogative, imperative, exclamatory)"
+  },
+  {
+   "tag": "neg_prefixes",
+   "name": "Opposites with prefixes (un-, im-, in-, dis-, ir-)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-04-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Which exclamatory sentence is correct?",
+   "options": [
+    "What beautiful the flowers are!",
+    "How beautiful the flowers is!",
+    "How beautiful the flowers are!"
+   ],
+   "answer": 2,
+   "rule": "Use <b>How</b> + adjective in this exclamation (<b>What</b> needs a noun), and plural <b>flowers</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c8-04-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "neg_prefixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It is impossible to lift this heavy pot alone.",
+    "It is unpossible to lift this heavy pot alone.",
+    "It is dispossible to lift this heavy pot alone."
+   ],
+   "answer": 0,
+   "rule": "The opposite of <b>possible</b> is made with <b>im-</b>: <b>impossible</b>."
+  },
+  {
+   "qid": "c8-04-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Revathi found that someone has moved the pot.",
+    "Revathi found that someone had moved the pot.",
+    "Revathi found that someone had move the pot."
+   ],
+   "answer": 1,
+   "rule": "The moving happened before she <b>found</b> it, so use the past perfect: <b>had moved</b>."
+  },
+  {
+   "qid": "c8-04-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "affirm_neg",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She hardly had no time to practise.",
+    "She didn't hardly have any time to practise.",
+    "She hardly had any time to practise."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly</b> is already negative, so don't add <b>no</b> or <b>not</b>: <b>hardly had any time</b>."
+  },
+  {
+   "qid": "c8-04-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Which imperative sentence is correct?",
+   "options": [
+    "Please don't play that quick tune.",
+    "Please don't plays that quick tune.",
+    "Please not play that quick tune."
+   ],
+   "answer": 0,
+   "rule": "A negative command uses <b>Don't</b> + the base verb: <b>don't play</b>."
+  },
+  {
+   "qid": "c8-04-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "The organisers were not convinced, weren't they?",
+    "The organisers were not convinced, were they?",
+    "The organisers were not convinced, did they?"
+   ],
+   "answer": 1,
+   "rule": "A negative sentence takes a positive tag with the same helper: <b>were not ... were they?</b>"
+  },
+  {
+   "qid": "c8-04-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "affirm_neg",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the pot nor the plants were in the courtyard.",
+    "Neither the pot nor the plants was in the courtyard.",
+    "Neither the pot or the plants were in the courtyard."
+   ],
+   "answer": 0,
+   "rule": "<b>Neither</b> pairs with <b>nor</b>, and the verb agrees with the nearer subject: <b>the plants were</b>."
+  },
+  {
+   "qid": "c8-04-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "By the time the contest began, a neighbour has already taken the pot to her house.",
+    "By the time the contest began, a neighbour had already taken the pot to her house.",
+    "By the time the contest began, a neighbour had already took the pot to her house."
+   ],
+   "answer": 1,
+   "rule": "The earlier past action takes <b>had</b> + past participle: <b>had already taken</b>."
+  },
+  {
+   "qid": "c8-04-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "neg_prefixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "It",
+    "was",
+    "an",
+    "unhappily",
+    "day",
+    "for",
+    "Revathi",
+    "when",
+    "her",
+    "pot",
+    "went",
+    "missing."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "unhappiness",
+      "happily",
+      "unhappy"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Before the noun <b>day</b> we need an adjective, not an adverb: <b>an unhappy day</b>."
+  },
+  {
+   "qid": "c8-04-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "a",
+    "lovely",
+    "tune",
+    "Revathi",
+    "play",
+    "on",
+    "her",
+    "violin!"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "playing",
+      "player",
+      "plays"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In this exclamation <b>Revathi</b> is a singular subject, so the verb needs <b>-s</b>: <b>Revathi plays</b>."
+  },
+  {
+   "qid": "c8-04-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "when",
+    "Revathi",
+    "reached",
+    "the",
+    "courtyard,",
+    "the",
+    "pot",
+    "has",
+    "already",
+    "vanished."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "have",
+      "had",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The pot vanished before she <b>reached</b> the courtyard yesterday, so use <b>had already vanished</b>."
+  },
+  {
+   "qid": "c8-04-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "affirm_neg",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "one",
+    "in",
+    "the",
+    "colony",
+    "were",
+    "near",
+    "the",
+    "pot",
+    "that",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "are",
+      "have"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>No one</b> is singular and the time is past: <b>No one ... was</b>."
+  },
+  {
+   "qid": "c8-04-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Revathi",
+    "plays",
+    "the",
+    "violin",
+    "every",
+    "evening,",
+    "isn't",
+    "she?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "don't",
+      "didn't",
+      "doesn't"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Plays</b> is simple present with <b>she</b>, so the tag uses <b>does</b>: <b>doesn't she?</b>"
+  },
+  {
+   "qid": "c8-04-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Revathi",
+    "had",
+    "never",
+    "hear",
+    "of",
+    "a",
+    "plant",
+    "that",
+    "loved",
+    "music",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "heard",
+      "hearing",
+      "hears"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The past perfect is <b>had</b> + past participle: <b>had never heard</b>."
+  },
+  {
+   "qid": "c8-04-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "proud",
+    "Revathi",
+    "carried",
+    "home",
+    "her",
+    "prize!"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "prouder",
+      "pride",
+      "proudly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>How</b> here describes the action <b>carried</b>, so it needs an adverb: <b>How proudly ...!</b>"
+  },
+  {
+   "qid": "c8-04-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "affirm_neg",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "Revathi's",
+    "mother",
+    "nor",
+    "her",
+    "two",
+    "friends",
+    "knows",
+    "anything",
+    "about",
+    "the",
+    "missing",
+    "pot."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "knowing",
+      "know",
+      "known"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>her two friends know</b>."
+  },
+  {
+   "qid": "c8-04-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "neg_prefixes",
+   "prompt": "Fill in the gap.",
+   "before": "It was",
+   "after": "that the plants leaned towards the violin.",
+   "options": [
+    "unusually",
+    "unusual",
+    "unusualness"
+   ],
+   "answer": 1,
+   "rule": "After <b>It was</b> we need an adjective: <b>It was unusual that ...</b>"
+  },
+  {
+   "qid": "c8-04-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a surprise it was to see the plants move!",
+   "options": [
+    "What",
+    "How",
+    "Which"
+   ],
+   "answer": 0,
+   "rule": "Use <b>What a</b> + noun in an exclamation: <b>What a surprise ...!</b>"
+  },
+  {
+   "qid": "c8-04-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Revathi was sad because someone",
+   "after": "her plants during the night.",
+   "options": [
+    "had stolen",
+    "has stolen",
+    "steals"
+   ],
+   "answer": 0,
+   "rule": "The stealing happened before she <b>was</b> sad, so use the past perfect: <b>had stolen</b>."
+  },
+  {
+   "qid": "c8-04-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "affirm_neg",
+   "prompt": "Fill in the gap.",
+   "before": "There was",
+   "after": "breeze, yet the plants moved.",
+   "options": [
+    "hardly no",
+    "hardly any",
+    "not hardly"
+   ],
+   "answer": 1,
+   "rule": "<b>Hardly</b> is negative by itself, so it goes with <b>any</b>: <b>hardly any</b>."
+  },
+  {
+   "qid": "c8-04-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Revathi didn't tell anyone about her secret,",
+   "after": "",
+   "options": [
+    "didn't she?",
+    "does she?",
+    "did she?"
+   ],
+   "answer": 2,
+   "rule": "A negative past sentence takes a positive tag: <b>didn't tell ... did she?</b>"
+  },
+  {
+   "qid": "c8-04-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap to make a command.",
+   "before": "",
+   "after": "touch the prize-winning plants, please.",
+   "options": [
+    "Doesn't",
+    "Not",
+    "Don't"
+   ],
+   "answer": 2,
+   "rule": "A negative imperative starts with <b>Don't</b> + base verb."
+  },
+  {
+   "qid": "c8-04-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The pot",
+   "after": "from the courtyard before Revathi woke up.",
+   "options": [
+    "has been taken",
+    "had taken",
+    "had been taken"
+   ],
+   "answer": 2,
+   "rule": "The pot did not take anything; it was taken earlier: past perfect passive <b>had been taken</b>."
+  },
+  {
+   "qid": "c8-04-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "affirm_neg",
+   "prompt": "Fill in the gap.",
+   "before": "No other balsam plant in the colony was as tall",
+   "after": "Revathi's.",
+   "options": [
+    "than",
+    "so",
+    "as"
+   ],
+   "answer": 2,
+   "rule": "The pattern is <b>as tall as</b>; <b>than</b> goes only with comparatives like <b>taller</b>."
+  },
+  {
+   "qid": "c8-04-25",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "What",
+    "a",
+    "lovely",
+    "tune",
+    "that",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "Exclamation pattern: <b>What a</b> + adjective + noun + subject + verb + <b>!</b>"
+  },
+  {
+   "qid": "c8-04-26",
+   "type": "build",
+   "level": 2,
+   "topic": "neg_prefixes",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Her",
+    "friends",
+    "were",
+    "unable",
+    "to",
+    "find",
+    "the",
+    "pot."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>were unable to</b> + base verb: <b>Her friends were unable to find the pot.</b>"
+  },
+  {
+   "qid": "c8-04-27",
+   "type": "build",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "Revathi",
+    "loves",
+    "her",
+    "plants,",
+    "doesn't",
+    "she?"
+   ],
+   "alts": [],
+   "rule": "A positive simple present sentence takes <b>doesn't she?</b>"
+  },
+  {
+   "qid": "c8-04-28",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "plants",
+    "had",
+    "flowered",
+    "before",
+    "the",
+    "contest",
+    "began."
+   ],
+   "alts": [],
+   "rule": "The earlier action (<b>had flowered</b>) comes in the past perfect; the later one (<b>began</b>) in the simple past."
+  },
+  {
+   "qid": "c8-04-29",
+   "type": "build",
+   "level": 5,
+   "topic": "affirm_neg",
+   "prompt": "Make an affirmative sentence with 'failed to'.",
+   "answer": [
+    "Their",
+    "laughter",
+    "failed",
+    "to",
+    "deter",
+    "Revathi",
+    "from",
+    "her",
+    "mission."
+   ],
+   "alts": [],
+   "rule": "<b>Failed to</b> + base verb gives a negative meaning without a negative word."
+  },
+  {
+   "qid": "c8-04-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "affirm_neg",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you see Revathi's plants at the show?"
+    ]
+   ],
+   "options": [
+    "No, I didn't saw them.",
+    "No, I not see them.",
+    "No, I didn't see them."
+   ],
+   "answer": 2,
+   "rule": "After <b>didn't</b>, use the base verb: <b>didn't see</b>."
+  },
+  {
+   "qid": "c8-04-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "neg_prefixes",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "Did the judges agree with Revathi at first?"
+    ]
+   ],
+   "options": [
+    "No, they unagreed with her.",
+    "No, they disagreed with her.",
+    "No, they misagreed with her."
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>agree</b> is made with <b>dis-</b>: <b>disagreed</b>."
+  },
+  {
+   "qid": "c8-04-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Why were you late for the plant show?"
+    ]
+   ],
+   "options": [
+    "The bus had already left when I reached the stop.",
+    "The bus has already left when I reached the stop.",
+    "The bus had already leave when I reached the stop."
+   ],
+   "answer": 0,
+   "rule": "The bus left before you reached: <b>had already left</b>."
+  },
+  {
+   "qid": "c8-04-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "You're coming to the prize distribution, aren't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I am. You'll come too, won't you?",
+    "Yes, I am. You'll come too, aren't you?",
+    "Yes, I am. You'll come too, don't you?"
+   ],
+   "answer": 0,
+   "rule": "A positive sentence with <b>will</b> takes a negative tag: <b>won't you?</b>"
+  },
+  {
+   "qid": "c8-04-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Give me an example of an imperative sentence."
+    ]
+   ],
+   "options": [
+    "Please waters the plants.",
+    "Please watering the plants.",
+    "Please water the plants."
+   ],
+   "answer": 2,
+   "rule": "An imperative uses the base verb: <b>Please water the plants.</b>"
+  },
+  {
+   "qid": "c8-04-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "affirm_neg",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Was there any breeze yesterday evening?"
+    ]
+   ],
+   "options": [
+    "No, there was hardly no breeze.",
+    "No, there was hardly any breeze.",
+    "No, there were hardly any breeze."
+   ],
+   "answer": 1,
+   "rule": "<b>Hardly</b> needs <b>any</b>, and uncountable <b>breeze</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c8-04-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Revathi",
+     "Why didn't the organisers believe me at first?"
+    ]
+   ],
+   "options": [
+    "Because they had never seen plants respond to music before.",
+    "Because they had never see plants respond to music before.",
+    "Because they had never seen plants responds to music before."
+   ],
+   "answer": 0,
+   "rule": "Past perfect = <b>had</b> + past participle (<b>seen</b>); after <b>seen plants</b> use the base verb <b>respond</b>."
+  },
+  {
+   "qid": "c8-04-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Revathi won the first prize for her plants!"
+    ]
+   ],
+   "options": [
+    "What wonderful news that is!",
+    "What a wonderful news that is!",
+    "What wonderful news that are!"
+   ],
+   "answer": 0,
+   "rule": "<b>News</b> is uncountable and singular: no <b>a</b>, and it takes <b>is</b>."
+  },
+  {
+   "qid": "c8-04-38",
+   "type": "change",
+   "level": 1,
+   "topic": "affirm_neg",
+   "prompt": "Make it negative. (Use 'not many'.)",
+   "source": "There are a few benches in the park.",
+   "options": [
+    "There are not few benches in the park.",
+    "There are not many benches in the park.",
+    "There is not many benches in the park."
+   ],
+   "answer": 1,
+   "rule": "<b>A few</b> = <b>not many</b>; plural <b>benches</b> keeps <b>are</b>."
+  },
+  {
+   "qid": "c8-04-39",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "The flowers were very bright.",
+   "options": [
+    "How bright were the flowers were!",
+    "How bright the flowers were!",
+    "How bright the flowers are!"
+   ],
+   "answer": 1,
+   "rule": "Drop <b>very</b>, start with <b>How</b> + adjective, then subject + verb in the same tense: <b>How bright the flowers were!</b>"
+  },
+  {
+   "qid": "c8-04-40",
+   "type": "change",
+   "level": 2,
+   "topic": "affirm_neg",
+   "prompt": "Make it affirmative. (Use 'failed to'.)",
+   "source": "The noise did not disturb Revathi.",
+   "options": [
+    "The noise failed to disturb Revathi.",
+    "The noise failed to disturbed Revathi.",
+    "The noise fails to disturb Revathi."
+   ],
+   "answer": 0,
+   "rule": "<b>Did not disturb</b> = <b>failed to disturb</b>: past tense kept, base verb after <b>to</b>."
+  },
+  {
+   "qid": "c8-04-41",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an assertive sentence.",
+   "source": "What a sweet tune Revathi played!",
+   "options": [
+    "Revathi plays a very sweet tune.",
+    "Revathi played a very sweet tunes.",
+    "Revathi played a very sweet tune."
+   ],
+   "answer": 2,
+   "rule": "<b>What a sweet tune</b> becomes <b>a very sweet tune</b>; the tense stays past: <b>played</b>."
+  },
+  {
+   "qid": "c8-04-42",
+   "type": "change",
+   "level": 4,
+   "topic": "affirm_neg",
+   "prompt": "Make it negative. (Use 'not as ... as'.)",
+   "source": "Revathi's plants were healthier than the other plants.",
+   "options": [
+    "The other plants were not as healthier as Revathi's plants.",
+    "The other plants were not as healthy as Revathi's plants.",
+    "Revathi's plants were not as healthy as the other plants."
+   ],
+   "answer": 1,
+   "rule": "Swap the subjects and use the plain adjective: <b>The other plants were not as healthy as ...</b>"
+  },
+  {
+   "qid": "c8-04-43",
+   "type": "change",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Join using 'After'.",
+   "source": "Revathi watered the plants. Then she played her violin.",
+   "options": [
+    "After Revathi has watered the plants, she played her violin.",
+    "After Revathi had water the plants, she played her violin.",
+    "After Revathi had watered the plants, she played her violin."
+   ],
+   "answer": 2,
+   "rule": "The first action takes the past perfect: <b>After Revathi had watered ..., she played ...</b>"
+  },
+  {
+   "qid": "c8-04-44",
+   "type": "change",
+   "level": 5,
+   "topic": "affirm_neg",
+   "prompt": "Make it affirmative. (Use 'denied'.)",
+   "source": "Her mother said that she knew nothing about the pot.",
+   "options": [
+    "Her mother denied to know anything about the pot.",
+    "Her mother denied knowing anything about the pot.",
+    "Her mother denied knowing nothing about the pot."
+   ],
+   "answer": 1,
+   "rule": "<b>Deny</b> is followed by an <b>-ing</b> form, and <b>nothing</b> becomes <b>anything</b>."
+  },
+  {
+   "qid": "c8-04-45",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an interrogative sentence without changing the meaning.",
+   "source": "Everyone loves music.",
+   "options": [
+    "Who do not love music?",
+    "Who does not love music?",
+    "Who does not loves music?"
+   ],
+   "answer": 1,
+   "rule": "<b>Everyone loves</b> becomes the question <b>Who does not love ...?</b>; after <b>does</b> use the base verb."
+  },
+  {
+   "qid": "c8-04-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Yesterday",
+    "Revathi",
+    "went",
+    "to",
+    "the",
+    "courtyard,",
+    "but",
+    "her",
+    "pot",
+    "was",
+    "gone.",
+    "It",
+    "had",
+    "been",
+    "took",
+    "away",
+    "in",
+    "the",
+    "night.",
+    "Still,",
+    "Revathi",
+    "refused",
+    "to",
+    "gave",
+    "up",
+    "hope."
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "taken",
+      "taking",
+      "take"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "giving",
+      "given",
+      "give"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Had been</b> + past participle: <b>had been taken</b>. <b>Refused to</b> + base verb: <b>refused to give</b>."
+  },
+  {
+   "qid": "c8-04-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "How",
+    "lovely",
+    "the",
+    "two",
+    "flowers",
+    "looks",
+    "today!",
+    "Revathi",
+    "has",
+    "never",
+    "seen",
+    "mauve",
+    "petals",
+    "with",
+    "white",
+    "stripes.",
+    "They",
+    "are",
+    "rare,",
+    "isn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "look",
+      "looking",
+      "is"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "aren't",
+      "weren't",
+      "don't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Plural <b>flowers look</b>. <b>They are</b> takes the tag <b>aren't they?</b>"
+  },
+  {
+   "qid": "c8-04-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "affirm_neg",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "organisers",
+    "did",
+    "not",
+    "believe",
+    "Revathi.",
+    "They",
+    "refused",
+    "to",
+    "listened",
+    "to",
+    "her",
+    "story.",
+    "But",
+    "Revathi",
+    "was",
+    "determined,",
+    "and",
+    "their",
+    "ridicule",
+    "failed",
+    "to",
+    "stopped",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "listening",
+      "listens",
+      "listen"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "stopping",
+      "stop",
+      "stops"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Refused to</b> and <b>failed to</b> are followed by the base verb: <b>listen</b>, <b>stop</b>."
+  },
+  {
+   "qid": "c8-04-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Before",
+    "the",
+    "show",
+    "began,",
+    "the",
+    "pot",
+    "had",
+    "already",
+    "been",
+    "took",
+    "to",
+    "the",
+    "hall.",
+    "When",
+    "Revathi",
+    "arrive",
+    "at",
+    "the",
+    "show,",
+    "she",
+    "saw",
+    "her",
+    "own",
+    "plants",
+    "on",
+    "a",
+    "bench.",
+    "How",
+    "shock",
+    "she",
+    "was!"
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "taken",
+      "taking",
+      "take"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "arrives",
+      "arriving",
+      "arrived"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "shockingly",
+      "shocked",
+      "shocks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Had been taken</b> (past perfect passive); <b>arrived</b> matches <b>saw</b>; <b>How shocked she was!</b>"
+  },
+  {
+   "qid": "c8-04-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Nobody",
+    "believed",
+    "Revathi",
+    "at",
+    "first.",
+    "The",
+    "organisers",
+    "asked,",
+    "\"Do",
+    "plants",
+    "has",
+    "ears",
+    "like",
+    "us?\"",
+    "But",
+    "when",
+    "she",
+    "played,",
+    "the",
+    "stems",
+    "bended",
+    "towards",
+    "her,",
+    "and",
+    "every",
+    "organiser",
+    "were",
+    "stunned."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "having",
+      "have",
+      "had"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "bent",
+      "bend",
+      "bends"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "are",
+      "was",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Do</b> use the base verb <b>have</b>; the past of <b>bend</b> is <b>bent</b>; <b>every organiser</b> is singular: <b>was</b>."
+  }
+ ]
+}

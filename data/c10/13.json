@@ -1,0 +1,1201 @@
+{
+ "class": 10,
+ "id": "13",
+ "title": "Night of the Scorpion",
+ "topics": [
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect and simple past in a story"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech (statements, questions, commands, exclamations)"
+  },
+  {
+   "tag": "participles",
+   "name": "Participle phrases (-ing / -ed forms)"
+  },
+  {
+   "tag": "wishes_exclamations",
+   "name": "Wishes with 'May' and exclamatory sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-13-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The scorpion had crawled under a sack of rice.",
+    "The scorpion had crawl under a sack of rice.",
+    "The scorpion had crawling under a sack of rice."
+   ],
+   "answer": 0,
+   "rule": "Past perfect = <b>had + past participle</b>: had <b>crawled</b>."
+  },
+  {
+   "qid": "c10-13-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "wishes_exclamations",
+   "prompt": "Which wish is correct?",
+   "options": [
+    "May God blesses you with good health!",
+    "May God bless you with good health!",
+    "May God blessed you with good health!"
+   ],
+   "answer": 1,
+   "rule": "In a wish starting with <b>May</b>, use the base verb: May God <b>bless</b> you!"
+  },
+  {
+   "qid": "c10-13-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "mother",
+    "lay",
+    "on",
+    "a",
+    "mat,",
+    "groan",
+    "with",
+    "pain."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "groaning",
+      "groaned",
+      "groans"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The participle phrase <b>groaning with pain</b> tells us what she was doing as she lay there."
+  },
+  {
+   "qid": "c10-13-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "the",
+    "neighbours",
+    "came",
+    "last",
+    "night,",
+    "the",
+    "scorpion",
+    "has",
+    "already",
+    "run",
+    "away."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The earlier of two past actions takes the past perfect: the scorpion <b>had</b> already run away."
+  },
+  {
+   "qid": "c10-13-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The peasants said that the poison",
+   "after": "moving in her blood.",
+   "options": [
+    "is being",
+    "was",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b>, the tense moves back: is moving becomes <b>was</b> moving. 'Poison' is singular."
+  },
+  {
+   "qid": "c10-13-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "wishes_exclamations",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "your pain decrease soon!",
+   "options": [
+    "May",
+    "Must",
+    "Should"
+   ],
+   "answer": 0,
+   "rule": "A wish or prayer for someone begins with <b>May</b> + subject + base verb."
+  },
+  {
+   "qid": "c10-13-07",
+   "type": "build",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Make a sentence with a participle phrase.",
+   "answer": [
+    "Throwing",
+    "giant",
+    "shadows,",
+    "our",
+    "lanterns",
+    "lit",
+    "the",
+    "walls."
+   ],
+   "alts": [],
+   "rule": "<b>Throwing giant shadows</b> describes the lanterns, so it comes just before them."
+  },
+  {
+   "qid": "c10-13-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "What did the doctor tell your grandmother?"
+    ]
+   ],
+   "options": [
+    "He told her that she need rest.",
+    "He said her that she needed rest.",
+    "He told her that she needed rest."
+   ],
+   "answer": 2,
+   "rule": "Use <b>told + person</b> (said has no object) and move the tense back: needs becomes <b>needed</b>."
+  },
+  {
+   "qid": "c10-13-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Mother said, \"I am fine.\"",
+   "options": [
+    "Mother said that she were fine.",
+    "Mother said that I was fine.",
+    "Mother said that she was fine."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b> and <b>am</b> becomes <b>was</b> after the past reporting verb said."
+  },
+  {
+   "qid": "c10-13-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "night",
+    "a",
+    "scorpion",
+    "stung",
+    "my",
+    "aunt.",
+    "It",
+    "had",
+    "hide",
+    "under",
+    "a",
+    "sack",
+    "of",
+    "rice.",
+    "We",
+    "called",
+    "the",
+    "doctor",
+    "and",
+    "he",
+    "come",
+    "quickly."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "hides",
+      "hidden",
+      "hiding"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "comes",
+      "came",
+      "coming"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect needs the past participle: had <b>hidden</b>. The story is in the past, so he <b>came</b>."
+  },
+  {
+   "qid": "c10-13-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reported question.",
+   "options": [
+    "Father asked where the scorpion had gone.",
+    "Father asked where had the scorpion gone.",
+    "Father asked that where the scorpion had gone."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order (subject + verb) and no <b>that</b>: where the scorpion <b>had gone</b>."
+  },
+  {
+   "qid": "c10-13-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tiring after the long night, Mother fell asleep.",
+    "Tired after the long night, Mother fell asleep.",
+    "Tire after the long night, Mother fell asleep."
+   ],
+   "answer": 1,
+   "rule": "Mother felt the tiredness, so use the <b>-ed</b> participle: <b>Tired</b> after the long night."
+  },
+  {
+   "qid": "c10-13-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "wishes_exclamations",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "the",
+    "poison",
+    "leaves",
+    "her",
+    "body",
+    "by",
+    "morning!"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "leave",
+      "left",
+      "leaving"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>May</b> in a wish, the verb stays in its base form: May the poison <b>leave</b>."
+  },
+  {
+   "qid": "c10-13-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "holy",
+    "man",
+    "told",
+    "that",
+    "the",
+    "poison",
+    "would",
+    "soon",
+    "fade."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "spoke",
+      "said",
+      "talked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Told</b> needs a person after it (told us). Without a person, use <b>said</b> that ..."
+  },
+  {
+   "qid": "c10-13-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Ten hours of steady rain",
+   "after": "the scorpion indoors before it stung her.",
+   "options": [
+    "had driven",
+    "has driven",
+    "had drove"
+   ],
+   "answer": 0,
+   "rule": "The rain came first, so use the past perfect: <b>had driven</b> (had + past participle)."
+  },
+  {
+   "qid": "c10-13-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "The peasants sat around the mat,",
+   "after": "the name of God.",
+   "options": [
+    "chanted",
+    "chant",
+    "chanting"
+   ],
+   "answer": 2,
+   "rule": "An <b>-ing</b> participle shows an action happening at the same time: sat ..., <b>chanting</b>."
+  },
+  {
+   "qid": "c10-13-17",
+   "type": "build",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "why",
+    "I",
+    "was",
+    "crying."
+   ],
+   "alts": [],
+   "rule": "Reported question: <b>asked + why + subject + verb</b>, with no question mark."
+  },
+  {
+   "qid": "c10-13-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "wishes_exclamations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "My board exams start tomorrow!"
+    ]
+   ],
+   "options": [
+    "May you do very well in all your papers!",
+    "May you doing very well in all your papers!",
+    "May you does very well in all your papers!"
+   ],
+   "answer": 0,
+   "rule": "A good wish: <b>May you + base verb</b>: May you <b>do</b> well!"
+  },
+  {
+   "qid": "c10-13-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you see the eclipse last night?"
+    ]
+   ],
+   "options": [
+    "No, it has already ended when I reached the terrace.",
+    "No, it had already end when I reached the terrace.",
+    "No, it had already ended when I reached the terrace."
+   ],
+   "answer": 2,
+   "rule": "The eclipse ended before you reached, so use <b>had ended</b> (past perfect)."
+  },
+  {
+   "qid": "c10-13-20",
+   "type": "change",
+   "level": 2,
+   "topic": "wishes_exclamations",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It was a very dark and stormy night.",
+   "options": [
+    "How a dark and stormy night it was!",
+    "What a dark and stormy night was it!",
+    "What a dark and stormy night it was!"
+   ],
+   "answer": 2,
+   "rule": "Use <b>What a + adjective + noun</b> + subject + verb: What a dark night <b>it was</b>!"
+  },
+  {
+   "qid": "c10-13-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "After the holy man has finished his rites, the pain slowly decreased.",
+    "After the holy man had finish his rites, the pain slowly decreased.",
+    "After the holy man had finished his rites, the pain slowly decreased."
+   ],
+   "answer": 2,
+   "rule": "The rites ended first, so use <b>had finished</b>; the later action is in the simple past."
+  },
+  {
+   "qid": "c10-13-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reported command.",
+   "options": [
+    "Father told the boys that bring a lantern.",
+    "Father told the boys bring a lantern.",
+    "Father told the boys to bring a lantern."
+   ],
+   "answer": 2,
+   "rule": "A reported command uses <b>told + person + to + verb</b>: told the boys <b>to bring</b>."
+  },
+  {
+   "qid": "c10-13-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "candles",
+    "burned",
+    "all",
+    "night,",
+    "threw",
+    "long",
+    "shadows",
+    "on",
+    "the",
+    "walls."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "throwing",
+      "thrown",
+      "throws"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two verbs need 'and' between them; here a participle phrase is used instead: <b>throwing</b> long shadows."
+  },
+  {
+   "qid": "c10-13-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "My little brother asked me whether the scorpion",
+   "after": "away.",
+   "options": [
+    "had go",
+    "had gone",
+    "have gone"
+   ],
+   "answer": 1,
+   "rule": "After <b>asked</b>, has gone moves back to <b>had gone</b>; the past participle is gone."
+  },
+  {
+   "qid": "c10-13-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "wishes_exclamations",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a wonderful thing a mother's love is!",
+   "options": [
+    "What",
+    "How",
+    "Such"
+   ],
+   "answer": 0,
+   "rule": "Use <b>What a</b> + adjective + noun in an exclamation; <b>How</b> goes with an adjective alone."
+  },
+  {
+   "qid": "c10-13-26",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Mother",
+    "had",
+    "fallen",
+    "asleep",
+    "before",
+    "the",
+    "sun",
+    "rose."
+   ],
+   "alts": [],
+   "rule": "The earlier action takes <b>had fallen</b>; the later one takes the simple past <b>rose</b>."
+  },
+  {
+   "qid": "c10-13-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Ravi say about the trip?"
+    ]
+   ],
+   "options": [
+    "He said me that he could not come.",
+    "He said that he could not come.",
+    "He said that he cannot came."
+   ],
+   "answer": 1,
+   "rule": "<b>Said</b> takes no person after it, and <b>can</b> moves back to <b>could</b> + base verb."
+  },
+  {
+   "qid": "c10-13-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Why is your little sister so quiet today?"
+    ]
+   ],
+   "options": [
+    "She is frightened after seeing a scorpion last night.",
+    "She is frightening after seeing a scorpion last night.",
+    "She is fright after seeing a scorpion last night."
+   ],
+   "answer": 0,
+   "rule": "Use <b>-ed</b> for how a person feels (<b>frightened</b>); -ing describes what causes the feeling."
+  },
+  {
+   "qid": "c10-13-29",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'After'.",
+   "source": "The scorpion stung Mother. Then it escaped into the rain.",
+   "options": [
+    "After the scorpion had stung Mother, it escaped into the rain.",
+    "After the scorpion has stung Mother, it escaped into the rain.",
+    "After the scorpion had stinged Mother, it escaped into the rain."
+   ],
+   "answer": 0,
+   "rule": "The first action takes the past perfect: <b>had stung</b> (sting - stung - stung)."
+  },
+  {
+   "qid": "c10-13-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Yesterday",
+    "Grandma",
+    "asked",
+    "me",
+    "if",
+    "my",
+    "brother",
+    "is",
+    "at",
+    "home.",
+    "I",
+    "told",
+    "her",
+    "that",
+    "he",
+    "has",
+    "gone",
+    "to",
+    "the",
+    "market.",
+    "She",
+    "said",
+    "that",
+    "she",
+    "want",
+    "to",
+    "see",
+    "him",
+    "soon."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "were",
+      "was",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "have",
+      "had",
+      "is"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "wanting",
+      "were",
+      "wanted"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After past reporting verbs, tenses move back: is - <b>was</b>, has gone - <b>had</b> gone, want - <b>wanted</b>."
+  },
+  {
+   "qid": "c10-13-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the villagers was holding a burning lantern.",
+    "Each of the villagers were holding a burning lantern.",
+    "Each of the villagers was hold a burning lantern."
+   ],
+   "answer": 0,
+   "rule": "<b>Each of</b> takes a singular verb (<b>was</b>), and the continuous tense needs -ing: was <b>holding</b>."
+  },
+  {
+   "qid": "c10-13-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "wishes_exclamations",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "the",
+    "poison",
+    "purify",
+    "her",
+    "body",
+    "off",
+    "all",
+    "evil."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "with",
+      "at",
+      "of"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The verb <b>purify</b> goes with <b>of</b>: purify something <b>of</b> evil."
+  },
+  {
+   "qid": "c10-13-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rahul",
+    "had",
+    "never",
+    "seen",
+    "a",
+    "scorpion",
+    "until",
+    "he",
+    "visit",
+    "his",
+    "village",
+    "last",
+    "summer."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "visits",
+      "visited",
+      "visiting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last summer</b> is past: he <b>visited</b>. The earlier state (had never seen) is in the past perfect."
+  },
+  {
+   "qid": "c10-13-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The nurse asked us how long the pain",
+   "after": "lasted.",
+   "options": [
+    "had",
+    "did",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "A reported question has statement order with the tense moved back: how long the pain <b>had</b> lasted."
+  },
+  {
+   "qid": "c10-13-35",
+   "type": "build",
+   "level": 4,
+   "topic": "wishes_exclamations",
+   "prompt": "Make a good wish.",
+   "answer": [
+    "May",
+    "your",
+    "journey",
+    "be",
+    "safe",
+    "and",
+    "happy!"
+   ],
+   "alts": [],
+   "rule": "<b>May + subject + base verb</b> (be) makes a wish; it ends with an exclamation mark."
+  },
+  {
+   "qid": "c10-13-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "You had already eaten when we called, hadn't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I hadn't. I was very hungry after the match.",
+    "Yes, I had. I were very hungry after the match.",
+    "Yes, I had. I was very hungry after the match."
+   ],
+   "answer": 2,
+   "rule": "A short answer repeats the helper verb: Yes, I <b>had</b>. With I, use <b>was</b>."
+  },
+  {
+   "qid": "c10-13-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are your clothes so wet?"
+    ]
+   ],
+   "options": [
+    "Having walk home in the rain, I got completely wet.",
+    "Have walked home in the rain, I got completely wet.",
+    "Having walked home in the rain, I got completely wet."
+   ],
+   "answer": 2,
+   "rule": "A perfect participle is <b>Having + past participle</b>: Having <b>walked</b> home ..."
+  },
+  {
+   "qid": "c10-13-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The doctor said to Father, \"Take her to the hospital now.\"",
+   "options": [
+    "The doctor told Father that take her to the hospital at once.",
+    "The doctor told Father to take her to the hospital at once.",
+    "The doctor told Father to took her to the hospital at once."
+   ],
+   "answer": 1,
+   "rule": "Command: <b>told + person + to + base verb</b>; <b>now</b> becomes <b>at once</b>."
+  },
+  {
+   "qid": "c10-13-39",
+   "type": "change",
+   "level": 4,
+   "topic": "wishes_exclamations",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How brave the mother was!",
+   "options": [
+    "The mother is very brave.",
+    "The mother was very bravely.",
+    "The mother was very brave."
+   ],
+   "answer": 2,
+   "rule": "<b>How brave ... was!</b> becomes <b>was very brave</b>; keep the tense and the adjective."
+  },
+  {
+   "qid": "c10-13-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "the",
+    "doctor",
+    "reached",
+    "our",
+    "house,",
+    "the",
+    "rain",
+    "has",
+    "stopped.",
+    "Many",
+    "neighbours",
+    "was",
+    "sitting",
+    "in",
+    "the",
+    "room,",
+    "praying",
+    "for",
+    "my",
+    "mother."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "have",
+      "had",
+      "is"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "is",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "'By the time ... reached' needs <b>had</b> stopped. Plural <b>neighbours</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c10-13-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct indirect speech of: \"What a terrible night!\" she said.",
+   "options": [
+    "She exclaimed that it was a terrible night.",
+    "She exclaimed that what a terrible night it was.",
+    "She exclaimed that it is a terrible night."
+   ],
+   "answer": 0,
+   "rule": "Reported exclamation: <b>exclaimed that</b> + a statement; drop 'What a' and move the tense back: it <b>was</b>."
+  },
+  {
+   "qid": "c10-13-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Having",
+    "tried",
+    "every",
+    "herb",
+    "and",
+    "powder,",
+    "Father",
+    "pour",
+    "paraffin",
+    "on",
+    "the",
+    "toe",
+    "as",
+    "a",
+    "last",
+    "resort."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "poured",
+      "pouring",
+      "pours"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "'Having tried ...' is the earlier action; the main verb needs the simple past: Father <b>poured</b>."
+  },
+  {
+   "qid": "c10-13-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "by the endless rain, the scorpion crawled beneath a sack of rice.",
+   "options": [
+    "Driving",
+    "Drove",
+    "Driven"
+   ],
+   "answer": 2,
+   "rule": "The scorpion was driven (passive idea) by the rain, so use the past participle <b>Driven</b>."
+  },
+  {
+   "qid": "c10-13-44",
+   "type": "build",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "He",
+    "asked",
+    "whether",
+    "the",
+    "holy",
+    "man",
+    "had",
+    "arrived."
+   ],
+   "alts": [],
+   "rule": "Yes/no questions are reported with <b>whether</b> + subject + verb (tense moved back)."
+  },
+  {
+   "qid": "c10-13-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "wishes_exclamations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Grandma is going to Kashi tomorrow."
+    ],
+    [
+     "Rohan",
+     "What should we say to her?"
+    ]
+   ],
+   "options": [
+    "Let's say, 'May your journey is a peaceful one!'",
+    "Let's say, 'May your journey be a peaceful one!'",
+    "Let's say, 'May your journey being a peaceful one!'"
+   ],
+   "answer": 1,
+   "rule": "In a <b>May</b> wish, the verb 'be' stays in its base form: May your journey <b>be</b> ..."
+  },
+  {
+   "qid": "c10-13-46",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the scorpion stung Mother, it ran out into the rain.",
+   "options": [
+    "No sooner did the scorpion stung Mother than it ran out into the rain.",
+    "No sooner had the scorpion stung Mother when it ran out into the rain.",
+    "No sooner had the scorpion stung Mother than it ran out into the rain."
+   ],
+   "answer": 2,
+   "rule": "Pattern: <b>No sooner had + subject + past participle ... than</b> + simple past."
+  },
+  {
+   "qid": "c10-13-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Mother said, \"I thank God that the scorpion stung me and not my children.\"",
+   "options": [
+    "Mother said that she thanked God that the scorpion had stung her and not her children.",
+    "Mother said that she thanked God that the scorpion had stung me and not my children.",
+    "Mother said that she thanks God that the scorpion has stung her and not her children."
+   ],
+   "answer": 0,
+   "rule": "Change <b>I, me, my</b> to <b>she, her, her</b> and move tenses back: thank - thanked, stung - had stung."
+  },
+  {
+   "qid": "c10-13-48",
+   "type": "change",
+   "level": 5,
+   "topic": "wishes_exclamations",
+   "prompt": "Change into an assertive sentence.",
+   "source": "May your suffering end soon!",
+   "options": [
+    "I pray that your suffering may ends soon.",
+    "I pray that may your suffering end soon.",
+    "I pray that your suffering may end soon."
+   ],
+   "answer": 2,
+   "rule": "A May-wish becomes <b>I pray that + subject + may + base verb</b>."
+  },
+  {
+   "qid": "c10-13-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Watching",
+    "the",
+    "flame",
+    "on",
+    "her",
+    "toe,",
+    "I",
+    "felt",
+    "frighten",
+    "and",
+    "helpless.",
+    "My",
+    "father,",
+    "a",
+    "rationalist,",
+    "try",
+    "every",
+    "cure",
+    "he",
+    "knew,",
+    "while",
+    "the",
+    "holy",
+    "man",
+    "chanted,",
+    "hoped",
+    "to",
+    "tame",
+    "the",
+    "poison."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "frightening",
+      "frightened",
+      "fright"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "tried",
+      "trying",
+      "tries"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "hope",
+      "hopes",
+      "hoping"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "I felt <b>frightened</b> (-ed for feelings); the story is past: <b>tried</b>; a participle phrase: chanted, <b>hoping</b> ..."
+  },
+  {
+   "qid": "c10-13-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "That",
+    "night",
+    "the",
+    "neighbours",
+    "told",
+    "us",
+    "that",
+    "they",
+    "will",
+    "stay",
+    "till",
+    "morning.",
+    "Father",
+    "asked",
+    "them",
+    "whether",
+    "they",
+    "had",
+    "seen",
+    "the",
+    "scorpion,",
+    "but",
+    "none",
+    "of",
+    "them",
+    "have",
+    "seen",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "are",
+      "would",
+      "been"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 25,
+     "options": [
+      "had",
+      "was",
+      "were"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>told</b>, will moves back to <b>would</b>. The story is past, so none of them <b>had</b> seen it."
+  }
+ ]
+}

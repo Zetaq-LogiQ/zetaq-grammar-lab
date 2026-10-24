@@ -1,0 +1,1203 @@
+{
+ "class": 10,
+ "id": "02",
+ "title": "The Thief's Story",
+ "topics": [
+  {
+   "tag": "wh_questions",
+   "name": "Wh-questions to get a given answer"
+  },
+  {
+   "tag": "collocations",
+   "name": "Collocations (make a profit, made a study)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech"
+  },
+  {
+   "tag": "modal_perfect",
+   "name": "Modals with have (must have, should have, could have)"
+  },
+  {
+   "tag": "past_tenses",
+   "name": "Past tenses: simple, continuous and perfect"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-02-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When I reached the station, the train has already left.",
+    "When I reached the station, the train had already left.",
+    "When I reached the station, the train had already leave."
+   ],
+   "answer": 1,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had left</b>."
+  },
+  {
+   "qid": "c10-02-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "collocations",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hari did a big mistake that night.",
+    "Hari made a big mistake that night.",
+    "Hari took a big mistake that night."
+   ],
+   "answer": 1,
+   "rule": "We always say <b>make a mistake</b>, not do or take a mistake."
+  },
+  {
+   "qid": "c10-02-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "did",
+    "Hari",
+    "hid",
+    "the",
+    "money?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "hides",
+      "hiding",
+      "hide"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did</b>, use the base form of the verb: did ... <b>hide</b>."
+  },
+  {
+   "qid": "c10-02-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anil",
+    "was",
+    "sleeping",
+    "peacefully",
+    "when",
+    "Hari",
+    "creep",
+    "up",
+    "to",
+    "the",
+    "bed."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "creeping",
+      "crept",
+      "creeps"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The story is in the past: while Anil <b>was sleeping</b>, Hari <b>crept</b> up (past of creep)."
+  },
+  {
+   "qid": "c10-02-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Anil said that he",
+   "after": "just sold a book to a publisher.",
+   "options": [
+    "have",
+    "having",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "In reported speech after <b>said</b>, the tense moves back: has sold becomes <b>had sold</b>."
+  },
+  {
+   "qid": "c10-02-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "collocations",
+   "prompt": "Fill in the gap.",
+   "before": "It was raining",
+   "after": "when Hari sat under the clock tower.",
+   "options": [
+    "heavy",
+    "heaviness",
+    "heavily"
+   ],
+   "answer": 2,
+   "rule": "After the verb <b>raining</b> we need an adverb: <b>heavily</b>."
+  },
+  {
+   "qid": "c10-02-07",
+   "type": "build",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Make a wh-question.",
+   "answer": [
+    "Where",
+    "did",
+    "Anil",
+    "keep",
+    "the",
+    "money?"
+   ],
+   "alts": [],
+   "rule": "Wh-question in the past: <b>Wh-word + did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-02-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anil",
+     "Where do you live?"
+    ]
+   ],
+   "options": [
+    "I lives near the Jumna Sweet Shop.",
+    "I live near the Jumna Sweet Shop.",
+    "I living near the Jumna Sweet Shop."
+   ],
+   "answer": 1,
+   "rule": "Answer a <b>do</b> question in the simple present; with <b>I</b> use the base form: live."
+  },
+  {
+   "qid": "c10-02-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why were you late for school?"
+    ]
+   ],
+   "options": [
+    "The bus has gone before I reached the stop.",
+    "The bus had go before I reached the stop.",
+    "The bus had gone before I reached the stop."
+   ],
+   "answer": 2,
+   "rule": "The bus went first, so use the past perfect: <b>had gone</b>."
+  },
+  {
+   "qid": "c10-02-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Anil said to Hari, \"I can't pay you.\"",
+   "options": [
+    "Anil told Hari that I couldn't pay you.",
+    "Anil told to Hari that he couldn't pay him.",
+    "Anil told Hari that he couldn't pay him."
+   ],
+   "answer": 2,
+   "rule": "said to becomes <b>told</b>; I/you become <b>he/him</b>; can't moves back to <b>couldn't</b>."
+  },
+  {
+   "qid": "c10-02-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The meal must had been terrible.",
+    "The meal must have be terrible.",
+    "The meal must have been terrible."
+   ],
+   "answer": 2,
+   "rule": "A guess about the past: <b>must have + past participle</b> (been)."
+  },
+  {
+   "qid": "c10-02-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "What Hari did learn from Anil?",
+    "What did Hari learn from Anil?",
+    "What did Hari learned from Anil?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>What + did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-02-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hari",
+    "should",
+    "have",
+    "jump",
+    "onto",
+    "the",
+    "moving",
+    "train",
+    "last",
+    "night,",
+    "but",
+    "he",
+    "hesitated."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "jumping",
+      "jumped",
+      "jumps"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>should have</b> is always followed by the past participle: should have <b>jumped</b>."
+  },
+  {
+   "qid": "c10-02-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hari",
+    "has",
+    "been",
+    "work",
+    "for",
+    "Anil",
+    "since",
+    "last",
+    "month."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "working",
+      "worked",
+      "works"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect continuous: has been + <b>working</b>, for an action going on since a past time."
+  },
+  {
+   "qid": "c10-02-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Choose the wh-word that gets this answer.",
+   "before": "",
+   "after": "did Hari go to the station? To catch the Lucknow Express.",
+   "options": [
+    "Why",
+    "Where",
+    "How"
+   ],
+   "answer": 0,
+   "rule": "The answer gives a reason or purpose (to catch ...), so ask with <b>Why</b>."
+  },
+  {
+   "qid": "c10-02-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "collocations",
+   "prompt": "Fill in the gap.",
+   "before": "Hari usually",
+   "after": "a profit of about a rupee a day.",
+   "options": [
+    "did",
+    "built",
+    "made"
+   ],
+   "answer": 2,
+   "rule": "The fixed pair is <b>make a profit</b>."
+  },
+  {
+   "qid": "c10-02-17",
+   "type": "build",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Report the question.",
+   "answer": [
+    "Anil",
+    "asked",
+    "me",
+    "if",
+    "I",
+    "could",
+    "cook."
+   ],
+   "alts": [],
+   "rule": "A yes/no question is reported with <b>if</b> and statement order: if I could cook."
+  },
+  {
+   "qid": "c10-02-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "modal_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "I can't find my phone anywhere!"
+    ]
+   ],
+   "options": [
+    "You must left it in the classroom.",
+    "You must have leave it in the classroom.",
+    "You must have left it in the classroom."
+   ],
+   "answer": 2,
+   "rule": "A guess about the past: <b>must have + past participle</b> (left)."
+  },
+  {
+   "qid": "c10-02-19",
+   "type": "change",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make a wh-question to get the word in capitals.",
+   "source": "The poor man showed ACCEPTANCE.",
+   "options": [
+    "What the poor man showed?",
+    "What did the poor man show?",
+    "What did the poor man showed?"
+   ],
+   "answer": 1,
+   "rule": "Ask about a thing with <b>What</b>; past question: <b>did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-02-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "past_tenses",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "While",
+    "Anil",
+    "was",
+    "sleep",
+    "in",
+    "his",
+    "bed,",
+    "Hari",
+    "stole",
+    "the",
+    "money.",
+    "Later,",
+    "he",
+    "felt",
+    "sorry",
+    "and",
+    "put",
+    "the",
+    "notes",
+    "back",
+    "before",
+    "Anil",
+    "wake",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sleeping",
+      "slept",
+      "sleeps"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "woke",
+      "waking",
+      "wakes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past continuous: was <b>sleeping</b>. The story is in the past: before Anil <b>woke</b> up."
+  },
+  {
+   "qid": "c10-02-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Which reported question is correct?",
+   "options": [
+    "Anil asked Hari what was his name.",
+    "Anil asked Hari what his name was.",
+    "Anil asked Hari what is his name."
+   ],
+   "answer": 1,
+   "rule": "A reported question uses statement order: <b>what his name was</b>."
+  },
+  {
+   "qid": "c10-02-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "Hari",
+    "changes",
+    "his",
+    "name",
+    "every",
+    "month?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "changed",
+      "change",
+      "changing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>does</b>, use the base form: does Hari <b>change</b>."
+  },
+  {
+   "qid": "c10-02-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "modal_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The train was moving slowly. Hari",
+   "after": "jumped into it, but he hesitated.",
+   "options": [
+    "must have",
+    "can have",
+    "could have"
+   ],
+   "answer": 2,
+   "rule": "A past chance that was not used: <b>could have + past participle</b>."
+  },
+  {
+   "qid": "c10-02-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "By the time Hari reached the station, the Lucknow Express",
+   "after": "to move.",
+   "options": [
+    "has started",
+    "starts",
+    "had started"
+   ],
+   "answer": 2,
+   "rule": "<b>By the time</b> + past: the earlier action takes the past perfect, <b>had started</b>."
+  },
+  {
+   "qid": "c10-02-25",
+   "type": "build",
+   "level": 3,
+   "topic": "modal_perfect",
+   "prompt": "Make a sentence that shows a strong guess about the past.",
+   "answer": [
+    "Anil",
+    "must",
+    "have",
+    "known",
+    "about",
+    "the",
+    "theft."
+   ],
+   "alts": [],
+   "rule": "Strong guess about the past: <b>must have + past participle</b> (known)."
+  },
+  {
+   "qid": "c10-02-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Anil say in the morning?"
+    ]
+   ],
+   "options": [
+    "He said that he has made some money the day before.",
+    "He said that he had made some money the day before.",
+    "He said that he had make some money the day before."
+   ],
+   "answer": 1,
+   "rule": "Reported speech moves back: made becomes <b>had made</b>; yesterday becomes the day before."
+  },
+  {
+   "qid": "c10-02-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "collocations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How was your exam?"
+    ]
+   ],
+   "options": [
+    "I did my best, but I made two silly mistakes.",
+    "I made my best, but I did two silly mistakes.",
+    "I did my best, but I did two silly mistakes."
+   ],
+   "answer": 0,
+   "rule": "Fixed pairs: <b>do your best</b>, <b>make a mistake</b>."
+  },
+  {
+   "qid": "c10-02-28",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Hari said to Anil, \"Can you feed me?\"",
+   "options": [
+    "Hari asked Anil that could he feed him.",
+    "Hari asked Anil if he could feed him.",
+    "Hari asked Anil can he feed him."
+   ],
+   "answer": 1,
+   "rule": "Yes/no question: <b>asked + if</b>, statement order, can becomes <b>could</b>."
+  },
+  {
+   "qid": "c10-02-29",
+   "type": "change",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Make a wh-question to get the words in capitals.",
+   "source": "Hari made tea IN THE MORNING.",
+   "options": [
+    "When did Hari make tea?",
+    "When did Hari made tea?",
+    "When Hari made tea?"
+   ],
+   "answer": 0,
+   "rule": "Ask about time with <b>When</b>; past question: <b>did + subject + base verb</b> (make)."
+  },
+  {
+   "qid": "c10-02-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Anil",
+    "offered",
+    "to",
+    "taught",
+    "Hari",
+    "to",
+    "write.",
+    "Hari",
+    "were",
+    "grateful,",
+    "because",
+    "he",
+    "knew",
+    "that",
+    "whole",
+    "sentences",
+    "could",
+    "bring",
+    "him",
+    "more",
+    "money",
+    "then",
+    "a",
+    "theft."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "teaching",
+      "teach",
+      "teaches"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 8,
+     "options": [
+      "was",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "than",
+      "that",
+      "them"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>to</b> + base verb: to teach. Hari (one person): <b>was</b>. Comparison: more ... <b>than</b>."
+  },
+  {
+   "qid": "c10-02-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "How long Hari had been working for Anil?",
+    "How long had Hari been worked for Anil?",
+    "How long had Hari been working for Anil?"
+   ],
+   "answer": 2,
+   "rule": "Question order: <b>had + subject + been + -ing</b>."
+  },
+  {
+   "qid": "c10-02-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which reported command is correct?",
+   "options": [
+    "Anil told Hari to not wasting the money.",
+    "Anil told Hari don't waste the money.",
+    "Anil told Hari not to waste the money."
+   ],
+   "answer": 2,
+   "rule": "A negative command is reported with <b>told + person + not to + verb</b>."
+  },
+  {
+   "qid": "c10-02-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modal_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anil",
+    "could",
+    "has",
+    "handed",
+    "Hari",
+    "over",
+    "to",
+    "the",
+    "police",
+    "that",
+    "night,",
+    "but",
+    "he",
+    "forgave",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a modal (could), use <b>have</b>, never has: could <b>have</b> handed."
+  },
+  {
+   "qid": "c10-02-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hari,",
+    "who",
+    "had",
+    "many",
+    "scars",
+    "on",
+    "his",
+    "face,",
+    "were",
+    "only",
+    "fifteen",
+    "years",
+    "old."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "are",
+      "was",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>Hari</b>, not scars, so the verb is singular: <b>was</b>."
+  },
+  {
+   "qid": "c10-02-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Hari requested Anil",
+   "after": "him a job.",
+   "options": [
+    "give",
+    "to give",
+    "gave"
+   ],
+   "answer": 1,
+   "rule": "A reported request: <b>requested + person + to + verb</b>."
+  },
+  {
+   "qid": "c10-02-36",
+   "type": "build",
+   "level": 4,
+   "topic": "collocations",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Hari",
+    "made",
+    "a",
+    "study",
+    "of",
+    "men's",
+    "faces."
+   ],
+   "alts": [],
+   "rule": "<b>make a study of</b> something means to observe it carefully."
+  },
+  {
+   "qid": "c10-02-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "I'll be home late today."
+    ]
+   ],
+   "options": [
+    "Why you will be late?",
+    "Why will you be late?",
+    "Why will you are late?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>Why + will + subject + base verb</b> (be)."
+  },
+  {
+   "qid": "c10-02-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Anil said to Hari, \"Today we'll start writing sentences.\"",
+   "options": [
+    "Anil told Hari that we would start writing sentences that day.",
+    "Anil told Hari that they will start writing sentences today.",
+    "Anil told Hari that they would start writing sentences that day."
+   ],
+   "answer": 2,
+   "rule": "we becomes <b>they</b>, will becomes <b>would</b>, today becomes <b>that day</b>."
+  },
+  {
+   "qid": "c10-02-39",
+   "type": "change",
+   "level": 4,
+   "topic": "modal_perfect",
+   "prompt": "Rewrite using 'must have'.",
+   "source": "I am sure that Anil knew about the theft.",
+   "options": [
+    "Anil must have known about the theft.",
+    "Anil must know about the theft.",
+    "Anil must have knew about the theft."
+   ],
+   "answer": 0,
+   "rule": "Sure about the past: <b>must have + past participle</b> (known)."
+  },
+  {
+   "qid": "c10-02-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_tenses",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Hari",
+    "don't",
+    "have",
+    "any",
+    "friends,",
+    "because",
+    "he",
+    "believed",
+    "that",
+    "friends",
+    "were",
+    "more",
+    "trouble",
+    "then",
+    "help.",
+    "When",
+    "the",
+    "train",
+    "left,",
+    "Hari",
+    "were",
+    "alone",
+    "on",
+    "the",
+    "deserted",
+    "platform."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "didn't",
+      "wasn't",
+      "isn't"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 13,
+     "options": [
+      "than",
+      "that",
+      "them"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "is",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past story: Hari <b>didn't</b> have, Hari <b>was</b> alone. Comparisons use <b>than</b>."
+  },
+  {
+   "qid": "c10-02-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "modal_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Hari would have caught the train, he would have reached Lucknow.",
+    "If Hari had caught the train, he will have reached Lucknow.",
+    "If Hari had caught the train, he would have reached Lucknow."
+   ],
+   "answer": 2,
+   "rule": "Imagined past: <b>If + had + past participle, would have + past participle</b>."
+  },
+  {
+   "qid": "c10-02-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "collocations",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anil",
+    "sometimes",
+    "did",
+    "a",
+    "lot",
+    "of",
+    "money",
+    "from",
+    "his",
+    "writing,",
+    "but",
+    "he",
+    "spent",
+    "it",
+    "quickly."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "made",
+      "done",
+      "making"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Money goes with <b>make</b>: make money, make a profit, make a mistake. So: <b>made</b> a lot of money."
+  },
+  {
+   "qid": "c10-02-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The teacher asked us",
+   "after": "we had finished the character sketch.",
+   "options": [
+    "that",
+    "what",
+    "whether"
+   ],
+   "answer": 2,
+   "rule": "A reported yes/no question is joined with <b>whether</b> (or if)."
+  },
+  {
+   "qid": "c10-02-44",
+   "type": "build",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Make a wh-question.",
+   "answer": [
+    "Whose",
+    "money",
+    "did",
+    "Hari",
+    "steal",
+    "that",
+    "night?"
+   ],
+   "alts": [],
+   "rule": "<b>Whose + noun</b> comes first, then <b>did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-02-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "modal_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "I failed the test. I didn't study at all."
+    ]
+   ],
+   "options": [
+    "You should have study. You'll do better next time.",
+    "You should have studied. You'll do better next time.",
+    "You should studied. You'll do better next time."
+   ],
+   "answer": 1,
+   "rule": "Advice about the past: <b>should have + past participle</b> (studied)."
+  },
+  {
+   "qid": "c10-02-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anil",
+     "What did the station master tell you?"
+    ]
+   ],
+   "options": [
+    "He told me that the Lucknow Express had left ten minutes before.",
+    "He told me that the Lucknow Express has left ten minutes ago.",
+    "He said me that the Lucknow Express had left ten minutes before."
+   ],
+   "answer": 0,
+   "rule": "Use <b>told me</b> (not said me); move back to <b>had left</b>; ago becomes <b>before</b>."
+  },
+  {
+   "qid": "c10-02-47",
+   "type": "change",
+   "level": 5,
+   "topic": "past_tenses",
+   "prompt": "Use 'No sooner ... than'.",
+   "source": "As soon as Hari reached the platform, the train moved out.",
+   "options": [
+    "No sooner Hari reached the platform than the train moved out.",
+    "No sooner did Hari reached the platform than the train moved out.",
+    "No sooner did Hari reach the platform than the train moved out."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> takes question order: <b>did + subject + base verb</b>, then <b>than</b>."
+  },
+  {
+   "qid": "c10-02-48",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Hari said, \"What a fool I have been!\"",
+   "options": [
+    "Hari exclaimed that he had been a great fool.",
+    "Hari exclaimed that what a fool he had been.",
+    "Hari exclaimed that he has been a great fool."
+   ],
+   "answer": 0,
+   "rule": "An exclamation becomes a statement: <b>exclaimed that</b>, drop what, and have been becomes <b>had been</b>."
+  },
+  {
+   "qid": "c10-02-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "modal_perfect",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "Anil",
+    "had",
+    "report",
+    "Hari,",
+    "the",
+    "police",
+    "would",
+    "have",
+    "arrested",
+    "him.",
+    "Instead,",
+    "Anil",
+    "pay",
+    "him",
+    "fifty",
+    "rupees",
+    "quietly",
+    "and",
+    "said",
+    "that",
+    "Hari",
+    "would",
+    "be",
+    "paid",
+    "regular",
+    "from",
+    "then",
+    "on."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "reporting",
+      "reported",
+      "reports"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "paying",
+      "pays",
+      "paid"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "regulate",
+      "regularly",
+      "regulars"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "had <b>reported</b> (past participle). The story is past: <b>paid</b>. An adverb describes paid: <b>regularly</b>."
+  },
+  {
+   "qid": "c10-02-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "collocations",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Hari",
+    "had",
+    "taken",
+    "a",
+    "study",
+    "of",
+    "faces.",
+    "He",
+    "knew",
+    "that",
+    "a",
+    "greedy",
+    "man",
+    "shows",
+    "fear",
+    "when",
+    "robbed,",
+    "but",
+    "a",
+    "careless",
+    "man",
+    "often",
+    "fails",
+    "to",
+    "noticed",
+    "the",
+    "loss."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "make",
+      "making",
+      "made"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "notice",
+      "noticing",
+      "notices"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We <b>make</b> a study of something. After <b>to</b>, use the base verb: fails to <b>notice</b>."
+  }
+ ]
+}

@@ -1,0 +1,1236 @@
+{
+ "class": 10,
+ "id": "23",
+ "title": "The Old Man and The Sea : Book Review",
+ "topics": [
+  {
+   "tag": "relative_clauses",
+   "name": "Adjectival (relative) clauses: who, which, whose, that"
+  },
+  {
+   "tag": "although_despite",
+   "name": "Although / though / in spite of / despite"
+  },
+  {
+   "tag": "compound_complex",
+   "name": "Joining and rewriting sentences (and, but, On -ing)"
+  },
+  {
+   "tag": "word_forms",
+   "name": "Word forms: noun, adjective, adverb, verb"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-23-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Manolin is the boy which helps the old fisherman.",
+    "Manolin is the boy who helps the old fisherman.",
+    "Manolin is the boy whose helps the old fisherman."
+   ],
+   "answer": 1,
+   "rule": "For a person who does the action, use <b>who</b>."
+  },
+  {
+   "qid": "c10-23-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the sentence in the correct passive form.",
+   "options": [
+    "The novel was publish in 1952.",
+    "The novel was published in 1952.",
+    "The novel is published in 1952."
+   ],
+   "answer": 1,
+   "rule": "A past year needs the past passive: <b>was + past participle (published)</b>."
+  },
+  {
+   "qid": "c10-23-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hemingway",
+    "writes",
+    "in",
+    "a",
+    "very",
+    "simply",
+    "style."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "simple",
+      "simplicity",
+      "simplify"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A noun (style) is described by an adjective: a very <b>simple</b> style. 'Simply' is an adverb."
+  },
+  {
+   "qid": "c10-23-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "although_despite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Despite",
+    "he",
+    "was",
+    "old,",
+    "he",
+    "sailed",
+    "far",
+    "out",
+    "to",
+    "sea."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Although",
+      "However",
+      "Yet"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Although</b> is followed by a clause (he was old). <b>Despite</b> needs a noun or -ing form."
+  },
+  {
+   "qid": "c10-23-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "The marlin,",
+   "after": "was very strong, pulled the boat.",
+   "options": [
+    "which",
+    "who",
+    "whose"
+   ],
+   "answer": 0,
+   "rule": "For an animal or a thing, use <b>which</b>."
+  },
+  {
+   "qid": "c10-23-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "Hemingway was",
+   "after": "by shrapnel in Italy.",
+   "options": [
+    "injure",
+    "injuring",
+    "injured"
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>was + past participle</b>: was <b>injured</b>."
+  },
+  {
+   "qid": "c10-23-07",
+   "type": "build",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Make a sentence with a relative clause.",
+   "answer": [
+    "Manolin",
+    "is",
+    "a",
+    "boy",
+    "who",
+    "loves",
+    "the",
+    "sea."
+   ],
+   "alts": [],
+   "rule": "The clause <b>who loves the sea</b> describes the noun 'boy'."
+  },
+  {
+   "qid": "c10-23-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "When was 'The Old Man and the Sea' published?"
+    ]
+   ],
+   "options": [
+    "It was published in 1952.",
+    "It published in 1952.",
+    "It was publish in 1952."
+   ],
+   "answer": 0,
+   "rule": "A book does not publish itself, so use the passive: <b>was published</b>."
+  },
+  {
+   "qid": "c10-23-09",
+   "type": "change",
+   "level": 1,
+   "topic": "although_despite",
+   "prompt": "Rewrite beginning with 'Although'.",
+   "source": "He hooks a marlin but the marlin is too strong for him.",
+   "options": [
+    "Although he hooks a marlin, but the marlin is too strong for him.",
+    "Although he hooks a marlin, the marlin is too strong for him.",
+    "Although he hooked a marlin, the marlin is too strong for him."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> replaces 'but', so drop 'but'. Keep the same tense in both parts."
+  },
+  {
+   "qid": "c10-23-10",
+   "type": "change",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Rewrite using 'progress' as a noun.",
+   "source": "As the novel progresses, the old man and the marlin are inseparably linked.",
+   "options": [
+    "With the progress of the novel, the old man and the marlin is inseparably linked.",
+    "With the progresses the novel, the old man and the marlin are inseparably linked.",
+    "With the progress of the novel, the old man and the marlin are inseparably linked."
+   ],
+   "answer": 2,
+   "rule": "Use the noun phrase <b>the progress of the novel</b>; two subjects (man and marlin) take <b>are</b>."
+  },
+  {
+   "qid": "c10-23-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "although_despite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "In spite his bad luck, the old man did not give up.",
+    "In spite of his bad luck, the old man did not give up.",
+    "Although his bad luck, the old man did not give up."
+   ],
+   "answer": 1,
+   "rule": "<b>In spite of</b> + noun (his bad luck). 'Although' needs a full clause."
+  },
+  {
+   "qid": "c10-23-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Manolin was deep devoted to the old man.",
+    "Manolin was deeply devotion to the old man.",
+    "Manolin was deeply devoted to the old man."
+   ],
+   "answer": 2,
+   "rule": "An adverb (<b>deeply</b>) describes the adjective <b>devoted</b>."
+  },
+  {
+   "qid": "c10-23-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hemingway,",
+    "which",
+    "worked",
+    "for",
+    "the",
+    "Red",
+    "Cross,",
+    "was",
+    "injured",
+    "in",
+    "Italy."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Hemingway is a person and the subject of 'worked', so use <b>who</b>."
+  },
+  {
+   "qid": "c10-23-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Manolin",
+    "was",
+    "force",
+    "by",
+    "his",
+    "parents",
+    "to",
+    "work",
+    "with",
+    "another",
+    "fisherman."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "forcing",
+      "forced",
+      "forces"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: was <b>forced</b> by his parents."
+  },
+  {
+   "qid": "c10-23-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "although_despite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the old man was very tired, he held on to the line.",
+   "options": [
+    "Although",
+    "Despite",
+    "In spite of"
+   ],
+   "answer": 0,
+   "rule": "A full clause (the old man was tired) follows <b>Although</b>, not 'despite' or 'in spite of'."
+  },
+  {
+   "qid": "c10-23-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The old man showed great",
+   "after": "during his long struggle.",
+   "options": [
+    "endurance",
+    "endure",
+    "endured"
+   ],
+   "answer": 0,
+   "rule": "After the adjective 'great' we need a noun: <b>endurance</b>."
+  },
+  {
+   "qid": "c10-23-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "novel",
+    "was",
+    "written",
+    "in",
+    "simple",
+    "English."
+   ],
+   "alts": [],
+   "rule": "Passive = <b>was + past participle</b>: The novel was written ..."
+  },
+  {
+   "qid": "c10-23-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "although_despite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did you like the novel the first time you read it?"
+    ]
+   ],
+   "options": [
+    "No. Although I read it carefully, but I did not understand it.",
+    "No. Despite I read it carefully, I did not understand it.",
+    "No. Although I read it carefully, I did not understand it."
+   ],
+   "answer": 2,
+   "rule": "Never use <b>although</b> and <b>but</b> together; 'despite' cannot take a full clause."
+  },
+  {
+   "qid": "c10-23-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Who is Manolin?"
+    ]
+   ],
+   "options": [
+    "He is the young apprentice which helps the old man.",
+    "He is the young apprentice who help the old man.",
+    "He is the young apprentice who helps the old man."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for a person; 'who' refers to one apprentice, so <b>helps</b>."
+  },
+  {
+   "qid": "c10-23-20",
+   "type": "change",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Change the adjective 'real' into an adjectival clause.",
+   "source": "Hemingway's novel is based on real events.",
+   "options": [
+    "Hemingway's novel is based on events who really happened.",
+    "Hemingway's novel is based on events which really happened.",
+    "Hemingway's novel is based on events which really happening."
+   ],
+   "answer": 1,
+   "rule": "An adjectival clause starts with <b>which</b> (for things) and needs a full verb: <b>which really happened</b>."
+  },
+  {
+   "qid": "c10-23-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "compound_complex",
+   "prompt": "Pick the correct compound sentence.",
+   "options": [
+    "The sea was calm and the old man row out.",
+    "The sea were calm and the old man rowed out.",
+    "The sea was calm and the old man rowed out."
+   ],
+   "answer": 2,
+   "rule": "Both joined clauses are past: <b>was calm and ... rowed</b>; 'sea' is singular."
+  },
+  {
+   "qid": "c10-23-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "man",
+    "fought",
+    "the",
+    "sharks",
+    "brave",
+    "and",
+    "never",
+    "gave",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "bravery",
+      "braver",
+      "bravely"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The word tells <b>how</b> he fought, so use the adverb <b>bravely</b>."
+  },
+  {
+   "qid": "c10-23-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "although_despite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "spite",
+    "of",
+    "be",
+    "injured,",
+    "Hemingway",
+    "kept",
+    "working",
+    "for",
+    "the",
+    "Red",
+    "Cross."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "been",
+      "being",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>in spite of</b> use a noun or an -ing form: in spite of <b>being</b> injured."
+  },
+  {
+   "qid": "c10-23-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "Hemingway,",
+   "after": "novels are read all over the world, won the Nobel Prize.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 1,
+   "rule": "<b>Whose</b> shows possession: Hemingway's novels = <b>whose novels</b>."
+  },
+  {
+   "qid": "c10-23-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The marlin's body had been",
+   "after": "by the sharks.",
+   "options": [
+    "eaten",
+    "ate",
+    "eat"
+   ],
+   "answer": 0,
+   "rule": "Past perfect passive = <b>had been + past participle</b>: had been <b>eaten</b>."
+  },
+  {
+   "qid": "c10-23-26",
+   "type": "build",
+   "level": 3,
+   "topic": "although_despite",
+   "prompt": "Make a sentence with 'Despite'.",
+   "answer": [
+    "Despite",
+    "his",
+    "great",
+    "age,",
+    "Santiago",
+    "sailed",
+    "out."
+   ],
+   "alts": [],
+   "rule": "<b>Despite + noun phrase</b> (his great age), then the main clause."
+  },
+  {
+   "qid": "c10-23-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Pooja",
+     "How did you feel when you read the book again?"
+    ]
+   ],
+   "options": [
+    "I was extremely moved by the old man's courage.",
+    "I was extreme moved by the old man's courage.",
+    "I was extremely move by the old man's courage."
+   ],
+   "answer": 0,
+   "rule": "Adverb <b>extremely</b> + past participle <b>moved</b>: I was extremely moved."
+  },
+  {
+   "qid": "c10-23-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Is the novel based on real events?"
+    ]
+   ],
+   "options": [
+    "Yes, it is based on real events.",
+    "Yes, it based on real events.",
+    "Yes, it is base on real events."
+   ],
+   "answer": 0,
+   "rule": "<b>is based on</b> is passive: is + past participle (based)."
+  },
+  {
+   "qid": "c10-23-29",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Sharks attacked the marlin.",
+   "options": [
+    "The marlin is attacked by sharks.",
+    "The marlin was attacked by sharks.",
+    "The marlin was attack by sharks."
+   ],
+   "answer": 1,
+   "rule": "Simple past active becomes <b>was + past participle</b>: was attacked."
+  },
+  {
+   "qid": "c10-23-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "although_despite",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hemingway,",
+    "who",
+    "were",
+    "a",
+    "famous",
+    "American",
+    "writer,",
+    "worked",
+    "for",
+    "the",
+    "Red",
+    "Cross.",
+    "He",
+    "was",
+    "injure",
+    "by",
+    "shrapnel",
+    "in",
+    "Italy.",
+    "Despite",
+    "he",
+    "suffered",
+    "a",
+    "lot,",
+    "he",
+    "never",
+    "stopped",
+    "writing."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "are",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "injuring",
+      "injured",
+      "injures"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "However",
+      "Yet",
+      "Although"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Hemingway (he) <b>was</b>; passive needs <b>injured</b>; a full clause follows <b>Although</b>, not 'despite'."
+  },
+  {
+   "qid": "c10-23-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sharks that attacked the boat was very hungry.",
+    "The sharks that attack the boat yesterday were very hungry.",
+    "The sharks that attacked the boat were very hungry."
+   ],
+   "answer": 2,
+   "rule": "The verb agrees with <b>sharks</b> (plural): were. 'Yesterday' needs the past <b>attacked</b>."
+  },
+  {
+   "qid": "c10-23-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "His simplicity of style has impressed readers for years.",
+    "His simple of style has impressed readers for years.",
+    "His simplicity of style have impressed readers for years."
+   ],
+   "answer": 0,
+   "rule": "The subject needs the noun <b>simplicity</b>; it is singular, so <b>has</b> impressed."
+  },
+  {
+   "qid": "c10-23-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "I",
+    "first",
+    "read",
+    "the",
+    "novel",
+    "years",
+    "ago,",
+    "I",
+    "was",
+    "leave",
+    "unimpressed."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "leaving",
+      "left",
+      "leaves"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive <b>was + past participle</b>: I was <b>left</b> unimpressed."
+  },
+  {
+   "qid": "c10-23-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "although_despite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the long struggle, the old man kept his hope alive.",
+   "options": [
+    "Despite",
+    "Although",
+    "Even though"
+   ],
+   "answer": 0,
+   "rule": "A noun phrase (the long struggle) follows <b>Despite</b>; 'although' and 'even though' need a clause."
+  },
+  {
+   "qid": "c10-23-35",
+   "type": "build",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Make a sentence with a relative clause.",
+   "answer": [
+    "The",
+    "book",
+    "that",
+    "moved",
+    "me",
+    "most",
+    "was",
+    "this",
+    "novel."
+   ],
+   "alts": [
+    [
+     "The",
+     "book",
+     "that",
+     "most",
+     "moved",
+     "me",
+     "was",
+     "this",
+     "novel."
+    ]
+   ],
+   "rule": "The clause <b>that moved me most</b> describes 'the book' and sits right after it."
+  },
+  {
+   "qid": "c10-23-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "although_despite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Why did you finish such a sad book?"
+    ]
+   ],
+   "options": [
+    "Though it was sad, it was beautifully written.",
+    "Though it was sad, but it was beautifully written.",
+    "Despite it was sad, it was beautifully written."
+   ],
+   "answer": 0,
+   "rule": "<b>Though</b> + clause, then the main clause, with no 'but'. 'Despite' cannot take a clause."
+  },
+  {
+   "qid": "c10-23-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Which book are you reviewing for the class library?"
+    ]
+   ],
+   "options": [
+    "I'm reviewing the novel who my cousin gave me last week.",
+    "I'm reviewing the novel what my cousin gave me last week.",
+    "I'm reviewing the novel that my cousin gave me last week."
+   ],
+   "answer": 2,
+   "rule": "For a thing use <b>that</b> or <b>which</b>; never 'who' or 'what' after a noun."
+  },
+  {
+   "qid": "c10-23-38",
+   "type": "change",
+   "level": 4,
+   "topic": "compound_complex",
+   "prompt": "Rewrite using 'but' as a coordinator.",
+   "source": "When I first read this novel, I was unimpressed.",
+   "options": [
+    "I first read this novel, but I were unimpressed.",
+    "I first read this novel, but I was unimpressed.",
+    "I first read this novel, but was I unimpressed."
+   ],
+   "answer": 1,
+   "rule": "Join two main clauses with <b>but</b>; keep the past tense and statement word order."
+  },
+  {
+   "qid": "c10-23-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "old",
+    "man",
+    "was",
+    "unable",
+    "to",
+    "caught",
+    "a",
+    "fish",
+    "for",
+    "eighty-four",
+    "days.",
+    "His",
+    "apprentice,",
+    "who",
+    "parents",
+    "were",
+    "worried,",
+    "left",
+    "him.",
+    "Still,",
+    "he",
+    "sailed",
+    "out",
+    "farther",
+    "then",
+    "all",
+    "the",
+    "other",
+    "fishermen."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "catch",
+      "catching",
+      "catches"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "that",
+      "when",
+      "than"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b> use the base verb <b>catch</b>; possession needs <b>whose</b>; a comparison takes <b>than</b>, not 'then'."
+  },
+  {
+   "qid": "c10-23-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "novel",
+    "was",
+    "publish",
+    "in",
+    "1952.",
+    "It",
+    "struck",
+    "a",
+    "chord",
+    "with",
+    "millions",
+    "of",
+    "readers",
+    "who",
+    "was",
+    "trying",
+    "to",
+    "recover",
+    "from",
+    "the",
+    "war."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "publishing",
+      "published",
+      "publishes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "were",
+      "be",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive needs <b>was published</b>; 'who' stands for plural readers, so <b>were</b> trying."
+  },
+  {
+   "qid": "c10-23-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "although_despite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Despite being injured in the war, Hemingway continued to write.",
+    "Despite injured in the war, Hemingway continued to write.",
+    "Despite of being injured in the war, Hemingway continued to write."
+   ],
+   "answer": 0,
+   "rule": "<b>Despite</b> takes no 'of' and needs a noun or -ing form: despite <b>being injured</b>."
+  },
+  {
+   "qid": "c10-23-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "villagers,",
+    "which",
+    "loved",
+    "the",
+    "old",
+    "man,",
+    "kept",
+    "his",
+    "story",
+    "alive."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Villagers are people and the subject of 'loved', so use <b>who</b>."
+  },
+  {
+   "qid": "c10-23-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Hemingway practises extreme",
+   "after": "in his use of words.",
+   "options": [
+    "economic",
+    "economical",
+    "economy"
+   ],
+   "answer": 2,
+   "rule": "After the adjective 'extreme' the object of 'practises' must be a noun: <b>economy</b>."
+  },
+  {
+   "qid": "c10-23-44",
+   "type": "build",
+   "level": 5,
+   "topic": "compound_complex",
+   "prompt": "Make a sentence beginning with 'On reading'.",
+   "answer": [
+    "On",
+    "reading",
+    "the",
+    "novel",
+    "again,",
+    "I",
+    "felt",
+    "deeply",
+    "moved."
+   ],
+   "alts": [],
+   "rule": "<b>On + -ing</b> phrase first, then the main clause whose subject (I) did the reading."
+  },
+  {
+   "qid": "c10-23-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What happened to the marlin in the end?"
+    ]
+   ],
+   "options": [
+    "It was ate by the sharks before the old man reached the shore.",
+    "It had eaten by the sharks before the old man reached the shore.",
+    "It was eaten by the sharks before the old man reached the shore."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>was + past participle</b>: was <b>eaten</b>. 'Had eaten by' is not passive."
+  },
+  {
+   "qid": "c10-23-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Readers all over the world still read this novel.",
+   "options": [
+    "This novel was still read by readers all over the world.",
+    "This novel is still read by readers all over the world.",
+    "This novel is still readed by readers all over the world."
+   ],
+   "answer": 1,
+   "rule": "Simple present active becomes <b>is + past participle (read)</b>."
+  },
+  {
+   "qid": "c10-23-47",
+   "type": "change",
+   "level": 5,
+   "topic": "compound_complex",
+   "prompt": "Rewrite inserting 'and' as a coordinator.",
+   "source": "Being strong, the marlin starts pulling the boat.",
+   "options": [
+    "The marlin is strong and it starts pulling the boat.",
+    "The marlin is strong and it start pulling the boat.",
+    "The marlin was strong and it starts pulling the boat."
+   ],
+   "answer": 0,
+   "rule": "'Being strong' becomes the clause <b>The marlin is strong</b>; both verbs stay present: is ... starts."
+  },
+  {
+   "qid": "c10-23-48",
+   "type": "change",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "Combine the sentences using 'who'.",
+   "source": "The old man lost the marlin. He still felt proud.",
+   "options": [
+    "The old man, who lost the marlin, he still felt proud.",
+    "The old man, who lost the marlin, still felt proud.",
+    "The old man, whom lost the marlin, still felt proud."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> is the subject of 'lost'; don't repeat the subject with 'he'."
+  },
+  {
+   "qid": "c10-23-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "I",
+    "first",
+    "read",
+    "this",
+    "novel",
+    "when",
+    "I",
+    "were",
+    "twelve.",
+    "Although",
+    "I",
+    "did",
+    "not",
+    "like",
+    "it,",
+    "one",
+    "picture",
+    "stay",
+    "with",
+    "me.",
+    "Recently",
+    "I",
+    "read",
+    "it",
+    "again",
+    "and",
+    "was",
+    "extremely",
+    "move",
+    "by",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "was",
+      "am",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "staying",
+      "stayer",
+      "stayed"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "moving",
+      "moves",
+      "moved"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>I was</b> twelve; the past story needs <b>stayed</b>; passive <b>was moved</b> by it."
+  },
+  {
+   "qid": "c10-23-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Manolin",
+    "is",
+    "a",
+    "boy",
+    "whom",
+    "loves",
+    "the",
+    "old",
+    "man",
+    "deeply.",
+    "He",
+    "has",
+    "been",
+    "force",
+    "by",
+    "his",
+    "parents",
+    "to",
+    "work",
+    "on",
+    "another",
+    "boat.",
+    "Still,",
+    "he",
+    "does",
+    "not",
+    "forgets",
+    "his",
+    "old",
+    "friend."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 13,
+     "options": [
+      "forced",
+      "forcing",
+      "forces"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "forgot",
+      "forgotten",
+      "forget"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject of 'loves' is <b>who</b>; passive <b>has been forced</b>; after <b>does not</b> use the base verb <b>forget</b>."
+  }
+ ]
+}

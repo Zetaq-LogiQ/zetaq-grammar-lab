@@ -1,0 +1,1010 @@
+{
+ "class": 6,
+ "id": "3.3",
+ "title": "Too Scared to Sleep",
+ "topics": [
+  {
+   "tag": "homophones",
+   "name": "Homophones in sentences (to/too/two, by/buy, there/their)"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech punctuation"
+  },
+  {
+   "tag": "prep_movement",
+   "name": "Prepositions of movement (into, across, through)"
+  },
+  {
+   "tag": "tenses_review",
+   "name": "Tenses (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-3.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Beth and Kelly have to sleeping bags.",
+    "Beth and Kelly have too sleeping bags.",
+    "Beth and Kelly have two sleeping bags."
+   ],
+   "answer": 2,
+   "rule": "<b>Two</b> is the number 2. <b>To</b> and <b>too</b> sound the same but have different meanings."
+  },
+  {
+   "qid": "c6-3.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "It is dark, aren't it?",
+    "It is dark, isn't it?",
+    "It is dark, doesn't it?"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>is</b> takes a negative tag with the same verb: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c6-3.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kelly told, \"I am going to sleep.\"",
+    "Kelly said, \"I am going to sleep.\"",
+    "Kelly said to, \"I am going to sleep.\""
+   ],
+   "answer": 1,
+   "rule": "Before the spoken words use <b>said</b>. <b>Told</b> and <b>said to</b> need a person after them (told <b>Beth</b>)."
+  },
+  {
+   "qid": "c6-3.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prep_movement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Beth",
+    "slid",
+    "at",
+    "her",
+    "warm",
+    "sleeping",
+    "bag."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "into",
+      "of",
+      "for"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Moving from outside to inside something takes <b>into</b>: slid <b>into</b> her sleeping bag."
+  },
+  {
+   "qid": "c6-3.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "tenses_review",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Beth",
+    "hear",
+    "an",
+    "owl",
+    "hoot",
+    "last",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "hears",
+      "hearing",
+      "heard"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last night</b> is in the past, so use the simple past: <b>heard</b>."
+  },
+  {
+   "qid": "c6-3.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "I want to",
+   "after": "a new torch for the camp.",
+   "options": [
+    "buy",
+    "by",
+    "bye"
+   ],
+   "answer": 0,
+   "rule": "<b>Buy</b> means to get something by paying for it. <b>By</b> and <b>bye</b> only sound the same."
+  },
+  {
+   "qid": "c6-3.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "You are scared,",
+   "after": "you?",
+   "options": [
+    "aren't",
+    "don't",
+    "isn't"
+   ],
+   "answer": 0,
+   "rule": "<b>You are</b> is positive, so the tag is negative with the same verb: <b>aren't you?</b>"
+  },
+  {
+   "qid": "c6-3.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "prep_movement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "cat",
+    "ran",
+    "across",
+    "the",
+    "road."
+   ],
+   "alts": [],
+   "rule": "<b>Across</b> means from one side to the other side: ran <b>across</b> the road."
+  },
+  {
+   "qid": "c6-3.3-09",
+   "type": "build",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "It",
+    "is",
+    "cold,",
+    "isn't",
+    "it?"
+   ],
+   "alts": [
+    [
+     "It",
+     "isn't",
+     "cold,",
+     "is",
+     "it?"
+    ]
+   ],
+   "rule": "Statement first, then a comma and a short tag: <b>It is cold, isn't it?</b>"
+  },
+  {
+   "qid": "c6-3.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kelly",
+     "You like camping, don't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I does. I love it!",
+    "Yes, I am. I love it!",
+    "Yes, I do. I love it!"
+   ],
+   "answer": 2,
+   "rule": "The tag uses <b>do</b>, so the short answer uses <b>do</b> too: <b>Yes, I do.</b>"
+  },
+  {
+   "qid": "c6-3.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I can sea a ship on the sea.",
+    "I can see a ship on the see.",
+    "I can see a ship on the sea."
+   ],
+   "answer": 2,
+   "rule": "<b>See</b> is what you do with your eyes; the <b>sea</b> is a large body of salt water."
+  },
+  {
+   "qid": "c6-3.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"Does you believe in ghosts?\" asked Kelly.",
+    "\"Do you believe in ghosts?\" asked Kelly.",
+    "\"Do you believes in ghosts?\" asked Kelly."
+   ],
+   "answer": 1,
+   "rule": "Inside the quotes we write the exact question: <b>Do you believe</b> (do + you + base verb)?"
+  },
+  {
+   "qid": "c6-3.3-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Uncle",
+    "Frank",
+    "loves",
+    "jokes,",
+    "isn't",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "don't",
+      "doesn't",
+      "wasn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Loves</b> is simple present with <b>he</b>, so the tag uses <b>does</b> in the negative: <b>doesn't he?</b>"
+  },
+  {
+   "qid": "c6-3.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep_movement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "torchlight",
+    "shone",
+    "until",
+    "the",
+    "gaps",
+    "in",
+    "the",
+    "fence."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "through",
+      "than",
+      "of"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Light passing from one side of an opening to the other goes <b>through</b> it."
+  },
+  {
+   "qid": "c6-3.3-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "Beth's torch was",
+   "after": "weak to light up the whole field.",
+   "options": [
+    "to",
+    "two",
+    "too"
+   ],
+   "answer": 2,
+   "rule": "<b>Too</b> means more than is needed or wanted: <b>too</b> weak."
+  },
+  {
+   "qid": "c6-3.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "tenses_review",
+   "prompt": "Fill in the gap.",
+   "before": "The gate",
+   "after": "loudly in the wind last night.",
+   "options": [
+    "rattles",
+    "rattled",
+    "rattling"
+   ],
+   "answer": 1,
+   "rule": "<b>Last night</b> is past time, so use the simple past: <b>rattled</b>."
+  },
+  {
+   "qid": "c6-3.3-17",
+   "type": "build",
+   "level": 2,
+   "topic": "tenses_review",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "girls",
+    "locked",
+    "the",
+    "cabin",
+    "door."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object: <b>The girls locked the cabin door.</b>"
+  },
+  {
+   "qid": "c6-3.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prep_movement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Kelly",
+    "jumped",
+    "into",
+    "her",
+    "sleeping",
+    "bag."
+   ],
+   "alts": [],
+   "rule": "<b>Into</b> shows movement from outside to inside something."
+  },
+  {
+   "qid": "c6-3.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "tenses_review",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle Frank",
+     "Why did you sleep in the cabin?"
+    ]
+   ],
+   "options": [
+    "We saw two ghosts near the gate.",
+    "We seen two ghosts near the gate.",
+    "We was seeing two ghosts near the gate."
+   ],
+   "answer": 0,
+   "rule": "The question is about the past, so answer in the simple past: <b>we saw</b>."
+  },
+  {
+   "qid": "c6-3.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Where are you going?"
+    ]
+   ],
+   "options": [
+    "I am going to the market to by apples.",
+    "I am going too the market to buy apples.",
+    "I am going to the market to buy apples."
+   ],
+   "answer": 2,
+   "rule": "Use <b>to</b> for direction and before a verb, and <b>buy</b> for paying for things."
+  },
+  {
+   "qid": "c6-3.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You don't believe in ghosts, do you?",
+    "You don't believe in ghosts, don't you?",
+    "You don't believe in ghosts, are you?"
+   ],
+   "answer": 0,
+   "rule": "A negative sentence takes a positive tag with the same helping verb: <b>do you?</b>"
+  },
+  {
+   "qid": "c6-3.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are two goats by the fence.",
+    "Their are two goats by the fence.",
+    "There are to goats by the fence."
+   ],
+   "answer": 0,
+   "rule": "<b>There are</b> shows something exists; <b>their</b> means belonging to them; <b>two</b> is the number."
+  },
+  {
+   "qid": "c6-3.3-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"Wakes up, Kelly!\" Beth shouted.",
+    "\"Wake up, Kelly!\" Beth shouted.",
+    "\"Waking up, Kelly!\" Beth shouted."
+   ],
+   "answer": 1,
+   "rule": "The spoken words are a command, so they start with the base verb: <b>Wake up</b>."
+  },
+  {
+   "qid": "c6-3.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "girls",
+    "were",
+    "scared,",
+    "didn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "weren't",
+      "wasn't",
+      "aren't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The sentence uses <b>were</b>, so the tag repeats it in the negative: <b>weren't they?</b>"
+  },
+  {
+   "qid": "c6-3.3-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "prep_movement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "goats",
+    "squeezed",
+    "since",
+    "the",
+    "gap",
+    "in",
+    "the",
+    "fence."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "during",
+      "through",
+      "until"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To pass from one side of a gap to the other, use <b>through</b>."
+  },
+  {
+   "qid": "c6-3.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Uncle Frank was only joking,",
+   "after": "he?",
+   "options": [
+    "isn't",
+    "didn't",
+    "wasn't"
+   ],
+   "answer": 2,
+   "rule": "The verb is <b>was</b>, so the negative tag is <b>wasn't he?</b>"
+  },
+  {
+   "qid": "c6-3.3-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "The two girls left",
+   "after": "boots under the oak tree.",
+   "options": [
+    "there",
+    "their",
+    "they're"
+   ],
+   "answer": 1,
+   "rule": "<b>Their</b> means belonging to them: <b>their</b> boots."
+  },
+  {
+   "qid": "c6-3.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "Beth",
+    "heard",
+    "a",
+    "noise,",
+    "didn't",
+    "she?"
+   ],
+   "alts": [],
+   "rule": "<b>Heard</b> is simple past, so the negative tag uses <b>didn't</b>: <b>didn't she?</b>"
+  },
+  {
+   "qid": "c6-3.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kelly",
+     "You locked the door, didn't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I do. It is locked now.",
+    "Yes, I did. It is lock now.",
+    "Yes, I did. It is locked now."
+   ],
+   "answer": 2,
+   "rule": "The tag is <b>didn't you?</b>, so answer with <b>did</b>. After <b>is</b>, use <b>locked</b>."
+  },
+  {
+   "qid": "c6-3.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prep_movement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "How did the cat get into the house?"
+    ]
+   ],
+   "options": [
+    "It came in since the open window.",
+    "It came in through the open window.",
+    "It came in during the open window."
+   ],
+   "answer": 1,
+   "rule": "Passing in by way of an opening such as a window or door takes <b>through</b>."
+  },
+  {
+   "qid": "c6-3.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "tenses_review",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The girls was fast asleep in the chairs.",
+    "The girl were fast asleep in the chairs.",
+    "The girls were fast asleep in the chairs."
+   ],
+   "answer": 2,
+   "rule": "A plural subject (<b>girls</b>) takes <b>were</b>; a singular subject takes <b>was</b>."
+  },
+  {
+   "qid": "c6-3.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Let's meat at the gate at seven.",
+    "Let's meet at the gate at seven.",
+    "Let's meets at the gate at seven."
+   ],
+   "answer": 1,
+   "rule": "<b>Meet</b> means to come together; <b>meat</b> is food. After <b>Let's</b> use the base verb: <b>meet</b>."
+  },
+  {
+   "qid": "c6-3.3-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "tenses_review",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "days",
+    "Uncle",
+    "Frank",
+    "bring",
+    "us",
+    "doughnuts",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "bringing",
+      "are",
+      "brings"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A habit in the present with a singular subject takes <b>-s</b>: Uncle Frank <b>brings</b>."
+  },
+  {
+   "qid": "c6-3.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prep_movement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Beth",
+    "saw",
+    "a",
+    "owl",
+    "fly",
+    "across",
+    "the",
+    "moonlit",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "an",
+      "these",
+      "much"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Owl</b> begins with a vowel sound, so use <b>an</b>: <b>an owl</b>."
+  },
+  {
+   "qid": "c6-3.3-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "We have",
+   "after": "many apples, so let's share them with the goats.",
+   "options": [
+    "to",
+    "two",
+    "too"
+   ],
+   "answer": 2,
+   "rule": "<b>Too many</b> means more than we need. <b>To</b> and <b>two</b> cannot go before <b>many</b> here."
+  },
+  {
+   "qid": "c6-3.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "There are goats in the garden,",
+   "after": "there?",
+   "options": [
+    "isn't",
+    "aren't",
+    "don't"
+   ],
+   "answer": 1,
+   "rule": "<b>There are</b> takes the tag <b>aren't there?</b> (plural, same verb)."
+  },
+  {
+   "qid": "c6-3.3-37",
+   "type": "build",
+   "level": 4,
+   "topic": "tenses_review",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "hungry",
+    "goats",
+    "chewed",
+    "fresh",
+    "grass."
+   ],
+   "alts": [],
+   "rule": "Adjectives come before their nouns: <b>hungry goats</b>, <b>fresh grass</b>."
+  },
+  {
+   "qid": "c6-3.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prep_movement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "walked",
+    "across",
+    "the",
+    "busy",
+    "road."
+   ],
+   "alts": [],
+   "rule": "Verb + <b>across</b> + place: she walked <b>across</b> the busy road."
+  },
+  {
+   "qid": "c6-3.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aryan",
+     "Did you buy the tickets for the cricket match?"
+    ]
+   ],
+   "options": [
+    "Yes, I bought two tickets.",
+    "Yes, I buyed two tickets.",
+    "Yes, I bought to tickets."
+   ],
+   "answer": 0,
+   "rule": "The past of <b>buy</b> is <b>bought</b>, and the number is spelt <b>two</b>."
+  },
+  {
+   "qid": "c6-3.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "You were at the camp last week, weren't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I was. It was great fun!",
+    "Yes, I were. It was great fun!",
+    "Yes, I did. It was great fun!"
+   ],
+   "answer": 0,
+   "rule": "The tag uses <b>were</b>; with <b>I</b> the short answer is <b>Yes, I was.</b>"
+  },
+  {
+   "qid": "c6-3.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"I never said ghosts would coming,\" said Uncle Frank.",
+    "\"I never said ghosts would come,\" told Uncle Frank.",
+    "\"I never said ghosts would come,\" said Uncle Frank."
+   ],
+   "answer": 2,
+   "rule": "After <b>would</b> use the base verb (<b>come</b>). <b>Told</b> needs a listener, so after the speech use <b>said</b>."
+  },
+  {
+   "qid": "c6-3.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Beth's uncle has a cabin near the forest, doesn't he?",
+    "Beth's uncle has a cabin near the forest, isn't he?",
+    "Beth's uncle has a cabin near the forest, doesn't she?"
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>uncle</b> (he) and the verb is <b>has</b> (simple present), so the tag is <b>doesn't he?</b>"
+  },
+  {
+   "qid": "c6-3.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "homophones",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "light",
+    "started",
+    "fading,",
+    "Kelly",
+    "used",
+    "her",
+    "torch",
+    "too",
+    "look",
+    "at",
+    "her",
+    "watch."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "two",
+      "to",
+      "for"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before a verb (to show purpose) use <b>to</b>: used her torch <b>to look</b>."
+  },
+  {
+   "qid": "c6-3.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nobody",
+    "saw",
+    "the",
+    "goats",
+    "in",
+    "the",
+    "dark,",
+    "didn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wasn't",
+      "did",
+      "doesn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Nobody</b> makes the sentence negative, so the tag is positive: <b>did they?</b>"
+  },
+  {
+   "qid": "c6-3.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prep_movement",
+   "prompt": "Fill in the gap.",
+   "before": "The frightened girls ran out of the field and",
+   "after": "the cabin door before locking it.",
+   "options": [
+    "since",
+    "until",
+    "through"
+   ],
+   "answer": 2,
+   "rule": "To pass from one side of a doorway to the other, use <b>through</b>."
+  },
+  {
+   "qid": "c6-3.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "tenses_review",
+   "prompt": "Fill in the gap.",
+   "before": "While Kelly was sleeping, Beth",
+   "after": "a strange noise near the gate.",
+   "options": [
+    "heard",
+    "hears",
+    "hear"
+   ],
+   "answer": 0,
+   "rule": "A short past action (<b>heard</b>) happens during a longer past action (<b>was sleeping</b>)."
+  },
+  {
+   "qid": "c6-3.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "weren't",
+    "scared",
+    "last",
+    "night,",
+    "were",
+    "you?"
+   ],
+   "alts": [
+    [
+     "You",
+     "were",
+     "scared",
+     "last",
+     "night,",
+     "weren't",
+     "you?"
+    ]
+   ],
+   "rule": "A negative statement (<b>weren't</b>) takes a positive tag: <b>were you?</b>"
+  },
+  {
+   "qid": "c6-3.3-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "prep_movement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tourist",
+     "Excuse me, how do I get to the lake?"
+    ]
+   ],
+   "options": [
+    "Walk through the park and cross the bridge.",
+    "Walk through the park and crossing the bridge.",
+    "Walk since the park and cross the bridge."
+   ],
+   "answer": 0,
+   "rule": "Directions are commands, so both verbs stay in the base form: <b>walk</b>, <b>cross</b>. Go <b>through</b> a park."
+  },
+  {
+   "qid": "c6-3.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "tenses_review",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle Frank",
+     "What were you doing when the gate rattled?"
+    ]
+   ],
+   "options": [
+    "We were sleeping in our sleeping bags.",
+    "We are sleeping in our sleeping bags.",
+    "We was sleeping in our sleeping bags."
+   ],
+   "answer": 0,
+   "rule": "Answer a past continuous question with the past continuous: <b>we were sleeping</b>."
+  },
+  {
+   "qid": "c6-3.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "The match starts at five, doesn't it?"
+    ],
+    [
+     "Kabir",
+     "I don't want to be late."
+    ]
+   ],
+   "options": [
+    "No, it starting at six, so we have plenty of time.",
+    "No, it starts at six, so we have plenty of time.",
+    "No, it starts at six, so we has plenty of time."
+   ],
+   "answer": 1,
+   "rule": "<b>It starts</b> (singular takes -s) but <b>we have</b> (plural, no -s)."
+  }
+ ]
+}

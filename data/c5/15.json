@@ -1,0 +1,1012 @@
+{
+ "class": 5,
+ "id": "15",
+ "title": "Bird Bath",
+ "topics": [
+  {
+   "tag": "simple_present",
+   "name": "Simple present (he/she/it + -s)"
+  },
+  {
+   "tag": "present_continuous",
+   "name": "Present continuous (is/are + -ing)"
+  },
+  {
+   "tag": "plurals",
+   "name": "Plural nouns"
+  },
+  {
+   "tag": "comparison",
+   "name": "Comparing with -er/-est and more/most"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-15-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The robin drink water from the pool.",
+    "The robin drinks water from the pool.",
+    "The robin drinking water from the pool."
+   ],
+   "answer": 1,
+   "rule": "With one bird (he/she/it), add <b>-s</b> to the verb in the simple present: the robin <b>drinks</b>."
+  },
+  {
+   "qid": "c5-15-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Two gooses are swimming in the pond.",
+    "Two goose are swimming in the pond.",
+    "Two geese are swimming in the pond."
+   ],
+   "answer": 2,
+   "rule": "<b>Goose</b> has an irregular plural: one goose, two <b>geese</b>."
+  },
+  {
+   "qid": "c5-15-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The birds is splashing in the water.",
+    "The birds are splash in the water.",
+    "The birds are splashing in the water."
+   ],
+   "answer": 2,
+   "rule": "Present continuous: <b>are</b> (for plural) + verb<b>-ing</b>: are <b>splashing</b>."
+  },
+  {
+   "qid": "c5-15-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sun",
+    "shine",
+    "brightly",
+    "over",
+    "our",
+    "garden",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "shines",
+      "shining",
+      "shiny"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Every morning</b> shows a habit, so use the simple present. The sun (it) <b>shines</b>."
+  },
+  {
+   "qid": "c5-15-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "robin",
+    "come",
+    "to",
+    "our",
+    "garden",
+    "pool."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "robin's",
+      "bird",
+      "robins"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Many</b> is followed by a plural noun: many <b>robins</b>."
+  },
+  {
+   "qid": "c5-15-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This pool is",
+   "after": "than the old one.",
+   "options": [
+    "biggest",
+    "big",
+    "bigger"
+   ],
+   "answer": 2,
+   "rule": "To compare two things, use <b>-er + than</b>: <b>bigger</b> than."
+  },
+  {
+   "qid": "c5-15-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The robins are",
+   "after": "down to drink.",
+   "options": [
+    "flying",
+    "fly",
+    "flew"
+   ],
+   "answer": 0,
+   "rule": "<b>Look!</b> shows it is happening now: are + verb<b>-ing</b> = are <b>flying</b>."
+  },
+  {
+   "qid": "c5-15-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Robins",
+    "drink",
+    "from",
+    "the",
+    "little",
+    "pool."
+   ],
+   "alts": [],
+   "rule": "Simple present with a plural subject: <b>Robins drink</b> (no -s on the verb)."
+  },
+  {
+   "qid": "c5-15-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What are you doing in the garden?"
+    ]
+   ],
+   "options": [
+    "I filling the bird bath.",
+    "I am filling the bird bath.",
+    "I am fill the bird bath."
+   ],
+   "answer": 1,
+   "rule": "Answer 'What are you doing?' with <b>I am</b> + verb<b>-ing</b>: I am <b>filling</b>."
+  },
+  {
+   "qid": "c5-15-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Does your cat chase the birds?"
+    ]
+   ],
+   "options": [
+    "No, it sleep all day.",
+    "No, it sleeps all day.",
+    "No, it sleeping all day."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes a verb with <b>-s</b> in the simple present: it <b>sleeps</b>."
+  },
+  {
+   "qid": "c5-15-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The water is more cooler in the morning than at noon.",
+    "The water is cooler in the morning than at noon.",
+    "The water is cool in the morning than at noon."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives add <b>-er</b> before <b>than</b>: <b>cooler</b>. Never use more and -er together."
+  },
+  {
+   "qid": "c5-15-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My sister fills the bird bath every evening.",
+    "My sister fill the bird bath every evening.",
+    "My sister filling the bird bath every evening."
+   ],
+   "answer": 0,
+   "rule": "<b>My sister</b> is she, so the simple present verb takes <b>-s</b>: <b>fills</b>."
+  },
+  {
+   "qid": "c5-15-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Five",
+    "sparrows",
+    "is",
+    "hopping",
+    "round",
+    "the",
+    "edge",
+    "of",
+    "the",
+    "pool."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Five sparrows</b> is plural, so use <b>are</b> + -ing: are hopping."
+  },
+  {
+   "qid": "c5-15-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "laid",
+    "pebble",
+    "all",
+    "around",
+    "the",
+    "pool,",
+    "and",
+    "they",
+    "look",
+    "pretty."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "pebbles",
+      "pebble's",
+      "stone"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>They look</b> shows there are many, so the noun must be plural: <b>pebbles</b>."
+  },
+  {
+   "qid": "c5-15-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Every morning, a little robin",
+   "after": "in our bird bath.",
+   "options": [
+    "splashes",
+    "splash",
+    "splashing"
+   ],
+   "answer": 0,
+   "rule": "One robin (it) + simple present: add <b>-es</b> after sh: <b>splashes</b>."
+  },
+  {
+   "qid": "c5-15-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "Two",
+   "after": "were drinking at the edge of the pool.",
+   "options": [
+    "mouses",
+    "mouse",
+    "mice"
+   ],
+   "answer": 2,
+   "rule": "<b>Mouse</b> has an irregular plural: one mouse, two <b>mice</b>."
+  },
+  {
+   "qid": "c5-15-17",
+   "type": "build",
+   "level": 2,
+   "topic": "present_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "robins",
+    "are",
+    "singing",
+    "sweetly."
+   ],
+   "alts": [],
+   "rule": "Present continuous: subject + <b>are</b> + verb<b>-ing</b>, then the adverb <b>sweetly</b>."
+  },
+  {
+   "qid": "c5-15-18",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "pool",
+    "is",
+    "cleaner",
+    "than",
+    "that",
+    "one."
+   ],
+   "alts": [],
+   "rule": "Compare two things with <b>-er + than</b>: cleaner than."
+  },
+  {
+   "qid": "c5-15-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How many birds visited the pool today?"
+    ]
+   ],
+   "options": [
+    "Six robin and two sparrows came.",
+    "Six robins and two sparrows came.",
+    "Six robins and two sparrow came."
+   ],
+   "answer": 1,
+   "rule": "After a number more than one, the noun is plural: six <b>robins</b>, two <b>sparrows</b>."
+  },
+  {
+   "qid": "c5-15-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "Which is the prettiest bird in your garden?"
+    ]
+   ],
+   "options": [
+    "The bulbul is the prettier.",
+    "The bulbul is the prettiest.",
+    "The bulbul is the most prettiest."
+   ],
+   "answer": 1,
+   "rule": "To pick one out of many, use <b>the + -est</b>: <b>the prettiest</b>. Never 'most' with -est."
+  },
+  {
+   "qid": "c5-15-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Listen! The birds sings in the mango tree.",
+    "Listen! The birds is singing in the mango tree.",
+    "Listen! The birds are singing in the mango tree."
+   ],
+   "answer": 2,
+   "rule": "<b>Listen!</b> shows it is happening now. Plural birds: <b>are singing</b>."
+  },
+  {
+   "qid": "c5-15-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The robin does not like dirty water.",
+    "The robin do not like dirty water.",
+    "The robin does not likes dirty water."
+   ],
+   "answer": 0,
+   "rule": "With he/she/it, the negative is <b>does not</b> + base verb: does not <b>like</b>."
+  },
+  {
+   "qid": "c5-15-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Does",
+    "the",
+    "bird",
+    "bath",
+    "needs",
+    "fresh",
+    "water",
+    "every",
+    "day?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "needed",
+      "need",
+      "needing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Does</b> in a question, the verb stays in base form: Does it <b>need</b>?"
+  },
+  {
+   "qid": "c5-15-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Today",
+    "the",
+    "water",
+    "is",
+    "clearest",
+    "than",
+    "it",
+    "was",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "clearer",
+      "clear",
+      "clearly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>than</b> compares two things, so use the <b>-er</b> form: <b>clearer</b> than."
+  },
+  {
+   "qid": "c5-15-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Right now, my brother",
+   "after": "the pebbles in a neat line.",
+   "options": [
+    "arranges",
+    "arranging",
+    "is arranging"
+   ],
+   "answer": 2,
+   "rule": "<b>Right now</b> shows an action in progress: <b>is</b> + verb<b>-ing</b>."
+  },
+  {
+   "qid": "c5-15-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "Both",
+   "after": "of the bird were wet after its bath.",
+   "options": [
+    "wing",
+    "wing's",
+    "wings"
+   ],
+   "answer": 2,
+   "rule": "<b>Both</b> means two, and <b>were</b> is plural, so use the plural noun <b>wings</b>."
+  },
+  {
+   "qid": "c5-15-27",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Make a question.",
+   "answer": [
+    "When",
+    "does",
+    "the",
+    "robin",
+    "come",
+    "to",
+    "drink?"
+   ],
+   "alts": [],
+   "rule": "Question with one subject: <b>When + does + the robin + base verb</b> (come, not comes)."
+  },
+  {
+   "qid": "c5-15-28",
+   "type": "build",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "filled",
+    "the",
+    "pool",
+    "with",
+    "water."
+   ],
+   "alts": [],
+   "rule": "<b>Children</b> is the irregular plural of child. We fill something <b>with</b> water."
+  },
+  {
+   "qid": "c5-15-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Why do birds like your garden?"
+    ]
+   ],
+   "options": [
+    "Because it have a clean little pool.",
+    "Because it has a clean little pool.",
+    "Because it having a clean little pool."
+   ],
+   "answer": 1,
+   "rule": "With <b>it</b> (he/she/it), use <b>has</b>, not have."
+  },
+  {
+   "qid": "c5-15-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Can you come out to play now?"
+    ]
+   ],
+   "options": [
+    "Sorry, I am helping my mother right now.",
+    "Sorry, I helping my mother right now.",
+    "Sorry, I am help my mother right now."
+   ],
+   "answer": 0,
+   "rule": "For something happening <b>right now</b>, use <b>am</b> + verb<b>-ing</b>: I am helping."
+  },
+  {
+   "qid": "c5-15-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is some robins on the edge of the pool.",
+    "There are some robin on the edge of the pool.",
+    "There are some robins on the edge of the pool."
+   ],
+   "answer": 2,
+   "rule": "With a plural noun (robins), use <b>There are</b>. <b>Some</b> + plural countable noun."
+  },
+  {
+   "qid": "c5-15-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "These pebbles are smoother than those stones.",
+    "This pebbles are smoother than those stones.",
+    "These pebbles are more smoother than those stones."
+   ],
+   "answer": 0,
+   "rule": "Plural nouns take <b>these</b>. Compare two with <b>-er</b> alone: <b>smoother</b> than."
+  },
+  {
+   "qid": "c5-15-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A crow and a robin are drinking at the pool.",
+    "A crow and a robin is drinking at the pool.",
+    "A crow and an robin are drinking at the pool."
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> take <b>are</b>. Use <b>a</b> before a consonant sound: a robin."
+  },
+  {
+   "qid": "c5-15-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "evening,",
+    "Uncle",
+    "Raju",
+    "go",
+    "to",
+    "the",
+    "garden",
+    "with",
+    "a",
+    "bucket."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "goes",
+      "going",
+      "gone"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Uncle Raju</b> is he, and every evening is a habit: he <b>goes</b>."
+  },
+  {
+   "qid": "c5-15-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look,",
+    "there",
+    "are",
+    "a",
+    "robin",
+    "sitting",
+    "on",
+    "the",
+    "rim",
+    "of",
+    "the",
+    "pool."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "am",
+      "is",
+      "were"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>A robin</b> is one bird, so use <b>there is</b>, not there are."
+  },
+  {
+   "qid": "c5-15-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Sparrows",
+   "after": "their feathers to dry them after a bath.",
+   "options": [
+    "shakes",
+    "shake",
+    "shaking"
+   ],
+   "answer": 1,
+   "rule": "<b>Sparrows</b> (they) is plural, so the simple present verb has no -s: they <b>shake</b>."
+  },
+  {
+   "qid": "c5-15-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "This is the",
+   "after": "day of the summer, so many birds come to drink.",
+   "options": [
+    "hotter",
+    "hot",
+    "hottest"
+   ],
+   "answer": 2,
+   "rule": "<b>the</b> ... <b>of the summer</b> picks one from many, so use <b>-est</b>: the <b>hottest</b>."
+  },
+  {
+   "qid": "c5-15-38",
+   "type": "build",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "birds",
+    "are",
+    "drinking",
+    "under",
+    "the",
+    "mango",
+    "tree."
+   ],
+   "alts": [],
+   "rule": "Present continuous (<b>are drinking</b>) + place: <b>under</b> the mango tree."
+  },
+  {
+   "qid": "c5-15-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neighbour",
+     "Is there any water in the bird bath?"
+    ]
+   ],
+   "options": [
+    "Yes, there are some fresh water in it.",
+    "Yes, there is some fresh water in it.",
+    "Yes, there is many fresh water in it."
+   ],
+   "answer": 1,
+   "rule": "<b>Water</b> is uncountable: use <b>there is</b> and <b>some</b>, not 'many'."
+  },
+  {
+   "qid": "c5-15-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Which bird is bigger, the crow or the sparrow?"
+    ]
+   ],
+   "options": [
+    "The crow is biggest than the sparrow.",
+    "The crow is bigger than the sparrow.",
+    "The crow is more big than the sparrow."
+   ],
+   "answer": 1,
+   "rule": "Compare two with <b>-er + than</b>. Big doubles the g: <b>bigger</b>."
+  },
+  {
+   "qid": "c5-15-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the robins splash before it flies away.",
+    "Each of the robins splashes before it fly away.",
+    "Each of the robins splashes before it flies away."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of</b> means every single one, so the verbs are singular: <b>splashes</b>, it <b>flies</b>."
+  },
+  {
+   "qid": "c5-15-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The robins are spattering bright little shower all around.",
+    "The robins is spattering bright little showers all around.",
+    "The robins are spattering bright little showers all around."
+   ],
+   "answer": 2,
+   "rule": "Many drops make many <b>showers</b> (plural, no 'a'). Plural robins take <b>are</b>."
+  },
+  {
+   "qid": "c5-15-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Whenever",
+    "the",
+    "sun",
+    "shines",
+    "high,",
+    "the",
+    "two",
+    "thirsty",
+    "robins",
+    "flies",
+    "down",
+    "to",
+    "the",
+    "pool."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "fly",
+      "flying",
+      "flown"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The two robins</b> is plural, so the verb has no -s: they <b>fly</b>."
+  },
+  {
+   "qid": "c5-15-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother's",
+    "garden",
+    "is",
+    "the",
+    "larger",
+    "of",
+    "all",
+    "the",
+    "gardens",
+    "in",
+    "our",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "largest",
+      "large",
+      "largely"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>of all</b> picks one from many, so use <b>the + -est</b>: the <b>largest</b>."
+  },
+  {
+   "qid": "c5-15-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Not one robin",
+   "after": "by without fluttering down to drink.",
+   "options": [
+    "fly",
+    "flies",
+    "flying"
+   ],
+   "answer": 1,
+   "rule": "<b>Not one robin</b> is singular, so the simple present verb takes <b>-s</b>: <b>flies</b>."
+  },
+  {
+   "qid": "c5-15-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The robins are singing even",
+   "after": "today than they sang yesterday.",
+   "options": [
+    "most sweetly",
+    "sweetest",
+    "more sweetly"
+   ],
+   "answer": 2,
+   "rule": "Adverbs ending in <b>-ly</b> compare with <b>more</b> + than: <b>more sweetly</b> than."
+  },
+  {
+   "qid": "c5-15-47",
+   "type": "build",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "are",
+    "the",
+    "robins",
+    "flying",
+    "away",
+    "so",
+    "quickly?"
+   ],
+   "alts": [],
+   "rule": "Question in the present continuous: <b>Why + are + subject + -ing</b> ...?"
+  },
+  {
+   "qid": "c5-15-48",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Our",
+    "pool",
+    "is",
+    "the",
+    "coolest",
+    "place",
+    "in",
+    "summer."
+   ],
+   "alts": [],
+   "rule": "To pick one from many, use <b>the + -est</b>: the <b>coolest</b> place."
+  },
+  {
+   "qid": "c5-15-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do robins do after their bath?"
+    ]
+   ],
+   "options": [
+    "They sings sweetly and flies away.",
+    "They sing sweetly and fly away.",
+    "They sing sweetly and flies away."
+   ],
+   "answer": 1,
+   "rule": "<b>They</b> is plural, so neither verb takes -s: they <b>sing</b> and <b>fly</b>."
+  },
+  {
+   "qid": "c5-15-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "What are the children doing near the pool?"
+    ]
+   ],
+   "options": [
+    "They are watching the birds quietly.",
+    "They is watching the birds quietly.",
+    "They are watch the birds quietly."
+   ],
+   "answer": 0,
+   "rule": "<b>They</b> takes <b>are</b> + verb<b>-ing</b>: they are <b>watching</b>."
+  }
+ ]
+}

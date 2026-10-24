@@ -1,0 +1,1021 @@
+{
+ "class": 5,
+ "id": "02",
+ "title": "Daydreams",
+ "topics": [
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  },
+  {
+   "tag": "plurals",
+   "name": "Plural nouns (regular and irregular)"
+  },
+  {
+   "tag": "future",
+   "name": "Future with will / going to"
+  },
+  {
+   "tag": "much_many",
+   "name": "much / many"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-02-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She kept milk in a earthen pot.",
+    "She kept milk in an earthen pots.",
+    "She kept milk in an earthen pot."
+   ],
+   "answer": 2,
+   "rule": "<b>earthen</b> begins with a vowel sound, so use <b>an</b>. One pot is singular."
+  },
+  {
+   "qid": "c5-02-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer has three cows.",
+    "The farmer has three cow.",
+    "The farmer have three cows."
+   ],
+   "answer": 0,
+   "rule": "<b>three</b> needs a plural noun (<b>cows</b>), and one farmer <b>has</b>."
+  },
+  {
+   "qid": "c5-02-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the sentence with the correct verb.",
+   "options": [
+    "Tomorrow I will buy a cow.",
+    "Tomorrow I will bought a cow.",
+    "Tomorrow I will buys a cow."
+   ],
+   "answer": 0,
+   "rule": "After <b>will</b>, use the base form of the verb: <b>will buy</b>."
+  },
+  {
+   "qid": "c5-02-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "wife",
+    "used",
+    "a",
+    "earthen",
+    "pot",
+    "for",
+    "the",
+    "dahi."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "these",
+      "many",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>earthen</b> starts with a vowel sound, so we say <b>an earthen pot</b>."
+  },
+  {
+   "qid": "c5-02-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "are",
+    "two",
+    "big",
+    "stick",
+    "in",
+    "the",
+    "corner."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "stick's",
+      "sticks",
+      "sticky"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>two</b> means more than one, so the noun is plural: <b>sticks</b>."
+  },
+  {
+   "qid": "c5-02-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "The husband wanted to buy",
+   "after": "cows.",
+   "options": [
+    "many",
+    "much",
+    "a little"
+   ],
+   "answer": 0,
+   "rule": "Cows can be counted, so use <b>many</b>. <b>Much</b> is for things we can't count."
+  },
+  {
+   "qid": "c5-02-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "send this pot of milk to my sister.",
+   "options": [
+    "am",
+    "will",
+    "does"
+   ],
+   "answer": 1,
+   "rule": "Use <b>will</b> + base verb to talk about the future: <b>I will send</b>."
+  },
+  {
+   "qid": "c5-02-08",
+   "type": "build",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "wife",
+    "wanted",
+    "an",
+    "earthen",
+    "pot."
+   ],
+   "alts": [],
+   "rule": "The article comes first, then the adjective, then the noun: <b>an earthen pot</b>."
+  },
+  {
+   "qid": "c5-02-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "What are you going to do this Sunday?"
+    ]
+   ],
+   "options": [
+    "I am going visit Grandma.",
+    "I going to visit Grandma.",
+    "I am going to visit Grandma."
+   ],
+   "answer": 2,
+   "rule": "The pattern is <b>am/is/are + going to + verb</b>: I am going to visit."
+  },
+  {
+   "qid": "c5-02-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "How many pets do you have?"
+    ]
+   ],
+   "options": [
+    "I have two puppies and a cat.",
+    "I have two puppys and a cat.",
+    "I have two puppy and a cat."
+   ],
+   "answer": 0,
+   "rule": "Consonant + <b>y</b>: change y to <b>ies</b> for the plural: puppy, <b>puppies</b>."
+  },
+  {
+   "qid": "c5-02-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How many milk do the cows give?",
+    "How much milk do the cows give?",
+    "How much milk does the cows give?"
+   ],
+   "answer": 1,
+   "rule": "Milk can't be counted, so <b>how much</b>. <b>The cows</b> is plural, so <b>do</b>."
+  },
+  {
+   "qid": "c5-02-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens ran after the cows.",
+    "The children ran after the cows.",
+    "The childs ran after the cows."
+   ],
+   "answer": 1,
+   "rule": "<b>children</b> is already plural. Never add -s to it."
+  },
+  {
+   "qid": "c5-02-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The man saw an eagle and a owl.",
+    "The man saw a eagle and an owl.",
+    "The man saw an eagle and an owl."
+   ],
+   "answer": 2,
+   "rule": "<b>eagle</b> and <b>owl</b> both begin with a vowel sound, so both take <b>an</b>."
+  },
+  {
+   "qid": "c5-02-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow,",
+    "I",
+    "am",
+    "going",
+    "to",
+    "sold",
+    "the",
+    "milk",
+    "in",
+    "the",
+    "market."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "sell",
+      "sells",
+      "selling"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>going to</b>, use the base form of the verb: <b>going to sell</b>."
+  },
+  {
+   "qid": "c5-02-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "do",
+    "not",
+    "have",
+    "much",
+    "earthen",
+    "pots",
+    "for",
+    "the",
+    "milk."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "many",
+      "a",
+      "every"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Pots can be counted, so use <b>many</b> with them, not much."
+  },
+  {
+   "qid": "c5-02-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Gopal Bhand picked up",
+   "after": "old stick from the corner.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>old</b> begins with a vowel sound, so use <b>an</b>: an old stick."
+  },
+  {
+   "qid": "c5-02-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The husband broke all the",
+   "after": "in the kitchen.",
+   "options": [
+    "pot",
+    "pot's",
+    "pots"
+   ],
+   "answer": 2,
+   "rule": "<b>all the</b> is followed by a plural noun: <b>all the pots</b>."
+  },
+  {
+   "qid": "c5-02-18",
+   "type": "build",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "many",
+    "cows",
+    "do",
+    "you",
+    "want?"
+   ],
+   "alts": [],
+   "rule": "Use <b>How many</b> with things we can count, like cows."
+  },
+  {
+   "qid": "c5-02-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "What do you want for your tiffin?"
+    ]
+   ],
+   "options": [
+    "I want an egg sandwich and an apple.",
+    "I want a egg sandwich and an apple.",
+    "I want an egg sandwich and a apple."
+   ],
+   "answer": 0,
+   "rule": "<b>egg</b> and <b>apple</b> begin with a vowel sound, so both take <b>an</b>."
+  },
+  {
+   "qid": "c5-02-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "How much butter do you need?"
+    ]
+   ],
+   "options": [
+    "Just a few, please.",
+    "Just many, please.",
+    "Just a little, please."
+   ],
+   "answer": 2,
+   "rule": "Butter can't be counted, so use <b>a little</b>. <b>A few</b> and <b>many</b> are for countable things."
+  },
+  {
+   "qid": "c5-02-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There will be so many milk that we can sell some.",
+    "There will be so much milk that we can sell some.",
+    "There will is so much milk that we can sell some."
+   ],
+   "answer": 1,
+   "rule": "Milk is uncountable, so <b>so much milk</b>. After will, use the base form <b>be</b>."
+  },
+  {
+   "qid": "c5-02-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Two wolfs and three mice hid in the field.",
+    "Two wolves and three mouses hid in the field.",
+    "Two wolves and three mice hid in the field."
+   ],
+   "answer": 2,
+   "rule": "Some plurals are special: wolf - <b>wolves</b>, mouse - <b>mice</b>."
+  },
+  {
+   "qid": "c5-02-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "two",
+    "box",
+    "of",
+    "sweets",
+    "were",
+    "kept",
+    "on",
+    "the",
+    "shelf."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "boxed",
+      "box's",
+      "boxes"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>two</b> needs a plural noun. Words ending in -x add <b>-es</b>: <b>boxes</b>."
+  },
+  {
+   "qid": "c5-02-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gopal",
+    "Bhand",
+    "did",
+    "not",
+    "have",
+    "an",
+    "field",
+    "of",
+    "beans",
+    "and",
+    "cucumbers."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "these",
+      "a",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>field</b> begins with a consonant sound, so use <b>a</b>: a field."
+  },
+  {
+   "qid": "c5-02-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Look at those dark clouds! It",
+   "after": "rain soon.",
+   "options": [
+    "is going to",
+    "going to",
+    "are going to"
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> takes <b>is</b>: <b>it is going to rain</b>. We use going to when we can see what will happen."
+  },
+  {
+   "qid": "c5-02-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "money does the husband need for the cows?",
+   "options": [
+    "many",
+    "much",
+    "few"
+   ],
+   "answer": 1,
+   "rule": "We don't count <b>money</b> as one, two, three, so we ask <b>How much</b> money."
+  },
+  {
+   "qid": "c5-02-27",
+   "type": "build",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Talk about a plan.",
+   "answer": [
+    "I",
+    "am",
+    "going",
+    "to",
+    "sell",
+    "the",
+    "milk."
+   ],
+   "alts": [],
+   "rule": "For plans, use <b>am going to</b> + base verb: I am going to sell."
+  },
+  {
+   "qid": "c5-02-28",
+   "type": "build",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "An",
+    "elephant",
+    "is",
+    "eating",
+    "a",
+    "banana."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> goes before the vowel sound in <b>elephant</b>; <b>a</b> before <b>banana</b>."
+  },
+  {
+   "qid": "c5-02-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Will you come to the mela with us tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, I will came with you.",
+    "Yes, I will come with you.",
+    "Yes, I will coming with you."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> is always followed by the base form: <b>will come</b>."
+  },
+  {
+   "qid": "c5-02-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you see at the farm?"
+    ]
+   ],
+   "options": [
+    "I saw some sheep and two calves.",
+    "I saw some sheeps and two calves.",
+    "I saw some sheep and two calfs."
+   ],
+   "answer": 0,
+   "rule": "<b>sheep</b> stays the same in the plural; calf becomes <b>calves</b>."
+  },
+  {
+   "qid": "c5-02-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There were an old pot in the corner of the kitchen.",
+    "There was a old pot in the corner of the kitchen.",
+    "There was an old pot in the corner of the kitchen."
+   ],
+   "answer": 2,
+   "rule": "One pot takes <b>was</b>, and <b>old</b> begins with a vowel sound: <b>an old pot</b>."
+  },
+  {
+   "qid": "c5-02-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Is there much rice left? We need some for dinner.",
+    "Is there many rice left? We need some for dinner.",
+    "Are there much rice left? We need some for dinner."
+   ],
+   "answer": 0,
+   "rule": "Rice is uncountable: use <b>is</b> and <b>much</b> with it."
+  },
+  {
+   "qid": "c5-02-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "week",
+    "my",
+    "aunt",
+    "and",
+    "uncle",
+    "are",
+    "going",
+    "to",
+    "visited",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "visits",
+      "visiting",
+      "visit"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>going to</b>, use the base form: <b>going to visit</b>."
+  },
+  {
+   "qid": "c5-02-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "earthen",
+    "pot",
+    "are",
+    "very",
+    "old",
+    "and",
+    "heavy."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "pots",
+      "pot's",
+      "potted"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These</b> and <b>are</b> show many things, so the noun is plural: <b>pots</b>."
+  },
+  {
+   "qid": "c5-02-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The cow is",
+   "after": "useful animal.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>useful</b> begins with a 'yoo' (consonant) sound, so use <b>a</b>: a useful animal."
+  },
+  {
+   "qid": "c5-02-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Every morning Ravi feeds the cows, but tomorrow his sister",
+   "after": "feed them.",
+   "options": [
+    "is",
+    "will",
+    "does"
+   ],
+   "answer": 1,
+   "rule": "<b>tomorrow</b> is in the future, so use <b>will</b> + base verb: will feed."
+  },
+  {
+   "qid": "c5-02-37",
+   "type": "build",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "mice",
+    "ran",
+    "into",
+    "their",
+    "hole."
+   ],
+   "alts": [],
+   "rule": "<b>mice</b> is the plural of mouse; <b>ran</b> is the past of run."
+  },
+  {
+   "qid": "c5-02-38",
+   "type": "build",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "there",
+    "much",
+    "water",
+    "in",
+    "the",
+    "jar?"
+   ],
+   "alts": [],
+   "rule": "Water is uncountable, so ask <b>Is there much water</b>?"
+  },
+  {
+   "qid": "c5-02-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "What did you buy at the fair?"
+    ]
+   ],
+   "options": [
+    "I bought an kite and an ice cream.",
+    "I bought a kite and an ice cream.",
+    "I bought a kite and a ice cream."
+   ],
+   "answer": 1,
+   "rule": "<b>a</b> before a consonant sound (a kite); <b>an</b> before a vowel sound (an ice cream)."
+  },
+  {
+   "qid": "c5-02-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What will you buy for Diwali?"
+    ]
+   ],
+   "options": [
+    "I will buy three new dress for my sisters.",
+    "I will buy three new dresses for my sisters.",
+    "I will buys three new dresses for my sisters."
+   ],
+   "answer": 1,
+   "rule": "<b>will buy</b> (base verb after will) and <b>three dresses</b> (plural after a number)."
+  },
+  {
+   "qid": "c5-02-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we buy much cows, there will be so much milk that we cannot drink it all.",
+    "If we buy many cows, there will be so much milk that we cannot drink it all.",
+    "If we buy many cows, there will be so many milk that we cannot drink it all."
+   ],
+   "answer": 1,
+   "rule": "<b>many</b> for countable cows, <b>much</b> for uncountable milk."
+  },
+  {
+   "qid": "c5-02-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The husband and the wife were astounded when a old man rushed in with a stick.",
+    "The husband and the wife were astounded when an old man rushed in with an stick.",
+    "The husband and the wife were astounded when an old man rushed in with a stick."
+   ],
+   "answer": 2,
+   "rule": "<b>an old man</b> (vowel sound) but <b>a stick</b> (consonant sound)."
+  },
+  {
+   "qid": "c5-02-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "month,",
+    "both",
+    "Aman",
+    "and",
+    "Tara",
+    "is",
+    "going",
+    "to",
+    "join",
+    "the",
+    "dance",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "are",
+      "am",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both Aman and Tara</b> means two people, so use <b>are going to</b>."
+  },
+  {
+   "qid": "c5-02-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "is",
+    "so",
+    "many",
+    "noise",
+    "in",
+    "the",
+    "kitchen",
+    "that",
+    "the",
+    "neighbours",
+    "have",
+    "come",
+    "to",
+    "see."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "few",
+      "more",
+      "much"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Noise</b> is uncountable here, so use <b>so much noise</b>."
+  },
+  {
+   "qid": "c5-02-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Gopal Bhand was",
+   "after": "honest man, so the villagers trusted him.",
+   "options": [
+    "a",
+    "these",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "The <b>h</b> in <b>honest</b> is silent, so it begins with a vowel sound: <b>an honest man</b>."
+  },
+  {
+   "qid": "c5-02-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer counted the animals: four calves, ten sheep and two",
+   "after": "in the shed.",
+   "options": [
+    "oxen",
+    "oxes",
+    "ox"
+   ],
+   "answer": 0,
+   "rule": "The plural of ox is <b>oxen</b>, a special plural like children."
+  },
+  {
+   "qid": "c5-02-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Make a sentence about a plan.",
+   "answer": [
+    "We",
+    "are",
+    "not",
+    "going",
+    "to",
+    "waste",
+    "any",
+    "milk."
+   ],
+   "alts": [
+    [
+     "We",
+     "are",
+     "going",
+     "not",
+     "to",
+     "waste",
+     "any",
+     "milk."
+    ]
+   ],
+   "rule": "In the negative, <b>not</b> comes after are: <b>are not going to</b> + base verb."
+  },
+  {
+   "qid": "c5-02-48",
+   "type": "build",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "much",
+    "ghee",
+    "did",
+    "the",
+    "wife",
+    "make?"
+   ],
+   "alts": [],
+   "rule": "Ghee is uncountable: <b>How much ghee</b>. After <b>did</b>, use the base verb <b>make</b>."
+  },
+  {
+   "qid": "c5-02-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "The guests are coming at six. What will you do?"
+    ]
+   ],
+   "options": [
+    "I will tidy the room and put out a extra chair.",
+    "I will tidied the room and put out an extra chair.",
+    "I will tidy the room and put out an extra chair."
+   ],
+   "answer": 2,
+   "rule": "<b>extra</b> begins with a vowel sound: <b>an extra chair</b>. After will, use <b>tidy</b>."
+  },
+  {
+   "qid": "c5-02-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How many players and how much time do we have?"
+    ]
+   ],
+   "options": [
+    "We have eleven players and very little time.",
+    "We have eleven player and very little time.",
+    "We have eleven players and very few time."
+   ],
+   "answer": 0,
+   "rule": "Players are counted (<b>eleven players</b>); time is uncountable (<b>little time</b>)."
+  }
+ ]
+}

@@ -1,0 +1,1001 @@
+{
+ "class": 5,
+ "id": "13",
+ "title": "The Adventures of Gulliver",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "Adverbs: how, when, where (and their opposites)"
+  },
+  {
+   "tag": "adj_adverb",
+   "name": "Adjective or adverb (careful / carefully)"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past and was/were (irregular verbs)"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-13-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Gulliver walked careful along the street.",
+    "Gulliver careful walked along the street.",
+    "Gulliver walked carefully along the street."
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> someone walked, use an adverb: <b>carefully</b>, not the adjective careful."
+  },
+  {
+   "qid": "c5-13-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "The storm sinked the ship in November.",
+    "The storm sinking the ship in November.",
+    "The storm sank the ship in November."
+   ],
+   "answer": 2,
+   "rule": "<b>Sink</b> is irregular: sink - <b>sank</b> - sunk. The simple past is <b>sank</b>."
+  },
+  {
+   "qid": "c5-13-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Gulliver was lying in his back.",
+    "Gulliver was lying on his back.",
+    "Gulliver was lying at his back."
+   ],
+   "answer": 1,
+   "rule": "We lie <b>on</b> our back, on our side or on our stomach."
+  },
+  {
+   "qid": "c5-13-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tiny",
+    "men",
+    "climbed",
+    "careful",
+    "up",
+    "his",
+    "leg."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "carefully",
+      "care",
+      "caring"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>How</b> did they climb? Use the adverb <b>carefully</b> to describe the verb climbed."
+  },
+  {
+   "qid": "c5-13-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "Gulliver",
+    "sleep",
+    "for",
+    "nine",
+    "hours."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sleeps",
+      "slept",
+      "sleeping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last night</b> is in the past, so use the simple past: sleep - <b>slept</b>."
+  },
+  {
+   "qid": "c5-13-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "Fill in the gap.",
+   "before": "The Lilliputians cheered",
+   "after": "when Gulliver ate the bread.",
+   "options": [
+    "happily",
+    "happy",
+    "happiness"
+   ],
+   "answer": 0,
+   "rule": "The word tells <b>how</b> they cheered, so we need the adverb <b>happily</b>."
+  },
+  {
+   "qid": "c5-13-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Gulliver",
+   "after": "two or three loaves at a time.",
+   "options": [
+    "eated",
+    "ate",
+    "eaten"
+   ],
+   "answer": 1,
+   "rule": "<b>Eat</b> is irregular: eat - <b>ate</b> - eaten. There is no word 'eated'."
+  },
+  {
+   "qid": "c5-13-08",
+   "type": "build",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "men",
+    "ran",
+    "away",
+    "quickly."
+   ],
+   "alts": [],
+   "rule": "<b>away</b> tells where and <b>quickly</b> tells how they ran. Both come after the verb ran."
+  },
+  {
+   "qid": "c5-13-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "What did you do at the beach yesterday?"
+    ]
+   ],
+   "options": [
+    "I built a big sandcastle.",
+    "I build a big sandcastle.",
+    "I builded a big sandcastle."
+   ],
+   "answer": 0,
+   "rule": "The question is about <b>yesterday</b>. <b>Build</b> is irregular: its past is <b>built</b>."
+  },
+  {
+   "qid": "c5-13-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Where is your schoolbag?"
+    ]
+   ],
+   "options": [
+    "It is between the chair or the bed.",
+    "It is between of the chair and the bed.",
+    "It is between the chair and the bed."
+   ],
+   "answer": 2,
+   "rule": "We say <b>between</b> one thing <b>and</b> another, with no 'of'."
+  },
+  {
+   "qid": "c5-13-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adj_adverb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Gulliver spoke to the king polite.",
+    "Gulliver spoke to the king politeness.",
+    "Gulliver spoke to the king politely."
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> did he speak? Use the adverb <b>politely</b> (adjective + ly)."
+  },
+  {
+   "qid": "c5-13-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "Gulliver put his hand over his face.",
+    "Gulliver putted his hand over his face.",
+    "Gulliver puts his hand over his face yesterday."
+   ],
+   "answer": 0,
+   "rule": "<b>Put</b> has the same form in the past: put - <b>put</b> - put."
+  },
+  {
+   "qid": "c5-13-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "violent",
+    "storm",
+    "struck",
+    "the",
+    "ship",
+    "on",
+    "November."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "at",
+      "in",
+      "to"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>in</b> with months and years: <b>in November</b>, in 1699. Use 'on' with days and dates."
+  },
+  {
+   "qid": "c5-13-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "queen",
+    "and",
+    "the",
+    "princes",
+    "were",
+    "great",
+    "pleased."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "greater",
+      "greatest",
+      "greatly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To say <b>how much</b> they were pleased, use the adverb <b>greatly</b>."
+  },
+  {
+   "qid": "c5-13-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Gulliver put his eye",
+   "after": "the window of the palace.",
+   "options": [
+    "of",
+    "for",
+    "to"
+   ],
+   "answer": 2,
+   "rule": "We put something <b>to</b> a place when we move it there: put his eye <b>to</b> the window."
+  },
+  {
+   "qid": "c5-13-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adj_adverb",
+   "prompt": "Fill in the gap.",
+   "before": "The tiny men worked very",
+   "after": "to build a huge cart.",
+   "options": [
+    "hard",
+    "hardly",
+    "hardness"
+   ],
+   "answer": 0,
+   "rule": "<b>Hard</b> is already an adverb: work hard. <b>Hardly</b> means 'almost not'."
+  },
+  {
+   "qid": "c5-13-17",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Gulliver",
+    "swam",
+    "to",
+    "save",
+    "his",
+    "life."
+   ],
+   "alts": [],
+   "rule": "<b>Swim</b> is irregular: swim - <b>swam</b> - swum. 'to save his life' tells why he swam."
+  },
+  {
+   "qid": "c5-13-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "cart",
+    "stopped",
+    "in",
+    "front",
+    "of",
+    "the",
+    "church."
+   ],
+   "alts": [],
+   "rule": "<b>in front of</b> is a preposition of place made of three words. Keep them together."
+  },
+  {
+   "qid": "c5-13-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How did Riya sing at the annual day?"
+    ]
+   ],
+   "options": [
+    "She sang very sweet.",
+    "She sung very sweetly.",
+    "She sang very sweetly."
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> did she sing? Use the adverb <b>sweetly</b>. Past of sing is <b>sang</b>, not sung."
+  },
+  {
+   "qid": "c5-13-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you find your lost pencil box?"
+    ]
+   ],
+   "options": [
+    "Yes, I found it under my bed.",
+    "Yes, I finded it under my bed.",
+    "Yes, I find it under my bed yesterday."
+   ],
+   "answer": 0,
+   "rule": "Answer a past question in the past. <b>Find</b> is irregular: find - <b>found</b>."
+  },
+  {
+   "qid": "c5-13-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera always comes early, but Raju comes lately.",
+    "Meera always come early, but Raju comes late.",
+    "Meera always comes early, but Raju comes late."
+   ],
+   "answer": 2,
+   "rule": "The opposite of <b>early</b> is <b>late</b>. 'Lately' means 'recently'. Meera takes <b>comes</b>."
+  },
+  {
+   "qid": "c5-13-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adj_adverb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The storm was violently and the waves rose high.",
+    "The storm was violent and the waves rose high.",
+    "The storm was violent and the waves rose highly."
+   ],
+   "answer": 1,
+   "rule": "After <b>was</b> use an adjective (violent). <b>High</b> is the adverb for 'rose high'; 'highly' means 'very'."
+  },
+  {
+   "qid": "c5-13-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Gulliver",
+    "woke",
+    "up,",
+    "he",
+    "feeled",
+    "strings",
+    "across",
+    "his",
+    "body."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "fell",
+      "felt",
+      "feels"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Feel</b> is irregular: feel - <b>felt</b>. ('Fell' is the past of fall.)"
+  },
+  {
+   "qid": "c5-13-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gulliver",
+    "lifted",
+    "the",
+    "tiny",
+    "soldier",
+    "gentle",
+    "onto",
+    "his",
+    "palm."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "gently",
+      "gentler",
+      "gentleness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>How</b> did he lift the soldier? Use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c5-13-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Gulliver",
+   "after": "his head slowly, and many hairs were pulled out.",
+   "options": [
+    "rose",
+    "raised",
+    "raise"
+   ],
+   "answer": 1,
+   "rule": "We <b>raise</b> something (raise - <b>raised</b>). 'Rise - rose' never takes an object like 'his head'."
+  },
+  {
+   "qid": "c5-13-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "One of his feet was tied, so Gulliver could walk only a short distance",
+   "after": "his door.",
+   "options": [
+    "outside",
+    "among",
+    "during"
+   ],
+   "answer": 0,
+   "rule": "<b>outside</b> tells the place. 'Among' needs many things; 'during' is used for time."
+  },
+  {
+   "qid": "c5-13-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Gulliver",
+    "walked",
+    "along",
+    "the",
+    "street",
+    "very",
+    "slowly."
+   ],
+   "alts": [],
+   "rule": "<b>very</b> is an adverb that goes before another adverb: <b>very slowly</b>."
+  },
+  {
+   "qid": "c5-13-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Thousands",
+    "of",
+    "strings",
+    "held",
+    "him",
+    "down."
+   ],
+   "alts": [],
+   "rule": "<b>Hold</b> is irregular: hold - <b>held</b>. With a pronoun, say <b>held him down</b>."
+  },
+  {
+   "qid": "c5-13-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adj_adverb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Why did you get full marks in the drawing test?"
+    ]
+   ],
+   "options": [
+    "Because I drew very neat.",
+    "Because I drew very neatly.",
+    "Because I drawed very neatly."
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> did you draw? <b>neatly</b> (adverb). Draw is irregular: draw - <b>drew</b>."
+  },
+  {
+   "qid": "c5-13-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "When did you reach Pune?"
+    ]
+   ],
+   "options": [
+    "We reached Pune in Monday at seven o'clock.",
+    "We reached Pune on Monday at seven o'clock.",
+    "We reached Pune on Monday in seven o'clock."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days (on Monday) and <b>at</b> with clock times (at seven o'clock)."
+  },
+  {
+   "qid": "c5-13-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adj_adverb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The little men was running quickly across his chest.",
+    "The little men were running quick across his chest.",
+    "The little men were running quickly across his chest."
+   ],
+   "answer": 2,
+   "rule": "<b>Men</b> is plural, so use <b>were</b>. How were they running? <b>quickly</b>."
+  },
+  {
+   "qid": "c5-13-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Two childs fell down and hurt their knees.",
+    "Two children falled down and hurt their knees.",
+    "Two children fell down and hurt their knees."
+   ],
+   "answer": 2,
+   "rule": "The plural of child is <b>children</b>. Fall is irregular: fall - <b>fell</b>."
+  },
+  {
+   "qid": "c5-13-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A old church stood at the end of the street.",
+    "An old church stood in the end of the street.",
+    "An old church stood at the end of the street."
+   ],
+   "answer": 2,
+   "rule": "Use <b>an</b> before a vowel sound (an old). We say <b>at the end of</b> a street."
+  },
+  {
+   "qid": "c5-13-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Thousands",
+    "of",
+    "tiny",
+    "people",
+    "was",
+    "standing",
+    "on",
+    "the",
+    "roofs."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Thousands of people</b> is plural, so the past form is <b>were</b>, not was."
+  },
+  {
+   "qid": "c5-13-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "runs",
+    "fastly",
+    "in",
+    "every",
+    "school",
+    "race."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "fast",
+      "fasting",
+      "fasted"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Fast</b> is both adjective and adverb. There is no word 'fastly': she runs <b>fast</b>."
+  },
+  {
+   "qid": "c5-13-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "fifteen hundred horses pulling the great cart.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>Horses</b> is plural and the story is in the past, so use <b>There were</b>."
+  },
+  {
+   "qid": "c5-13-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The second man climbed even",
+   "after": "than the first.",
+   "options": [
+    "fastest",
+    "faster",
+    "more fast"
+   ],
+   "answer": 1,
+   "rule": "To compare two, add <b>-er</b> to short adverbs like fast: <b>faster than</b>."
+  },
+  {
+   "qid": "c5-13-38",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "of",
+    "Lilliput",
+    "laughed",
+    "very",
+    "loudly."
+   ],
+   "alts": [],
+   "rule": "<b>very loudly</b> tells how they laughed. It comes after the verb laughed."
+  },
+  {
+   "qid": "c5-13-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where were you at five o'clock?"
+    ]
+   ],
+   "options": [
+    "I was at the park with Sameer.",
+    "I were at the park with Sameer.",
+    "I was in the park at Sameer."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>was</b>. We are <b>with</b> a friend, not 'at' a friend."
+  },
+  {
+   "qid": "c5-13-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who finished the race first?"
+    ]
+   ],
+   "options": [
+    "Neha ran the fastest of all the girls.",
+    "Neha ran the most fast of all the girls.",
+    "Neha run the fastest of all the girls."
+   ],
+   "answer": 0,
+   "rule": "Short adverbs take <b>-est</b> to compare many: <b>the fastest</b>. Past of run is <b>ran</b>."
+  },
+  {
+   "qid": "c5-13-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi answered honestly, but his brother answered dishonestly.",
+    "Ravi answered honestly, but his brother answered dishonest.",
+    "Ravi answered honest, but his brother answered dishonestly."
+   ],
+   "answer": 0,
+   "rule": "Both words tell <b>how</b> they answered, so both must be adverbs: <b>honestly</b> and <b>dishonestly</b>."
+  },
+  {
+   "qid": "c5-13-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The city was only half a mile away, but the journey takes almost a full day.",
+    "The city was only half a mile away, but the journey taken almost a full day.",
+    "The city was only half a mile away, but the journey took almost a full day."
+   ],
+   "answer": 2,
+   "rule": "Both parts tell about the past, so use the simple past: take - <b>took</b>."
+  },
+  {
+   "qid": "c5-13-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "king",
+    "come",
+    "out",
+    "to",
+    "meet",
+    "Gulliver,",
+    "he",
+    "did",
+    "not",
+    "climb",
+    "on",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "comes",
+      "came",
+      "coming"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The sentence is in the past (<b>did not</b>), so use the past of come: <b>came</b>."
+  },
+  {
+   "qid": "c5-13-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fifteen",
+    "hundred",
+    "horses",
+    "pulled",
+    "the",
+    "great",
+    "cart",
+    "all",
+    "the",
+    "way",
+    "from",
+    "the",
+    "beach",
+    "at",
+    "the",
+    "city."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "to",
+      "under",
+      "among"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Movement <b>all the way from</b> one place needs <b>to</b> the other: from the beach <b>to</b> the city."
+  },
+  {
+   "qid": "c5-13-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The rabbit ran fast, but the tortoise walked",
+   "after": "and steadily.",
+   "options": [
+    "slowly",
+    "slowness",
+    "slowed"
+   ],
+   "answer": 0,
+   "rule": "Words joined by <b>and</b> match: <b>slowly and steadily</b> are both adverbs telling how it walked."
+  },
+  {
+   "qid": "c5-13-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Gulliver",
+   "after": "quietly till night because he did not want to frighten the tiny people.",
+   "options": [
+    "laid",
+    "lain",
+    "lay"
+   ],
+   "answer": 2,
+   "rule": "Lie (rest) - <b>lay</b> - lain. 'Laid' needs an object (laid the book); 'lain' needs has/had."
+  },
+  {
+   "qid": "c5-13-47",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "A",
+    "hundred",
+    "soldiers",
+    "shot",
+    "arrows",
+    "at",
+    "his",
+    "hand."
+   ],
+   "alts": [],
+   "rule": "We shoot something <b>at</b> a target: shot arrows <b>at</b> his hand."
+  },
+  {
+   "qid": "c5-13-48",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "the",
+    "Lilliputians",
+    "tie",
+    "Gulliver",
+    "down?"
+   ],
+   "alts": [],
+   "rule": "In a past question, <b>did</b> carries the past, so the main verb stays in base form: did ... <b>tie</b>."
+  },
+  {
+   "qid": "c5-13-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "adj_adverb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Did you enjoy the book about the land of tiny people?"
+    ]
+   ],
+   "options": [
+    "Yes! I read it very quickly and loved every page.",
+    "Yes! I read it very quick and loved every page.",
+    "Yes! I readed it very quickly and loved every page."
+   ],
+   "answer": 0,
+   "rule": "How did you read? <b>quickly</b> (adverb). The past of read is <b>read</b>, not readed."
+  },
+  {
+   "qid": "c5-13-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did the team play in the final yesterday?"
+    ]
+   ],
+   "options": [
+    "They played very bad, but they tried hard.",
+    "They played very badly, but they tried hardly.",
+    "They played very badly, but they tried hard."
+   ],
+   "answer": 2,
+   "rule": "<b>badly</b> tells how they played. <b>hard</b> is already an adverb; 'hardly' means 'almost not'."
+  }
+ ]
+}

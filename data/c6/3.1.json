@@ -1,0 +1,993 @@
+{
+ "class": 6,
+ "id": "3.1",
+ "title": "Words",
+ "topics": [
+  {
+   "tag": "subject_verb_agreement",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals: can, could, may, must, should"
+  },
+  {
+   "tag": "polite_requests",
+   "name": "Polite requests and offers"
+  },
+  {
+   "tag": "prefix_opposites",
+   "name": "Opposites with prefixes (un-, dis-, im-, ir-)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-3.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "subject_verb_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kind words make people happy.",
+    "Kind words makes people happy.",
+    "Kind word make people happy."
+   ],
+   "answer": 0,
+   "rule": "<b>words</b> is plural, so the verb has no -s: <b>words make</b>."
+  },
+  {
+   "qid": "c6-3.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prefix_opposites",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It is impolite to shout at people.",
+    "It is unpolite to shout at people.",
+    "It is dispolite to shout at people."
+   ],
+   "answer": 0,
+   "rule": "The opposite of <b>polite</b> is made with <b>im-</b>: <b>impolite</b>."
+  },
+  {
+   "qid": "c6-3.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should thinks before you speak.",
+    "You should think before you speak.",
+    "You should to think before you speak."
+   ],
+   "answer": 1,
+   "rule": "After a modal like <b>should</b>, use the base verb: <b>should think</b> (no -s, no to)."
+  },
+  {
+   "qid": "c6-3.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "subject_verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "sweet",
+    "word",
+    "bring",
+    "hope",
+    "to",
+    "a",
+    "sad",
+    "friend."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "bringing",
+      "are",
+      "brings"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>A sweet word</b> is singular, so the present verb takes -s: <b>brings</b>."
+  },
+  {
+   "qid": "c6-3.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "must",
+    "speaks",
+    "kindly",
+    "to",
+    "our",
+    "elders."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "spoke",
+      "speak",
+      "speaking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>must</b>, use the base verb: <b>must speak</b>."
+  },
+  {
+   "qid": "c6-3.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "before": "",
+   "after": "you please pass me the salt?",
+   "options": [
+    "Must",
+    "Could",
+    "Should"
+   ],
+   "answer": 1,
+   "rule": "Polite requests begin with <b>Could you please ...?</b>"
+  },
+  {
+   "qid": "c6-3.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "prefix_opposites",
+   "prompt": "Fill in the gap.",
+   "before": "Rude words make people",
+   "after": ".",
+   "options": [
+    "dishappy",
+    "imhappy",
+    "unhappy"
+   ],
+   "answer": 2,
+   "rule": "The opposite of <b>happy</b> takes <b>un-</b>: <b>unhappy</b>."
+  },
+  {
+   "qid": "c6-3.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Ask for permission politely.",
+   "answer": [
+    "May",
+    "I",
+    "come",
+    "in?"
+   ],
+   "alts": [],
+   "rule": "Ask permission with <b>May I</b> + base verb: <b>May I come in?</b>"
+  },
+  {
+   "qid": "c6-3.1-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Can I borrow your pencil, please?"
+    ]
+   ],
+   "options": [
+    "Yes, of course. Here it is.",
+    "Yes, of course. Here it are.",
+    "Yes, of course. Here is they."
+   ],
+   "answer": 0,
+   "rule": "One pencil = <b>it</b>, and <b>it</b> takes <b>is</b>: <b>Here it is.</b>"
+  },
+  {
+   "qid": "c6-3.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "subject_verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Do sweet words really help?"
+    ]
+   ],
+   "options": [
+    "Yes, they makes people feel better.",
+    "Yes, they making people feel better.",
+    "Yes, they make people feel better."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> is plural, so use <b>make</b>, not makes."
+  },
+  {
+   "qid": "c6-3.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We must not hurt others with our words.",
+    "We must not to hurt others with our words.",
+    "We must not hurts others with our words."
+   ],
+   "answer": 0,
+   "rule": "<b>must not</b> + base verb: <b>must not hurt</b>."
+  },
+  {
+   "qid": "c6-3.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct offer.",
+   "options": [
+    "Shall I helps you with your bag?",
+    "Shall I to help you with your bag?",
+    "Shall I help you with your bag?"
+   ],
+   "answer": 2,
+   "rule": "Offers use <b>Shall I</b> + base verb: <b>Shall I help ...?</b>"
+  },
+  {
+   "qid": "c6-3.1-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "subject_verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Harsh",
+    "words",
+    "comes",
+    "from",
+    "a",
+    "thoughtless",
+    "mind."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "coming",
+      "come",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>words</b> is plural, so the verb is <b>come</b>, not comes."
+  },
+  {
+   "qid": "c6-3.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "helping",
+    "me",
+    "with",
+    "this",
+    "sum,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "help",
+      "helped",
+      "helps"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Could you</b> + base verb: <b>Could you help me ...?</b>"
+  },
+  {
+   "qid": "c6-3.1-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "subject_verb_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Every word we say",
+   "after": "an effect on others.",
+   "options": [
+    "have",
+    "having",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "<b>Every word</b> is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c6-3.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "prefix_opposites",
+   "prompt": "Fill in the gap.",
+   "before": "Please don't",
+   "after": "with your teacher in a rude way.",
+   "options": [
+    "unagree",
+    "disagree",
+    "imagree"
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>agree</b> takes <b>dis-</b>: <b>disagree</b>."
+  },
+  {
+   "qid": "c6-3.1-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Give advice.",
+   "answer": [
+    "We",
+    "should",
+    "not",
+    "use",
+    "harsh",
+    "words."
+   ],
+   "alts": [],
+   "rule": "Advice: <b>should not</b> + base verb."
+  },
+  {
+   "qid": "c6-3.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prefix_opposites",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Leaving",
+    "litter",
+    "in",
+    "the",
+    "park",
+    "is",
+    "irresponsible."
+   ],
+   "alts": [],
+   "rule": "The opposite of <b>responsible</b> takes <b>ir-</b>: <b>irresponsible</b>."
+  },
+  {
+   "qid": "c6-3.1-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr. Rao",
+     "Shall I open the window for you?"
+    ]
+   ],
+   "options": [
+    "Yes, please. That is very kind for you.",
+    "Yes, please. That is very kind with you.",
+    "Yes, please. That is very kind of you."
+   ],
+   "answer": 2,
+   "rule": "Thank someone with <b>That is very kind of you.</b> The preposition is <b>of</b>."
+  },
+  {
+   "qid": "c6-3.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Can I play with your phone now?"
+    ]
+   ],
+   "options": [
+    "No, you cannot. You must finishes your homework first.",
+    "No, you cannot. You must finish your homework first.",
+    "No, you cannot. You must to finish your homework first."
+   ],
+   "answer": 1,
+   "rule": "<b>must</b> + base verb: <b>must finish</b>."
+  },
+  {
+   "qid": "c6-3.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "subject_verb_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "One of my friends always speaks kindly.",
+    "One of my friends always speak kindly.",
+    "One of my friend always speaks kindly."
+   ],
+   "answer": 0,
+   "rule": "<b>One of my friends</b>: the subject is <b>one</b>, so <b>speaks</b>; after <b>one of</b> use a plural noun."
+  },
+  {
+   "qid": "c6-3.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "prefix_opposites",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Thoughtless words are often unkind.",
+    "Thoughtless words is often unkind.",
+    "Thoughtless words are often inkind."
+   ],
+   "answer": 0,
+   "rule": "<b>words</b> takes <b>are</b>, and the opposite of kind is <b>unkind</b>."
+  },
+  {
+   "qid": "c6-3.1-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You can sings the poem with your friends.",
+    "You can singing the poem with your friends.",
+    "You can sing the poem with your friends."
+   ],
+   "answer": 2,
+   "rule": "<b>can</b> + base verb: <b>can sing</b>."
+  },
+  {
+   "qid": "c6-3.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "should",
+    "said",
+    "sorry",
+    "when",
+    "you",
+    "hurt",
+    "a",
+    "friend."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "says",
+      "saying",
+      "say"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>should</b> is followed by the base verb: <b>should say</b>."
+  },
+  {
+   "qid": "c6-3.1-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "subject_verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "words",
+    "and",
+    "my",
+    "actions",
+    "shows",
+    "who",
+    "I",
+    "am."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "showing",
+      "show",
+      "shown"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two subjects joined by <b>and</b> are plural: <b>words and actions show</b>."
+  },
+  {
+   "qid": "c6-3.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Make a polite offer.",
+   "before": "",
+   "after": "I carry these books for you, Ma'am?",
+   "options": [
+    "Shall",
+    "Am",
+    "Does"
+   ],
+   "answer": 0,
+   "rule": "Offer help with <b>Shall I</b> + base verb."
+  },
+  {
+   "qid": "c6-3.1-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Sweet words",
+   "after": "comfort a sad person.",
+   "options": [
+    "cans",
+    "can",
+    "can to"
+   ],
+   "answer": 1,
+   "rule": "Modals never take -s and are followed directly by the verb: <b>can comfort</b>."
+  },
+  {
+   "qid": "c6-3.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "speak",
+    "more",
+    "slowly?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you please</b> + base verb ... ? is a polite request."
+  },
+  {
+   "qid": "c6-3.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "subject_verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Which words make you happy?"
+    ]
+   ],
+   "options": [
+    "Words of praise makes me happy.",
+    "Words of praise making me happy.",
+    "Words of praise make me happy."
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>Words</b> (plural), not praise, so use <b>make</b>."
+  },
+  {
+   "qid": "c6-3.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prefix_opposites",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why did you say sorry to Rohan?"
+    ]
+   ],
+   "options": [
+    "I was disfair to him yesterday.",
+    "I was unfair to him yesterday.",
+    "I was infair to him yesterday."
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>fair</b> takes <b>un-</b>: <b>unfair</b>."
+  },
+  {
+   "qid": "c6-3.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday I cannot find the right words.",
+    "Yesterday I could not found the right words.",
+    "Yesterday I could not find the right words."
+   ],
+   "answer": 2,
+   "rule": "The past of <b>can</b> is <b>could</b>, and it takes the base verb: <b>could not find</b>."
+  },
+  {
+   "qid": "c6-3.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "prefix_opposites",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It was a unkind thing to say.",
+    "It was an unkind thing to say.",
+    "It was an inkind thing to say."
+   ],
+   "answer": 1,
+   "rule": "<b>unkind</b> begins with a vowel sound, so use <b>an</b>: <b>an unkind thing</b>."
+  },
+  {
+   "qid": "c6-3.1-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "I",
+    "borrowing",
+    "your",
+    "notebook",
+    "for",
+    "a",
+    "day?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "borrowed",
+      "borrow",
+      "borrows"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>May I</b> + base verb: <b>May I borrow ...?</b>"
+  },
+  {
+   "qid": "c6-3.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "subject_verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "in",
+    "my",
+    "class",
+    "speaks",
+    "politely",
+    "to",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "speak",
+      "speaking",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>children</b> (plural), not class, so use <b>speak</b>."
+  },
+  {
+   "qid": "c6-3.1-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "subject_verb_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Kind words from a teacher",
+   "after": "a shy student feel brave.",
+   "options": [
+    "makes",
+    "make",
+    "making"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>words</b> (plural); <b>from a teacher</b> does not change it. Use <b>make</b>."
+  },
+  {
+   "qid": "c6-3.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "When I was five, I",
+   "after": "read only small words.",
+   "options": [
+    "could",
+    "can",
+    "must"
+   ],
+   "answer": 0,
+   "rule": "For ability in the past, use <b>could</b>."
+  },
+  {
+   "qid": "c6-3.1-37",
+   "type": "build",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "some",
+    "water?"
+   ],
+   "alts": [],
+   "rule": "Offer something politely with <b>Would you like ...?</b>"
+  },
+  {
+   "qid": "c6-3.1-38",
+   "type": "build",
+   "level": 4,
+   "topic": "subject_verb_agreement",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Gentle",
+    "words",
+    "calm",
+    "an",
+    "angry",
+    "friend."
+   ],
+   "alts": [],
+   "rule": "Plural subject <b>words</b> + verb without -s: <b>calm</b>."
+  },
+  {
+   "qid": "c6-3.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Can I help you?"
+    ]
+   ],
+   "options": [
+    "Yes, please. I want a blue pen.",
+    "Yes, please. I wants a blue pen.",
+    "Yes, please. I want an blue pen."
+   ],
+   "answer": 0,
+   "rule": "<b>I want</b> (no -s with I) and <b>a</b> before a consonant sound: <b>a blue pen</b>."
+  },
+  {
+   "qid": "c6-3.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meena",
+     "I said something harsh to my sister."
+    ],
+    [
+     "Meena",
+     "What should I do now?"
+    ]
+   ],
+   "options": [
+    "You should apologised to her.",
+    "You should to apologise to her.",
+    "You should apologise to her."
+   ],
+   "answer": 2,
+   "rule": "Advice with <b>should</b> + base verb: <b>should apologise</b>."
+  },
+  {
+   "qid": "c6-3.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "subject_verb_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The words that you choose show the kind of person you are.",
+    "The words that you choose shows the kind of person you are.",
+    "The words that you chooses show the kind of person you are."
+   ],
+   "answer": 0,
+   "rule": "The main subject is <b>The words</b>, so <b>show</b>; inside the clause, <b>you choose</b>."
+  },
+  {
+   "qid": "c6-3.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "prefix_opposites",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you are unpatient, you may speak without thinking.",
+    "If you are dispatient, you may speak without thinking.",
+    "If you are impatient, you may speak without thinking."
+   ],
+   "answer": 2,
+   "rule": "The opposite of <b>patient</b> takes <b>im-</b>: <b>impatient</b>."
+  },
+  {
+   "qid": "c6-3.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "you",
+    "are",
+    "angry,",
+    "you",
+    "must",
+    "stopping",
+    "and",
+    "think",
+    "before",
+    "speaking."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "stop",
+      "stops",
+      "stopped"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>must</b> + base verb, and both verbs match: <b>must stop and think</b>."
+  },
+  {
+   "qid": "c6-3.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "subject_verb_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "one",
+    "of",
+    "these",
+    "kind",
+    "words",
+    "bring",
+    "a",
+    "smile",
+    "to",
+    "her",
+    "face."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "brings",
+      "bringing",
+      "have"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>Every one</b> (singular), so the verb is <b>brings</b>."
+  },
+  {
+   "qid": "c6-3.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "Excuse me,",
+   "after": "you tell me the way to the library?",
+   "options": [
+    "could",
+    "shall",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "Ask a stranger politely with <b>could you</b> + base verb."
+  },
+  {
+   "qid": "c6-3.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "prefix_opposites",
+   "prompt": "Fill in the gap.",
+   "before": "It is",
+   "after": "to make fun of someone who stammers.",
+   "options": [
+    "disrespectful",
+    "unrespectful",
+    "imrespectful"
+   ],
+   "answer": 0,
+   "rule": "The opposite of <b>respectful</b> takes <b>dis-</b>: <b>disrespectful</b>."
+  },
+  {
+   "qid": "c6-3.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "We",
+    "must",
+    "choose",
+    "our",
+    "words",
+    "with",
+    "care."
+   ],
+   "alts": [],
+   "rule": "<b>must</b> + base verb <b>choose</b> shows something we need to do."
+  },
+  {
+   "qid": "c6-3.1-48",
+   "type": "build",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "carry",
+    "your",
+    "heavy",
+    "bag",
+    "for",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "<b>Shall I</b> + base verb + ... + <b>for you?</b> is a polite offer."
+  },
+  {
+   "qid": "c6-3.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "subject_verb_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs. Iyer",
+     "Could you and your brother help me with the boxes?"
+    ]
+   ],
+   "options": [
+    "Yes, of course. We is happy to help.",
+    "Yes, of course. We are happy to help.",
+    "Yes, of course. We are happy to helping."
+   ],
+   "answer": 1,
+   "rule": "<b>We</b> takes <b>are</b>, and <b>happy to</b> is followed by the base verb <b>help</b>."
+  },
+  {
+   "qid": "c6-3.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arnav",
+     "Can I tell everyone your secret?"
+    ]
+   ],
+   "options": [
+    "No, you must not. It might hurts my feelings.",
+    "No, you must not. It might to hurt my feelings.",
+    "No, you must not. It might hurt my feelings."
+   ],
+   "answer": 2,
+   "rule": "Modals like <b>might</b> take the base verb: <b>might hurt</b>."
+  }
+ ]
+}

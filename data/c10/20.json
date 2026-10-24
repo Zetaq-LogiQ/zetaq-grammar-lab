@@ -1,0 +1,1186 @@
+{
+ "class": 10,
+ "id": "20",
+ "title": "The Luncheon",
+ "topics": [
+  {
+   "tag": "articles",
+   "name": "Articles a, an, the"
+  },
+  {
+   "tag": "modals_could",
+   "name": "Uses of could and other modals"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time, place and movement"
+  },
+  {
+   "tag": "word_forms",
+   "name": "Word forms (noun, verb, adjective, adverb)"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-20-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Aryan ordered a ice cream after lunch.",
+    "Aryan ordered an ice creams after lunch.",
+    "Aryan ordered an ice cream after lunch."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> comes before a vowel sound (an ice cream), and <b>an</b> is used only with a singular noun."
+  },
+  {
+   "qid": "c10-20-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She greeted the students bright.",
+    "She greeted the students brightly.",
+    "She greeted the students brightness."
+   ],
+   "answer": 1,
+   "rule": "An adverb (<b>brightly</b>) tells us how she greeted them."
+  },
+  {
+   "qid": "c10-20-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "play",
+    "started",
+    "on",
+    "half",
+    "past",
+    "six."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "at",
+      "in",
+      "for"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at</b> half past six."
+  },
+  {
+   "qid": "c10-20-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "waiter",
+    "careful",
+    "placed",
+    "the",
+    "salmon",
+    "on",
+    "the",
+    "table."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "carefulness",
+      "care",
+      "carefully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A verb (placed) is described by an adverb: <b>carefully</b>."
+  },
+  {
+   "qid": "c10-20-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Foyot's was",
+   "after": "expensive restaurant in Paris.",
+   "options": [
+    "a",
+    "an",
+    "much"
+   ],
+   "answer": 1,
+   "rule": "<b>expensive</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c10-20-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals_could",
+   "prompt": "Fill in the gap.",
+   "before": "When she was young, Grandma",
+   "after": "swim across the river.",
+   "options": [
+    "could",
+    "can",
+    "must"
+   ],
+   "answer": 0,
+   "rule": "<b>could</b> shows ability in the past (when she was young)."
+  },
+  {
+   "qid": "c10-20-07",
+   "type": "build",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "The",
+    "waiter",
+    "said",
+    "that",
+    "the",
+    "salmon",
+    "was",
+    "fresh."
+   ],
+   "alts": [],
+   "rule": "Reported statement: <b>said that</b> + subject + past tense verb (was)."
+  },
+  {
+   "qid": "c10-20-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals_could",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "I can't open this jar."
+    ]
+   ],
+   "options": [
+    "Could I helped you with it?",
+    "Could I help you with it?",
+    "Could I helping you with it?"
+   ],
+   "answer": 1,
+   "rule": "A modal like <b>could</b> is always followed by the base verb: <b>could I help</b>."
+  },
+  {
+   "qid": "c10-20-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "She said, \"I never eat anything for luncheon.\"",
+   "options": [
+    "She told that she never ate anything for luncheon.",
+    "She said that I never ate anything for luncheon.",
+    "She said that she never ate anything for luncheon."
+   ],
+   "answer": 2,
+   "rule": "<b>said that</b>; <b>I</b> becomes <b>she</b>; present <b>eat</b> moves back to <b>ate</b>. <b>told</b> needs an object."
+  },
+  {
+   "qid": "c10-20-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Twenty",
+    "years",
+    "ago,",
+    "the",
+    "young",
+    "writer",
+    "lived",
+    "on",
+    "Paris",
+    "in",
+    "a",
+    "tiny",
+    "apartment.",
+    "He",
+    "earned",
+    "bare",
+    "enough",
+    "money",
+    "to",
+    "pay",
+    "the",
+    "rent."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "into",
+      "by",
+      "in"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "bareness",
+      "barely",
+      "bared"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Live <b>in</b> a city; an adverb (<b>barely</b>) describes the adjective <b>enough</b>."
+  },
+  {
+   "qid": "c10-20-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals_could",
+   "prompt": "Which request is correct?",
+   "options": [
+    "Could you pass me the menu, please?",
+    "Could you passed me the menu, please?",
+    "Could you to pass me the menu, please?"
+   ],
+   "answer": 0,
+   "rule": "<b>Could you</b> + base verb (<b>pass</b>) makes a polite request."
+  },
+  {
+   "qid": "c10-20-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The waiter came up to our table with a basket of peaches.",
+    "The waiter came up at our table with a basket of peaches.",
+    "The waiter came up to our table by a basket of peaches."
+   ],
+   "answer": 0,
+   "rule": "Movement towards a place: <b>came up to</b>; carrying something: <b>with</b> a basket."
+  },
+  {
+   "qid": "c10-20-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "prices",
+    "on",
+    "the",
+    "menu",
+    "were",
+    "horrible",
+    "expensive."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "horror",
+      "horrify",
+      "horribly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "An adjective (expensive) is described by an adverb: <b>horribly</b> expensive."
+  },
+  {
+   "qid": "c10-20-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "lady",
+    "spoke",
+    "me",
+    "that",
+    "she",
+    "was",
+    "not",
+    "hungry."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "said",
+      "talked",
+      "told"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>told</b> takes a person straight after it: <b>told me</b>. We say <b>said to me</b> or <b>spoke to me</b>, never 'spoke me'."
+  },
+  {
+   "qid": "c10-20-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The author caught sight",
+   "after": "the lady at the play.",
+   "options": [
+    "of",
+    "at",
+    "for"
+   ],
+   "answer": 0,
+   "rule": "The fixed phrase is <b>catch sight of</b> someone."
+  },
+  {
+   "qid": "c10-20-16",
+   "type": "build",
+   "level": 2,
+   "topic": "modals_could",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "bring",
+    "us",
+    "the",
+    "bill,",
+    "please?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you</b> + base verb + object + <b>please?</b>"
+  },
+  {
+   "qid": "c10-20-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Waiter",
+     "What would you like, madam?"
+    ]
+   ],
+   "options": [
+    "I would like an cup of coffee and an ice cream.",
+    "I would like a cup of coffee and an ice cream.",
+    "I would like a cup of coffee and a ice cream."
+   ],
+   "answer": 1,
+   "rule": "<b>a</b> before a consonant sound (a cup), <b>an</b> before a vowel sound (an ice cream)."
+  },
+  {
+   "qid": "c10-20-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "What did the doctor tell you?"
+    ]
+   ],
+   "options": [
+    "He told me drink more water.",
+    "He told to me drink more water.",
+    "He told me to drink more water."
+   ],
+   "answer": 2,
+   "rule": "Reported advice or order: <b>told</b> + person + <b>to</b> + base verb."
+  },
+  {
+   "qid": "c10-20-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The waiter said to me, \"The salmon has just come in.\"",
+   "options": [
+    "The waiter told me that the salmon had just came in.",
+    "The waiter said me that the salmon had just come in.",
+    "The waiter told me that the salmon had just come in."
+   ],
+   "answer": 2,
+   "rule": "<b>said to me</b> becomes <b>told me</b>; <b>has come</b> moves back to <b>had come</b>."
+  },
+  {
+   "qid": "c10-20-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "modals_could",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "When",
+    "Grandpa",
+    "was",
+    "young,",
+    "he",
+    "can",
+    "walk",
+    "ten",
+    "kilometres",
+    "without",
+    "rest.",
+    "Now",
+    "he",
+    "walks",
+    "slowly,",
+    "but",
+    "he",
+    "still",
+    "goes",
+    "at",
+    "the",
+    "market",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "may",
+      "could",
+      "must"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "to",
+      "in",
+      "on"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past ability: <b>could</b> walk; movement towards a place: goes <b>to</b> the market."
+  },
+  {
+   "qid": "c10-20-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She asked me whether was I still hungry.",
+    "She asked me whether I was still hungry.",
+    "She asked me that whether I was still hungry."
+   ],
+   "answer": 1,
+   "rule": "Reported question: <b>whether</b> + subject + verb (I was), no <b>that</b>, no question order."
+  },
+  {
+   "qid": "c10-20-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The narrator replied generously.",
+    "The narrator replied generous.",
+    "The narrator replied generosity."
+   ],
+   "answer": 0,
+   "rule": "The verb <b>replied</b> needs an adverb to tell how: <b>generously</b>."
+  },
+  {
+   "qid": "c10-20-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals_could",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Even",
+    "as",
+    "a",
+    "child,",
+    "Abhi",
+    "can",
+    "play",
+    "the",
+    "flute",
+    "beautifully."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "could",
+      "may",
+      "shall"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>as a child</b> points to the past, so past ability is <b>could</b>."
+  },
+  {
+   "qid": "c10-20-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The lady asked the waiter",
+   "after": "there was any salmon.",
+   "options": [
+    "that",
+    "what",
+    "if"
+   ],
+   "answer": 2,
+   "rule": "A reported yes/no question uses <b>if</b> or <b>whether</b>."
+  },
+  {
+   "qid": "c10-20-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "It was",
+   "after": "first salmon of the season.",
+   "options": [
+    "a",
+    "the",
+    "an"
+   ],
+   "answer": 1,
+   "rule": "Ordinal words like <b>first</b> take <b>the</b>: <b>the first</b> salmon."
+  },
+  {
+   "qid": "c10-20-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Make the reported question.",
+   "answer": [
+    "The",
+    "author",
+    "asked",
+    "his",
+    "guest",
+    "if",
+    "she",
+    "was",
+    "still",
+    "hungry."
+   ],
+   "alts": [],
+   "rule": "Reported question: <b>asked</b> + person + <b>if</b> + subject + verb."
+  },
+  {
+   "qid": "c10-20-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals_could",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "We could go to the beach on Sunday."
+    ],
+    [
+     "Kabir",
+     "What do you think?"
+    ]
+   ],
+   "options": [
+    "That's a great idea! We could took a picnic too.",
+    "That's a great idea! We could take a picnic too.",
+    "That's a great idea! We could taking a picnic too."
+   ],
+   "answer": 1,
+   "rule": "<b>could</b> for a suggestion, followed by the base verb: <b>could take</b>."
+  },
+  {
+   "qid": "c10-20-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "When did your cousin arrive from Mumbai?"
+    ]
+   ],
+   "options": [
+    "She arrived in 21st March, on the evening.",
+    "She arrived at 21st March, in the evening.",
+    "She arrived on 21st March, in the evening."
+   ],
+   "answer": 2,
+   "rule": "<b>on</b> a date (on 21st March); <b>in</b> the evening."
+  },
+  {
+   "qid": "c10-20-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The lady said to the author, \"Follow my example.\"",
+   "options": [
+    "The lady advised the author to follow my example.",
+    "The lady advised the author that follow her example.",
+    "The lady advised the author to follow her example."
+   ],
+   "answer": 2,
+   "rule": "Advice: <b>advised</b> + person + <b>to</b> + verb; <b>my</b> becomes <b>her</b>."
+  },
+  {
+   "qid": "c10-20-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "guest",
+    "talked",
+    "cheerful",
+    "about",
+    "art",
+    "and",
+    "music.",
+    "Meanwhile,",
+    "the",
+    "author",
+    "sat",
+    "silent,",
+    "wondering",
+    "anxious",
+    "whether",
+    "he",
+    "had",
+    "enough",
+    "money",
+    "for",
+    "the",
+    "bill."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "cheer",
+      "cheerfulness",
+      "cheerfully"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "anxiety",
+      "anxiously",
+      "anxiousness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Verbs (talked, wondering) are described by adverbs: <b>cheerfully</b>, <b>anxiously</b>."
+  },
+  {
+   "qid": "c10-20-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The guest said that she had read his book.",
+    "The guest said me that she had read his book.",
+    "The guest said that she had reading his book."
+   ],
+   "answer": 0,
+   "rule": "<b>said that</b> (no object); past perfect = <b>had</b> + past participle (<b>read</b>)."
+  },
+  {
+   "qid": "c10-20-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "author",
+    "felt",
+    "embarrass",
+    "when",
+    "he",
+    "left",
+    "a",
+    "small",
+    "tip."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "embarrassed",
+      "embarrassing",
+      "embarrassingly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>felt</b> we need an adjective for the feeling: <b>embarrassed</b>."
+  },
+  {
+   "qid": "c10-20-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ananya",
+    "has",
+    "been",
+    "living",
+    "in",
+    "Pune",
+    "since",
+    "five",
+    "years",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "for",
+      "during"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (five years) and <b>since</b> with a starting point (2020)."
+  },
+  {
+   "qid": "c10-20-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals_could",
+   "prompt": "Fill in the gap.",
+   "before": "If I had known the prices, I",
+   "after": "have chosen a cheaper restaurant.",
+   "options": [
+    "would",
+    "will",
+    "can"
+   ],
+   "answer": 0,
+   "rule": "Third conditional: <b>If</b> + had known, ... <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c10-20-35",
+   "type": "build",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Make the reported command.",
+   "answer": [
+    "She",
+    "told",
+    "the",
+    "waiter",
+    "not",
+    "to",
+    "bring",
+    "any",
+    "coffee."
+   ],
+   "alts": [],
+   "rule": "Negative command in reported speech: <b>told</b> + person + <b>not to</b> + base verb."
+  },
+  {
+   "qid": "c10-20-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Can you come to my birthday lunch on Sunday?"
+    ]
+   ],
+   "options": [
+    "I'd love to, but I can't. I am going in Nashik with my family.",
+    "I'd love to, but I can't. I am going at Nashik with my family.",
+    "I'd love to, but I can't. I am going to Nashik with my family."
+   ],
+   "answer": 2,
+   "rule": "Movement towards a place takes <b>to</b>: going <b>to</b> Nashik."
+  },
+  {
+   "qid": "c10-20-37",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The author asked the lady, \"Are you still hungry?\"",
+   "options": [
+    "The author asked the lady if she was still hungry.",
+    "The author asked the lady if was she still hungry.",
+    "The author asked the lady that was she still hungry."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: <b>asked if</b> + subject + verb (she was); no question order."
+  },
+  {
+   "qid": "c10-20-38",
+   "type": "change",
+   "level": 4,
+   "topic": "modals_could",
+   "prompt": "Rewrite using 'could' to show past ability.",
+   "source": "Abhi was able to perform well in his school days.",
+   "options": [
+    "Abhi could performed well in his school days.",
+    "Abhi could perform well in his school days.",
+    "Abhi could be perform well in his school days."
+   ],
+   "answer": 1,
+   "rule": "<b>was able to</b> = <b>could</b>, followed by the base verb <b>perform</b>."
+  },
+  {
+   "qid": "c10-20-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Yesterday",
+    "my",
+    "friend",
+    "Sara",
+    "invited",
+    "me",
+    "to",
+    "lunch.",
+    "She",
+    "said",
+    "that",
+    "she",
+    "will",
+    "pay",
+    "the",
+    "bill,",
+    "but",
+    "when",
+    "the",
+    "waiter",
+    "came",
+    "at",
+    "our",
+    "table,",
+    "she",
+    "found",
+    "that",
+    "she",
+    "had",
+    "left",
+    "her",
+    "purse",
+    "in",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "shall",
+      "does",
+      "would"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "for",
+      "to",
+      "since"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 32,
+     "options": [
+      "on",
+      "at",
+      "for"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>said</b>, <b>will</b> becomes <b>would</b>; came <b>to</b> our table; left it <b>at</b> home."
+  },
+  {
+   "qid": "c10-20-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "When",
+    "the",
+    "bill",
+    "came,",
+    "the",
+    "author",
+    "was",
+    "so",
+    "nervous",
+    "that",
+    "he",
+    "could",
+    "hard",
+    "breathe.",
+    "He",
+    "paid",
+    "it,",
+    "left",
+    "a",
+    "small",
+    "tip",
+    "and",
+    "walked",
+    "out",
+    "of",
+    "the",
+    "restaurant",
+    "complete",
+    "penniless."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "harder",
+      "hardly",
+      "hardness"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 27,
+     "options": [
+      "completion",
+      "completes",
+      "completely"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>hardly</b> means 'almost not'; the adjective <b>penniless</b> needs the adverb <b>completely</b>."
+  },
+  {
+   "qid": "c10-20-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lady told to the author that she would like to have a chat with him the following Thursday.",
+    "The lady told the author that she will like to have a chat with him the following Thursday.",
+    "The lady told the author that she would like to have a chat with him the following Thursday."
+   ],
+   "answer": 2,
+   "rule": "<b>told</b> + person (no <b>to</b>); <b>will</b> moves back to <b>would</b> after a past reporting verb."
+  },
+  {
+   "qid": "c10-20-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "author",
+    "was",
+    "startled",
+    "at",
+    "the",
+    "sight",
+    "to",
+    "the",
+    "prices",
+    "on",
+    "the",
+    "menu."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "of",
+      "for",
+      "with"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The phrase is <b>at the sight of</b> something."
+  },
+  {
+   "qid": "c10-20-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals_could",
+   "prompt": "Fill in the gap.",
+   "before": "Lack of rain",
+   "after": "cause a drought in the region this year.",
+   "options": [
+    "could",
+    "could have",
+    "ought"
+   ],
+   "answer": 0,
+   "rule": "<b>could</b> + base verb shows a possibility. <b>could have</b> needs a past participle; <b>ought</b> needs <b>to</b>."
+  },
+  {
+   "qid": "c10-20-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Seine flows through the heart of Paris.",
+   "options": [
+    "The",
+    "A",
+    "An"
+   ],
+   "answer": 0,
+   "rule": "Names of rivers take <b>the</b>: <b>the</b> Seine, <b>the</b> Godavari."
+  },
+  {
+   "qid": "c10-20-45",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make the reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "why",
+    "I",
+    "did",
+    "not",
+    "eat",
+    "asparagus."
+   ],
+   "alts": [],
+   "rule": "Reported wh-question: <b>why</b> + subject + verb (I did not eat), ending with a full stop."
+  },
+  {
+   "qid": "c10-20-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did your teacher say about the trip?"
+    ]
+   ],
+   "options": [
+    "She said that we would leave at six and asked us to carry water.",
+    "She said that we would leave at six and asked us carry water.",
+    "She said that we would leave at six and asked us that carry water."
+   ],
+   "answer": 0,
+   "rule": "Reported request: <b>asked</b> + person + <b>to</b> + base verb (asked us <b>to carry</b>)."
+  },
+  {
+   "qid": "c10-20-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals_could",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Could I use your laptop for my project this evening?"
+    ]
+   ],
+   "options": [
+    "Of course you can. I won't needed it until tomorrow.",
+    "Of course you can. I won't need it until tomorrow.",
+    "Of course you can to. I won't need it until tomorrow."
+   ],
+   "answer": 1,
+   "rule": "Give permission with <b>you can</b>; after <b>won't</b> use the base verb <b>need</b>."
+  },
+  {
+   "qid": "c10-20-48",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The lady said to me, \"I shall enjoy a peach now.\"",
+   "options": [
+    "The lady told me that she will enjoy a peach now.",
+    "The lady told me that I would enjoy a peach then.",
+    "The lady told me that she would enjoy a peach then."
+   ],
+   "answer": 2,
+   "rule": "<b>shall</b> becomes <b>would</b>, <b>now</b> becomes <b>then</b>, and <b>I</b> becomes <b>she</b>."
+  },
+  {
+   "qid": "c10-20-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The author said to the waiter, \"Please bring the bill.\"",
+   "options": [
+    "The author requested the waiter to bring the bill.",
+    "The author requested the waiter to brought the bill.",
+    "The author requested to the waiter that bring the bill."
+   ],
+   "answer": 0,
+   "rule": "<b>Please</b> + command becomes <b>requested</b> + person + <b>to</b> + base verb."
+  },
+  {
+   "qid": "c10-20-50",
+   "type": "change",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Rewrite using the verb 'believe' and the adverb form of 'thorough'.",
+   "source": "She had a thorough belief in eating little.",
+   "options": [
+    "She thoroughly believe in eating little.",
+    "She thorough believed in eating little.",
+    "She thoroughly believed in eating little."
+   ],
+   "answer": 2,
+   "rule": "The noun <b>belief</b> becomes the verb <b>believed</b> (past), and <b>thorough</b> becomes the adverb <b>thoroughly</b>."
+  }
+ ]
+}

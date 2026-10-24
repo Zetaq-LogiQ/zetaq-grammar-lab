@@ -1,0 +1,1230 @@
+{
+ "class": 8,
+ "id": "10",
+ "title": "The Plate of Gold",
+ "topics": [
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice (simple, perfect, continuous, modal)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech (statements, questions, commands, requests)"
+  },
+  {
+   "tag": "relative_clauses",
+   "name": "Relative clauses (who, whom, whose, which)"
+  },
+  {
+   "tag": "dependent_prepositions",
+   "name": "Prepositions after adjectives and verbs"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-10-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is in the correct passive form?",
+   "options": [
+    "The plate was given to the peasant.",
+    "The plate was give to the peasant.",
+    "The plate were given to the peasant."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>was/were + past participle</b>. <b>The plate</b> is singular, so: <b>was given</b>."
+  },
+  {
+   "qid": "c8-10-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "dependent_prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The peasant was not aware about the contest.",
+    "The peasant was not aware of the contest.",
+    "The peasant was not aware for the contest."
+   ],
+   "answer": 1,
+   "rule": "We say <b>aware of</b> something."
+  },
+  {
+   "qid": "c8-10-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "beggar",
+    "which",
+    "sat",
+    "by",
+    "the",
+    "gate",
+    "was",
+    "blind."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>who</b> for a person who does the action; <b>which</b> is for things and animals."
+  },
+  {
+   "qid": "c8-10-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "golden",
+    "plate",
+    "was",
+    "find",
+    "in",
+    "the",
+    "temple",
+    "court."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "found",
+      "finding",
+      "finds"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In the passive, <b>was</b> is followed by the past participle: <b>was found</b>."
+  },
+  {
+   "qid": "c8-10-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "dependent_prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The blind beggar was afraid",
+   "after": "the cold night.",
+   "options": [
+    "from",
+    "of",
+    "with"
+   ],
+   "answer": 1,
+   "rule": "We are <b>afraid of</b> something."
+  },
+  {
+   "qid": "c8-10-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "At last, the plate of gold",
+   "after": "on a kind man.",
+   "options": [
+    "was bestowed",
+    "bestowed",
+    "was bestowing"
+   ],
+   "answer": 0,
+   "rule": "The plate does not bestow; it receives the action, so use the passive: <b>was bestowed</b>."
+  },
+  {
+   "qid": "c8-10-07",
+   "type": "build",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Make a sentence with a relative clause.",
+   "answer": [
+    "Leigh",
+    "Hunt",
+    "wrote",
+    "the",
+    "poem",
+    "which",
+    "tells",
+    "this",
+    "story."
+   ],
+   "alts": [],
+   "rule": "<b>which tells this story</b> describes the noun <b>the poem</b>, so it comes right after it."
+  },
+  {
+   "qid": "c8-10-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did your teacher say about the test?"
+    ]
+   ],
+   "options": [
+    "She said that it would be on Monday.",
+    "She said that it will being on Monday.",
+    "She said that it would is on Monday."
+   ],
+   "answer": 0,
+   "rule": "After <b>said</b>, <b>will be</b> changes to <b>would be</b>. After would, use the base form <b>be</b>."
+  },
+  {
+   "qid": "c8-10-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The priests made a proclamation.",
+   "options": [
+    "A proclamation is made by the priests.",
+    "A proclamation was make by the priests.",
+    "A proclamation was made by the priests."
+   ],
+   "answer": 2,
+   "rule": "Simple past active <b>made</b> becomes <b>was made</b> in the passive."
+  },
+  {
+   "qid": "c8-10-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The peasant said, \"I am happy.\"",
+   "options": [
+    "The peasant said that I was happy.",
+    "The peasant said that he were happy.",
+    "The peasant said that he was happy."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b> and <b>am</b> moves back to <b>was</b>."
+  },
+  {
+   "qid": "c8-10-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The man who estate went to the poor was kind.",
+    "The man whom estate went to the poor was kind.",
+    "The man whose estate went to the poor was kind."
+   ],
+   "answer": 2,
+   "rule": "<b>whose</b> shows belonging: the man's estate = the man <b>whose</b> estate."
+  },
+  {
+   "qid": "c8-10-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct passive sentence.",
+   "options": [
+    "The beggars were ignored by most pilgrims.",
+    "The beggars was ignored by most pilgrims.",
+    "The beggars were ignore by most pilgrims."
+   ],
+   "answer": 0,
+   "rule": "<b>The beggars</b> is plural, so <b>were</b>, followed by the past participle <b>ignored</b>."
+  },
+  {
+   "qid": "c8-10-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "dependent_prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "cricket",
+    "match",
+    "tomorrow",
+    "depends",
+    "in",
+    "the",
+    "weather."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "at",
+      "on",
+      "from"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The verb <b>depend</b> is always followed by <b>on</b>."
+  },
+  {
+   "qid": "c8-10-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aditi",
+    "said",
+    "that",
+    "she",
+    "will",
+    "visit",
+    "Benares",
+    "the",
+    "following",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "shall",
+      "is",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a past reporting verb like <b>said</b>, <b>will</b> changes to <b>would</b>."
+  },
+  {
+   "qid": "c8-10-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Meera told me that she",
+   "after": "the poem the day before.",
+   "options": [
+    "has read",
+    "had read",
+    "reads"
+   ],
+   "answer": 1,
+   "rule": "<b>the day before</b> is earlier than the telling, so use the past perfect: <b>had read</b>."
+  },
+  {
+   "qid": "c8-10-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "To",
+   "after": "did the priests give the plate of gold?",
+   "options": [
+    "who",
+    "whom",
+    "whose"
+   ],
+   "answer": 1,
+   "rule": "After a preposition like <b>to</b>, use the object form <b>whom</b>."
+  },
+  {
+   "qid": "c8-10-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "news",
+    "was",
+    "spread",
+    "by",
+    "the",
+    "priests."
+   ],
+   "alts": [],
+   "rule": "Passive: object first + <b>was spread</b> + <b>by</b> + the doer."
+  },
+  {
+   "qid": "c8-10-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "dependent_prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "You are not scared of the dark, are you?"
+    ]
+   ],
+   "options": [
+    "No, I am not afraid of it.",
+    "No, I am not afraid from it.",
+    "No, I not afraid of it."
+   ],
+   "answer": 0,
+   "rule": "We say <b>afraid of</b>, and the sentence needs the verb <b>am</b>."
+  },
+  {
+   "qid": "c8-10-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Has the temple been cleaned for the festival?"
+    ]
+   ],
+   "options": [
+    "Yes, it cleaned yesterday.",
+    "Yes, it was cleaned yesterday.",
+    "Yes, it were cleaned yesterday."
+   ],
+   "answer": 1,
+   "rule": "The temple receives the action, so use the passive: <b>it was cleaned</b>."
+  },
+  {
+   "qid": "c8-10-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The priest said to the peasant, \"You love best.\"",
+   "options": [
+    "The priest told the peasant that you loved best.",
+    "The priest told the peasant that he loved best.",
+    "The priest said the peasant that he loved best."
+   ],
+   "answer": 1,
+   "rule": "<b>said to</b> becomes <b>told</b>, <b>you</b> becomes <b>he</b>, and <b>love</b> moves back to <b>loved</b>."
+  },
+  {
+   "qid": "c8-10-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The priest asked the man what had he done for the poor.",
+    "The priest asked the man what he has done for the poor?",
+    "The priest asked the man what he had done for the poor."
+   ],
+   "answer": 2,
+   "rule": "A reported question uses statement order (<b>he had done</b>) and ends with a full stop."
+  },
+  {
+   "qid": "c8-10-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "day,",
+    "coins",
+    "were",
+    "throw",
+    "into",
+    "the",
+    "beggars'",
+    "bowls."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "thrown",
+      "threw",
+      "throwing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>were thrown</b>."
+  },
+  {
+   "qid": "c8-10-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "claimant",
+    "whom",
+    "estate",
+    "was",
+    "given",
+    "away",
+    "stood",
+    "near",
+    "the",
+    "priests."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The estate belongs to the claimant, so use <b>whose</b>."
+  },
+  {
+   "qid": "c8-10-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The plate of gold can only",
+   "after": "by a person who truly loves others.",
+   "options": [
+    "win",
+    "been won",
+    "be won"
+   ],
+   "answer": 2,
+   "rule": "Modal passive = modal + <b>be</b> + past participle: <b>can be won</b>."
+  },
+  {
+   "qid": "c8-10-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "dependent_prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The peasant felt sorry",
+   "after": "the blind beggar.",
+   "options": [
+    "with",
+    "for",
+    "on"
+   ],
+   "answer": 1,
+   "rule": "We feel <b>sorry for</b> a person in trouble."
+  },
+  {
+   "qid": "c8-10-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "The",
+    "priest",
+    "asked",
+    "him",
+    "what",
+    "he",
+    "had",
+    "done."
+   ],
+   "alts": [],
+   "rule": "In a reported question the subject comes before the verb: <b>what he had done</b>."
+  },
+  {
+   "qid": "c8-10-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who was Leigh Hunt?"
+    ]
+   ],
+   "options": [
+    "He was the poet which wrote 'Abou Ben Adhem'.",
+    "He was the poet whose wrote 'Abou Ben Adhem'.",
+    "He was the poet who wrote 'Abou Ben Adhem'."
+   ],
+   "answer": 2,
+   "rule": "For a person who does the action, use <b>who</b>."
+  },
+  {
+   "qid": "c8-10-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sister",
+     "What did Grandma ask you on the phone?"
+    ]
+   ],
+   "options": [
+    "She asked me whether I had eaten lunch.",
+    "She asked me whether had I eaten lunch.",
+    "She asked me that whether I have eaten lunch."
+   ],
+   "answer": 0,
+   "rule": "Reported yes/no question: <b>whether</b> + subject + verb (<b>I had eaten</b>), with no <b>that</b>."
+  },
+  {
+   "qid": "c8-10-29",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The pilgrims have given many coins.",
+   "options": [
+    "Many coins have been given by the pilgrims.",
+    "Many coins has been given by the pilgrims.",
+    "Many coins have given by the pilgrims."
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive = <b>have/has been</b> + past participle. <b>Many coins</b> is plural: <b>have been given</b>."
+  },
+  {
+   "qid": "c8-10-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "A",
+    "plate",
+    "of",
+    "gold",
+    "was",
+    "find",
+    "in",
+    "the",
+    "temple",
+    "court.",
+    "The",
+    "priests,",
+    "which",
+    "were",
+    "wise",
+    "men,",
+    "said",
+    "it",
+    "would",
+    "go",
+    "to",
+    "the",
+    "one",
+    "who",
+    "loved",
+    "best."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "finding",
+      "finds",
+      "found"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "whose",
+      "who",
+      "whom"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive needs <b>was found</b>; the priests are people, so use <b>who</b>."
+  },
+  {
+   "qid": "c8-10-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The coins were being thrown when the peasant arrived.",
+    "The coins were been thrown when the peasant arrived.",
+    "The coins was being thrown when the peasant arrived."
+   ],
+   "answer": 0,
+   "rule": "Past continuous passive = <b>was/were being</b> + past participle. <b>Coins</b> is plural: <b>were being thrown</b>."
+  },
+  {
+   "qid": "c8-10-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "dependent_prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kiran has been interested in poetry since childhood.",
+    "Kiran has been interested on poetry since childhood.",
+    "Kiran have been interested in poetry since childhood."
+   ],
+   "answer": 0,
+   "rule": "We say <b>interested in</b>. <b>Kiran</b> is singular, so use <b>has been</b>."
+  },
+  {
+   "qid": "c8-10-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Mr",
+    "Rao",
+    "told",
+    "us",
+    "that",
+    "he",
+    "has",
+    "visited",
+    "Benares",
+    "the",
+    "week",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After the past verb <b>told</b>, the present perfect <b>has visited</b> moves back to <b>had visited</b>."
+  },
+  {
+   "qid": "c8-10-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "He was the kindest man",
+   "after": "the priests had ever met.",
+   "options": [
+    "whom",
+    "whose",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "The man is the object of <b>met</b>, so use the object form <b>whom</b>."
+  },
+  {
+   "qid": "c8-10-35",
+   "type": "build",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Make a sentence in the future passive.",
+   "answer": [
+    "The",
+    "plate",
+    "will",
+    "be",
+    "given",
+    "to",
+    "the",
+    "winner."
+   ],
+   "alts": [],
+   "rule": "Future passive = <b>will be</b> + past participle: <b>will be given</b>."
+  },
+  {
+   "qid": "c8-10-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Can the match be played in this heavy rain?"
+    ]
+   ],
+   "options": [
+    "No, it should postponed.",
+    "No, it should be postpone.",
+    "No, it should be postponed."
+   ],
+   "answer": 2,
+   "rule": "Modal passive = <b>should be</b> + past participle: <b>should be postponed</b>."
+  },
+  {
+   "qid": "c8-10-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Friend",
+     "What did the doctor tell you?"
+    ]
+   ],
+   "options": [
+    "He told me rest for two days.",
+    "He told me to rest for two days.",
+    "He told me that rest for two days."
+   ],
+   "answer": 1,
+   "rule": "A reported command uses <b>told + person + to + verb</b>: <b>told me to rest</b>."
+  },
+  {
+   "qid": "c8-10-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The priest asked, \"Who loves best?\"",
+   "options": [
+    "The priest asked who loves best?",
+    "The priest asked who loved best.",
+    "The priest asked that who loved best."
+   ],
+   "answer": 1,
+   "rule": "<b>loves</b> moves back to <b>loved</b>; no <b>that</b> and no question mark in a reported question."
+  },
+  {
+   "qid": "c8-10-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "dependent_prepositions",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "year",
+    "our",
+    "school",
+    "collected",
+    "old",
+    "clothes",
+    "for",
+    "poor",
+    "families.",
+    "The",
+    "clothes",
+    "were",
+    "pack",
+    "by",
+    "the",
+    "students",
+    "and",
+    "sent",
+    "to",
+    "a",
+    "village",
+    "which",
+    "had",
+    "no",
+    "shop.",
+    "The",
+    "success",
+    "of",
+    "the",
+    "drive",
+    "depended",
+    "at",
+    "their",
+    "hard",
+    "work."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "packed",
+      "packing",
+      "packs"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 32,
+     "options": [
+      "in",
+      "on",
+      "for"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive: <b>were packed</b>. The verb <b>depend</b> takes <b>on</b>."
+  },
+  {
+   "qid": "c8-10-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Yesterday",
+    "Grandpa",
+    "told",
+    "me",
+    "the",
+    "story",
+    "of",
+    "a",
+    "peasant",
+    "who",
+    "comforted",
+    "a",
+    "blind",
+    "beggar.",
+    "He",
+    "said",
+    "that",
+    "the",
+    "beggar",
+    "has",
+    "been",
+    "shunned",
+    "by",
+    "everyone.",
+    "Later",
+    "a",
+    "golden",
+    "plate",
+    "was",
+    "give",
+    "to",
+    "the",
+    "peasant",
+    "whom",
+    "loved",
+    "best."
+   ],
+   "errors": [
+    {
+     "i": 19,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 29,
+     "options": [
+      "given",
+      "gave",
+      "giving"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 33,
+     "options": [
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>said</b>: <b>had been</b>. Passive: <b>was given</b>. The peasant does the loving, so <b>who</b>."
+  },
+  {
+   "qid": "c8-10-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the nobles nor the hermit were given the plate.",
+    "Neither the nobles or the hermit was given the plate.",
+    "Neither the nobles nor the hermit was given the plate."
+   ],
+   "answer": 2,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>the hermit was</b>. Pair <b>neither</b> with <b>nor</b>."
+  },
+  {
+   "qid": "c8-10-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "man",
+    "to",
+    "who",
+    "the",
+    "priests",
+    "gave",
+    "the",
+    "plate",
+    "shook",
+    "with",
+    "joy."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the preposition <b>to</b>, use <b>whom</b>: the man <b>to whom</b> they gave it."
+  },
+  {
+   "qid": "c8-10-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "Not one of the rich claimants",
+   "after": "found worthy of the gift.",
+   "options": [
+    "were",
+    "was",
+    "have"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>not one</b> (singular), so use <b>was found</b>."
+  },
+  {
+   "qid": "c8-10-44",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Make a sentence with a passive verb.",
+   "answer": [
+    "Nobody",
+    "knew",
+    "which",
+    "claimant",
+    "would",
+    "be",
+    "chosen."
+   ],
+   "alts": [],
+   "rule": "After <b>knew</b>, the question part keeps statement order: <b>which claimant would be chosen</b> (future-in-past passive)."
+  },
+  {
+   "qid": "c8-10-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neighbour",
+     "Do you know who found my lost cat?"
+    ]
+   ],
+   "options": [
+    "Yes, it was found by the boy whose father runs the tea stall.",
+    "Yes, it was found by the boy who father runs the tea stall.",
+    "Yes, it found by the boy whose father runs the tea stall."
+   ],
+   "answer": 0,
+   "rule": "The father belongs to the boy, so <b>whose</b>; the cat receives the action, so <b>was found</b>."
+  },
+  {
+   "qid": "c8-10-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Everyone must respect the poor.",
+   "options": [
+    "The poor must been respected by everyone.",
+    "The poor must be respected by everyone.",
+    "The poor must be respect by everyone."
+   ],
+   "answer": 1,
+   "rule": "Modal passive = modal + <b>be</b> + past participle: <b>must be respected</b>."
+  },
+  {
+   "qid": "c8-10-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The peasant said to the beggar, \"Please bear your troubles bravely.\"",
+   "options": [
+    "The peasant requested the beggar to bear his troubles bravely.",
+    "The peasant requested the beggar to bear your troubles bravely.",
+    "The peasant requested the beggar that bear his troubles bravely."
+   ],
+   "answer": 0,
+   "rule": "A request becomes <b>requested + person + to + verb</b>, and <b>your</b> becomes <b>his</b>."
+  },
+  {
+   "qid": "c8-10-48",
+   "type": "change",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "Join using 'whose'.",
+   "source": "The beggar was blind. His hands were trembling.",
+   "options": [
+    "The beggar whose hands were trembling was blind.",
+    "The beggar who's hands were trembling was blind.",
+    "The beggar whose his hands were trembling was blind."
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> replaces <b>his</b>, so do not repeat <b>his</b>. <b>who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c8-10-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "Monday",
+    "our",
+    "class",
+    "visit",
+    "an",
+    "old-age",
+    "home.",
+    "Fruit",
+    "and",
+    "books",
+    "were",
+    "gave",
+    "to",
+    "the",
+    "residents,",
+    "who",
+    "were",
+    "delighted",
+    "with",
+    "the",
+    "gifts.",
+    "One",
+    "lady,",
+    "which",
+    "had",
+    "been",
+    "a",
+    "teacher,",
+    "sang",
+    "an",
+    "old",
+    "song",
+    "for",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "visits",
+      "visiting",
+      "visited"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "giving",
+      "given",
+      "give"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "whose",
+      "whom",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last Monday</b>: <b>visited</b>. Passive: <b>were given</b>. A lady is a person: <b>who</b>."
+  },
+  {
+   "qid": "c8-10-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "month",
+    "our",
+    "principal",
+    "said",
+    "that",
+    "the",
+    "annual",
+    "day",
+    "will",
+    "be",
+    "held",
+    "the",
+    "following",
+    "Friday.",
+    "She",
+    "asked",
+    "us",
+    "whether",
+    "we",
+    "have",
+    "finished",
+    "all",
+    "the",
+    "posters.",
+    "Every",
+    "poster",
+    "was",
+    "make",
+    "by",
+    "hand."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "would",
+      "shall",
+      "is"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "has",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "making",
+      "makes",
+      "made"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>said/asked</b>: <b>will</b> becomes <b>would</b>, <b>have</b> becomes <b>had</b>. Passive: <b>was made</b>."
+  }
+ ]
+}

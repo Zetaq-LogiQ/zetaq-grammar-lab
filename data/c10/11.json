@@ -1,0 +1,1198 @@
+{
+ "class": 10,
+ "id": "11",
+ "title": "Let's March",
+ "topics": [
+  {
+   "tag": "sentence_types",
+   "name": "Kinds of sentences and changing them"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect tense"
+  },
+  {
+   "tag": "infinitive",
+   "name": "Infinitives (to + verb)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "passive_modal",
+   "name": "Passive voice (incl. modals and perfect tenses)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-11-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We have reduced the number of child labourers.",
+    "We have reduce the number of child labourers.",
+    "We has reduced the number of child labourers."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>have/has + past participle</b>. With 'We', use <b>have reduced</b>."
+  },
+  {
+   "qid": "c10-11-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Every child is free to playing and learn.",
+    "Every child is free to plays and learn.",
+    "Every child is free to play and learn."
+   ],
+   "answer": 2,
+   "rule": "An infinitive is <b>to + base verb</b>: to <b>play</b>."
+  },
+  {
+   "qid": "c10-11-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "No other challenge is as bigger as fear.",
+    "No other challenge is as big as fear.",
+    "No other challenge is so big than fear."
+   ],
+   "answer": 1,
+   "rule": "Positive degree: <b>as + adjective + as</b> (as big as)."
+  },
+  {
+   "qid": "c10-11-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive_modal",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children should be send to school.",
+    "The children should sent to school.",
+    "The children should be sent to school."
+   ],
+   "answer": 2,
+   "rule": "Passive with a modal: <b>should + be + past participle</b> (be sent)."
+  },
+  {
+   "qid": "c10-11-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct exclamatory sentence.",
+   "options": [
+    "How brave the little bird fought the fire!",
+    "How bravely the little bird fought the fire!",
+    "How bravely did the little bird fought the fire!"
+   ],
+   "answer": 1,
+   "rule": "To describe the action 'fought', use the adverb: <b>How bravely</b> + subject + verb!"
+  },
+  {
+   "qid": "c10-11-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Kailash Satyarthi founded his movement in 1980.",
+    "Kailash Satyarthi has founded his movement in 1980.",
+    "Kailash Satyarthi was founded his movement in 1980."
+   ],
+   "answer": 0,
+   "rule": "A finished past time (<b>in 1980</b>) takes the simple past, not the present perfect."
+  },
+  {
+   "qid": "c10-11-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Governments must invests in education to help poor children.",
+    "Governments must invest in education to help poor children.",
+    "Governments must invest in education to helping poor children."
+   ],
+   "answer": 1,
+   "rule": "After <b>must</b> use the base verb (invest); purpose is shown by <b>to + base verb</b> (to help)."
+  },
+  {
+   "qid": "c10-11-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Nobel Prize is greater than most other honour in the world.",
+    "The Nobel Prize is more greater than most other honours in the world.",
+    "The Nobel Prize is greater than most other honours in the world."
+   ],
+   "answer": 2,
+   "rule": "<b>most other</b> takes a plural noun (honours); never use 'more' with '-er' (greater)."
+  },
+  {
+   "qid": "c10-11-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Millions",
+    "of",
+    "people",
+    "have",
+    "march",
+    "for",
+    "children's",
+    "rights",
+    "since",
+    "1998."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "marching",
+      "marches",
+      "marched"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Present perfect: <b>have + past participle</b> (have marched)."
+  },
+  {
+   "qid": "c10-11-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Little",
+    "Sana",
+    "refuses",
+    "to",
+    "accepts",
+    "defeat",
+    "in",
+    "chess."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "accepted",
+      "accepting",
+      "accept"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b> in an infinitive, use the base verb: to <b>accept</b>."
+  },
+  {
+   "qid": "c10-11-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fear",
+    "is",
+    "the",
+    "bigger",
+    "challenge",
+    "of",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "biggest",
+      "big",
+      "most"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Comparing with <b>all</b> needs the superlative: the <b>biggest</b>."
+  },
+  {
+   "qid": "c10-11-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_modal",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "child",
+    "was",
+    "force",
+    "to",
+    "work",
+    "in",
+    "a",
+    "factory."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "forced",
+      "forcing",
+      "forces"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive: <b>was + past participle</b> (was forced)."
+  },
+  {
+   "qid": "c10-11-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "did",
+    "the",
+    "girl",
+    "asked",
+    "that",
+    "angry",
+    "question",
+    "yesterday?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "asking",
+      "ask",
+      "asks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In a question with <b>did</b>, the main verb is the base form: did ... <b>ask</b>."
+  },
+  {
+   "qid": "c10-11-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Has",
+    "Riya",
+    "ever",
+    "forgot",
+    "to",
+    "thank",
+    "her",
+    "teachers?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "forgets",
+      "forgotten",
+      "forgetting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>has + past participle</b>: Has Riya ever <b>forgotten</b>?"
+  },
+  {
+   "qid": "c10-11-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive_modal",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Child-friendly",
+    "policies",
+    "must",
+    "be",
+    "make",
+    "by",
+    "every",
+    "government."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "made",
+      "making",
+      "makes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Modal passive: <b>must be + past participle</b> (must be made)."
+  },
+  {
+   "qid": "c10-11-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "one",
+    "of",
+    "the",
+    "most",
+    "important",
+    "speech",
+    "ever",
+    "given",
+    "in",
+    "Oslo."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "speeches",
+      "talk",
+      "lecture"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>one of the + superlative</b> is followed by a plural noun: <b>speeches</b>."
+  },
+  {
+   "qid": "c10-11-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you ever helped a child to read?",
+   "options": [
+    "Have",
+    "Did",
+    "Are"
+   ],
+   "answer": 0,
+   "rule": "With the past participle <b>helped</b> + 'ever', the question begins with <b>Have</b>."
+  },
+  {
+   "qid": "c10-11-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "never seen such a brave bird.",
+   "options": [
+    "has",
+    "am",
+    "have"
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, the present perfect is <b>have + past participle</b>."
+  },
+  {
+   "qid": "c10-11-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "The little bird wanted",
+   "after": "the forest fire.",
+   "options": [
+    "to put out",
+    "putting out",
+    "put out"
+   ],
+   "answer": 0,
+   "rule": "<b>want</b> is followed by the infinitive: wanted <b>to put out</b>."
+  },
+  {
+   "qid": "c10-11-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Courage is",
+   "after": "than fear.",
+   "options": [
+    "strongest",
+    "stronger",
+    "more strong"
+   ],
+   "answer": 1,
+   "rule": "With <b>than</b>, use the comparative: <b>stronger</b>."
+  },
+  {
+   "qid": "c10-11-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_modal",
+   "prompt": "Fill in the gap.",
+   "before": "Rights, security and hope can",
+   "after": "through education.",
+   "options": [
+    "restored",
+    "be restored",
+    "be restoring"
+   ],
+   "answer": 1,
+   "rule": "Modal passive: <b>can be + past participle</b> (can be restored)."
+  },
+  {
+   "qid": "c10-11-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "kind the volunteers were to us!",
+   "options": [
+    "What",
+    "How",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "Before an adjective alone (kind), the exclamation word is <b>How</b>."
+  },
+  {
+   "qid": "c10-11-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Kailash Satyarthi has worked for children's rights",
+   "after": "1980.",
+   "options": [
+    "since",
+    "for",
+    "during"
+   ],
+   "answer": 0,
+   "rule": "Use <b>since</b> with a starting point in time (1980); <b>for</b> is used with a length of time."
+  },
+  {
+   "qid": "c10-11-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Very few rivers in India are as",
+   "after": "as the Ganga.",
+   "options": [
+    "longer",
+    "longest",
+    "long"
+   ],
+   "answer": 2,
+   "rule": "Between <b>as ... as</b>, use the positive degree: as <b>long</b> as."
+  },
+  {
+   "qid": "c10-11-25",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "listen",
+    "to",
+    "that",
+    "child."
+   ],
+   "alts": [],
+   "rule": "An imperative sentence starts with the verb, often after <b>Please</b>."
+  },
+  {
+   "qid": "c10-11-26",
+   "type": "build",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Make a sentence in the present perfect.",
+   "answer": [
+    "We",
+    "have",
+    "made",
+    "real",
+    "progress",
+    "together."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>have + past participle</b> + object."
+  },
+  {
+   "qid": "c10-11-27",
+   "type": "build",
+   "level": 3,
+   "topic": "infinitive",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Every",
+    "child",
+    "should",
+    "be",
+    "free",
+    "to",
+    "dream."
+   ],
+   "alts": [],
+   "rule": "free + <b>to + base verb</b>: free to dream."
+  },
+  {
+   "qid": "c10-11-28",
+   "type": "build",
+   "level": 4,
+   "topic": "passive_modal",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Many",
+    "children",
+    "have",
+    "been",
+    "rescued",
+    "from",
+    "factories."
+   ],
+   "alts": [],
+   "rule": "Present perfect passive: <b>have been + past participle</b>."
+  },
+  {
+   "qid": "c10-11-29",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "It",
+    "was",
+    "the",
+    "bravest",
+    "speech",
+    "I",
+    "had",
+    "ever",
+    "heard."
+   ],
+   "alts": [],
+   "rule": "the + superlative + noun + <b>I had ever heard</b>."
+  },
+  {
+   "qid": "c10-11-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Have you finished your speech for Children's Day?"
+    ]
+   ],
+   "options": [
+    "Yes, I have finish it.",
+    "Yes, I has finished it.",
+    "Yes, I have finished it."
+   ],
+   "answer": 2,
+   "rule": "Answer in the same tense: <b>I have finished</b>."
+  },
+  {
+   "qid": "c10-11-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rahul",
+     "How can I help the children at the construction site?"
+    ]
+   ],
+   "options": [
+    "You can to teach them to read in the evenings.",
+    "You can teach them to read in the evenings.",
+    "You can teaching them to read in the evenings."
+   ],
+   "answer": 1,
+   "rule": "After <b>can</b> use the base verb without 'to' (teach); after <b>teach them</b>, use 'to read'."
+  },
+  {
+   "qid": "c10-11-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "passive_modal",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Who built this new school in the village?"
+    ]
+   ],
+   "options": [
+    "It was build by a group of volunteers.",
+    "It is built by a group of volunteers last year.",
+    "It was built by a group of volunteers."
+   ],
+   "answer": 2,
+   "rule": "Past passive: <b>was + past participle</b> (was built)."
+  },
+  {
+   "qid": "c10-11-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which was harder, the science paper or the maths paper?"
+    ]
+   ],
+   "options": [
+    "The maths paper was more harder than the science paper.",
+    "The maths paper was much harder than the science paper.",
+    "The maths paper was hardest than the science paper."
+   ],
+   "answer": 1,
+   "rule": "Use <b>much</b> (not 'more') to make a comparative stronger: much harder."
+  },
+  {
+   "qid": "c10-11-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "I'm going to volunteer at the night school."
+    ],
+    [
+     "Meera",
+     "Do you want to come?"
+    ]
+   ],
+   "options": [
+    "Yes, I'd love to! What time does it start?",
+    "Yes, I'd love to! What time it starts?",
+    "Yes, I'd love to! What time does it starts?"
+   ],
+   "answer": 0,
+   "rule": "Wh-question: <b>What time + does + subject + base verb?</b>"
+  },
+  {
+   "qid": "c10-11-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "How long have you known Shazia?"
+    ]
+   ],
+   "options": [
+    "I know her since Class 3.",
+    "I have knew her since Class 3.",
+    "I have known her since Class 3."
+   ],
+   "answer": 2,
+   "rule": "From a past point till now: present perfect <b>have known</b> + since."
+  },
+  {
+   "qid": "c10-11-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_modal",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Principal",
+     "Can the old library be used for the night classes?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. It can cleaned and painted this week.",
+    "Yes, ma'am. It can be cleaned and painted this week.",
+    "Yes, ma'am. It can be clean and painted this week."
+   ],
+   "answer": 1,
+   "rule": "Modal passive: <b>can be + past participle</b> (cleaned, painted)."
+  },
+  {
+   "qid": "c10-11-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Why did you start collecting old books?"
+    ],
+    [
+     "Riya",
+     "They are piling up in your room!"
+    ]
+   ],
+   "options": [
+    "I want giving them to children who can't afford them.",
+    "I want to gave them to children who can't afford them.",
+    "I want to give them to children who can't afford them."
+   ],
+   "answer": 2,
+   "rule": "<b>want</b> + infinitive: want <b>to give</b> (to + base verb)."
+  },
+  {
+   "qid": "c10-11-38",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Change into an assertive sentence.",
+   "source": "Is the world so poor?",
+   "options": [
+    "The world is not so poor.",
+    "The world are not so poor.",
+    "The world is not so poorly."
+   ],
+   "answer": 0,
+   "rule": "A positive rhetorical question becomes a negative statement: The world <b>is not</b> so poor."
+  },
+  {
+   "qid": "c10-11-39",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How frightened their eyes look!",
+   "options": [
+    "Their eyes looks very frightened.",
+    "Their eyes look very frightened.",
+    "Their eyes look very frighten."
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> becomes <b>very</b>; keep the participle 'frightened' and the plural verb 'look'."
+  },
+  {
+   "qid": "c10-11-40",
+   "type": "change",
+   "level": 2,
+   "topic": "passive_modal",
+   "prompt": "Change into passive voice.",
+   "source": "We can do it.",
+   "options": [
+    "It can be did by us.",
+    "It could be done by we.",
+    "It can be done by us."
+   ],
+   "answer": 2,
+   "rule": "Modal passive: <b>can be + past participle</b>; 'we' becomes <b>by us</b>."
+  },
+  {
+   "qid": "c10-11-41",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_modal",
+   "prompt": "Change into passive voice.",
+   "source": "Her angry question still shakes me.",
+   "options": [
+    "I am still shaken by her angry question.",
+    "I am still shook by her angry question.",
+    "I was still shaken by her angry question."
+   ],
+   "answer": 0,
+   "rule": "Simple present passive: <b>am/is/are + past participle</b> (am shaken)."
+  },
+  {
+   "qid": "c10-11-42",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Fear is the biggest challenge facing humankind.",
+   "options": [
+    "Fear is more bigger than any other challenge facing humankind.",
+    "Fear is bigger than any other challenge facing humankind.",
+    "Fear is biggest than any other challenge facing humankind."
+   ],
+   "answer": 1,
+   "rule": "Superlative to comparative: <b>bigger than any other</b>; never 'more' with an -er word."
+  },
+  {
+   "qid": "c10-11-43",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The Nobel Prize is one of the greatest honours in the world.",
+   "options": [
+    "Very few honours in the world are greater than the Nobel Prize.",
+    "Very few honours in the world is as great as the Nobel Prize.",
+    "Very few honours in the world are as great as the Nobel Prize."
+   ],
+   "answer": 2,
+   "rule": "'one of the + superlative' becomes <b>Very few ... are as + adjective + as</b>."
+  },
+  {
+   "qid": "c10-11-44",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_modal",
+   "prompt": "Change into passive voice.",
+   "source": "We have prevented millions of child deaths.",
+   "options": [
+    "Millions of child deaths have been prevented by us.",
+    "Millions of child deaths has been prevented by us.",
+    "Millions of child deaths have been prevent by us."
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive: <b>have been + past participle</b>; plural subject takes 'have'."
+  },
+  {
+   "qid": "c10-11-45",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Change into an assertive sentence.",
+   "source": "Why didn't you come earlier?",
+   "options": [
+    "You should have came earlier.",
+    "You should have come earlier.",
+    "You should came earlier."
+   ],
+   "answer": 1,
+   "rule": "The question means 'you ought to have come': <b>should have + past participle</b>."
+  },
+  {
+   "qid": "c10-11-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Our",
+    "club",
+    "has",
+    "collected",
+    "two",
+    "hundred",
+    "books",
+    "for",
+    "the",
+    "night",
+    "school.",
+    "We",
+    "have",
+    "also",
+    "teach",
+    "thirty",
+    "children",
+    "to",
+    "read",
+    "since",
+    "June.",
+    "Last",
+    "week,",
+    "two",
+    "more",
+    "volunteers",
+    "joins",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "teaching",
+      "teaches",
+      "taught"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "join",
+      "joining",
+      "joined"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "have <b>taught</b> (past participle); <b>Last week</b> is finished past time, so simple past <b>joined</b>."
+  },
+  {
+   "qid": "c10-11-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Shazia",
+    "is",
+    "the",
+    "braver",
+    "girl",
+    "in",
+    "our",
+    "whole",
+    "school.",
+    "She",
+    "wants",
+    "to",
+    "becomes",
+    "a",
+    "doctor",
+    "and",
+    "help",
+    "poor",
+    "families",
+    "in",
+    "her",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "brave",
+      "bravest",
+      "bravely"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "become",
+      "became",
+      "becoming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Comparing with a whole school needs the superlative <b>bravest</b>; to + base verb: to <b>become</b>."
+  },
+  {
+   "qid": "c10-11-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "How",
+    "proud",
+    "we",
+    "all",
+    "felt",
+    "when",
+    "the",
+    "award",
+    "was",
+    "announce",
+    "on",
+    "TV!",
+    "Why",
+    "did",
+    "nobody",
+    "told",
+    "us",
+    "earlier?",
+    "The",
+    "ceremony",
+    "will",
+    "be",
+    "held",
+    "in",
+    "December,",
+    "isn't",
+    "it?"
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "announced",
+      "announcing",
+      "announces"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "tells",
+      "telling",
+      "tell"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "wasn't",
+      "won't",
+      "doesn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "was <b>announced</b> (passive); did ... <b>tell</b> (base verb); 'will be held' takes the tag <b>won't it?</b>"
+  },
+  {
+   "qid": "c10-11-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_modal",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Child",
+    "labour",
+    "must",
+    "be",
+    "stop",
+    "in",
+    "every",
+    "corner",
+    "of",
+    "the",
+    "world.",
+    "Each",
+    "child",
+    "should",
+    "be",
+    "gave",
+    "a",
+    "book",
+    "and",
+    "a",
+    "toy.",
+    "These",
+    "dreams",
+    "can",
+    "be",
+    "achieved",
+    "only",
+    "if",
+    "all",
+    "of",
+    "us",
+    "works",
+    "together."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "stopping",
+      "stopped",
+      "stops"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "given",
+      "giving",
+      "gives"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "working",
+      "workers",
+      "work"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Modal passive needs past participles: be <b>stopped</b>, be <b>given</b>; 'all of us' is plural: <b>work</b>."
+  },
+  {
+   "qid": "c10-11-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "infinitive",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Two",
+    "weeks",
+    "ago,",
+    "I",
+    "decide",
+    "to",
+    "teach",
+    "at",
+    "the",
+    "night",
+    "school",
+    "every",
+    "Sunday.",
+    "Both",
+    "my",
+    "parents",
+    "has",
+    "agreed,",
+    "and",
+    "my",
+    "brother",
+    "wants",
+    "to",
+    "joins",
+    "me",
+    "too."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "decided",
+      "deciding",
+      "decides"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "have",
+      "is",
+      "was"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "join",
+      "joined",
+      "joining"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two weeks ago</b> is past: <b>decided</b>; 'Both my parents' is plural: <b>have</b> agreed; to + base verb: to <b>join</b>."
+  }
+ ]
+}

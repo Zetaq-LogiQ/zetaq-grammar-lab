@@ -1,0 +1,991 @@
+{
+ "class": 6,
+ "id": "3.2",
+ "title": "Dreaming Big - Dr. Raghunath Mashelkar",
+ "topics": [
+  {
+   "tag": "useful_phrases",
+   "name": "Phrases: give up, with the help of, a lot of, full of"
+  },
+  {
+   "tag": "requests_commands",
+   "name": "Polite requests and commands"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Interview questions (wh- and do/did questions)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-3.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He born in a small village in Goa.",
+    "He is born in a small village in Goa.",
+    "He was born in a small village in Goa."
+   ],
+   "answer": 2,
+   "rule": "For a person's birth in the past, say <b>was born</b>."
+  },
+  {
+   "qid": "c6-3.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "useful_phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He read a lot books.",
+    "He read a lots of books.",
+    "He read a lot of books."
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>a lot of</b> + noun. Never say a lots of."
+  },
+  {
+   "qid": "c6-3.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Where you were born, Sir?",
+    "Where did you born, Sir?",
+    "Where were you born, Sir?"
+   ],
+   "answer": 2,
+   "rule": "In a question, <b>were</b> comes before the subject: <b>Where were you born?</b>"
+  },
+  {
+   "qid": "c6-3.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Years",
+    "ago,",
+    "his",
+    "mother",
+    "work",
+    "very",
+    "hard",
+    "for",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "works",
+      "worked",
+      "working"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Years ago</b> shows the past, so use the simple past: <b>worked</b>."
+  },
+  {
+   "qid": "c6-3.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "useful_phrases",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hall",
+    "was",
+    "fully",
+    "of",
+    "excited",
+    "students."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "filled",
+      "full",
+      "fill"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The phrase is <b>full of</b> + noun. <b>fully</b> is an adverb and cannot go with <b>of</b>."
+  },
+  {
+   "qid": "c6-3.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "requests_commands",
+   "prompt": "Complete the command.",
+   "before": "",
+   "after": "the door.",
+   "options": [
+    "Shuts",
+    "Shut",
+    "Shutting"
+   ],
+   "answer": 1,
+   "rule": "A command begins with the base verb: <b>Shut the door.</b>"
+  },
+  {
+   "qid": "c6-3.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Choose the question word.",
+   "before": "",
+   "after": "inspired you the most, Sir?",
+   "options": [
+    "Who",
+    "Where",
+    "When"
+   ],
+   "answer": 0,
+   "rule": "To ask about a person who did something, use <b>Who</b>."
+  },
+  {
+   "qid": "c6-3.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence in the simple past.",
+   "answer": [
+    "He",
+    "studied",
+    "under",
+    "a",
+    "streetlight."
+   ],
+   "alts": [],
+   "rule": "Simple past: subject + <b>studied</b> (study - studied)."
+  },
+  {
+   "qid": "c6-3.2-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Poorva",
+     "Where did you study as a boy, Sir?"
+    ]
+   ],
+   "options": [
+    "I was study in a school in Girgaon.",
+    "I studied in a school in Girgaon.",
+    "I did studied in a school in Girgaon."
+   ],
+   "answer": 1,
+   "rule": "Answer a <b>did</b> question with the simple past: <b>I studied</b>."
+  },
+  {
+   "qid": "c6-3.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "requests_commands",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Please help me with this poster."
+    ]
+   ],
+   "options": [
+    "Sure, I helps you.",
+    "Sure, I will help you.",
+    "Sure, I will helps you."
+   ],
+   "answer": 1,
+   "rule": "Agree to a request with <b>I will</b> + base verb: <b>I will help</b>."
+  },
+  {
+   "qid": "c6-3.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "requests_commands",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "Could you please telling me the way to the station?",
+    "Could you please tells me the way to the station?",
+    "Could you please tell me the way to the station?"
+   ],
+   "answer": 2,
+   "rule": "<b>Could you please</b> + base verb: <b>tell</b>."
+  },
+  {
+   "qid": "c6-3.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "useful_phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He almost gave up to study.",
+    "He almost gave up studying.",
+    "He almost gave up studied."
+   ],
+   "answer": 1,
+   "rule": "<b>give up</b> is followed by a verb in -ing: <b>gave up studying</b>."
+  },
+  {
+   "qid": "c6-3.2-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "did",
+    "you",
+    "came",
+    "back",
+    "to",
+    "India,",
+    "Sir?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "comes",
+      "coming",
+      "come"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did</b>, use the base verb: <b>did you come</b>, not did you came."
+  },
+  {
+   "qid": "c6-3.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "1974,",
+    "he",
+    "come",
+    "back",
+    "to",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "comes",
+      "coming",
+      "came"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>In 1974</b> is past time. The past of come is <b>came</b>."
+  },
+  {
+   "qid": "c6-3.2-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "useful_phrases",
+   "prompt": "Fill in the gap.",
+   "before": "He got admission",
+   "after": "his friends.",
+   "options": [
+    "with the help by",
+    "with the help of",
+    "with the helps of"
+   ],
+   "answer": 1,
+   "rule": "The phrase is <b>with the help of</b> + person or thing."
+  },
+  {
+   "qid": "c6-3.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "His father",
+   "after": "away when he was six.",
+   "options": [
+    "passes",
+    "pass",
+    "passed"
+   ],
+   "answer": 2,
+   "rule": "<b>when he was six</b> is past time, so use <b>passed away</b>."
+  },
+  {
+   "qid": "c6-3.2-17",
+   "type": "build",
+   "level": 2,
+   "topic": "requests_commands",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Will",
+    "you",
+    "give",
+    "me",
+    "your",
+    "pen,",
+    "please?"
+   ],
+   "alts": [],
+   "rule": "A polite request: <b>Will you</b> + base verb ... <b>please?</b>"
+  },
+  {
+   "qid": "c6-3.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make an interview question.",
+   "answer": [
+    "What",
+    "is",
+    "your",
+    "main",
+    "work",
+    "about?"
+   ],
+   "alts": [],
+   "rule": "<b>What is</b> + subject + <b>about?</b> asks for the topic of something."
+  },
+  {
+   "qid": "c6-3.2-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Poorva",
+     "When did you become a Fellow of the Royal Society?"
+    ]
+   ],
+   "options": [
+    "I became a Fellow in 1998.",
+    "I become a Fellow in 1998.",
+    "I becomed a Fellow in 1998."
+   ],
+   "answer": 0,
+   "rule": "<b>become</b> is irregular: become - <b>became</b> - become."
+  },
+  {
+   "qid": "c6-3.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "useful_phrases",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "How was the science fair?"
+    ]
+   ],
+   "options": [
+    "It was full of exciting models.",
+    "It was full with exciting models.",
+    "It was fulled of exciting models."
+   ],
+   "answer": 0,
+   "rule": "Use <b>full of</b> + noun."
+  },
+  {
+   "qid": "c6-3.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although he did not have shoes, he never stopped learning.",
+    "Although he did not have shoes, he never stop learning.",
+    "Although he did not had shoes, he never stopped learning."
+   ],
+   "answer": 0,
+   "rule": "<b>did not</b> + base verb (<b>have</b>); the other verb is simple past: <b>stopped</b>."
+  },
+  {
+   "qid": "c6-3.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "What you learned from your teacher?",
+    "What did you learned from your teacher?",
+    "What did you learn from your teacher?"
+   ],
+   "answer": 2,
+   "rule": "Past question: <b>What + did + subject + base verb?</b>"
+  },
+  {
+   "qid": "c6-3.2-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "requests_commands",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please don't to disturb the class.",
+    "Please doesn't disturb the class.",
+    "Please don't disturb the class."
+   ],
+   "answer": 2,
+   "rule": "A negative command: <b>Don't</b> + base verb."
+  },
+  {
+   "qid": "c6-3.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "useful_phrases",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "lot",
+    "of",
+    "students",
+    "was",
+    "inspired",
+    "by",
+    "his",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>A lot of students</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c6-3.2-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "does",
+    "he",
+    "keeps",
+    "his",
+    "curiosity",
+    "alive?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "keep",
+      "kept",
+      "keeping"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b>, use the base verb: <b>does he keep</b>."
+  },
+  {
+   "qid": "c6-3.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "requests_commands",
+   "prompt": "Make a polite request.",
+   "before": "",
+   "after": "you tell us about your childhood, Sir?",
+   "options": [
+    "Could",
+    "Are",
+    "Have"
+   ],
+   "answer": 0,
+   "rule": "A polite request: <b>Could you</b> + base verb?"
+  },
+  {
+   "qid": "c6-3.2-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "He worked in the UK, but his heart",
+   "after": "in India.",
+   "options": [
+    "were",
+    "be",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "The story is in the past and <b>heart</b> is singular: <b>was</b>."
+  },
+  {
+   "qid": "c6-3.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "useful_phrases",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "His",
+    "mother",
+    "made",
+    "a",
+    "lot",
+    "of",
+    "sacrifices."
+   ],
+   "alts": [],
+   "rule": "<b>a lot of</b> + plural noun: <b>a lot of sacrifices</b>."
+  },
+  {
+   "qid": "c6-3.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "requests_commands",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Riya, switch off the TV now."
+    ]
+   ],
+   "options": [
+    "Okay, Mom. I am switching it off.",
+    "Okay, Mom. I switching it off.",
+    "Okay, Mom. I am switch it off."
+   ],
+   "answer": 0,
+   "rule": "Something happening now: <b>I am</b> + verb-ing: <b>I am switching</b>."
+  },
+  {
+   "qid": "c6-3.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "chat": [
+    [
+     "Teacher",
+     "Tomorrow a scientist is visiting our school."
+    ],
+    [
+     "Teacher",
+     "Prepare one question for her."
+    ]
+   ],
+   "options": [
+    "When did you start your research?",
+    "When you started your research?",
+    "When did you started your research?"
+   ],
+   "answer": 0,
+   "rule": "Past question: <b>When + did + you + base verb?</b>"
+  },
+  {
+   "qid": "c6-3.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "His friends collected two hundred rupee for him.",
+    "Last year his friends collects two hundred rupees for him.",
+    "His friends collected two hundred rupees for him."
+   ],
+   "answer": 2,
+   "rule": "Past action = <b>collected</b>; after <b>two hundred</b> the noun is plural: <b>rupees</b>."
+  },
+  {
+   "qid": "c6-3.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "useful_phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The streets was full of people.",
+    "The streets were full of people.",
+    "The streets were full by people."
+   ],
+   "answer": 1,
+   "rule": "<b>streets</b> is plural, so <b>were</b>; the phrase is <b>full of</b>."
+  },
+  {
+   "qid": "c6-3.2-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "requests_commands",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "could",
+    "you",
+    "speaks",
+    "a",
+    "little",
+    "louder?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "spoke",
+      "speak",
+      "speaking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>could you</b> + base verb: <b>speak</b>."
+  },
+  {
+   "qid": "c6-3.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Which",
+    "school",
+    "did",
+    "Dr.",
+    "Mashelkar",
+    "went",
+    "to",
+    "as",
+    "a",
+    "boy?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "goes",
+      "go",
+      "gone"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>did</b> already shows the past, so the verb stays in base form: <b>did ... go</b>."
+  },
+  {
+   "qid": "c6-3.2-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "useful_phrases",
+   "prompt": "Fill in the gap.",
+   "before": "She solved the puzzle with the help",
+   "after": "her brother.",
+   "options": [
+    "at",
+    "to",
+    "of"
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>with the help of</b>."
+  },
+  {
+   "qid": "c6-3.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you wake up early every day?",
+   "options": [
+    "Are",
+    "Do",
+    "Does"
+   ],
+   "answer": 1,
+   "rule": "A simple present question with <b>you</b> begins with <b>Do</b>."
+  },
+  {
+   "qid": "c6-3.2-37",
+   "type": "build",
+   "level": 4,
+   "topic": "requests_commands",
+   "prompt": "Make a polite command.",
+   "answer": [
+    "Please",
+    "close",
+    "your",
+    "books",
+    "now."
+   ],
+   "alts": [],
+   "rule": "A command starts with the base verb; <b>Please</b> makes it polite."
+  },
+  {
+   "qid": "c6-3.2-38",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a sentence in the simple past.",
+   "answer": [
+    "He",
+    "returned",
+    "to",
+    "India",
+    "in",
+    "1974."
+   ],
+   "alts": [],
+   "rule": "A finished action at a past time: <b>returned</b> ... <b>in 1974</b>."
+  },
+  {
+   "qid": "c6-3.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "I met a famous doctor today!"
+    ]
+   ],
+   "options": [
+    "Really? What she told you?",
+    "Really? What did she told you?",
+    "Really? What did she tell you?"
+   ],
+   "answer": 2,
+   "rule": "Past question: <b>What did she</b> + base verb <b>tell</b>?"
+  },
+  {
+   "qid": "c6-3.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "How did you do in the exam?"
+    ]
+   ],
+   "options": [
+    "I do very well, Grandma.",
+    "I did very well, Grandma.",
+    "I done very well, Grandma."
+   ],
+   "answer": 1,
+   "rule": "The question is past (<b>did</b>), so reply with the simple past: <b>I did</b>."
+  },
+  {
+   "qid": "c6-3.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "useful_phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although he was among the toppers, he almost gave up to study.",
+    "Although he was among the toppers, he almost gave up studying.",
+    "Although he were among the toppers, he almost gave up studying."
+   ],
+   "answer": 1,
+   "rule": "<b>he was</b>, and <b>give up</b> + verb-ing: <b>gave up studying</b>."
+  },
+  {
+   "qid": "c6-3.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "requests_commands",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "Will you please bring your notebook tomorrow?",
+    "Will you please to bring your notebook tomorrow?",
+    "Will you please brought your notebook tomorrow?"
+   ],
+   "answer": 0,
+   "rule": "<b>Will you please</b> + base verb: <b>bring</b>."
+  },
+  {
+   "qid": "c6-3.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "he",
+    "was",
+    "a",
+    "child,",
+    "he",
+    "walk",
+    "barefoot",
+    "to",
+    "school",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "walks",
+      "walking",
+      "walked"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>When he was a child</b> is past, so a past habit takes the simple past: <b>walked</b>."
+  },
+  {
+   "qid": "c6-3.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "advice",
+    "do",
+    "you",
+    "has",
+    "for",
+    "students",
+    "who",
+    "dream",
+    "big?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "have",
+      "had",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>do you</b>, use the base verb <b>have</b>."
+  },
+  {
+   "qid": "c6-3.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "useful_phrases",
+   "prompt": "Fill in the gap.",
+   "before": "Even if life is",
+   "after": "problems, we can reach great heights.",
+   "options": [
+    "full with",
+    "fully of",
+    "full of"
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>full of</b> + noun."
+  },
+  {
+   "qid": "c6-3.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "After his PhD, he",
+   "after": "in the UK for some time.",
+   "options": [
+    "worked",
+    "works",
+    "was work"
+   ],
+   "answer": 0,
+   "rule": "A finished past period: simple past <b>worked</b>."
+  },
+  {
+   "qid": "c6-3.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Make an interview question.",
+   "answer": [
+    "Why",
+    "did",
+    "you",
+    "come",
+    "back",
+    "to",
+    "India?"
+   ],
+   "alts": [],
+   "rule": "Past question: <b>Why + did + you + base verb?</b>"
+  },
+  {
+   "qid": "c6-3.2-48",
+   "type": "build",
+   "level": 5,
+   "topic": "useful_phrases",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Never",
+    "give",
+    "up",
+    "on",
+    "your",
+    "big",
+    "dreams."
+   ],
+   "alts": [],
+   "rule": "<b>give up on</b> something means stop trying for it. <b>Never</b> + base verb makes a command."
+  },
+  {
+   "qid": "c6-3.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "requests_commands",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms. Das",
+     "Aisha, please ask Rohit politely to close the window."
+    ]
+   ],
+   "options": [
+    "Rohit, could you please closes the window?",
+    "Rohit, could you please close the window?",
+    "Rohit, could you please closing the window?"
+   ],
+   "answer": 1,
+   "rule": "<b>could you please</b> + base verb: <b>close</b>."
+  },
+  {
+   "qid": "c6-3.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Poorva",
+     "What was the most unforgettable moment of your life, Sir?"
+    ]
+   ],
+   "options": [
+    "It was the day I signed the book that Newton had signed.",
+    "It was the day I sign the book that Newton had signed.",
+    "It were the day I signed the book that Newton had signed."
+   ],
+   "answer": 0,
+   "rule": "A finished past event: <b>It was</b> ... <b>I signed</b>."
+  }
+ ]
+}

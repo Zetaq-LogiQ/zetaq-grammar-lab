@@ -1,0 +1,982 @@
+{
+ "class": 5,
+ "id": "23",
+ "title": "Write your own Poem",
+ "topics": [
+  {
+   "tag": "adjectives",
+   "name": "Adjectives (describing words)"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner (-ly)"
+  },
+  {
+   "tag": "as_as",
+   "name": "Comparisons with as ... as"
+  },
+  {
+   "tag": "present_continuous",
+   "name": "Present continuous tense"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh- questions (why, how, where)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-23-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The kitten is softly and cuddly.",
+    "The kitten are soft and cuddly.",
+    "The kitten is soft and cuddly."
+   ],
+   "answer": 2,
+   "rule": "After <b>is</b>, use an adjective to describe the noun: soft and cuddly. One kitten takes <b>is</b>."
+  },
+  {
+   "qid": "c5-23-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "The cat is as white as snow.",
+    "The cat is as whiter as snow.",
+    "The cat is as white than snow."
+   ],
+   "answer": 0,
+   "rule": "To say two things are equal, use <b>as</b> + plain adjective + <b>as</b>: as white as snow."
+  },
+  {
+   "qid": "c5-23-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The birds is singing in the tree.",
+    "The birds are singing in the tree.",
+    "The birds are sing in the tree."
+   ],
+   "answer": 1,
+   "rule": "Present continuous = <b>am/is/are</b> + verb<b>-ing</b>. Birds is plural: <b>are singing</b>."
+  },
+  {
+   "qid": "c5-23-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rabbit",
+    "hops",
+    "playful",
+    "across",
+    "the",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "playfully",
+      "playfulness",
+      "play"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To tell <b>how</b> the rabbit hops, use an adverb: hops <b>playfully</b>."
+  },
+  {
+   "qid": "c5-23-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look!",
+    "Two",
+    "red",
+    "roses",
+    "is",
+    "blooming",
+    "in",
+    "the",
+    "sun."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two roses</b> is plural, so use <b>are</b>: are blooming."
+  },
+  {
+   "qid": "c5-23-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The breeze is",
+   "after": "and fresh.",
+   "options": [
+    "coolly",
+    "cool",
+    "coolness"
+   ],
+   "answer": 1,
+   "rule": "After <b>is</b>, an adjective describes the breeze: <b>cool</b> and fresh."
+  },
+  {
+   "qid": "c5-23-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "The wind",
+   "after": "blowing softly.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 0,
+   "rule": "<b>The wind</b> is one thing, so use <b>is</b> + -ing: is blowing."
+  },
+  {
+   "qid": "c5-23-08",
+   "type": "build",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "children",
+    "are",
+    "flying",
+    "kites."
+   ],
+   "alts": [],
+   "rule": "Present continuous: subject + <b>are</b> + verb-ing: The children <b>are flying</b> kites."
+  },
+  {
+   "qid": "c5-23-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you so happy today?"
+    ]
+   ],
+   "options": [
+    "I am happy because I writed a poem.",
+    "I happy because I wrote a poem.",
+    "I am happy because I wrote a poem."
+   ],
+   "answer": 2,
+   "rule": "A <b>why</b> question is answered with <b>because</b>. Write is irregular: <b>wrote</b>."
+  },
+  {
+   "qid": "c5-23-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What are you doing?"
+    ]
+   ],
+   "options": [
+    "I am writing a poem.",
+    "I writing a poem.",
+    "I am write a poem."
+   ],
+   "answer": 0,
+   "rule": "Present continuous with I: <b>am</b> + verb-ing: I <b>am writing</b>."
+  },
+  {
+   "qid": "c5-23-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera sing sweetly at the festival.",
+    "Meera sings sweetness at the festival.",
+    "Meera sings sweetly at the festival."
+   ],
+   "answer": 2,
+   "rule": "<b>sweetly</b> is an adverb telling how she sings. With Meera (one person), the verb is <b>sings</b>."
+  },
+  {
+   "qid": "c5-23-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Why the sky is so blue today?",
+    "Why is the sky so blue today?",
+    "Why are the sky so blue today?"
+   ],
+   "answer": 1,
+   "rule": "In a wh- question, the verb comes before the subject: Why <b>is the sky</b>...? The sky is one thing: <b>is</b>."
+  },
+  {
+   "qid": "c5-23-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "as_as",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother's",
+    "hands",
+    "are",
+    "as",
+    "soft",
+    "than",
+    "silk."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "so",
+      "then",
+      "as"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The pattern is <b>as</b> ... <b>as</b>: as soft <b>as</b> silk. 'than' goes with -er words."
+  },
+  {
+   "qid": "c5-23-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "does",
+    "these",
+    "little",
+    "birds",
+    "go",
+    "at",
+    "night?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "do",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These birds</b> is plural, so the question uses <b>do</b>: Where <b>do</b> these birds go?"
+  },
+  {
+   "qid": "c5-23-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The butterfly flew",
+   "after": "from flower to flower.",
+   "options": [
+    "happily",
+    "happy",
+    "happiness"
+   ],
+   "answer": 0,
+   "rule": "To tell <b>how</b> it flew, use an adverb: flew <b>happily</b>."
+  },
+  {
+   "qid": "c5-23-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "do you feel when you are sad?",
+   "options": [
+    "Who",
+    "How",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "To ask about a feeling or a way, use <b>How</b>: How do you feel?"
+  },
+  {
+   "qid": "c5-23-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "read",
+    "your",
+    "poem",
+    "aloud."
+   ],
+   "alts": [],
+   "rule": "A polite command starts with <b>Please</b>. <b>aloud</b> is an adverb telling how to read."
+  },
+  {
+   "qid": "c5-23-18",
+   "type": "build",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "My",
+    "kite",
+    "has",
+    "bright",
+    "colours."
+   ],
+   "alts": [],
+   "rule": "An adjective usually comes just before its noun: <b>bright colours</b>."
+  },
+  {
+   "qid": "c5-23-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "What does your poem describe?"
+    ]
+   ],
+   "options": [
+    "It describe a cool breeze.",
+    "It describes a cool breeze.",
+    "It describes a coolly breeze."
+   ],
+   "answer": 1,
+   "rule": "Use an adjective before a noun: a <b>cool</b> breeze. With <b>it</b>, the verb takes -s: describes."
+  },
+  {
+   "qid": "c5-23-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How did Rohan read his poem?"
+    ]
+   ],
+   "options": [
+    "He readed it loudly and clearly.",
+    "He read it loudly and clearly.",
+    "He read it loudness and clearly."
+   ],
+   "answer": 1,
+   "rule": "Past of read is <b>read</b>. Use adverbs to tell how: <b>loudly</b> and <b>clearly</b>."
+  },
+  {
+   "qid": "c5-23-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My dog is as more playful as a puppy.",
+    "My dog is as playful like a puppy.",
+    "My dog is as playful as a puppy."
+   ],
+   "answer": 2,
+   "rule": "Equal comparison: <b>as</b> + adjective + <b>as</b>. No 'more', and not 'like'."
+  },
+  {
+   "qid": "c5-23-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct negative sentence.",
+   "options": [
+    "The children are not sleeping now.",
+    "The children is not sleeping now.",
+    "The children are not sleep now."
+   ],
+   "answer": 0,
+   "rule": "Negative present continuous: <b>are not</b> + verb-ing. Children is plural."
+  },
+  {
+   "qid": "c5-23-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I saw a orange butterfly.",
+    "I saw an oranges butterfly.",
+    "I saw an orange butterfly."
+   ],
+   "answer": 2,
+   "rule": "Use <b>an</b> before a vowel sound: <b>an orange</b> butterfly. An adjective never takes -s."
+  },
+  {
+   "qid": "c5-23-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "kitten",
+    "drinks",
+    "its",
+    "milk",
+    "noisy",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "noise",
+      "noisier",
+      "noisily"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> the kitten drinks, use an adverb: drinks its milk <b>noisily</b>."
+  },
+  {
+   "qid": "c5-23-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Listen!",
+    "Grandpa",
+    "are",
+    "snoring",
+    "in",
+    "the",
+    "next",
+    "room."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "am",
+      "were"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Grandpa</b> is one person, so use <b>is</b>: is snoring."
+  },
+  {
+   "qid": "c5-23-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "The baby's cheeks are as red",
+   "after": "apples.",
+   "options": [
+    "than",
+    "like",
+    "as"
+   ],
+   "answer": 2,
+   "rule": "The pattern is <b>as</b> red <b>as</b> apples. Both words must be 'as'."
+  },
+  {
+   "qid": "c5-23-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Look, the sun",
+   "after": "behind the hills!",
+   "options": [
+    "are setting",
+    "is setting",
+    "setting"
+   ],
+   "answer": 1,
+   "rule": "Something happening right now: <b>is</b> + verb-ing. The sun is one thing: <b>is setting</b>."
+  },
+  {
+   "qid": "c5-23-28",
+   "type": "build",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "is",
+    "the",
+    "baby",
+    "crying?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>is</b> + subject + verb-ing: Why <b>is the baby</b> crying?"
+  },
+  {
+   "qid": "c5-23-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How fast is your new cycle?"
+    ]
+   ],
+   "options": [
+    "It is as fast than the wind!",
+    "It is as fast as the wind!",
+    "It is as faster as the wind!"
+   ],
+   "answer": 1,
+   "rule": "<b>as</b> + plain adjective + <b>as</b>: as fast as the wind."
+  },
+  {
+   "qid": "c5-23-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "You look angry. What happened?"
+    ]
+   ],
+   "options": [
+    "My brother teared my poem.",
+    "My brother torn my poem.",
+    "My brother tore my poem."
+   ],
+   "answer": 2,
+   "rule": "<b>What happened?</b> asks about the past. Tear is irregular: tear - <b>tore</b> - torn."
+  },
+  {
+   "qid": "c5-23-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rani's rose is more redder than mine.",
+    "Rani's rose is red than mine.",
+    "Rani's rose is redder than mine."
+   ],
+   "answer": 2,
+   "rule": "Comparing two: short adjective + <b>-er</b> + than: <b>redder</b> than. Never 'more redder'."
+  },
+  {
+   "qid": "c5-23-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday the wind blew gently through the trees.",
+    "Yesterday the wind blowed gently through the trees.",
+    "Yesterday the wind blew gentle through the trees."
+   ],
+   "answer": 0,
+   "rule": "Blow is irregular: <b>blew</b>. To tell how it blew, use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c5-23-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Three",
+    "tiny",
+    "mouses",
+    "ran",
+    "under",
+    "the",
+    "table."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "mice",
+      "mouse",
+      "many"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Mouse has an irregular plural: one mouse, three <b>mice</b>."
+  },
+  {
+   "qid": "c5-23-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "and",
+    "Neha",
+    "are",
+    "reading",
+    "theirs",
+    "poems",
+    "aloud."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "them",
+      "their",
+      "they"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before a noun, use <b>their</b>: <b>their</b> poems. 'theirs' stands alone with no noun after it."
+  },
+  {
+   "qid": "c5-23-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "Last night, the moon",
+   "after": "as bright as a lamp.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>Last night</b> is past, and the moon is one thing, so use <b>was</b>."
+  },
+  {
+   "qid": "c5-23-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "She wrote",
+   "after": "amazing poem about the rain.",
+   "options": [
+    "a",
+    "an",
+    "two"
+   ],
+   "answer": 1,
+   "rule": "<b>amazing</b> starts with a vowel sound, so use <b>an</b>: an amazing poem."
+  },
+  {
+   "qid": "c5-23-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "yellow",
+    "leaves",
+    "fell",
+    "softly."
+   ],
+   "alts": [],
+   "rule": "The adjective <b>yellow</b> describes the leaves; the adverb <b>softly</b> tells how they fell."
+  },
+  {
+   "qid": "c5-23-38",
+   "type": "build",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "you",
+    "see",
+    "the",
+    "peacock?"
+   ],
+   "alts": [],
+   "rule": "Past wh- question: Where + <b>did</b> + subject + base verb: did you <b>see</b>."
+  },
+  {
+   "qid": "c5-23-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where is the kitten?"
+    ]
+   ],
+   "options": [
+    "It is sleep under the table.",
+    "It sleeping under the table.",
+    "It is sleeping under the table."
+   ],
+   "answer": 2,
+   "rule": "Present continuous needs both parts: <b>is</b> + verb<b>-ing</b>: it is sleeping."
+  },
+  {
+   "qid": "c5-23-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How did your team play yesterday?"
+    ]
+   ],
+   "options": [
+    "They played very well.",
+    "They play very well.",
+    "They played very good."
+   ],
+   "answer": 0,
+   "rule": "Yesterday = past: <b>played</b>. To tell how, use the adverb <b>well</b>, not the adjective good."
+  },
+  {
+   "qid": "c5-23-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My poem is not as long as yours, but it is funnier.",
+    "My poem is not as long as your, but it is funnier.",
+    "My poem is not as longer as yours, but it is funnier."
+   ],
+   "answer": 0,
+   "rule": "<b>not as</b> long <b>as</b> uses the plain adjective. Use <b>yours</b> when no noun follows."
+  },
+  {
+   "qid": "c5-23-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "How could I forgot my best friend's birthday?",
+    "How I could forget my best friend's birthday?",
+    "How could I forget my best friend's birthday?"
+   ],
+   "answer": 2,
+   "rule": "In a question, <b>could</b> comes before I, and after could use the base verb: could I <b>forget</b>."
+  },
+  {
+   "qid": "c5-23-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "peacock",
+    "danced",
+    "beautiful",
+    "while",
+    "the",
+    "clouds",
+    "gathered",
+    "in",
+    "the",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "beauty",
+      "beautifully",
+      "beautify"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To tell <b>how</b> the peacock danced, use an adverb: danced <b>beautifully</b>."
+  },
+  {
+   "qid": "c5-23-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "do",
+    "the",
+    "stars",
+    "shines",
+    "so",
+    "brightly",
+    "at",
+    "night?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "shine",
+      "shining",
+      "shone"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>do</b> in a question, use the base verb with no -s: do the stars <b>shine</b>?"
+  },
+  {
+   "qid": "c5-23-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "That was the",
+   "after": "day of my whole life!",
+   "options": [
+    "happier",
+    "happiest",
+    "happily"
+   ],
+   "answer": 1,
+   "rule": "Compared with every other day, use the <b>-est</b> form: the <b>happiest</b> day."
+  },
+  {
+   "qid": "c5-23-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Right now, the children",
+   "after": "their poems on the board.",
+   "options": [
+    "is writing",
+    "are writing",
+    "were write"
+   ],
+   "answer": 1,
+   "rule": "<b>Right now</b> needs the present continuous. Children is plural: <b>are writing</b>."
+  },
+  {
+   "qid": "c5-23-47",
+   "type": "build",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "is",
+    "the",
+    "most",
+    "beautiful",
+    "flower",
+    "here?"
+   ],
+   "alts": [],
+   "rule": "Long adjectives use <b>the most</b>: the most beautiful. In a wh- question, <b>is</b> comes right after Which."
+  },
+  {
+   "qid": "c5-23-48",
+   "type": "build",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "are",
+    "you",
+    "whispering",
+    "so",
+    "softly?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>are</b> + you + verb-ing. <b>softly</b> tells how you whisper."
+  },
+  {
+   "qid": "c5-23-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Is your kite as big as mine?"
+    ]
+   ],
+   "options": [
+    "No, it is smaller than your.",
+    "No, it is more small than yours.",
+    "No, it is smaller than yours."
+   ],
+   "answer": 2,
+   "rule": "Not as big = <b>smaller than</b>. Use <b>yours</b> because no noun follows it."
+  },
+  {
+   "qid": "c5-23-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "What are you writing so carefully?"
+    ]
+   ],
+   "options": [
+    "I is writing a poem about the monsoon clouds.",
+    "I am writes a poem about the monsoon clouds.",
+    "I am writing a poem about the monsoon clouds."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, use <b>am</b> + verb-ing: I <b>am writing</b>."
+  }
+ ]
+}

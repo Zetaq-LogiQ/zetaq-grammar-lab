@@ -1,0 +1,1216 @@
+{
+ "class": 9,
+ "id": "07",
+ "title": "A True Story of Sea Turtles",
+ "topics": [
+  {
+   "tag": "relative_clause",
+   "name": "Adjective clauses: who, which, whose, where"
+  },
+  {
+   "tag": "adverb_clause",
+   "name": "Main and subordinate clauses: when, as soon as, until, unless"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "linking_words",
+   "name": "Linking words: however, therefore, although, despite"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-07-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The volunteer which found the egg shells told us at once.",
+    "The volunteer who found the egg shells told us at once.",
+    "The volunteer who he found the egg shells told us at once."
+   ],
+   "answer": 1,
+   "rule": "For a person, the adjective clause begins with <b>who</b>, and <b>who</b> is already the subject, so no extra 'he'."
+  },
+  {
+   "qid": "c9-07-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct passive sentence.",
+   "options": [
+    "The eggs was laid in a deep pit.",
+    "The eggs were lay in a deep pit.",
+    "The eggs were laid in a deep pit."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>be</b> + past participle. Plural 'eggs' takes <b>were</b>, and the participle of lay is <b>laid</b>."
+  },
+  {
+   "qid": "c9-07-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "turtle",
+    "returns",
+    "to",
+    "the",
+    "beach",
+    "where",
+    "she",
+    "were",
+    "born."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "is",
+      "was",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Inside the clause the subject is <b>she</b> (singular), and birth is in the past: <b>she was born</b>."
+  },
+  {
+   "qid": "c9-07-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fifty",
+    "nests",
+    "were",
+    "protect",
+    "by",
+    "the",
+    "villagers",
+    "last",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "protecting",
+      "protected",
+      "protects"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In the passive, <b>were</b> is followed by the past participle: <b>were protected</b>."
+  },
+  {
+   "qid": "c9-07-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "In India, sea turtles",
+   "after": "protected by law.",
+   "options": [
+    "is",
+    "has",
+    "are"
+   ],
+   "answer": 2,
+   "rule": "Plural subject 'sea turtles' + passive in the present: <b>are protected</b>."
+  },
+  {
+   "qid": "c9-07-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Choose the right linking word.",
+   "before": "The beach was closed to the public,",
+   "after": "the eggs were safe there.",
+   "options": [
+    "so",
+    "despite",
+    "however"
+   ],
+   "answer": 0,
+   "rule": "The second idea is the result of the first, so join with <b>so</b>. 'despite' needs a noun, and 'however' cannot join clauses with a comma."
+  },
+  {
+   "qid": "c9-07-07",
+   "type": "build",
+   "level": 1,
+   "topic": "relative_clause",
+   "prompt": "Make a sentence with an adjective clause.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "beach",
+    "where",
+    "turtles",
+    "nest."
+   ],
+   "alts": [],
+   "rule": "<b>where turtles nest</b> is an adjective clause telling us more about 'the beach'."
+  },
+  {
+   "qid": "c9-07-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverb_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "When did the baby turtles hatch?"
+    ]
+   ],
+   "options": [
+    "They hatched when the sun was came up.",
+    "They hatch when the sun come up.",
+    "They hatched when the sun came up."
+   ],
+   "answer": 2,
+   "rule": "Both clauses tell about a past event, so both use the simple past: <b>hatched</b> ... <b>came up</b>."
+  },
+  {
+   "qid": "c9-07-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "Who made this short film on turtles?"
+    ]
+   ],
+   "options": [
+    "It was make by our school club.",
+    "It made by our school club.",
+    "It was made by our school club."
+   ],
+   "answer": 2,
+   "rule": "Past passive = <b>was/were</b> + past participle: <b>It was made by</b> ..."
+  },
+  {
+   "qid": "c9-07-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The villagers protect the nests.",
+   "options": [
+    "The nests were protected by the villagers.",
+    "The nests are protected by the villagers.",
+    "The nests are protect by the villagers."
+   ],
+   "answer": 1,
+   "rule": "Simple present active becomes <b>am/is/are</b> + past participle: <b>are protected</b>. Keep the same tense."
+  },
+  {
+   "qid": "c9-07-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverb_clause",
+   "prompt": "Which sentence is correctly joined?",
+   "options": [
+    "As soon as the eggs were laid, the turtle went back to the sea.",
+    "As soon as the eggs were laid, so the turtle went back to the sea.",
+    "As soon the eggs were laid, the turtle went back to the sea."
+   ],
+   "answer": 0,
+   "rule": "The linker is <b>as soon as</b> (three words), and the main clause needs no extra 'so'."
+  },
+  {
+   "qid": "c9-07-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Despite of the heavy rain, the volunteers walked along the beach.",
+    "Despite the heavy rain, the volunteers walked along the beach.",
+    "Despite it rained heavily, the volunteers walked along the beach."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> is followed directly by a noun phrase (no 'of', no full clause): <b>Despite the heavy rain</b>."
+  },
+  {
+   "qid": "c9-07-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Katdare",
+    "is",
+    "the",
+    "man",
+    "which",
+    "started",
+    "the",
+    "turtle",
+    "project."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "whose",
+      "whom",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For a person who does the action, use <b>who</b>, not 'which'."
+  },
+  {
+   "qid": "c9-07-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverb_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sneha",
+    "stayed",
+    "on",
+    "the",
+    "beach",
+    "until",
+    "the",
+    "last",
+    "hatchling",
+    "reach",
+    "the",
+    "sea."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "reaching",
+      "reached",
+      "reaches"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The main clause is in the past (<b>stayed</b>), so the 'until' clause is also past: <b>reached</b>."
+  },
+  {
+   "qid": "c9-07-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative_clause",
+   "prompt": "Fill in the gap.",
+   "before": "The female turtle,",
+   "after": "shell was olive green, came ashore at night.",
+   "options": [
+    "whose",
+    "who's",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> shows possession (her shell). 'who's' means 'who is'."
+  },
+  {
+   "qid": "c9-07-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverb_clause",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the turtle has laid her eggs, she covers them with sand.",
+   "options": [
+    "As soon as",
+    "No sooner",
+    "Hardly"
+   ],
+   "answer": 0,
+   "rule": "<b>As soon as</b> starts a time clause with normal word order. 'No sooner' and 'Hardly' need 'had/does' and 'than/when'."
+  },
+  {
+   "qid": "c9-07-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "eggs",
+    "were",
+    "buried",
+    "in",
+    "a",
+    "fenced",
+    "pit."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>were</b> + past participle <b>buried</b>."
+  },
+  {
+   "qid": "c9-07-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Did you see the hatchlings at Velas?"
+    ]
+   ],
+   "options": [
+    "No, we reached late; although, the guide showed us a video.",
+    "No, we reached late; however, the guide showed us a video.",
+    "No, we reached late, despite the guide showed us a video."
+   ],
+   "answer": 1,
+   "rule": "<b>however,</b> links two sentences after a semicolon. 'Although' and 'despite' cannot be used like this."
+  },
+  {
+   "qid": "c9-07-19",
+   "type": "change",
+   "level": 2,
+   "topic": "adverb_clause",
+   "prompt": "Join using 'as soon as'.",
+   "source": "The eggs hatched. The hatchlings rushed to the sea.",
+   "options": [
+    "As soon as the eggs hatched, the hatchlings rush to the sea.",
+    "As soon as the eggs hatched, the hatchlings rushed to the sea.",
+    "As soon as the eggs hatched, then the hatchlings rushed to the sea."
+   ],
+   "answer": 1,
+   "rule": "<b>As soon as</b> joins the clauses; keep both in the past and do not add 'then'."
+  },
+  {
+   "qid": "c9-07-20",
+   "type": "change",
+   "level": 2,
+   "topic": "relative_clause",
+   "prompt": "Join using 'who'.",
+   "source": "The villagers offer homestays. They help protect the turtles.",
+   "options": [
+    "The villagers who offer homestays they help protect the turtles.",
+    "The villagers who offer homestays help protect the turtles.",
+    "The villagers who offers homestays help protect the turtles."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces 'They', so drop 'they'. 'who' refers to 'villagers' (plural), so the verb is <b>offer</b>."
+  },
+  {
+   "qid": "c9-07-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "relative_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Velas, that is in Ratnagiri district, is famous for its turtles.",
+    "Velas, which is in Ratnagiri district, is famous for its turtles.",
+    "Velas, which is in Ratnagiri district, are famous for its turtles."
+   ],
+   "answer": 1,
+   "rule": "Between commas (extra information) use <b>which</b>, not 'that'. Velas is one place, so <b>is famous</b>."
+  },
+  {
+   "qid": "c9-07-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct passive sentence.",
+   "options": [
+    "A booklet on turtles is being printed this week.",
+    "A booklet on turtles is being print this week.",
+    "A booklet on turtles is been printed this week."
+   ],
+   "answer": 0,
+   "rule": "Present continuous passive = <b>is/are being</b> + past participle: <b>is being printed</b>."
+  },
+  {
+   "qid": "c9-07-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ira",
+    "stayed",
+    "awake",
+    "all",
+    "night",
+    "despite",
+    "she",
+    "was",
+    "very",
+    "sleepy."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "although",
+      "however",
+      "therefore"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A full clause (she was sleepy) needs <b>although</b>. 'Despite' takes a noun or -ing form."
+  },
+  {
+   "qid": "c9-07-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "nests",
+    "on",
+    "the",
+    "north",
+    "beach",
+    "was",
+    "guarded",
+    "by",
+    "Raju."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "were",
+      "is",
+      "has"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject <b>Both nests</b> is plural, so the passive helper is <b>were</b>."
+  },
+  {
+   "qid": "c9-07-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "By the end of that season, more than fifty nests",
+   "after": "protected.",
+   "options": [
+    "has been",
+    "have being",
+    "had been"
+   ],
+   "answer": 2,
+   "rule": "'By the end of that season' looks back from the past: past perfect passive <b>had been protected</b>."
+  },
+  {
+   "qid": "c9-07-26",
+   "type": "build",
+   "level": 3,
+   "topic": "adverb_clause",
+   "prompt": "Begin with the subordinate clause.",
+   "answer": [
+    "Although",
+    "it",
+    "was",
+    "raining,",
+    "we",
+    "waited",
+    "for",
+    "the",
+    "hatchlings."
+   ],
+   "alts": [],
+   "rule": "The subordinate clause <b>Although it was raining</b> comes first, followed by a comma and the main clause."
+  },
+  {
+   "qid": "c9-07-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Which turtles nest on our Konkan coast?"
+    ]
+   ],
+   "options": [
+    "Mostly Olive Ridleys, who's babies hatch in about fifty days.",
+    "Mostly Olive Ridleys, which babies hatch in about fifty days.",
+    "Mostly Olive Ridleys, whose babies hatch in about fifty days."
+   ],
+   "answer": 2,
+   "rule": "To show possession (their babies), use <b>whose</b>."
+  },
+  {
+   "qid": "c9-07-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sir",
+     "Why did the villagers stop stealing eggs?"
+    ]
+   ],
+   "options": [
+    "Tourism brought them income; therefore they protects the nests now.",
+    "Tourism brought them income; despite, they started protecting the nests.",
+    "Tourism brought them income; therefore, they began to protect the nests."
+   ],
+   "answer": 2,
+   "rule": "<b>therefore,</b> introduces a result. 'they protects' breaks agreement, and 'despite' cannot link two sentences."
+  },
+  {
+   "qid": "c9-07-29",
+   "type": "change",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although the hatchlings were tiny, they faced the waves bravely.",
+   "options": [
+    "Despite the hatchlings were tiny, they faced the waves bravely.",
+    "Despite of being tiny, the hatchlings faced the waves bravely.",
+    "Despite being tiny, the hatchlings faced the waves bravely."
+   ],
+   "answer": 2,
+   "rule": "<b>Despite</b> + -ing form (no 'of'): <b>Despite being tiny</b>, ..."
+  },
+  {
+   "qid": "c9-07-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "relative_clause",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "Sunday",
+    "we",
+    "visited",
+    "Velas,",
+    "which",
+    "is",
+    "famous",
+    "for",
+    "its",
+    "turtles.",
+    "The",
+    "guide",
+    "who",
+    "took",
+    "us",
+    "to",
+    "the",
+    "beach",
+    "were",
+    "very",
+    "kind.",
+    "He",
+    "showed",
+    "us",
+    "a",
+    "nest",
+    "which",
+    "the",
+    "eggs",
+    "were",
+    "kept",
+    "safe."
+   ],
+   "errors": [
+    {
+     "i": 19,
+     "options": [
+      "was",
+      "are",
+      "is"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 27,
+     "options": [
+      "where",
+      "whose",
+      "who"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>The guide</b> (singular, past): <b>was</b>. A place where something happens takes <b>where</b>."
+  },
+  {
+   "qid": "c9-07-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverb_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the volunteers had not acted, the turtles would disappeared from Konkan.",
+    "If the volunteers have not acted, the turtles would have disappeared from Konkan.",
+    "If the volunteers had not acted, the turtles would have disappeared from Konkan."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If + had + past participle</b>, <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-07-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "volunteer",
+    "who",
+    "joins",
+    "the",
+    "camp",
+    "have",
+    "to",
+    "wake",
+    "up",
+    "at",
+    "five."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "having",
+      "has",
+      "were"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every volunteer</b> is singular, so the main verb is <b>has to</b>. The clause 'who joins the camp' does not change that."
+  },
+  {
+   "qid": "c9-07-33",
+   "type": "fill",
+   "level": 4,
+   "topic": "relative_clause",
+   "prompt": "Fill in the gap.",
+   "before": "Each of the families that offer homestays",
+   "after": "ten per cent to the fund.",
+   "options": [
+    "give",
+    "giving",
+    "gives"
+   ],
+   "answer": 2,
+   "rule": "<b>Each of</b> + plural noun takes a singular verb: <b>Each ... gives</b>."
+  },
+  {
+   "qid": "c9-07-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Fill in the gap.",
+   "before": "Despite",
+   "after": "no experience, the team started a turtle project.",
+   "options": [
+    "having",
+    "have",
+    "had"
+   ],
+   "answer": 0,
+   "rule": "After <b>despite</b>, use a noun or an -ing form: <b>Despite having</b>."
+  },
+  {
+   "qid": "c9-07-35",
+   "type": "build",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Make a present perfect passive sentence.",
+   "answer": [
+    "The",
+    "festival",
+    "has",
+    "been",
+    "visited",
+    "by",
+    "eight",
+    "hundred",
+    "people."
+   ],
+   "alts": [],
+   "rule": "Present perfect passive = <b>has/have been</b> + past participle: <b>has been visited</b>."
+  },
+  {
+   "qid": "c9-07-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Has the homestay room been cleaned for the guests?"
+    ]
+   ],
+   "options": [
+    "Yes, it has just be cleaned.",
+    "Yes, it have just been cleaned.",
+    "Yes, it has just been cleaned."
+   ],
+   "answer": 2,
+   "rule": "Present perfect passive: <b>it has been cleaned</b>. 'it' takes <b>has</b>, and after 'has' we need <b>been</b>."
+  },
+  {
+   "qid": "c9-07-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverb_clause",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "Will you call me when the eggs hatch?"
+    ]
+   ],
+   "options": [
+    "Sure, I will call you as soon as they hatch.",
+    "Sure, I will call you as soon as they will hatch.",
+    "Sure, I call you as soon as they hatched."
+   ],
+   "answer": 0,
+   "rule": "In a time clause about the future, use the simple present (<b>as soon as they hatch</b>), not 'will'."
+  },
+  {
+   "qid": "c9-07-38",
+   "type": "change",
+   "level": 4,
+   "topic": "adverb_clause",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If people do not protect the nests, the turtles will die out.",
+   "options": [
+    "Unless people protect the nests, the turtles will die out.",
+    "Unless people do not protect the nests, the turtles will die out.",
+    "Unless people protected the nests, the turtles will die out."
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> means 'if ... not', so drop 'do not' and keep the present tense: <b>Unless people protect</b>."
+  },
+  {
+   "qid": "c9-07-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Turtles",
+    "are",
+    "an",
+    "important",
+    "part",
+    "of",
+    "marine",
+    "life",
+    "because",
+    "they",
+    "keeps",
+    "the",
+    "sea",
+    "clean.",
+    "However,",
+    "in",
+    "2005,",
+    "hundreds",
+    "of",
+    "their",
+    "eggs",
+    "are",
+    "stolen",
+    "from",
+    "these",
+    "beaches."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "keeping",
+      "keeper",
+      "keep"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "is",
+      "were",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Plural <b>they keep</b> (a general truth). 'In 2005' is past and 'hundreds of eggs' is plural: <b>were stolen</b>."
+  },
+  {
+   "qid": "c9-07-40",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative_clause",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The fund, which the villagers set up with their homestay income, are used to protect turtles.",
+    "The fund, which the villagers set up with their homestay income, is used to protect turtles.",
+    "The fund, who the villagers set up with their homestay income, is used to protect turtles."
+   ],
+   "answer": 1,
+   "rule": "The main subject <b>The fund</b> (singular) takes <b>is used</b>. For a thing, use <b>which</b>, not 'who'."
+  },
+  {
+   "qid": "c9-07-41",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tourists",
+    "were",
+    "asked",
+    "to",
+    "stay",
+    "quiet",
+    "so",
+    "that",
+    "the",
+    "hatchlings",
+    "would",
+    "not",
+    "got",
+    "frightened."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "gets",
+      "get",
+      "getting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a modal like <b>would (not)</b>, use the base form: <b>would not get</b>."
+  },
+  {
+   "qid": "c9-07-42",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "Fill in the gap.",
+   "before": "The hatchlings had barely left the nest",
+   "after": "a crab attacked one of them.",
+   "options": [
+    "than",
+    "when",
+    "then"
+   ],
+   "answer": 1,
+   "rule": "<b>barely/hardly ... when</b> is the pair. 'than' goes with 'no sooner'."
+  },
+  {
+   "qid": "c9-07-43",
+   "type": "build",
+   "level": 5,
+   "topic": "relative_clause",
+   "prompt": "Make a sentence with 'whose'.",
+   "answer": [
+    "Velas",
+    "is",
+    "a",
+    "village",
+    "whose",
+    "people",
+    "protect",
+    "the",
+    "turtles."
+   ],
+   "alts": [],
+   "rule": "<b>whose people</b> = the people of that village. The clause describes 'a village'."
+  },
+  {
+   "qid": "c9-07-44",
+   "type": "chat",
+   "level": 5,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Was the turtle festival crowded?"
+    ],
+    [
+     "Meera",
+     "I heard it rained."
+    ]
+   ],
+   "options": [
+    "Yes, it was crowded, despite it rained all evening.",
+    "Yes, it was crowded; however, nobody minded the rain.",
+    "Yes, although it was crowded, but nobody minded the rain."
+   ],
+   "answer": 1,
+   "rule": "<b>however</b> shows contrast between two sentences. 'despite' needs a noun, and 'although' never pairs with 'but'."
+  },
+  {
+   "qid": "c9-07-45",
+   "type": "change",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the female turtle lays her eggs, she returns to the sea.",
+   "options": [
+    "No sooner does the female turtle lay her eggs than she returns to the sea.",
+    "No sooner the female turtle lays her eggs than she returns to the sea.",
+    "No sooner does the female turtle lay her eggs when she returns to the sea."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner does + subject + base verb ... than</b>. The helper comes before the subject, and the pair is 'than', not 'when'."
+  },
+  {
+   "qid": "c9-07-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The Forest Department will train the local volunteers.",
+   "options": [
+    "The local volunteers will trained by the Forest Department.",
+    "The local volunteers would be trained by the Forest Department.",
+    "The local volunteers will be trained by the Forest Department."
+   ],
+   "answer": 2,
+   "rule": "Future passive = <b>will be</b> + past participle. Keep 'will'; do not change it to 'would'."
+  },
+  {
+   "qid": "c9-07-47",
+   "type": "change",
+   "level": 5,
+   "topic": "relative_clause",
+   "prompt": "Make one complex sentence using 'which'.",
+   "source": "Turtles keep the sea clean. This makes them important for marine ecology.",
+   "options": [
+    "Turtles keep the sea clean, which makes them important for marine ecology.",
+    "Turtles keep the sea clean, which make them important for marine ecology.",
+    "Turtles which keep the sea clean, which makes them important for marine ecology."
+   ],
+   "answer": 0,
+   "rule": "Here <b>which</b> stands for the whole idea 'keeping the sea clean' (singular), so it takes <b>makes</b>."
+  },
+  {
+   "qid": "c9-07-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "adverb_clause",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "female",
+    "turtle,",
+    "which",
+    "returns",
+    "to",
+    "the",
+    "beach",
+    "where",
+    "she",
+    "was",
+    "born,",
+    "lay",
+    "her",
+    "eggs",
+    "in",
+    "a",
+    "deep",
+    "pit.",
+    "As",
+    "soon",
+    "as",
+    "she",
+    "finishes,",
+    "she",
+    "covers",
+    "the",
+    "nest",
+    "and",
+    "goes",
+    "back",
+    "to",
+    "the",
+    "sea",
+    "despite",
+    "she",
+    "is",
+    "tired."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "laying",
+      "lain",
+      "lays"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 34,
+     "options": [
+      "although",
+      "however",
+      "therefore"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The main subject <b>The female turtle</b> takes <b>lays</b>. Before a full clause use <b>although</b>, not 'despite'."
+  },
+  {
+   "qid": "c9-07-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "relative_clause",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "school",
+    "group",
+    "stayed",
+    "with",
+    "a",
+    "family",
+    "who's",
+    "house",
+    "was",
+    "close",
+    "to",
+    "the",
+    "beach.",
+    "Both",
+    "rooms",
+    "was",
+    "simple",
+    "but",
+    "clean.",
+    "Every",
+    "evening,",
+    "the",
+    "guide",
+    "which",
+    "knew",
+    "all",
+    "about",
+    "turtles",
+    "told",
+    "us",
+    "stories."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "whose",
+      "who",
+      "which"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Possession: <b>whose house</b>. <b>Both rooms</b> is plural: <b>were</b>. A person takes <b>who</b>."
+  },
+  {
+   "qid": "c9-07-50",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Our",
+    "club",
+    "started",
+    "a",
+    "turtle",
+    "project",
+    "three",
+    "years",
+    "ago.",
+    "Since",
+    "then,",
+    "many",
+    "nests",
+    "has",
+    "been",
+    "protected,",
+    "and",
+    "the",
+    "villagers",
+    "which",
+    "once",
+    "stole",
+    "eggs",
+    "now",
+    "guard",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "was",
+      "is",
+      "have"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "whose",
+      "whom",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "'Since then' + plural <b>many nests</b> = <b>have been protected</b>. For people, use <b>who</b>."
+  }
+ ]
+}

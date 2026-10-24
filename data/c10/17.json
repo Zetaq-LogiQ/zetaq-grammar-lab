@@ -1,0 +1,1183 @@
+{
+ "class": 10,
+ "id": "17",
+ "title": "Unbeatable Super Mom - Mary Kom",
+ "topics": [
+  {
+   "tag": "clauses",
+   "name": "Subordinate clauses (noun, adjective, adverb)"
+  },
+  {
+   "tag": "word_forms",
+   "name": "Word forms (verb, noun, adjective, adverb)"
+  },
+  {
+   "tag": "frame_questions",
+   "name": "Framing questions (interview questions)"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-17-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mary Kom gave a brilliant perform.",
+    "Mary Kom gave a brilliant performance.",
+    "Mary Kom gave a brilliantly performance."
+   ],
+   "answer": 1,
+   "rule": "After <b>a</b> + adjective we need a noun (<b>performance</b>); an adjective (<b>brilliant</b>) describes a noun."
+  },
+  {
+   "qid": "c10-17-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many awards have been given to her.",
+    "Many awards have been give to her.",
+    "Many awards has been given to her."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>have been</b> + past participle (<b>given</b>); 'awards' is plural, so <b>have</b>."
+  },
+  {
+   "qid": "c10-17-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mary",
+    "Kom",
+    "is",
+    "a",
+    "boxer",
+    "which",
+    "comes",
+    "from",
+    "Manipur."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "whom",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "For a person who does the action, the relative pronoun is <b>who</b>, not which."
+  },
+  {
+   "qid": "c10-17-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "She",
+    "won",
+    "the",
+    "final",
+    "with",
+    "great",
+    "determine",
+    "and",
+    "skill."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "determined",
+      "determination",
+      "determining"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>with great</b> we need a noun: <b>determination</b>."
+  },
+  {
+   "qid": "c10-17-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The Arjuna Award",
+   "after": "to Mary Kom in 2003.",
+   "options": [
+    "was given",
+    "was give",
+    "gave"
+   ],
+   "answer": 0,
+   "rule": "The award receives the action, so use the passive: <b>was given</b> (was + past participle)."
+  },
+  {
+   "qid": "c10-17-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "frame_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "was Mary Kom born?",
+   "options": [
+    "What",
+    "Where",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "To ask about a place, use <b>Where</b>: Where was she born?"
+  },
+  {
+   "qid": "c10-17-07",
+   "type": "build",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "trained",
+    "hard",
+    "because",
+    "she",
+    "wanted",
+    "a",
+    "medal."
+   ],
+   "alts": [],
+   "rule": "<b>because she wanted a medal</b> is an adverb clause of reason."
+  },
+  {
+   "qid": "c10-17-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "frame_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Mary Kom won six world titles!"
+    ]
+   ],
+   "options": [
+    "Really? How many medals did she win at the Olympics?",
+    "Really? How many medals she won at the Olympics?",
+    "Really? How many medals did she won at the Olympics?"
+   ],
+   "answer": 0,
+   "rule": "Wh-question in the past: question word + <b>did</b> + subject + base verb (<b>win</b>)."
+  },
+  {
+   "qid": "c10-17-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Who trained Mary Kom for the Olympics?"
+    ]
+   ],
+   "options": [
+    "She was trained by Charles Atkinson.",
+    "She was train by Charles Atkinson.",
+    "She trained by Charles Atkinson."
+   ],
+   "answer": 0,
+   "rule": "Passive: <b>was</b> + past participle (<b>trained</b>) + by ..."
+  },
+  {
+   "qid": "c10-17-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Mary Kom won a bronze medal.",
+   "options": [
+    "A bronze medal is won by Mary Kom.",
+    "A bronze medal was won by Mary Kom.",
+    "A bronze medal was win by Mary Kom."
+   ],
+   "answer": 1,
+   "rule": "Simple past active becomes <b>was/were</b> + past participle: was <b>won</b>."
+  },
+  {
+   "qid": "c10-17-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The coach whom she trusted were not allowed to travel.",
+    "The coach which she trusted was not allowed to travel.",
+    "The coach whom she trusted was not allowed to travel."
+   ],
+   "answer": 2,
+   "rule": "Use <b>whom</b> (not which) for a person as object; the subject 'the coach' takes <b>was</b>."
+  },
+  {
+   "qid": "c10-17-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "frame_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "What she ate to gain weight?",
+    "What did she ate to gain weight?",
+    "What did she eat to gain weight?"
+   ],
+   "answer": 2,
+   "rule": "Wh-word + <b>did</b> + subject + base verb: What <b>did</b> she <b>eat</b>?"
+  },
+  {
+   "qid": "c10-17-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "players",
+    "are",
+    "sponsor",
+    "by",
+    "big",
+    "companies."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sponsoring",
+      "sponsored",
+      "sponsors"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive: <b>are</b> + past participle: are <b>sponsored</b> by ..."
+  },
+  {
+   "qid": "c10-17-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nutrition",
+    "is",
+    "a",
+    "neglect",
+    "area",
+    "in",
+    "Indian",
+    "sports."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "neglected",
+      "neglects",
+      "negligence"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An adjective is needed before 'area': a <b>neglected</b> area."
+  },
+  {
+   "qid": "c10-17-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "She practised with the male boxers",
+   "after": "she needed them.",
+   "options": [
+    "whoever",
+    "whichever",
+    "whenever"
+   ],
+   "answer": 2,
+   "rule": "<b>whenever</b> begins an adverb clause of time (= every time that)."
+  },
+  {
+   "qid": "c10-17-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Her",
+   "after": "to the whole nation showed her greatness.",
+   "options": [
+    "apologise",
+    "apologetic",
+    "apology"
+   ],
+   "answer": 2,
+   "rule": "After <b>Her</b> we need a noun as the subject: her <b>apology</b>."
+  },
+  {
+   "qid": "c10-17-17",
+   "type": "build",
+   "level": 2,
+   "topic": "frame_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "Mary",
+    "Kom",
+    "make",
+    "her",
+    "debut?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>did</b> + subject + base verb: Where did ... <b>make</b> ...?"
+  },
+  {
+   "qid": "c10-17-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Which boxer inspired Mary Kom?"
+    ]
+   ],
+   "options": [
+    "Dingko Singh, which won gold in 1998, inspired her.",
+    "Dingko Singh, who won gold in 1998, inspire her.",
+    "Dingko Singh, who won gold in 1998, inspired her."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> for a person; the main verb stays in the past: <b>inspired</b>."
+  },
+  {
+   "qid": "c10-17-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Big companies should sponsor young players.",
+   "options": [
+    "Young players should be sponsored by big companies.",
+    "Young players should sponsored by big companies.",
+    "Young players should be sponsor by big companies."
+   ],
+   "answer": 0,
+   "rule": "Modal passive: <b>should be</b> + past participle (<b>sponsored</b>)."
+  },
+  {
+   "qid": "c10-17-20",
+   "type": "change",
+   "level": 2,
+   "topic": "frame_questions",
+   "prompt": "Make a question to get the answer 'in Pune'.",
+   "source": "She trained hard in Pune.",
+   "options": [
+    "Where did she trained hard?",
+    "Where she trained hard?",
+    "Where did she train hard?"
+   ],
+   "answer": 2,
+   "rule": "Place -> <b>Where</b> + did + subject + base verb (<b>train</b>)."
+  },
+  {
+   "qid": "c10-17-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Her achievements made the whole nation proud.",
+    "Her achieves made the whole nation proud.",
+    "Her achievements made the whole nation proudly."
+   ],
+   "answer": 0,
+   "rule": "After 'Her' use the noun <b>achievements</b>; 'made the nation ...' takes an adjective: <b>proud</b>."
+  },
+  {
+   "qid": "c10-17-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "think",
+    "what",
+    "more",
+    "people",
+    "should",
+    "take",
+    "up",
+    "sports",
+    "seriously."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "that",
+      "which",
+      "who"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A noun clause after <b>think</b> starts with <b>that</b>: I think that ..."
+  },
+  {
+   "qid": "c10-17-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Boxing",
+    "will",
+    "be",
+    "play",
+    "all",
+    "year",
+    "round",
+    "in",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "plays",
+      "played",
+      "player"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Future passive: <b>will be</b> + past participle: will be <b>played</b>."
+  },
+  {
+   "qid": "c10-17-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "India won just six medals",
+   "after": "we are a nation of over a billion people.",
+   "options": [
+    "despite",
+    "in spite of",
+    "even though"
+   ],
+   "answer": 2,
+   "rule": "A full clause (we are ...) follows <b>even though</b>; despite / in spite of take a noun, not a clause."
+  },
+  {
+   "qid": "c10-17-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The players should not face any",
+   "after": "pressure.",
+   "options": [
+    "financially",
+    "financial",
+    "finances"
+   ],
+   "answer": 1,
+   "rule": "An adjective describes the noun 'pressure': <b>financial</b> pressure."
+  },
+  {
+   "qid": "c10-17-26",
+   "type": "build",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "boxers",
+    "were",
+    "given",
+    "a",
+    "warm",
+    "welcome",
+    "in",
+    "Imphal."
+   ],
+   "alts": [],
+   "rule": "Passive: <b>were given</b> (were + past participle) + the thing received."
+  },
+  {
+   "qid": "c10-17-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "frame_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "I'm going to interview a famous cricketer tomorrow."
+    ]
+   ],
+   "options": [
+    "Great! Ask him when did he start playing cricket.",
+    "Great! Ask him when he start playing cricket.",
+    "Great! Ask him when he started playing cricket."
+   ],
+   "answer": 2,
+   "rule": "Inside a sentence, a question takes statement order: when <b>he started</b> (no did)."
+  },
+  {
+   "qid": "c10-17-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "How was your sister's debut match?"
+    ]
+   ],
+   "options": [
+    "She played brilliant and won easily.",
+    "She played brilliantly and won easily.",
+    "She played brilliantly and win easily."
+   ],
+   "answer": 1,
+   "rule": "Adverbs describe how she played and won: <b>brilliantly</b>, <b>easily</b>; keep both verbs in the past: played, <b>won</b>."
+  },
+  {
+   "qid": "c10-17-29",
+   "type": "change",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Join using 'who'.",
+   "source": "Mary Kom is a boxer. She has won six world titles.",
+   "options": [
+    "Mary Kom is a boxer who she has won six world titles.",
+    "Mary Kom is a boxer who has won six world titles.",
+    "Mary Kom is a boxer which has won six world titles."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces 'She', so don't repeat the pronoun; use who (not which) for a person."
+  },
+  {
+   "qid": "c10-17-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mary",
+    "Kom",
+    "was",
+    "born",
+    "into",
+    "a",
+    "poor",
+    "family",
+    "in",
+    "Manipur.",
+    "She",
+    "was",
+    "inspire",
+    "by",
+    "Dingko",
+    "Singh,",
+    "and",
+    "her",
+    "determine",
+    "made",
+    "her",
+    "a",
+    "world",
+    "champion."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "inspired",
+      "inspiring",
+      "inspires"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "determined",
+      "determines",
+      "determination"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: was <b>inspired</b>; after 'her' we need a noun: her <b>determination</b>."
+  },
+  {
+   "qid": "c10-17-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Boxing has been make popular by her success.",
+    "Boxing has been made popular by her success.",
+    "Boxing have been made popular by her success."
+   ],
+   "answer": 1,
+   "rule": "Present perfect passive: <b>has been</b> + past participle (<b>made</b>); 'boxing' is singular."
+  },
+  {
+   "qid": "c10-17-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "frame_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Whom did the reporter interview after the match?",
+    "Whom did the reporter interviewed after the match?",
+    "Whom the reporter interviewed after the match?"
+   ],
+   "answer": 0,
+   "rule": "Object question: <b>Whom did</b> + subject + base verb (<b>interview</b>)."
+  },
+  {
+   "qid": "c10-17-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "More",
+    "companies",
+    "should",
+    "come",
+    "forward",
+    "to",
+    "sponsorship",
+    "young",
+    "players."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "sponsor",
+      "sponsored",
+      "sponsors"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>to</b> we need the verb, not the noun: to <b>sponsor</b>."
+  },
+  {
+   "qid": "c10-17-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "That's the best thing",
+   "after": "has ever happened to me.",
+   "options": [
+    "what",
+    "who",
+    "that"
+   ],
+   "answer": 2,
+   "rule": "An adjective clause about a thing starts with <b>that</b> (or which), never what."
+  },
+  {
+   "qid": "c10-17-35",
+   "type": "build",
+   "level": 4,
+   "topic": "frame_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "did",
+    "Mary",
+    "Kom",
+    "gain",
+    "three",
+    "kilograms?"
+   ],
+   "alts": [],
+   "rule": "<b>How</b> + did + subject + base verb asks about the method."
+  },
+  {
+   "qid": "c10-17-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Has the stadium been booked for Sports Day?"
+    ]
+   ],
+   "options": [
+    "Yes, it has booked by our principal.",
+    "Yes, it has been book by our principal.",
+    "Yes, it has been booked by our principal."
+   ],
+   "answer": 2,
+   "rule": "Present perfect passive: <b>has been booked</b>."
+  },
+  {
+   "qid": "c10-17-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are you so happy?"
+    ]
+   ],
+   "options": [
+    "Because of the coach has picked me for the team!",
+    "Because the coach has picked me for the team!",
+    "Because the coach have picked me for the team!"
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> + clause; 'because of' takes a noun. 'The coach' is singular: <b>has</b>."
+  },
+  {
+   "qid": "c10-17-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Change into active voice.",
+   "source": "The interview was conducted by Taruka Srivastava.",
+   "options": [
+    "Taruka Srivastava conducts the interview.",
+    "Taruka Srivastava conducted the interview.",
+    "Taruka Srivastava was conducted the interview."
+   ],
+   "answer": 1,
+   "rule": "<b>was conducted</b> (simple past passive) becomes simple past active: <b>conducted</b>."
+  },
+  {
+   "qid": "c10-17-39",
+   "type": "change",
+   "level": 4,
+   "topic": "frame_questions",
+   "prompt": "Make a question to get the answer 'six'.",
+   "source": "She won six world titles.",
+   "options": [
+    "How many world titles did she win?",
+    "How many world titles she won?",
+    "How much world titles did she win?"
+   ],
+   "answer": 0,
+   "rule": "Countable number -> <b>How many</b> + noun + did + subject + base verb."
+  },
+  {
+   "qid": "c10-17-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mary",
+    "Kom,",
+    "who",
+    "come",
+    "from",
+    "Manipur,",
+    "is",
+    "a",
+    "six-time",
+    "world",
+    "champion.",
+    "She",
+    "trains",
+    "very",
+    "hard,",
+    "and",
+    "she",
+    "is",
+    "good",
+    "at",
+    "cook",
+    "too."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "comes",
+      "coming",
+      "comer"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "cooked",
+      "cooking",
+      "cooks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>who</b> refers to Mary Kom (singular): who <b>comes</b>; after 'good at' use the -ing form: <b>cooking</b>."
+  },
+  {
+   "qid": "c10-17-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boxer who's coach was not allowed to travel still won a medal.",
+    "The boxer whom coach was not allowed to travel still won a medal.",
+    "The boxer whose coach was not allowed to travel still won a medal."
+   ],
+   "answer": 2,
+   "rule": "Possession in a relative clause uses <b>whose</b> (whose coach); who's means 'who is'."
+  },
+  {
+   "qid": "c10-17-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "players",
+    "should",
+    "be",
+    "gave",
+    "proper",
+    "training",
+    "and",
+    "a",
+    "healthy",
+    "diet."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "gives",
+      "give",
+      "given"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Modal passive: <b>should be</b> + past participle: should be <b>given</b>."
+  },
+  {
+   "qid": "c10-17-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Mary Kom has broken many",
+   "after": "about women in sport.",
+   "options": [
+    "stereotypes",
+    "stereotypical",
+    "stereotyped"
+   ],
+   "answer": 0,
+   "rule": "After <b>many</b> we need a plural noun: <b>stereotypes</b>."
+  },
+  {
+   "qid": "c10-17-44",
+   "type": "build",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Make a sentence with a noun clause.",
+   "answer": [
+    "Nobody",
+    "knew",
+    "when",
+    "the",
+    "final",
+    "bout",
+    "would",
+    "begin."
+   ],
+   "alts": [],
+   "rule": "The noun clause <b>when the final bout would begin</b> is the object; it keeps statement order."
+  },
+  {
+   "qid": "c10-17-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mira",
+     "Who will give away the medals tomorrow?"
+    ]
+   ],
+   "options": [
+    "The medals will be given away by the Sports Minister.",
+    "The medals will given away by the Sports Minister.",
+    "The medals will be give away by the Sports Minister."
+   ],
+   "answer": 0,
+   "rule": "Future passive with a phrasal verb: <b>will be given away</b> by ..."
+  },
+  {
+   "qid": "c10-17-46",
+   "type": "change",
+   "level": 5,
+   "topic": "frame_questions",
+   "prompt": "Make a question to get the answer 'by eating healthy food'.",
+   "source": "She gained weight by eating healthy food.",
+   "options": [
+    "How did she gained weight?",
+    "How did she gain weight?",
+    "How she gained weight?"
+   ],
+   "answer": 1,
+   "rule": "Method -> <b>How</b> + did + subject + base verb (<b>gain</b>)."
+  },
+  {
+   "qid": "c10-17-47",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Did the judges notice her punches?",
+   "options": [
+    "Did her punches noticed by the judges?",
+    "Were her punches noticed by the judges?",
+    "Were her punches notice by the judges?"
+   ],
+   "answer": 1,
+   "rule": "A 'Did' question becomes <b>Was/Were</b> + subject + past participle: Were her punches <b>noticed</b>?"
+  },
+  {
+   "qid": "c10-17-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "future",
+    "of",
+    "Indian",
+    "boxing",
+    "is",
+    "very",
+    "bright.",
+    "Many",
+    "young",
+    "boxers",
+    "is",
+    "being",
+    "trained",
+    "in",
+    "camps,",
+    "and",
+    "they",
+    "will",
+    "be",
+    "support",
+    "by",
+    "sponsors",
+    "who",
+    "understands",
+    "their",
+    "needs."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "supporting",
+      "supports",
+      "supported"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "understanding",
+      "understandable",
+      "understand"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "boxers <b>are</b> being trained; will be <b>supported</b>; 'who' refers to sponsors (plural): who <b>understand</b>."
+  },
+  {
+   "qid": "c10-17-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "In",
+    "an",
+    "interview,",
+    "Mary",
+    "Kom",
+    "said",
+    "that",
+    "nutrition",
+    "had",
+    "been",
+    "a",
+    "neglect",
+    "area.",
+    "She",
+    "explained",
+    "how",
+    "she",
+    "gain",
+    "three",
+    "kilograms",
+    "by",
+    "eating",
+    "healthy",
+    "food.",
+    "Her",
+    "success",
+    "has",
+    "inspire",
+    "many",
+    "young",
+    "girls."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "neglected",
+      "neglects",
+      "negligent"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "gaining",
+      "gained",
+      "gainful"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 27,
+     "options": [
+      "inspiring",
+      "inspired",
+      "inspires"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "a <b>neglected</b> area (adjective); she <b>gained</b> (past); has <b>inspired</b> (present perfect)."
+  },
+  {
+   "qid": "c10-17-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "frame_questions",
+   "prompt": "Find and fix the 3 errors in these interview questions.",
+   "words": [
+    "When",
+    "did",
+    "you",
+    "started",
+    "boxing?",
+    "Who",
+    "inspire",
+    "you",
+    "to",
+    "try",
+    "it?",
+    "Where",
+    "does",
+    "your",
+    "coach",
+    "lives",
+    "now?",
+    "Do",
+    "you",
+    "still",
+    "train",
+    "every",
+    "day?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "starting",
+      "starts",
+      "start"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 6,
+     "options": [
+      "inspired",
+      "inspiring",
+      "inspiration"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "living",
+      "lived",
+      "live"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "did + base verb (<b>start</b>); 'Who' as subject takes the past: <b>inspired</b>; does + base verb (<b>live</b>)."
+  }
+ ]
+}

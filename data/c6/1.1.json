@@ -1,0 +1,999 @@
+{
+ "class": 6,
+ "id": "1.1",
+ "title": "The School Bell Rings Again",
+ "topics": [
+  {
+   "tag": "future",
+   "name": "Future with will / going to"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals can / must / should / may"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "kinds_of_sentences",
+   "name": "Kinds of sentences and end marks"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-1.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We will learns new things this year.",
+    "We will learn new things this year.",
+    "We will learned new things this year."
+   ],
+   "answer": 1,
+   "rule": "After <b>will</b>, always use the base form of the verb: <b>will learn</b>."
+  },
+  {
+   "qid": "c6-1.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Riya are in Grade Six now.",
+    "Riya am in Grade Six now.",
+    "Riya is in Grade Six now."
+   ],
+   "answer": 2,
+   "rule": "One person (he/she/Riya) takes <b>is</b>. <b>am</b> goes only with I; <b>are</b> with we/you/they."
+  },
+  {
+   "qid": "c6-1.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Where is our new classroom?",
+    "Where our new classroom is?",
+    "Where are our new classroom?"
+   ],
+   "answer": 0,
+   "rule": "In a question, the verb comes before the subject: Where <b>is</b> our classroom? (classroom is singular)"
+  },
+  {
+   "qid": "c6-1.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "the",
+    "school",
+    "bells",
+    "will",
+    "rings",
+    "at",
+    "eight",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "ring",
+      "rang",
+      "ringing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>will</b> is followed by the base form: <b>will ring</b>, not will rings."
+  },
+  {
+   "qid": "c6-1.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "new",
+    "books",
+    "is",
+    "very",
+    "heavy."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "has",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>These books</b> is plural, so the verb is <b>are</b>."
+  },
+  {
+   "qid": "c6-1.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "wear our school uniform on Monday.",
+   "options": [
+    "must",
+    "musts",
+    "musting"
+   ],
+   "answer": 0,
+   "rule": "Modals like <b>must</b> never change: no -s, no -ing."
+  },
+  {
+   "qid": "c6-1.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "I am going",
+   "after": "join the art club this year.",
+   "options": [
+    "to",
+    "for",
+    "in"
+   ],
+   "answer": 0,
+   "rule": "For a plan, use <b>am/is/are going to</b> + base verb: <b>going to join</b>."
+  },
+  {
+   "qid": "c6-1.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Make a sentence about the new school year.",
+   "answer": [
+    "We",
+    "will",
+    "learn",
+    "difficult",
+    "calculations."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>will</b> + base verb + object: <b>We will learn ...</b>"
+  },
+  {
+   "qid": "c6-1.1-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Will you join the drawing class this year?"
+    ]
+   ],
+   "options": [
+    "Yes, I will joins it.",
+    "Yes, I will join it.",
+    "Yes, I joining it."
+   ],
+   "answer": 1,
+   "rule": "Answer a <b>will</b> question with <b>will</b> + base verb: <b>I will join</b>."
+  },
+  {
+   "qid": "c6-1.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Is your brother in Grade Six too?"
+    ]
+   ],
+   "options": [
+    "No, he are in Grade Four.",
+    "No, he is in Grade Four.",
+    "No, he am in Grade Four."
+   ],
+   "answer": 1,
+   "rule": "<b>he</b> is one person, so use <b>is</b>."
+  },
+  {
+   "qid": "c6-1.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should to revise your lessons every day.",
+    "You should revise your lessons every day.",
+    "You should revising your lessons every day."
+   ],
+   "answer": 1,
+   "rule": "After <b>should</b>, use the base verb without 'to': <b>should revise</b>."
+  },
+  {
+   "qid": "c6-1.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Sameer is going play in the school band.",
+    "Sameer going to play in the school band.",
+    "Sameer is going to play in the school band."
+   ],
+   "answer": 2,
+   "rule": "The full pattern is <b>is going to</b> + base verb. Do not drop 'is' or 'to'."
+  },
+  {
+   "qid": "c6-1.1-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Students",
+    "must",
+    "comes",
+    "to",
+    "school",
+    "on",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "came",
+      "coming",
+      "come"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>must</b> is followed by the base verb: <b>must come</b>."
+  },
+  {
+   "qid": "c6-1.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "term",
+    "bring",
+    "something",
+    "new",
+    "and",
+    "exciting."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "bringing",
+      "been",
+      "brings"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Each term</b> is singular, so the present verb takes -s: <b>brings</b>."
+  },
+  {
+   "qid": "c6-1.1-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The students in our class",
+   "after": "very friendly.",
+   "options": [
+    "is",
+    "are",
+    "was"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>students</b> (plural), so use <b>are</b>."
+  },
+  {
+   "qid": "c6-1.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "kinds_of_sentences",
+   "prompt": "Complete the exclamation.",
+   "before": "",
+   "after": "exciting this new term is!",
+   "options": [
+    "What",
+    "How",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "Use <b>How</b> + adjective in exclamations: <b>How exciting ...!</b> (What needs a noun: What a day!)"
+  },
+  {
+   "qid": "c6-1.1-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Make a sentence giving advice.",
+   "answer": [
+    "We",
+    "should",
+    "not",
+    "waste",
+    "our",
+    "time."
+   ],
+   "alts": [],
+   "rule": "Negative modal: <b>should not</b> + base verb."
+  },
+  {
+   "qid": "c6-1.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Make a sentence about a plan.",
+   "answer": [
+    "She",
+    "is",
+    "going",
+    "to",
+    "learn",
+    "the",
+    "guitar."
+   ],
+   "alts": [],
+   "rule": "Plan: subject + <b>is going to</b> + base verb."
+  },
+  {
+   "qid": "c6-1.1-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ma",
+     "Can you help me set the table?"
+    ]
+   ],
+   "options": [
+    "Yes, I can helps you.",
+    "Yes, I can to help you.",
+    "Yes, I can help you."
+   ],
+   "answer": 2,
+   "rule": "<b>can</b> + base verb, with no 'to' and no -s: <b>can help</b>."
+  },
+  {
+   "qid": "c6-1.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What are you going to do this weekend?"
+    ]
+   ],
+   "options": [
+    "I am going to visit my grandparents.",
+    "I going to visit my grandparents.",
+    "I am going to visited my grandparents."
+   ],
+   "answer": 0,
+   "rule": "<b>I am going to</b> + base verb: <b>I am going to visit</b>."
+  },
+  {
+   "qid": "c6-1.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The box of new crayons is on my desk.",
+    "The box of new crayons are on my desk.",
+    "The box of new crayons be on my desk."
+   ],
+   "answer": 0,
+   "rule": "The real subject is <b>the box</b> (one box), not crayons, so use <b>is</b>."
+  },
+  {
+   "qid": "c6-1.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct polite question.",
+   "options": [
+    "May I comes in, ma'am?",
+    "May I come in, ma'am?",
+    "May I coming in, ma'am?"
+   ],
+   "answer": 1,
+   "rule": "To ask permission: <b>May I</b> + base verb: <b>May I come in?</b>"
+  },
+  {
+   "qid": "c6-1.1-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct command.",
+   "options": [
+    "Please close the door quietly.",
+    "Please closes the door quietly.",
+    "Please closing the door quietly."
+   ],
+   "answer": 0,
+   "rule": "A command (imperative) starts with the base verb: <b>close</b>."
+  },
+  {
+   "qid": "c6-1.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "sister",
+    "and",
+    "I",
+    "is",
+    "going",
+    "to",
+    "join",
+    "the",
+    "yoga",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "am",
+      "are",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>My sister and I</b> = two people (we), so use <b>are going to</b>."
+  },
+  {
+   "qid": "c6-1.1-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "should",
+    "be",
+    "kind",
+    "to",
+    "new",
+    "students",
+    "and",
+    "helps",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "helped",
+      "helping",
+      "help"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>should</b> goes with both verbs: should be kind and (should) <b>help</b> them."
+  },
+  {
+   "qid": "c6-1.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Next year, my brother",
+   "after": "in Grade Six.",
+   "options": [
+    "will is",
+    "is be",
+    "will be"
+   ],
+   "answer": 2,
+   "rule": "The future of is/am/are is <b>will be</b>."
+  },
+  {
+   "qid": "c6-1.1-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Everyone in our class",
+   "after": "a new notebook.",
+   "options": [
+    "has",
+    "have",
+    "having"
+   ],
+   "answer": 0,
+   "rule": "<b>Everyone</b> is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c6-1.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "kinds_of_sentences",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "will",
+    "we",
+    "learn",
+    "this",
+    "term?"
+   ],
+   "alts": [],
+   "rule": "Wh-question: <b>What</b> + will + subject + base verb ... <b>?</b>"
+  },
+  {
+   "qid": "c6-1.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Does your father work in Pune?"
+    ]
+   ],
+   "options": [
+    "Yes, he work in Pune.",
+    "Yes, he working in Pune.",
+    "Yes, he works in Pune."
+   ],
+   "answer": 2,
+   "rule": "In the simple present, <b>he/she</b> takes verb + -s: <b>he works</b>."
+  },
+  {
+   "qid": "c6-1.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Shall we start our project now?"
+    ]
+   ],
+   "options": [
+    "Yes, let's starts now.",
+    "Yes, let's start now.",
+    "Yes, let's started now."
+   ],
+   "answer": 1,
+   "rule": "<b>Let's</b> (let us) is followed by the base verb: <b>let's start</b>."
+  },
+  {
+   "qid": "c6-1.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Last year we wrote letters, and this year we will write stories.",
+    "Last year we write letters, and this year we will write stories.",
+    "Last year we wrote letters, and this year we will wrote stories."
+   ],
+   "answer": 0,
+   "rule": "<b>Last year</b> needs the past (<b>wrote</b>); <b>will</b> needs the base verb (<b>write</b>)."
+  },
+  {
+   "qid": "c6-1.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You must wear an helmet when you ride a bicycle.",
+    "You must wear a helmet when you ride a bicycle.",
+    "You must wears a helmet when you ride a bicycle."
+   ],
+   "answer": 1,
+   "rule": "<b>helmet</b> starts with a consonant sound, so <b>a helmet</b>; and <b>must</b> + base verb."
+  },
+  {
+   "qid": "c6-1.1-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "will",
+    "visit",
+    "a",
+    "old",
+    "fort",
+    "on",
+    "our",
+    "school",
+    "trip."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "many",
+      "much",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>old</b> begins with a vowel sound, so use <b>an</b>: an old fort."
+  },
+  {
+   "qid": "c6-1.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "all",
+    "the",
+    "new",
+    "students",
+    "was",
+    "very",
+    "nervous."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "are",
+      "were",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b> needs the past, and <b>students</b> is plural: <b>were</b>."
+  },
+  {
+   "qid": "c6-1.1-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Our new term will begin",
+   "after": "Monday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>on</b> with days: <b>on Monday</b>."
+  },
+  {
+   "qid": "c6-1.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "many new books in our library.",
+   "options": [
+    "is",
+    "was",
+    "are"
+   ],
+   "answer": 2,
+   "rule": "<b>many new books</b> is plural, so use <b>There are</b>."
+  },
+  {
+   "qid": "c6-1.1-37",
+   "type": "build",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Our",
+    "teacher",
+    "will",
+    "give",
+    "us",
+    "a",
+    "new",
+    "timetable."
+   ],
+   "alts": [],
+   "rule": "<b>will give</b> + person (<b>us</b>) + thing (<b>a new timetable</b>)."
+  },
+  {
+   "qid": "c6-1.1-38",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "lend",
+    "me",
+    "your",
+    "pencil?"
+   ],
+   "alts": [],
+   "rule": "Polite request: <b>Could you</b> + base verb ... <b>?</b>"
+  },
+  {
+   "qid": "c6-1.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you finish your homework? We will play cricket at five."
+    ]
+   ],
+   "options": [
+    "Yes, I finished it. I will come at five.",
+    "Yes, I finished it. I will coming at five.",
+    "Yes, I finishing it. I will come at five."
+   ],
+   "answer": 0,
+   "rule": "Finished work takes the past (<b>finished</b>); the plan takes <b>will come</b>."
+  },
+  {
+   "qid": "c6-1.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where are your new shoes?"
+    ]
+   ],
+   "options": [
+    "They is under the bed.",
+    "They am under the bed.",
+    "They are under the bed."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> always takes <b>are</b>."
+  },
+  {
+   "qid": "c6-1.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "One of my friends is joining the school choir this year.",
+    "One of my friends are joining the school choir this year.",
+    "One of my friend is joining the school choir this year."
+   ],
+   "answer": 0,
+   "rule": "<b>One of</b> + plural noun (friends), but the verb agrees with <b>one</b>: <b>is</b>."
+  },
+  {
+   "qid": "c6-1.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "kinds_of_sentences",
+   "prompt": "Pick the correct exclamation.",
+   "options": [
+    "What a exciting day it was!",
+    "What an exciting day it was!",
+    "How an exciting day it was!"
+   ],
+   "answer": 1,
+   "rule": "<b>What</b> + a/an + adjective + noun; <b>exciting</b> starts with a vowel sound, so <b>an</b>."
+  },
+  {
+   "qid": "c6-1.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "teacher",
+    "says",
+    "that",
+    "we",
+    "must",
+    "never",
+    "copies",
+    "from",
+    "others",
+    "during",
+    "the",
+    "exams."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "copy",
+      "copied",
+      "copying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>must never</b>, use the base verb: <b>must never copy</b>."
+  },
+  {
+   "qid": "c6-1.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "the",
+    "students",
+    "who",
+    "joined",
+    "this",
+    "year",
+    "is",
+    "going",
+    "to",
+    "perform",
+    "at",
+    "the",
+    "annual",
+    "function."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "am",
+      "are",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>Both the students</b> (plural), so <b>are going to</b>."
+  },
+  {
+   "qid": "c6-1.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Rohan can swim now, but last year he",
+   "after": "not swim at all.",
+   "options": [
+    "could",
+    "can",
+    "will"
+   ],
+   "answer": 0,
+   "rule": "The past of <b>can</b> is <b>could</b>; <b>last year</b> needs the past."
+  },
+  {
+   "qid": "c6-1.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The teacher, along with her students,",
+   "after": "planting trees today.",
+   "options": [
+    "are",
+    "were",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "With <b>along with</b>, the verb agrees with the first subject: <b>The teacher is</b>."
+  },
+  {
+   "qid": "c6-1.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "you",
+    "going",
+    "to",
+    "join",
+    "the",
+    "school",
+    "band?"
+   ],
+   "alts": [],
+   "rule": "Question with going to: <b>Are</b> + you + <b>going to</b> + base verb ... <b>?</b>"
+  },
+  {
+   "qid": "c6-1.1-48",
+   "type": "build",
+   "level": 5,
+   "topic": "kinds_of_sentences",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "How",
+    "quickly",
+    "the",
+    "holidays",
+    "went",
+    "by!"
+   ],
+   "alts": [],
+   "rule": "Exclamation: <b>How</b> + adverb + subject + verb <b>!</b>"
+  },
+  {
+   "qid": "c6-1.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "You look tired, Om. Is everything all right?"
+    ]
+   ],
+   "options": [
+    "I can't slept well last night, ma'am.",
+    "I couldn't sleep well last night, ma'am.",
+    "I couldn't slept well last night, ma'am."
+   ],
+   "answer": 1,
+   "rule": "Past ability: <b>couldn't</b> + base verb (<b>sleep</b>), never slept after a modal."
+  },
+  {
+   "qid": "c6-1.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Your school bag looks heavy. Shall I carry some books for you?"
+    ]
+   ],
+   "options": [
+    "Yes, please. My bag has too many books.",
+    "Yes, please. My bag have too many books.",
+    "Yes, please. My bag having too many books."
+   ],
+   "answer": 0,
+   "rule": "<b>My bag</b> is singular, so use <b>has</b>."
+  }
+ ]
+}

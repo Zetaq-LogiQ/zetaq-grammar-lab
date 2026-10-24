@@ -1,0 +1,997 @@
+{
+ "class": 5,
+ "id": "29",
+ "title": "A Lark",
+ "topics": [
+  {
+   "tag": "ques",
+   "name": "Yes/no questions with is/are and do/does"
+  },
+  {
+   "tag": "contin",
+   "name": "Present continuous tense"
+  },
+  {
+   "tag": "compare",
+   "name": "Adjectives with -er and -est"
+  },
+  {
+   "tag": "wh",
+   "name": "Wh- questions"
+  },
+  {
+   "tag": "agree",
+   "name": "is/am/are and has/have"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-29-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "contin",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lark are soaring high in the sky.",
+    "The lark is soar high in the sky.",
+    "The lark is soaring high in the sky."
+   ],
+   "answer": 2,
+   "rule": "Present continuous = <b>is/am/are</b> + verb-ing. One lark takes <b>is soaring</b>."
+  },
+  {
+   "qid": "c5-29-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "ques",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Are you tired, little bird?",
+    "Is you tired, little bird?",
+    "Are you tire, little bird?"
+   ],
+   "answer": 0,
+   "rule": "<b>You</b> always takes <b>are</b>: <b>Are you tired?</b> 'Tired' is the describing word."
+  },
+  {
+   "qid": "c5-29-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "agree",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "Sana",
+    "and",
+    "Ravi",
+    "is",
+    "watching",
+    "the",
+    "lark",
+    "in",
+    "the",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two people (<b>Sana and Ravi</b>) make a plural subject, so use <b>are</b>: <b>are watching</b>."
+  },
+  {
+   "qid": "c5-29-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "compare",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sea",
+    "is",
+    "much",
+    "deep",
+    "than",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "deepest",
+      "depth",
+      "deeper"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To compare two things with <b>than</b>, add -er: <b>much deeper than</b>."
+  },
+  {
+   "qid": "c5-29-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "ques",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the clouds dreary?",
+   "options": [
+    "Is",
+    "Do",
+    "Are"
+   ],
+   "answer": 2,
+   "rule": "<b>Clouds</b> is plural, so the question starts with <b>Are</b>."
+  },
+  {
+   "qid": "c5-29-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "contin",
+   "prompt": "Fill in the gap.",
+   "before": "Look! Goldie",
+   "after": "near the rocks.",
+   "options": [
+    "is swimming",
+    "swim",
+    "swims"
+   ],
+   "answer": 0,
+   "rule": "<b>Look!</b> shows it is happening now, so use the present continuous: <b>is swimming</b>."
+  },
+  {
+   "qid": "c5-29-07",
+   "type": "build",
+   "level": 1,
+   "topic": "ques",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "you",
+    "happy",
+    "in",
+    "the",
+    "sea?"
+   ],
+   "alts": [],
+   "rule": "In a yes/no question, <b>Are</b> comes before <b>you</b>: <b>Are you happy?</b>"
+  },
+  {
+   "qid": "c5-29-08",
+   "type": "build",
+   "level": 1,
+   "topic": "contin",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "lark",
+    "is",
+    "singing",
+    "sweetly."
+   ],
+   "alts": [],
+   "rule": "<b>is singing</b> shows an action going on now; <b>sweetly</b> tells how."
+  },
+  {
+   "qid": "c5-29-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "agree",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Are you coming to the park to watch the birds?"
+    ]
+   ],
+   "options": [
+    "Yes, I am. Let's go now.",
+    "Yes, I is. Let's go now.",
+    "Yes, I are. Let's go now."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> always takes <b>am</b>: <b>Yes, I am.</b>"
+  },
+  {
+   "qid": "c5-29-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "contin",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What is the goldfish doing?"
+    ]
+   ],
+   "options": [
+    "It swimming round and round.",
+    "It is swimming round and round.",
+    "It are swimming round and round."
+   ],
+   "answer": 1,
+   "rule": "Answer 'What is it doing?' with <b>It is</b> + verb-ing: <b>It is swimming</b>."
+  },
+  {
+   "qid": "c5-29-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "ques",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Does a goldfish feel cold in the sea?",
+    "Do a goldfish feel cold in the sea?",
+    "Does a goldfish feels cold in the sea?"
+   ],
+   "answer": 0,
+   "rule": "With one thing (a goldfish) ask with <b>Does</b>, then use the base verb: <b>Does ... feel</b>."
+  },
+  {
+   "qid": "c5-29-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "contin",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The waves is creeping up the beach.",
+    "The waves are creeping up the beach.",
+    "The waves are creep up the beach."
+   ],
+   "answer": 1,
+   "rule": "<b>Waves</b> is plural, so use <b>are</b> + verb-ing: <b>are creeping</b>."
+  },
+  {
+   "qid": "c5-29-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "compare",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "The goldfish dives more deeper than the frog.",
+    "The goldfish dives deepest than the frog.",
+    "The goldfish dives deeper than the frog."
+   ],
+   "answer": 2,
+   "rule": "Comparing two with <b>than</b>: add -er: <b>deeper than</b>. Never 'more deeper'."
+  },
+  {
+   "qid": "c5-29-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "ques",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Does",
+    "the",
+    "lark",
+    "sings",
+    "every",
+    "morning?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sang",
+      "sing",
+      "singing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Does</b>, use the base verb without -s: <b>Does the lark sing?</b>"
+  },
+  {
+   "qid": "c5-29-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "contin",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look,",
+    "both",
+    "my",
+    "brothers",
+    "is",
+    "flying",
+    "kites",
+    "on",
+    "the",
+    "hill."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "am",
+      "was",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both my brothers</b> is plural, so use <b>are flying</b>."
+  },
+  {
+   "qid": "c5-29-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "compare",
+   "prompt": "Fill in the gap.",
+   "before": "The lark flies",
+   "after": "than the hen.",
+   "options": [
+    "high",
+    "highest",
+    "higher"
+   ],
+   "answer": 2,
+   "rule": "<b>than</b> compares two things, so add -er: <b>higher than</b>."
+  },
+  {
+   "qid": "c5-29-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "wh",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "is the lark flying? It is flying over the hills.",
+   "options": [
+    "When",
+    "Where",
+    "Who"
+   ],
+   "answer": 1,
+   "rule": "The answer is a place (over the hills), so ask with <b>Where</b>."
+  },
+  {
+   "qid": "c5-29-18",
+   "type": "build",
+   "level": 2,
+   "topic": "ques",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "Goldie",
+    "sad",
+    "in",
+    "her",
+    "bowl?"
+   ],
+   "alts": [],
+   "rule": "In a yes/no question, <b>Is</b> comes first, then the subject: <b>Is Goldie sad?</b>"
+  },
+  {
+   "qid": "c5-29-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "wh",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Where do larks build their nests?"
+    ]
+   ],
+   "options": [
+    "They builds nests on the ground.",
+    "They building nests on the ground.",
+    "They build their nests on the ground."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> takes the base verb: <b>They build</b>. 'Where' is answered with a place."
+  },
+  {
+   "qid": "c5-29-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "contin",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why are you looking out of the window, Rohan?"
+    ]
+   ],
+   "options": [
+    "Sorry, ma'am. A lark are singing on the tree.",
+    "Sorry, ma'am. A lark is singing on the tree.",
+    "Sorry, ma'am. A lark singing on the tree."
+   ],
+   "answer": 1,
+   "rule": "One lark: <b>is singing</b>. The present continuous needs both <b>is</b> and the -ing verb."
+  },
+  {
+   "qid": "c5-29-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "What does the lark do all day?",
+    "What do the lark does all day?",
+    "What does the lark does all day?"
+   ],
+   "answer": 0,
+   "rule": "Wh- word + <b>does</b> + subject + base verb: <b>What does the lark do?</b>"
+  },
+  {
+   "qid": "c5-29-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "compare",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the colder wave of the day.",
+    "This is the coldest wave of the day.",
+    "This is the most coldest wave of the day."
+   ],
+   "answer": 1,
+   "rule": "Comparing one with all others (<b>of the day</b>) needs -est: <b>the coldest</b>."
+  },
+  {
+   "qid": "c5-29-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "ques",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "the",
+    "goldfish",
+    "never",
+    "sings",
+    "in",
+    "the",
+    "sea?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "sang",
+      "singing",
+      "sing"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>does</b>, the verb has no -s: <b>does the goldfish never sing</b>."
+  },
+  {
+   "qid": "c5-29-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "compare",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "birds,",
+    "the",
+    "lark",
+    "sings",
+    "the",
+    "sweeter",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "sweetest",
+      "sweet",
+      "sweetly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Of all the birds</b> compares one with many, so use -est: <b>the sweetest</b>."
+  },
+  {
+   "qid": "c5-29-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "ques",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you sometimes wish to be a fish?",
+   "options": [
+    "Are",
+    "Do",
+    "Does"
+   ],
+   "answer": 1,
+   "rule": "<b>wish</b> is an action verb, so ask with <b>Do</b>. <b>You</b> takes Do, not Does."
+  },
+  {
+   "qid": "c5-29-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "contin",
+   "prompt": "Fill in the gap.",
+   "before": "Listen! The birds",
+   "after": "on the wing.",
+   "options": [
+    "are singing",
+    "is singing",
+    "sings"
+   ],
+   "answer": 0,
+   "rule": "<b>Listen!</b> shows now; <b>birds</b> is plural: <b>are singing</b>."
+  },
+  {
+   "qid": "c5-29-27",
+   "type": "build",
+   "level": 3,
+   "topic": "wh",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "is",
+    "the",
+    "goldfish",
+    "so",
+    "sad?"
+   ],
+   "alts": [],
+   "rule": "Wh- word first, then <b>is</b>, then the subject: <b>Why is the goldfish ...?</b>"
+  },
+  {
+   "qid": "c5-29-28",
+   "type": "build",
+   "level": 3,
+   "topic": "compare",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "sea",
+    "is",
+    "colder",
+    "than",
+    "the",
+    "pond."
+   ],
+   "alts": [],
+   "rule": "Comparing two things: adjective-er + <b>than</b>: <b>colder than</b>."
+  },
+  {
+   "qid": "c5-29-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "ques",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Is the goldfish happy in the bowl?"
+    ]
+   ],
+   "options": [
+    "Yes, it is. It swims all day.",
+    "Yes, it does. It swims all day.",
+    "Yes, it is. It swim all day."
+   ],
+   "answer": 0,
+   "rule": "A question with <b>Is</b> gets a short answer with <b>is</b>. One goldfish: <b>It swims</b>."
+  },
+  {
+   "qid": "c5-29-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "contin",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Hi! What are you doing right now?"
+    ]
+   ],
+   "options": [
+    "I drawing a lark and a goldfish.",
+    "I am draw a lark and a goldfish.",
+    "I am drawing a lark and a goldfish."
+   ],
+   "answer": 2,
+   "rule": "<b>Right now</b> needs the present continuous: <b>I am drawing</b>."
+  },
+  {
+   "qid": "c5-29-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "compare",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lark has a sweeter voice than the crow.",
+    "The lark have a sweeter voice than the crow.",
+    "The lark has a more sweeter voice than the crow."
+   ],
+   "answer": 0,
+   "rule": "One lark takes <b>has</b>. Short adjectives add -er: <b>sweeter</b>, never 'more sweeter'."
+  },
+  {
+   "qid": "c5-29-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "ques",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Did you saw the lark yesterday?",
+    "Do you see the lark yesterday?",
+    "Did you see the lark yesterday?"
+   ],
+   "answer": 2,
+   "rule": "Past questions use <b>Did</b> + base verb: <b>Did you see ... yesterday?</b>"
+  },
+  {
+   "qid": "c5-29-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "wh",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Why the clouds were so dark yesterday?",
+    "Why were the clouds so dark yesterday?",
+    "Why was the clouds so dark yesterday?"
+   ],
+   "answer": 1,
+   "rule": "Wh- word + <b>were</b> + subject: <b>Why were the clouds ...?</b> Clouds is plural."
+  },
+  {
+   "qid": "c5-29-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "ques",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Did",
+    "the",
+    "lark",
+    "flew",
+    "over",
+    "the",
+    "hills?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "flies",
+      "fly",
+      "flown"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Did</b>, use the base verb: <b>Did the lark fly?</b>"
+  },
+  {
+   "qid": "c5-29-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "agree",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Larks",
+    "has",
+    "brown",
+    "feathers",
+    "and",
+    "sweet",
+    "voices."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "does",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Larks</b> is plural, so use <b>have</b>. <b>Has</b> is for one: a lark has."
+  },
+  {
+   "qid": "c5-29-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "agree",
+   "prompt": "Fill in the gap.",
+   "before": "Look at those clouds! They",
+   "after": "darker than they were this morning.",
+   "options": [
+    "are",
+    "is",
+    "was"
+   ],
+   "answer": 0,
+   "rule": "<b>They</b> is plural and the sentence is about now, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-29-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "did the goldfish hide? Behind a big rock.",
+   "options": [
+    "When",
+    "Where",
+    "Whose"
+   ],
+   "answer": 1,
+   "rule": "The answer is a place (behind a big rock), so ask with <b>Where</b>."
+  },
+  {
+   "qid": "c5-29-38",
+   "type": "build",
+   "level": 4,
+   "topic": "compare",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "bird",
+    "sings",
+    "the",
+    "sweetest",
+    "song?"
+   ],
+   "alts": [],
+   "rule": "Choosing one from many needs <b>the</b> + -est: <b>the sweetest</b>."
+  },
+  {
+   "qid": "c5-29-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "agree",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Were you at the lake yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, I were. I saw a goldfish under the bridge.",
+    "Yes, I was. I see a goldfish under the bridge.",
+    "Yes, I was. I saw a goldfish under the bridge."
+   ],
+   "answer": 2,
+   "rule": "In the past, <b>I</b> takes <b>was</b>. <b>Yesterday</b> needs the past: <b>saw</b>."
+  },
+  {
+   "qid": "c5-29-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "compare",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Which is bigger, the sea or the lake?"
+    ]
+   ],
+   "options": [
+    "The sea is bigger than the lake.",
+    "The sea is more bigger than the lake.",
+    "The sea is biggest than the lake."
+   ],
+   "answer": 0,
+   "rule": "Two things with <b>than</b>: add -er. Big doubles the g: <b>bigger than</b>."
+  },
+  {
+   "qid": "c5-29-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "ques",
+   "prompt": "Pick the question that is fully correct.",
+   "options": [
+    "Don't you sometimes wish to sing like the lark?",
+    "Doesn't you sometimes wish to sing like the lark?",
+    "Don't you sometimes wishes to sing like the lark?"
+   ],
+   "answer": 0,
+   "rule": "<b>You</b> takes <b>Don't</b>, and after it comes the base verb: <b>Don't you ... wish</b>."
+  },
+  {
+   "qid": "c5-29-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "compare",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lark flies highest than any other bird in the field.",
+    "The lark flies higher than any other bird in the field.",
+    "The lark flies higher than any other birds in the field."
+   ],
+   "answer": 1,
+   "rule": "Use -er with <b>than</b>, and a singular noun after <b>any other</b>: <b>any other bird</b>."
+  },
+  {
+   "qid": "c5-29-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "contin",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Right",
+    "now",
+    "the",
+    "lark",
+    "is",
+    "singing,",
+    "and",
+    "both",
+    "frogs",
+    "is",
+    "croaking",
+    "by",
+    "the",
+    "pond."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "am",
+      "was",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both frogs</b> is plural, so use <b>are croaking</b>. One lark: <b>is singing</b>."
+  },
+  {
+   "qid": "c5-29-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "did",
+    "the",
+    "lark",
+    "sang",
+    "its",
+    "sweet",
+    "song",
+    "this",
+    "morning?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "sing",
+      "sings",
+      "singing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Wh- word + <b>did</b> + subject + base verb: <b>When did the lark sing?</b>"
+  },
+  {
+   "qid": "c5-29-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "compare",
+   "prompt": "Fill in the gap.",
+   "before": "Of the three birds, the lark sings the",
+   "after": "song.",
+   "options": [
+    "sweet",
+    "sweetest",
+    "sweeter"
+   ],
+   "answer": 1,
+   "rule": "With three or more, use <b>the</b> + -est: <b>the sweetest</b>."
+  },
+  {
+   "qid": "c5-29-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "ques",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the waves feel cold when they creep over you?",
+   "options": [
+    "Do",
+    "Does",
+    "Are"
+   ],
+   "answer": 0,
+   "rule": "<b>Waves</b> is plural and <b>feel</b> is an action verb, so ask with <b>Do</b>."
+  },
+  {
+   "qid": "c5-29-47",
+   "type": "build",
+   "level": 5,
+   "topic": "ques",
+   "prompt": "Make a question.",
+   "answer": [
+    "Wouldn't",
+    "you",
+    "like",
+    "to",
+    "be",
+    "a",
+    "goldfish?"
+   ],
+   "alts": [],
+   "rule": "<b>Wouldn't you like to</b> + verb asks about a wish: <b>Wouldn't you like to be ...?</b>"
+  },
+  {
+   "qid": "c5-29-48",
+   "type": "build",
+   "level": 5,
+   "topic": "contin",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Two",
+    "larks",
+    "are",
+    "soaring",
+    "above",
+    "the",
+    "clouds."
+   ],
+   "alts": [],
+   "rule": "Plural subject + <b>are</b> + verb-ing: <b>Two larks are soaring</b>."
+  },
+  {
+   "qid": "c5-29-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "wh",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why do you want to be a goldfish?"
+    ]
+   ],
+   "options": [
+    "Because I wants to swim deep in the sea.",
+    "Because I want to swim deep in the sea.",
+    "Because I want to swimming deep in the sea."
+   ],
+   "answer": 1,
+   "rule": "A 'Why' question is answered with <b>Because</b>. <b>I want</b> + <b>to</b> + base verb: <b>to swim</b>."
+  },
+  {
+   "qid": "c5-29-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "compare",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Who sings better, the lark or the crow?"
+    ]
+   ],
+   "options": [
+    "The lark sings better than the crow.",
+    "The lark sings more better than the crow.",
+    "The lark sings best than the crow."
+   ],
+   "answer": 0,
+   "rule": "<b>Good/well - better - best</b>. Comparing two with than: <b>better than</b>."
+  }
+ ]
+}

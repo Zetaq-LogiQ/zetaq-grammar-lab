@@ -1,0 +1,1192 @@
+{
+ "class": 10,
+ "id": "04",
+ "title": "All the World's a Stage",
+ "topics": [
+  {
+   "tag": "participles",
+   "name": "Participles and verbal nouns (-ing / -ed forms)"
+  },
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison (all ways)"
+  },
+  {
+   "tag": "inversion",
+   "name": "Inversion with never, seldom, not only, hardly"
+  },
+  {
+   "tag": "rather_better",
+   "name": "Would rather / had better"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-04-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The whining schoolboy walked slowly to school.",
+    "The whined schoolboy walked slowly to school.",
+    "The whine schoolboy walked slowly to school."
+   ],
+   "answer": 0,
+   "rule": "A boy who is whining is a <b>whining</b> boy. The -ing participle works like an adjective here."
+  },
+  {
+   "qid": "c10-04-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Pick the sentence with the correct comparison.",
+   "options": [
+    "The soldier is more braver than the schoolboy.",
+    "The soldier is braver than the schoolboy.",
+    "The soldier is bravest than the schoolboy."
+   ],
+   "answer": 1,
+   "rule": "Comparing two people: <b>braver than</b>. Never use more with an -er word."
+  },
+  {
+   "qid": "c10-04-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Swim",
+    "is",
+    "good",
+    "exercise",
+    "for",
+    "senior",
+    "citizens."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Swam",
+      "Swimming",
+      "Swum"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An action used as the subject takes the -ing form (verbal noun): <b>Swimming</b> is good exercise."
+  },
+  {
+   "qid": "c10-04-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Shakespeare",
+    "is",
+    "one",
+    "of",
+    "the",
+    "greatest",
+    "writer",
+    "in",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "writing",
+      "written",
+      "writers"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>One of the</b> + superlative is followed by a plural noun: one of the greatest <b>writers</b>."
+  },
+  {
+   "qid": "c10-04-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "rather_better",
+   "prompt": "Fill in the gap.",
+   "before": "You had",
+   "after": "wear your helmet on the scooter.",
+   "options": [
+    "good",
+    "well",
+    "better"
+   ],
+   "answer": 2,
+   "rule": "Advice: <b>had better</b> + base verb. You had better wear your helmet."
+  },
+  {
+   "qid": "c10-04-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Never",
+   "after": "I seen such a huge crowd at a school play.",
+   "options": [
+    "has",
+    "have",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "After <b>Never</b> at the start, the helper verb comes before the subject: Never <b>have I</b> seen."
+  },
+  {
+   "qid": "c10-04-07",
+   "type": "build",
+   "level": 1,
+   "topic": "participles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Shining",
+    "faces",
+    "filled",
+    "the",
+    "classroom."
+   ],
+   "alts": [],
+   "rule": "The participle <b>shining</b> describes the noun faces, so it comes just before it."
+  },
+  {
+   "qid": "c10-04-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Is your grandfather older than your grandmother?"
+    ]
+   ],
+   "options": [
+    "Yes, he is three years more old than she is.",
+    "Yes, he is three years oldest than she is.",
+    "Yes, he is three years older than she is."
+   ],
+   "answer": 2,
+   "rule": "Comparing two people: <b>older than</b>. Do not use more or the superlative."
+  },
+  {
+   "qid": "c10-04-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "rather_better",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "It's getting late. Shall we take a taxi or the bus?"
+    ]
+   ],
+   "options": [
+    "I would rather take a taxi tonight.",
+    "I would rather to take a taxi tonight.",
+    "I would rather taking a taxi tonight."
+   ],
+   "answer": 0,
+   "rule": "<b>Would rather</b> is followed by the base verb, without to: would rather <b>take</b>."
+  },
+  {
+   "qid": "c10-04-10",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Change into the comparative degree.",
+   "source": "Old age is the weakest stage of life.",
+   "options": [
+    "Old age is weaker than any other stage of life.",
+    "Old age is more weaker than any other stage of life.",
+    "Old age is weaker than any other stages of life."
+   ],
+   "answer": 0,
+   "rule": "Superlative to comparative: <b>weaker than any other</b> + singular noun."
+  },
+  {
+   "qid": "c10-04-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Seldom my grandfather does complain about his age.",
+    "Seldom does my grandfather complains about his age.",
+    "Seldom does my grandfather complain about his age."
+   ],
+   "answer": 2,
+   "rule": "After <b>Seldom</b>, use does + subject + base verb: Seldom <b>does</b> he <b>complain</b>."
+  },
+  {
+   "qid": "c10-04-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "rather_better",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You had not better shout in the library.",
+    "You had better not shout in the library.",
+    "You had better not to shout in the library."
+   ],
+   "answer": 1,
+   "rule": "Negative advice: <b>had better not</b> + base verb, with no to."
+  },
+  {
+   "qid": "c10-04-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "audience",
+    "clapped",
+    "for",
+    "the",
+    "actor",
+    "play",
+    "the",
+    "soldier."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "playing",
+      "played",
+      "plays"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The phrase <b>playing the soldier</b> describes the actor, so use the -ing participle."
+  },
+  {
+   "qid": "c10-04-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "more",
+    "interesting",
+    "play",
+    "I",
+    "have",
+    "ever",
+    "seen."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>I have ever seen</b> compares with all plays, so use the superlative: the <b>most</b> interesting."
+  },
+  {
+   "qid": "c10-04-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Fill in the gap.",
+   "before": "The children were",
+   "after": "by the clown's funny act.",
+   "options": [
+    "amusing",
+    "amuse",
+    "amused"
+   ],
+   "answer": 2,
+   "rule": "The children receive the feeling, so use the -ed participle: they were <b>amused</b> by the act."
+  },
+  {
+   "qid": "c10-04-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "The schoolboy is not as cheerful",
+   "after": "his little sister.",
+   "options": [
+    "than",
+    "as",
+    "like"
+   ],
+   "answer": 1,
+   "rule": "Positive degree pattern: <b>as ... as</b> (not as cheerful <b>as</b>)."
+  },
+  {
+   "qid": "c10-04-17",
+   "type": "build",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Make a sentence that begins with Never.",
+   "answer": [
+    "Never",
+    "have",
+    "I",
+    "seen",
+    "such",
+    "a",
+    "play."
+   ],
+   "alts": [],
+   "rule": "<b>Never</b> at the start: helper verb + subject + main verb (Never <b>have I seen</b>)."
+  },
+  {
+   "qid": "c10-04-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Did you enjoy the play at the theatre yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes! Not only was the acting superb, but the music was also lovely.",
+    "Yes! Not only the acting was superb, but the music was also lovely.",
+    "Yes! Not only was the acting superb, but the music were also lovely."
+   ],
+   "answer": 0,
+   "rule": "<b>Not only</b> at the start needs inversion: Not only <b>was the acting</b> superb. Music is singular: was."
+  },
+  {
+   "qid": "c10-04-19",
+   "type": "change",
+   "level": 2,
+   "topic": "participles",
+   "prompt": "Join the sentences using a participle.",
+   "source": "The schoolboy picked up his satchel. He walked slowly to school.",
+   "options": [
+    "Picked up his satchel, the schoolboy walked slowly to school.",
+    "Picking up his satchel, walked the schoolboy slowly to school.",
+    "Picking up his satchel, the schoolboy walked slowly to school."
+   ],
+   "answer": 2,
+   "rule": "The first action becomes an -ing phrase: <b>Picking up his satchel</b>, the schoolboy walked..."
+  },
+  {
+   "qid": "c10-04-20",
+   "type": "change",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Change into the positive degree.",
+   "source": "The soldier is braver than the lover.",
+   "options": [
+    "The lover is not as braver as the soldier.",
+    "The lover is not as brave as the soldier.",
+    "The lover is not so brave than the soldier."
+   ],
+   "answer": 1,
+   "rule": "Comparative to positive: <b>not as brave as</b>. The base adjective goes between as ... as."
+  },
+  {
+   "qid": "c10-04-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Having finished his homework, Rohan went out to play.",
+    "Having finish his homework, Rohan went out to play.",
+    "Have finished his homework, Rohan went out to play."
+   ],
+   "answer": 0,
+   "rule": "A completed earlier action: <b>Having + past participle</b> (Having finished)."
+  },
+  {
+   "qid": "c10-04-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "rather_better",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I would rather walk than take the bus.",
+    "I would rather to walk than take the bus.",
+    "I would rather walk than to take the bus."
+   ],
+   "answer": 0,
+   "rule": "<b>would rather</b> + base verb + <b>than</b> + base verb: rather walk than take."
+  },
+  {
+   "qid": "c10-04-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "rather_better",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother",
+    "would",
+    "rather",
+    "stays",
+    "at",
+    "home",
+    "than",
+    "travel",
+    "in",
+    "the",
+    "heat."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "staying",
+      "stay",
+      "stayed"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Would rather</b> takes the base verb for every subject: she would rather <b>stay</b>."
+  },
+  {
+   "qid": "c10-04-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the curtain gone up",
+   "after": "the audience started clapping.",
+   "options": [
+    "than",
+    "then",
+    "when"
+   ],
+   "answer": 2,
+   "rule": "The pair is <b>Hardly ... when</b>. (No sooner goes with than.)"
+  },
+  {
+   "qid": "c10-04-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Mount Everest is higher than",
+   "after": "other peak in the world.",
+   "options": [
+    "any",
+    "all",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "Comparative form of a superlative: higher than <b>any other</b> + singular noun."
+  },
+  {
+   "qid": "c10-04-26",
+   "type": "build",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Few",
+    "actors",
+    "were",
+    "more",
+    "famous",
+    "than",
+    "Shakespeare."
+   ],
+   "alts": [],
+   "rule": "Comparative pattern: <b>more famous than</b>. Few actors were more famous than Shakespeare."
+  },
+  {
+   "qid": "c10-04-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "participles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why is Arjun looking so tired today?"
+    ]
+   ],
+   "options": [
+    "He was exhausting after cycle ten kilometres.",
+    "He was exhausted after cycled ten kilometres.",
+    "He was exhausted after cycling ten kilometres."
+   ],
+   "answer": 2,
+   "rule": "A person who feels tired is <b>exhausted</b>. After a preposition, use the -ing form: after <b>cycling</b>."
+  },
+  {
+   "qid": "c10-04-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Is life today easier than it was in my time?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much easier in many ways.",
+    "Yes, it is very easier in many ways.",
+    "Yes, it is more easier in many ways."
+   ],
+   "answer": 0,
+   "rule": "Make a comparative stronger with <b>much</b>, not very or more: <b>much easier</b>."
+  },
+  {
+   "qid": "c10-04-29",
+   "type": "change",
+   "level": 3,
+   "topic": "inversion",
+   "prompt": "Begin the sentence with 'Never'.",
+   "source": "I have never seen such a fine actor.",
+   "options": [
+    "Never I have seen such a fine actor.",
+    "Never have I seen such a fine actor.",
+    "Never have I saw such a fine actor."
+   ],
+   "answer": 1,
+   "rule": "Never at the start: <b>have I seen</b>. Keep the past participle seen."
+  },
+  {
+   "qid": "c10-04-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Our",
+    "school",
+    "staged",
+    "a",
+    "play",
+    "last",
+    "week.",
+    "The",
+    "costumes",
+    "were",
+    "most",
+    "colourful",
+    "than",
+    "last",
+    "year's,",
+    "and",
+    "everyone",
+    "left",
+    "the",
+    "hall",
+    "feel",
+    "happy."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "much",
+      "many",
+      "more"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "felt",
+      "feels",
+      "feeling"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative: <b>more</b> colourful. An action at the same time: left the hall <b>feeling</b> happy."
+  },
+  {
+   "qid": "c10-04-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "rather_better",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You had better leave now, didn't you?",
+    "You had better leave now, won't you?",
+    "You had better leave now, hadn't you?"
+   ],
+   "answer": 2,
+   "rule": "<b>had better</b> uses the helper had, so the tag is <b>hadn't you?</b>"
+  },
+  {
+   "qid": "c10-04-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Plays",
+    "write",
+    "by",
+    "Shakespeare",
+    "are",
+    "still",
+    "performed",
+    "all",
+    "over",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "wrote",
+      "written",
+      "writing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The plays were written by him, so describe them with the past participle: plays <b>written</b> by Shakespeare."
+  },
+  {
+   "qid": "c10-04-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Between",
+    "Riya",
+    "and",
+    "Meera,",
+    "Riya",
+    "is",
+    "the",
+    "tallest",
+    "girl."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "taller",
+      "more",
+      "most"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Only two girls are compared, so use the comparative: the <b>taller</b> girl."
+  },
+  {
+   "qid": "c10-04-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Seldom",
+   "after": "my grandparents miss the evening news.",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "Inversion after Seldom; the subject grandparents is plural, so <b>do</b> + base verb miss."
+  },
+  {
+   "qid": "c10-04-35",
+   "type": "build",
+   "level": 4,
+   "topic": "participles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "broken",
+    "window",
+    "was",
+    "repaired."
+   ],
+   "alts": [],
+   "rule": "The participle <b>broken</b> describes the window; <b>was repaired</b> is the passive verb."
+  },
+  {
+   "qid": "c10-04-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "rather_better",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Shall I book the tickets for Saturday's show?"
+    ]
+   ],
+   "options": [
+    "You'd better book them today, Papa. They sell out fast.",
+    "You'd better to book them today, Papa. They sell out fast.",
+    "You'd better booked them today, Papa. They sell out fast."
+   ],
+   "answer": 0,
+   "rule": "<b>You'd better</b> (= you had better) + base verb: you'd better <b>book</b>."
+  },
+  {
+   "qid": "c10-04-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How is your batting practice going this month?"
+    ]
+   ],
+   "options": [
+    "Never I have worked so hard, Sir!",
+    "Never have I worked so hard, Sir!",
+    "Never have I work so hard, Sir!"
+   ],
+   "answer": 1,
+   "rule": "Never at the start: <b>have I worked</b>. Present perfect = have + past participle."
+  },
+  {
+   "qid": "c10-04-38",
+   "type": "change",
+   "level": 4,
+   "topic": "inversion",
+   "prompt": "Begin the sentence with 'Not only'.",
+   "source": "The old man lost his teeth, and he also lost his eyesight.",
+   "options": [
+    "Not only the old man lost his teeth, but he also lost his eyesight.",
+    "Not only did the old man lose his teeth, but he also lost his eyesight.",
+    "Not only did the old man lost his teeth, but he also lost his eyesight."
+   ],
+   "answer": 1,
+   "rule": "<b>Not only did</b> + subject + base verb (lose), then <b>but ... also</b>."
+  },
+  {
+   "qid": "c10-04-39",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few writers are as famous as Shakespeare.",
+   "options": [
+    "Shakespeare is one of the most famous writer.",
+    "Shakespeare is one of the famousest writers.",
+    "Shakespeare is one of the most famous writers."
+   ],
+   "answer": 2,
+   "rule": "<b>Very few ... as ... as</b> becomes <b>one of the most</b> + plural noun."
+  },
+  {
+   "qid": "c10-04-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "rather_better",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Grandpa",
+    "is",
+    "seventy-five.",
+    "He",
+    "would",
+    "rather",
+    "read",
+    "than",
+    "watching",
+    "TV.",
+    "Every",
+    "morning,",
+    "he",
+    "water",
+    "his",
+    "plants",
+    "and",
+    "goes",
+    "for",
+    "a",
+    "walk."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "watched",
+      "watch",
+      "watches"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "watering",
+      "waters",
+      "watered"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "would rather read than <b>watch</b> (base verbs). Habit with he: <b>waters</b>, like goes."
+  },
+  {
+   "qid": "c10-04-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Only after the curtain fell did the actors take a bow.",
+    "Only after the curtain fell the actors took a bow.",
+    "Only after the curtain fell did the actors took a bow."
+   ],
+   "answer": 0,
+   "rule": "<b>Only after</b> ... at the start needs inversion in the main clause: <b>did the actors take</b>."
+  },
+  {
+   "qid": "c10-04-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Having",
+    "saw",
+    "the",
+    "play",
+    "twice,",
+    "Meera",
+    "could",
+    "repeat",
+    "the",
+    "judge's",
+    "speech",
+    "word",
+    "for",
+    "word."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "seeing",
+      "see",
+      "seen"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Perfect participle = <b>Having + past participle</b>: Having <b>seen</b> (not saw)."
+  },
+  {
+   "qid": "c10-04-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "rather_better",
+   "prompt": "Fill in the gap.",
+   "before": "It is late, and the roads are flooded; you had better",
+   "after": "here tonight.",
+   "options": [
+    "to stay",
+    "stay",
+    "staying",
+    "stayed"
+   ],
+   "answer": 1,
+   "rule": "<b>had better</b> is always followed by the base verb: had better <b>stay</b>."
+  },
+  {
+   "qid": "c10-04-44",
+   "type": "build",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Make a sentence that begins with Seldom.",
+   "answer": [
+    "Seldom",
+    "does",
+    "Grandpa",
+    "complain",
+    "about",
+    "his",
+    "aching",
+    "knees."
+   ],
+   "alts": [],
+   "rule": "Seldom + <b>does</b> + subject + base verb. <b>aching</b> is a participle describing knees."
+  },
+  {
+   "qid": "c10-04-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Was the second half of the match as exciting as the first?"
+    ]
+   ],
+   "options": [
+    "No, it was far less exciting than the first.",
+    "No, it was far lesser exciting than the first.",
+    "No, it was far less exciting as the first."
+   ],
+   "answer": 0,
+   "rule": "Comparative of exciting going down: <b>less exciting than</b>. Lesser is not used before adjectives."
+  },
+  {
+   "qid": "c10-04-46",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Change into the positive degree.",
+   "source": "Shakespeare is the greatest dramatist in the world.",
+   "options": [
+    "No other dramatist in the world is as great as Shakespeare.",
+    "No other dramatist in the world is as greater as Shakespeare.",
+    "No other dramatists in the world is as great as Shakespeare."
+   ],
+   "answer": 0,
+   "rule": "Superlative to positive: <b>No other</b> + singular noun + <b>as great as</b>."
+  },
+  {
+   "qid": "c10-04-47",
+   "type": "change",
+   "level": 5,
+   "topic": "inversion",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the actor entered, the audience cheered.",
+   "options": [
+    "No sooner had the actor entered when the audience cheered.",
+    "No sooner did the actor enter than the audience cheered.",
+    "No sooner the actor entered than the audience cheered."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner did</b> + subject + base verb ... <b>than</b>. No sooner never pairs with when."
+  },
+  {
+   "qid": "c10-04-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Never",
+    "have",
+    "I",
+    "saw",
+    "my",
+    "little",
+    "brother",
+    "so",
+    "excited.",
+    "Having",
+    "rehearse",
+    "for",
+    "weeks,",
+    "he",
+    "played",
+    "the",
+    "cried",
+    "infant",
+    "in",
+    "our",
+    "school",
+    "play",
+    "and",
+    "won",
+    "a",
+    "prize."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "seeing",
+      "see",
+      "seen"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "rehearsed",
+      "rehearsing",
+      "rehearses"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "cry",
+      "cries",
+      "crying"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "have I <b>seen</b>; Having <b>rehearsed</b> (having + past participle); a baby who cries is a <b>crying</b> infant."
+  },
+  {
+   "qid": "c10-04-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "stages",
+    "of",
+    "life,",
+    "childhood",
+    "is",
+    "the",
+    "more",
+    "carefree.",
+    "Most",
+    "people",
+    "would",
+    "rather",
+    "remembering",
+    "their",
+    "school",
+    "days",
+    "than",
+    "their",
+    "office",
+    "years.",
+    "Dadaji",
+    "still",
+    "feels",
+    "exciting",
+    "about",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "much",
+      "most",
+      "many"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "remembered",
+      "remember",
+      "remembers"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "excite",
+      "excitement",
+      "excited"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Of all = superlative: the <b>most</b> carefree. would rather <b>remember</b>. A person who feels the thrill is <b>excited</b>."
+  },
+  {
+   "qid": "c10-04-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "participles",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hardly",
+    "had",
+    "the",
+    "lights",
+    "gone",
+    "out",
+    "when",
+    "the",
+    "baby",
+    "burst",
+    "out",
+    "cry",
+    "loudly.",
+    "Little",
+    "did",
+    "we",
+    "know",
+    "that",
+    "she",
+    "was",
+    "scaring",
+    "of",
+    "the",
+    "dark.",
+    "We",
+    "had",
+    "better",
+    "leaving",
+    "a",
+    "small",
+    "lamp",
+    "on",
+    "next",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "cries",
+      "crying",
+      "cried"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "scared",
+      "scare",
+      "scary"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 27,
+     "options": [
+      "left",
+      "leaves",
+      "leave"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "burst out <b>crying</b>; a person who feels fear is <b>scared</b> of something; had better + base verb: <b>leave</b>."
+  }
+ ]
+}

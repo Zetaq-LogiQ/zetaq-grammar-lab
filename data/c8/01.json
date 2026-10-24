@@ -1,0 +1,1177 @@
+{
+ "class": 8,
+ "id": "01",
+ "title": "A Time to Believe",
+ "topics": [
+  {
+   "tag": "general_truth",
+   "name": "Simple present for general truths"
+  },
+  {
+   "tag": "infinitive",
+   "name": "Infinitives (to + verb)"
+  },
+  {
+   "tag": "conditional",
+   "name": "Conditionals (if, unless, if only)"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative clauses (who, which, that, whose)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-01-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "general_truth",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sun rise in the east.",
+    "The sun is rose in the east.",
+    "The sun rises in the east."
+   ],
+   "answer": 2,
+   "rule": "A general truth uses the simple present. <b>The sun</b> is singular, so the verb takes <b>-s</b>: <b>rises</b>."
+  },
+  {
+   "qid": "c8-01-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "To believe is to trust.",
+    "To believe are to trust.",
+    "To believing is to trust."
+   ],
+   "answer": 0,
+   "rule": "An infinitive (<b>to</b> + base verb) can be the subject. It is singular, so it takes <b>is</b>: <b>To believe is to trust</b>."
+  },
+  {
+   "qid": "c8-01-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "general_truth",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "moon",
+    "do",
+    "not",
+    "have",
+    "its",
+    "own",
+    "light."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "has",
+      "does"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A fact about <b>the moon</b> (singular) uses <b>does not</b> + base verb: <b>does not have</b>."
+  },
+  {
+   "qid": "c8-01-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dreams",
+    "teach",
+    "us",
+    "to",
+    "hoped",
+    "for",
+    "the",
+    "best."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "hope",
+      "hopes",
+      "hoping"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>to</b> in an infinitive, use the base verb: <b>to hope</b>, not <b>to hoped</b>."
+  },
+  {
+   "qid": "c8-01-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "general_truth",
+   "prompt": "Fill in the gap.",
+   "before": "Honesty",
+   "after": "the best policy.",
+   "options": [
+    "is",
+    "are",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "A saying that is always true uses the simple present. <b>Honesty</b> is singular: <b>is</b>."
+  },
+  {
+   "qid": "c8-01-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "Riya wants",
+   "after": "a doctor one day.",
+   "options": [
+    "becoming",
+    "to become",
+    "become"
+   ],
+   "answer": 1,
+   "rule": "<b>want</b> is followed by an infinitive: <b>wants to become</b>."
+  },
+  {
+   "qid": "c8-01-07",
+   "type": "build",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Make a sentence with 'who'.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "boy",
+    "who",
+    "helped",
+    "me."
+   ],
+   "alts": [],
+   "rule": "<b>who</b> starts a clause that tells us more about a person: the boy <b>who helped me</b>."
+  },
+  {
+   "qid": "c8-01-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "general_truth",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Why can't we see the sun at night?"
+    ]
+   ],
+   "options": [
+    "Because the earth spin and turns away from it.",
+    "Because the earth spins and turns away from it.",
+    "Because the earth spinning and turns away from it."
+   ],
+   "answer": 1,
+   "rule": "A scientific fact uses the simple present. <b>The earth</b> is singular: <b>spins</b> and <b>turns</b>."
+  },
+  {
+   "qid": "c8-01-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "What do you hope to do this summer?"
+    ]
+   ],
+   "options": [
+    "I hope learning to swim.",
+    "I hope to learn swimming.",
+    "I hope to learning swim."
+   ],
+   "answer": 1,
+   "rule": "<b>hope</b> is followed by an infinitive (<b>to</b> + base verb): <b>I hope to learn</b>."
+  },
+  {
+   "qid": "c8-01-10",
+   "type": "change",
+   "level": 1,
+   "topic": "conditional",
+   "prompt": "Join the sentences using 'If'.",
+   "source": "Work hard. You will succeed.",
+   "options": [
+    "If you will work hard, you succeed.",
+    "If you worked hard, you will succeed.",
+    "If you work hard, you will succeed."
+   ],
+   "answer": 2,
+   "rule": "First conditional: <b>If</b> + simple present, then <b>will</b> + base verb: <b>If you work hard, you will succeed</b>."
+  },
+  {
+   "qid": "c8-01-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If it will rain, we stay indoors.",
+    "If it rains, we will stay indoors.",
+    "If it rain, we will stay indoors."
+   ],
+   "answer": 1,
+   "rule": "In a first conditional, the <b>if</b>-part takes the simple present (<b>it rains</b>), not <b>will</b>."
+  },
+  {
+   "qid": "c8-01-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Grandpa is a man who loves stories.",
+    "Grandpa is a man which loves stories.",
+    "Grandpa is a man whom loves stories."
+   ],
+   "answer": 0,
+   "rule": "Use <b>who</b> for a person who does the action. <b>which</b> is for things; <b>whom</b> is not a subject."
+  },
+  {
+   "qid": "c8-01-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "met",
+    "a",
+    "child",
+    "whom",
+    "eyes",
+    "shone",
+    "with",
+    "joy."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>whose</b> shows that something belongs to someone: a child <b>whose eyes</b> shone."
+  },
+  {
+   "qid": "c8-01-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Fill in the gap.",
+   "before": "If you",
+   "after": "the bus, you will be late for school.",
+   "options": [
+    "will miss",
+    "miss",
+    "missed"
+   ],
+   "answer": 1,
+   "rule": "First conditional: the <b>if</b>-part takes the simple present: <b>If you miss</b> ..., you <b>will be</b> late."
+  },
+  {
+   "qid": "c8-01-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "This is the book",
+   "after": "Aarav gave me.",
+   "options": [
+    "who",
+    "whose",
+    "that"
+   ],
+   "answer": 2,
+   "rule": "For a thing, use <b>that</b> or <b>which</b>: the book <b>that</b> Aarav gave me. <b>who</b> is for people."
+  },
+  {
+   "qid": "c8-01-16",
+   "type": "build",
+   "level": 2,
+   "topic": "general_truth",
+   "prompt": "Make a saying.",
+   "answer": [
+    "A",
+    "kind",
+    "heart",
+    "never",
+    "grows",
+    "old."
+   ],
+   "alts": [],
+   "rule": "Sayings state general truths, so they use the simple present: a kind heart <b>never grows</b> old."
+  },
+  {
+   "qid": "c8-01-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Shall we go to the park this evening?"
+    ]
+   ],
+   "options": [
+    "Yes, if it doesn't rain, we can go.",
+    "Yes, if it won't rain, we can go.",
+    "Yes, if it don't rain, we can go."
+   ],
+   "answer": 0,
+   "rule": "The <b>if</b>-part uses the simple present, and <b>it</b> takes <b>doesn't</b>: <b>if it doesn't rain</b>."
+  },
+  {
+   "qid": "c8-01-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Who is Rohan?"
+    ]
+   ],
+   "options": [
+    "He is the boy which sits next to me.",
+    "He is the boy who sits next to me.",
+    "He is the boy who sit next to me."
+   ],
+   "answer": 1,
+   "rule": "Use <b>who</b> for a person. The verb agrees with <b>the boy</b> (singular): <b>who sits</b>."
+  },
+  {
+   "qid": "c8-01-19",
+   "type": "change",
+   "level": 2,
+   "topic": "infinitive",
+   "prompt": "Begin the sentence with 'To'.",
+   "source": "Believing in yourself is important.",
+   "options": [
+    "To believe in yourself is important.",
+    "To believing in yourself is important.",
+    "To believe in yourself are important."
+   ],
+   "answer": 0,
+   "rule": "The infinitive subject is <b>to</b> + base verb (<b>To believe</b>) and it takes a singular verb: <b>is</b>."
+  },
+  {
+   "qid": "c8-01-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "general_truth",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Green",
+    "plants",
+    "makes",
+    "their",
+    "own",
+    "food.",
+    "These",
+    "plants",
+    "needs",
+    "sunlight,",
+    "water",
+    "and",
+    "air.",
+    "Without",
+    "sunlight,",
+    "they",
+    "cannot",
+    "make",
+    "food."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "making",
+      "make",
+      "has"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 8,
+     "options": [
+      "needing",
+      "need",
+      "wants"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Facts use the simple present. Plural subjects (<b>plants</b>) take the verb without <b>-s</b>: <b>make</b>, <b>need</b>."
+  },
+  {
+   "qid": "c8-01-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We enjoy watching the stars at night.",
+    "We enjoy to watch the stars at night.",
+    "We enjoy watch the stars at night."
+   ],
+   "answer": 0,
+   "rule": "<b>enjoy</b> is followed by the <b>-ing</b> form, not an infinitive: <b>enjoy watching</b>."
+  },
+  {
+   "qid": "c8-01-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditional",
+   "prompt": "Pick the sentence with the correct conditional.",
+   "options": [
+    "If I am a bird, I would fly above the clouds.",
+    "If I were a bird, I will fly above the clouds.",
+    "If I were a bird, I would fly above the clouds."
+   ],
+   "answer": 2,
+   "rule": "For an imaginary situation use <b>If</b> + past (<b>were</b>), then <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-01-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditional",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "heat",
+    "ice,",
+    "it",
+    "melt",
+    "into",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "melting",
+      "melted",
+      "melts"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For things that always happen, both parts use the simple present. <b>it</b> takes <b>-s</b>: <b>it melts</b>."
+  },
+  {
+   "qid": "c8-01-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "man",
+    "which",
+    "lives",
+    "next",
+    "door",
+    "is",
+    "a",
+    "pilot."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "who",
+      "whom",
+      "whose"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>which</b> is for things. For a person who does the action, use <b>who</b>: the man <b>who lives</b> next door."
+  },
+  {
+   "qid": "c8-01-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "My parents let me",
+   "after": "late on Saturdays.",
+   "options": [
+    "to stay up",
+    "staying up",
+    "stay up"
+   ],
+   "answer": 2,
+   "rule": "After <b>let</b> + object, use the infinitive without <b>to</b>: <b>let me stay up</b>."
+  },
+  {
+   "qid": "c8-01-26",
+   "type": "build",
+   "level": 3,
+   "topic": "conditional",
+   "prompt": "Make a conditional sentence.",
+   "answer": [
+    "If",
+    "you",
+    "believe,",
+    "dreams",
+    "can",
+    "come",
+    "true."
+   ],
+   "alts": [],
+   "rule": "The <b>if</b>-clause gives the condition (<b>If you believe</b>); the main clause gives the result."
+  },
+  {
+   "qid": "c8-01-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "general_truth",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Why is it so cold in Shimla even in May?"
+    ]
+   ],
+   "options": [
+    "The air get colder as we go higher.",
+    "The air getting colder as we go higher.",
+    "The air gets colder as we go higher."
+   ],
+   "answer": 2,
+   "rule": "A fact of nature uses the simple present. <b>The air</b> is singular: <b>gets</b>."
+  },
+  {
+   "qid": "c8-01-28",
+   "type": "change",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "I have a friend. She writes poems.",
+   "options": [
+    "I have a friend who writes poems.",
+    "I have a friend which writes poems.",
+    "I have a friend who write poems."
+   ],
+   "answer": 0,
+   "rule": "<b>who</b> replaces <b>She</b> and joins the sentences. The verb still agrees with <b>a friend</b>: <b>writes</b>."
+  },
+  {
+   "qid": "c8-01-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conditional",
+   "prompt": "Rewrite using 'Unless'.",
+   "source": "If you do not hurry, you will miss the bus.",
+   "options": [
+    "Unless you do not hurry, you will miss the bus.",
+    "Unless you will hurry, you will miss the bus.",
+    "Unless you hurry, you will miss the bus."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> means <b>if ... not</b>, so drop the <b>not</b>: <b>Unless you hurry</b>."
+  },
+  {
+   "qid": "c8-01-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "My",
+    "uncle,",
+    "which",
+    "is",
+    "a",
+    "farmer,",
+    "still",
+    "grows",
+    "roses.",
+    "The",
+    "roses",
+    "who",
+    "he",
+    "grows",
+    "are",
+    "red.",
+    "Everyone",
+    "whose",
+    "visits",
+    "him",
+    "loves",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 11,
+     "options": [
+      "whom",
+      "whose",
+      "that"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "whom",
+      "who",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "People take <b>who</b> (my uncle, <b>who</b>; everyone <b>who</b>). Things take <b>that</b>/<b>which</b>: the roses <b>that</b> he grows."
+  },
+  {
+   "qid": "c8-01-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "general_truth",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The teacher said that the earth move round the sun.",
+    "The teacher said that the earth moves round the sun.",
+    "The teacher said that the earth moving round the sun."
+   ],
+   "answer": 1,
+   "rule": "In reported speech, a universal truth stays in the simple present: the earth <b>moves</b> round the sun."
+  },
+  {
+   "qid": "c8-01-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "Kunal",
+    "managed",
+    "to",
+    "learning",
+    "the",
+    "guitar."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "learn",
+      "learnt",
+      "learns"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>managed</b> already shows the past. The infinitive after it is always <b>to</b> + base verb: <b>to learn</b>."
+  },
+  {
+   "qid": "c8-01-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha,",
+    "whose",
+    "bag",
+    "was",
+    "stolen,",
+    "have",
+    "gone",
+    "to",
+    "the",
+    "police."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "has",
+      "are",
+      "were"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The main subject is <b>Neha</b> (singular), so the present perfect uses <b>has</b>: Neha ... <b>has gone</b>."
+  },
+  {
+   "qid": "c8-01-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "conditional",
+   "prompt": "Fill in the gap.",
+   "before": "If the seeds",
+   "after": "every day, they will grow into strong plants.",
+   "options": [
+    "will be watered",
+    "are watered",
+    "were watered"
+   ],
+   "answer": 1,
+   "rule": "Even in the passive, the <b>if</b>-part of a first conditional uses the simple present: <b>are watered</b>."
+  },
+  {
+   "qid": "c8-01-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The poet",
+   "after": "book we are reading has won many prizes.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 1,
+   "rule": "The book belongs to the poet, so use <b>whose</b>: the poet <b>whose book</b> we are reading."
+  },
+  {
+   "qid": "c8-01-36",
+   "type": "build",
+   "level": 4,
+   "topic": "infinitive",
+   "prompt": "Make a sentence of hope.",
+   "answer": [
+    "It",
+    "is",
+    "never",
+    "too",
+    "late",
+    "to",
+    "begin",
+    "again."
+   ],
+   "alts": [],
+   "rule": "<b>too</b> + adjective + infinitive: never <b>too late to begin</b> again."
+  },
+  {
+   "qid": "c8-01-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "conditional",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "What would you do if you found a wallet on the road?"
+    ]
+   ],
+   "options": [
+    "I would give it to the police.",
+    "I will gave it to the police.",
+    "I would gave it to the police."
+   ],
+   "answer": 0,
+   "rule": "An imaginary <b>would</b> question gets a <b>would</b> + base verb answer: <b>I would give</b>."
+  },
+  {
+   "qid": "c8-01-38",
+   "type": "change",
+   "level": 4,
+   "topic": "general_truth",
+   "prompt": "Change into reported speech.",
+   "source": "Our teacher said, \"Water boils at 100 degrees Celsius.\"",
+   "options": [
+    "Our teacher said that water boiling at 100 degrees Celsius.",
+    "Our teacher said that water boils at 100 degrees Celsius.",
+    "Our teacher said that water boil at 100 degrees Celsius."
+   ],
+   "answer": 1,
+   "rule": "A scientific fact keeps its simple present tense in reported speech: water <b>boils</b>."
+  },
+  {
+   "qid": "c8-01-39",
+   "type": "change",
+   "level": 4,
+   "topic": "infinitive",
+   "prompt": "Remove 'too'.",
+   "source": "The box is too heavy for me to lift.",
+   "options": [
+    "The box is so heavy that I cannot lift it.",
+    "The box is so heavy that I can lift it.",
+    "The box is so heavy that I cannot lift."
+   ],
+   "answer": 0,
+   "rule": "<b>too ... to</b> becomes <b>so ... that</b> + a negative (<b>cannot</b>), and <b>lift</b> needs its object <b>it</b>."
+  },
+  {
+   "qid": "c8-01-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "conditional",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "it",
+    "rain",
+    "tomorrow,",
+    "we",
+    "will",
+    "stay",
+    "at",
+    "home.",
+    "We",
+    "will",
+    "watch",
+    "a",
+    "film",
+    "and",
+    "eat",
+    "popcorn.",
+    "Mother",
+    "says",
+    "we",
+    "can",
+    "play",
+    "carrom",
+    "if",
+    "Rohan",
+    "and",
+    "I",
+    "finishes",
+    "our",
+    "homework."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "rained",
+      "raining",
+      "rains"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 27,
+     "options": [
+      "finishing",
+      "finish",
+      "completes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The <b>if</b>-part uses the simple present: <b>it rains</b>; <b>Rohan and I</b> is plural, so <b>finish</b>."
+  },
+  {
+   "qid": "c8-01-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Pick the sentence with the correct conditional.",
+   "options": [
+    "If I were the captain, I will choose Meera first.",
+    "If I were the captain, I would choose Meera first.",
+    "If I am the captain, I would choose Meera first."
+   ],
+   "answer": 1,
+   "rule": "Imaginary present: <b>If I were</b> ... <b>I would</b> + base verb. Don't mix <b>were</b> with <b>will</b> or <b>am</b> with <b>would</b>."
+  },
+  {
+   "qid": "c8-01-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tea",
+    "gardens",
+    "of",
+    "Assam,",
+    "that",
+    "attract",
+    "many",
+    "tourists,",
+    "are",
+    "famous",
+    "all",
+    "over",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A clause between commas only adds extra information. It uses <b>which</b> for things, never <b>that</b>."
+  },
+  {
+   "qid": "c8-01-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "Not knowing what",
+   "after": "next, the old man sat down and waited for dawn.",
+   "options": [
+    "to do",
+    "doing",
+    "do"
+   ],
+   "answer": 0,
+   "rule": "After question words like <b>what</b>, <b>how</b> or <b>where</b>, use an infinitive: <b>what to do</b>."
+  },
+  {
+   "qid": "c8-01-44",
+   "type": "build",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Make a sentence with 'that'.",
+   "answer": [
+    "Kindness",
+    "is",
+    "a",
+    "language",
+    "that",
+    "everyone",
+    "can",
+    "understand."
+   ],
+   "alts": [],
+   "rule": "<b>that</b> starts a clause describing <b>a language</b>: a language <b>that everyone can understand</b>."
+  },
+  {
+   "qid": "c8-01-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "general_truth",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What did the scientist tell your class about light?"
+    ]
+   ],
+   "options": [
+    "She told us that light travels faster than sound.",
+    "She told us that light travel faster than sound.",
+    "She told to us that light travels faster than sound."
+   ],
+   "answer": 0,
+   "rule": "A fact stays in the simple present after <b>told</b> (<b>light travels</b>), and <b>told</b> takes no <b>to</b>: <b>told us</b>."
+  },
+  {
+   "qid": "c8-01-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Why did you go to the library?"
+    ]
+   ],
+   "options": [
+    "I went there for return the books.",
+    "I went there to returning the books.",
+    "I went there to return the books."
+   ],
+   "answer": 2,
+   "rule": "To give a purpose, use an infinitive: <b>to return</b>. Not <b>for return</b> or <b>to returning</b>."
+  },
+  {
+   "qid": "c8-01-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional",
+   "prompt": "Rewrite using 'If'.",
+   "source": "I am not a bird, so I cannot fly.",
+   "options": [
+    "If I was a bird, I can fly.",
+    "If I were a bird, I could fly.",
+    "If I am a bird, I could fly."
+   ],
+   "answer": 1,
+   "rule": "An unreal present becomes <b>If</b> + past (<b>were</b>) and <b>could</b>/<b>would</b> + base verb: <b>I could fly</b>."
+  },
+  {
+   "qid": "c8-01-48",
+   "type": "change",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'whose'.",
+   "source": "I know an old man. His stories make everyone smile.",
+   "options": [
+    "I know an old man whose stories make everyone smile.",
+    "I know an old man whose his stories make everyone smile.",
+    "I know an old man who's stories make everyone smile."
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> replaces <b>His</b>, so don't keep both. <b>who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c8-01-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "infinitive",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "To",
+    "believe",
+    "in",
+    "yourself",
+    "mean",
+    "to",
+    "trust",
+    "your",
+    "own",
+    "strength.",
+    "Life",
+    "is",
+    "a",
+    "gift,",
+    "and",
+    "every",
+    "day",
+    "give",
+    "us",
+    "a",
+    "chance",
+    "to",
+    "began",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "meaning",
+      "meaningful",
+      "means"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "giving",
+      "gives",
+      "gift"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 22,
+     "options": [
+      "begin",
+      "begun",
+      "begins"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An infinitive subject is singular (<b>means</b>); <b>every day</b> is singular (<b>gives</b>); after <b>to</b> use the base verb (<b>begin</b>)."
+  },
+  {
+   "qid": "c8-01-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "we",
+    "lose",
+    "hope,",
+    "we",
+    "will",
+    "never",
+    "find",
+    "the",
+    "strength",
+    "who",
+    "lies",
+    "within",
+    "us.",
+    "My",
+    "grandfather,",
+    "whom",
+    "always",
+    "smiles,",
+    "says",
+    "that",
+    "a",
+    "smile",
+    "keep",
+    "us",
+    "going."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "whom",
+      "that",
+      "whose"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "who",
+      "which",
+      "whose"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "keeping",
+      "keeper",
+      "keeps"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Things take <b>that</b> (the strength <b>that</b> lies); a person as subject takes <b>who</b>; <b>a smile</b> is singular: <b>keeps</b>."
+  }
+ ]
+}

@@ -1,0 +1,1002 @@
+{
+ "class": 7,
+ "id": "20",
+ "title": "Under the Greenwood Tree",
+ "topics": [
+  {
+   "tag": "sva",
+   "name": "Subject-verb agreement (he loves, it does)"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative pronouns who / which / that / whose"
+  },
+  {
+   "tag": "gerund_inf",
+   "name": "Gerund vs infinitive (love to live, enjoy singing)"
+  },
+  {
+   "tag": "invitations",
+   "name": "Invitations and polite imperatives"
+  },
+  {
+   "tag": "tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-20-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bird sings a merry song.",
+    "The bird sing a merry song.",
+    "The bird singing a merry song."
+   ],
+   "answer": 0,
+   "rule": "A singular subject (<b>the bird</b>) takes a verb with -s in the simple present: <b>sings</b>."
+  },
+  {
+   "qid": "c7-20-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boy which loves the forest is my cousin.",
+    "The boy whose loves the forest is my cousin.",
+    "The boy who loves the forest is my cousin."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for people. <b>Which</b> is for things and animals."
+  },
+  {
+   "qid": "c7-20-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aryan",
+    "love",
+    "to",
+    "lie",
+    "under",
+    "the",
+    "mango",
+    "tree."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "loving",
+      "lover",
+      "loves"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Aryan</b> is singular, so the simple present verb takes -s: <b>loves</b>."
+  },
+  {
+   "qid": "c7-20-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "invitations",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "come",
+    "here",
+    "and",
+    "sits",
+    "with",
+    "me",
+    "under",
+    "the",
+    "tree."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "sat",
+      "sit",
+      "sitting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An invitation uses the base verb: <b>come</b> ... and <b>sit</b>. Both verbs must match."
+  },
+  {
+   "qid": "c7-20-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "Birds love",
+   "after": "in the morning.",
+   "options": [
+    "to sing",
+    "sings",
+    "sang"
+   ],
+   "answer": 0,
+   "rule": "After <b>love</b> we can use the infinitive: <b>love to sing</b>."
+  },
+  {
+   "qid": "c7-20-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "The forest is peaceful,",
+   "after": "it?",
+   "options": [
+    "isn't",
+    "doesn't",
+    "wasn't"
+   ],
+   "answer": 0,
+   "rule": "A positive sentence with <b>is</b> takes the negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-20-07",
+   "type": "build",
+   "level": 1,
+   "topic": "invitations",
+   "prompt": "Make an invitation.",
+   "answer": [
+    "Come",
+    "and",
+    "sit",
+    "under",
+    "the",
+    "greenwood",
+    "tree."
+   ],
+   "alts": [],
+   "rule": "An invitation begins with the base verb: <b>Come and sit</b>."
+  },
+  {
+   "qid": "c7-20-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "invitations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Would you like to come to the forest picnic on Sunday?"
+    ]
+   ],
+   "options": [
+    "Yes, I would love come.",
+    "Yes, I would love to come.",
+    "Yes, I would loves to come."
+   ],
+   "answer": 1,
+   "rule": "Accept with <b>I would love to</b> + base verb. After <b>would</b> use <b>love</b>, not loves."
+  },
+  {
+   "qid": "c7-20-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "You have packed your sweater, haven't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I have packing it.",
+    "Yes, I have packed it.",
+    "Yes, I has packed it."
+   ],
+   "answer": 1,
+   "rule": "Answer a tag question with the same tense: <b>I have packed it</b>."
+  },
+  {
+   "qid": "c7-20-10",
+   "type": "change",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Change into a question.",
+   "source": "The shepherd lives in the forest.",
+   "options": [
+    "Does the shepherd lives in the forest?",
+    "Does the shepherd live in the forest?",
+    "Do the shepherd live in the forest?"
+   ],
+   "answer": 1,
+   "rule": "Use <b>Does</b> with a singular subject, and the base verb after it: <b>Does ... live</b>."
+  },
+  {
+   "qid": "c7-20-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She enjoys walking in the sun.",
+    "She enjoys to walk in the sun.",
+    "She enjoy walking in the sun."
+   ],
+   "answer": 0,
+   "rule": "<b>Enjoy</b> is followed by a gerund (-ing): <b>enjoys walking</b>."
+  },
+  {
+   "qid": "c7-20-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You like birds, doesn't you?",
+    "You like birds, don't you?",
+    "You like birds, aren't you?"
+   ],
+   "answer": 1,
+   "rule": "<b>You like</b> is simple present with <b>you</b>, so the tag is <b>don't you?</b>"
+  },
+  {
+   "qid": "c7-20-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "man",
+    "whom",
+    "loves",
+    "the",
+    "simple",
+    "life",
+    "lives",
+    "in",
+    "the",
+    "forest."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The relative pronoun is the subject of <b>loves</b>, so use <b>who</b>, not whom."
+  },
+  {
+   "qid": "c7-20-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandfather",
+    "is",
+    "fond",
+    "of",
+    "walk",
+    "in",
+    "the",
+    "fields."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "walked",
+      "walks",
+      "walking"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: <b>fond of walking</b>."
+  },
+  {
+   "qid": "c7-20-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "This is the tree",
+   "after": "branches give us cool shade.",
+   "options": [
+    "whose",
+    "who",
+    "whom"
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> shows possession: the tree's branches = the tree <b>whose</b> branches."
+  },
+  {
+   "qid": "c7-20-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "He who",
+   "after": "up ambition is happy with simple things.",
+   "options": [
+    "give",
+    "giving",
+    "gives"
+   ],
+   "answer": 2,
+   "rule": "<b>Who</b> refers to <b>He</b>, which is singular, so use <b>gives</b>."
+  },
+  {
+   "qid": "c7-20-17",
+   "type": "build",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "It",
+    "is",
+    "a",
+    "lovely",
+    "day,",
+    "isn't",
+    "it?"
+   ],
+   "alts": [],
+   "rule": "Positive statement with <b>is</b> + negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-20-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Meera",
+     "What do you do on holidays?"
+    ]
+   ],
+   "options": [
+    "I enjoy to read under a tree.",
+    "I enjoying read under a tree.",
+    "I enjoy reading under a tree."
+   ],
+   "answer": 2,
+   "rule": "<b>Enjoy</b> takes a gerund: <b>I enjoy reading</b>."
+  },
+  {
+   "qid": "c7-20-19",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "I met a farmer. He grows fruit and nuts.",
+   "options": [
+    "I met a farmer who grow fruit and nuts.",
+    "I met a farmer who grows fruit and nuts.",
+    "I met a farmer which grows fruit and nuts."
+   ],
+   "answer": 1,
+   "rule": "<b>Who</b> replaces <b>He</b>. <b>A farmer</b> is singular, so keep <b>grows</b>."
+  },
+  {
+   "qid": "c7-20-20",
+   "type": "change",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Add the correct question tag.",
+   "source": "The birds are singing.",
+   "options": [
+    "The birds are singing, aren't they?",
+    "The birds are singing, isn't it?",
+    "The birds are singing, don't they?"
+   ],
+   "answer": 0,
+   "rule": "Use the same helper verb (<b>are</b>) in the negative and the pronoun <b>they</b>: <b>aren't they?</b>"
+  },
+  {
+   "qid": "c7-20-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The song that the bird sing is sweet.",
+    "The song who the bird sings is sweet.",
+    "The song that the bird sings is sweet."
+   ],
+   "answer": 2,
+   "rule": "Use <b>that</b> for things. Inside the clause, <b>the bird</b> is singular: <b>sings</b>."
+  },
+  {
+   "qid": "c7-20-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the birds have a sweet note.",
+    "Each of the bird has a sweet note.",
+    "Each of the birds has a sweet note."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of</b> + plural noun takes a singular verb: <b>Each of the birds has</b>."
+  },
+  {
+   "qid": "c7-20-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Winter",
+    "often",
+    "brings",
+    "us",
+    "cold",
+    "and",
+    "rough",
+    "weather,",
+    "isn't",
+    "it?"
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "hasn't",
+      "doesn't",
+      "won't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Brings</b> is simple present with no helper, so the tag uses <b>doesn't</b>: <b>doesn't it?</b>"
+  },
+  {
+   "qid": "c7-20-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "wants",
+    "to",
+    "sitting",
+    "under",
+    "the",
+    "shady",
+    "tree."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sat",
+      "sits",
+      "sit"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Want</b> takes the infinitive: <b>to</b> + base verb = <b>to sit</b>."
+  },
+  {
+   "qid": "c7-20-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "invitations",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you join us for a picnic, please?",
+   "options": [
+    "Does",
+    "Will",
+    "Are"
+   ],
+   "answer": 1,
+   "rule": "A polite invitation can begin <b>Will you</b> + base verb. <b>Does</b> and <b>Are</b> do not fit <b>you join</b>."
+  },
+  {
+   "qid": "c7-20-26",
+   "type": "build",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Make a sentence with a relative clause.",
+   "answer": [
+    "The",
+    "man",
+    "who",
+    "loves",
+    "the",
+    "sun",
+    "lives",
+    "here."
+   ],
+   "alts": [],
+   "rule": "<b>Who loves the sun</b> tells us which man. It comes right after <b>The man</b>."
+  },
+  {
+   "qid": "c7-20-27",
+   "type": "build",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Make a sentence with a gerund.",
+   "answer": [
+    "My",
+    "sister",
+    "enjoys",
+    "feeding",
+    "the",
+    "birds."
+   ],
+   "alts": [],
+   "rule": "<b>Enjoys</b> is followed by a gerund: <b>feeding</b>."
+  },
+  {
+   "qid": "c7-20-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Who is that girl near the gate?"
+    ]
+   ],
+   "options": [
+    "She is the girl which won the race.",
+    "She is the girl who win the race.",
+    "She is the girl who won the race."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for a person, and the past <b>won</b> for a finished race."
+  },
+  {
+   "qid": "c7-20-29",
+   "type": "change",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'whose'.",
+   "source": "This is the bird. Its song is very sweet.",
+   "options": [
+    "This is the bird who song is very sweet.",
+    "This is the bird whose song is very sweet.",
+    "This is the bird whose song are very sweet."
+   ],
+   "answer": 1,
+   "rule": "<b>Whose</b> replaces <b>Its</b>. <b>Song</b> is singular, so keep <b>is</b>."
+  },
+  {
+   "qid": "c7-20-30",
+   "type": "change",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Change into the negative.",
+   "source": "The forest has many enemies.",
+   "options": [
+    "The forest does not have many enemies.",
+    "The forest do not have many enemies.",
+    "The forest does not has many enemies."
+   ],
+   "answer": 0,
+   "rule": "Singular subject: <b>does not</b> + base verb <b>have</b>."
+  },
+  {
+   "qid": "c7-20-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I have always loved watching the sunset.",
+    "I have always loved to watching the sunset.",
+    "I has always loved watching the sunset."
+   ],
+   "answer": 0,
+   "rule": "<b>I have</b> + past participle; <b>love</b> can take a gerund: <b>loved watching</b>."
+  },
+  {
+   "qid": "c7-20-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "invitations",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Shall we go for a walk in the woods?",
+    "Shall we going for a walk in the woods?",
+    "Shall we goes for a walk in the woods?"
+   ],
+   "answer": 0,
+   "rule": "<b>Shall we</b> + base verb makes a friendly suggestion: <b>Shall we go</b>."
+  },
+  {
+   "qid": "c7-20-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "the",
+    "hikers",
+    "who",
+    "reached",
+    "the",
+    "hilltop",
+    "yesterday",
+    "was",
+    "very",
+    "tired."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "is",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>Both the hikers</b> (plural) and the time is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c7-20-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "and",
+    "Mrs",
+    "Joshi",
+    "lives",
+    "in",
+    "a",
+    "cottage",
+    "near",
+    "the",
+    "forest."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "living",
+      "live",
+      "alive"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two people joined by <b>and</b> make a plural subject: <b>Mr and Mrs Joshi live</b>."
+  },
+  {
+   "qid": "c7-20-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "You visited the bird sanctuary last week,",
+   "after": "you?",
+   "options": [
+    "weren't",
+    "didn't",
+    "haven't"
+   ],
+   "answer": 1,
+   "rule": "<b>Visited</b> is simple past with no helper, so the tag is <b>didn't you?</b>"
+  },
+  {
+   "qid": "c7-20-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "Let's sing a merry song,",
+   "after": "we?",
+   "options": [
+    "will",
+    "don't",
+    "shall"
+   ],
+   "answer": 2,
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c7-20-37",
+   "type": "build",
+   "level": 4,
+   "topic": "invitations",
+   "prompt": "Make a polite invitation.",
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "join",
+    "our",
+    "nature",
+    "walk?"
+   ],
+   "alts": [],
+   "rule": "<b>Would you like to</b> + base verb is a polite way to invite someone."
+  },
+  {
+   "qid": "c7-20-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "You haven't seen a woodpecker, have you?"
+    ]
+   ],
+   "options": [
+    "No, I haven't. I would love to seeing one.",
+    "No, I didn't seen. I would love to see one.",
+    "No, I haven't. I would love to see one."
+   ],
+   "answer": 2,
+   "rule": "Reply with the same helper: <b>No, I haven't</b>. After <b>love to</b> use the base verb."
+  },
+  {
+   "qid": "c7-20-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Does your school have a garden?"
+    ]
+   ],
+   "options": [
+    "Yes, it does. It has a big neem tree too.",
+    "Yes, it do. It has a big neem tree too.",
+    "Yes, it does. It have a big neem tree too."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> is singular: <b>it does</b> and <b>it has</b>."
+  },
+  {
+   "qid": "c7-20-40",
+   "type": "change",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Change into a question.",
+   "source": "Rohit has seen a deer in the forest.",
+   "options": [
+    "Has Rohit saw a deer in the forest?",
+    "Has Rohit seen a deer in the forest?",
+    "Does Rohit has seen a deer in the forest?"
+   ],
+   "answer": 1,
+   "rule": "Move the helper <b>Has</b> to the front and keep the past participle <b>seen</b>."
+  },
+  {
+   "qid": "c7-20-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Anyone who loves nature and is happy with simple food is welcome here.",
+    "Anyone who love nature and is happy with simple food is welcome here.",
+    "Anyone who loves nature and are happy with simple food is welcome here."
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> refers to <b>Anyone</b>, which is singular: <b>loves</b> ... and <b>is</b>."
+  },
+  {
+   "qid": "c7-20-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Instead of chase fame, he chose to live a quiet life in the woods.",
+    "Instead of chasing fame, he chose to lived a quiet life in the woods.",
+    "Instead of chasing fame, he chose to live a quiet life in the woods."
+   ],
+   "answer": 2,
+   "rule": "After the preposition <b>of</b> use a gerund (<b>chasing</b>); after <b>chose to</b> use the base verb (<b>live</b>)."
+  },
+  {
+   "qid": "c7-20-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "sweet",
+    "songs",
+    "of",
+    "the",
+    "little",
+    "bird",
+    "fills",
+    "the",
+    "quiet",
+    "forest",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "fill",
+      "filling",
+      "full"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>Many sweet songs</b> (plural), not <b>bird</b>. So use <b>fill</b>."
+  },
+  {
+   "qid": "c7-20-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hiking",
+    "with",
+    "my",
+    "two",
+    "cousins,",
+    "who",
+    "enjoys",
+    "nature,",
+    "is",
+    "the",
+    "best",
+    "way",
+    "to",
+    "spend",
+    "a",
+    "holiday."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "enjoy",
+      "enjoying",
+      "enjoyment"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Who</b> refers to <b>my two cousins</b> (plural), so the verb is <b>enjoy</b>."
+  },
+  {
+   "qid": "c7-20-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "After a long day in the fields, the farmer looked forward to",
+   "after": "under the tree.",
+   "options": [
+    "rest",
+    "rests",
+    "resting"
+   ],
+   "answer": 2,
+   "rule": "In <b>look forward to</b>, <b>to</b> is a preposition, so it takes a gerund: <b>resting</b>."
+  },
+  {
+   "qid": "c7-20-46",
+   "type": "build",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "Nobody",
+    "likes",
+    "rough",
+    "weather,",
+    "do",
+    "they?"
+   ],
+   "alts": [],
+   "rule": "<b>Nobody</b> is negative, so the tag is positive, and it uses <b>they</b>: <b>do they?</b>"
+  },
+  {
+   "qid": "c7-20-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "invitations",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Fernandes",
+     "Would you mind helping me plant these saplings?"
+    ]
+   ],
+   "options": [
+    "Not at all. I would be happy to helping.",
+    "Not at all. I would be happy to help.",
+    "Not at all. I would being happy to help."
+   ],
+   "answer": 1,
+   "rule": "<b>Not at all</b> agrees to a <b>Would you mind</b> request. Use <b>would be</b> and <b>happy to help</b>."
+  },
+  {
+   "qid": "c7-20-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why did you stop coming to practice?"
+    ]
+   ],
+   "options": [
+    "I stopped to coming because I had hurt my ankle.",
+    "I stopped coming because I had hurted my ankle.",
+    "I stopped coming because I had hurt my ankle."
+   ],
+   "answer": 2,
+   "rule": "<b>Stop</b> + gerund means to give up doing something: <b>stopped coming</b>. Hurt stays <b>hurt</b> in the past."
+  },
+  {
+   "qid": "c7-20-49",
+   "type": "change",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'which'.",
+   "source": "We rested under a banyan tree. It was more than a hundred years old.",
+   "options": [
+    "We rested under a banyan tree who was more than a hundred years old.",
+    "We rested under a banyan tree which it was more than a hundred years old.",
+    "We rested under a banyan tree which was more than a hundred years old."
+   ],
+   "answer": 2,
+   "rule": "<b>Which</b> replaces <b>It</b>, so do not repeat <b>it</b>. Use <b>which</b> for things."
+  },
+  {
+   "qid": "c7-20-50",
+   "type": "change",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "Add the correct question tag.",
+   "source": "There is an old banyan tree near the lake.",
+   "options": [
+    "There is an old banyan tree near the lake, isn't it?",
+    "There is an old banyan tree near the lake, isn't there?",
+    "There is an old banyan tree near the lake, doesn't there?"
+   ],
+   "answer": 1,
+   "rule": "When a sentence begins with <b>There is</b>, the tag repeats <b>there</b>, not it: <b>isn't there?</b>"
+  }
+ ]
+}

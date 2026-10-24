@@ -1,0 +1,998 @@
+{
+ "class": 6,
+ "id": "5.1",
+ "title": "Give me Strength",
+ "topics": [
+  {
+   "tag": "imperatives",
+   "name": "Imperatives and requests (Give me..., Don't..., Let's...)"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals can, could, may, must, should, would"
+  },
+  {
+   "tag": "prefixes",
+   "name": "Opposites with prefixes (un-, dis-, im-)"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns (me, us, mine, yours, themselves)"
+  },
+  {
+   "tag": "revision",
+   "name": "Tenses, conjunctions and comparison (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-5.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please gives me some water.",
+    "Please give me some water.",
+    "Please giving me some water."
+   ],
+   "answer": 1,
+   "rule": "A request or order uses the base verb: <b>Please give</b> me..."
+  },
+  {
+   "qid": "c6-5.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This book is mine.",
+    "This book is my.",
+    "This book is me."
+   ],
+   "answer": 0,
+   "rule": "With no noun after it, use <b>mine</b>: This book is <b>mine</b>."
+  },
+  {
+   "qid": "c6-5.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should helps the poor.",
+    "You should to help the poor.",
+    "You should help the poor."
+   ],
+   "answer": 2,
+   "rule": "After <b>should</b>, use the base verb with no <b>to</b> and no <b>-s</b>: <b>should help</b>."
+  },
+  {
+   "qid": "c6-5.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "can",
+    "wins",
+    "the",
+    "race",
+    "if",
+    "you",
+    "try."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "winning",
+      "won",
+      "win"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>can</b>, use the base verb: <b>can win</b>."
+  },
+  {
+   "qid": "c6-5.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "give",
+    "I",
+    "the",
+    "strength",
+    "to",
+    "try",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "my",
+      "mine",
+      "me"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a verb like <b>give</b>, use the object pronoun <b>me</b>, not <b>I</b>."
+  },
+  {
+   "qid": "c6-5.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "your hands before lunch.",
+   "options": [
+    "Wash",
+    "Washes",
+    "Washing"
+   ],
+   "answer": 0,
+   "rule": "An instruction starts with the base verb: <b>Wash</b> your hands."
+  },
+  {
+   "qid": "c6-5.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "prefixes",
+   "prompt": "Fill in the gap.",
+   "before": "It is",
+   "after": "to cross the road without looking.",
+   "options": [
+    "dissafe",
+    "unsafe",
+    "imsafe"
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>safe</b> is <b>unsafe</b> (prefix <b>un-</b>)."
+  },
+  {
+   "qid": "c6-5.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "help",
+    "me",
+    "carry",
+    "this",
+    "bag."
+   ],
+   "alts": [],
+   "rule": "<b>Please</b> + base verb makes a polite request: <b>Please help me</b>..."
+  },
+  {
+   "qid": "c6-5.1-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sister",
+     "Can you swim?"
+    ]
+   ],
+   "options": [
+    "Yes, I can swim.",
+    "Yes, I can swims.",
+    "Yes, I cans swim."
+   ],
+   "answer": 0,
+   "rule": "<b>Can</b> never changes, and the verb after it stays in base form: <b>I can swim</b>."
+  },
+  {
+   "qid": "c6-5.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Is this pencil yours?"
+    ]
+   ],
+   "options": [
+    "No, it is not my. It is Ravi's.",
+    "No, it is not me. It is Ravi's.",
+    "No, it is not mine. It is Ravi's."
+   ],
+   "answer": 2,
+   "rule": "To say who owns it without a noun after, use <b>mine</b>."
+  },
+  {
+   "qid": "c6-5.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prefixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Never unobey the safety rules.",
+    "Never disobey the safety rules.",
+    "Never imobey the safety rules."
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>obey</b> is <b>disobey</b> (prefix <b>dis-</b>)."
+  },
+  {
+   "qid": "c6-5.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "May I borrows your dictionary, Ma'am?",
+    "May I borrow your dictionary, Ma'am?",
+    "May I borrowing your dictionary, Ma'am?"
+   ],
+   "answer": 1,
+   "rule": "To ask permission: <b>May I</b> + base verb: <b>May I borrow</b>...?"
+  },
+  {
+   "qid": "c6-5.1-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Don't",
+    "laughs",
+    "at",
+    "others",
+    "when",
+    "they",
+    "make",
+    "mistakes."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "laugh",
+      "laughing",
+      "laughed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>Don't</b>, use the base verb: <b>Don't laugh</b>."
+  },
+  {
+   "qid": "c6-5.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother",
+    "told",
+    "we",
+    "a",
+    "story",
+    "about",
+    "kindness."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "us",
+      "our",
+      "ours"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the verb <b>told</b>, use the object pronoun <b>us</b>."
+  },
+  {
+   "qid": "c6-5.1-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "not bend your knees before a bully.",
+   "options": [
+    "should",
+    "shoulds",
+    "shouldn't"
+   ],
+   "answer": 0,
+   "rule": "<b>Should not</b> gives advice. Modals never take <b>-s</b>, and <b>shouldn't not</b> is a double negative."
+  },
+  {
+   "qid": "c6-5.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "prefixes",
+   "prompt": "Fill in the gap.",
+   "before": "Telling lies is a",
+   "after": "habit.",
+   "options": [
+    "unhonest",
+    "dishonest",
+    "imhonest"
+   ],
+   "answer": 1,
+   "rule": "The opposite of <b>honest</b> is <b>dishonest</b> (prefix <b>dis-</b>)."
+  },
+  {
+   "qid": "c6-5.1-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "We",
+    "should",
+    "respect",
+    "our",
+    "elders."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>should</b> + base verb: <b>We should respect</b>..."
+  },
+  {
+   "qid": "c6-5.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Make a request.",
+   "answer": [
+    "Give",
+    "me",
+    "the",
+    "strength",
+    "to",
+    "help",
+    "others."
+   ],
+   "alts": [],
+   "rule": "Request = base verb first: <b>Give me</b> the strength <b>to help</b> others."
+  },
+  {
+   "qid": "c6-5.1-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How can we keep our classroom clean?"
+    ]
+   ],
+   "options": [
+    "Throws the waste in the dustbin.",
+    "To throws the waste in the dustbin.",
+    "Throw the waste in the dustbin."
+   ],
+   "answer": 2,
+   "rule": "An instruction begins with the base verb: <b>Throw</b> the waste..."
+  },
+  {
+   "qid": "c6-5.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Who made this card for me?"
+    ]
+   ],
+   "options": [
+    "Me made it for you myself.",
+    "I made it for yours myself.",
+    "I made it for you myself."
+   ],
+   "answer": 2,
+   "rule": "Subject pronoun <b>I</b> does the action; after <b>for</b>, use <b>you</b>."
+  },
+  {
+   "qid": "c6-5.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "prefixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You must not be unkind to animals.",
+    "You must not be unkindly to animals.",
+    "You must not are unkind to animals."
+   ],
+   "answer": 0,
+   "rule": "After <b>be</b>, use the adjective <b>unkind</b>; after <b>must not</b>, use <b>be</b>."
+  },
+  {
+   "qid": "c6-5.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The joy is our, and the victory is yours.",
+    "The joy is ours, and the victory is your.",
+    "The joy is ours, and the victory is yours."
+   ],
+   "answer": 2,
+   "rule": "With no noun after them, use <b>ours</b> and <b>yours</b>."
+  },
+  {
+   "qid": "c6-5.1-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Don't gives up when things get hard.",
+    "Don't give up when things get hard.",
+    "Not give up when things get hard."
+   ],
+   "answer": 1,
+   "rule": "A negative order: <b>Don't</b> + base verb: <b>Don't give up</b>."
+  },
+  {
+   "qid": "c6-5.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prefixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "should",
+    "never",
+    "be",
+    "dishonest",
+    "or",
+    "unpolite",
+    "to",
+    "our",
+    "teachers."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "impolite",
+      "politely",
+      "politeness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The opposite of <b>polite</b> takes <b>im-</b>: <b>impolite</b>."
+  },
+  {
+   "qid": "c6-5.1-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "helping",
+    "me",
+    "lift",
+    "this",
+    "heavy",
+    "box,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "helped",
+      "helps",
+      "help"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Polite request: <b>Could you</b> + base verb: <b>Could you help</b>...?"
+  },
+  {
+   "qid": "c6-5.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Rahul and",
+   "after": "planted a tree in the school garden.",
+   "options": [
+    "me",
+    "I",
+    "my"
+   ],
+   "answer": 1,
+   "rule": "This is the subject (who planted), so use <b>I</b>: <b>Rahul and I</b>."
+  },
+  {
+   "qid": "c6-5.1-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "Let's",
+   "after": "the poor children in our area.",
+   "options": [
+    "helps",
+    "help",
+    "helping"
+   ],
+   "answer": 1,
+   "rule": "After <b>Let's</b>, use the base verb: <b>Let's help</b>."
+  },
+  {
+   "qid": "c6-5.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "lend",
+    "me",
+    "your",
+    "pen?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you please</b> + base verb is a polite way to ask."
+  },
+  {
+   "qid": "c6-5.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Friend",
+     "I have a fever today."
+    ]
+   ],
+   "options": [
+    "You should rests and drink a lot of water.",
+    "You should rest and drink a lot of water.",
+    "You should to rest and drink a lot of water."
+   ],
+   "answer": 1,
+   "rule": "Advice: <b>should</b> + base verb, no <b>to</b>: <b>should rest</b>."
+  },
+  {
+   "qid": "c6-5.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prefixes",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Did you like the new film?"
+    ]
+   ],
+   "options": [
+    "No, it was boring. I disliked it.",
+    "No, it was boring. I inliked it.",
+    "No, it was boring. I imliked it."
+   ],
+   "answer": 0,
+   "rule": "The opposite of the verb <b>like</b> is <b>dislike</b>."
+  },
+  {
+   "qid": "c6-5.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tagore wrote many poems and songs.",
+    "Tagore writed many poems and songs.",
+    "Tagore written many poems and songs."
+   ],
+   "answer": 0,
+   "rule": "<b>Write</b> is irregular: simple past is <b>wrote</b>."
+  },
+  {
+   "qid": "c6-5.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "You can help me, can you?",
+    "You can help me, can't you?",
+    "You can help me, don't you?"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>can</b> takes a negative tag: <b>can't you</b>?"
+  },
+  {
+   "qid": "c6-5.1-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "want",
+    "strength,",
+    "you",
+    "must",
+    "works",
+    "hard",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "working",
+      "work",
+      "worked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>must</b>, use the base verb: <b>must work</b>."
+  },
+  {
+   "qid": "c6-5.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "our",
+    "class",
+    "collect",
+    "food",
+    "for",
+    "the",
+    "poor."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "collecting",
+      "collects",
+      "collected"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last year</b> is past, so use the simple past: <b>collected</b>."
+  },
+  {
+   "qid": "c6-5.1-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Fill in the gap.",
+   "before": "A fight with a friend is a",
+   "after": "problem than a broken leg.",
+   "options": [
+    "smallest",
+    "more small",
+    "smaller"
+   ],
+   "answer": 2,
+   "rule": "<b>Than</b> compares two things: short adjective + <b>-er</b>: <b>smaller</b>."
+  },
+  {
+   "qid": "c6-5.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Fill in the gap.",
+   "before": "My heart was full of joy",
+   "after": "I helped an old man cross the road.",
+   "options": [
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": 0,
+   "rule": "Helping the old man is the reason for the joy, so use <b>because</b>."
+  },
+  {
+   "qid": "c6-5.1-37",
+   "type": "build",
+   "level": 4,
+   "topic": "prefixes",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "She",
+    "was",
+    "unhappy",
+    "but",
+    "she",
+    "smiled."
+   ],
+   "alts": [],
+   "rule": "Two opposite ideas joined by <b>but</b>; <b>unhappy</b> = not happy."
+  },
+  {
+   "qid": "c6-5.1-38",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make an offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "carry",
+    "your",
+    "bag",
+    "for",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "To offer help, use <b>Shall I</b> + base verb...?"
+  },
+  {
+   "qid": "c6-5.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Who wrote the prayer 'Give me Strength'?"
+    ]
+   ],
+   "options": [
+    "Rabindranath Tagore written it.",
+    "Rabindranath Tagore did wrote it.",
+    "Rabindranath Tagore wrote it."
+   ],
+   "answer": 2,
+   "rule": "Simple past of <b>write</b> is <b>wrote</b>; <b>written</b> needs <b>has/had</b>."
+  },
+  {
+   "qid": "c6-5.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Shall I open the window?"
+    ]
+   ],
+   "options": [
+    "Yes, please. It is very hot in here.",
+    "Yes, please. It are very hot in here.",
+    "Yes, please. Its very hot in here."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> takes <b>is</b>. <b>Its</b> shows ownership; it is not <b>it is</b>."
+  },
+  {
+   "qid": "c6-5.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prefixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A good leader should never disowns his friends in hard times.",
+    "A good leader should never unown his friends in hard times.",
+    "A good leader should never disown his friends in hard times."
+   ],
+   "answer": 2,
+   "rule": "After <b>should</b>, use the base verb; the opposite of <b>own</b> (accept) is <b>disown</b>."
+  },
+  {
+   "qid": "c6-5.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We must not let small worries spoils our day.",
+    "We must not let small worries spoil our day.",
+    "We must not to let small worries spoil our day."
+   ],
+   "answer": 1,
+   "rule": "<b>must not</b> + base verb (<b>let</b>), and <b>let</b> + base verb (<b>spoil</b>)."
+  },
+  {
+   "qid": "c6-5.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "don't",
+    "be",
+    "impatient,",
+    "and",
+    "let",
+    "your",
+    "sister",
+    "finishes",
+    "her",
+    "work."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "finished",
+      "finishing",
+      "finish"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>let</b> + person, use the base verb: <b>let your sister finish</b>."
+  },
+  {
+   "qid": "c6-5.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "made",
+    "the",
+    "posters",
+    "by",
+    "theirselves",
+    "for",
+    "the",
+    "school",
+    "fair."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "themselves",
+      "them",
+      "their"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The correct form is <b>themselves</b>; <b>by themselves</b> means without help."
+  },
+  {
+   "qid": "c6-5.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "When I was five, I",
+   "after": "not read, but now I can read long stories.",
+   "options": [
+    "could",
+    "can",
+    "may"
+   ],
+   "answer": 0,
+   "rule": "Ability in the past uses <b>could</b>: <b>When I was five, I could not read</b>."
+  },
+  {
+   "qid": "c6-5.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Is this umbrella",
+   "after": "or your brother's?",
+   "options": [
+    "your",
+    "yours",
+    "you"
+   ],
+   "answer": 1,
+   "rule": "No noun follows, so use <b>yours</b>, just like <b>your brother's</b>."
+  },
+  {
+   "qid": "c6-5.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "explain",
+    "this",
+    "poem",
+    "to",
+    "me?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you</b> + base verb; we explain something <b>to</b> someone."
+  },
+  {
+   "qid": "c6-5.1-48",
+   "type": "build",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Never",
+    "make",
+    "fun",
+    "of",
+    "anyone's",
+    "problems."
+   ],
+   "alts": [],
+   "rule": "A negative order can start with <b>Never</b> + base verb: <b>Never make fun of</b>..."
+  },
+  {
+   "qid": "c6-5.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What would you ask for if you had a magic wand?"
+    ]
+   ],
+   "options": [
+    "I would asked for happiness for everyone.",
+    "I would ask for happiness for everyone.",
+    "I will asking for happiness for everyone."
+   ],
+   "answer": 1,
+   "rule": "Answer <b>would</b> with <b>would</b> + base verb: <b>I would ask</b>."
+  },
+  {
+   "qid": "c6-5.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rhea",
+     "My friends are teasing me. What should I do?"
+    ]
+   ],
+   "options": [
+    "Don't be upset. Talks to them calmly.",
+    "Not be upset. Talk to them calmly.",
+    "Don't be upset. Talk to them calmly."
+   ],
+   "answer": 2,
+   "rule": "Advice as an order: <b>Don't be</b>..., <b>Talk</b>... (base verbs)."
+  }
+ ]
+}

@@ -1,0 +1,983 @@
+{
+ "class": 5,
+ "id": "12",
+ "title": "Count your Garden",
+ "topics": [
+  {
+   "tag": "plural_nouns",
+   "name": "Singular and plural nouns (incl. irregular)"
+  },
+  {
+   "tag": "much_many",
+   "name": "Much / many (counting words)"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of time and place"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions and / but / or / because"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-12-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dry leafs fall from the tree.",
+    "Dry leaves fall from the tree.",
+    "Dry leaves falls from the tree."
+   ],
+   "answer": 1,
+   "rule": "The plural of <b>leaf</b> is <b>leaves</b> (f changes to v). Plural subjects take <b>fall</b>, not falls."
+  },
+  {
+   "qid": "c5-12-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are many stars in the sky.",
+    "There are much stars in the sky.",
+    "There is many stars in the sky."
+   ],
+   "answer": 0,
+   "rule": "<b>stars</b> can be counted, so use <b>many</b>, and plural takes <b>are</b>."
+  },
+  {
+   "qid": "c5-12-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct preposition.",
+   "options": [
+    "My birthday is on Monday.",
+    "My birthday is in Monday.",
+    "My birthday is at Monday."
+   ],
+   "answer": 0,
+   "rule": "We use <b>on</b> with days: <b>on</b> Monday, <b>on</b> my birthday."
+  },
+  {
+   "qid": "c5-12-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "bush",
+    "are",
+    "growing",
+    "in",
+    "our",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "bushes",
+      "bushy",
+      "bushed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Many</b> needs a plural noun. Words ending in <b>sh</b> add -es: <b>bushes</b>."
+  },
+  {
+   "qid": "c5-12-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "are",
+    "much",
+    "flowers",
+    "in",
+    "our",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "lot",
+      "a",
+      "many"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>flowers</b> can be counted, so use <b>many</b>. Much is for things we cannot count."
+  },
+  {
+   "qid": "c5-12-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "The garden is full of",
+   "after": "this spring.",
+   "options": [
+    "flower",
+    "flowers",
+    "a flower"
+   ],
+   "answer": 1,
+   "rule": "<b>full of</b> needs a plural noun here: full of <b>flowers</b>."
+  },
+  {
+   "qid": "c5-12-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "We go to bed",
+   "after": "night.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 1,
+   "rule": "We say <b>at night</b>, but in the morning and in the evening."
+  },
+  {
+   "qid": "c5-12-08",
+   "type": "build",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "stars",
+    "are",
+    "bright."
+   ],
+   "alts": [],
+   "rule": "<b>stars</b> is plural, so we use <b>are</b>."
+  },
+  {
+   "qid": "c5-12-09",
+   "type": "build",
+   "level": 1,
+   "topic": "much_many",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "have",
+    "many",
+    "friends."
+   ],
+   "alts": [],
+   "rule": "<b>friends</b> can be counted, so we use <b>many</b>."
+  },
+  {
+   "qid": "c5-12-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "What can you see in the garden?"
+    ]
+   ],
+   "options": [
+    "I can see two butterflies.",
+    "I can see two butterfly.",
+    "I can sees two butterflies."
+   ],
+   "answer": 0,
+   "rule": "<b>two</b> needs a plural: butterfly becomes <b>butterflies</b> (y to ies). After can, use <b>see</b>."
+  },
+  {
+   "qid": "c5-12-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meena smiled because she got a gift.",
+    "Meena smiled because of she got a gift.",
+    "Meena smiled because she get a gift."
+   ],
+   "answer": 0,
+   "rule": "<b>because</b> joins a reason with its own subject and verb: because <b>she got</b> a gift."
+  },
+  {
+   "qid": "c5-12-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Two children are counting the flowers.",
+    "Two childs are counting the flowers.",
+    "Two children is counting the flowers."
+   ],
+   "answer": 0,
+   "rule": "The plural of child is <b>children</b>. Plural subjects take <b>are</b>."
+  },
+  {
+   "qid": "c5-12-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How much pencils are in your box?",
+    "How many pencils are in your box?",
+    "How many pencil are in your box?"
+   ],
+   "answer": 1,
+   "rule": "For things we can count, ask <b>How many</b> + plural noun: how many <b>pencils</b>."
+  },
+  {
+   "qid": "c5-12-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "was",
+    "born",
+    "at",
+    "a",
+    "Monday",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "in",
+      "under",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With a day (even a day + morning) we use <b>on</b>: on a Monday morning."
+  },
+  {
+   "qid": "c5-12-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "mouses",
+    "ran",
+    "across",
+    "the",
+    "garden",
+    "path."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "mouse",
+      "mouth",
+      "mice"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>mouse</b> has an irregular plural: one mouse, two <b>mice</b>."
+  },
+  {
+   "qid": "c5-12-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "smiles can you count in this photo?",
+   "options": [
+    "many",
+    "much",
+    "lot"
+   ],
+   "answer": 0,
+   "rule": "<b>smiles</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c5-12-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "I like sunny days",
+   "after": "starry nights.",
+   "options": [
+    "because",
+    "and",
+    "so"
+   ],
+   "answer": 1,
+   "rule": "<b>and</b> joins two similar things that go together: sunny days <b>and</b> starry nights."
+  },
+  {
+   "qid": "c5-12-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "play",
+    "in",
+    "the",
+    "garden",
+    "after",
+    "school."
+   ],
+   "alts": [],
+   "rule": "<b>in</b> the garden shows place; <b>after</b> school shows time."
+  },
+  {
+   "qid": "c5-12-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "How many candles were on your cake?"
+    ]
+   ],
+   "options": [
+    "There were ten candle.",
+    "There were ten candles.",
+    "There was ten candles."
+   ],
+   "answer": 1,
+   "rule": "<b>ten</b> needs a plural noun (<b>candles</b>), and a plural takes <b>were</b>."
+  },
+  {
+   "qid": "c5-12-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "When is your birthday?"
+    ]
+   ],
+   "options": [
+    "It is in 5 June.",
+    "It is at 5 June.",
+    "It is on 5 June."
+   ],
+   "answer": 2,
+   "rule": "With a date we use <b>on</b>: on 5 June. (But <b>in</b> June for the whole month.)"
+  },
+  {
+   "qid": "c5-12-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct preposition.",
+   "options": [
+    "We will meet on 5 o'clock in the evening.",
+    "We will meet at 5 o'clock on the evening.",
+    "We will meet at 5 o'clock in the evening."
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with clock times and <b>in</b> with parts of the day: <b>at</b> 5 o'clock <b>in</b> the evening."
+  },
+  {
+   "qid": "c5-12-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There aren't much water in the pond.",
+    "There isn't many water in the pond.",
+    "There isn't much water in the pond."
+   ],
+   "answer": 2,
+   "rule": "<b>water</b> cannot be counted, so use <b>much</b> and the singular verb <b>isn't</b>."
+  },
+  {
+   "qid": "c5-12-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "sat",
+    "among",
+    "Meena",
+    "and",
+    "Asha."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "between",
+      "amongst",
+      "into"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "For <b>two</b> people we use <b>between</b>. Among is for three or more."
+  },
+  {
+   "qid": "c5-12-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "much",
+    "birthdays",
+    "have",
+    "you",
+    "celebrated",
+    "with",
+    "your",
+    "cousins?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "more",
+      "many",
+      "lot"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>birthdays</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c5-12-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa keeps two pet",
+   "after": "on his farm.",
+   "options": [
+    "geese",
+    "goose",
+    "gooses"
+   ],
+   "answer": 0,
+   "rule": "<b>goose</b> has an irregular plural: <b>geese</b> (like tooth - teeth)."
+  },
+  {
+   "qid": "c5-12-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "My birthday party is",
+   "after": "Sunday evening.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 2,
+   "rule": "A day with a part of the day still takes <b>on</b>: <b>on</b> Sunday evening."
+  },
+  {
+   "qid": "c5-12-27",
+   "type": "build",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "many",
+    "candles",
+    "are",
+    "on",
+    "the",
+    "cake?"
+   ],
+   "alts": [],
+   "rule": "<b>How many</b> + plural noun + <b>are</b> asks about things we can count."
+  },
+  {
+   "qid": "c5-12-28",
+   "type": "build",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "smiled",
+    "because",
+    "my",
+    "friends",
+    "came."
+   ],
+   "alts": [],
+   "rule": "<b>because</b> gives the reason: I smiled <b>because</b> my friends came."
+  },
+  {
+   "qid": "c5-12-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why are you so happy today?"
+    ]
+   ],
+   "options": [
+    "Because I got much birthday cards.",
+    "Because I got many birthday cards.",
+    "Because I got many birthday card."
+   ],
+   "answer": 1,
+   "rule": "Cards can be counted: <b>many</b> + plural noun, <b>many cards</b>."
+  },
+  {
+   "qid": "c5-12-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "Where did you find these shells?"
+    ]
+   ],
+   "options": [
+    "I found they on the beach.",
+    "I finded them on the beach.",
+    "I found them on the beach."
+   ],
+   "answer": 2,
+   "rule": "After a verb use <b>them</b>, not they. The past of find is <b>found</b>."
+  },
+  {
+   "qid": "c5-12-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sky was cloudy, but we still had fun.",
+    "The sky were cloudy, but we still had fun.",
+    "The sky was cloudy, but we still haved fun."
+   ],
+   "answer": 0,
+   "rule": "<b>but</b> joins two ideas. <b>The sky</b> is singular: <b>was</b>. The past of have is <b>had</b>."
+  },
+  {
+   "qid": "c5-12-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This flowers are very pretty.",
+    "These flowers are very pretty.",
+    "These flower are very pretty."
+   ],
+   "answer": 1,
+   "rule": "<b>These</b> goes with a plural noun: <b>these flowers</b>. This is for one thing."
+  },
+  {
+   "qid": "c5-12-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "my",
+    "sisters",
+    "counts",
+    "their",
+    "birthday",
+    "gifts",
+    "together."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "count",
+      "counting",
+      "counter"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both my sisters</b> is plural, so the present verb has no -s: <b>count</b>."
+  },
+  {
+   "qid": "c5-12-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "was",
+    "happy",
+    "because",
+    "my",
+    "friends",
+    "comes",
+    "to",
+    "my",
+    "party."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "coming",
+      "came",
+      "become"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The sentence is in the past (<b>was</b>), so the reason is past too: my friends <b>came</b>."
+  },
+  {
+   "qid": "c5-12-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Don't count the clouds,",
+   "after": "count the stars.",
+   "options": [
+    "because",
+    "than",
+    "but"
+   ],
+   "answer": 2,
+   "rule": "<b>but</b> joins two opposite ideas: don't count clouds, <b>but</b> count stars."
+  },
+  {
+   "qid": "c5-12-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "many stars in the sky tonight.",
+   "options": [
+    "are",
+    "is",
+    "was"
+   ],
+   "answer": 0,
+   "rule": "<b>many stars</b> is plural, and tonight is now, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-12-37",
+   "type": "build",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "There",
+    "is",
+    "not",
+    "much",
+    "milk",
+    "left."
+   ],
+   "alts": [],
+   "rule": "<b>milk</b> cannot be counted, so we use <b>much</b> with <b>is</b>."
+  },
+  {
+   "qid": "c5-12-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "puppy",
+    "is",
+    "sleeping",
+    "under",
+    "the",
+    "bed."
+   ],
+   "alts": [],
+   "rule": "<b>under</b> shows place: the puppy is sleeping <b>under</b> the bed."
+  },
+  {
+   "qid": "c5-12-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Do you want tea or milk?"
+    ]
+   ],
+   "options": [
+    "Milk, please. I doesn't like tea.",
+    "Milk, please. I don't like tea.",
+    "Milk, please. I not like tea."
+   ],
+   "answer": 1,
+   "rule": "<b>or</b> offers a choice. With <b>I</b>, the negative is <b>don't</b> + base verb."
+  },
+  {
+   "qid": "c5-12-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Is there any sugar left?"
+    ]
+   ],
+   "options": [
+    "Yes, but there isn't many.",
+    "Yes, but there aren't much.",
+    "Yes, but there isn't much."
+   ],
+   "answer": 2,
+   "rule": "<b>sugar</b> cannot be counted, so: there <b>isn't much</b>."
+  },
+  {
+   "qid": "c5-12-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Grandpa was born in 1960, on a rainy day in July.",
+    "Grandpa was born at 1960, on a rainy day in July.",
+    "Grandpa was born in 1960, on a rainy day on July."
+   ],
+   "answer": 0,
+   "rule": "<b>in</b> with years and months (in 1960, in July); <b>on</b> with a particular day."
+  },
+  {
+   "qid": "c5-12-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We had so many fun and made many new friends.",
+    "We had so much fun and made much new friends.",
+    "We had so much fun and made many new friends."
+   ],
+   "answer": 2,
+   "rule": "<b>fun</b> cannot be counted (<b>much</b>); <b>friends</b> can be counted (<b>many</b>)."
+  },
+  {
+   "qid": "c5-12-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "was",
+    "too",
+    "many",
+    "rain",
+    "this",
+    "year,",
+    "so",
+    "the",
+    "garden",
+    "looked",
+    "green."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "much",
+      "few",
+      "lots"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>rain</b> cannot be counted, so use <b>too much</b> rain."
+  },
+  {
+   "qid": "c5-12-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmer",
+    "counted",
+    "ten",
+    "sheeps",
+    "and",
+    "six",
+    "geese",
+    "in",
+    "his",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "ship",
+      "shepherd",
+      "sheep"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>sheep</b> is the same in singular and plural: one sheep, ten <b>sheep</b>."
+  },
+  {
+   "qid": "c5-12-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Both of my",
+   "after": "came to my birthday party.",
+   "options": [
+    "aunt",
+    "aunts",
+    "aunt's"
+   ],
+   "answer": 1,
+   "rule": "<b>Both of my</b> needs a plural noun: <b>aunts</b>. Aunt's shows ownership, not plural."
+  },
+  {
+   "qid": "c5-12-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "We counted the falling leaves while sitting",
+   "after": "the old mango tree.",
+   "options": [
+    "between",
+    "under",
+    "into"
+   ],
+   "answer": 1,
+   "rule": "<b>under</b> shows a place below something. Between needs two things; into shows movement."
+  },
+  {
+   "qid": "c5-12-47",
+   "type": "build",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Count",
+    "your",
+    "life",
+    "by",
+    "smiles,",
+    "not",
+    "tears."
+   ],
+   "alts": [],
+   "rule": "An instruction starts with the base verb <b>Count</b>. <b>smiles</b> and <b>tears</b> are plural nouns."
+  },
+  {
+   "qid": "c5-12-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "How many friends came to your birthday party?"
+    ]
+   ],
+   "options": [
+    "Many friend came, and we had a lot of fun.",
+    "Many friends came, and we had a lot of fun.",
+    "Much friends came, and we had a lot of fun."
+   ],
+   "answer": 1,
+   "rule": "<b>Many</b> goes with a plural countable noun: <b>many friends</b>."
+  },
+  {
+   "qid": "c5-12-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Shall we sit in the sun or under the tree?"
+    ]
+   ],
+   "options": [
+    "Let's sits under the tree because it is cooler.",
+    "Let's sit under the tree because it is more cooler.",
+    "Let's sit under the tree because it is cooler."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> gives the reason. After Let's use the base verb (<b>sit</b>); <b>cooler</b> never takes more."
+  },
+  {
+   "qid": "c5-12-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "much_many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did you count the stars last night?"
+    ]
+   ],
+   "options": [
+    "Yes, but there were too many to count.",
+    "Yes, but there was too many to count.",
+    "Yes, but there were too much to count."
+   ],
+   "answer": 0,
+   "rule": "Stars can be counted: <b>too many</b>, and a plural takes <b>were</b>."
+  }
+ ]
+}

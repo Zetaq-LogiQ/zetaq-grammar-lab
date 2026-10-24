@@ -1,0 +1,990 @@
+{
+ "class": 6,
+ "id": "2.1",
+ "title": "A Water Drop!",
+ "topics": [
+  {
+   "tag": "similes",
+   "name": "Similes and comparisons (like, as ... as, -er than)"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular verbs)"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner and frequency"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of movement (into, through, across, along)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-2.1-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "similes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The clouds were as soft than cotton.",
+    "The clouds were soft as like cotton.",
+    "The clouds were as soft as cotton."
+   ],
+   "answer": 2,
+   "rule": "A simile with <b>as</b> uses the pattern <b>as</b> + adjective + <b>as</b>: as soft as cotton."
+  },
+  {
+   "qid": "c6-2.1-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct verb.",
+   "options": [
+    "Then the drop fall down as rain.",
+    "Then the drop fell down as rain.",
+    "Then the drop falled down as rain."
+   ],
+   "answer": 1,
+   "rule": "<b>Fall</b> is irregular. Its past form is <b>fell</b>, not falled."
+  },
+  {
+   "qid": "c6-2.1-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The tap dripped noisy all night.",
+    "The tap dripped noisily all night.",
+    "The tap dripping noisily all night."
+   ],
+   "answer": 1,
+   "rule": "An adverb (<b>noisily</b>) tells how an action happens. The past tense here is <b>dripped</b>."
+  },
+  {
+   "qid": "c6-2.1-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "walked",
+    "since",
+    "the",
+    "forest",
+    "to",
+    "the",
+    "lake."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "through",
+      "between",
+      "among"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To go from one side of a forest to the other inside it, use <b>through</b>."
+  },
+  {
+   "qid": "c6-2.1-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "it",
+    "rains",
+    "heavily",
+    "in",
+    "our",
+    "town."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "raining",
+      "rain",
+      "rained"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past, so use the simple past: <b>rained</b>."
+  },
+  {
+   "qid": "c6-2.1-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "similes",
+   "prompt": "Fill in the gap.",
+   "before": "The drop was as shiny",
+   "after": "a bead.",
+   "options": [
+    "as",
+    "than",
+    "like"
+   ],
+   "answer": 0,
+   "rule": "The pattern is <b>as</b> ... <b>as</b>: as shiny <b>as</b> a bead."
+  },
+  {
+   "qid": "c6-2.1-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The wind",
+   "after": "pushed the cloud away.",
+   "options": [
+    "sudden",
+    "suddenly",
+    "suddenness"
+   ],
+   "answer": 1,
+   "rule": "To describe the verb <b>pushed</b>, use the adverb <b>suddenly</b>."
+  },
+  {
+   "qid": "c6-2.1-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "rain",
+    "fell",
+    "on",
+    "the",
+    "ground."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + place: The rain <b>fell</b> on the ground."
+  },
+  {
+   "qid": "c6-2.1-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you close the tap?"
+    ]
+   ],
+   "options": [
+    "Yes, I did closed it.",
+    "Yes, I closing it.",
+    "Yes, I closed it."
+   ],
+   "answer": 2,
+   "rule": "Short past answer: I <b>closed</b> it. After <b>did</b>, the verb would be the base form <b>close</b>."
+  },
+  {
+   "qid": "c6-2.1-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did Arjun bat today?"
+    ]
+   ],
+   "options": [
+    "He bat very carefully.",
+    "He batted very carefully.",
+    "He batted very careful."
+   ],
+   "answer": 1,
+   "rule": "The past of bat is <b>batted</b>, and <b>how</b> he batted needs the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c6-2.1-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boat sailed across the lake.",
+    "The boat sailed across of the lake.",
+    "The boat sailing across the lake."
+   ],
+   "answer": 0,
+   "rule": "<b>Across</b> means from one side to the other and needs no <b>of</b>: sailed <b>across</b> the lake."
+  },
+  {
+   "qid": "c6-2.1-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "similes",
+   "prompt": "Which simile is correct?",
+   "options": [
+    "Her hands were as cold like ice.",
+    "Her hands were cold as like ice.",
+    "Her hands were as cold as ice."
+   ],
+   "answer": 2,
+   "rule": "Use either <b>as cold as</b> or <b>cold like</b>, never mix <b>as</b> and <b>like</b>."
+  },
+  {
+   "qid": "c6-2.1-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "water",
+    "drop",
+    "moved",
+    "gentle",
+    "through",
+    "the",
+    "soil."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "gentleness",
+      "gentlest",
+      "gently"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> it moved, use the adverb <b>gently</b>."
+  },
+  {
+   "qid": "c6-2.1-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "monsoon,",
+    "the",
+    "river",
+    "rise",
+    "above",
+    "the",
+    "bridge."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "rose",
+      "risen",
+      "rising"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last monsoon</b> is past. <b>Rise</b> is irregular: rise - <b>rose</b> - risen."
+  },
+  {
+   "qid": "c6-2.1-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Paper boats floated",
+   "after": "the stream.",
+   "options": [
+    "since",
+    "along",
+    "until"
+   ],
+   "answer": 1,
+   "rule": "<b>Along</b> shows movement following a line, like a stream or road."
+  },
+  {
+   "qid": "c6-2.1-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The wind",
+   "after": "the cloud here and there.",
+   "options": [
+    "pushed",
+    "pushing",
+    "push"
+   ],
+   "answer": 0,
+   "rule": "The sentence needs a full verb in the past: the wind <b>pushed</b>."
+  },
+  {
+   "qid": "c6-2.1-17",
+   "type": "build",
+   "level": 2,
+   "topic": "similes",
+   "prompt": "Make a simile about the clouds.",
+   "answer": [
+    "The",
+    "clouds",
+    "were",
+    "soft",
+    "like",
+    "cotton."
+   ],
+   "alts": [],
+   "rule": "A simile compares two things using <b>like</b> or <b>as</b>: soft <b>like</b> cotton."
+  },
+  {
+   "qid": "c6-2.1-18",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "We",
+    "waited",
+    "patiently",
+    "for",
+    "the",
+    "rain."
+   ],
+   "alts": [
+    [
+     "We",
+     "patiently",
+     "waited",
+     "for",
+     "the",
+     "rain."
+    ]
+   ],
+   "rule": "An adverb of manner like <b>patiently</b> usually goes after the verb (or just before it): waited <b>patiently</b> for the rain."
+  },
+  {
+   "qid": "c6-2.1-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where did the ball go?"
+    ]
+   ],
+   "options": [
+    "It rolled under the sofa.",
+    "It rolled under of the sofa.",
+    "It rolling under the sofa."
+   ],
+   "answer": 0,
+   "rule": "<b>Under</b> needs no <b>of</b>, and the past tense is <b>rolled</b>."
+  },
+  {
+   "qid": "c6-2.1-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "similes",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How was the water in the river?"
+    ]
+   ],
+   "options": [
+    "It was as cold than ice!",
+    "It was as cold as ice!",
+    "It was colder as ice!"
+   ],
+   "answer": 1,
+   "rule": "Equal comparison: <b>as cold as</b>. <b>Than</b> goes only with -er forms (colder <b>than</b>)."
+  },
+  {
+   "qid": "c6-2.1-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The drop splash loudly into the basin.",
+    "The drops splashes loudly into the basin.",
+    "The drop splashed loudly into the basin."
+   ],
+   "answer": 2,
+   "rule": "Past tense <b>splashed</b> + adverb <b>loudly</b>. One drop splashed; <b>drops splashes</b> breaks agreement."
+  },
+  {
+   "qid": "c6-2.1-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "similes",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "The river is wider than the stream.",
+    "The river is more wide than the stream.",
+    "The river is wider as the stream."
+   ],
+   "answer": 0,
+   "rule": "Short adjectives add -er: <b>wider</b>, and -er is followed by <b>than</b>."
+  },
+  {
+   "qid": "c6-2.1-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children feeled happy when it rained.",
+    "The children felt happy when it rained.",
+    "The children felt happy when it rain."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past: <b>felt</b> (irregular past of feel) and <b>rained</b>."
+  },
+  {
+   "qid": "c6-2.1-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rahul",
+    "dived",
+    "on",
+    "the",
+    "river",
+    "and",
+    "swam",
+    "fast."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "between",
+      "into",
+      "since"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Moving from outside to inside something uses <b>into</b>: dived <b>into</b> the river."
+  },
+  {
+   "qid": "c6-2.1-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "She",
+    "spoke",
+    "so",
+    "polite",
+    "that",
+    "everyone",
+    "liked",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "politely",
+      "politer",
+      "politeness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Spoke</b> how? Use the adverb <b>politely</b>: so <b>politely</b> that everyone liked her."
+  },
+  {
+   "qid": "c6-2.1-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last summer, a big bird",
+   "after": "over our water tank every morning.",
+   "options": [
+    "flied",
+    "flew",
+    "flown"
+   ],
+   "answer": 1,
+   "rule": "<b>Fly</b> is irregular: fly - <b>flew</b> - flown. Flown needs has/had."
+  },
+  {
+   "qid": "c6-2.1-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "It",
+   "after": "rains in Cherrapunji.",
+   "options": [
+    "often",
+    "oftenly",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>Often</b> is an adverb of frequency and comes before the main verb. Oftenly is not a word."
+  },
+  {
+   "qid": "c6-2.1-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "water",
+    "gushed",
+    "out",
+    "of",
+    "the",
+    "tap."
+   ],
+   "alts": [],
+   "rule": "<b>Out of</b> shows movement from inside to outside."
+  },
+  {
+   "qid": "c6-2.1-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Where did the rainwater go after it fell?"
+    ]
+   ],
+   "options": [
+    "It goed into the soil.",
+    "It go into the soil.",
+    "It went into the soil."
+   ],
+   "answer": 2,
+   "rule": "<b>Go</b> is irregular; its past form is <b>went</b>."
+  },
+  {
+   "qid": "c6-2.1-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "How does Meera sing?"
+    ]
+   ],
+   "options": [
+    "She sings beautiful.",
+    "She sing beautifully.",
+    "She sings beautifully."
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> she sings needs the adverb <b>beautifully</b>; she takes <b>sings</b>."
+  },
+  {
+   "qid": "c6-2.1-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday, a small drop fell into a empty bucket.",
+    "Yesterday, a small drop falls into an empty bucket.",
+    "Yesterday, a small drop fell into an empty bucket."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> needs the past <b>fell</b>, and <b>empty</b> starts with a vowel sound, so <b>an</b>."
+  },
+  {
+   "qid": "c6-2.1-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "similes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The leaves shines like silver after the rain.",
+    "The leaves shine like silver after the rain.",
+    "The leaves shine as silver like after the rain."
+   ],
+   "answer": 1,
+   "rule": "Plural <b>leaves</b> takes <b>shine</b>, and the simile uses just <b>like</b>."
+  },
+  {
+   "qid": "c6-2.1-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "were",
+    "playing",
+    "happy",
+    "in",
+    "the",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "happier",
+      "happiness",
+      "happily"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> they were playing, use the adverb <b>happily</b>."
+  },
+  {
+   "qid": "c6-2.1-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "cleaned",
+    "the",
+    "water",
+    "tank",
+    "in",
+    "Monday",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "on",
+      "at",
+      "since"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>on</b> with days: <b>on</b> Monday morning."
+  },
+  {
+   "qid": "c6-2.1-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last night the wind",
+   "after": "loudly.",
+   "options": [
+    "blowed",
+    "blows",
+    "blew"
+   ],
+   "answer": 2,
+   "rule": "<b>Last night</b> is past. <b>Blow</b> is irregular: blow - <b>blew</b>."
+  },
+  {
+   "qid": "c6-2.1-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The drop travelled",
+   "after": "the dark pipes and reached our tap.",
+   "options": [
+    "since",
+    "until",
+    "through"
+   ],
+   "answer": 2,
+   "rule": "<b>Through</b> shows movement inside something from one end to the other."
+  },
+  {
+   "qid": "c6-2.1-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Make a request.",
+   "answer": [
+    "Please",
+    "close",
+    "the",
+    "tap",
+    "quickly."
+   ],
+   "alts": [],
+   "rule": "Command: <b>Please</b> + verb + object + adverb of manner."
+  },
+  {
+   "qid": "c6-2.1-38",
+   "type": "build",
+   "level": 4,
+   "topic": "similes",
+   "prompt": "Make a simile about the pond.",
+   "answer": [
+    "The",
+    "pond",
+    "shone",
+    "like",
+    "a",
+    "mirror."
+   ],
+   "alts": [],
+   "rule": "A simile compares two things using <b>like</b>: shone <b>like</b> a mirror. Shone is the past of shine."
+  },
+  {
+   "qid": "c6-2.1-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "What did you do on the rainy day?"
+    ]
+   ],
+   "options": [
+    "I made paper boats and sailed them across the puddles.",
+    "I made paper boats and sail them across the puddles.",
+    "I maked paper boats and sailed them across the puddles."
+   ],
+   "answer": 0,
+   "rule": "Both verbs joined by <b>and</b> stay in the past: <b>made</b> (irregular) and <b>sailed</b>."
+  },
+  {
+   "qid": "c6-2.1-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Why are your clothes wet?"
+    ]
+   ],
+   "options": [
+    "It rained heavily while I walking home.",
+    "It rained heavily while I was walking home.",
+    "It rained heavily while I were walking home."
+   ],
+   "answer": 1,
+   "rule": "The adverb <b>heavily</b> tells how it rained, and the past continuous needs <b>was</b> + -ing: I <b>was walking</b>."
+  },
+  {
+   "qid": "c6-2.1-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "As the drop rushed through the pipes, it hum softly like a song.",
+    "As the drop rushed through the pipes, it hummed softly like a song.",
+    "As the drop rushed through the pipes, it hummed softly as like a song."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past (rushed, <b>hummed</b>). A simile uses <b>like</b> or <b>as</b>, never both."
+  },
+  {
+   "qid": "c6-2.1-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "similes",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "The river flowed more faster than ever after the storm.",
+    "The river flowed faster than ever after the storm.",
+    "The river flowed fastly than ever after the storm."
+   ],
+   "answer": 1,
+   "rule": "<b>Fast</b> becomes <b>faster</b>; never add <b>more</b> to an -er word. Fastly is not a word."
+  },
+  {
+   "qid": "c6-2.1-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "storm,",
+    "the",
+    "water",
+    "rushed",
+    "rapid",
+    "into",
+    "the",
+    "drains."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "rapidity",
+      "rapids",
+      "rapidly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Rushed</b> how? Use the adverb <b>rapidly</b>."
+  },
+  {
+   "qid": "c6-2.1-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "little",
+    "drop",
+    "sinked",
+    "deep",
+    "into",
+    "the",
+    "soil."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sank",
+      "sunken",
+      "sinking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Sink</b> is irregular: sink - <b>sank</b> - sunk. Sinked is not a word."
+  },
+  {
+   "qid": "c6-2.1-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The drop rose into the sky, floated for days and finally",
+   "after": "back as rain.",
+   "options": [
+    "came",
+    "come",
+    "comes"
+   ],
+   "answer": 0,
+   "rule": "All the actions in the list are past (rose, floated), so the last one is past too: <b>came</b>."
+  },
+  {
+   "qid": "c6-2.1-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "similes",
+   "prompt": "Fill in the gap.",
+   "before": "My bottle holds",
+   "after": "water as yours.",
+   "options": [
+    "as many",
+    "as much",
+    "so many"
+   ],
+   "answer": 1,
+   "rule": "<b>Water</b> is uncountable, so use <b>as much</b> ... as. As many is for countable nouns."
+  },
+  {
+   "qid": "c6-2.1-47",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Last",
+    "night",
+    "heavy",
+    "rain",
+    "fell",
+    "across",
+    "Mumbai."
+   ],
+   "alts": [],
+   "rule": "Time phrase + subject + verb + place: <b>across</b> Mumbai means all over the city."
+  },
+  {
+   "qid": "c6-2.1-48",
+   "type": "build",
+   "level": 5,
+   "topic": "similes",
+   "prompt": "Make a simile about his voice.",
+   "answer": [
+    "His",
+    "voice",
+    "was",
+    "sweet",
+    "like",
+    "honey."
+   ],
+   "alts": [],
+   "rule": "A simile compares two different things with <b>like</b>: sweet <b>like</b> honey."
+  },
+  {
+   "qid": "c6-2.1-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How did the plants look after the rain?"
+    ]
+   ],
+   "options": [
+    "They looked fresh and bright.",
+    "They looked freshly and brightly.",
+    "They looks fresh and bright."
+   ],
+   "answer": 0,
+   "rule": "After <b>look</b> meaning 'seem', use adjectives (<b>fresh, bright</b>), not adverbs."
+  },
+  {
+   "qid": "c6-2.1-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why is the bucket full?"
+    ]
+   ],
+   "options": [
+    "Water dripped into it from the roof since all night.",
+    "Water drip into it from the roof all night.",
+    "Water dripped into it from the roof all night."
+   ],
+   "answer": 2,
+   "rule": "<b>All night</b> needs no <b>since</b>. <b>Into</b> shows the water going inside, and dripped is past."
+  }
+ ]
+}

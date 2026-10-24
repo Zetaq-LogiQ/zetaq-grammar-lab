@@ -1,0 +1,1220 @@
+{
+ "class": 8,
+ "id": "15",
+ "title": "Revolutionary Steps in Surgery",
+ "topics": [
+  {
+   "tag": "coordinators",
+   "name": "Co-ordinate clauses: and, but, or, so, yet"
+  },
+  {
+   "tag": "correlatives",
+   "name": "not only ... but also / either ... or / neither ... nor"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (present and past)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-15-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sushruta Samhita is one of the most oldest books on surgery.",
+    "Sushruta Samhita is one of the oldest books on surgery.",
+    "Sushruta Samhita is one of the oldest book on surgery."
+   ],
+   "answer": 1,
+   "rule": "<b>one of the</b> + superlative + <b>plural noun</b>: one of the oldest books. Never 'most oldest'."
+  },
+  {
+   "qid": "c8-15-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "coordinators",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Seema had a fever, but so she stayed at home.",
+    "Seema had a fever, so she stay at home.",
+    "Seema had a fever, so she stayed at home."
+   ],
+   "answer": 2,
+   "rule": "Use one co-ordinator (<b>so</b> shows result) and keep both clauses in the past: stayed."
+  },
+  {
+   "qid": "c8-15-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "hospital",
+    "is",
+    "big",
+    "than",
+    "the",
+    "old",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "biggest",
+      "large",
+      "bigger"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing two things with <b>than</b> needs the comparative: <b>bigger</b> than."
+  },
+  {
+   "qid": "c8-15-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "patient",
+    "was",
+    "take",
+    "to",
+    "the",
+    "operation",
+    "theatre."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "taken",
+      "took",
+      "takes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive: was + past participle: was <b>taken</b>."
+  },
+  {
+   "qid": "c8-15-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "correlatives",
+   "prompt": "Fill in the gap.",
+   "before": "You can",
+   "after": "take the bus or walk to the clinic.",
+   "options": [
+    "neither",
+    "either",
+    "both"
+   ],
+   "answer": 1,
+   "rule": "<b>either ... or</b> gives a choice. 'neither' pairs with 'nor'; 'both' with 'and'."
+  },
+  {
+   "qid": "c8-15-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "When the doctor arrived, the nurse",
+   "after": "already cleaned the wound.",
+   "options": [
+    "has",
+    "had",
+    "have"
+   ],
+   "answer": 1,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had</b> cleaned."
+  },
+  {
+   "qid": "c8-15-07",
+   "type": "build",
+   "level": 1,
+   "topic": "coordinators",
+   "prompt": "Join the two clauses.",
+   "answer": [
+    "Riya",
+    "was",
+    "nervous,",
+    "but",
+    "she",
+    "smiled."
+   ],
+   "alts": [],
+   "rule": "Two independent clauses joined by the co-ordinator <b>but</b> to show contrast."
+  },
+  {
+   "qid": "c8-15-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Did your grandfather have an operation?"
+    ]
+   ],
+   "options": [
+    "Yes, he was operate on last month.",
+    "Yes, he is operated on last month.",
+    "Yes, he was operated on last month."
+   ],
+   "answer": 2,
+   "rule": "Past passive: <b>was</b> + past participle: he was <b>operated</b> on last month."
+  },
+  {
+   "qid": "c8-15-09",
+   "type": "change",
+   "level": 1,
+   "topic": "coordinators",
+   "prompt": "Join using 'so'.",
+   "source": "There was a lack of technology. Major surgery could not develop.",
+   "options": [
+    "There was a lack of technology, so major surgery can not develop.",
+    "So there was a lack of technology, major surgery could not develop.",
+    "There was a lack of technology, so major surgery could not develop."
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> comes before the result clause, and the tense stays the same: could not develop."
+  },
+  {
+   "qid": "c8-15-10",
+   "type": "change",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Neurosurgery is the most difficult branch of surgery.",
+   "options": [
+    "Neurosurgery is more difficult than any branch of surgery.",
+    "Neurosurgery is more difficult than any other branch of surgery.",
+    "Neurosurgery is most difficult than any other branch of surgery."
+   ],
+   "answer": 1,
+   "rule": "Superlative → comparative: <b>more ... than any other</b> + singular noun."
+  },
+  {
+   "qid": "c8-15-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "correlatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the doctor nor the nurses were tired.",
+    "Neither the doctor or the nurses were tired.",
+    "Neither the doctor nor the nurses was tired."
+   ],
+   "answer": 0,
+   "rule": "<b>neither ... nor</b>; the verb agrees with the nearer subject (nurses → <b>were</b>)."
+  },
+  {
+   "qid": "c8-15-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The surgery had began before I reached the hospital.",
+    "The surgery has begun before I reached the hospital.",
+    "The surgery had begun before I reached the hospital."
+   ],
+   "answer": 2,
+   "rule": "Earlier past action: had + past participle: had <b>begun</b> (begin - began - begun)."
+  },
+  {
+   "qid": "c8-15-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "coordinators",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "can",
+    "rest",
+    "at",
+    "home",
+    "or",
+    "you",
+    "can",
+    "walks",
+    "in",
+    "the",
+    "park."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "walk",
+      "walked",
+      "walking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Each co-ordinate clause is complete: can + base verb, so you can <b>walk</b>."
+  },
+  {
+   "qid": "c8-15-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "For many patients, robotic surgery is",
+   "after": "than open surgery.",
+   "options": [
+    "safest",
+    "safer",
+    "safe"
+   ],
+   "answer": 1,
+   "rule": "<b>than</b> needs the comparative degree: <b>safer</b> than."
+  },
+  {
+   "qid": "c8-15-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Ether and chloroform",
+   "after": "as anaesthetics from the mid-nineteenth century.",
+   "options": [
+    "were used",
+    "was used",
+    "used"
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> are plural: <b>were used</b> (past passive)."
+  },
+  {
+   "qid": "c8-15-16",
+   "type": "build",
+   "level": 2,
+   "topic": "correlatives",
+   "prompt": "Make a sentence with 'not only ... but also'.",
+   "answer": [
+    "Dr",
+    "Rao",
+    "is",
+    "not",
+    "only",
+    "skilful",
+    "but",
+    "also",
+    "kind."
+   ],
+   "alts": [],
+   "rule": "<b>not only</b> + adjective <b>but also</b> + adjective, both after the verb."
+  },
+  {
+   "qid": "c8-15-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "coordinators",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Secretary",
+     "Dr Shah is busy this morning. Can you come at five?"
+    ]
+   ],
+   "options": [
+    "Yes, I can come at five, but I may being a little late.",
+    "Yes, I can come at five, but I may be a little late.",
+    "Yes, I can come at five, but I may to be a little late."
+   ],
+   "answer": 1,
+   "rule": "Modal + base verb in each clause: I <b>may be</b> a little late."
+  },
+  {
+   "qid": "c8-15-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nurse",
+     "How are you feeling today?"
+    ]
+   ],
+   "options": [
+    "Much more better than yesterday, thank you.",
+    "Much best than yesterday, thank you.",
+    "Much better than yesterday, thank you."
+   ],
+   "answer": 2,
+   "rule": "<b>better</b> is already comparative, so don't add 'more'. Use <b>much better</b>."
+  },
+  {
+   "qid": "c8-15-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Dr Williams repaired the human heart.",
+   "options": [
+    "The human heart was repaired by Dr Williams.",
+    "The human heart is repaired by Dr Williams.",
+    "The human heart was repair by Dr Williams."
+   ],
+   "answer": 0,
+   "rule": "Simple past active → <b>was/were</b> + past participle: was <b>repaired</b>."
+  },
+  {
+   "qid": "c8-15-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Today,",
+    "surgery",
+    "is",
+    "much",
+    "safest",
+    "than",
+    "it",
+    "was",
+    "a",
+    "hundred",
+    "years",
+    "ago.",
+    "Doctors",
+    "use",
+    "the",
+    "most",
+    "modern",
+    "tools,",
+    "and",
+    "patients",
+    "recover",
+    "more",
+    "quick",
+    "than",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "safe",
+      "safer",
+      "safely"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 22,
+     "options": [
+      "quickest",
+      "quickly",
+      "quicker"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "much <b>safer</b> than (comparative). Patients recover more <b>quickly</b> (adverb for a verb)."
+  },
+  {
+   "qid": "c8-15-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "More than 2000 tumours was removed by Dr Cushing.",
+    "More than 2000 tumours were removed by Dr Cushing.",
+    "More than 2000 tumours were remove by Dr Cushing."
+   ],
+   "answer": 1,
+   "rule": "Plural subject (tumours) → <b>were</b> + past participle (<b>removed</b>)."
+  },
+  {
+   "qid": "c8-15-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "correlatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "robot",
+    "is",
+    "not",
+    "only",
+    "accurate",
+    "and",
+    "also",
+    "very",
+    "fast."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "but",
+      "or",
+      "so"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>not only</b> always pairs with <b>but also</b>."
+  },
+  {
+   "qid": "c8-15-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "patient",
+    "had",
+    "been",
+    "gave",
+    "an",
+    "injection",
+    "before",
+    "the",
+    "surgery",
+    "began."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "given",
+      "giving",
+      "give"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past perfect passive: had been + past participle: had been <b>given</b> (give - gave - given)."
+  },
+  {
+   "qid": "c8-15-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "coordinators",
+   "prompt": "Fill in the gap.",
+   "before": "The operation was difficult,",
+   "after": "the surgeons completed it successfully.",
+   "options": [
+    "yet",
+    "nor",
+    "either"
+   ],
+   "answer": 0,
+   "rule": "<b>yet</b> joins two clauses that contrast, like 'but'."
+  },
+  {
+   "qid": "c8-15-25",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Painless",
+    "surgery",
+    "was",
+    "made",
+    "possible",
+    "by",
+    "anaesthesia."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>was made</b> + complement + <b>by</b> + doer."
+  },
+  {
+   "qid": "c8-15-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why did you miss the school bus?"
+    ]
+   ],
+   "options": [
+    "The bus has already gone when I got to the corner.",
+    "The bus had already go when I got to the corner.",
+    "The bus had already gone when I got to the corner."
+   ],
+   "answer": 2,
+   "rule": "The bus went first: past perfect, <b>had gone</b>; then I got there (simple past)."
+  },
+  {
+   "qid": "c8-15-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "correlatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "Who will help with the science exhibition, you or Kunal?"
+    ]
+   ],
+   "options": [
+    "Both Kunal and I will help.",
+    "Both Kunal and me will help.",
+    "Both Kunal or I will help."
+   ],
+   "answer": 0,
+   "rule": "<b>both ... and</b>; as a subject, use <b>I</b>, not 'me'."
+  },
+  {
+   "qid": "c8-15-28",
+   "type": "change",
+   "level": 3,
+   "topic": "coordinators",
+   "prompt": "Join using 'but'.",
+   "source": "Cardiac surgery was tried in the past. Patients did not survive.",
+   "options": [
+    "Cardiac surgery was tried in the past, but patients does not survive.",
+    "Cardiac surgery was tried in the past, but did patients not survive.",
+    "Cardiac surgery was tried in the past, but patients did not survive."
+   ],
+   "answer": 2,
+   "rule": "<b>but</b> joins two contrasting clauses; each keeps its normal order and tense."
+  },
+  {
+   "qid": "c8-15-29",
+   "type": "change",
+   "level": 3,
+   "topic": "correlatives",
+   "prompt": "Join using 'not only ... but also'.",
+   "source": "Robotic surgery is precise. It is also less painful.",
+   "options": [
+    "Robotic surgery is not only precise and also less painful.",
+    "Not only robotic surgery is precise but also less painful.",
+    "Robotic surgery is not only precise but also less painful."
+   ],
+   "answer": 2,
+   "rule": "Put <b>not only</b> and <b>but also</b> before the two matching words: precise / less painful."
+  },
+  {
+   "qid": "c8-15-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "In",
+    "1893,",
+    "a",
+    "serious",
+    "knife",
+    "wound",
+    "was",
+    "treat",
+    "by",
+    "Dr",
+    "Williams.",
+    "After",
+    "a",
+    "few",
+    "weeks,",
+    "the",
+    "patient",
+    "was",
+    "send",
+    "home",
+    "safe",
+    "and",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "treating",
+      "treated",
+      "treats"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "sending",
+      "sends",
+      "sent"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: was + past participle: was <b>treated</b>, was <b>sent</b>."
+  },
+  {
+   "qid": "c8-15-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the most advanced robot that has ever been build.",
+    "This is the more advanced robot that has ever been built.",
+    "This is the most advanced robot that has ever been built."
+   ],
+   "answer": 2,
+   "rule": "Superlative <b>the most advanced</b>; passive needs the past participle <b>built</b>."
+  },
+  {
+   "qid": "c8-15-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "correlatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Either the nurses or the doctor has your report.",
+    "Either the nurses nor the doctor has your report.",
+    "Either the nurses or the doctor have your report."
+   ],
+   "answer": 0,
+   "rule": "<b>either ... or</b>; the verb agrees with the nearer subject (the doctor → <b>has</b>)."
+  },
+  {
+   "qid": "c8-15-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "Cushing",
+    "retired,",
+    "he",
+    "has",
+    "removed",
+    "more",
+    "than",
+    "2000",
+    "tumours."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Action finished before another past event (retired): past perfect, <b>had</b> removed."
+  },
+  {
+   "qid": "c8-15-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "coordinators",
+   "prompt": "Fill in the gap.",
+   "before": "Hurry up,",
+   "after": "you will miss your appointment.",
+   "options": [
+    "and",
+    "or",
+    "but"
+   ],
+   "answer": 1,
+   "rule": "<b>or</b> after a command means 'otherwise': Hurry up, or you will miss it."
+  },
+  {
+   "qid": "c8-15-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the instruments, the 3-D camera is the",
+   "after": "useful.",
+   "options": [
+    "more",
+    "most",
+    "much"
+   ],
+   "answer": 1,
+   "rule": "Comparing more than two (<b>of all</b>): the <b>most</b> useful."
+  },
+  {
+   "qid": "c8-15-36",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "train",
+    "had",
+    "left",
+    "before",
+    "we",
+    "reached",
+    "the",
+    "station."
+   ],
+   "alts": [],
+   "rule": "Earlier action in the past perfect (<b>had left</b>) + <b>before</b> + later action (reached)."
+  },
+  {
+   "qid": "c8-15-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Secretary",
+     "Has your X-ray been taken?"
+    ]
+   ],
+   "options": [
+    "Yes, it was taken this morning.",
+    "Yes, it was took this morning.",
+    "Yes, it has taken this morning."
+   ],
+   "answer": 0,
+   "rule": "Passive with a past time (this morning): <b>was taken</b>."
+  },
+  {
+   "qid": "c8-15-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The instruments are controlled by the surgeon from a console.",
+   "options": [
+    "The surgeon controls the instruments from a console.",
+    "The surgeon controlled the instruments from a console.",
+    "The surgeon is controls the instruments from a console."
+   ],
+   "answer": 0,
+   "rule": "<b>are controlled</b> is simple present passive, so the active is simple present: <b>controls</b>."
+  },
+  {
+   "qid": "c8-15-39",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "A robot's arm is steadier than a human hand.",
+   "options": [
+    "A human hand is not so steadier as a robot's arm.",
+    "A human hand is not as steady as a robot's arm.",
+    "A human hand is as steady as a robot's arm."
+   ],
+   "answer": 1,
+   "rule": "Comparative → positive: <b>not as</b> + positive adjective + <b>as</b>, keeping the meaning."
+  },
+  {
+   "qid": "c8-15-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "correlatives",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Neither",
+    "my",
+    "uncles",
+    "nor",
+    "Grandpa",
+    "were",
+    "afraid",
+    "of",
+    "the",
+    "surgery.",
+    "The",
+    "surgeon",
+    "was",
+    "not",
+    "only",
+    "skilful",
+    "but",
+    "also",
+    "very",
+    "kindly",
+    "to",
+    "her",
+    "patients.",
+    "You",
+    "can",
+    "either",
+    "call",
+    "her",
+    "clinic",
+    "or",
+    "sends",
+    "a",
+    "message."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "kinder",
+      "kindness",
+      "kind"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "sending",
+      "send",
+      "sent"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Nearer subject Grandpa → <b>was</b>; but also very <b>kind</b> (adjective); either call or <b>send</b>."
+  },
+  {
+   "qid": "c8-15-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Dr Williams has never performed such an operation before he saved James Cornish.",
+    "Dr Williams had never perform such an operation before he saved James Cornish.",
+    "Dr Williams had never performed such an operation before he saved James Cornish."
+   ],
+   "answer": 2,
+   "rule": "Before another past event (saved): <b>had</b> + past participle (<b>performed</b>)."
+  },
+  {
+   "qid": "c8-15-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Cushing's",
+    "clip",
+    "was",
+    "one",
+    "of",
+    "the",
+    "most",
+    "important",
+    "invention",
+    "in",
+    "neurosurgery."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "invented",
+      "inventions",
+      "invents"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>one of the</b> + superlative + <b>plural</b> noun: one of the most important <b>inventions</b>."
+  },
+  {
+   "qid": "c8-15-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "robot's",
+    "movements",
+    "can",
+    "be",
+    "change",
+    "by",
+    "the",
+    "surgeon",
+    "at",
+    "any",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "changing",
+      "changes",
+      "changed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Modal passive: can + be + past participle: can be <b>changed</b>."
+  },
+  {
+   "qid": "c8-15-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "correlatives",
+   "prompt": "Fill in the gap.",
+   "before": "Neither the patient nor his parents",
+   "after": "told about the risk before the operation.",
+   "options": [
+    "has been",
+    "had been",
+    "was been"
+   ],
+   "answer": 1,
+   "rule": "Verb agrees with the nearer subject (parents, plural); earlier past passive: <b>had been</b> told."
+  },
+  {
+   "qid": "c8-15-45",
+   "type": "build",
+   "level": 5,
+   "topic": "coordinators",
+   "prompt": "Join the two clauses with 'yet'.",
+   "answer": [
+    "The",
+    "surgeon",
+    "was",
+    "tired,",
+    "yet",
+    "she",
+    "kept",
+    "on",
+    "working."
+   ],
+   "alts": [],
+   "rule": "<b>yet</b> joins two co-ordinate clauses that contrast: tired, yet she kept on working."
+  },
+  {
+   "qid": "c8-15-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Omkar",
+     "Which do you find harder, maths or science?"
+    ]
+   ],
+   "options": [
+    "For me, maths is more harder, but science is more interesting.",
+    "For me, maths is harder, but science is more interest.",
+    "For me, maths is harder, but science is more interesting."
+   ],
+   "answer": 2,
+   "rule": "Short adjective: <b>harder</b>; long adjective: <b>more interesting</b>. Never 'more harder'."
+  },
+  {
+   "qid": "c8-15-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How was the hockey match?"
+    ]
+   ],
+   "options": [
+    "We lost because our best player had hurt his ankle the day before.",
+    "We lost because our best player has hurt his ankle the day before.",
+    "We lost because our best player had hurted his ankle the day before."
+   ],
+   "answer": 0,
+   "rule": "The injury came first: <b>had hurt</b> (hurt - hurt - hurt)."
+  },
+  {
+   "qid": "c8-15-48",
+   "type": "change",
+   "level": 5,
+   "topic": "correlatives",
+   "prompt": "Join using 'neither ... nor'.",
+   "source": "The patient did not feel pain. He did not feel fear.",
+   "options": [
+    "The patient felt neither pain nor fear.",
+    "The patient did not feel neither pain nor fear.",
+    "The patient felt neither pain or fear."
+   ],
+   "answer": 0,
+   "rule": "<b>neither ... nor</b> is already negative, so drop 'did not': felt neither pain nor fear."
+  },
+  {
+   "qid": "c8-15-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "When",
+    "I",
+    "woke",
+    "up",
+    "after",
+    "the",
+    "operation,",
+    "the",
+    "doctor",
+    "had",
+    "not",
+    "came",
+    "to",
+    "see",
+    "me",
+    "yet.",
+    "The",
+    "nurse",
+    "said",
+    "that",
+    "the",
+    "surgery",
+    "had",
+    "last",
+    "two",
+    "hours.",
+    "I",
+    "felt",
+    "relieved",
+    "because",
+    "I",
+    "had",
+    "been",
+    "worry",
+    "all",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "coming",
+      "come",
+      "comes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "lasted",
+      "lasting",
+      "lasts"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 33,
+     "options": [
+      "worries",
+      "worrier",
+      "worrying"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "had not <b>come</b>, had <b>lasted</b> (past participles); past perfect continuous: had been <b>worrying</b>."
+  },
+  {
+   "qid": "c8-15-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "coordinators",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Robotic",
+    "surgery",
+    "uses",
+    "tiny",
+    "cuts,",
+    "so",
+    "patients",
+    "recovers",
+    "quickly.",
+    "Dr",
+    "Mehta",
+    "sits",
+    "at",
+    "a",
+    "console",
+    "and",
+    "control",
+    "four",
+    "robotic",
+    "arms.",
+    "The",
+    "robot",
+    "is",
+    "costly,",
+    "yet",
+    "it",
+    "save",
+    "many",
+    "lives."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "recovering",
+      "recovery",
+      "recover"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 16,
+     "options": [
+      "controls",
+      "controlled",
+      "controlling"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "saving",
+      "saves",
+      "savings"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Plural <b>patients recover</b>; Dr Mehta sits and <b>controls</b>; it <b>saves</b> (singular, present)."
+  }
+ ]
+}

@@ -1,0 +1,1179 @@
+{
+ "class": 10,
+ "id": "15",
+ "title": "Stephen Hawking",
+ "topics": [
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement (neither ... nor, either, everyone, amounts)"
+  },
+  {
+   "tag": "determiners",
+   "name": "Determiners (articles, this/these, a few, a little, each)"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice (all tenses, questions, commands)"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect vs simple past"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-15-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Everyone make mistakes sometimes.",
+    "Everyone makes mistakes sometimes.",
+    "Everyone are making mistakes sometimes."
+   ],
+   "answer": 1,
+   "rule": "<b>Everyone</b> is singular, so it takes a singular verb: <b>makes</b>."
+  },
+  {
+   "qid": "c10-15-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hawking was diagnosed with ALS at the age of 21.",
+    "Hawking was diagnose with ALS at the age of 21.",
+    "Hawking diagnosed with ALS at the age of 21."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>was + past participle</b>: was <b>diagnosed</b>."
+  },
+  {
+   "qid": "c10-15-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hawking",
+    "lost",
+    "him",
+    "voice",
+    "in",
+    "1985."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "he",
+      "himself",
+      "his"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Before a noun, use the possessive determiner: <b>his</b> voice."
+  },
+  {
+   "qid": "c10-15-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Over",
+    "the",
+    "years,",
+    "Dr",
+    "Rao",
+    "have",
+    "written",
+    "three",
+    "books",
+    "on",
+    "space."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A singular subject (Dr Rao) takes <b>has</b> + past participle."
+  },
+  {
+   "qid": "c10-15-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The price of these books",
+   "after": "gone up.",
+   "options": [
+    "have",
+    "has",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "The real subject is <b>the price</b> (singular), not 'books', so use <b>has</b>."
+  },
+  {
+   "qid": "c10-15-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "determiners",
+   "prompt": "Fill in the gap.",
+   "before": "He shared a room with",
+   "after": "boy suffering from leukaemia.",
+   "options": [
+    "an",
+    "much",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>boy</b> begins with a consonant sound, so use <b>a</b>. 'Much' goes with uncountable nouns."
+  },
+  {
+   "qid": "c10-15-07",
+   "type": "build",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Hawking",
+    "was",
+    "forced",
+    "to",
+    "use",
+    "a",
+    "wheelchair."
+   ],
+   "alts": [],
+   "rule": "Passive: <b>was forced</b> + to + base verb."
+  },
+  {
+   "qid": "c10-15-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ira",
+     "Have you seen the film about Stephen Hawking?"
+    ]
+   ],
+   "options": [
+    "Yes, I have seen it twice.",
+    "Yes, I have saw it twice.",
+    "Yes, I seen it twice."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>have + past participle</b>: have <b>seen</b>."
+  },
+  {
+   "qid": "c10-15-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Hawking wrote A Brief History of Time.",
+   "options": [
+    "A Brief History of Time is written by Hawking.",
+    "A Brief History of Time was written by Hawking.",
+    "A Brief History of Time was wrote by Hawking."
+   ],
+   "answer": 1,
+   "rule": "Simple past active becomes <b>was + past participle</b>: was <b>written</b>."
+  },
+  {
+   "qid": "c10-15-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "My",
+    "brother",
+    "and",
+    "I",
+    "wants",
+    "to",
+    "read",
+    "more",
+    "about",
+    "black",
+    "holes.",
+    "Every",
+    "one",
+    "of",
+    "our",
+    "friends",
+    "have",
+    "a",
+    "book",
+    "on",
+    "space",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "want",
+      "wanting",
+      "is"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "having",
+      "are",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Two subjects joined by <b>and</b> take a plural verb (<b>want</b>). <b>Every one of</b> takes a singular verb (<b>has</b>)."
+  },
+  {
+   "qid": "c10-15-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hawking had a few close friends who visited him often.",
+    "Hawking had a little close friends who visited him often.",
+    "Hawking had few a close friends who visited him often."
+   ],
+   "answer": 0,
+   "rule": "<b>A few</b> goes with countable plural nouns (friends); 'a little' is for uncountable nouns."
+  },
+  {
+   "qid": "c10-15-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Hawking has become famous in 1988.",
+    "Hawking became famous in 1988.",
+    "Hawking has became famous in 1988."
+   ],
+   "answer": 1,
+   "rule": "A finished past time (<b>in 1988</b>) takes the simple past, not the present perfect."
+  },
+  {
+   "qid": "c10-15-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "young",
+    "student",
+    "was",
+    "took",
+    "to",
+    "a",
+    "doctor",
+    "by",
+    "his",
+    "father."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "taken",
+      "taking",
+      "takes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive needs the past participle: was <b>taken</b> (take - took - taken)."
+  },
+  {
+   "qid": "c10-15-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "news",
+    "of",
+    "his",
+    "illness",
+    "were",
+    "a",
+    "shock",
+    "to",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "are",
+      "have"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>News</b> looks plural but is uncountable and singular: the news <b>was</b>."
+  },
+  {
+   "qid": "c10-15-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Since 1988, the book",
+   "after": "millions of copies.",
+   "options": [
+    "sold",
+    "is selling",
+    "has sold"
+   ],
+   "answer": 2,
+   "rule": "<b>Since</b> + a point in time goes with the present perfect: <b>has sold</b>."
+  },
+  {
+   "qid": "c10-15-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "A Brief History of Time",
+   "after": "into more than forty languages.",
+   "options": [
+    "has translated",
+    "has been translate",
+    "has been translated"
+   ],
+   "answer": 2,
+   "rule": "The book does not translate; people translate it. Passive: <b>has been + past participle</b>."
+  },
+  {
+   "qid": "c10-15-17",
+   "type": "build",
+   "level": 2,
+   "topic": "determiners",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "A",
+    "few",
+    "events",
+    "changed",
+    "his",
+    "whole",
+    "life."
+   ],
+   "alts": [],
+   "rule": "<b>A few</b> goes with countable plural nouns (events); <b>his</b> comes before 'whole life'."
+  },
+  {
+   "qid": "c10-15-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Who is coming to the planetarium?"
+    ]
+   ],
+   "options": [
+    "Neither Asha nor her sisters is coming.",
+    "Neither Asha nor her sisters am coming.",
+    "Neither Asha nor her sisters are coming."
+   ],
+   "answer": 2,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: sisters <b>are</b>."
+  },
+  {
+   "qid": "c10-15-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Where was the film shot?"
+    ]
+   ],
+   "options": [
+    "It was shoot in Cambridge, I think.",
+    "It was shot in Cambridge, I think.",
+    "It is shot in Cambridge, I think."
+   ],
+   "answer": 1,
+   "rule": "Past passive: <b>was + past participle</b> (shot). The question is in the past, so not 'is'."
+  },
+  {
+   "qid": "c10-15-20",
+   "type": "change",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Make a wh-question asking about the number of books.",
+   "source": "Hawking has written fifteen books.",
+   "options": [
+    "How many books Hawking has written?",
+    "How many books has Hawking written?",
+    "How many books has Hawking wrote?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>How many books + has + subject + past participle</b>?"
+  },
+  {
+   "qid": "c10-15-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ten kilometres are a long distance to walk.",
+    "Ten kilometre is a long distance to walk.",
+    "Ten kilometres is a long distance to walk."
+   ],
+   "answer": 2,
+   "rule": "A distance, amount or sum taken as one whole takes a singular verb: ten kilometres <b>is</b>."
+  },
+  {
+   "qid": "c10-15-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "He has been rushed to the hospital last April.",
+    "He was rushed to the hospital last April.",
+    "He was rush to the hospital last April."
+   ],
+   "answer": 1,
+   "rule": "<b>Last April</b> is a finished time: simple past passive <b>was rushed</b>."
+  },
+  {
+   "qid": "c10-15-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "determiners",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Doctors",
+    "thought",
+    "Hawking",
+    "had",
+    "very",
+    "less",
+    "time",
+    "left",
+    "to",
+    "live."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "little",
+      "few",
+      "many"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With uncountable nouns like <b>time</b>, say <b>very little</b>, not 'very less'."
+  },
+  {
+   "qid": "c10-15-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Neither the doctors nor the nurse",
+   "after": "sure about his illness at first.",
+   "options": [
+    "was",
+    "were",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>Neither ... nor</b>: the verb agrees with the nearer subject (the nurse): <b>was</b>."
+  },
+  {
+   "qid": "c10-15-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Hawking",
+   "after": "at a medical clinic for two weeks in 1963.",
+   "options": [
+    "has stayed",
+    "stayed",
+    "has been staying"
+   ],
+   "answer": 1,
+   "rule": "<b>In 1963</b> is a finished past time, so use the simple past: <b>stayed</b>."
+  },
+  {
+   "qid": "c10-15-26",
+   "type": "build",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Time",
+    "travel",
+    "has",
+    "been",
+    "discussed",
+    "by",
+    "many",
+    "scientists."
+   ],
+   "alts": [],
+   "rule": "Present perfect passive: <b>has been + past participle</b> (+ by ...)."
+  },
+  {
+   "qid": "c10-15-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "determiners",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "Do you have any books on black holes?"
+    ]
+   ],
+   "options": [
+    "Yes, I have a little. You can borrow one.",
+    "Yes, I have much. You can borrow one.",
+    "Yes, I have a few. You can borrow one."
+   ],
+   "answer": 2,
+   "rule": "Books are countable, so use <b>a few</b>. 'A little' and 'much' are for uncountable nouns."
+  },
+  {
+   "qid": "c10-15-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "When did you finish A Brief History of Time?"
+    ]
+   ],
+   "options": [
+    "I have finished it last week.",
+    "I finished it last week.",
+    "I have finish it last week."
+   ],
+   "answer": 1,
+   "rule": "<b>When ...?</b> and <b>last week</b> need the simple past: I <b>finished</b>."
+  },
+  {
+   "qid": "c10-15-29",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "A computer programmer developed a speaking program.",
+   "options": [
+    "A speaking program was developed by a computer programmer.",
+    "A speaking program developed by a computer programmer.",
+    "A speaking program was develop by a computer programmer."
+   ],
+   "answer": 0,
+   "rule": "Simple past passive: object + <b>was + past participle</b> + by + doer."
+  },
+  {
+   "qid": "c10-15-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Since",
+    "1988,",
+    "millions",
+    "of",
+    "people",
+    "has",
+    "read",
+    "his",
+    "famous",
+    "book.",
+    "My",
+    "sister",
+    "and",
+    "I",
+    "have",
+    "also",
+    "read",
+    "it,",
+    "but",
+    "neither",
+    "of",
+    "us",
+    "have",
+    "understood",
+    "every",
+    "chapter."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "was",
+      "have"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "has",
+      "are",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Millions of people</b> is plural: <b>have</b> read. <b>Neither of us</b> takes a singular verb: <b>has</b>."
+  },
+  {
+   "qid": "c10-15-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Either of the two answers are correct.",
+    "Either of the two answers is correct.",
+    "Either of the two answer is correct."
+   ],
+   "answer": 1,
+   "rule": "<b>Either of</b> + plural noun takes a singular verb: either of the two answers <b>is</b>."
+  },
+  {
+   "qid": "c10-15-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "determiners",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hawking",
+    "wrote",
+    "this",
+    "three",
+    "books",
+    "for",
+    "ordinary",
+    "readers,",
+    "not",
+    "only",
+    "for",
+    "scientists."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "these",
+      "that",
+      "much"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>three books</b> is plural, so use the plural determiner <b>these</b>, not 'this'."
+  },
+  {
+   "qid": "c10-15-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandfather",
+    "has",
+    "used",
+    "a",
+    "wheelchair",
+    "for",
+    "2019."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "by",
+      "at",
+      "since"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Present perfect + a point in time (<b>2019</b>) uses <b>since</b>; 'for' goes with a period (for six years)."
+  },
+  {
+   "qid": "c10-15-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "Hawking's ideas",
+   "after": "by students all over the world.",
+   "options": [
+    "study",
+    "are studying",
+    "are studied"
+   ],
+   "answer": 2,
+   "rule": "Ideas don't study; students study them. Present passive: <b>are + past participle</b>."
+  },
+  {
+   "qid": "c10-15-35",
+   "type": "build",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Neither",
+    "Hawking",
+    "nor",
+    "his",
+    "doctors",
+    "were",
+    "sure."
+   ],
+   "alts": [],
+   "rule": "<b>Neither ... nor</b>: the verb agrees with the nearer subject, <b>doctors</b>, so use <b>were</b>."
+  },
+  {
+   "qid": "c10-15-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Has the science project been submitted?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. It submitted yesterday.",
+    "Yes, ma'am. It was submitted yesterday.",
+    "Yes, ma'am. It was submit yesterday."
+   ],
+   "answer": 1,
+   "rule": "The project was handed in by someone: past passive <b>was submitted</b> with 'yesterday'."
+  },
+  {
+   "qid": "c10-15-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "determiners",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aryan",
+     "How much time do we have before the quiz?"
+    ]
+   ],
+   "options": [
+    "We have very little time, so let's hurry.",
+    "We have very few time, so let's hurry.",
+    "We have very less times, so let's hurry."
+   ],
+   "answer": 0,
+   "rule": "<b>Time</b> is uncountable, so use <b>little</b>; 'few' is for countable nouns."
+  },
+  {
+   "qid": "c10-15-38",
+   "type": "change",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Change into a negative sentence without changing the meaning.",
+   "source": "Riya has always been punctual.",
+   "options": [
+    "Riya has never been punctual.",
+    "Riya has never been late.",
+    "Riya has not never been late."
+   ],
+   "answer": 1,
+   "rule": "Use <b>never</b> + the opposite word: always punctual = <b>never late</b>. Avoid double negatives."
+  },
+  {
+   "qid": "c10-15-39",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Did the doctors take a muscle sample?",
+   "options": [
+    "Did a muscle sample taken by the doctors?",
+    "Was a muscle sample took by the doctors?",
+    "Was a muscle sample taken by the doctors?"
+   ],
+   "answer": 2,
+   "rule": "A <b>Did ...?</b> question becomes <b>Was/Were + object + past participle</b> ...?"
+  },
+  {
+   "qid": "c10-15-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "determiners",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Over",
+    "the",
+    "years,",
+    "Hawking",
+    "wrote",
+    "fifteen",
+    "books.",
+    "Each",
+    "of",
+    "these",
+    "books",
+    "explain",
+    "a",
+    "big",
+    "idea,",
+    "and",
+    "a",
+    "few",
+    "of",
+    "them",
+    "has",
+    "become",
+    "best-sellers."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "explains",
+      "explaining",
+      "explanation"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 20,
+     "options": [
+      "is",
+      "have",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Each of</b> takes a singular verb (<b>explains</b>); <b>a few of them</b> is plural (<b>have</b>)."
+  },
+  {
+   "qid": "c10-15-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hawking, along with his students, was working on black holes.",
+    "Hawking, along with his students, were working on black holes.",
+    "Hawking, along with his students, are working on black holes."
+   ],
+   "answer": 0,
+   "rule": "<b>along with ...</b> does not change the subject. Hawking is singular: <b>was</b>."
+  },
+  {
+   "qid": "c10-15-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hawking's",
+    "words",
+    "were",
+    "selected",
+    "on",
+    "a",
+    "screen",
+    "and",
+    "then",
+    "pass",
+    "through",
+    "a",
+    "speech",
+    "synthesiser."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "passed",
+      "passing",
+      "passes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both verbs share <b>were</b>: were selected ... and then <b>passed</b> (past participle)."
+  },
+  {
+   "qid": "c10-15-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "determiners",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "of the two scientists has won the award.",
+   "options": [
+    "Both",
+    "Neither",
+    "All"
+   ],
+   "answer": 1,
+   "rule": "<b>Neither of</b> takes a singular verb (has). 'Both' needs 'have'; 'all' is for more than two."
+  },
+  {
+   "qid": "c10-15-44",
+   "type": "build",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Have",
+    "you",
+    "ever",
+    "read",
+    "a",
+    "book",
+    "about",
+    "black",
+    "holes?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Have + you + ever + past participle</b> ...?"
+  },
+  {
+   "qid": "c10-15-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mehul",
+     "The principal has finally approved our space club."
+    ]
+   ],
+   "options": [
+    "Great! Everyone in our class is excited.",
+    "Great! Everyone in our class are excited.",
+    "Great! Everyone in our class were excited."
+   ],
+   "answer": 0,
+   "rule": "<b>Everyone</b> is singular: everyone <b>is</b>, even when followed by 'in our class'."
+  },
+  {
+   "qid": "c10-15-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The doctors gave him two and a half years to live.",
+   "options": [
+    "He was gave two and a half years to live by the doctors.",
+    "He is given two and a half years to live by the doctors.",
+    "He was given two and a half years to live by the doctors."
+   ],
+   "answer": 2,
+   "rule": "Simple past passive with a person as subject: <b>He was given</b> ... (give - gave - given)."
+  },
+  {
+   "qid": "c10-15-47",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Switch off your phones during the lecture.",
+   "options": [
+    "Let your phones be switch off during the lecture.",
+    "Let your phones be switched off during the lecture.",
+    "Let your phones are switched off during the lecture."
+   ],
+   "answer": 1,
+   "rule": "Command in the passive: <b>Let + object + be + past participle</b>."
+  },
+  {
+   "qid": "c10-15-48",
+   "type": "change",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Combine into one sentence using 'since'.",
+   "source": "My uncle started teaching physics in 2015. He still teaches it.",
+   "options": [
+    "My uncle has taught physics for 2015.",
+    "My uncle taught physics since 2015.",
+    "My uncle has taught physics since 2015."
+   ],
+   "answer": 2,
+   "rule": "An action that began in the past and still goes on: present perfect + <b>since</b> + point in time."
+  },
+  {
+   "qid": "c10-15-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "In",
+    "1963,",
+    "Hawking",
+    "was",
+    "took",
+    "to",
+    "a",
+    "clinic,",
+    "where",
+    "many",
+    "tests",
+    "were",
+    "done.",
+    "A",
+    "muscle",
+    "sample",
+    "was",
+    "removed",
+    "from",
+    "his",
+    "arm,",
+    "and",
+    "dye",
+    "was",
+    "inject",
+    "into",
+    "his",
+    "spine.",
+    "At",
+    "last,",
+    "Hawking",
+    "were",
+    "told",
+    "that",
+    "he",
+    "had",
+    "ALS."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "take",
+      "taking",
+      "taken"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "injected",
+      "injecting",
+      "injects"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "is",
+      "was",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = be + past participle: was <b>taken</b>, was <b>injected</b>. Singular Hawking takes <b>was</b>."
+  },
+  {
+   "qid": "c10-15-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Neither",
+    "his",
+    "students",
+    "nor",
+    "Hawking",
+    "were",
+    "ready",
+    "to",
+    "give",
+    "up.",
+    "Every",
+    "one",
+    "of",
+    "his",
+    "ideas",
+    "were",
+    "tested",
+    "again",
+    "and",
+    "again",
+    "with",
+    "great",
+    "care."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "are",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "was",
+      "are",
+      "being"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Neither ... nor: agree with the nearer subject (Hawking): <b>was</b>. <b>Every one of</b> takes <b>was</b>."
+  }
+ ]
+}

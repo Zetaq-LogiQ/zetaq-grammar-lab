@@ -1,0 +1,1194 @@
+{
+ "class": 10,
+ "id": "12",
+ "title": "Science and Spirituality",
+ "topics": [
+  {
+   "tag": "sentence_patterns",
+   "name": "Simple sentence patterns: object, complement, adverbial"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Punctuation: apostrophes (possessive 's, it's / its)"
+  },
+  {
+   "tag": "only_inversion",
+   "name": "Inversion after 'Only when / Only then / Only after'"
+  },
+  {
+   "tag": "the_more",
+   "name": "'The more ..., the more ...' comparatives"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-12-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sentence_patterns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The dancer danced graceful.",
+    "The dancer danced gracefulness.",
+    "The dancer danced gracefully."
+   ],
+   "answer": 2,
+   "rule": "The adverbial tells <b>how</b> she danced, so use the adverb <b>gracefully</b>."
+  },
+  {
+   "qid": "c10-12-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Pick the correctly punctuated sentence.",
+   "options": [
+    "The childrens' books were kept in the ashram's library.",
+    "The children's books were kept in the ashrams library.",
+    "The children's books were kept in the ashram's library."
+   ],
+   "answer": 2,
+   "rule": "Possessive 's: <b>children's</b> (plural without s adds 's) and <b>ashram's</b> (singular adds 's)."
+  },
+  {
+   "qid": "c10-12-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "only_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Only when Ravi rests his headache goes away.",
+    "Only when Ravi rests does his headache go away.",
+    "Only when Ravi rests does his headache goes away."
+   ],
+   "answer": 1,
+   "rule": "After <b>Only when ...</b>, invert the main clause: <b>does his headache go</b>."
+  },
+  {
+   "qid": "c10-12-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dr Kalam said that science and faith musts coexist.",
+    "Dr Kalam said that science and faith must coexist.",
+    "Dr Kalam said that science and faith must coexisted."
+   ],
+   "answer": 1,
+   "rule": "<b>must</b> stays the same in reported speech and is followed by the base verb."
+  },
+  {
+   "qid": "c10-12-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "the_more",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The longer Grandpa walks, fitter he feels.",
+    "The long Grandpa walks, the fitter he feels.",
+    "The longer Grandpa walks, the fitter he feels."
+   ],
+   "answer": 2,
+   "rule": "Pattern: <b>The + comparative ..., the + comparative ...</b> (The longer ..., the fitter ...)."
+  },
+  {
+   "qid": "c10-12-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_patterns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The old Swamiji looked steadily and alert.",
+    "The old Swamiji looking steady and alert.",
+    "The old Swamiji looked steady and alert."
+   ],
+   "answer": 2,
+   "rule": "After <b>looked</b> (meaning 'seemed'), use adjectives as the complement: steady and alert."
+  },
+  {
+   "qid": "c10-12-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which reported question is correct?",
+   "options": [
+    "Dr Kalam asked Srijan that what the reverse of that question was.",
+    "Dr Kalam asked Srijan what the reverse of that question was.",
+    "Dr Kalam asked to Srijan what the reverse of that question was."
+   ],
+   "answer": 1,
+   "rule": "A reported wh-question joins with the wh-word itself (no 'that') and uses <b>asked + person</b> (no 'to')."
+  },
+  {
+   "qid": "c10-12-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "only_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Only after the guests had left Meena started cleaning up.",
+    "Only after the guests had left did Meena start cleaning up.",
+    "Only after the guests had left did Meena started cleaning up."
+   ],
+   "answer": 1,
+   "rule": "<b>Only after ...</b> needs inversion: <b>did + subject + base verb</b> (did Meena start)."
+  },
+  {
+   "qid": "c10-12-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "sentence_patterns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "boatman",
+    "rowed",
+    "his",
+    "boat",
+    "careful",
+    "across",
+    "the",
+    "sea."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "carefully",
+      "care",
+      "carefulness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say <b>how</b> he rowed, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c10-12-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "the_more",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "more",
+    "Anu",
+    "practises",
+    "the",
+    "sitar,",
+    "the",
+    "sweet",
+    "her",
+    "music",
+    "sounds",
+    "to",
+    "us."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "sweeter",
+      "sweetest",
+      "sweetly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both halves need <b>the + comparative</b>: The more ..., the <b>sweeter</b> ..."
+  },
+  {
+   "qid": "c10-12-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Father",
+    "Pereira",
+    "told",
+    "the",
+    "people",
+    "that",
+    "he",
+    "will",
+    "pray",
+    "for",
+    "them",
+    "that",
+    "evening."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "shall",
+      "would",
+      "can"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a past reporting verb (told), <b>will</b> changes to <b>would</b>: he would pray that evening."
+  },
+  {
+   "qid": "c10-12-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "only_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Only",
+    "then",
+    "did",
+    "the",
+    "people",
+    "understood",
+    "the",
+    "scientist's",
+    "mission."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "understands",
+      "understanding",
+      "understand"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did</b>, use the base verb: did the people <b>understand</b>."
+  },
+  {
+   "qid": "c10-12-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "the_more",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "more",
+    "we",
+    "take",
+    "from",
+    "nature,",
+    "the",
+    "poor",
+    "the",
+    "planet",
+    "becomes."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "poorer",
+      "poorest",
+      "poorly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both halves need a comparative: The more ..., the <b>poorer</b> ..."
+  },
+  {
+   "qid": "c10-12-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_patterns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "waited",
+    "patient",
+    "outside",
+    "the",
+    "church",
+    "on",
+    "Sunday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "patiently",
+      "patience",
+      "patients"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To describe <b>how</b> they waited, use the adverb <b>patiently</b>."
+  },
+  {
+   "qid": "c10-12-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "the",
+    "teacher",
+    "asked",
+    "us",
+    "if",
+    "we",
+    "can",
+    "keep",
+    "quiet",
+    "for",
+    "a",
+    "while."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "may",
+      "will",
+      "could"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In a reported question after <b>asked</b>, <b>can</b> changes to <b>could</b>."
+  },
+  {
+   "qid": "c10-12-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "only_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Only",
+    "by",
+    "serving",
+    "humanity",
+    "can",
+    "we",
+    "removes",
+    "the",
+    "dust",
+    "from",
+    "our",
+    "souls."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "removed",
+      "remove",
+      "removing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the modal <b>can</b>, use the base verb: can we <b>remove</b>."
+  },
+  {
+   "qid": "c10-12-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_patterns",
+   "prompt": "Fill in the gap.",
+   "before": "They are very",
+   "after": "after the long journey.",
+   "options": [
+    "tiredly",
+    "tired",
+    "tire"
+   ],
+   "answer": 1,
+   "rule": "After <b>are</b>, the complement is an adjective: very <b>tired</b>."
+  },
+  {
+   "qid": "c10-12-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Fill in the gap.",
+   "before": "Dr",
+   "after": "father was a boatman and an imam.",
+   "options": [
+    "Kalam's",
+    "Kalams",
+    "Kalam"
+   ],
+   "answer": 0,
+   "rule": "Possession by one person: name + <b>'s</b> (Kalam's)."
+  },
+  {
+   "qid": "c10-12-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "only_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Only when we serve others",
+   "after": "we find true peace.",
+   "options": [
+    "did",
+    "do",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "Present tense inversion: Only when ... <b>do we find</b>."
+  },
+  {
+   "qid": "c10-12-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "the_more",
+   "prompt": "Fill in the gap.",
+   "before": "The harder you work,",
+   "after": "you will feel.",
+   "options": [
+    "the happier",
+    "happier",
+    "the happiest"
+   ],
+   "answer": 0,
+   "rule": "The second half also needs <b>the + comparative</b>: the happier."
+  },
+  {
+   "qid": "c10-12-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Dr Kalam advised me",
+   "after": "my degree to transform society.",
+   "options": [
+    "using",
+    "use",
+    "to use"
+   ],
+   "answer": 2,
+   "rule": "Reported advice: <b>advised + person + to + base verb</b>."
+  },
+  {
+   "qid": "c10-12-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_patterns",
+   "prompt": "Fill in the gap.",
+   "before": "Raj arrived",
+   "after": "for the lecture, so he missed the first part.",
+   "options": [
+    "lately",
+    "lateness",
+    "late"
+   ],
+   "answer": 2,
+   "rule": "<b>late</b> is the adverb meaning 'after the right time'; 'lately' means 'recently'."
+  },
+  {
+   "qid": "c10-12-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "the_more",
+   "prompt": "Fill in the gap.",
+   "before": "The more questions Anil asked,",
+   "after": "he understood the topic.",
+   "options": [
+    "the better",
+    "better",
+    "the best"
+   ],
+   "answer": 0,
+   "rule": "Pattern: The more ..., <b>the + comparative</b> (the better)."
+  },
+  {
+   "qid": "c10-12-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Dr Kalam asked Srijan how many of those four people",
+   "after": "able to stand tall for half an hour.",
+   "options": [
+    "will be",
+    "would be",
+    "would they be"
+   ],
+   "answer": 1,
+   "rule": "Reported question: statement order and backshift: <b>would be</b>."
+  },
+  {
+   "qid": "c10-12-25",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_patterns",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "hostess",
+    "served",
+    "hot",
+    "tea."
+   ],
+   "alts": [],
+   "rule": "Subject + verb + <b>object</b>: The hostess served hot tea."
+  },
+  {
+   "qid": "c10-12-26",
+   "type": "build",
+   "level": 2,
+   "topic": "only_inversion",
+   "prompt": "Make a sentence starting with 'Only'.",
+   "answer": [
+    "Only",
+    "then",
+    "did",
+    "the",
+    "mirror",
+    "shine."
+   ],
+   "alts": [],
+   "rule": "<b>Only then + did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-12-27",
+   "type": "build",
+   "level": 3,
+   "topic": "the_more",
+   "prompt": "Make a 'The more ..., the ...' sentence.",
+   "answer": [
+    "The",
+    "more",
+    "we",
+    "share,",
+    "the",
+    "happier",
+    "everyone",
+    "feels."
+   ],
+   "alts": [],
+   "rule": "<b>The more</b> + clause, <b>the + comparative</b> + clause."
+  },
+  {
+   "qid": "c10-12-28",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "He",
+    "asked",
+    "me",
+    "what",
+    "I",
+    "could",
+    "give."
+   ],
+   "alts": [],
+   "rule": "Reported questions use statement order: what <b>I could give</b>."
+  },
+  {
+   "qid": "c10-12-29",
+   "type": "build",
+   "level": 5,
+   "topic": "only_inversion",
+   "prompt": "Make a sentence starting with 'Only after'.",
+   "answer": [
+    "Only",
+    "after",
+    "many",
+    "years",
+    "of",
+    "failure",
+    "did",
+    "Kalam",
+    "succeed."
+   ],
+   "alts": [],
+   "rule": "<b>Only after</b> + phrase, then <b>did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-12-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "the_more",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "You've improved so much this season!"
+    ]
+   ],
+   "options": [
+    "Thank you! The more I practise, the best I play.",
+    "Thank you! More I practise, better I play.",
+    "Thank you! The more I practise, the better I play."
+   ],
+   "answer": 2,
+   "rule": "Pattern: <b>The more ..., the + comparative</b> (the better)."
+  },
+  {
+   "qid": "c10-12-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did your teacher say about the trip?"
+    ]
+   ],
+   "options": [
+    "She said that we was going to Thumba on Friday.",
+    "She said us that we were going to Thumba on Friday.",
+    "She said that we were going to Thumba on Friday."
+   ],
+   "answer": 2,
+   "rule": "Use <b>said that</b> (or 'told us that'), and 'we' takes <b>were</b>."
+  },
+  {
+   "qid": "c10-12-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_patterns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "How was the dance show?"
+    ]
+   ],
+   "options": [
+    "It was wonderful! Priya danced beautiful.",
+    "It was wonderful! Priya danced beautifully.",
+    "It was wonderfully! Priya danced beautifully."
+   ],
+   "answer": 1,
+   "rule": "After <b>was</b> use an adjective (wonderful); after <b>danced</b> use an adverb (beautifully)."
+  },
+  {
+   "qid": "c10-12-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "only_inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "When will you get your new phone?"
+    ]
+   ],
+   "options": [
+    "Only after I pass my exams will Dad buy it.",
+    "Only after I pass my exams Dad will buy it.",
+    "Only after I will pass my exams will Dad buy it."
+   ],
+   "answer": 0,
+   "rule": "<b>Only after</b> + present tense, then invert: <b>will Dad buy</b>."
+  },
+  {
+   "qid": "c10-12-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "Is the science kit ready for tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, its ready, but its lid is broken.",
+    "Yes, it's ready, but its lid is broken.",
+    "Yes, it's ready, but it's lid is broken."
+   ],
+   "answer": 1,
+   "rule": "<b>it's</b> = it is (it's ready); <b>its</b> = belonging to it (its lid)."
+  },
+  {
+   "qid": "c10-12-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you ask the librarian about Wings of Fire?"
+    ]
+   ],
+   "options": [
+    "Yes. She told me that the book has been return.",
+    "Yes. She said me that the book had been returned.",
+    "Yes. She told me that the book had been returned."
+   ],
+   "answer": 2,
+   "rule": "Use <b>told me</b> (not 'said me') and backshift: <b>had been returned</b>."
+  },
+  {
+   "qid": "c10-12-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "the_more",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Should I take the short road or the long road to the temple?"
+    ]
+   ],
+   "options": [
+    "Take the short road. The sooner you reach, the longer you can stay.",
+    "Take the short road. The soon you reach, the longer you can stay.",
+    "Take the short road. The sooner you reach, longer you can stay."
+   ],
+   "answer": 0,
+   "rule": "Both halves need <b>the + comparative</b>: The sooner ..., the longer ..."
+  },
+  {
+   "qid": "c10-12-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Rohan, what did Mahaswamiji tell the children?"
+    ]
+   ],
+   "options": [
+    "He told them that they should always shared what they had.",
+    "He told to them that they should always share what they had.",
+    "He told them that they should always share what they had."
+   ],
+   "answer": 2,
+   "rule": "<b>told + person</b> (no 'to'), and <b>should + base verb</b> (share)."
+  },
+  {
+   "qid": "c10-12-38",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Dr Kalam said, \"I am a teacher.\"",
+   "options": [
+    "Dr Kalam said that I was a teacher.",
+    "Dr Kalam said that he was a teacher.",
+    "Dr Kalam said that he were a teacher."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>he</b>, and <b>am</b> becomes <b>was</b> after 'said'."
+  },
+  {
+   "qid": "c10-12-39",
+   "type": "change",
+   "level": 2,
+   "topic": "only_inversion",
+   "prompt": "Begin the sentence with 'Only when'.",
+   "source": "The mirror shines only when the dust is removed.",
+   "options": [
+    "Only when the dust is removed does the mirror shine.",
+    "Only when the dust is removed the mirror shines.",
+    "Only when the dust is removed does the mirror shines."
+   ],
+   "answer": 0,
+   "rule": "Starting with <b>Only when</b>, invert the main clause: <b>does the mirror shine</b>."
+  },
+  {
+   "qid": "c10-12-40",
+   "type": "change",
+   "level": 2,
+   "topic": "the_more",
+   "prompt": "Rewrite using 'The more ..., the ...'.",
+   "source": "As we give more, we become happier.",
+   "options": [
+    "The more we give, happier we become.",
+    "More we give, the happier we become.",
+    "The more we give, the happier we become."
+   ],
+   "answer": 2,
+   "rule": "Both halves begin with <b>the</b>: The more ..., the happier ..."
+  },
+  {
+   "qid": "c10-12-41",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Father Pereira said to the people, \"Can you give up your homes?\"",
+   "options": [
+    "Father Pereira asked the people if they could give up their homes.",
+    "Father Pereira asked the people if they can give up your homes.",
+    "Father Pereira asked the people that could they give up their homes."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: <b>asked + if</b>, statement order, <b>can</b> to <b>could</b>, <b>your</b> to <b>their</b>."
+  },
+  {
+   "qid": "c10-12-42",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into direct speech.",
+   "source": "Dr Kalam advised me to use my degree to change society.",
+   "options": [
+    "Dr Kalam said to me, \"Use your degree to change society.\"",
+    "Dr Kalam said to me, \"Use my degree to change society.\"",
+    "Dr Kalam said to me, \"You used your degree to change society.\""
+   ],
+   "answer": 0,
+   "rule": "Advice becomes an imperative, and <b>my</b> (narrator) becomes <b>your</b> when Dr Kalam speaks."
+  },
+  {
+   "qid": "c10-12-43",
+   "type": "change",
+   "level": 4,
+   "topic": "only_inversion",
+   "prompt": "Rewrite using 'Only after'.",
+   "source": "The work began after the fishermen got new homes.",
+   "options": [
+    "Only after the fishermen got new homes did the work begin.",
+    "Only after the fishermen got new homes the work began.",
+    "Only after the fishermen got new homes did the work began."
+   ],
+   "answer": 0,
+   "rule": "<b>Only after</b> + clause, then <b>did + subject + base verb</b> (did the work begin)."
+  },
+  {
+   "qid": "c10-12-44",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "\"Sir, do you know how old Swamiji is?\" I asked Dr Kalam.",
+   "options": [
+    "I respectfully asked Dr Kalam if he knows how old was Swamiji.",
+    "I respectfully asked Dr Kalam if he knew how old Swamiji was.",
+    "I respectfully asked Dr Kalam did he know how old Swamiji was."
+   ],
+   "answer": 1,
+   "rule": "'Sir' becomes <b>respectfully</b>; use <b>if</b>, statement order and backshift (knew, was)."
+  },
+  {
+   "qid": "c10-12-45",
+   "type": "change",
+   "level": 5,
+   "topic": "the_more",
+   "prompt": "Rewrite using 'The longer ..., the more ...'.",
+   "source": "When Srijan worked longer with Dr Kalam, he learnt more.",
+   "options": [
+    "The longer Srijan worked with Dr Kalam, the more he learns.",
+    "The longer Srijan worked with Dr Kalam, the more he learnt.",
+    "The long Srijan worked with Dr Kalam, the more he learnt."
+   ],
+   "answer": 1,
+   "rule": "<b>The + comparative</b> in both halves, and keep both verbs in the past (worked, learnt)."
+  },
+  {
+   "qid": "c10-12-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "sentence_patterns",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Dinesh",
+    "took",
+    "a",
+    "bus",
+    "that",
+    "stopped",
+    "at",
+    "Nanded",
+    "railway",
+    "station.",
+    "He",
+    "got",
+    "off",
+    "careful",
+    "and",
+    "reach",
+    "his",
+    "uncle's",
+    "shop",
+    "by",
+    "noon."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "care",
+      "careless",
+      "carefully"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "reaching",
+      "reached",
+      "reaches"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "How he got off: adverb <b>carefully</b>; the story is past: <b>reached</b>."
+  },
+  {
+   "qid": "c10-12-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Yesterday",
+    "our",
+    "teacher",
+    "told",
+    "us",
+    "that",
+    "Dr",
+    "Kalam",
+    "is",
+    "born",
+    "in",
+    "Rameswaram.",
+    "She",
+    "also",
+    "asked",
+    "us",
+    "whether",
+    "we",
+    "has",
+    "read",
+    "Wings",
+    "of",
+    "Fire."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "were",
+      "was",
+      "has"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "is",
+      "does",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A birth is a past event: <b>was born</b>; reported question after 'asked': we <b>had</b> read."
+  },
+  {
+   "qid": "c10-12-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "only_inversion",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Only",
+    "when",
+    "we",
+    "stop",
+    "being",
+    "selfish",
+    "will",
+    "our",
+    "society",
+    "changes",
+    "for",
+    "the",
+    "better.",
+    "The",
+    "more",
+    "we",
+    "give,",
+    "the",
+    "happy",
+    "we",
+    "become.",
+    "Only",
+    "then",
+    "does",
+    "the",
+    "world",
+    "becomes",
+    "a",
+    "kinder",
+    "place."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "changed",
+      "changing",
+      "change"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 18,
+     "options": [
+      "happier",
+      "happiest",
+      "happily"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "became",
+      "becoming",
+      "become"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "will ... <b>change</b> and does ... <b>become</b> (base verbs after helpers); The more ..., the <b>happier</b>."
+  },
+  {
+   "qid": "c10-12-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_patterns",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "102-year-old",
+    "Swamiji",
+    "stood",
+    "steady",
+    "for",
+    "half",
+    "an",
+    "hour.",
+    "He",
+    "spoke",
+    "wise",
+    "and",
+    "then",
+    "feed",
+    "thousands",
+    "of",
+    "hungry",
+    "children.",
+    "Everyone",
+    "was",
+    "amazed",
+    "by",
+    "his",
+    "strength."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "wiser",
+      "wisdom",
+      "wisely"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "feeds",
+      "fed",
+      "feeding"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "How he spoke: adverb <b>wisely</b>; past story: <b>fed</b>. ('stood steady' is correct: steady describes him.)"
+  },
+  {
+   "qid": "c10-12-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Father",
+    "Pereira",
+    "told",
+    "the",
+    "people",
+    "that",
+    "the",
+    "scientist",
+    "want",
+    "their",
+    "land.",
+    "He",
+    "asked",
+    "them",
+    "if",
+    "they",
+    "can",
+    "give",
+    "up",
+    "their",
+    "homes.",
+    "Everyone",
+    "agreed",
+    "and",
+    "said",
+    "that",
+    "they",
+    "will",
+    "help."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "wanting",
+      "wishing",
+      "wanted"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 16,
+     "options": [
+      "will",
+      "shall",
+      "could"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 27,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After past reporting verbs, backshift: <b>wanted</b>, <b>could</b>, <b>would</b>."
+  }
+ ]
+}

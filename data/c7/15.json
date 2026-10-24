@@ -1,0 +1,995 @@
+{
+ "class": 7,
+ "id": "15",
+ "title": "Compere a Programme",
+ "topics": [
+  {
+   "tag": "objects",
+   "name": "Direct and indirect objects"
+  },
+  {
+   "tag": "phrases",
+   "name": "Using phrases: relieved of, likened to, escort, draw the curtain"
+  },
+  {
+   "tag": "polite",
+   "name": "Polite requests and offers (May I, Could you, I would like to)"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (present, past, future)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-15-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "objects",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Principal gave she a book.",
+    "The Principal gave her a book.",
+    "The Principal gave to her a book."
+   ],
+   "answer": 1,
+   "rule": "The indirect object comes first without 'to', in object form: gave <b>her</b> (indirect) <b>a book</b> (direct)."
+  },
+  {
+   "qid": "c7-15-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "May I requesting you to switch off your mobiles?",
+    "May I requested you to switch off your mobiles?",
+    "May I request you to switch off your mobiles?"
+   ],
+   "answer": 2,
+   "rule": "After <b>May I</b>, use the base verb: <b>May I request ...?</b>"
+  },
+  {
+   "qid": "c7-15-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "lamp",
+    "was",
+    "light",
+    "by",
+    "the",
+    "Chief",
+    "Guest."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lit",
+      "lighting",
+      "lights"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: light - lit - <b>lit</b>."
+  },
+  {
+   "qid": "c7-15-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "objects",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "give",
+    "they",
+    "a",
+    "big",
+    "round",
+    "of",
+    "applause."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "their",
+      "them",
+      "theirs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An object pronoun is needed after the verb: give <b>them</b> a round of applause."
+  },
+  {
+   "qid": "c7-15-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "phrases",
+   "prompt": "Fill in the gap.",
+   "before": "After the medicine, Ravi was relieved",
+   "after": "the pain.",
+   "options": [
+    "at",
+    "with",
+    "of"
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>to be relieved of</b> something (pain, worry, a duty)."
+  },
+  {
+   "qid": "c7-15-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I request you all to be seated?",
+   "options": [
+    "May",
+    "Am",
+    "Have"
+   ],
+   "answer": 0,
+   "rule": "A polite request to do something: <b>May I</b> + base verb?"
+  },
+  {
+   "qid": "c7-15-07",
+   "type": "build",
+   "level": 1,
+   "topic": "objects",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Riya",
+    "showed",
+    "us",
+    "her",
+    "new",
+    "painting."
+   ],
+   "alts": [],
+   "rule": "Verb + indirect object (<b>us</b>) + direct object (<b>her new painting</b>)."
+  },
+  {
+   "qid": "c7-15-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Joshi",
+     "Do you need anything, Aman?"
+    ]
+   ],
+   "options": [
+    "May I having a glass of water, please?",
+    "May I has a glass of water, please?",
+    "May I have a glass of water, please?"
+   ],
+   "answer": 2,
+   "rule": "<b>May I</b> + base verb: <b>May I have ...?</b>"
+  },
+  {
+   "qid": "c7-15-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Who won the drawing prize?"
+    ]
+   ],
+   "options": [
+    "The prize was won by Zubin.",
+    "The prize was win by Zubin.",
+    "The prize were won by Zubin."
+   ],
+   "answer": 0,
+   "rule": "Passive: <b>was + past participle</b>: win - won - <b>won</b>. 'Prize' is singular, so <b>was</b>."
+  },
+  {
+   "qid": "c7-15-10",
+   "type": "change",
+   "level": 1,
+   "topic": "objects",
+   "prompt": "Rewrite using 'to'.",
+   "source": "The Chief Guest gave Anagha a prize.",
+   "options": [
+    "The Chief Guest gave a prize for Anagha.",
+    "The Chief Guest gave to Anagha a prize.",
+    "The Chief Guest gave a prize to Anagha."
+   ],
+   "answer": 2,
+   "rule": "Put the direct object first and the person after <b>to</b>: gave <b>a prize to Anagha</b>."
+  },
+  {
+   "qid": "c7-15-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The guests was welcomed with books.",
+    "The guests were welcomes with books.",
+    "The guests were welcomed with books."
+   ],
+   "answer": 2,
+   "rule": "Plural subject (guests) + <b>were</b> + past participle: <b>were welcomed</b>."
+  },
+  {
+   "qid": "c7-15-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The minister was escort by his bodyguards.",
+    "The minister was escorted from his bodyguards.",
+    "The minister was escorted by his bodyguards."
+   ],
+   "answer": 2,
+   "rule": "Passive: <b>was escorted by</b> (the doer comes after <b>by</b>)."
+  },
+  {
+   "qid": "c7-15-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "objects",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Art",
+    "teacher",
+    "taught",
+    "we",
+    "a",
+    "new",
+    "style",
+    "of",
+    "painting."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "our",
+      "us",
+      "ours"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The indirect object must be an object pronoun: taught <b>us</b> a new style."
+  },
+  {
+   "qid": "c7-15-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "please",
+    "helps",
+    "me",
+    "carry",
+    "these",
+    "chairs?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "helping",
+      "help",
+      "helped"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Could you</b>, use the base verb: <b>Could you please help ...?</b>"
+  },
+  {
+   "qid": "c7-15-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "objects",
+   "prompt": "Fill in the gap.",
+   "before": "Sahil sang",
+   "after": "a beautiful song.",
+   "options": [
+    "they",
+    "them",
+    "their"
+   ],
+   "answer": 1,
+   "rule": "Indirect object = object pronoun: sang <b>them</b> a song."
+  },
+  {
+   "qid": "c7-15-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The prizes will be",
+   "after": "by the Chief Guest.",
+   "options": [
+    "given",
+    "gave",
+    "give"
+   ],
+   "answer": 0,
+   "rule": "Future passive = <b>will be + past participle</b>: <b>will be given</b>."
+  },
+  {
+   "qid": "c7-15-17",
+   "type": "build",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "switch",
+    "off",
+    "your",
+    "phone?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you please</b> + base verb ...? is a polite request."
+  },
+  {
+   "qid": "c7-15-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "objects",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did Grandpa give you?"
+    ]
+   ],
+   "options": [
+    "He gave me a book of stories.",
+    "He gave I a book of stories.",
+    "He gave to me a book of stories."
+   ],
+   "answer": 0,
+   "rule": "Indirect object (<b>me</b>) + direct object (<b>a book</b>), with no 'to' in between."
+  },
+  {
+   "qid": "c7-15-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The Head Girl escorted the guests.",
+   "options": [
+    "The guests were escorted by the Head Girl.",
+    "The guests are escorted by the Head Girl.",
+    "The guests was escorted by the Head Girl."
+   ],
+   "answer": 0,
+   "rule": "Simple past active -> <b>were + past participle</b> for a plural subject: <b>were escorted</b>."
+  },
+  {
+   "qid": "c7-15-20",
+   "type": "change",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Change into a polite request beginning with 'Could'.",
+   "source": "Open the window.",
+   "options": [
+    "Could you please open the window?",
+    "Could you please opens the window?",
+    "Could you please opened the window?"
+   ],
+   "answer": 0,
+   "rule": "<b>Could you please</b> + base verb, and end with <b>?</b>"
+  },
+  {
+   "qid": "c7-15-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "objects",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The teacher bought they some paint.",
+    "The teacher bought the children some paint.",
+    "The teacher bought some paint the children."
+   ],
+   "answer": 1,
+   "rule": "Without 'for', the indirect object comes first: bought <b>the children</b> (indirect) <b>some paint</b> (direct)."
+  },
+  {
+   "qid": "c7-15-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Knowledge is likened with a lamp.",
+    "Knowledge is liken to a lamp.",
+    "Knowledge is likened to a lamp."
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>to be likened to</b> something (compared to it)."
+  },
+  {
+   "qid": "c7-15-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "phrases",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "dancers",
+    "were",
+    "escort",
+    "to",
+    "the",
+    "stage",
+    "by",
+    "the",
+    "Head",
+    "Girl."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "escorted",
+      "escorting",
+      "escorts"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>were + past participle</b>: <b>were escorted</b>."
+  },
+  {
+   "qid": "c7-15-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Taal",
+    "Kacheri",
+    "was",
+    "enjoy",
+    "by",
+    "everyone",
+    "in",
+    "the",
+    "hall."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "enjoying",
+      "enjoyed",
+      "enjoys"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: <b>was enjoyed</b>."
+  },
+  {
+   "qid": "c7-15-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "Fill in the gap.",
+   "before": "I would like",
+   "after": "our Principal to address the audience.",
+   "options": [
+    "to request",
+    "requesting",
+    "request"
+   ],
+   "answer": 0,
+   "rule": "<b>would like</b> is followed by <b>to + verb</b>: I would like <b>to request</b> ..."
+  },
+  {
+   "qid": "c7-15-26",
+   "type": "build",
+   "level": 3,
+   "topic": "objects",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "Chief",
+    "Guest",
+    "gave",
+    "Anagha",
+    "a",
+    "medal."
+   ],
+   "alts": [],
+   "rule": "Verb + indirect object (<b>Anagha</b>) + direct object (<b>a medal</b>)."
+  },
+  {
+   "qid": "c7-15-27",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "school",
+    "song",
+    "was",
+    "sung",
+    "by",
+    "Anagha."
+   ],
+   "alts": [],
+   "rule": "Passive: <b>was sung</b> (sing - sang - sung) + <b>by</b> + the doer."
+  },
+  {
+   "qid": "c7-15-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Guest",
+     "Excuse me, where should I sit?"
+    ]
+   ],
+   "options": [
+    "Please takes a seat in the front row.",
+    "Please take a seat in the front row.",
+    "Please taking a seat in the front row."
+   ],
+   "answer": 1,
+   "rule": "A polite instruction: <b>Please</b> + base verb: <b>Please take a seat</b>."
+  },
+  {
+   "qid": "c7-15-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "phrases",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How did you feel just before the results?"
+    ]
+   ],
+   "options": [
+    "I had butterflies in my stomach.",
+    "I had butterflies in mine stomach.",
+    "I was having butterflies in my stomachs."
+   ],
+   "answer": 0,
+   "rule": "The phrase is <b>to have butterflies in my stomach</b> - 'my' before a noun, and one stomach."
+  },
+  {
+   "qid": "c7-15-30",
+   "type": "change",
+   "level": 3,
+   "topic": "objects",
+   "prompt": "Rewrite using 'for'.",
+   "source": "Mother made us some laddoos.",
+   "options": [
+    "Mother made some laddoos for we.",
+    "Mother made some laddoos to us.",
+    "Mother made some laddoos for us."
+   ],
+   "answer": 2,
+   "rule": "Direct object first, then <b>for</b> + object pronoun: some laddoos <b>for us</b>."
+  },
+  {
+   "qid": "c7-15-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The paintings has been displayed in the hall.",
+    "The paintings have been display in the hall.",
+    "The paintings have been displayed in the hall."
+   ],
+   "answer": 2,
+   "rule": "Present perfect passive: <b>have been + past participle</b>; 'paintings' is plural, so <b>have</b>."
+  },
+  {
+   "qid": "c7-15-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Pick the correct suggestion with a question tag.",
+   "options": [
+    "Let's start the programme, shall we?",
+    "Let's start the programme, will we?",
+    "Let's starts the programme, shall we?"
+   ],
+   "answer": 0,
+   "rule": "<b>Let's</b> + base verb, and the tag is always <b>shall we?</b>"
+  },
+  {
+   "qid": "c7-15-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "objects",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "our",
+    "grandmother",
+    "sent",
+    "my",
+    "brother",
+    "and",
+    "I",
+    "a",
+    "long",
+    "letter."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "myself",
+      "me",
+      "mine"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both people are the indirect object, so use the object form: my brother and <b>me</b>."
+  },
+  {
+   "qid": "c7-15-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Shubhada",
+    "was",
+    "give",
+    "the",
+    "trophy",
+    "by",
+    "the",
+    "Principal",
+    "for",
+    "her",
+    "compering."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "gave",
+      "given",
+      "giving"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: give - gave - <b>given</b>."
+  },
+  {
+   "qid": "c7-15-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "phrases",
+   "prompt": "Fill in the gap.",
+   "before": "Before we draw",
+   "after": "curtain, let us stand for the National Anthem.",
+   "options": [
+    "an",
+    "these",
+    "the"
+   ],
+   "answer": 2,
+   "rule": "The phrase is <b>to draw the curtain</b> (to end the programme)."
+  },
+  {
+   "qid": "c7-15-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "objects",
+   "prompt": "Fill in the gap.",
+   "before": "Thank you for inviting my parents and",
+   "after": ".",
+   "options": [
+    "I",
+    "mine",
+    "me"
+   ],
+   "answer": 2,
+   "rule": "After 'inviting', both people are objects, so use <b>me</b>: my parents and <b>me</b>."
+  },
+  {
+   "qid": "c7-15-37",
+   "type": "build",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "to",
+    "see",
+    "the",
+    "exhibition?"
+   ],
+   "alts": [],
+   "rule": "A polite offer: <b>Would you like to</b> + base verb ...?"
+  },
+  {
+   "qid": "c7-15-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Has the stage been decorated?"
+    ]
+   ],
+   "options": [
+    "Yes, it has decorated with flowers.",
+    "Yes, it has been decorated with flowers.",
+    "Yes, it have been decorated with flowers."
+   ],
+   "answer": 1,
+   "rule": "Present perfect passive: <b>has been + past participle</b>: it <b>has been decorated</b>."
+  },
+  {
+   "qid": "c7-15-39",
+   "type": "change",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Change into reported speech.",
+   "source": "The compere said to the audience, \"Please take your seats.\"",
+   "options": [
+    "The compere requested the audience to took their seats.",
+    "The compere requested the audience take your seats.",
+    "The compere requested the audience to take their seats."
+   ],
+   "answer": 2,
+   "rule": "A polite command becomes <b>requested + person + to + base verb</b>; 'your' becomes <b>their</b>."
+  },
+  {
+   "qid": "c7-15-40",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The prizes were given away by the Chief Guest.",
+   "options": [
+    "The Chief Guest gave away the prizes.",
+    "The Chief Guest gives away the prizes.",
+    "The Chief Guest given away the prizes."
+   ],
+   "answer": 0,
+   "rule": "The doer becomes the subject; 'were given' is past, so use <b>gave away</b>."
+  },
+  {
+   "qid": "c7-15-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "objects",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our principal handed each of us a certificate.",
+    "Our principal handed each of we a certificate.",
+    "Our principal handed each of us certificate."
+   ],
+   "answer": 0,
+   "rule": "Indirect object <b>each of us</b> (object form) + direct object <b>a certificate</b> (with its article)."
+  },
+  {
+   "qid": "c7-15-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The winners will be announced after the play.",
+    "The winners will announced after the play.",
+    "The winners will be announce after the play."
+   ],
+   "answer": 0,
+   "rule": "Future passive: <b>will be + past participle</b>: <b>will be announced</b>."
+  },
+  {
+   "qid": "c7-15-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "would",
+    "like",
+    "to",
+    "requesting",
+    "the",
+    "Chief",
+    "Guest",
+    "to",
+    "light",
+    "the",
+    "lamp."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "requested",
+      "request",
+      "requests"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>would like to</b> + base verb: I would like <b>to request</b> ..."
+  },
+  {
+   "qid": "c7-15-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "speech,",
+    "the",
+    "vote",
+    "of",
+    "thanks",
+    "was",
+    "gave",
+    "by",
+    "Ms",
+    "Shilpa",
+    "Sanghani."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "giving",
+      "gives",
+      "given"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: <b>was given</b>."
+  },
+  {
+   "qid": "c7-15-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "objects",
+   "prompt": "Fill in the gap.",
+   "before": "The Chief Guest wished",
+   "after": "all the very best for the exams.",
+   "options": [
+    "we",
+    "us",
+    "our"
+   ],
+   "answer": 1,
+   "rule": "The indirect object is an object pronoun: wished <b>us</b> all the very best."
+  },
+  {
+   "qid": "c7-15-46",
+   "type": "build",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "The",
+    "winners",
+    "will",
+    "be",
+    "given",
+    "their",
+    "prizes",
+    "after",
+    "lunch."
+   ],
+   "alts": [],
+   "rule": "Future passive with two objects: <b>will be given</b> + <b>their prizes</b>."
+  },
+  {
+   "qid": "c7-15-47",
+   "type": "change",
+   "level": 5,
+   "topic": "objects",
+   "prompt": "Rewrite using 'to'.",
+   "source": "Mrs Joshi taught our class a new song.",
+   "options": [
+    "Mrs Joshi teached a new song to our class.",
+    "Mrs Joshi taught a new songs to our class.",
+    "Mrs Joshi taught a new song to our class."
+   ],
+   "answer": 2,
+   "rule": "Direct object first, then <b>to</b> + indirect object: taught <b>a new song to our class</b>."
+  },
+  {
+   "qid": "c7-15-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "Shall I make some tea for your friends?"
+    ]
+   ],
+   "options": [
+    "Yes, please. That will being very kind of you.",
+    "Yes, please. That would be very kindly of you.",
+    "Yes, please. That would be very kind of you."
+   ],
+   "answer": 2,
+   "rule": "Accept an offer with <b>That would be very kind of you</b> - would + be + adjective."
+  },
+  {
+   "qid": "c7-15-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "objects",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Did you send Mr Rao our team photos?"
+    ]
+   ],
+   "options": [
+    "Yes, I sent he the photos this morning.",
+    "Yes, I sent him the photos this morning.",
+    "Yes, I send him the photos this morning."
+   ],
+   "answer": 1,
+   "rule": "Past (<b>sent</b>) + indirect object pronoun (<b>him</b>) + direct object (<b>the photos</b>)."
+  },
+  {
+   "qid": "c7-15-50",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The Chief Guest will release the book.",
+   "options": [
+    "The book will be released by the Chief Guest.",
+    "The book will released by the Chief Guest.",
+    "The book would be release by the Chief Guest."
+   ],
+   "answer": 0,
+   "rule": "Future active -> <b>will be + past participle</b>: <b>will be released</b>."
+  }
+ ]
+}

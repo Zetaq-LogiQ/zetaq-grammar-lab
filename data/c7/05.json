@@ -1,0 +1,1001 @@
+{
+ "class": 7,
+ "id": "05",
+ "title": "Seeing Eyes Helping Hands",
+ "topics": [
+  {
+   "tag": "polite_requests",
+   "name": "Polite requests and offers (could, may, would, shall)"
+  },
+  {
+   "tag": "future_forms",
+   "name": "Talking about the future (will, going to, present continuous)"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice (simple present and past)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Passing on a message (reported speech)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-05-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Which polite request is correct?",
+   "options": [
+    "May I borrows your pen, please?",
+    "May I borrow your pen, please?",
+    "May I borrowed your pen, please?"
+   ],
+   "answer": 1,
+   "rule": "After <b>may</b>, use the base form of the verb: <b>May I borrow ...?</b>"
+  },
+  {
+   "qid": "c7-05-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Parents is invited to the function.",
+    "Parents are invite to the function.",
+    "Parents are invited to the function."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>be + past participle</b>. Plural <b>parents</b> takes <b>are invited</b>."
+  },
+  {
+   "qid": "c7-05-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "future_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ms",
+    "Naik",
+    "is",
+    "going",
+    "to",
+    "inaugurates",
+    "the",
+    "project",
+    "on",
+    "Sunday."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "inaugurate",
+      "inaugurated",
+      "inaugurating"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Going to</b> is followed by the base form of the verb: <b>going to inaugurate</b>."
+  },
+  {
+   "qid": "c7-05-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "are",
+    "coming",
+    "to",
+    "the",
+    "function,",
+    "isn't",
+    "you?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "aren't",
+      "don't",
+      "won't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The tag repeats the helping verb: <b>You are ...</b> → <b>aren't you?</b>"
+  },
+  {
+   "qid": "c7-05-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you please open the hall door?",
+   "options": [
+    "Shall",
+    "Are",
+    "Could"
+   ],
+   "answer": 2,
+   "rule": "<b>Could you please + base verb ...?</b> is a polite request. <b>Shall you</b> and <b>Are you open</b> are wrong here."
+  },
+  {
+   "qid": "c7-05-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "future_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The function",
+   "after": "start at ten in the morning.",
+   "options": [
+    "is",
+    "will",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "<b>Will + base verb</b> talks about the future: <b>will start</b>."
+  },
+  {
+   "qid": "c7-05-07",
+   "type": "build",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "May",
+    "I",
+    "come",
+    "in,",
+    "ma'am?"
+   ],
+   "alts": [],
+   "rule": "A polite request for permission: <b>May I + base verb ...?</b>"
+  },
+  {
+   "qid": "c7-05-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "future_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What are you going to do on Sunday?"
+    ]
+   ],
+   "options": [
+    "I going to attend a function at school.",
+    "I am go to attend a function at school.",
+    "I am going to attend a function at school."
+   ],
+   "answer": 2,
+   "rule": "Future plan: <b>am/is/are + going to + base verb</b> = <b>I am going to attend</b>."
+  },
+  {
+   "qid": "c7-05-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nitin",
+     "The function starts at ten, doesn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it do. Don't be late.",
+    "Yes, it does. Don't be late.",
+    "Yes, it done. Don't be late."
+   ],
+   "answer": 1,
+   "rule": "A short answer repeats the helping verb of the tag: <b>doesn't it?</b> → <b>Yes, it does.</b>"
+  },
+  {
+   "qid": "c7-05-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The students made copies.",
+   "options": [
+    "Copies was made by the students.",
+    "Copies were made by the students.",
+    "Copies were make by the students."
+   ],
+   "answer": 1,
+   "rule": "Simple past passive: <b>was/were + past participle</b>. Plural <b>copies</b> takes <b>were made</b>."
+  },
+  {
+   "qid": "c7-05-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Ms Naik will inaugurate the project, doesn't she?",
+    "Ms Naik will inaugurate the project, isn't she?",
+    "Ms Naik will inaugurate the project, won't she?"
+   ],
+   "answer": 2,
+   "rule": "<b>Will</b> in the statement → <b>won't</b> in the tag."
+  },
+  {
+   "qid": "c7-05-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sameer told that he was busy with the project.",
+    "Sameer said me that he was busy with the project.",
+    "Sameer told me that he was busy with the project."
+   ],
+   "answer": 2,
+   "rule": "<b>Told</b> needs a person after it (<b>told me</b>); <b>said</b> does not (<b>said that</b>)."
+  },
+  {
+   "qid": "c7-05-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "invitations",
+    "was",
+    "sent",
+    "to",
+    "the",
+    "guests",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Plural <b>invitations</b> + past time takes <b>were</b>: <b>were sent</b>."
+  },
+  {
+   "qid": "c7-05-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "future_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "are",
+    "going",
+    "to",
+    "visiting",
+    "an",
+    "old",
+    "age",
+    "home",
+    "next",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "visited",
+      "visit",
+      "visits"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Going to</b> is followed by the base form: <b>going to visit</b>."
+  },
+  {
+   "qid": "c7-05-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I help you with the chairs, ma'am?",
+   "options": [
+    "Shall",
+    "Does",
+    "Am"
+   ],
+   "answer": 0,
+   "rule": "To offer help, use <b>Shall I ...?</b> with the base verb."
+  },
+  {
+   "qid": "c7-05-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Sameer told his mother that the function",
+   "after": "on Sunday.",
+   "options": [
+    "was",
+    "were",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "After past <b>told</b>, the reported verb moves back: <b>was</b>. <b>Function</b> is singular."
+  },
+  {
+   "qid": "c7-05-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "invitation",
+    "was",
+    "written",
+    "by",
+    "her."
+   ],
+   "alts": [],
+   "rule": "Passive: <b>was + past participle + by</b> + doer (<b>by her</b>)."
+  },
+  {
+   "qid": "c7-05-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mummy",
+     "You are going to take part in the project, aren't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I am, Mummy.",
+    "Yes, I do, Mummy.",
+    "Yes, I are, Mummy."
+   ],
+   "answer": 0,
+   "rule": "The question uses <b>are you</b>, so the short answer with <b>I</b> is <b>Yes, I am</b>."
+  },
+  {
+   "qid": "c7-05-19",
+   "type": "change",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Add a question tag.",
+   "source": "The project is important.",
+   "options": [
+    "The project is important, isn't it?",
+    "The project is important, is it?",
+    "The project is important, doesn't it?"
+   ],
+   "answer": 0,
+   "rule": "Positive statement with <b>is</b> → negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-05-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Sameer said, \"I am happy.\"",
+   "options": [
+    "Sameer said that I was happy.",
+    "Sameer said that he was happy.",
+    "Sameer said that he were happy."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> → <b>he</b> (Sameer), and <b>am</b> → <b>was</b> after past <b>said</b>."
+  },
+  {
+   "qid": "c7-05-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "future_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This Sunday is going to be a busy day.",
+    "This Sunday are going to be a busy day.",
+    "This Sunday is going be a busy day."
+   ],
+   "answer": 0,
+   "rule": "<b>Sunday</b> is singular: <b>is going to + base verb</b> = <b>is going to be</b>."
+  },
+  {
+   "qid": "c7-05-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct passive sentence.",
+   "options": [
+    "The notice were put up on the board yesterday.",
+    "The notice is put up on the board yesterday.",
+    "The notice was put up on the board yesterday."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> needs the past passive; singular <b>notice</b> takes <b>was put up</b>."
+  },
+  {
+   "qid": "c7-05-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nitin",
+    "and",
+    "Komal",
+    "sent",
+    "the",
+    "invitations,",
+    "doesn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "don't",
+      "didn't",
+      "wasn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The verb <b>sent</b> is simple past, so the tag uses <b>did</b>: <b>didn't they?</b>"
+  },
+  {
+   "qid": "c7-05-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Ajinkya",
+    "asked",
+    "the",
+    "students",
+    "to",
+    "told",
+    "their",
+    "parents",
+    "about",
+    "the",
+    "function."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "tell",
+      "telling",
+      "tells"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A reported request uses <b>asked + person + to + base verb</b>: <b>asked the students to tell</b>."
+  },
+  {
+   "qid": "c7-05-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "like your paper to cover the function.",
+   "options": [
+    "are",
+    "have",
+    "would"
+   ],
+   "answer": 2,
+   "rule": "<b>Would like</b> is the polite way to say <b>want</b>."
+  },
+  {
+   "qid": "c7-05-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The project",
+   "after": "inaugurated by Ms Naik last Sunday.",
+   "options": [
+    "is",
+    "was",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "<b>Last Sunday</b> is past and <b>project</b> is singular: <b>was inaugurated</b>."
+  },
+  {
+   "qid": "c7-05-27",
+   "type": "build",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "send",
+    "us",
+    "the",
+    "invitation?"
+   ],
+   "alts": [],
+   "rule": "Polite request: <b>Could you please + base verb ...?</b>"
+  },
+  {
+   "qid": "c7-05-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What did your teacher say about Sunday?"
+    ]
+   ],
+   "options": [
+    "She said that the function will started at ten.",
+    "She said me that the function would start at ten.",
+    "She said that the function would start at ten."
+   ],
+   "answer": 2,
+   "rule": "After past <b>said</b>, <b>will</b> becomes <b>would</b> + base verb. Never <b>said me</b>."
+  },
+  {
+   "qid": "c7-05-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "future_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Komal",
+     "Are you free this Saturday?"
+    ]
+   ],
+   "options": [
+    "No, I visiting my grandparents in Pune.",
+    "No, I am visiting my grandparents in Pune.",
+    "No, I am visit my grandparents in Pune."
+   ],
+   "answer": 1,
+   "rule": "A fixed future plan can use the present continuous: <b>I am visiting</b>."
+  },
+  {
+   "qid": "c7-05-30",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The Principal prepared the invitation.",
+   "options": [
+    "The invitation was prepared by the Principal.",
+    "The invitation is prepared by the Principal.",
+    "The invitation was prepare by the Principal."
+   ],
+   "answer": 0,
+   "rule": "<b>Prepared</b> is simple past, so the passive is <b>was + past participle</b>: <b>was prepared</b>."
+  },
+  {
+   "qid": "c7-05-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "future_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Daddy and I can't both go, but one of us will comes with you.",
+    "Daddy and I can't both goes, but one of us will come with you.",
+    "Daddy and I can't both go, but one of us will come with you."
+   ],
+   "answer": 2,
+   "rule": "After <b>can't</b> and <b>will</b>, always use the base form: <b>go</b>, <b>come</b>."
+  },
+  {
+   "qid": "c7-05-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You have sent the invitation, haven't you?",
+    "You have sent the invitation, didn't you?",
+    "You have sent the invitation, hasn't you?"
+   ],
+   "answer": 0,
+   "rule": "Present perfect <b>have sent</b> → tag with <b>have</b>: <b>haven't you?</b>"
+  },
+  {
+   "qid": "c7-05-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Can",
+    "you",
+    "please",
+    "lending",
+    "me",
+    "your",
+    "pen",
+    "for",
+    "the",
+    "test?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lent",
+      "lend",
+      "lends"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>can</b>, use the base form of the verb: <b>Can you please lend ...?</b>"
+  },
+  {
+   "qid": "c7-05-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Students",
+    "of",
+    "Std",
+    "VII",
+    "and",
+    "their",
+    "parents",
+    "is",
+    "invited",
+    "to",
+    "the",
+    "function."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two plural subjects joined by <b>and</b> take a plural verb: <b>are invited</b>."
+  },
+  {
+   "qid": "c7-05-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Ms Naik is the President of Sahayak Samaj,",
+   "after": "she?",
+   "options": [
+    "doesn't",
+    "isn't",
+    "wasn't"
+   ],
+   "answer": 1,
+   "rule": "Statement with <b>is</b> → tag <b>isn't she?</b> (same tense, same helping verb)."
+  },
+  {
+   "qid": "c7-05-36",
+   "type": "build",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "will",
+    "come",
+    "to",
+    "the",
+    "function,",
+    "won't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive statement with <b>will</b> → negative tag <b>won't you?</b>"
+  },
+  {
+   "qid": "c7-05-37",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Report what the editor said.",
+   "answer": [
+    "The",
+    "editor",
+    "said",
+    "that",
+    "he",
+    "would",
+    "cover",
+    "the",
+    "function."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + <b>would</b> (for will) + base verb."
+  },
+  {
+   "qid": "c7-05-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply on the phone.",
+   "chat": [
+    [
+     "Receptionist",
+     "Hello, Girgaon Times."
+    ]
+   ],
+   "options": [
+    "Good morning. Could I speaking to the editor, please?",
+    "Good morning. Could I spoke to the editor, please?",
+    "Good morning. Could I speak to the editor, please?"
+   ],
+   "answer": 2,
+   "rule": "<b>Could I + base verb</b> is a polite phone request: <b>Could I speak to ...?</b>"
+  },
+  {
+   "qid": "c7-05-39",
+   "type": "change",
+   "level": 4,
+   "topic": "future_forms",
+   "prompt": "Change into a question.",
+   "source": "Ms Naik will inaugurate the project.",
+   "options": [
+    "Will Ms Naik inaugurates the project?",
+    "Does Ms Naik will inaugurate the project?",
+    "Will Ms Naik inaugurate the project?"
+   ],
+   "answer": 2,
+   "rule": "Put <b>will</b> before the subject and keep the base verb: <b>Will Ms Naik inaugurate ...?</b>"
+  },
+  {
+   "qid": "c7-05-40",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The teachers invite the parents.",
+   "options": [
+    "The parents were invited by the teachers.",
+    "The parents are invite by the teachers.",
+    "The parents are invited by the teachers."
+   ],
+   "answer": 2,
+   "rule": "Simple present passive: <b>am/is/are + past participle</b> = <b>are invited</b>."
+  },
+  {
+   "qid": "c7-05-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The editor said that he had made a note of the date.",
+    "The editor said that he had make a note of the date.",
+    "The editor said me that he had made a note of the date."
+   ],
+   "answer": 0,
+   "rule": "<b>Have made</b> becomes <b>had made</b> after past <b>said</b>; <b>said</b> takes no person after it."
+  },
+  {
+   "qid": "c7-05-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "There is a function on Sunday, isn't it?",
+    "There is a function on Sunday, is there?",
+    "There is a function on Sunday, isn't there?"
+   ],
+   "answer": 2,
+   "rule": "A sentence starting <b>There is</b> keeps <b>there</b> in the tag: <b>isn't there?</b>"
+  },
+  {
+   "qid": "c7-05-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "project",
+    "is",
+    "going",
+    "to",
+    "be",
+    "inaugurate",
+    "by",
+    "a",
+    "former",
+    "principal."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "inaugurated",
+      "inaugurating",
+      "inaugurates"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Every passive needs <b>be + past participle</b>: <b>to be inaugurated</b>."
+  },
+  {
+   "qid": "c7-05-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Ajinkya",
+    "said",
+    "the",
+    "students",
+    "that",
+    "the",
+    "new",
+    "project",
+    "was",
+    "very",
+    "important."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "spoke",
+      "told",
+      "talked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>told</b> when the listener follows (<b>told the students that</b>); <b>said</b> takes no listener."
+  },
+  {
+   "qid": "c7-05-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "Would you mind",
+   "after": "the chairs in the hall?",
+   "options": [
+    "to arrange",
+    "arranging",
+    "arrange"
+   ],
+   "answer": 1,
+   "rule": "<b>Would you mind</b> is followed by the <b>-ing</b> form: <b>mind arranging</b>."
+  },
+  {
+   "qid": "c7-05-46",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "function",
+    "will",
+    "be",
+    "presided",
+    "over",
+    "by",
+    "Dr",
+    "Chaudhary."
+   ],
+   "alts": [],
+   "rule": "Future passive: <b>will be + past participle</b>; the phrasal verb keeps <b>over</b>: <b>presided over by</b>."
+  },
+  {
+   "qid": "c7-05-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Father",
+     "What did Mr Ajinkya ask you to do?"
+    ]
+   ],
+   "options": [
+    "He asked us to tell our parents about the project.",
+    "He asked us that tell our parents about the project.",
+    "He asked to us tell our parents about the project."
+   ],
+   "answer": 0,
+   "rule": "Reported request: <b>asked + person + to + base verb</b> = <b>asked us to tell</b>."
+  },
+  {
+   "qid": "c7-05-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "future_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What are your plans for the summer holidays?"
+    ]
+   ],
+   "options": [
+    "We going to visit Goa, and I will learn swimming there.",
+    "We are going to visit Goa, and I will learning swimming there.",
+    "We are going to visit Goa, and I will learn swimming there."
+   ],
+   "answer": 2,
+   "rule": "<b>Are going to + base verb</b> and <b>will + base verb</b>: <b>visit</b>, <b>learn</b>."
+  },
+  {
+   "qid": "c7-05-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Mummy said to me, \"I will come with you.\"",
+   "options": [
+    "Mummy told me that I would come with her.",
+    "Mummy told me that she would come with me.",
+    "Mummy told me that she would came with me."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> → <b>she</b>, <b>you</b> → <b>me</b>, <b>will come</b> → <b>would come</b>."
+  },
+  {
+   "qid": "c7-05-50",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into active voice.",
+   "source": "The invitations were sent by the student secretaries.",
+   "options": [
+    "The student secretaries were sent the invitations.",
+    "The student secretaries sent the invitations.",
+    "The student secretaries send the invitations."
+   ],
+   "answer": 1,
+   "rule": "The doer after <b>by</b> becomes the subject; keep the simple past: <b>sent</b>."
+  }
+ ]
+}

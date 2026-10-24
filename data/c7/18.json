@@ -1,0 +1,1006 @@
+{
+ "class": 7,
+ "id": "18",
+ "title": "News Analysis",
+ "topics": [
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present, past and future)"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect tense"
+  },
+  {
+   "tag": "comparison",
+   "name": "Comparatives and superlatives"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-18-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Pens will be provide in the hall.",
+    "Pens will be provided in the hall.",
+    "Pens will provided in the hall."
+   ],
+   "answer": 1,
+   "rule": "Future passive = <b>will be + past participle</b>: <b>will be provided</b>."
+  },
+  {
+   "qid": "c7-18-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The institute has issued a list of rules.",
+    "The institute have issued a list of rules.",
+    "The institute has issue a list of rules."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>has/have + past participle</b>. One institute takes <b>has issued</b>."
+  },
+  {
+   "qid": "c7-18-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hundreds",
+    "of",
+    "people",
+    "has",
+    "gathered",
+    "at",
+    "Ralewadi",
+    "since",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "was",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Hundreds of people</b> is plural, and <b>since</b> needs the present perfect: <b>have gathered</b>."
+  },
+  {
+   "qid": "c7-18-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Boots",
+    "and",
+    "socks",
+    "will",
+    "not",
+    "be",
+    "allow",
+    "inside",
+    "the",
+    "hall."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "allowing",
+      "allowed",
+      "allows"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>will not be allowed</b>."
+  },
+  {
+   "qid": "c7-18-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Climate change is one of the",
+   "after": "problems today.",
+   "options": [
+    "biggest",
+    "bigger",
+    "most big"
+   ],
+   "answer": 0,
+   "rule": "<b>one of the</b> + superlative: <b>one of the biggest problems</b>."
+  },
+  {
+   "qid": "c7-18-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Ritika said that she",
+   "after": "tired of acting.",
+   "options": [
+    "were",
+    "be",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "After <b>said that</b>, 'am' moves back to <b>was</b>. <b>She</b> takes <b>was</b>, not 'were'."
+  },
+  {
+   "qid": "c7-18-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Have you read today's newspaper?"
+    ]
+   ],
+   "options": [
+    "Yes, I have read it already.",
+    "Yes, I have readed it already.",
+    "Yes, I has read it already."
+   ],
+   "answer": 0,
+   "rule": "<b>I have + past participle</b>. The past participle of read is <b>read</b>."
+  },
+  {
+   "qid": "c7-18-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Can we take our own pens into the hall?"
+    ]
+   ],
+   "options": [
+    "No, pens are give by the invigilators.",
+    "No, pens are given by the invigilators.",
+    "No, pens is given by the invigilators."
+   ],
+   "answer": 1,
+   "rule": "Present passive: <b>are + past participle</b>. Plural <b>pens</b> takes <b>are given</b>."
+  },
+  {
+   "qid": "c7-18-09",
+   "type": "build",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ritika",
+    "has",
+    "finished",
+    "her",
+    "last",
+    "film."
+   ],
+   "alts": [],
+   "rule": "Present perfect: <b>has + past participle</b> = <b>has finished</b>."
+  },
+  {
+   "qid": "c7-18-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Ritika said, \"I am tired.\"",
+   "options": [
+    "Ritika said that she was tired.",
+    "Ritika said that I was tired.",
+    "Ritika said that she were tired."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>she</b>, and <b>am</b> moves back to <b>was</b>."
+  },
+  {
+   "qid": "c7-18-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Earplugs were banned in the exam hall.",
+    "Earplugs was banned in the exam hall.",
+    "Earplugs were ban in the exam hall."
+   ],
+   "answer": 0,
+   "rule": "Past passive: plural <b>earplugs</b> + <b>were</b> + past participle <b>banned</b>."
+  },
+  {
+   "qid": "c7-18-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hawking said that the planet need protection.",
+    "Hawking said that the planet needed protection.",
+    "Hawking said that the planet needing protection."
+   ],
+   "answer": 1,
+   "rule": "In reported speech after <b>said</b>, the verb moves back: <b>needs</b> becomes <b>needed</b>."
+  },
+  {
+   "qid": "c7-18-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "told",
+    "me",
+    "that",
+    "he",
+    "will",
+    "start",
+    "a",
+    "school",
+    "bulletin",
+    "the",
+    "next",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "willing",
+      "wanting",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>told</b> (past) and with <b>the next day</b>, <b>will</b> changes to <b>would</b> in reported speech."
+  },
+  {
+   "qid": "c7-18-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "problems,",
+    "climate",
+    "change",
+    "is",
+    "the",
+    "more",
+    "serious",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Of all</b> compares more than two, so use the superlative: <b>the most serious</b>."
+  },
+  {
+   "qid": "c7-18-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The news",
+   "after": "in all the papers yesterday.",
+   "options": [
+    "was printed",
+    "is printed",
+    "printed"
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> needs the past; the news did not print itself, so use the passive <b>was printed</b>."
+  },
+  {
+   "qid": "c7-18-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The number of patients",
+   "after": "increased in the last few weeks.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>the number</b> (singular), so use <b>has increased</b>."
+  },
+  {
+   "qid": "c7-18-17",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The invigilators provide the pens.",
+   "options": [
+    "The pens were provided by the invigilators.",
+    "The pens are provided by the invigilators.",
+    "The pens are provide by the invigilators."
+   ],
+   "answer": 1,
+   "rule": "Simple present passive: <b>are + past participle</b>. Keep the present tense: <b>are provided</b>."
+  },
+  {
+   "qid": "c7-18-18",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Miribaba said, \"I sell the powder.\"",
+   "options": [
+    "Miribaba said that I sold the powder.",
+    "Miribaba said that he selled the powder.",
+    "Miribaba said that he sold the powder."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b>; <b>sell</b> moves back to <b>sold</b> (not 'selled')."
+  },
+  {
+   "qid": "c7-18-19",
+   "type": "build",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "news",
+    "was",
+    "read",
+    "on",
+    "the",
+    "radio."
+   ],
+   "alts": [],
+   "rule": "Past passive: <b>was + past participle</b> = <b>was read</b>."
+  },
+  {
+   "qid": "c7-18-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did the reporter say about the queue?"
+    ]
+   ],
+   "options": [
+    "She said that it were very long.",
+    "She said that it is very longer.",
+    "She said that it was very long."
+   ],
+   "answer": 2,
+   "rule": "Reported statement: <b>is</b> becomes <b>was</b>; <b>it</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c7-18-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Closed shoes must not be wear in the hall.",
+    "Closed shoes must not be worn in the hall.",
+    "Closed shoes must not been worn in the hall."
+   ],
+   "answer": 1,
+   "rule": "Modal passive: <b>must not be + past participle</b> = <b>must not be worn</b>."
+  },
+  {
+   "qid": "c7-18-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Ritika signed the film last month.",
+    "Ritika has signed the film last month.",
+    "Ritika has sign the film last month."
+   ],
+   "answer": 0,
+   "rule": "A finished past time like <b>last month</b> takes the simple past, not the present perfect: <b>signed</b>."
+  },
+  {
+   "qid": "c7-18-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "scientists",
+    "have",
+    "wrote",
+    "about",
+    "climate",
+    "change",
+    "since",
+    "2000."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "written",
+      "writing",
+      "writes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect = <b>have + past participle</b>: <b>have written</b> (not 'wrote')."
+  },
+  {
+   "qid": "c7-18-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "pens",
+    "were",
+    "giving",
+    "to",
+    "the",
+    "candidates",
+    "by",
+    "the",
+    "invigilators."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "gave",
+      "given",
+      "gives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The pens receive the action (<b>by</b> the invigilators), so use the passive: <b>were given</b>."
+  },
+  {
+   "qid": "c7-18-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The reporter told us that she",
+   "after": "visited Ralewadi the day before.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "<b>The day before</b> shows an earlier past in reported speech: <b>had visited</b>."
+  },
+  {
+   "qid": "c7-18-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ritika",
+    "told",
+    "the",
+    "reporters",
+    "that",
+    "she",
+    "was",
+    "quitting."
+   ],
+   "alts": [],
+   "rule": "<b>told + person + that</b> + backshifted verb: she <b>was quitting</b>."
+  },
+  {
+   "qid": "c7-18-27",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "It",
+    "is",
+    "the",
+    "most",
+    "dangerous",
+    "time",
+    "in",
+    "history."
+   ],
+   "alts": [],
+   "rule": "Long adjectives form the superlative with <b>the most</b>: <b>the most dangerous</b>."
+  },
+  {
+   "qid": "c7-18-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Is Kabir still at the exam centre?"
+    ]
+   ],
+   "options": [
+    "No, he has just leave.",
+    "No, he have just left.",
+    "No, he has just left."
+   ],
+   "answer": 2,
+   "rule": "<b>just</b> often goes with the present perfect: <b>he has just left</b>."
+  },
+  {
+   "qid": "c7-18-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ajay",
+     "Which is faster for news, TV or the newspaper?"
+    ]
+   ],
+   "options": [
+    "TV is the faster than the newspaper.",
+    "TV is fastest than the newspaper.",
+    "TV is faster than the newspaper."
+   ],
+   "answer": 2,
+   "rule": "Two things compared: comparative + <b>than</b>, with no 'the': <b>faster than</b>."
+  },
+  {
+   "qid": "c7-18-30",
+   "type": "change",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Change into a negative sentence.",
+   "source": "The institute has issued the rules.",
+   "options": [
+    "The institute has not issued the rules.",
+    "The institute has not issue the rules.",
+    "The institute did not issued the rules."
+   ],
+   "answer": 0,
+   "rule": "Present perfect negative: <b>has not + past participle</b> = <b>has not issued</b>."
+  },
+  {
+   "qid": "c7-18-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An entrance test will be held in May.",
+    "A entrance test will be held in May.",
+    "An entrance test will be hold in May."
+   ],
+   "answer": 0,
+   "rule": "<b>An</b> before a vowel sound (entrance); future passive <b>will be held</b>."
+  },
+  {
+   "qid": "c7-18-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct question tag.",
+   "options": [
+    "The rules have changed, didn't they?",
+    "The rules have changed, haven't they?",
+    "The rules have changed, haven't it?"
+   ],
+   "answer": 1,
+   "rule": "The tag uses the helper <b>have</b> and a matching pronoun: <b>haven't they?</b>"
+  },
+  {
+   "qid": "c7-18-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "queue",
+    "at",
+    "Ralewadi",
+    "was",
+    "long",
+    "than",
+    "the",
+    "queue",
+    "at",
+    "the",
+    "hospital."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "longer",
+      "longest",
+      "length"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>than</b> needs the comparative: <b>longer than</b>."
+  },
+  {
+   "qid": "c7-18-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "packet",
+    "are",
+    "blessed",
+    "by",
+    "Miribaba",
+    "himself."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Each</b> + singular noun takes a singular verb: <b>each packet is blessed</b>."
+  },
+  {
+   "qid": "c7-18-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Ritika has acted in films",
+   "after": "ten years.",
+   "options": [
+    "since",
+    "for",
+    "from"
+   ],
+   "answer": 1,
+   "rule": "A length of time (<b>ten years</b>) takes <b>for</b> with the present perfect."
+  },
+  {
+   "qid": "c7-18-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The invigilator said that we",
+   "after": "not use our phones.",
+   "options": [
+    "can't",
+    "cannot",
+    "could"
+   ],
+   "answer": 2,
+   "rule": "In reported speech <b>can</b> moves back to <b>could</b>: <b>could not use</b>. 'can't not' is a double negative."
+  },
+  {
+   "qid": "c7-18-37",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "A journalist interviewed Ritika.",
+   "options": [
+    "Ritika was interviewed by a journalist.",
+    "Ritika is interviewed by a journalist.",
+    "Ritika was interview by a journalist."
+   ],
+   "answer": 0,
+   "rule": "Simple past active becomes <b>was + past participle</b>: <b>was interviewed</b>."
+  },
+  {
+   "qid": "c7-18-38",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "Radio is cheaper than TV.",
+   "options": [
+    "TV is not as cheap as radio.",
+    "TV is not as cheaper as radio.",
+    "Radio is not as cheap as TV."
+   ],
+   "answer": 0,
+   "rule": "Swap the two and use <b>not as + plain adjective + as</b>: <b>TV is not as cheap as radio.</b>"
+  },
+  {
+   "qid": "c7-18-39",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Pens",
+    "will",
+    "be",
+    "provided",
+    "by",
+    "the",
+    "invigilators."
+   ],
+   "alts": [],
+   "rule": "Future passive: <b>will be + past participle</b> + <b>by</b> + doer."
+  },
+  {
+   "qid": "c7-18-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Dr Karnik tell the reporter?"
+    ]
+   ],
+   "options": [
+    "He told her that more patients had came to the hospital.",
+    "He told her that more patients had come to the hospital.",
+    "He said her that more patients had come to the hospital."
+   ],
+   "answer": 1,
+   "rule": "<b>told her</b> (not 'said her') + past perfect <b>had come</b>."
+  },
+  {
+   "qid": "c7-18-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The candidates was told that they would not be allowed to carry pens.",
+    "The candidates were told that they would not be allow to carry pens.",
+    "The candidates were told that they would not be allowed to carry pens."
+   ],
+   "answer": 2,
+   "rule": "Plural <b>candidates were told</b>, and modal passive <b>would not be allowed</b>."
+  },
+  {
+   "qid": "c7-18-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Ever since the news came out, fewer people visited Ralewadi.",
+    "Ever since the news came out, fewer people have visited Ralewadi.",
+    "Ever since the news has come out, fewer people visited Ralewadi."
+   ],
+   "answer": 1,
+   "rule": "<b>Ever since</b> + past point (<b>came out</b>), then present perfect in the main clause: <b>have visited</b>."
+  },
+  {
+   "qid": "c7-18-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hawking",
+    "said",
+    "that",
+    "this",
+    "was",
+    "the",
+    "more",
+    "dangerous",
+    "time",
+    "ever",
+    "in",
+    "the",
+    "history",
+    "of",
+    "mankind."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "much",
+      "most",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>the ... ever</b> compares with all times, so use the superlative: <b>the most dangerous</b>."
+  },
+  {
+   "qid": "c7-18-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "new",
+    "list",
+    "of",
+    "rules",
+    "has",
+    "been",
+    "issue",
+    "by",
+    "the",
+    "institute",
+    "this",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "issuing",
+      "issued",
+      "issues"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect passive: <b>has been + past participle</b> = <b>has been issued</b>."
+  },
+  {
+   "qid": "c7-18-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Ritika told the journalists that she",
+   "after": "sign any more films after her next one.",
+   "options": [
+    "will not to",
+    "not will",
+    "would not"
+   ],
+   "answer": 2,
+   "rule": "After <b>told</b>, <b>will not</b> moves back to <b>would not</b> + base verb."
+  },
+  {
+   "qid": "c7-18-46",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Hawking",
+    "warned",
+    "that",
+    "mankind",
+    "was",
+    "facing",
+    "great",
+    "danger."
+   ],
+   "alts": [],
+   "rule": "Reported statement: <b>is facing</b> moves back to <b>was facing</b>."
+  },
+  {
+   "qid": "c7-18-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dadi",
+     "Why are so many people waiting in the sun?"
+    ],
+    [
+     "Dadi",
+     "Is something being given away?"
+    ]
+   ],
+   "options": [
+    "Yes, a powder is being sell by a man who says it cures everything.",
+    "Yes, a powder is being sold by a man which says it cures everything.",
+    "Yes, a powder is being sold by a man who says it cures everything."
+   ],
+   "answer": 2,
+   "rule": "Continuous passive: <b>is being + past participle</b> = <b>is being sold</b>. Use <b>who</b> for a man."
+  },
+  {
+   "qid": "c7-18-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Have you ever written a letter to the Principal?"
+    ]
+   ],
+   "options": [
+    "Yes, I have written one last year about our class bulletin.",
+    "Yes, I have wrote one last year about our class bulletin.",
+    "Yes, I wrote one last year about our class bulletin."
+   ],
+   "answer": 2,
+   "rule": "<b>Last year</b> is a finished time, so the answer uses the simple past: <b>I wrote one</b>."
+  },
+  {
+   "qid": "c7-18-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "The invigilator said to the candidates, \"You must switch off your phones.\"",
+   "options": [
+    "The invigilator told the candidates that they had to switch off their phones.",
+    "The invigilator told the candidates that they has to switch off their phones.",
+    "The invigilator told the candidates that you had to switch off your phones."
+   ],
+   "answer": 0,
+   "rule": "<b>said to</b> becomes <b>told</b>; <b>you/your</b> become <b>they/their</b>; <b>must</b> becomes <b>had to</b>."
+  },
+  {
+   "qid": "c7-18-50",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "No other actress in Bollywood is paid as highly as Ritika.",
+   "options": [
+    "Ritika is the most highly paid actress in Bollywood.",
+    "Ritika is the more highly paid actress in Bollywood.",
+    "Ritika is the highest paid actresses in Bollywood."
+   ],
+   "answer": 0,
+   "rule": "'No other ... as highly as' becomes the superlative: <b>the most highly paid actress</b>."
+  }
+ ]
+}

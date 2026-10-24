@@ -1,0 +1,1183 @@
+{
+ "class": 10,
+ "id": "18",
+ "title": "The Concert",
+ "topics": [
+  {
+   "tag": "adj_adverb",
+   "name": "Adjective or adverb form"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Indirect (reported) speech"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals (must, mustn't, might, shall, could)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-18-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Smita spoke in an excitedly tone.",
+    "Smita spoke in a excited tone.",
+    "Smita spoke in an excited tone."
+   ],
+   "answer": 2,
+   "rule": "A noun (tone) is described by an adjective: an <b>excited</b> tone. Use <b>an</b> before a vowel sound."
+  },
+  {
+   "qid": "c10-18-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The concert had started before we reached.",
+    "The concert had start before we reached.",
+    "The concert has started before we reached."
+   ],
+   "answer": 0,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had started</b>."
+  },
+  {
+   "qid": "c10-18-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anant",
+    "smiled",
+    "weak",
+    "at",
+    "his",
+    "sister."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "weakly",
+      "weaker",
+      "weakness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An adverb tells how he smiled: smiled <b>weakly</b>."
+  },
+  {
+   "qid": "c10-18-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "Smita",
+    "said",
+    "that",
+    "she",
+    "will",
+    "go",
+    "to",
+    "the",
+    "concert",
+    "the",
+    "next",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "shall",
+      "can",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The reporting verb <b>said</b> is past and the event is over, so will changes to <b>would</b> in reported speech."
+  },
+  {
+   "qid": "c10-18-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "Fill in the gap.",
+   "before": "The two musicians played",
+   "after": "for the sick boy.",
+   "options": [
+    "beautiful",
+    "beautifully",
+    "beauty"
+   ],
+   "answer": 1,
+   "rule": "An adverb tells how they played: <b>beautifully</b>."
+  },
+  {
+   "qid": "c10-18-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "By the time the doctor came, Anant",
+   "after": "asleep.",
+   "options": [
+    "has fallen",
+    "had fallen",
+    "had fell"
+   ],
+   "answer": 1,
+   "rule": "<b>By the time</b> + past: the earlier action takes <b>had</b> + past participle (fallen)."
+  },
+  {
+   "qid": "c10-18-07",
+   "type": "build",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "mustn't",
+    "miss",
+    "this",
+    "chance."
+   ],
+   "alts": [],
+   "rule": "<b>mustn't</b> + base verb shows something we must not do."
+  },
+  {
+   "qid": "c10-18-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adj_adverb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "How did Anant sleep last night?"
+    ]
+   ],
+   "options": [
+    "He slept peaceful.",
+    "He slept peacefully.",
+    "He sleeped peacefully."
+   ],
+   "answer": 1,
+   "rule": "Past of sleep is <b>slept</b>; an adverb (<b>peacefully</b>) tells how."
+  },
+  {
+   "qid": "c10-18-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Sushila",
+     "Shall I make some tea for you?"
+    ]
+   ],
+   "options": [
+    "Yes, please. That would being lovely.",
+    "Yes, please. That will is lovely.",
+    "Yes, please. That would be lovely."
+   ],
+   "answer": 2,
+   "rule": "A modal (would) is followed by the base verb: would <b>be</b>."
+  },
+  {
+   "qid": "c10-18-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Smita said, \"I am tired.\"",
+   "options": [
+    "Smita said that I was tired.",
+    "Smita said that she was tired.",
+    "Smita said that she is tired."
+   ],
+   "answer": 1,
+   "rule": "I -> <b>she</b>, and am -> <b>was</b> after a past reporting verb."
+  },
+  {
+   "qid": "c10-18-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mother told Smita not to wake her brother.",
+    "Mother told Smita not wake her brother.",
+    "Mother told Smita don't wake her brother."
+   ],
+   "answer": 0,
+   "rule": "A negative command is reported as <b>told</b> + person + <b>not to</b> + verb."
+  },
+  {
+   "qid": "c10-18-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You must not to bother him with such requests.",
+    "You must not bothering him with such requests.",
+    "You must not bother him with such requests."
+   ],
+   "answer": 2,
+   "rule": "<b>must not</b> is followed by the base verb, with no 'to': must not <b>bother</b>."
+  },
+  {
+   "qid": "c10-18-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "doctors",
+    "had",
+    "leave",
+    "the",
+    "ward,",
+    "the",
+    "family",
+    "sat",
+    "together",
+    "quietly."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "leaving",
+      "leaves",
+      "left"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had</b> + past participle: had <b>left</b>."
+  },
+  {
+   "qid": "c10-18-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "They",
+    "tried",
+    "hard",
+    "to",
+    "keep",
+    "Anant",
+    "happily",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "happiness",
+      "happy",
+      "happen"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>keep</b> + person + adjective: keep Anant <b>happy</b>."
+  },
+  {
+   "qid": "c10-18-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Anant asked Smita",
+   "after": "she had heard the maestro.",
+   "options": [
+    "if",
+    "that",
+    "did"
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question begins with <b>if</b> (or whether)."
+  },
+  {
+   "qid": "c10-18-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Panditji is a busy man; you",
+   "after": "not disturb him.",
+   "options": [
+    "has",
+    "must",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "<b>must not</b> + base verb shows something is not allowed."
+  },
+  {
+   "qid": "c10-18-17",
+   "type": "build",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Report the request.",
+   "answer": [
+    "Smita",
+    "asked",
+    "her",
+    "father",
+    "to",
+    "buy",
+    "two",
+    "tickets."
+   ],
+   "alts": [],
+   "rule": "A reported request: <b>asked</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c10-18-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Did you see the start of the concert?"
+    ]
+   ],
+   "options": [
+    "No, it had already began when I arrived.",
+    "No, it has already begun when I arrived.",
+    "No, it had already begun when I arrived."
+   ],
+   "answer": 2,
+   "rule": "The earlier past action takes the past perfect: had <b>begun</b> (past participle)."
+  },
+  {
+   "qid": "c10-18-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "He said, \"What shall we do, Ustad Sahib?\"",
+   "options": [
+    "He asked Ustad Sahib what should they do.",
+    "He asked Ustad Sahib what we should do.",
+    "He asked Ustad Sahib what they should do."
+   ],
+   "answer": 2,
+   "rule": "Reported question: <b>asked</b>, statement order, we -> <b>they</b>, shall -> <b>should</b>."
+  },
+  {
+   "qid": "c10-18-20",
+   "type": "change",
+   "level": 2,
+   "topic": "adj_adverb",
+   "prompt": "Rewrite using the adverb 'gratefully'.",
+   "source": "Smita was grateful for the suggestion and accepted it.",
+   "options": [
+    "Smita accepted the suggestion gratefully.",
+    "Smita accepted gratefully the suggestion.",
+    "Smita gratefully accept the suggestion."
+   ],
+   "answer": 0,
+   "rule": "Don't put an adverb between a verb and its object; keep the past: accepted ... <b>gratefully</b>."
+  },
+  {
+   "qid": "c10-18-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When we reached the hall, the maestro had already started playing.",
+    "When we reached the hall, the maestro had already start playing.",
+    "When we reach the hall, the maestro had already started playing."
+   ],
+   "answer": 0,
+   "rule": "Two past actions: the later one in simple past (<b>reached</b>), the earlier in past perfect (<b>had started</b>)."
+  },
+  {
+   "qid": "c10-18-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "doctors",
+    "advised",
+    "the",
+    "parents",
+    "to",
+    "took",
+    "Anant",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "taking",
+      "take",
+      "taken"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Reported advice: <b>advised</b> + person + <b>to</b> + base verb: to <b>take</b>."
+  },
+  {
+   "qid": "c10-18-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Smita",
+    "thought",
+    "that",
+    "a",
+    "walk",
+    "in",
+    "the",
+    "park",
+    "might",
+    "makes",
+    "her",
+    "feel",
+    "better."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "made",
+      "make",
+      "making"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A modal (<b>might</b>) is always followed by the base verb: might <b>make</b>."
+  },
+  {
+   "qid": "c10-18-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "adj_adverb",
+   "prompt": "Fill in the gap.",
+   "before": "The ragas sounded",
+   "after": "in the quiet hall.",
+   "options": [
+    "beautiful",
+    "beautifully",
+    "beauty"
+   ],
+   "answer": 0,
+   "rule": "<b>sound</b> (like seem, look, feel) is a linking verb, so it takes an adjective: sounded <b>beautiful</b>."
+  },
+  {
+   "qid": "c10-18-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Her brother told her",
+   "after": "herself.",
+   "options": [
+    "enjoy",
+    "to enjoy",
+    "enjoying"
+   ],
+   "answer": 1,
+   "rule": "A reported command: <b>told</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c10-18-26",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Smita",
+    "had",
+    "never",
+    "seen",
+    "such",
+    "a",
+    "large",
+    "crowd",
+    "before."
+   ],
+   "alts": [],
+   "rule": "Past perfect with <b>never</b>: had + never + past participle (<b>seen</b>)."
+  },
+  {
+   "qid": "c10-18-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Kale",
+     "What did Anant say when Smita left?"
+    ]
+   ],
+   "options": [
+    "He told her to enjoy herself.",
+    "He told her to enjoy yourself.",
+    "He told her enjoy herself."
+   ],
+   "answer": 0,
+   "rule": "Reported command: told her <b>to</b> + verb; 'yourself' changes to <b>herself</b>."
+  },
+  {
+   "qid": "c10-18-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Guard",
+     "You can't go backstage now."
+    ]
+   ],
+   "options": [
+    "Could I waited here until he comes out?",
+    "Could I to wait here until he comes out?",
+    "Could I wait here until he comes out?"
+   ],
+   "answer": 2,
+   "rule": "Polite request: <b>Could I</b> + base verb (<b>wait</b>)."
+  },
+  {
+   "qid": "c10-18-29",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join using 'after'.",
+   "source": "The concert ended. Then the audience gave a standing ovation.",
+   "options": [
+    "After the concert had ended, the audience had give a standing ovation.",
+    "After the concert has ended, the audience gave a standing ovation.",
+    "After the concert had ended, the audience gave a standing ovation."
+   ],
+   "answer": 2,
+   "rule": "With <b>after</b>, the earlier action takes the past perfect (<b>had ended</b>), the later the simple past."
+  },
+  {
+   "qid": "c10-18-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "adj_adverb",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Smita",
+    "walked",
+    "nervous",
+    "towards",
+    "the",
+    "stage.",
+    "Her",
+    "heart",
+    "was",
+    "beating",
+    "loudly",
+    "and",
+    "her",
+    "knees",
+    "felt",
+    "weakly",
+    "as",
+    "she",
+    "climbed",
+    "the",
+    "steps."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "nervousness",
+      "nervously",
+      "nerves"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "weak",
+      "weakness",
+      "weaken"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "How she walked -> adverb <b>nervously</b>; <b>felt</b> is a linking verb -> adjective <b>weak</b>."
+  },
+  {
+   "qid": "c10-18-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Smita asked Panditji whether would he play for her brother.",
+    "Smita asked Panditji whether he would play for her brother.",
+    "Smita asked Panditji that he would play for her brother?"
+   ],
+   "answer": 1,
+   "rule": "Reported question: <b>whether</b> + statement order (he would play) + full stop."
+  },
+  {
+   "qid": "c10-18-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The tickets had been booked a week earlier.",
+    "The tickets had been book a week earlier.",
+    "The tickets had booked a week earlier."
+   ],
+   "answer": 0,
+   "rule": "Past perfect passive: <b>had been</b> + past participle (<b>booked</b>)."
+  },
+  {
+   "qid": "c10-18-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Anant",
+    "played",
+    "the",
+    "sitar",
+    "more",
+    "skilful",
+    "than",
+    "his",
+    "sister."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "skill",
+      "skilled",
+      "skilfully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing how he played needs the adverb: more <b>skilfully</b> than ..."
+  },
+  {
+   "qid": "c10-18-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Smita asked her father if they",
+   "after": "go to the concert.",
+   "options": [
+    "could",
+    "ought",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "In a reported question, can becomes <b>could</b> + base verb."
+  },
+  {
+   "qid": "c10-18-35",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "The",
+    "guard",
+    "asked",
+    "Smita",
+    "why",
+    "she",
+    "was",
+    "there."
+   ],
+   "alts": [],
+   "rule": "Reported wh-question: wh-word + statement order (<b>she was</b>), no question mark."
+  },
+  {
+   "qid": "c10-18-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Why were you so upset yesterday?"
+    ]
+   ],
+   "options": [
+    "I had lose my ticket, so I couldn't enter.",
+    "I have lost my ticket, so I couldn't entered.",
+    "I had lost my ticket, so I couldn't enter."
+   ],
+   "answer": 2,
+   "rule": "The earlier past event: <b>had lost</b>; after couldn't use the base verb: enter."
+  },
+  {
+   "qid": "c10-18-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "adj_adverb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ritu",
+     "How was the concert?"
+    ]
+   ],
+   "options": [
+    "It was wonderfully! Panditji played so beautifully.",
+    "It was wonderful! Panditji played so beautifully.",
+    "It was wonderful! Panditji played so beautiful."
+   ],
+   "answer": 1,
+   "rule": "After <b>was</b> use an adjective (wonderful); to say how he played use an adverb (<b>beautifully</b>)."
+  },
+  {
+   "qid": "c10-18-38",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Smita said to Panditji, \"Please play for my brother.\"",
+   "options": [
+    "Smita requested Panditji to play for my brother.",
+    "Smita requested Panditji to play for her brother.",
+    "Smita requested Panditji that play for her brother."
+   ],
+   "answer": 1,
+   "rule": "'Please' -> <b>requested</b> + person + <b>to</b> + verb; my -> <b>her</b>."
+  },
+  {
+   "qid": "c10-18-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "He said to Smita, \"Lucky you!\"",
+   "options": [
+    "He exclaimed that she was lucky.",
+    "He exclaimed that you were lucky.",
+    "He exclaimed that how lucky she was."
+   ],
+   "answer": 0,
+   "rule": "An exclamation is reported with <b>exclaimed that</b> + statement; you -> <b>she</b>."
+  },
+  {
+   "qid": "c10-18-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "doctors",
+    "had",
+    "already",
+    "gave",
+    "their",
+    "advice",
+    "to",
+    "the",
+    "family.",
+    "Anant",
+    "must",
+    "rested",
+    "and",
+    "stay",
+    "away",
+    "from",
+    "any",
+    "stress."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "given",
+      "giving",
+      "give"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 12,
+     "options": [
+      "resting",
+      "rest",
+      "rests"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "had + past participle: had <b>given</b>; must + base verb: must <b>rest</b>."
+  },
+  {
+   "qid": "c10-18-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Panditji said that it was settled and that they will play the next morning.",
+    "Panditji said that it was settled and that they would play the next morning.",
+    "Panditji said that it was settled and that we would play the next morning."
+   ],
+   "answer": 1,
+   "rule": "After said: will -> <b>would</b>; 'we' (the speakers) becomes <b>they</b>."
+  },
+  {
+   "qid": "c10-18-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "adj_adverb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "two",
+    "famous",
+    "musicians",
+    "climbed",
+    "the",
+    "wooden",
+    "stairs",
+    "quiet",
+    "and",
+    "knocked",
+    "softly."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "quietness",
+      "quieten",
+      "quietly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Telling how they climbed needs an adverb: climbed ... <b>quietly</b>, like knocked softly."
+  },
+  {
+   "qid": "c10-18-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Smita",
+   "after": "her plan by the time the concert ended.",
+   "options": [
+    "has already made",
+    "had already made",
+    "already had make"
+   ],
+   "answer": 1,
+   "rule": "<b>by the time</b> + past: the earlier action takes the past perfect: <b>had already made</b>."
+  },
+  {
+   "qid": "c10-18-44",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "You",
+    "needn't",
+    "have",
+    "bought",
+    "the",
+    "tickets",
+    "so",
+    "early."
+   ],
+   "alts": [],
+   "rule": "<b>needn't have</b> + past participle = you did it, but it was not necessary."
+  },
+  {
+   "qid": "c10-18-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What did Smita say to Panditji?"
+    ]
+   ],
+   "options": [
+    "She asked him if he would come and play for her brother.",
+    "She asked him if he will come and play for my brother.",
+    "She asked him would he come and play for her brother."
+   ],
+   "answer": 0,
+   "rule": "Reported question: <b>if</b> + statement order; will -> <b>would</b>; my -> her."
+  },
+  {
+   "qid": "c10-18-46",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Smita said, \"I spoke to him and he will come tomorrow morning.\"",
+   "options": [
+    "Smita said that she had spoken to him and he will come the next morning.",
+    "Smita said that I had spoken to him and he would come the next morning.",
+    "Smita said that she had spoken to him and he would come the next morning."
+   ],
+   "answer": 2,
+   "rule": "spoke -> <b>had spoken</b>, will -> <b>would</b>, I -> <b>she</b>, tomorrow -> <b>the next</b> morning."
+  },
+  {
+   "qid": "c10-18-47",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Use 'No sooner ... than'.",
+   "source": "As soon as the concert ended, the audience stood up.",
+   "options": [
+    "No sooner did the concert ended than the audience stood up.",
+    "No sooner had the concert ended when the audience stood up.",
+    "No sooner had the concert ended than the audience stood up."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b> + simple past."
+  },
+  {
+   "qid": "c10-18-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Mother",
+    "said",
+    "that",
+    "Smita",
+    "must",
+    "go",
+    "to",
+    "the",
+    "concert.",
+    "Smita",
+    "refused",
+    "because",
+    "she",
+    "had",
+    "always",
+    "did",
+    "things",
+    "with",
+    "Anant,",
+    "and",
+    "she",
+    "told",
+    "that",
+    "she",
+    "would",
+    "not",
+    "enjoyed",
+    "it",
+    "alone."
+   ],
+   "errors": [
+    {
+     "i": 15,
+     "options": [
+      "done",
+      "doing",
+      "does"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "talked",
+      "spoke",
+      "said"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "enjoying",
+      "enjoy",
+      "enjoys"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "had + past participle: had <b>done</b>; 'told' needs a person, so <b>said</b> that; would + base verb: <b>enjoy</b>."
+  },
+  {
+   "qid": "c10-18-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "adj_adverb",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Panditji",
+    "smiled",
+    "kind",
+    "at",
+    "the",
+    "girl.",
+    "'We",
+    "must",
+    "plays",
+    "for",
+    "the",
+    "boy",
+    "tomorrow,'",
+    "he",
+    "said,",
+    "and",
+    "Ustad",
+    "Sahib",
+    "nodded",
+    "happy",
+    "in",
+    "reply."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "kindly",
+      "kindness",
+      "kindest"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 8,
+     "options": [
+      "played",
+      "play",
+      "playing"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "happiness",
+      "happiest",
+      "happily"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "How he smiled / nodded -> adverbs <b>kindly</b>, <b>happily</b>; must + base verb: must <b>play</b>."
+  },
+  {
+   "qid": "c10-18-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Anant",
+    "asked",
+    "his",
+    "sister",
+    "whether",
+    "she",
+    "had",
+    "hear",
+    "the",
+    "maestro.",
+    "Smita",
+    "replied",
+    "that",
+    "she",
+    "has",
+    "met",
+    "him",
+    "and",
+    "that",
+    "he",
+    "would",
+    "came",
+    "the",
+    "next",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "hearing",
+      "hears",
+      "heard"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "come",
+      "coming",
+      "comes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "had <b>heard</b>; after replied (past), has met -> <b>had</b> met; would + base verb: <b>come</b>."
+  }
+ ]
+}

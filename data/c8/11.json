@@ -1,0 +1,1188 @@
+{
+ "class": 8,
+ "id": "11",
+ "title": "The Kite Festival",
+ "topics": [
+  {
+   "tag": "tense_aspect",
+   "name": "Tense and aspect (progressive, perfect, perfect progressive)"
+  },
+  {
+   "tag": "word_class",
+   "name": "Word forms: noun, verb, adjective, adverb"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice in reports"
+  },
+  {
+   "tag": "so_that_too_to",
+   "name": "so ... that / too ... to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-11-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "tense_aspect",
+   "prompt": "Pick the sentence with the correct verb form.",
+   "options": [
+    "Rohan are waiting for the right wind.",
+    "Rohan is wait for the right wind.",
+    "Rohan is waiting for the right wind."
+   ],
+   "answer": 2,
+   "rule": "Present progressive = <b>is/am/are + verb-ing</b>. <b>Rohan</b> is singular: <b>is waiting</b>."
+  },
+  {
+   "qid": "c8-11-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "word_class",
+   "prompt": "Which sentence uses the correct word form?",
+   "options": [
+    "Our family celebrates Diwali with great joy.",
+    "Our family celebration Diwali with great joy.",
+    "Our family celebrity Diwali with great joy."
+   ],
+   "answer": 0,
+   "rule": "The sentence needs a verb: <b>celebrates</b>. <b>Celebration</b> and <b>celebrity</b> are nouns."
+  },
+  {
+   "qid": "c8-11-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "tense_aspect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look!",
+    "Many",
+    "people",
+    "is",
+    "flying",
+    "kites",
+    "on",
+    "the",
+    "terrace."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "was",
+      "has",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>People</b> is plural, so use <b>are flying</b>."
+  },
+  {
+   "qid": "c8-11-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "word_class",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "kite",
+    "festival",
+    "is",
+    "a",
+    "joyful",
+    "celebrate",
+    "in",
+    "Gujarat."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "celebration",
+      "celebrated",
+      "celebrating"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>a joyful</b> we need a noun: <b>celebration</b>. <b>Celebrate</b> is a verb."
+  },
+  {
+   "qid": "c8-11-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "tense_aspect",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The children",
+   "after": "kites on the roof.",
+   "options": [
+    "have flew",
+    "are flying",
+    "flies"
+   ],
+   "answer": 1,
+   "rule": "<b>Look!</b> shows it is happening now, so use the present progressive: <b>are flying</b>."
+  },
+  {
+   "qid": "c8-11-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "so_that_too_to",
+   "prompt": "Fill in the gap.",
+   "before": "The kite string was",
+   "after": "sharp that it cut my finger.",
+   "options": [
+    "so",
+    "too",
+    "very"
+   ],
+   "answer": 0,
+   "rule": "<b>so</b> + adjective + <b>that</b> shows a result: so sharp that it cut my finger."
+  },
+  {
+   "qid": "c8-11-07",
+   "type": "build",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Special",
+    "sweets",
+    "are",
+    "made",
+    "for",
+    "the",
+    "festival."
+   ],
+   "alts": [],
+   "rule": "Present passive = <b>are</b> + past participle: <b>are made</b>."
+  },
+  {
+   "qid": "c8-11-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "tense_aspect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "What are you doing on the terrace?"
+    ]
+   ],
+   "options": [
+    "I flying my new kite, Papa.",
+    "I am flying my new kite, Papa.",
+    "I am fly my new kite, Papa."
+   ],
+   "answer": 1,
+   "rule": "Answer <b>What are you doing?</b> with the present progressive: <b>I am flying</b>."
+  },
+  {
+   "qid": "c8-11-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Skilled craftsmen make the kites.",
+   "options": [
+    "The kites is made by skilled craftsmen.",
+    "The kites are made by skilled craftsmen.",
+    "The kites were made by skilled craftsmen."
+   ],
+   "answer": 1,
+   "rule": "Simple present active <b>make</b> becomes <b>are made</b>; keep the same tense."
+  },
+  {
+   "qid": "c8-11-10",
+   "type": "change",
+   "level": 1,
+   "topic": "so_that_too_to",
+   "prompt": "Rewrite using 'so ... that'.",
+   "source": "The wind was too weak to lift the kite.",
+   "options": [
+    "The wind was so weak that it could lift the kite.",
+    "The wind was so weak that it could not lifted the kite.",
+    "The wind was so weak that it could not lift the kite."
+   ],
+   "answer": 2,
+   "rule": "<b>too ... to</b> has a negative meaning, so use <b>so ... that ... could not</b> + base verb."
+  },
+  {
+   "qid": "c8-11-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "tense_aspect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We are flying kites since morning.",
+    "We have been flying kites since morning.",
+    "We have been fly kites since morning."
+   ],
+   "answer": 1,
+   "rule": "An action that started in the past and is still going on: <b>have been + verb-ing</b> with <b>since</b>."
+  },
+  {
+   "qid": "c8-11-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "so_that_too_to",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The thread is too sharp to touch it.",
+    "The thread is so sharp to touch.",
+    "The thread is too sharp to touch."
+   ],
+   "answer": 2,
+   "rule": "With <b>too ... to</b>, don't add <b>it</b> at the end: the thread is already the thing touched. <b>so</b> needs <b>that</b>."
+  },
+  {
+   "qid": "c8-11-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "tense_aspect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "At",
+    "midnight,",
+    "both",
+    "shopkeepers",
+    "was",
+    "haggling",
+    "over",
+    "the",
+    "price."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "were",
+      "is",
+      "has"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both shopkeepers</b> is plural, so the past progressive is <b>were haggling</b>."
+  },
+  {
+   "qid": "c8-11-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_class",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "festival",
+    "attracts",
+    "many",
+    "foreign",
+    "competes",
+    "every",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "competition",
+      "competitive",
+      "competitors"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>many foreign</b> we need a plural noun: <b>competitors</b>. <b>Compete</b> is a verb."
+  },
+  {
+   "qid": "c8-11-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The festival",
+   "after": "by the State Tourism Corporation every year.",
+   "options": [
+    "organises",
+    "is organised",
+    "is organising"
+   ],
+   "answer": 1,
+   "rule": "The festival does not organise; it is organised <b>by</b> someone, so use the passive."
+  },
+  {
+   "qid": "c8-11-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "word_class",
+   "prompt": "Fill in the gap.",
+   "before": "Ahmedabad looks very",
+   "after": "during the kite festival.",
+   "options": [
+    "festive",
+    "festival",
+    "festivity"
+   ],
+   "answer": 0,
+   "rule": "After <b>looks very</b> we need an adjective: <b>festive</b>."
+  },
+  {
+   "qid": "c8-11-17",
+   "type": "build",
+   "level": 2,
+   "topic": "tense_aspect",
+   "prompt": "Make a sentence in the past perfect progressive.",
+   "answer": [
+    "Vendors",
+    "had",
+    "been",
+    "selling",
+    "kites",
+    "all",
+    "week."
+   ],
+   "alts": [],
+   "rule": "Past perfect progressive = <b>had been + verb-ing</b>."
+  },
+  {
+   "qid": "c8-11-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "so_that_too_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Why didn't you buy the eagle kite?"
+    ]
+   ],
+   "options": [
+    "It was too costly that I could buy.",
+    "It was so costly to buy for me.",
+    "It was too costly for me to buy."
+   ],
+   "answer": 2,
+   "rule": "Use <b>too + adjective + for me + to + verb</b>. <b>too</b> does not go with <b>that</b>."
+  },
+  {
+   "qid": "c8-11-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "word_class",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How do people in Gujarat celebrate Uttarayan?"
+    ]
+   ],
+   "options": [
+    "They fly kites and eat traditional food.",
+    "They fly kites and eat tradition food.",
+    "They flies kites and eat traditional food."
+   ],
+   "answer": 0,
+   "rule": "Before the noun <b>food</b>, use the adjective <b>traditional</b>; <b>they</b> takes <b>fly</b>."
+  },
+  {
+   "qid": "c8-11-20",
+   "type": "change",
+   "level": 2,
+   "topic": "tense_aspect",
+   "prompt": "Add 'since morning' and use the present perfect progressive.",
+   "source": "Rahul is flying kites.",
+   "options": [
+    "Rahul have been flying kites since morning.",
+    "Rahul has been flying kites since morning.",
+    "Rahul has been flew kites since morning."
+   ],
+   "answer": 1,
+   "rule": "Present perfect progressive = <b>has/have been + verb-ing</b>. <b>Rahul</b> is singular: <b>has been flying</b>."
+  },
+  {
+   "qid": "c8-11-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lines are been coated with glue and glass.",
+    "The lines is being coated with glue and glass.",
+    "The lines are being coated with glue and glass."
+   ],
+   "answer": 2,
+   "rule": "Present progressive passive = <b>is/are being</b> + past participle. <b>The lines</b> is plural."
+  },
+  {
+   "qid": "c8-11-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "tense_aspect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "kite-flyers",
+    "from",
+    "Japan",
+    "has",
+    "shown",
+    "their",
+    "skills",
+    "here."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "have",
+      "is",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Kite-flyers</b> is plural, so the present perfect is <b>have shown</b>."
+  },
+  {
+   "qid": "c8-11-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "so_that_too_to",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sky",
+    "was",
+    "too",
+    "dark",
+    "that",
+    "we",
+    "could",
+    "not",
+    "see",
+    "the",
+    "kites."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "very",
+      "so",
+      "much"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>that</b> goes with <b>so</b>: <b>so dark that</b> we could not see. <b>too</b> goes with <b>to</b>."
+  },
+  {
+   "qid": "c8-11-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "tense_aspect",
+   "prompt": "Fill in the gap.",
+   "before": "By the time we reached the terrace, the competition",
+   "after": "already begun.",
+   "options": [
+    "has been",
+    "was",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had begun</b>."
+  },
+  {
+   "qid": "c8-11-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "word_class",
+   "prompt": "Fill in the gap.",
+   "before": "The",
+   "after": "of the kite festival lasts all night.",
+   "options": [
+    "excite",
+    "excitement",
+    "excited"
+   ],
+   "answer": 1,
+   "rule": "After <b>The</b>, the subject must be a noun: <b>excitement</b>."
+  },
+  {
+   "qid": "c8-11-26",
+   "type": "build",
+   "level": 3,
+   "topic": "so_that_too_to",
+   "prompt": "Make a sentence using 'so ... that'.",
+   "answer": [
+    "The",
+    "lines",
+    "are",
+    "so",
+    "sharp",
+    "that",
+    "they",
+    "cut",
+    "fingers."
+   ],
+   "alts": [],
+   "rule": "<b>so</b> + adjective + <b>that</b> + result clause."
+  },
+  {
+   "qid": "c8-11-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Who made these lovely tukals?"
+    ]
+   ],
+   "options": [
+    "They were made by my uncle.",
+    "They were make by my uncle.",
+    "They made by my uncle."
+   ],
+   "answer": 0,
+   "rule": "The tukals receive the action: <b>were made by</b> my uncle."
+  },
+  {
+   "qid": "c8-11-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "tense_aspect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "How long have you been waiting for the wind?"
+    ]
+   ],
+   "options": [
+    "I have been waiting for an hour.",
+    "I am waiting for an hour.",
+    "I have been wait for an hour."
+   ],
+   "answer": 0,
+   "rule": "Answer in the same tense: <b>I have been waiting</b> for an hour."
+  },
+  {
+   "qid": "c8-11-29",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Spectators watched the giant kites.",
+   "options": [
+    "The giant kites was watched by spectators.",
+    "The giant kites were watched by spectators.",
+    "The giant kites were watching by spectators."
+   ],
+   "answer": 1,
+   "rule": "Simple past passive = <b>was/were</b> + past participle. <b>Kites</b> is plural: <b>were watched</b>."
+  },
+  {
+   "qid": "c8-11-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "so_that_too_to",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Every",
+    "January,",
+    "thousands",
+    "of",
+    "tourists",
+    "comes",
+    "to",
+    "Ahmedabad",
+    "for",
+    "the",
+    "kite",
+    "festival.",
+    "The",
+    "streets",
+    "are",
+    "so",
+    "crowded",
+    "than",
+    "nobody",
+    "can",
+    "walk",
+    "fast."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "come",
+      "coming",
+      "came"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "then",
+      "as",
+      "that"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Thousands of tourists</b> is plural: <b>come</b>. <b>so</b> goes with <b>that</b>."
+  },
+  {
+   "qid": "c8-11-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "tense_aspect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bazar has been open for Monday.",
+    "The bazar is open since Monday.",
+    "The bazar has been open since Monday."
+   ],
+   "answer": 2,
+   "rule": "Use the present perfect with <b>since</b> + a point of time: <b>has been open since Monday</b>."
+  },
+  {
+   "qid": "c8-11-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The kites had packed before the guests arrived.",
+    "The kites had been pack before the guests arrived.",
+    "The kites had been packed before the guests arrived."
+   ],
+   "answer": 2,
+   "rule": "Past perfect passive = <b>had been</b> + past participle: <b>had been packed</b>."
+  },
+  {
+   "qid": "c8-11-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "word_class",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "craftsman",
+    "prepared",
+    "the",
+    "special",
+    "thread",
+    "very",
+    "careful",
+    "for",
+    "the",
+    "festival."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "care",
+      "carefulness",
+      "carefully"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To describe how he prepared it, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c8-11-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "tense_aspect",
+   "prompt": "Fill in the gap.",
+   "before": "Neither my brother nor my cousins",
+   "after": "flown a box-kite before.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>my cousins have</b>."
+  },
+  {
+   "qid": "c8-11-35",
+   "type": "build",
+   "level": 4,
+   "topic": "tense_aspect",
+   "prompt": "Make a sentence in the future perfect.",
+   "answer": [
+    "The",
+    "festival",
+    "will",
+    "have",
+    "ended",
+    "by",
+    "Sunday."
+   ],
+   "alts": [],
+   "rule": "Future perfect = <b>will have</b> + past participle: <b>will have ended</b>."
+  },
+  {
+   "qid": "c8-11-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "so_that_too_to",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Did you enjoy the kite bazar last night?"
+    ]
+   ],
+   "options": [
+    "Yes! It was so much fun that we stayed till midnight.",
+    "Yes! It was too much fun that we stayed till midnight.",
+    "Yes! It is so much fun that we stay till midnight."
+   ],
+   "answer": 0,
+   "rule": "<b>last night</b> needs the past (<b>was, stayed</b>), and <b>that</b> goes with <b>so</b>."
+  },
+  {
+   "qid": "c8-11-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who organises the International Kite Festival?"
+    ]
+   ],
+   "options": [
+    "It organised by the State Tourism Corporation.",
+    "It is organised by the State Tourism Corporation.",
+    "It is organise by the State Tourism Corporation."
+   ],
+   "answer": 1,
+   "rule": "Present passive = <b>is</b> + past participle: <b>is organised</b>."
+  },
+  {
+   "qid": "c8-11-38",
+   "type": "change",
+   "level": 4,
+   "topic": "so_that_too_to",
+   "prompt": "Rewrite using 'too ... to'.",
+   "source": "The kite was so high that we could not see its colours.",
+   "options": [
+    "The kite was too high that we could not see its colours.",
+    "The kite was too high for us to see its colours.",
+    "The kite was too high for us not to see its colours."
+   ],
+   "answer": 1,
+   "rule": "<b>too ... to</b> already means 'not', so drop <b>not</b>: too high <b>for us to see</b>."
+  },
+  {
+   "qid": "c8-11-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "tense_aspect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "when",
+    "we",
+    "reached",
+    "the",
+    "terrace,",
+    "my",
+    "cousins",
+    "have",
+    "already",
+    "started",
+    "flying",
+    "kites.",
+    "The",
+    "wind",
+    "was",
+    "too",
+    "strong",
+    "that",
+    "two",
+    "of",
+    "our",
+    "kites",
+    "tore."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "has",
+      "had",
+      "were"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 17,
+     "options": [
+      "very",
+      "so",
+      "much"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The earlier past action takes <b>had started</b>. <b>that</b> goes with <b>so</b>: so strong that."
+  },
+  {
+   "qid": "c8-11-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Kite-making",
+    "is",
+    "an",
+    "old",
+    "art.",
+    "Skilled",
+    "craftsmen",
+    "demonstrates",
+    "it",
+    "at",
+    "the",
+    "bazar,",
+    "and",
+    "visitors",
+    "are",
+    "amaze",
+    "by",
+    "their",
+    "speed.",
+    "The",
+    "thread",
+    "is",
+    "coat",
+    "with",
+    "glue",
+    "and",
+    "glass."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "demonstration",
+      "demonstrate",
+      "demonstrating"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "amazed",
+      "amazing",
+      "amazes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "coating",
+      "coats",
+      "coated"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Craftsmen</b> is plural: <b>demonstrate</b>. Passive needs past participles: <b>are amazed</b>, <b>is coated</b>."
+  },
+  {
+   "qid": "c8-11-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "tense_aspect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "By next January, Rohan will has been flying kites for ten years.",
+    "By next January, Rohan will have been flying kites for ten years.",
+    "By next January, Rohan will have flying kites for ten years."
+   ],
+   "answer": 1,
+   "rule": "Future perfect progressive = <b>will have been + verb-ing</b>. After <b>will</b>, always <b>have</b>."
+  },
+  {
+   "qid": "c8-11-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "the",
+    "fibreglass",
+    "kite",
+    "nor",
+    "the",
+    "two",
+    "paper",
+    "kites",
+    "was",
+    "damaged."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "is",
+      "has",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: <b>the two paper kites were</b>."
+  },
+  {
+   "qid": "c8-11-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "so_that_too_to",
+   "prompt": "Fill in the gap.",
+   "before": "The thread was",
+   "after": "sharp for the children to touch safely.",
+   "options": [
+    "too",
+    "so",
+    "such"
+   ],
+   "answer": 0,
+   "rule": "<b>too</b> + adjective + <b>for</b> someone + <b>to</b> + verb. <b>so</b> needs <b>that</b>."
+  },
+  {
+   "qid": "c8-11-44",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Make a sentence with a past progressive passive.",
+   "answer": [
+    "The",
+    "tukals",
+    "were",
+    "being",
+    "launched",
+    "when",
+    "we",
+    "arrived."
+   ],
+   "alts": [],
+   "rule": "Past progressive passive = <b>were being</b> + past participle: <b>were being launched</b>."
+  },
+  {
+   "qid": "c8-11-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle",
+     "Have the prizes been given out yet?"
+    ]
+   ],
+   "options": [
+    "Not yet. They will given at six.",
+    "Not yet. They will be given at six.",
+    "Not yet. They will be give at six."
+   ],
+   "answer": 1,
+   "rule": "Future passive = <b>will be</b> + past participle: <b>will be given</b>."
+  },
+  {
+   "qid": "c8-11-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The craftsmen are preparing the special thread.",
+   "options": [
+    "The special thread is been prepared by the craftsmen.",
+    "The special thread are being prepared by the craftsmen.",
+    "The special thread is being prepared by the craftsmen."
+   ],
+   "answer": 2,
+   "rule": "Present progressive passive = <b>is/are being</b> + past participle. <b>The thread</b> is singular."
+  },
+  {
+   "qid": "c8-11-47",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into active voice.",
+   "source": "The prize was won by a team from Japan.",
+   "options": [
+    "A team from Japan won the prize.",
+    "A team from Japan wins the prize.",
+    "A team from Japan was won the prize."
+   ],
+   "answer": 0,
+   "rule": "Keep the tense: passive <b>was won</b> becomes active simple past <b>won</b>."
+  },
+  {
+   "qid": "c8-11-48",
+   "type": "change",
+   "level": 5,
+   "topic": "so_that_too_to",
+   "prompt": "Rewrite using 'so ... that'.",
+   "source": "The bazar is too crowded for us to walk freely.",
+   "options": [
+    "The bazar is so crowded that we can walk freely.",
+    "The bazar is so crowded that we cannot walked freely.",
+    "The bazar is so crowded that we cannot walk freely."
+   ],
+   "answer": 2,
+   "rule": "<b>too ... to</b> means 'not', so use <b>so ... that ... cannot</b> + base verb."
+  },
+  {
+   "qid": "c8-11-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "tense_aspect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Since",
+    "1989,",
+    "the",
+    "International",
+    "Kite",
+    "Festival",
+    "has",
+    "attract",
+    "kite-flyers",
+    "from",
+    "many",
+    "countries.",
+    "This",
+    "year,",
+    "more",
+    "than",
+    "forty",
+    "teams",
+    "has",
+    "taken",
+    "part,",
+    "and",
+    "a",
+    "huge",
+    "dragon",
+    "kite",
+    "were",
+    "the",
+    "star",
+    "of",
+    "the",
+    "show."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "attracted",
+      "attracting",
+      "attracts"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "is",
+      "have",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "are",
+      "have",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>has attracted</b> (perfect); <b>forty teams have</b> (plural); <b>a huge dragon kite was</b> (singular)."
+  },
+  {
+   "qid": "c8-11-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "so_that_too_to",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "My",
+    "grandfather",
+    "has",
+    "been",
+    "making",
+    "kites",
+    "for",
+    "fifty",
+    "years.",
+    "He",
+    "learnt",
+    "the",
+    "craft",
+    "when",
+    "he",
+    "were",
+    "only",
+    "eight.",
+    "His",
+    "kites",
+    "are",
+    "so",
+    "light",
+    "that",
+    "they",
+    "rises",
+    "in",
+    "the",
+    "gentlest",
+    "breeze."
+   ],
+   "errors": [
+    {
+     "i": 15,
+     "options": [
+      "is",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "rising",
+      "risen",
+      "rise"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>he</b> takes <b>was</b>; <b>they</b> takes <b>rise</b> in the result clause after <b>so ... that</b>."
+  }
+ ]
+}

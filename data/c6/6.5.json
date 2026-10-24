@@ -1,0 +1,987 @@
+{
+ "class": 6,
+ "id": "6.5",
+ "title": "An Imaginary Conversation",
+ "topics": [
+  {
+   "tag": "tenses",
+   "name": "Tenses (present, past, future, continuous)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "polite_requests",
+   "name": "Polite requests and offers (May I, Could you, Will you, Shall I)"
+  },
+  {
+   "tag": "count_uncount",
+   "name": "Countable and uncountable nouns (many/much, few/little, fewer/less)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-6.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The student is study in his room now.",
+    "The student is studying in his room now.",
+    "The student studying in his room now."
+   ],
+   "answer": 1,
+   "rule": "Present continuous = <b>is/am/are + -ing</b>: <b>is studying</b>."
+  },
+  {
+   "qid": "c6-6.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A train is fast than a horse.",
+    "A train is faster than a horse.",
+    "A train is more faster than a horse."
+   ],
+   "answer": 1,
+   "rule": "Comparing two things: <b>fast</b> becomes <b>faster</b> + <b>than</b>. Never say <b>more faster</b>."
+  },
+  {
+   "qid": "c6-6.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Which request is correct?",
+   "options": [
+    "Good evening, may I come in?",
+    "Good evening, may I comes in?",
+    "Good evening, may I coming in?"
+   ],
+   "answer": 0,
+   "rule": "<b>May I</b> + base verb: <b>May I come in?</b>"
+  },
+  {
+   "qid": "c6-6.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "apple",
+    "falled",
+    "on",
+    "Newton's",
+    "head."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "fall",
+      "fallen",
+      "fell"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Fall</b> is irregular. Its simple past is <b>fell</b>."
+  },
+  {
+   "qid": "c6-6.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "student",
+    "is",
+    "much",
+    "tall",
+    "than",
+    "his",
+    "younger",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "tallest",
+      "taller",
+      "tallness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>much ... than</b> compares two people, so use the comparative: <b>taller</b>."
+  },
+  {
+   "qid": "c6-6.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "count_uncount",
+   "prompt": "Fill in the gap.",
+   "before": "There are",
+   "after": "books on the floor.",
+   "options": [
+    "many",
+    "much",
+    "a little"
+   ],
+   "answer": 0,
+   "rule": "<b>Books</b> can be counted, so use <b>many</b>."
+  },
+  {
+   "qid": "c6-6.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "before": "",
+   "after": "you answer a question for me?",
+   "options": [
+    "Will",
+    "Are",
+    "Is"
+   ],
+   "answer": 0,
+   "rule": "<b>Will you + base verb ...?</b> is a request: <b>Will you answer</b> ...?"
+  },
+  {
+   "qid": "c6-6.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Newton",
+    "is",
+    "at",
+    "the",
+    "door."
+   ],
+   "alts": [],
+   "rule": "A simple statement: subject + <b>is</b> + place."
+  },
+  {
+   "qid": "c6-6.5-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Newton",
+     "What are you doing, young man?"
+    ]
+   ],
+   "options": [
+    "I studying for my exam.",
+    "I am study for my exam.",
+    "I am studying for my exam."
+   ],
+   "answer": 2,
+   "rule": "Answer in the same tense as the question: <b>I am studying</b>."
+  },
+  {
+   "qid": "c6-6.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Student",
+     "Please sit down, sir."
+    ]
+   ],
+   "options": [
+    "Thank you. You is very kind.",
+    "Thank you. You are very kind.",
+    "Thanks you. You are very kind."
+   ],
+   "answer": 1,
+   "rule": "Say <b>Thank you</b> (or <b>Thanks</b>), and <b>you</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c6-6.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "count_uncount",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Today, less people die of illness.",
+    "Today, fewer people dies of illness.",
+    "Today, fewer people die of illness."
+   ],
+   "answer": 2,
+   "rule": "<b>People</b> can be counted, so use <b>fewer</b>. <b>People</b> is plural: <b>die</b>."
+  },
+  {
+   "qid": "c6-6.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Books are cheaper today than in the past.",
+    "Books are more cheap today than in the past.",
+    "Books are cheapest today than in the past."
+   ],
+   "answer": 0,
+   "rule": "Short adjective + <b>-er</b> + <b>than</b>: <b>cheaper than</b>."
+  },
+  {
+   "qid": "c6-6.5-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "Newton",
+    "visit",
+    "a",
+    "young",
+    "science",
+    "student."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "visits",
+      "visiting",
+      "visited"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past, so use the simple past: <b>visited</b>."
+  },
+  {
+   "qid": "c6-6.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "count_uncount",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "much",
+    "people",
+    "came",
+    "to",
+    "the",
+    "science",
+    "fair?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "lot",
+      "less",
+      "many"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>People</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c6-6.5-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The aeroplane is the",
+   "after": "way to travel long distances.",
+   "options": [
+    "faster",
+    "fastest",
+    "fast"
+   ],
+   "answer": 1,
+   "rule": "<b>The</b> + <b>-est</b> picks one out of all: <b>the fastest</b>."
+  },
+  {
+   "qid": "c6-6.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "tenses",
+   "prompt": "Fill in the gap.",
+   "before": "In Newton's time, people",
+   "after": "on horseback or in a coach.",
+   "options": [
+    "travel",
+    "travelled",
+    "travelling"
+   ],
+   "answer": 1,
+   "rule": "<b>In Newton's time</b> is the past, so use <b>travelled</b>."
+  },
+  {
+   "qid": "c6-6.5-17",
+   "type": "build",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Ask for permission.",
+   "answer": [
+    "May",
+    "I",
+    "sit",
+    "down,",
+    "sir?"
+   ],
+   "alts": [],
+   "rule": "Ask for permission with <b>May I + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-6.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "count_uncount",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Fewer",
+    "students",
+    "walk",
+    "to",
+    "school."
+   ],
+   "alts": [],
+   "rule": "<b>Fewer</b> goes before a countable plural noun: <b>fewer students</b>."
+  },
+  {
+   "qid": "c6-6.5-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Which is faster, the bus or the metro?"
+    ]
+   ],
+   "options": [
+    "The metro is more fast.",
+    "The metro is faster.",
+    "The metro is fastest."
+   ],
+   "answer": 1,
+   "rule": "Comparing two things, use the comparative: <b>faster</b>."
+  },
+  {
+   "qid": "c6-6.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Rohan, the window is open and it is cold."
+    ]
+   ],
+   "options": [
+    "Shall I close the window, ma'am?",
+    "Shall I closing the window, ma'am?",
+    "Shall I to close the window, ma'am?"
+   ],
+   "answer": 0,
+   "rule": "To offer help, use <b>Shall I + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-6.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "The student was studying when Newton knocked at the door.",
+    "The student was studying when Newton knock at the door.",
+    "The student studying when Newton knocked at the door."
+   ],
+   "answer": 0,
+   "rule": "Longer action: <b>was studying</b>. Short action that broke in: <b>knocked</b>."
+  },
+  {
+   "qid": "c6-6.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "count_uncount",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is less traffic in the morning.",
+    "There are less traffic in the morning.",
+    "There is fewer traffic in the morning."
+   ],
+   "answer": 0,
+   "rule": "<b>Traffic</b> cannot be counted: use <b>is</b> and <b>less</b>."
+  },
+  {
+   "qid": "c6-6.5-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Medicine",
+    "today",
+    "is",
+    "gooder",
+    "than",
+    "it",
+    "was",
+    "in",
+    "the",
+    "past."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "best",
+      "better",
+      "well"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Good</b> is irregular: good, <b>better</b>, best."
+  },
+  {
+   "qid": "c6-6.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow,",
+    "the",
+    "student",
+    "will",
+    "tells",
+    "his",
+    "friends",
+    "about",
+    "Newton."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "told",
+      "tell",
+      "telling"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Simple future = <b>will + base verb</b>: <b>will tell</b>."
+  },
+  {
+   "qid": "c6-6.5-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "count_uncount",
+   "prompt": "Fill in the gap.",
+   "before": "Today, we spend",
+   "after": "time travelling than people did long ago.",
+   "options": [
+    "fewer",
+    "less",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>Time</b> here cannot be counted, so use <b>less</b>, not <b>fewer</b>."
+  },
+  {
+   "qid": "c6-6.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "Sir,",
+   "after": "I ask you one more question?",
+   "options": [
+    "am",
+    "does",
+    "may"
+   ],
+   "answer": 2,
+   "rule": "Ask for permission with <b>may I</b> + base verb."
+  },
+  {
+   "qid": "c6-6.5-27",
+   "type": "build",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "are",
+    "you",
+    "reading",
+    "now?"
+   ],
+   "alts": [],
+   "rule": "Present continuous question: <b>What + are + you + -ing</b>?"
+  },
+  {
+   "qid": "c6-6.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "modern",
+    "man",
+    "happier",
+    "than",
+    "before?"
+   ],
+   "alts": [],
+   "rule": "<b>Happy</b> becomes <b>happier</b> (y changes to i + er) before <b>than</b>."
+  },
+  {
+   "qid": "c6-6.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "count_uncount",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How many apples are left in the basket?"
+    ]
+   ],
+   "options": [
+    "Only a little are left.",
+    "Only a few is left.",
+    "Only a few are left."
+   ],
+   "answer": 2,
+   "rule": "Apples can be counted, so use <b>a few</b>, with the plural verb <b>are</b>."
+  },
+  {
+   "qid": "c6-6.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Did you watch the film about Newton?"
+    ]
+   ],
+   "options": [
+    "Yes, I watched it last night.",
+    "Yes, I watch it last night.",
+    "Yes, I watching it last night."
+   ],
+   "answer": 0,
+   "rule": "<b>Last night</b> is the past, so use the simple past: <b>watched</b>."
+  },
+  {
+   "qid": "c6-6.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Newton was one of the greatest scientists of his time.",
+    "Newton was one of the greatest scientist of his time.",
+    "Newton was one of the most great scientists of his time."
+   ],
+   "answer": 0,
+   "rule": "<b>One of the</b> + superlative + plural noun: <b>one of the greatest scientists</b>."
+  },
+  {
+   "qid": "c6-6.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "The student throw his books on the floor and offered Newton a chair.",
+    "The student threw his books on the floor and offer Newton a chair.",
+    "The student threw his books on the floor and offered Newton a chair."
+   ],
+   "answer": 2,
+   "rule": "Both actions are in the past: <b>threw</b> and <b>offered</b>."
+  },
+  {
+   "qid": "c6-6.5-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Which request is correct?",
+   "options": [
+    "Could you tells me the way to the library?",
+    "Could you tell me the way to the library?",
+    "Could you telling me the way to the library?"
+   ],
+   "answer": 1,
+   "rule": "<b>Could you</b> + base verb: <b>Could you tell me ...?</b>"
+  },
+  {
+   "qid": "c6-6.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "count_uncount",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "few",
+    "milk",
+    "is",
+    "left",
+    "in",
+    "the",
+    "jug."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "little",
+      "many",
+      "lot"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Milk</b> cannot be counted, so use <b>a little</b>, not <b>a few</b>."
+  },
+  {
+   "qid": "c6-6.5-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Newton",
+    "were",
+    "sleeping",
+    "under",
+    "the",
+    "tree",
+    "when",
+    "the",
+    "apple",
+    "fell."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "are",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "One person in the past continuous takes <b>was</b>: <b>was sleeping</b>."
+  },
+  {
+   "qid": "c6-6.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Books are",
+   "after": "plentiful today than ever before.",
+   "options": [
+    "most",
+    "much",
+    "more"
+   ],
+   "answer": 2,
+   "rule": "Long adjectives use <b>more ... than</b>: <b>more plentiful than</b>."
+  },
+  {
+   "qid": "c6-6.5-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Look out! The picture frame",
+   "after": "on your head!",
+   "options": [
+    "falls",
+    "fell",
+    "is falling"
+   ],
+   "answer": 2,
+   "rule": "<b>Look out!</b> means it is happening right now: present continuous <b>is falling</b>."
+  },
+  {
+   "qid": "c6-6.5-38",
+   "type": "build",
+   "level": 4,
+   "topic": "count_uncount",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "much",
+    "time",
+    "do",
+    "we",
+    "need?"
+   ],
+   "alts": [],
+   "rule": "<b>Time</b> cannot be counted, so ask <b>How much time</b>."
+  },
+  {
+   "qid": "c6-6.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Newton",
+     "Thank you for answering so many questions."
+    ]
+   ],
+   "options": [
+    "Please don't mentions it.",
+    "Please don't mention it.",
+    "Please not mention it."
+   ],
+   "answer": 1,
+   "rule": "A negative request is <b>don't</b> + base verb: <b>Please don't mention it.</b>"
+  },
+  {
+   "qid": "c6-6.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Is the new phone better than your old one?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much more better.",
+    "Yes, it is much better.",
+    "Yes, it is very better."
+   ],
+   "answer": 1,
+   "rule": "Make a comparative stronger with <b>much</b>: <b>much better</b>. Never <b>more better</b> or <b>very better</b>."
+  },
+  {
+   "qid": "c6-6.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "count_uncount",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Fewer people travel by coach today, and they spend less time on the road.",
+    "Less people travel by coach today, and they spend less time on the road.",
+    "Fewer people travel by coach today, and they spend fewer time on the road."
+   ],
+   "answer": 0,
+   "rule": "<b>Fewer</b> with things you count (people); <b>less</b> with things you cannot count (time)."
+  },
+  {
+   "qid": "c6-6.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "If we will use less time for travelling, we will have more time for other things.",
+    "If we use less time for travelling, we will have more time for other things.",
+    "If we use less time for travelling, we had more time for other things."
+   ],
+   "answer": 1,
+   "rule": "<b>If</b> + simple present, then <b>will</b> + base verb: If we <b>use</b> ..., we <b>will have</b> ..."
+  },
+  {
+   "qid": "c6-6.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "inventions,",
+    "the",
+    "aeroplane",
+    "is",
+    "the",
+    "more",
+    "useful",
+    "for",
+    "long",
+    "journeys."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "most",
+      "much",
+      "very"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Of all</b> compares more than two things, so use the superlative: <b>the most useful</b>."
+  },
+  {
+   "qid": "c6-6.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Will",
+    "you",
+    "please",
+    "answers",
+    "a",
+    "question",
+    "for",
+    "me",
+    "before",
+    "you",
+    "go?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "answer",
+      "answered",
+      "answering"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Will you please</b> + base verb: <b>answer</b>."
+  },
+  {
+   "qid": "c6-6.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "count_uncount",
+   "prompt": "Fill in the gap.",
+   "before": "There are",
+   "after": "people who still travel on horseback today.",
+   "options": [
+    "much",
+    "less",
+    "few"
+   ],
+   "answer": 2,
+   "rule": "<b>People</b> can be counted: use <b>few</b>. <b>Much</b> and <b>less</b> go with things you cannot count."
+  },
+  {
+   "qid": "c6-6.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Happiness is",
+   "after": "to measure than speed or weight.",
+   "options": [
+    "hardest",
+    "harder",
+    "hardly"
+   ],
+   "answer": 1,
+   "rule": "Comparing with <b>than</b> needs the comparative: <b>harder</b>. <b>Hardly</b> means 'almost not'."
+  },
+  {
+   "qid": "c6-6.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Make a sentence in the past continuous.",
+   "answer": [
+    "Newton",
+    "was",
+    "sitting",
+    "in",
+    "the",
+    "student's",
+    "room."
+   ],
+   "alts": [],
+   "rule": "Past continuous: <b>was + -ing</b>; <b>the student's room</b> = the room of the student."
+  },
+  {
+   "qid": "c6-6.5-48",
+   "type": "build",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "lend",
+    "me",
+    "your",
+    "notes?"
+   ],
+   "alts": [],
+   "rule": "Polite request: <b>Could you + base verb + me + thing?</b>"
+  },
+  {
+   "qid": "c6-6.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Newton",
+     "What will people do with the extra time?"
+    ]
+   ],
+   "options": [
+    "They will spends it on things they enjoy.",
+    "They spending it on things they enjoy.",
+    "They will spend it on things they enjoy."
+   ],
+   "answer": 2,
+   "rule": "A <b>will</b> question gets a <b>will</b> answer: <b>will spend</b> (base verb after will)."
+  },
+  {
+   "qid": "c6-6.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "count_uncount",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did you find any information about Newton's life?"
+    ]
+   ],
+   "options": [
+    "Yes, I found a little information.",
+    "Yes, I found a few informations.",
+    "Yes, I found a few information."
+   ],
+   "answer": 0,
+   "rule": "<b>Information</b> cannot be counted: no -s, and use <b>a little</b>, not <b>a few</b>."
+  }
+ ]
+}

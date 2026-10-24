@@ -1,0 +1,1196 @@
+{
+ "class": 10,
+ "id": "05",
+ "title": "Joan of Arc",
+ "topics": [
+  {
+   "tag": "phrasal_verbs",
+   "name": "Phrasal verbs (break out, carry out, look forward to)"
+  },
+  {
+   "tag": "affirmative_negative",
+   "name": "Negative to affirmative without change of meaning"
+  },
+  {
+   "tag": "word_forms",
+   "name": "Word forms (noun, verb, adjective, adverb)"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported (indirect) speech"
+  },
+  {
+   "tag": "unless",
+   "name": "Conditions with 'unless'"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-05-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The match was called of because of rain.",
+    "The match was call off because of rain.",
+    "The match was called off because of rain."
+   ],
+   "answer": 2,
+   "rule": "<b>call off</b> = cancel. Passive: was <b>called off</b>."
+  },
+  {
+   "qid": "c10-05-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Joan spoke confidently to the captain.",
+    "Joan spoke confident to the captain.",
+    "Joan spoke confidence to the captain."
+   ],
+   "answer": 0,
+   "rule": "To tell how she spoke, use the adverb: spoke <b>confidently</b>."
+  },
+  {
+   "qid": "c10-05-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Thieves",
+    "broke",
+    "out",
+    "the",
+    "locked",
+    "house",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "into",
+      "of",
+      "with"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>break into</b> = enter a place by force. Break out = start suddenly (a fire, a war)."
+  },
+  {
+   "qid": "c10-05-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Joan",
+    "was",
+    "a",
+    "very",
+    "courage",
+    "girl",
+    "from",
+    "Lorraine."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "courageously",
+      "courageous",
+      "encourage"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before the noun girl we need an adjective: <b>courageous</b>. Courage is a noun."
+  },
+  {
+   "qid": "c10-05-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Robert asked the steward where the girl",
+   "after": "at that moment.",
+   "options": [
+    "was",
+    "were",
+    "did"
+   ],
+   "answer": 0,
+   "rule": "Reported question after asked: past tense, normal order. The girl is singular: <b>was</b>."
+  },
+  {
+   "qid": "c10-05-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "unless",
+   "prompt": "Fill in the gap.",
+   "before": "Unless it",
+   "after": "tonight, we will play the final tomorrow.",
+   "options": [
+    "will rain",
+    "rained",
+    "rains"
+   ],
+   "answer": 2,
+   "rule": "In the <b>unless</b> clause about the future, use the simple present: unless it <b>rains</b>."
+  },
+  {
+   "qid": "c10-05-07",
+   "type": "build",
+   "level": 1,
+   "topic": "phrasal_verbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Please",
+    "carry",
+    "on",
+    "with",
+    "your",
+    "work."
+   ],
+   "alts": [],
+   "rule": "<b>carry on with</b> = continue. Please carry on with your work."
+  },
+  {
+   "qid": "c10-05-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did the Kabaddi team play today?"
+    ]
+   ],
+   "options": [
+    "They played very successfully.",
+    "They played very successful.",
+    "They played very success."
+   ],
+   "answer": 0,
+   "rule": "<b>played</b> how? Use the adverb: <b>successfully</b>."
+  },
+  {
+   "qid": "c10-05-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "unless",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "Will you come for practice this evening?"
+    ]
+   ],
+   "options": [
+    "Yes, unless it will rain heavily.",
+    "Yes, unless it rains heavily.",
+    "Yes, unless it rained heavily."
+   ],
+   "answer": 1,
+   "rule": "For a future condition, <b>unless</b> takes the simple present: unless it <b>rains</b>."
+  },
+  {
+   "qid": "c10-05-10",
+   "type": "change",
+   "level": 1,
+   "topic": "affirmative_negative",
+   "prompt": "Make it affirmative without changing the meaning.",
+   "source": "I don't remember.",
+   "options": [
+    "I forgets.",
+    "I forget.",
+    "I am forget."
+   ],
+   "answer": 1,
+   "rule": "do not remember = <b>forget</b>. With I, use the base form: I forget."
+  },
+  {
+   "qid": "c10-05-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Joan said that she is being seventeen.",
+    "Joan said that she were seventeen.",
+    "Joan said that she was seventeen."
+   ],
+   "answer": 2,
+   "rule": "After <b>said</b>, the present is changed to the past: she <b>was</b> seventeen."
+  },
+  {
+   "qid": "c10-05-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "unless",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Unless you are not honest, nobody will trust you.",
+    "Unless you will be honest, nobody will trust you.",
+    "Unless you are honest, nobody will trust you."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> already means if not, so never add not. Use the simple present after it."
+  },
+  {
+   "qid": "c10-05-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "steward",
+    "retreated",
+    "hasty",
+    "from",
+    "the",
+    "captain's",
+    "room."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "haste",
+      "hasten",
+      "hastily"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Retreated how? Use the adverb <b>hastily</b> (hasty is an adjective)."
+  },
+  {
+   "qid": "c10-05-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "look",
+    "forward",
+    "to",
+    "meet",
+    "you",
+    "at",
+    "the",
+    "match."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "meeting",
+      "met",
+      "meets"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In <b>look forward to</b>, to is a preposition, so the verb takes -ing: look forward to <b>meeting</b>."
+  },
+  {
+   "qid": "c10-05-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "A fire broke",
+   "after": "in the old market late at night.",
+   "options": [
+    "into",
+    "up",
+    "out"
+   ],
+   "answer": 2,
+   "rule": "<b>break out</b> = start suddenly (a fire, a war, an epidemic)."
+  },
+  {
+   "qid": "c10-05-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Her brave words were a great",
+   "after": "to the soldiers.",
+   "options": [
+    "inspire",
+    "inspiration",
+    "inspiring"
+   ],
+   "answer": 1,
+   "rule": "After <b>a great</b> we need a noun: <b>inspiration</b>."
+  },
+  {
+   "qid": "c10-05-17",
+   "type": "build",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Joan",
+    "told",
+    "the",
+    "captain",
+    "that",
+    "she",
+    "needed",
+    "a",
+    "horse."
+   ],
+   "alts": [],
+   "rule": "Reported statement: <b>told</b> + person + <b>that</b> + subject + past verb."
+  },
+  {
+   "qid": "c10-05-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "unless",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Will you come with us to Granny's tomorrow?"
+    ]
+   ],
+   "options": [
+    "I will, unless I will have a cricket match.",
+    "I will, unless I have a cricket match.",
+    "I will, unless I had a cricket match."
+   ],
+   "answer": 1,
+   "rule": "Future condition with <b>unless</b>: use the simple present (unless I <b>have</b>)."
+  },
+  {
+   "qid": "c10-05-19",
+   "type": "change",
+   "level": 2,
+   "topic": "affirmative_negative",
+   "prompt": "Make it affirmative without changing the meaning.",
+   "source": "He will not be able to stop them.",
+   "options": [
+    "He will be unable to stop them.",
+    "He will be not able to stop them.",
+    "He will be disable to stop them."
+   ],
+   "answer": 0,
+   "rule": "not able = <b>unable</b>. The sentence keeps its meaning but has no 'not'."
+  },
+  {
+   "qid": "c10-05-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Robert said to Joan, 'Get out and wait in the yard.'",
+   "options": [
+    "Robert ordered Joan to get out and wait in the yard.",
+    "Robert ordered Joan to got out and wait in the yard.",
+    "Robert ordered Joan that get out and wait in the yard."
+   ],
+   "answer": 0,
+   "rule": "A command becomes <b>ordered</b> + person + <b>to</b> + base verb."
+  },
+  {
+   "qid": "c10-05-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our team ran out from ideas in the second half.",
+    "Our team ran out of ideas in the second half.",
+    "Our team run out of ideas in the second half yesterday."
+   ],
+   "answer": 1,
+   "rule": "<b>run out of</b> = have nothing left. Past tense: <b>ran</b> out of."
+  },
+  {
+   "qid": "c10-05-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nothing can harmful us if we stay together.",
+    "Nothing can harm us if we stay together.",
+    "Nothing can harmless us if we stay together."
+   ],
+   "answer": 1,
+   "rule": "After <b>can</b> we need a verb: <b>harm</b>. Harmful and harmless are adjectives."
+  },
+  {
+   "qid": "c10-05-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "unless",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Unless",
+    "Kabir",
+    "leaves",
+    "now,",
+    "he",
+    "will",
+    "missed",
+    "the",
+    "last",
+    "bus."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "miss",
+      "missing",
+      "misses"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Unless + present, then <b>will + base verb</b> in the main clause: will <b>miss</b>."
+  },
+  {
+   "qid": "c10-05-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The captain asked Joan how old",
+   "after": "and who had sent her.",
+   "options": [
+    "was she",
+    "is she",
+    "she was"
+   ],
+   "answer": 2,
+   "rule": "In a reported question, use statement order and the past: how old <b>she was</b>."
+  },
+  {
+   "qid": "c10-05-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "A good soldier must carry",
+   "after": "his duty faithfully.",
+   "options": [
+    "out",
+    "off",
+    "away"
+   ],
+   "answer": 0,
+   "rule": "<b>carry out</b> = do or complete (a duty, an order, a plan)."
+  },
+  {
+   "qid": "c10-05-26",
+   "type": "build",
+   "level": 3,
+   "topic": "unless",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Nobody",
+    "will",
+    "believe",
+    "her",
+    "unless",
+    "the",
+    "captain",
+    "agrees."
+   ],
+   "alts": [],
+   "rule": "Main clause + <b>unless</b> + simple present: unless the captain <b>agrees</b>."
+  },
+  {
+   "qid": "c10-05-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did the teacher tell you?"
+    ]
+   ],
+   "options": [
+    "She told me that bring my notebook tomorrow.",
+    "She said me to bring my notebook tomorrow.",
+    "She told me to bring my notebook tomorrow."
+   ],
+   "answer": 2,
+   "rule": "Reported request: <b>told me to</b> + base verb. We say told me, not said me."
+  },
+  {
+   "qid": "c10-05-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "phrasal_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Why are you searching through your bag?"
+    ]
+   ],
+   "options": [
+    "I am look for my lost pen.",
+    "I am looking for my lost pen.",
+    "I am looking for my lose pen."
+   ],
+   "answer": 1,
+   "rule": "<b>look for</b> = search. Present continuous: am <b>looking for</b>; lost pen (past participle as adjective)."
+  },
+  {
+   "qid": "c10-05-29",
+   "type": "change",
+   "level": 3,
+   "topic": "unless",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If the captain does not help her, Joan cannot reach the Dauphin.",
+   "options": [
+    "Unless the captain does not help her, Joan cannot reach the Dauphin.",
+    "Unless the captain helps her, Joan cannot reach the Dauphin.",
+    "Unless the captain will help her, Joan cannot reach the Dauphin."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> = if not, so drop does not: unless the captain <b>helps</b> her."
+  },
+  {
+   "qid": "c10-05-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Joan",
+    "was",
+    "a",
+    "brave",
+    "girl",
+    "from",
+    "Lorraine.",
+    "She",
+    "succeed",
+    "in",
+    "getting",
+    "a",
+    "horse",
+    "because",
+    "her",
+    "words",
+    "were",
+    "so",
+    "inspire",
+    "that",
+    "the",
+    "captain",
+    "agreed."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "succeeded",
+      "success",
+      "successful"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "inspiration",
+      "inspires",
+      "inspiring"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past story: she <b>succeeded</b>. After were so, use an adjective: so <b>inspiring</b>."
+  },
+  {
+   "qid": "c10-05-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Joan told Robert that Polly and Jack had promised to come with her.",
+    "Joan said Robert that Polly and Jack had promised to come with her.",
+    "Joan told Robert that Polly and Jack has promised to come with her."
+   ],
+   "answer": 0,
+   "rule": "<b>told</b> + person; have promised becomes <b>had promised</b> in reported speech."
+  },
+  {
+   "qid": "c10-05-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "captain",
+    "finally",
+    "agreed,",
+    "and",
+    "Joan",
+    "smiled",
+    "bright",
+    "at",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "brighter",
+      "brightness",
+      "brightly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Smiled how? Use the adverb: smiled <b>brightly</b>."
+  },
+  {
+   "qid": "c10-05-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "don't",
+    "cut",
+    "on",
+    "before",
+    "I",
+    "have",
+    "finished",
+    "speaking."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "in",
+      "into",
+      "by"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>cut in</b> = interrupt someone who is speaking."
+  },
+  {
+   "qid": "c10-05-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "unless",
+   "prompt": "Fill in the gap.",
+   "before": "Poulengey will take her to Chinon unless the captain",
+   "after": "him.",
+   "options": [
+    "will stop",
+    "stopped",
+    "stops"
+   ],
+   "answer": 2,
+   "rule": "Main clause in the future, <b>unless</b> clause in the simple present: unless the captain <b>stops</b> him."
+  },
+  {
+   "qid": "c10-05-35",
+   "type": "build",
+   "level": 4,
+   "topic": "phrasal_verbs",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "match",
+    "has",
+    "been",
+    "called",
+    "off."
+   ],
+   "alts": [],
+   "rule": "Present perfect passive of call off: <b>has been called off</b>."
+  },
+  {
+   "qid": "c10-05-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Arjun ask you?"
+    ]
+   ],
+   "options": [
+    "He asked me whether had I finished the project.",
+    "He asked me whether I had finished the project.",
+    "He asked me whether I have finish the project."
+   ],
+   "answer": 1,
+   "rule": "Reported yes/no question: <b>whether</b> + subject + verb, tense moved back: I <b>had finished</b>."
+  },
+  {
+   "qid": "c10-05-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Do you think we can beat them in the final?"
+    ]
+   ],
+   "options": [
+    "Yes, if we play fearless.",
+    "Yes, if we play fearlessly.",
+    "Yes, if we plays fearlessly."
+   ],
+   "answer": 1,
+   "rule": "Play how? Adverb: <b>fearlessly</b>. With we, use play (not plays)."
+  },
+  {
+   "qid": "c10-05-38",
+   "type": "change",
+   "level": 4,
+   "topic": "affirmative_negative",
+   "prompt": "Make it affirmative without changing the meaning.",
+   "source": "I shall not want many soldiers.",
+   "options": [
+    "I shall want only a few soldiers.",
+    "I shall want only few soldiers.",
+    "I shall wants only a few soldiers."
+   ],
+   "answer": 0,
+   "rule": "not many = <b>only a few</b>. After shall, use the base verb want."
+  },
+  {
+   "qid": "c10-05-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Joan said, 'I have arranged it all.'",
+   "options": [
+    "Joan said that I had arranged it all.",
+    "Joan said that she had arrange it all.",
+    "Joan said that she had arranged it all."
+   ],
+   "answer": 2,
+   "rule": "I becomes <b>she</b>; have arranged becomes <b>had arranged</b>."
+  },
+  {
+   "qid": "c10-05-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Robert",
+    "asked",
+    "the",
+    "steward",
+    "why",
+    "he",
+    "had",
+    "not",
+    "throw",
+    "the",
+    "girl",
+    "out.",
+    "The",
+    "steward",
+    "said",
+    "that",
+    "the",
+    "soldiers",
+    "was",
+    "not",
+    "afraid",
+    "of",
+    "her,",
+    "but",
+    "she",
+    "put",
+    "courage",
+    "into",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "thrown",
+      "threw",
+      "throwing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "had not + past participle: <b>thrown</b>. Soldiers is plural, past: <b>were</b>."
+  },
+  {
+   "qid": "c10-05-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "unless",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Unless the soldiers believe in themselves, they will keep running away.",
+    "Unless the soldiers will believe in themselves, they will keep running away.",
+    "Unless the soldiers believed in themselves, they will keep running away."
+   ],
+   "answer": 0,
+   "rule": "Future result with will; the <b>unless</b> clause takes the simple present: unless they <b>believe</b>."
+  },
+  {
+   "qid": "c10-05-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Joan's",
+    "determination",
+    "and",
+    "deep",
+    "faith",
+    "made",
+    "her",
+    "successfully",
+    "where",
+    "others",
+    "had",
+    "failed."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "success",
+      "successful",
+      "successive"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>made her</b> + adjective describes her: made her <b>successful</b>."
+  },
+  {
+   "qid": "c10-05-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Robert asked Joan whether she",
+   "after": "ever seen English soldiers fighting.",
+   "options": [
+    "has",
+    "had",
+    "have"
+   ],
+   "answer": 1,
+   "rule": "Have you ever seen...? becomes whether she <b>had</b> ever seen (tense moves back)."
+  },
+  {
+   "qid": "c10-05-44",
+   "type": "build",
+   "level": 5,
+   "topic": "unless",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Nothing",
+    "can",
+    "save",
+    "France",
+    "unless",
+    "a",
+    "miracle",
+    "happens."
+   ],
+   "alts": [],
+   "rule": "Main clause + <b>unless</b> + simple present: unless a miracle <b>happens</b>."
+  },
+  {
+   "qid": "c10-05-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What did your coach say after the match?"
+    ]
+   ],
+   "options": [
+    "He said that we had played well and that he is proud of we.",
+    "He said that we have played good and that he was proud of us.",
+    "He said that we had played well and that he was proud of us."
+   ],
+   "answer": 2,
+   "rule": "Tenses move back: <b>had played</b>, <b>was</b> proud. After of, use the object pronoun <b>us</b>."
+  },
+  {
+   "qid": "c10-05-46",
+   "type": "change",
+   "level": 5,
+   "topic": "affirmative_negative",
+   "prompt": "Make it affirmative without changing the meaning.",
+   "source": "There is no one who does not admire Joan.",
+   "options": [
+    "Everyone admire Joan.",
+    "Everyone admires Joan.",
+    "Everyone does admires Joan."
+   ],
+   "answer": 1,
+   "rule": "no one who does not = <b>everyone</b>. Everyone is singular: <b>admires</b>."
+  },
+  {
+   "qid": "c10-05-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Robert said to Poulengey, 'Do you take her idea seriously?'",
+   "options": [
+    "Robert asked Poulengey if he took her idea seriously.",
+    "Robert asked Poulengey if did he take her idea seriously.",
+    "Robert said Poulengey if he took her idea seriously."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: <b>asked</b> + <b>if</b> + subject + past verb (he took)."
+  },
+  {
+   "qid": "c10-05-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Unless",
+    "the",
+    "soldiers",
+    "stop",
+    "running",
+    "away,",
+    "nothing",
+    "will",
+    "saves",
+    "France.",
+    "Joan",
+    "was",
+    "very",
+    "determination",
+    "to",
+    "teach",
+    "them",
+    "to",
+    "fight,",
+    "and",
+    "she",
+    "looked",
+    "forward",
+    "to",
+    "free",
+    "Orleans."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "saved",
+      "saving",
+      "save"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 13,
+     "options": [
+      "determine",
+      "determining",
+      "determined"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 24,
+     "options": [
+      "freed",
+      "freeing",
+      "frees"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "will + base verb: <b>save</b>. very + adjective: <b>determined</b>. looked forward to + -ing: <b>freeing</b>."
+  },
+  {
+   "qid": "c10-05-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "captain",
+    "asked",
+    "Joan",
+    "what",
+    "she",
+    "wants",
+    "and",
+    "where",
+    "she",
+    "came",
+    "from.",
+    "She",
+    "said",
+    "him",
+    "that",
+    "the",
+    "soldiers",
+    "called",
+    "her",
+    "the",
+    "Maid",
+    "and",
+    "that",
+    "she",
+    "has",
+    "come",
+    "to",
+    "save",
+    "France."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "want",
+      "wanted",
+      "wanting"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "told",
+      "says",
+      "spoke"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Tenses move back: she <b>wanted</b>, she <b>had</b> come. With a person after it, use <b>told</b> him, not said him."
+  },
+  {
+   "qid": "c10-05-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "phrasal_verbs",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "team",
+    "was",
+    "afraid",
+    "from",
+    "losing,",
+    "but",
+    "our",
+    "captain",
+    "refused",
+    "to",
+    "gave",
+    "in.",
+    "Her",
+    "words",
+    "put",
+    "fire",
+    "into",
+    "us,",
+    "and",
+    "in",
+    "the",
+    "end",
+    "we",
+    "carried",
+    "of",
+    "the",
+    "trophy."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "of",
+      "for",
+      "to"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 11,
+     "options": [
+      "given",
+      "giving",
+      "give"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "at",
+      "to",
+      "off"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "afraid <b>of</b>; refused to <b>give</b> in (to + base verb); <b>carry off</b> a trophy = win it."
+  }
+ ]
+}

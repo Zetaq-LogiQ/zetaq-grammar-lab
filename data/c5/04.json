@@ -1,0 +1,1015 @@
+{
+ "class": 5,
+ "id": "04",
+ "title": "Strawberries",
+ "topics": [
+  {
+   "tag": "comparison",
+   "name": "Adjectives: -er / -est"
+  },
+  {
+   "tag": "plurals",
+   "name": "Singular and plural nouns"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-04-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Wild strawberries are sweeter than garden ones.",
+    "Wild strawberries are more sweeter than garden ones.",
+    "Wild strawberries are sweetest than garden ones."
+   ],
+   "answer": 0,
+   "rule": "To compare two things, add <b>-er</b> and use <b>than</b>: sweeter than. Never use more with -er."
+  },
+  {
+   "qid": "c5-04-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Sana picked three strawberry today.",
+    "Sana picked three strawberries today.",
+    "Sana picked three strawberrys today."
+   ],
+   "answer": 1,
+   "rule": "A word ending in consonant + <b>y</b> changes y to <b>ies</b>: strawberry - strawberries."
+  },
+  {
+   "qid": "c5-04-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera ate an apple after lunch.",
+    "Meera ate a apple after lunch.",
+    "Meera ate apple after lunch."
+   ],
+   "answer": 0,
+   "rule": "Use <b>an</b> before a vowel sound: <b>an apple</b>."
+  },
+  {
+   "qid": "c5-04-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Six",
+    "juicy",
+    "strawberry",
+    "are",
+    "lying",
+    "in",
+    "the",
+    "bowl."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "strawberry's",
+      "berry",
+      "strawberries"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Six</b> means more than one, so the noun must be plural: <b>strawberries</b>."
+  },
+  {
+   "qid": "c5-04-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "wild",
+    "berry",
+    "is",
+    "much",
+    "sweet",
+    "than",
+    "a",
+    "garden",
+    "berry."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "sweeter",
+      "sweetest",
+      "sweetly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>much ... than</b> compares two things, so use the -er form: <b>much sweeter than</b>."
+  },
+  {
+   "qid": "c5-04-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Wild strawberries ripen",
+   "after": "June.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 1,
+   "rule": "Use <b>in</b> with months: <b>in June</b>, in May."
+  },
+  {
+   "qid": "c5-04-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa grows",
+   "after": "orange tree in his garden.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>orange</b> begins with a vowel sound, so use <b>an</b>: an orange tree."
+  },
+  {
+   "qid": "c5-04-08",
+   "type": "build",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Mangoes",
+    "are",
+    "much",
+    "bigger",
+    "than",
+    "strawberries."
+   ],
+   "alts": [],
+   "rule": "Compare two things with <b>-er + than</b>: bigger than."
+  },
+  {
+   "qid": "c5-04-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How many strawberries did you pick?"
+    ]
+   ],
+   "options": [
+    "I picked ten strawberries.",
+    "I picked ten strawberry.",
+    "I pick ten strawberrys."
+   ],
+   "answer": 0,
+   "rule": "<b>ten</b> needs a plural noun: <b>strawberries</b>. The question is in the past, so <b>picked</b>."
+  },
+  {
+   "qid": "c5-04-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What would you like after lunch?"
+    ]
+   ],
+   "options": [
+    "I would like a apple, please.",
+    "I would like an apples, please.",
+    "I would like an apple, please."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> goes before one thing starting with a vowel sound: <b>an apple</b> (not an apples)."
+  },
+  {
+   "qid": "c5-04-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The berries are hiding under of the leaves.",
+    "The berries are hiding at under the leaves.",
+    "The berries are hiding under the leaves."
+   ],
+   "answer": 2,
+   "rule": "<b>under</b> is a preposition on its own: under the leaves. Don't add of or at."
+  },
+  {
+   "qid": "c5-04-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Of all the fruits in the basket, the watermelon is the heavier.",
+    "Of all the fruits in the basket, the watermelon is the most heaviest.",
+    "Of all the fruits in the basket, the watermelon is the heaviest."
+   ],
+   "answer": 2,
+   "rule": "For one out of many (<b>of all</b>), use the <b>-est</b> form: the heaviest."
+  },
+  {
+   "qid": "c5-04-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandpa",
+    "was",
+    "born",
+    "on",
+    "June,",
+    "the",
+    "month",
+    "of",
+    "wild",
+    "berries."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "at",
+      "in",
+      "of"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>in</b> with months: born <b>in June</b>. (We use on with days and dates.)"
+  },
+  {
+   "qid": "c5-04-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "little",
+    "mouses",
+    "ran",
+    "under",
+    "the",
+    "strawberry",
+    "bushes."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "mice",
+      "mouse",
+      "man"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Some plurals are irregular: one mouse, two <b>mice</b>."
+  },
+  {
+   "qid": "c5-04-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "A ripe strawberry is",
+   "after": "than a green one.",
+   "options": [
+    "softer",
+    "softest",
+    "soft"
+   ],
+   "answer": 0,
+   "rule": "Two things compared with <b>than</b> take the -er form: <b>softer than</b>."
+  },
+  {
+   "qid": "c5-04-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer carried two",
+   "after": "of strawberries to the market.",
+   "options": [
+    "box",
+    "boxes",
+    "boxed"
+   ],
+   "answer": 1,
+   "rule": "Nouns ending in <b>x</b> add <b>-es</b> for the plural: box - <b>boxes</b>."
+  },
+  {
+   "qid": "c5-04-17",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "berries",
+    "grow",
+    "beside",
+    "a",
+    "stream."
+   ],
+   "alts": [],
+   "rule": "<b>beside</b> means next to. It comes before the place: beside a stream."
+  },
+  {
+   "qid": "c5-04-18",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "ate",
+    "an",
+    "apple",
+    "in",
+    "the",
+    "garden."
+   ],
+   "alts": [],
+   "rule": "<b>an</b> goes before apple (vowel sound); <b>the</b> points to a particular garden."
+  },
+  {
+   "qid": "c5-04-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which is bigger, a strawberry or a mango?"
+    ]
+   ],
+   "options": [
+    "A mango is more bigger than a strawberry.",
+    "A mango is biggest than a strawberry.",
+    "A mango is bigger than a strawberry."
+   ],
+   "answer": 2,
+   "rule": "Two things: use <b>bigger than</b>. Don't add more, and -est is for one out of many."
+  },
+  {
+   "qid": "c5-04-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where is the bowl of cream?"
+    ]
+   ],
+   "options": [
+    "It is in the fridge, behind of the milk.",
+    "It is in the fridge, behind the milk.",
+    "It is in the fridge, at behind the milk."
+   ],
+   "answer": 1,
+   "rule": "<b>behind</b> needs no extra word: behind the milk."
+  },
+  {
+   "qid": "c5-04-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "This strawberry is the juiciest of all.",
+    "This strawberry is the juicier of all.",
+    "This strawberry is the most juiciest of all."
+   ],
+   "answer": 0,
+   "rule": "<b>of all</b> means one out of many, so use <b>-est</b>: juicy - <b>juiciest</b> (y changes to i)."
+  },
+  {
+   "qid": "c5-04-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The leafs of the strawberry plant are green.",
+    "The leaves of the strawberry plant are green.",
+    "The leaves of the strawberry plant is green."
+   ],
+   "answer": 1,
+   "rule": "leaf - <b>leaves</b> (f changes to ves). A plural subject takes <b>are</b>."
+  },
+  {
+   "qid": "c5-04-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "We had picnic by the stream in June.",
+    "We had an picnic by the stream in June.",
+    "We had a picnic by the stream in June."
+   ],
+   "answer": 2,
+   "rule": "<b>picnic</b> starts with a consonant sound, so use <b>a</b>: a picnic. One countable thing needs an article."
+  },
+  {
+   "qid": "c5-04-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ananya's",
+    "basket",
+    "is",
+    "the",
+    "heavier",
+    "of",
+    "all",
+    "the",
+    "baskets."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "heavy",
+      "heavily",
+      "heaviest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>of all</b> means one out of many, so use the -est form: <b>the heaviest</b>."
+  },
+  {
+   "qid": "c5-04-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Three",
+    "childs",
+    "are",
+    "picking",
+    "berries",
+    "beside",
+    "the",
+    "stream."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "child",
+      "child's",
+      "children"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "child has an irregular plural: <b>children</b>, never childs."
+  },
+  {
+   "qid": "c5-04-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The cat is sleeping",
+   "after": "the two strawberry bushes.",
+   "options": [
+    "between",
+    "from",
+    "into"
+   ],
+   "answer": 0,
+   "rule": "Use <b>between</b> for a place in the middle of two things."
+  },
+  {
+   "qid": "c5-04-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Our guide at the farm was",
+   "after": "honest old man.",
+   "options": [
+    "a",
+    "an",
+    "some"
+   ],
+   "answer": 1,
+   "rule": "The <b>h</b> in honest is silent, so it starts with a vowel sound: <b>an honest</b> man."
+  },
+  {
+   "qid": "c5-04-28",
+   "type": "build",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "picked",
+    "berries",
+    "in",
+    "the",
+    "woods."
+   ],
+   "alts": [],
+   "rule": "<b>children</b> is the plural of child; <b>berries</b> is the plural of berry."
+  },
+  {
+   "qid": "c5-04-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you see at the farm?"
+    ]
+   ],
+   "options": [
+    "I saw two sheep and three geese.",
+    "I saw two sheeps and three geese.",
+    "I saw two sheep and three gooses."
+   ],
+   "answer": 0,
+   "rule": "Irregular plurals: one sheep - two <b>sheep</b>; one goose - three <b>geese</b>."
+  },
+  {
+   "qid": "c5-04-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Was the wild berry sweet?"
+    ]
+   ],
+   "options": [
+    "Yes, it was more sweeter than the berries from the shop.",
+    "Yes, it was sweeter than the berries from the shop.",
+    "Yes, it was sweetest than the berries from the shop."
+   ],
+   "answer": 1,
+   "rule": "Comparing with <b>than</b> needs only the -er form: <b>sweeter than</b>."
+  },
+  {
+   "qid": "c5-04-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday we picked the ripest berries we could find.",
+    "Yesterday we pick the ripest berries we could find.",
+    "Yesterday we picked the most ripest berries we could find."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> needs the past: <b>picked</b>. Use <b>ripest</b> alone, never most ripest."
+  },
+  {
+   "qid": "c5-04-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The strawberries in this box is fresh.",
+    "The strawberry in this box are fresh.",
+    "The strawberries in this box are fresh."
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>strawberries</b> (plural), so use <b>are</b>. One strawberry would take is."
+  },
+  {
+   "qid": "c5-04-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "had",
+    "our",
+    "strawberry",
+    "picnic",
+    "at",
+    "Sunday",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "in",
+      "on",
+      "of"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>on</b> with days: <b>on Sunday</b>, on Sunday morning."
+  },
+  {
+   "qid": "c5-04-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "berries",
+    "were",
+    "gooder",
+    "than",
+    "the",
+    "ones",
+    "from",
+    "the",
+    "shop."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "better",
+      "best",
+      "well"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "good is irregular: good - <b>better</b> - best. There is no word gooder."
+  },
+  {
+   "qid": "c5-04-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Fill in the gap.",
+   "before": "The two baskets",
+   "after": "full of berries an hour ago.",
+   "options": [
+    "was",
+    "is",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "A plural subject (<b>two baskets</b>) in the past takes <b>were</b>."
+  },
+  {
+   "qid": "c5-04-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Last week, Sohan ate",
+   "after": "unripe strawberry and made a face.",
+   "options": [
+    "a",
+    "many",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>unripe</b> starts with a vowel sound, so use <b>an</b>: an unripe strawberry."
+  },
+  {
+   "qid": "c5-04-37",
+   "type": "build",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ravi",
+    "jumped",
+    "into",
+    "the",
+    "cold",
+    "stream."
+   ],
+   "alts": [],
+   "rule": "<b>into</b> shows movement from outside to inside: jumped into the stream."
+  },
+  {
+   "qid": "c5-04-38",
+   "type": "build",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "fruit",
+    "is",
+    "the",
+    "sweetest",
+    "of",
+    "all?"
+   ],
+   "alts": [
+    [
+     "Which",
+     "is",
+     "the",
+     "sweetest",
+     "fruit",
+     "of",
+     "all?"
+    ]
+   ],
+   "rule": "One out of all needs <b>the + -est</b>: the sweetest of all."
+  },
+  {
+   "qid": "c5-04-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Did you buy strawberries at the market?"
+    ]
+   ],
+   "options": [
+    "Yes, I bought two boxes of strawberries.",
+    "Yes, I buyed two boxes of strawberries.",
+    "Yes, I bought two box of strawberries."
+   ],
+   "answer": 0,
+   "rule": "buy - <b>bought</b> (irregular past). <b>two</b> needs a plural: boxes."
+  },
+  {
+   "qid": "c5-04-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Where did you find these berries?"
+    ]
+   ],
+   "options": [
+    "I founded them beside the stream in the woods.",
+    "I found them beside the stream in the woods.",
+    "I found it beside the stream in the woods."
+   ],
+   "answer": 1,
+   "rule": "find - <b>found</b>. Berries are many, so use <b>them</b>. <b>beside</b> the stream, <b>in</b> the woods."
+  },
+  {
+   "qid": "c5-04-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Of the three baskets, Meera's was the heavier, and Sam's was lighter than Anu's.",
+    "Of the three baskets, Meera's was the heaviest, and Sam's was lighter than Anu's.",
+    "Of the three baskets, Meera's was the heaviest, and Sam's was more lighter than Anu's."
+   ],
+   "answer": 1,
+   "rule": "One out of three needs <b>-est</b> (heaviest); two compared with than need <b>-er</b> only (lighter)."
+  },
+  {
+   "qid": "c5-04-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A hour later, a farmer gave us an umbrella and a bowl of cream.",
+    "An hour later, a farmer gave us an umbrella and a bowl of cream.",
+    "An hour later, a farmer gave us a umbrella and a bowl of cream."
+   ],
+   "answer": 1,
+   "rule": "Go by the sound: <b>an hour</b> (silent h), <b>an umbrella</b> (vowel), <b>a farmer</b>, <b>a bowl</b>."
+  },
+  {
+   "qid": "c5-04-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "strawberry",
+    "fields",
+    "near",
+    "Panchgani",
+    "are",
+    "full",
+    "of",
+    "busy",
+    "womans",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "women",
+      "woman",
+      "woman's"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "woman has an irregular plural: <b>women</b>."
+  },
+  {
+   "qid": "c5-04-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "wild",
+    "berries",
+    "were",
+    "small,",
+    "but",
+    "they",
+    "tasted",
+    "sweetest",
+    "than",
+    "the",
+    "plump",
+    "garden",
+    "ones."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "sweet",
+      "sweetly",
+      "sweeter"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>than</b> compares two groups, so use the -er form: tasted <b>sweeter than</b>."
+  },
+  {
+   "qid": "c5-04-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The strawberry farm is closed on Mondays, so let us go there",
+   "after": "Tuesday morning instead.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Days take <b>on</b>, even with a part of the day: <b>on Tuesday morning</b>."
+  },
+  {
+   "qid": "c5-04-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Pinky's strawberry jam is good, but Grandma's is the",
+   "after": "jam I have ever tasted.",
+   "options": [
+    "better",
+    "good",
+    "best"
+   ],
+   "answer": 2,
+   "rule": "<b>the ... I have ever tasted</b> means top of all, so use the -est form: good - better - <b>best</b>."
+  },
+  {
+   "qid": "c5-04-47",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Rahul",
+    "picked",
+    "the",
+    "biggest",
+    "berry",
+    "of",
+    "all."
+   ],
+   "alts": [],
+   "rule": "One out of all: <b>the biggest</b> (g is doubled before -est)."
+  },
+  {
+   "qid": "c5-04-48",
+   "type": "build",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "An",
+    "owl",
+    "was",
+    "sitting",
+    "on",
+    "a",
+    "branch."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> before owl (vowel sound); <b>a</b> before branch (consonant sound)."
+  },
+  {
+   "qid": "c5-04-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "We picked strawberries at Mahabaleshwar today!"
+    ],
+    [
+     "Ma",
+     "Were they sweeter than the ones from the shop?"
+    ]
+   ],
+   "options": [
+    "Yes, they were much sweeter and juicier than those.",
+    "Yes, they were much sweeter and more juicier than those.",
+    "Yes, they was much sweeter and juicier than those."
+   ],
+   "answer": 0,
+   "rule": "Use <b>juicier</b>, not more juicier. <b>they</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c5-04-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What should we pack for the picnic?"
+    ]
+   ],
+   "options": [
+    "Let's pack a umbrella, a mat and some berries.",
+    "Let's pack an umbrella, a mat and some berries.",
+    "Let's pack an umbrella, an mat and some berries."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> before a vowel sound (an umbrella), <b>a</b> before a consonant sound (a mat)."
+  }
+ ]
+}

@@ -1,0 +1,1148 @@
+{
+ "class": 9,
+ "id": "03",
+ "title": "Have you ever seen...?",
+ "topics": [
+  {
+   "tag": "questions",
+   "name": "Questions with Have / Does / Are / Can and wh-words"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect with ever, never, since, for"
+  },
+  {
+   "tag": "tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "deduction",
+   "name": "Modals of deduction (must, can't, must have)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-03-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Does your brother play the guitar?",
+    "Does your brother plays the guitar?",
+    "Do your brother play the guitar?"
+   ],
+   "answer": 0,
+   "rule": "Use <b>does</b> with a singular subject, and after <b>does</b> the verb is in the base form: <b>play</b>."
+  },
+  {
+   "qid": "c9-03-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Have you ever saw a rainbow at night?",
+    "Have you ever seen a rainbow at night?",
+    "Did you ever seen a rainbow at night?"
+   ],
+   "answer": 1,
+   "rule": "Present perfect = <b>have + past participle</b>: <b>Have you ever seen</b>...?"
+  },
+  {
+   "qid": "c9-03-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "the",
+    "hands",
+    "of",
+    "the",
+    "clock",
+    "moves",
+    "at",
+    "night?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "moved",
+      "moving",
+      "move"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>do/does</b> in a question, the main verb is in the base form: <b>Do the hands ... move</b>?"
+  },
+  {
+   "qid": "c9-03-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rahul",
+    "has",
+    "never",
+    "visit",
+    "a",
+    "hill",
+    "station",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "visited",
+      "visiting",
+      "visits"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect = <b>has + past participle</b>: <b>has never visited</b>."
+  },
+  {
+   "qid": "c9-03-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "tags",
+   "prompt": "Fill in the gap.",
+   "before": "Your garden is lovely,",
+   "after": "?",
+   "options": [
+    "is it",
+    "isn't it",
+    "doesn't it"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>is</b> takes a negative tag with <b>is</b>: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c9-03-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "your sister like mangoes?",
+   "options": [
+    "Does",
+    "Do",
+    "Is"
+   ],
+   "answer": 0,
+   "rule": "<b>Your sister</b> is singular, and <b>like</b> is a base verb, so the question starts with <b>Does</b>."
+  },
+  {
+   "qid": "c9-03-07",
+   "type": "build",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Have",
+    "you",
+    "ever",
+    "climbed",
+    "a",
+    "mountain?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Have + subject + ever + past participle</b>."
+  },
+  {
+   "qid": "c9-03-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Have you seen my blue pen?"
+    ]
+   ],
+   "options": [
+    "No, I haven't seen it today.",
+    "No, I didn't seen it today.",
+    "No, I haven't saw it today."
+   ],
+   "answer": 0,
+   "rule": "Answer in the same tense: <b>haven't + past participle</b> = <b>haven't seen</b>."
+  },
+  {
+   "qid": "c9-03-09",
+   "type": "change",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Change into a question.",
+   "source": "Your grandfather has seen a tiger.",
+   "options": [
+    "Have your grandfather seen a tiger?",
+    "Has your grandfather saw a tiger?",
+    "Has your grandfather seen a tiger?"
+   ],
+   "answer": 2,
+   "rule": "Move the helper <b>has</b> before the subject. The participle <b>seen</b> stays."
+  },
+  {
+   "qid": "c9-03-10",
+   "type": "change",
+   "level": 1,
+   "topic": "tags",
+   "prompt": "Add a question tag.",
+   "source": "The garden hose is new.",
+   "options": [
+    "The garden hose is new, is it?",
+    "The garden hose is new, doesn't it?",
+    "The garden hose is new, isn't it?"
+   ],
+   "answer": 2,
+   "rule": "Positive sentence with <b>is</b> takes a negative tag: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c9-03-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Manu can swim, can he?",
+    "Manu can swim, can't he?",
+    "Manu can swim, doesn't he?"
+   ],
+   "answer": 1,
+   "rule": "The tag repeats the helper <b>can</b> and turns it negative: <b>can't he?</b>"
+  },
+  {
+   "qid": "c9-03-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Why don't the bus stop here?",
+    "Why doesn't the bus stops here?",
+    "Why doesn't the bus stop here?"
+   ],
+   "answer": 2,
+   "rule": "Singular <b>the bus</b> takes <b>doesn't</b>, followed by the base verb <b>stop</b>."
+  },
+  {
+   "qid": "c9-03-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Your",
+    "aunt",
+    "lives",
+    "in",
+    "Nagpur,",
+    "don't",
+    "she?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "isn't",
+      "didn't",
+      "doesn't"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>She lives</b> is simple present, singular, so the tag uses <b>does</b>: <b>doesn't she?</b>"
+  },
+  {
+   "qid": "c9-03-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "have",
+    "lived",
+    "in",
+    "Pune",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "from",
+      "for",
+      "during"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (five years) and <b>since</b> with a starting point (2019)."
+  },
+  {
+   "qid": "c9-03-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "deduction",
+   "prompt": "Fill in the gap.",
+   "before": "The lights are on, so Asha",
+   "after": "be at home.",
+   "options": [
+    "must",
+    "must to",
+    "is must"
+   ],
+   "answer": 0,
+   "rule": "The lights are a strong clue, so use <b>must</b> + base verb for a sure guess: <b>must be</b>. Never <b>must to</b> or <b>is must</b>."
+  },
+  {
+   "qid": "c9-03-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "I have",
+   "after": "eaten sushi. Is it tasty?",
+   "options": [
+    "ever",
+    "never",
+    "yet"
+   ],
+   "answer": 1,
+   "rule": "In a statement use <b>never</b> (not <b>ever</b>) for 'not at any time': <b>I have never eaten</b>."
+  },
+  {
+   "qid": "c9-03-17",
+   "type": "build",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "often",
+    "does",
+    "Meena",
+    "visit",
+    "her",
+    "grandparents?"
+   ],
+   "alts": [],
+   "rule": "Wh-question: <b>How often + does + subject + base verb</b>."
+  },
+  {
+   "qid": "c9-03-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Has the parcel arrived yet?"
+    ]
+   ],
+   "options": [
+    "Yes, it arrived an hour ago.",
+    "Yes, it has arrived an hour ago.",
+    "Yes, it arrive an hour ago."
+   ],
+   "answer": 0,
+   "rule": "With a finished past time like <b>an hour ago</b>, use the simple past: <b>it arrived</b>."
+  },
+  {
+   "qid": "c9-03-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sam",
+     "You're coming to the match, aren't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I do. You will save me a seat, won't you?",
+    "Yes, I am. You will save me a seat, won't you?",
+    "Yes, I am. You will save me a seat, don't you?"
+   ],
+   "answer": 1,
+   "rule": "Short answer matches <b>are coming</b>: <b>Yes, I am</b>. The tag for <b>will</b> is <b>won't you?</b>"
+  },
+  {
+   "qid": "c9-03-20",
+   "type": "change",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Change into a negative sentence.",
+   "source": "Neha has seen the new film.",
+   "options": [
+    "Neha has not saw the new film.",
+    "Neha does not has seen the new film.",
+    "Neha has not seen the new film."
+   ],
+   "answer": 2,
+   "rule": "Put <b>not</b> after <b>has</b>. The past participle <b>seen</b> stays."
+  },
+  {
+   "qid": "c9-03-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi must has left early; his bag is not here.",
+    "Ravi must have left early; his bag is not here.",
+    "Ravi must have leave early; his bag is not here."
+   ],
+   "answer": 1,
+   "rule": "Deduction about the past: <b>must have + past participle</b> = <b>must have left</b>."
+  },
+  {
+   "qid": "c9-03-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "does",
+    "your",
+    "cousin",
+    "buys",
+    "her",
+    "shoes?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "bought",
+      "buying",
+      "buy"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Does</b> already carries the -s, so the main verb is the base form: <b>does ... buy</b>."
+  },
+  {
+   "qid": "c9-03-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nobody",
+    "from",
+    "the",
+    "school",
+    "has",
+    "called",
+    "today,",
+    "hasn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "haven't",
+      "has",
+      "have"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Nobody</b> is negative, so the tag is positive, and it uses <b>they</b> with <b>have</b>: <b>have they?</b>"
+  },
+  {
+   "qid": "c9-03-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Fill in the gap.",
+   "before": "The ground is wet. It",
+   "after": "have rained last night.",
+   "options": [
+    "must to",
+    "must",
+    "has"
+   ],
+   "answer": 1,
+   "rule": "The wet ground is strong evidence, so use <b>must have + past participle</b>: <b>must have rained</b> (no <b>to</b> after <b>must</b>)."
+  },
+  {
+   "qid": "c9-03-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Arjun has worked at this bakery",
+   "after": "2019.",
+   "options": [
+    "for",
+    "since",
+    "from"
+   ],
+   "answer": 1,
+   "rule": "With the present perfect, use <b>since</b> + a starting point (a year, a date)."
+  },
+  {
+   "qid": "c9-03-26",
+   "type": "build",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "Make a suggestion with a question tag.",
+   "answer": [
+    "Let's",
+    "fly",
+    "a",
+    "kite,",
+    "shall",
+    "we?"
+   ],
+   "alts": [],
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c9-03-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where is your brother? His shoes are gone."
+    ]
+   ],
+   "options": [
+    "He must have gone to the park.",
+    "He must had gone to the park.",
+    "He must have went to the park."
+   ],
+   "answer": 0,
+   "rule": "Deduction about the past: <b>must have + past participle</b>. The participle of <b>go</b> is <b>gone</b>."
+  },
+  {
+   "qid": "c9-03-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "I went to Mumbai last weekend."
+    ]
+   ],
+   "options": [
+    "Really? What did you saw there?",
+    "Really? What you did see there?",
+    "Really? What did you see there?"
+   ],
+   "answer": 2,
+   "rule": "Past wh-question: <b>What + did + subject + base verb</b>: What did you <b>see</b>?"
+  },
+  {
+   "qid": "c9-03-29",
+   "type": "change",
+   "level": 3,
+   "topic": "tags",
+   "prompt": "Add a question tag.",
+   "source": "Rina never misses school.",
+   "options": [
+    "Rina never misses school, does she?",
+    "Rina never misses school, doesn't she?",
+    "Rina never misses school, did she?"
+   ],
+   "answer": 0,
+   "rule": "<b>Never</b> makes the sentence negative, so the tag is positive: <b>does she?</b>"
+  },
+  {
+   "qid": "c9-03-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Have",
+    "you",
+    "ever",
+    "tasted",
+    "mango",
+    "ice",
+    "cream?",
+    "My",
+    "sister",
+    "Rani",
+    "have",
+    "never",
+    "tried",
+    "it.",
+    "Does",
+    "she",
+    "likes",
+    "cold",
+    "food",
+    "at",
+    "all?"
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "has",
+      "is",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "liked",
+      "like",
+      "liking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Rani</b> is singular: <b>has never tried</b>. After <b>does</b>, use the base verb <b>like</b>."
+  },
+  {
+   "qid": "c9-03-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "The children played well yesterday, didn't they?",
+    "The children played well yesterday, don't they?",
+    "The children played well yesterday, did they?"
+   ],
+   "answer": 0,
+   "rule": "<b>Played</b> is simple past and positive, so the tag is <b>didn't they?</b>"
+  },
+  {
+   "qid": "c9-03-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "I have visited Shimla in 2022.",
+    "I have visit Shimla in 2022.",
+    "I visited Shimla in 2022."
+   ],
+   "answer": 2,
+   "rule": "A finished time like <b>in 2022</b> needs the simple past (<b>visited</b>), not the present perfect."
+  },
+  {
+   "qid": "c9-03-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "deduction",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kabir",
+    "can't",
+    "have",
+    "broke",
+    "the",
+    "window;",
+    "he",
+    "was",
+    "in",
+    "Delhi."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "broken",
+      "breaking",
+      "breaks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Can't have</b> + past participle shows something impossible in the past: <b>can't have broken</b>."
+  },
+  {
+   "qid": "c9-03-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Neither of the boys",
+   "after": "seen a real volcano.",
+   "options": [
+    "has",
+    "have been",
+    "having"
+   ],
+   "answer": 0,
+   "rule": "<b>Neither of</b> takes a singular verb, and present perfect is <b>has + past participle</b>: <b>has seen</b>."
+  },
+  {
+   "qid": "c9-03-35",
+   "type": "build",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Has",
+    "Grandma",
+    "taken",
+    "her",
+    "medicine",
+    "yet?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Has + subject + past participle</b>; <b>yet</b> comes at the end."
+  },
+  {
+   "qid": "c9-03-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Is this your umbrella?"
+    ]
+   ],
+   "options": [
+    "No, it can't be my; mine is red.",
+    "No, it can't be mine; my is red.",
+    "No, it can't be mine; mine is red."
+   ],
+   "answer": 2,
+   "rule": "Use the possessive pronoun <b>mine</b> when no noun follows: <b>it can't be mine</b>; <b>mine is red</b>."
+  },
+  {
+   "qid": "c9-03-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arun",
+     "Have you finished the book I lent you?"
+    ]
+   ],
+   "options": [
+    "Yes, I have finished it last night. It was brilliant!",
+    "Yes, I finish it last night. It was brilliant!",
+    "Yes, I finished it last night. It was brilliant!"
+   ],
+   "answer": 2,
+   "rule": "<b>Last night</b> is a finished time, so use the simple past: <b>I finished it</b>."
+  },
+  {
+   "qid": "c9-03-38",
+   "type": "change",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Make a wh-question to get the words in brackets as the answer.",
+   "source": "Meera has lived in Nashik (for six years).",
+   "options": [
+    "How long Meera has lived in Nashik?",
+    "How long has Meera lived in Nashik?",
+    "How long has Meera live in Nashik?"
+   ],
+   "answer": 1,
+   "rule": "<b>For six years</b> answers <b>How long</b>. Then put <b>has</b> before the subject: How long <b>has Meera lived</b>?"
+  },
+  {
+   "qid": "c9-03-39",
+   "type": "change",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Change into the present perfect tense.",
+   "source": "Dev reads the newspaper.",
+   "options": [
+    "Dev has read the newspaper.",
+    "Dev have read the newspaper.",
+    "Dev has readed the newspaper."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>has + past participle</b>. The participle of <b>read</b> is <b>read</b>."
+  },
+  {
+   "qid": "c9-03-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "tags",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Have",
+    "you",
+    "ever",
+    "went",
+    "to",
+    "Ooty?",
+    "We",
+    "went",
+    "there",
+    "last",
+    "May.",
+    "The",
+    "tea",
+    "gardens",
+    "is",
+    "so",
+    "green,",
+    "aren't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "going",
+      "been",
+      "goes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Present perfect: <b>Have you ever been</b>. Plural <b>tea gardens</b> takes <b>are</b>, matching the tag <b>aren't they</b>."
+  },
+  {
+   "qid": "c9-03-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "I am late again, am not I?",
+    "I am late again, aren't I?",
+    "I am late again, isn't I?"
+   ],
+   "answer": 1,
+   "rule": "The tag for <b>I am</b> is the special form <b>aren't I?</b>"
+  },
+  {
+   "qid": "c9-03-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hardly",
+    "anyone",
+    "came",
+    "to",
+    "the",
+    "school",
+    "fair,",
+    "didn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "does",
+      "was",
+      "did"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Hardly</b> makes the sentence negative, so the tag is positive, and <b>anyone</b> takes <b>they</b>: <b>did they?</b>"
+  },
+  {
+   "qid": "c9-03-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Seldom",
+   "after": "such a funny poem.",
+   "options": [
+    "I have read",
+    "have I read",
+    "have I readed"
+   ],
+   "answer": 1,
+   "rule": "After a negative word like <b>Seldom</b> at the start, the helper comes before the subject: <b>Seldom have I read</b>."
+  },
+  {
+   "qid": "c9-03-44",
+   "type": "build",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Somebody",
+    "must",
+    "have",
+    "eaten",
+    "the",
+    "last",
+    "laddoo."
+   ],
+   "alts": [],
+   "rule": "Deduction about the past: <b>must have + past participle</b> = <b>must have eaten</b>."
+  },
+  {
+   "qid": "c9-03-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why is Rohan's seat empty? He is never late."
+    ]
+   ],
+   "options": [
+    "He must have missed the bus.",
+    "He must missed the bus.",
+    "He must have miss the bus."
+   ],
+   "answer": 0,
+   "rule": "A guess about the past uses <b>must have + past participle</b>: <b>must have missed</b>."
+  },
+  {
+   "qid": "c9-03-46",
+   "type": "change",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Change into an assertive sentence.",
+   "source": "Has anyone ever seen a needle wink?",
+   "options": [
+    "No one has never seen a needle wink.",
+    "No one have ever seen a needle wink.",
+    "No one has ever seen a needle wink."
+   ],
+   "answer": 2,
+   "rule": "The rhetorical question means 'nobody'. Use <b>No one has ever</b> (no double negative), with singular <b>has</b>."
+  },
+  {
+   "qid": "c9-03-47",
+   "type": "change",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Rewrite using 'can't have'.",
+   "source": "I am sure Meena did not take your book.",
+   "options": [
+    "Meena can't have took your book.",
+    "Meena can't have taken your book.",
+    "Meena must have taken your book."
+   ],
+   "answer": 1,
+   "rule": "Being sure something did not happen = <b>can't have + past participle</b>: <b>can't have taken</b>."
+  },
+  {
+   "qid": "c9-03-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "deduction",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Somebody",
+    "must",
+    "have",
+    "went",
+    "into",
+    "the",
+    "garden",
+    "at",
+    "night.",
+    "Grandpa's",
+    "two",
+    "rose",
+    "bushes",
+    "has",
+    "been",
+    "trampled.",
+    "It",
+    "can't",
+    "have",
+    "been",
+    "our",
+    "dog,",
+    "because",
+    "he",
+    "always",
+    "sleep",
+    "inside."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "go",
+      "gone",
+      "going"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "is",
+      "was",
+      "have"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "sleeping",
+      "slept",
+      "sleeps"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>must have gone</b> (past participle); <b>two ... bushes have been</b> (plural); <b>he always sleeps</b> (singular, present habit)."
+  },
+  {
+   "qid": "c9-03-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Why",
+    "does",
+    "the",
+    "wing",
+    "of",
+    "a",
+    "building",
+    "never",
+    "flies",
+    "away?",
+    "Has",
+    "anyone",
+    "ever",
+    "seen",
+    "it",
+    "flap?",
+    "My",
+    "friend",
+    "and",
+    "I",
+    "has",
+    "wondered",
+    "about",
+    "this",
+    "for",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "flew",
+      "flying",
+      "fly"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "have",
+      "is",
+      "am"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b> use the base verb <b>fly</b>. <b>My friend and I</b> is plural: <b>have wondered</b>."
+  },
+  {
+   "qid": "c9-03-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "You",
+    "have",
+    "never",
+    "been",
+    "to",
+    "a",
+    "birch",
+    "forest,",
+    "have",
+    "you?",
+    "I",
+    "go",
+    "to",
+    "one",
+    "in",
+    "Kashmir",
+    "two",
+    "years",
+    "ago.",
+    "The",
+    "bark",
+    "of",
+    "every",
+    "birch",
+    "tree",
+    "were",
+    "white",
+    "and",
+    "papery."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "went",
+      "have",
+      "gone"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "been",
+      "was",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two years ago</b> needs the simple past: <b>I went</b>. The subject <b>the bark</b> is singular: <b>was</b>."
+  }
+ ]
+}

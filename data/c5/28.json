@@ -1,0 +1,1010 @@
+{
+ "class": 5,
+ "id": "28",
+ "title": "All about Money",
+ "topics": [
+  {
+   "tag": "conj",
+   "name": "Joining words: and, but, because, so"
+  },
+  {
+   "tag": "past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "plural",
+   "name": "Singular and plural nouns"
+  },
+  {
+   "tag": "imper",
+   "name": "Instructions and polite words"
+  },
+  {
+   "tag": "prep",
+   "name": "Prepositions in, on, at"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-28-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Long ago, people used shells as money.",
+    "Long ago, people uses shells as money.",
+    "Long ago, people using shells as money."
+   ],
+   "answer": 0,
+   "rule": "<b>Long ago</b> shows the past, so use the past form: <b>used</b>."
+  },
+  {
+   "qid": "c5-28-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plural",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer has two goat.",
+    "The farmer has two goats.",
+    "The farmer have two goats."
+   ],
+   "answer": 1,
+   "rule": "<b>Two</b> means more than one, so the noun is plural: <b>goats</b>. One farmer takes <b>has</b>."
+  },
+  {
+   "qid": "c5-28-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Long",
+    "ago,",
+    "people",
+    "exchange",
+    "cattle",
+    "for",
+    "clothes",
+    "and",
+    "tools."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "exchanging",
+      "exchanges",
+      "exchanged"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Long ago</b> is past time, so the verb must be in the past: <b>exchanged</b>."
+  },
+  {
+   "qid": "c5-28-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "plural",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena",
+    "counted",
+    "all",
+    "of",
+    "the",
+    "coin",
+    "in",
+    "her",
+    "piggy",
+    "bank."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "note",
+      "coined",
+      "coins"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>All of the</b> is followed by a plural noun: <b>all of the coins</b>."
+  },
+  {
+   "qid": "c5-28-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "conj",
+   "prompt": "Fill in the gap.",
+   "before": "Sita wanted to buy a car,",
+   "after": "she had no money.",
+   "options": [
+    "but",
+    "because",
+    "so"
+   ],
+   "answer": 0,
+   "rule": "The two ideas are opposite (wanted a car / no money), so we join them with <b>but</b>."
+  },
+  {
+   "qid": "c5-28-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "plural",
+   "prompt": "Fill in the gap.",
+   "before": "Three",
+   "after": "were selling grain at the market.",
+   "options": [
+    "woman",
+    "women",
+    "woman's"
+   ],
+   "answer": 1,
+   "rule": "The plural of <b>woman</b> is <b>women</b> (no -s). Three needs the plural."
+  },
+  {
+   "qid": "c5-28-07",
+   "type": "build",
+   "level": 1,
+   "topic": "imper",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Do",
+    "not",
+    "tear",
+    "the",
+    "notes."
+   ],
+   "alts": [],
+   "rule": "An instruction starts with the verb. For 'don't', use <b>Do not</b> + verb: <b>Do not tear</b>."
+  },
+  {
+   "qid": "c5-28-08",
+   "type": "build",
+   "level": 1,
+   "topic": "past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Long",
+    "ago,",
+    "people",
+    "did",
+    "not",
+    "use",
+    "coins."
+   ],
+   "alts": [],
+   "rule": "In the past negative, use <b>did not</b> + base verb: <b>did not use</b>."
+  },
+  {
+   "qid": "c5-28-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What did people use as money long ago?"
+    ]
+   ],
+   "options": [
+    "They use shells and special stones.",
+    "They using shells and special stones.",
+    "They used shells and special stones."
+   ],
+   "answer": 2,
+   "rule": "The question is about the past (<b>did</b> ... long ago), so answer in the past: <b>used</b>."
+  },
+  {
+   "qid": "c5-28-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "imper",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What should I tell your little brother about the new note?"
+    ]
+   ],
+   "options": [
+    "Tell him not to fold it.",
+    "Tell him not folding it.",
+    "Tells him not to fold it."
+   ],
+   "answer": 0,
+   "rule": "An instruction starts with the base verb: <b>Tell him</b>. Then use <b>not to</b> + verb: <b>not to fold</b>."
+  },
+  {
+   "qid": "c5-28-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He was angry, but he did not fought.",
+    "He was angry, but he not fight.",
+    "He was angry, but he did not fight."
+   ],
+   "answer": 2,
+   "rule": "<b>but</b> joins two opposite ideas. In the past negative use <b>did not</b> + base verb: <b>did not fight</b>."
+  },
+  {
+   "qid": "c5-28-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "plural",
+   "prompt": "Pick the sentence with the correct plurals.",
+   "options": [
+    "Our village has many sheeps and goats.",
+    "Our village has many sheep and goat.",
+    "Our village has many sheep and goats."
+   ],
+   "answer": 2,
+   "rule": "<b>Sheep</b> stays the same in the plural. <b>Goat</b> becomes <b>goats</b>."
+  },
+  {
+   "qid": "c5-28-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "imper",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Please don't writes on the notes.",
+    "Please don't write on the notes.",
+    "Please not write on the notes."
+   ],
+   "answer": 1,
+   "rule": "A polite 'don't' instruction is <b>Please don't</b> + base verb: <b>don't write</b>."
+  },
+  {
+   "qid": "c5-28-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week,",
+    "Grandpa",
+    "give",
+    "me",
+    "an",
+    "old",
+    "silver",
+    "coin."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "given",
+      "gave",
+      "gives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last week</b> is past time. The past of <b>give</b> is <b>gave</b>."
+  },
+  {
+   "qid": "c5-28-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "It",
+    "was",
+    "raining",
+    "heavily,",
+    "because",
+    "we",
+    "stayed",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "so",
+      "but",
+      "or"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The rain is the reason; staying at home is the result. A result is joined with <b>so</b>."
+  },
+  {
+   "qid": "c5-28-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "past",
+   "prompt": "Fill in the gap.",
+   "before": "Long ago, a farmer",
+   "after": "two goats for a new plough.",
+   "options": [
+    "gave",
+    "give",
+    "gives"
+   ],
+   "answer": 0,
+   "rule": "<b>Long ago</b> shows the past. The past of <b>give</b> is <b>gave</b>."
+  },
+  {
+   "qid": "c5-28-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "plural",
+   "prompt": "Fill in the gap.",
+   "before": "We collected ten",
+   "after": "on the beach.",
+   "options": [
+    "shell",
+    "shells",
+    "shell's"
+   ],
+   "answer": 1,
+   "rule": "<b>Ten</b> means many, so add -s: <b>shells</b>. <b>shell's</b> shows belonging, not plural."
+  },
+  {
+   "qid": "c5-28-18",
+   "type": "build",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Join the ideas with 'but'.",
+   "answer": [
+    "Ravi",
+    "was",
+    "angry,",
+    "but",
+    "he",
+    "did",
+    "not",
+    "fight."
+   ],
+   "alts": [],
+   "rule": "<b>but</b> joins two opposite ideas: he was angry, <b>but</b> he did not fight."
+  },
+  {
+   "qid": "c5-28-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why didn't you buy the storybook, Neha?"
+    ]
+   ],
+   "options": [
+    "I didn't bought it because I had no money with me.",
+    "I didn't buy it because I has no money with me.",
+    "I didn't buy it because I had no money with me."
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> gives the reason. Use <b>didn't buy</b> (base verb) and <b>I had</b>."
+  },
+  {
+   "qid": "c5-28-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "plural",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How many cows does Uncle have on his farm?"
+    ]
+   ],
+   "options": [
+    "He has five cows and two calves.",
+    "He has five cow and two calves.",
+    "He has five cows and two calfs."
+   ],
+   "answer": 0,
+   "rule": "<b>cow</b> becomes <b>cows</b>; <b>calf</b> changes f to v: <b>calves</b>."
+  },
+  {
+   "qid": "c5-28-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "They did not had money, but they lived happily.",
+    "They did not have money, but they lived happily.",
+    "They does not have money, but they lived happily."
+   ],
+   "answer": 1,
+   "rule": "Use <b>did not have</b> (base verb after did). <b>but</b> joins the two opposite ideas."
+  },
+  {
+   "qid": "c5-28-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past",
+   "prompt": "Pick the sentence with the correct verbs.",
+   "options": [
+    "The king's men brought gold and keep it safe.",
+    "The king's men brought gold and kept it safe.",
+    "The king's men bringed gold and kept it safe."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past: <b>bring - brought</b>, <b>keep - kept</b>. 'Bringed' is not a word."
+  },
+  {
+   "qid": "c5-28-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "plural",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "old",
+    "coins",
+    "was",
+    "found",
+    "near",
+    "the",
+    "river",
+    "last",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These coins</b> is plural and <b>last year</b> is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c5-28-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "saved",
+    "money",
+    "for",
+    "months",
+    "and",
+    "buy",
+    "a",
+    "cricket",
+    "bat."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "buys",
+      "buying",
+      "bought"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Verbs joined by <b>and</b> keep the same tense: <b>saved ... and bought</b>."
+  },
+  {
+   "qid": "c5-28-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conj",
+   "prompt": "Fill in the gap.",
+   "before": "We should not crumple notes",
+   "after": "they get damaged easily.",
+   "options": [
+    "so",
+    "because",
+    "but"
+   ],
+   "answer": 1,
+   "rule": "Getting damaged is the reason we should not crumple them. A reason is joined with <b>because</b>."
+  },
+  {
+   "qid": "c5-28-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "past",
+   "prompt": "Fill in the gap.",
+   "before": "Mother",
+   "after": "the torn note to the bank and changed it.",
+   "options": [
+    "take",
+    "took",
+    "taken"
+   ],
+   "answer": 1,
+   "rule": "<b>changed</b> shows the past, so use <b>took</b>. 'Taken' needs a helper like has."
+  },
+  {
+   "qid": "c5-28-27",
+   "type": "build",
+   "level": 3,
+   "topic": "imper",
+   "prompt": "Make a polite instruction.",
+   "answer": [
+    "Please",
+    "keep",
+    "your",
+    "money",
+    "in",
+    "a",
+    "safe",
+    "place."
+   ],
+   "alts": [],
+   "rule": "A polite instruction: <b>Please</b> + verb: <b>Please keep</b> ..."
+  },
+  {
+   "qid": "c5-28-28",
+   "type": "build",
+   "level": 3,
+   "topic": "plural",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "bought",
+    "two",
+    "boxes",
+    "of",
+    "sweets."
+   ],
+   "alts": [],
+   "rule": "<b>child - children</b>, <b>box - boxes</b> (add -es after x), <b>sweet - sweets</b>."
+  },
+  {
+   "qid": "c5-28-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Did you go to the bank with your dad yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, I did. We opened my first savings account.",
+    "Yes, I went. We open my first savings account.",
+    "Yes, I did. We opens my first savings account."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> is past, so the reply needs the past: <b>We opened</b>."
+  },
+  {
+   "qid": "c5-28-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "imper",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Sorry, I cannot take this torn note."
+    ]
+   ],
+   "options": [
+    "Oh, sorry! Please takes this new note instead.",
+    "Oh, sorry! Please taking this new note instead.",
+    "Oh, sorry! Please take this new note instead."
+   ],
+   "answer": 2,
+   "rule": "After <b>Please</b> in a request, use the base verb: <b>Please take</b>."
+  },
+  {
+   "qid": "c5-28-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "plural",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Notes are lighter than bricks of salt.",
+    "Notes are more lighter than bricks of salt.",
+    "Notes is lighter than bricks of salt."
+   ],
+   "answer": 0,
+   "rule": "<b>Notes</b> is plural, so use <b>are</b>. Short adjectives add -er: <b>lighter</b>, never 'more lighter'."
+  },
+  {
+   "qid": "c5-28-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An old man gave me a ancient coin.",
+    "An old man gived me an ancient coin.",
+    "An old man gave me an ancient coin."
+   ],
+   "answer": 2,
+   "rule": "The past of <b>give</b> is <b>gave</b>. Use <b>an</b> before a vowel sound: <b>an ancient coin</b>."
+  },
+  {
+   "qid": "c5-28-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neha has a piggy bank, and she saves coins in it.",
+    "Neha have a piggy bank, and she saves coins in it.",
+    "Neha has a piggy bank, and she save coins in it."
+   ],
+   "answer": 0,
+   "rule": "<b>and</b> joins two ideas. With she/Neha use <b>has</b> and <b>saves</b>."
+  },
+  {
+   "qid": "c5-28-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Paper",
+    "money",
+    "was",
+    "first",
+    "used",
+    "on",
+    "China",
+    "about",
+    "1000",
+    "years",
+    "ago."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "at",
+      "to",
+      "in"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>in</b> with countries and cities: <b>in China</b>, <b>in Mumbai</b>."
+  },
+  {
+   "qid": "c5-28-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "plural",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gold",
+    "and",
+    "silver",
+    "is",
+    "precious",
+    "metals."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "was",
+      "are",
+      "am"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two things joined by <b>and</b> make a plural subject, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-28-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "conj",
+   "prompt": "Fill in the gap.",
+   "before": "The note was old and torn,",
+   "after": "the shopkeeper did not take it.",
+   "options": [
+    "so",
+    "because",
+    "but"
+   ],
+   "answer": 0,
+   "rule": "The torn note is the reason; not taking it is the result. A result is joined with <b>so</b>."
+  },
+  {
+   "qid": "c5-28-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "prep",
+   "prompt": "Fill in the gap.",
+   "before": "Banks are closed",
+   "after": "Sundays.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 2,
+   "rule": "Use <b>on</b> with days: <b>on Sundays</b>, <b>on Monday</b>."
+  },
+  {
+   "qid": "c5-28-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prep",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "sister",
+    "keeps",
+    "her",
+    "coins",
+    "in",
+    "a",
+    "tin."
+   ],
+   "alts": [],
+   "rule": "<b>in</b> shows something is inside: coins <b>in a tin</b>. With sister use <b>keeps</b>."
+  },
+  {
+   "qid": "c5-28-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ammi",
+     "Where did you put the money for the milk?"
+    ]
+   ],
+   "options": [
+    "I put it on the table in the kitchen.",
+    "I putted it on the table in the kitchen.",
+    "I put it in the table on the kitchen."
+   ],
+   "answer": 0,
+   "rule": "The past of <b>put</b> is <b>put</b>. Things lie <b>on</b> a table, <b>in</b> a room."
+  },
+  {
+   "qid": "c5-28-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "Can we buy the football today?"
+    ]
+   ],
+   "options": [
+    "No, we can't. We has only fifty rupees.",
+    "No, we can't, because we have only fifty rupees.",
+    "No, we can't, because we only has fifty rupees."
+   ],
+   "answer": 1,
+   "rule": "<b>because</b> gives the reason. With <b>we</b>, use <b>have</b>, not has."
+  },
+  {
+   "qid": "c5-28-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Which sentence is fully correct?",
+   "options": [
+    "Long ago, people did not used notes because they did not know about paper money.",
+    "Long ago, people did not use notes because they did not know about paper money.",
+    "Long ago, people did not use notes because they do not knew about paper money."
+   ],
+   "answer": 1,
+   "rule": "<b>because</b> gives the reason. After <b>did not</b>, always use the base verb: <b>use</b>, <b>know</b>."
+  },
+  {
+   "qid": "c5-28-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "plural",
+   "prompt": "Pick the sentence with the correct plurals.",
+   "options": [
+    "The farmers brought sheep, oxen and baskets of fish to the market.",
+    "The farmers brought sheeps, oxen and baskets of fish to the market.",
+    "The farmers brought sheep, oxes and baskets of fish to the market."
+   ],
+   "answer": 0,
+   "rule": "Special plurals: <b>sheep - sheep</b>, <b>ox - oxen</b>, <b>fish - fish</b>."
+  },
+  {
+   "qid": "c5-28-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Kiran",
+    "opened",
+    "her",
+    "piggy",
+    "bank,",
+    "she",
+    "find",
+    "two",
+    "hundred",
+    "rupees",
+    "inside."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "finds",
+      "found",
+      "founded"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>opened</b> is past, so the other action is past too. The past of <b>find</b> is <b>found</b>."
+  },
+  {
+   "qid": "c5-28-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "plural",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "childs",
+    "in",
+    "our",
+    "class",
+    "save",
+    "part",
+    "of",
+    "their",
+    "pocket",
+    "money",
+    "every",
+    "month."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "children",
+      "child",
+      "childrens"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The plural of <b>child</b> is <b>children</b>. 'Childs' and 'childrens' are wrong."
+  },
+  {
+   "qid": "c5-28-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Fill in the gap.",
+   "before": "Vikram did not read the book,",
+   "after": "he knew the story.",
+   "options": [
+    "so",
+    "or",
+    "but"
+   ],
+   "answer": 2,
+   "rule": "Not reading the book and still knowing the story is a surprise, so join with <b>but</b>."
+  },
+  {
+   "qid": "c5-28-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "past",
+   "prompt": "Fill in the gap.",
+   "before": "The children",
+   "after": "their old toys and bought new books with the money.",
+   "options": [
+    "sell",
+    "sells",
+    "sold"
+   ],
+   "answer": 2,
+   "rule": "<b>bought</b> shows the past, so use the past of sell: <b>sold</b>."
+  },
+  {
+   "qid": "c5-28-47",
+   "type": "build",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Join the ideas with 'because'.",
+   "answer": [
+    "Notes",
+    "are",
+    "useful",
+    "because",
+    "they",
+    "weigh",
+    "little."
+   ],
+   "alts": [],
+   "rule": "<b>because</b> comes before the reason: notes are useful <b>because</b> they weigh little."
+  },
+  {
+   "qid": "c5-28-48",
+   "type": "build",
+   "level": 5,
+   "topic": "imper",
+   "prompt": "Make a polite instruction.",
+   "answer": [
+    "Please",
+    "spend",
+    "your",
+    "money",
+    "very",
+    "carefully."
+   ],
+   "alts": [],
+   "rule": "<b>Please</b> + verb makes a polite instruction. <b>very</b> comes before <b>carefully</b>."
+  },
+  {
+   "qid": "c5-28-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did people use before coins were invented?"
+    ]
+   ],
+   "options": [
+    "They exchange one thing for another. This was called barter.",
+    "They exchanged one thing for another. This were called barter.",
+    "They exchanged one thing for another. This was called barter."
+   ],
+   "answer": 2,
+   "rule": "Talk about the past in the past: <b>exchanged</b>. <b>This</b> is singular, so <b>was</b>."
+  },
+  {
+   "qid": "c5-28-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imper",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "Can I borrow your hundred-rupee note? I will return it tomorrow."
+    ]
+   ],
+   "options": [
+    "Sure, but please don't folds it, because it is new.",
+    "Sure, but please don't fold it, because it is new.",
+    "Sure, but please not fold it, because it is new."
+   ],
+   "answer": 1,
+   "rule": "A polite 'don't' request: <b>please don't</b> + base verb: <b>don't fold</b>."
+  }
+ ]
+}

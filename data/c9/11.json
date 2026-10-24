@@ -1,0 +1,1206 @@
+{
+ "class": 9,
+ "id": "11",
+ "title": "The Past in the Present",
+ "topics": [
+  {
+   "tag": "passive_voice",
+   "name": "Active and passive voice"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect and simple past"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech (commands, questions, statements)"
+  },
+  {
+   "tag": "unless_conditionals",
+   "name": "Unless and conditionals"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-11-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Neel has cleaned his room yesterday.",
+    "Neel have cleaned his room yesterday.",
+    "Neel cleaned his room yesterday."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is a finished past time, so use the simple past <b>cleaned</b>, not the present perfect."
+  },
+  {
+   "qid": "c9-11-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is in the correct passive form?",
+   "options": [
+    "The garden has been watered.",
+    "The garden has been water.",
+    "The garden have been watered."
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive: <b>has/have been</b> + past participle. <b>Garden</b> is singular: <b>has been watered</b>."
+  },
+  {
+   "qid": "c9-11-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Has",
+    "Neel",
+    "wrote",
+    "his",
+    "skit",
+    "for",
+    "the",
+    "annual",
+    "day",
+    "yet?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "writing",
+      "writes",
+      "written"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The present perfect uses <b>has</b> + past participle: has Neel <b>written</b>. <b>Wrote</b> is the simple past."
+  },
+  {
+   "qid": "c9-11-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "beds",
+    "were",
+    "make",
+    "by",
+    "the",
+    "boy",
+    "before",
+    "breakfast."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "making",
+      "makes",
+      "made"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The passive is <b>be</b> + past participle: the beds were <b>made</b>."
+  },
+  {
+   "qid": "c9-11-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The dishes",
+   "after": "put in the dishwasher.",
+   "options": [
+    "having",
+    "have been",
+    "has been"
+   ],
+   "answer": 1,
+   "rule": "Dishes cannot put themselves, so use the passive. <b>Dishes</b> is plural: <b>have been</b> put."
+  },
+  {
+   "qid": "c9-11-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "my bed already, Mom!",
+   "options": [
+    "have made",
+    "has made",
+    "having made"
+   ],
+   "answer": 0,
+   "rule": "<b>Already</b> goes with the present perfect. With <b>I</b>, use <b>have made</b>."
+  },
+  {
+   "qid": "c9-11-07",
+   "type": "build",
+   "level": 1,
+   "topic": "unless_conditionals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "You",
+    "can't",
+    "go",
+    "out",
+    "unless",
+    "you",
+    "make",
+    "your",
+    "bed."
+   ],
+   "alts": [],
+   "rule": "<b>Unless</b> means 'if ... not'. The unless-clause uses the simple present: unless you <b>make</b> your bed."
+  },
+  {
+   "qid": "c9-11-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Have you watered the plants?"
+    ]
+   ],
+   "options": [
+    "Yes, Mom. I have watered them.",
+    "Yes, Mom. I have water them.",
+    "Yes, Mom. I has watered them."
+   ],
+   "answer": 0,
+   "rule": "Answer a present perfect question with <b>I have</b> + past participle: <b>I have watered</b>."
+  },
+  {
+   "qid": "c9-11-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "unless_conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Hurry up! The bus leaves at eight."
+    ]
+   ],
+   "options": [
+    "I will miss it unless I will leave now.",
+    "I will miss it unless I leave now.",
+    "I will missed it unless I leave now."
+   ],
+   "answer": 1,
+   "rule": "Main clause: <b>will</b> + base verb. The unless-clause uses the simple present: unless I <b>leave</b>."
+  },
+  {
+   "qid": "c9-11-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Neel put the dishes in the dishwasher.",
+   "options": [
+    "The dishes was put in the dishwasher by Neel.",
+    "The dishes were put in the dishwasher by Neel.",
+    "The dishes were putted in the dishwasher by Neel."
+   ],
+   "answer": 1,
+   "rule": "Simple past passive: <b>were</b> (plural dishes) + past participle <b>put</b> (put - put - put)."
+  },
+  {
+   "qid": "c9-11-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neel's mother told him cleaning his room.",
+    "Neel's mother said him to clean his room.",
+    "Neel's mother told him to clean his room."
+   ],
+   "answer": 2,
+   "rule": "A reported command is <b>told</b> + person + <b>to</b> + verb. We say <b>told him</b>, not <b>said him</b>."
+  },
+  {
+   "qid": "c9-11-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neel has lived in Pune since five years.",
+    "Neel has lived in Pune for five years.",
+    "Neel is living in Pune since five years."
+   ],
+   "answer": 1,
+   "rule": "Use <b>for</b> with a length of time (five years) and <b>since</b> with a starting point (2020)."
+  },
+  {
+   "qid": "c9-11-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "cows",
+    "is",
+    "milked",
+    "before",
+    "sunrise",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "was",
+      "be",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both cows</b> is plural and this happens every day, so the passive is <b>are milked</b>."
+  },
+  {
+   "qid": "c9-11-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mother",
+    "ordered",
+    "her",
+    "son",
+    "to",
+    "makes",
+    "his",
+    "bed."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "make",
+      "making",
+      "made"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In a reported command, <b>to</b> is followed by the base verb: ordered her son <b>to make</b>."
+  },
+  {
+   "qid": "c9-11-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "unless_conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "You can't play Chaupar unless you",
+   "after": "your chores.",
+   "options": [
+    "will finish",
+    "finish",
+    "finished"
+   ],
+   "answer": 1,
+   "rule": "After <b>unless</b>, use the simple present for a present or future idea: unless you <b>finish</b>."
+  },
+  {
+   "qid": "c9-11-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Mom asked Neel whether he",
+   "after": "cleaned his room.",
+   "options": [
+    "has he",
+    "did",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "A reported yes/no question uses <b>whether</b> + statement order, and the tense moves back: <b>he had cleaned</b>."
+  },
+  {
+   "qid": "c9-11-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Put the words in order to make a passive sentence.",
+   "answer": [
+    "The",
+    "goats",
+    "were",
+    "taken",
+    "up",
+    "the",
+    "hill."
+   ],
+   "alts": [],
+   "rule": "Simple past passive: <b>were</b> + past participle <b>taken</b>."
+  },
+  {
+   "qid": "c9-11-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "unless_conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Shall we play cricket after lunch?"
+    ]
+   ],
+   "options": [
+    "Sure, unless it rains.",
+    "Sure, unless it will rain.",
+    "Sure, unless it rain."
+   ],
+   "answer": 0,
+   "rule": "After <b>unless</b>, use the simple present, and <b>it</b> takes <b>-s</b>: unless it <b>rains</b>."
+  },
+  {
+   "qid": "c9-11-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Mom said to Neel, \"Make your bed.\"",
+   "options": [
+    "Mom told Neel to make your bed.",
+    "Mom told Neel to make his bed.",
+    "Mom told Neel that make his bed."
+   ],
+   "answer": 1,
+   "rule": "A command becomes <b>told</b> + person + <b>to</b> + verb, and <b>your</b> changes to <b>his</b>."
+  },
+  {
+   "qid": "c9-11-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Mom,",
+    "I",
+    "have",
+    "wash",
+    "the",
+    "dishes",
+    "and",
+    "fed",
+    "the",
+    "dog.",
+    "Can",
+    "I",
+    "go",
+    "out",
+    "now?",
+    "Both",
+    "my",
+    "friends",
+    "is",
+    "waiting",
+    "for",
+    "me."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "washed",
+      "washing",
+      "washes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "be",
+      "are",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect: <b>have washed</b>. <b>Both my friends</b> is plural: <b>are waiting</b>."
+  },
+  {
+   "qid": "c9-11-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The groceries have been bring home.",
+    "The groceries has been brought home.",
+    "The groceries have been brought home."
+   ],
+   "answer": 2,
+   "rule": "<b>Groceries</b> is plural: <b>have been</b> + past participle <b>brought</b>."
+  },
+  {
+   "qid": "c9-11-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "unless_conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Unless you hurry, you will miss the puppet show.",
+    "Unless you don't hurry, you will miss the puppet show.",
+    "Unless you will hurry, you will miss the puppet show."
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> already means 'if not', so never add <b>don't</b>; and use the simple present after it."
+  },
+  {
+   "qid": "c9-11-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neel",
+    "has",
+    "known",
+    "Kabir",
+    "for",
+    "Class",
+    "1."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "during",
+      "by",
+      "since"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Class 1</b> is a starting point, so use <b>since</b>. <b>For</b> goes with a length of time (for five years)."
+  },
+  {
+   "qid": "c9-11-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The mud walls",
+   "after": "patched before the rains came.",
+   "options": [
+    "have been",
+    "had been",
+    "has been"
+   ],
+   "answer": 1,
+   "rule": "One past action happened before another (<b>the rains came</b>), so use the past perfect passive: <b>had been</b> patched."
+  },
+  {
+   "qid": "c9-11-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The boy asked his mother why he",
+   "after": "to make his bed.",
+   "options": [
+    "had",
+    "did he have",
+    "does he have"
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order and moves the tense back: why <b>he had</b> to make his bed."
+  },
+  {
+   "qid": "c9-11-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "Neel",
+    "asked",
+    "what",
+    "grinding",
+    "stones",
+    "were."
+   ],
+   "alts": [],
+   "rule": "In a reported question the verb comes after the subject: what grinding stones <b>were</b>."
+  },
+  {
+   "qid": "c9-11-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Have you ever seen a grinding stone?"
+    ]
+   ],
+   "options": [
+    "Yes, I have seen one at Nani's house last year.",
+    "Yes, I saw one at Nani's house last year.",
+    "Yes, I have saw one at Nani's house last year."
+   ],
+   "answer": 1,
+   "rule": "<b>Last year</b> is a finished time, so the reply needs the simple past: I <b>saw</b> one."
+  },
+  {
+   "qid": "c9-11-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "unless_conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Will you come to the puppet show tonight?"
+    ]
+   ],
+   "options": [
+    "I will come if Aai will let me.",
+    "I will come if Aai lets me.",
+    "I came if Aai lets me."
+   ],
+   "answer": 1,
+   "rule": "First conditional: <b>if</b> + simple present, main clause <b>will</b> + verb: I will come if Aai <b>lets</b> me."
+  },
+  {
+   "qid": "c9-11-29",
+   "type": "change",
+   "level": 3,
+   "topic": "unless_conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not try, you cannot build a robot.",
+   "options": [
+    "Unless you do not try, you cannot build a robot.",
+    "Unless you try, you cannot build a robot.",
+    "Unless you try, you can build a robot."
+   ],
+   "answer": 1,
+   "rule": "<b>If ... not</b> becomes <b>unless</b>; drop the <b>not</b> from that clause only. The main clause stays the same."
+  },
+  {
+   "qid": "c9-11-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Grandpa,",
+    "Mom",
+    "told",
+    "me",
+    "that",
+    "you",
+    "has",
+    "many",
+    "chores",
+    "as",
+    "a",
+    "boy.",
+    "Did",
+    "you",
+    "really",
+    "carries",
+    "water",
+    "from",
+    "the",
+    "well",
+    "every",
+    "day?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "having",
+      "is",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "carried",
+      "carrying",
+      "carry"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Reported past fact: <b>you had</b> many chores. After <b>did</b>, use the base verb: did you <b>carry</b>."
+  },
+  {
+   "qid": "c9-11-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Your bed must be made before you go out.",
+    "Your bed must made before you go out.",
+    "Your bed must be make before you go out."
+   ],
+   "answer": 0,
+   "rule": "Modal passive: modal + <b>be</b> + past participle: must <b>be made</b>."
+  },
+  {
+   "qid": "c9-11-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "boy",
+    "said",
+    "Matadevi",
+    "that",
+    "he",
+    "had",
+    "fed",
+    "the",
+    "poultry."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "told",
+      "spoke",
+      "talked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Told</b> takes a person directly (told Matadevi). <b>Said</b> needs <b>to</b> before the person."
+  },
+  {
+   "qid": "c9-11-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "house",
+    "was",
+    "built",
+    "with",
+    "stone",
+    "bricks",
+    "that",
+    "were",
+    "carve",
+    "by",
+    "hand."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "carving",
+      "carves",
+      "carved"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: <b>were</b> + past participle: bricks that were <b>carved</b> by hand."
+  },
+  {
+   "qid": "c9-11-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "unless_conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If I had a robot, it",
+   "after": "my bed every morning.",
+   "options": [
+    "would make",
+    "will make",
+    "would made"
+   ],
+   "answer": 0,
+   "rule": "Second conditional (imaginary): <b>if</b> + past, then <b>would</b> + base verb: it <b>would make</b>."
+  },
+  {
+   "qid": "c9-11-35",
+   "type": "build",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Have",
+    "you",
+    "ever",
+    "played",
+    "Bagh-chal",
+    "with",
+    "your",
+    "friends?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Have</b> + subject + <b>ever</b> + past participle."
+  },
+  {
+   "qid": "c9-11-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What did your mom say when you came home late?"
+    ]
+   ],
+   "options": [
+    "She asked me where had I been all evening.",
+    "She asked me where I had been all evening.",
+    "She asked me where I have been all evening."
+   ],
+   "answer": 1,
+   "rule": "Reported question: statement order (<b>I had been</b>) and the tense moves back after <b>asked</b>."
+  },
+  {
+   "qid": "c9-11-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "Who painted the backdrop for our skit?"
+    ]
+   ],
+   "options": [
+    "It was painted by Riya and I.",
+    "It was paint by Riya and me.",
+    "It was painted by Riya and me."
+   ],
+   "answer": 2,
+   "rule": "Passive: <b>was painted</b>. After <b>by</b>, use the object pronoun: by Riya and <b>me</b>."
+  },
+  {
+   "qid": "c9-11-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "I have watered the garden.",
+   "options": [
+    "The garden have been watered by me.",
+    "The garden has been watered by me.",
+    "The garden had been watered by me."
+   ],
+   "answer": 1,
+   "rule": "Present perfect passive: <b>has been</b> + past participle. Keep the same tense as the active."
+  },
+  {
+   "qid": "c9-11-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The 1910 boy said, \"I promised to go to the riverside with my friends.\"",
+   "options": [
+    "The 1910 boy said that he had promised to go to the riverside with his friends.",
+    "The 1910 boy said that I had promised to go to the riverside with my friends.",
+    "The 1910 boy said that he has promised to go to the riverside with his friends."
+   ],
+   "answer": 0,
+   "rule": "<b>I ... my</b> become <b>he ... his</b>, and the simple past <b>promised</b> moves back to <b>had promised</b>."
+  },
+  {
+   "qid": "c9-11-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this diary entry.",
+   "words": [
+    "Dear",
+    "Diary,",
+    "today",
+    "Mom",
+    "told",
+    "me",
+    "about",
+    "my",
+    "ancestors.",
+    "Every",
+    "boy",
+    "in",
+    "those",
+    "days",
+    "were",
+    "busy",
+    "with",
+    "chores.",
+    "Water",
+    "was",
+    "fetch",
+    "from",
+    "rivers",
+    "by",
+    "hand.",
+    "I",
+    "will",
+    "never",
+    "complains",
+    "about",
+    "my",
+    "chores",
+    "again!"
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "be",
+      "are",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "fetches",
+      "fetching",
+      "fetched"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 28,
+     "options": [
+      "complain",
+      "complained",
+      "complaining"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Every boy ... was</b>; passive <b>was fetched</b>; after <b>will</b>, the base verb <b>complain</b>."
+  },
+  {
+   "qid": "c9-11-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "unless_conditionals",
+   "prompt": "Pick the correct conditional sentence.",
+   "options": [
+    "If Neel would have made his bed earlier, he would have reached the park on time.",
+    "If Neel had made his bed earlier, he would reached the park on time.",
+    "If Neel had made his bed earlier, he would have reached the park on time."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>if</b> + <b>had</b> + past participle, then <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c9-11-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Now",
+    "that",
+    "every",
+    "chore",
+    "on",
+    "Mom's",
+    "list",
+    "has",
+    "been",
+    "finish",
+    "properly,",
+    "may",
+    "I",
+    "go",
+    "out?"
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "finishing",
+      "finishes",
+      "finished"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Present perfect passive: <b>has been</b> + past participle: has been <b>finished</b>."
+  },
+  {
+   "qid": "c9-11-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Neel wondered whether a robot",
+   "after": "ever make his bed for him.",
+   "options": [
+    "would",
+    "would it",
+    "does it"
+   ],
+   "answer": 0,
+   "rule": "Reported questions use statement order: whether a robot <b>would</b> ever make... - no question order inside."
+  },
+  {
+   "qid": "c9-11-44",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Put the words in order to make a passive sentence.",
+   "answer": [
+    "The",
+    "farm",
+    "channels",
+    "had",
+    "been",
+    "cleared",
+    "before",
+    "sunrise."
+   ],
+   "alts": [],
+   "rule": "Past perfect passive: <b>had been</b> + past participle: had been <b>cleared</b>."
+  },
+  {
+   "qid": "c9-11-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "unless_conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "You were late for the match. What happened?"
+    ]
+   ],
+   "options": [
+    "If I left on time, I wouldn't have missed the bus.",
+    "If I had left on time, I wouldn't have missed the bus.",
+    "If I had left on time, I won't have missed the bus."
+   ],
+   "answer": 1,
+   "rule": "For a past regret, use the third conditional: <b>if I had left</b> ..., <b>I wouldn't have missed</b>."
+  },
+  {
+   "qid": "c9-11-46",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The 1800 boy said, \"Mother, why do I have to make the beds?\"",
+   "options": [
+    "The 1800 boy asked his mother why he had to make the beds.",
+    "The 1800 boy asked his mother why did he have to make the beds.",
+    "The 1800 boy asked his mother why he has to make the beds."
+   ],
+   "answer": 0,
+   "rule": "A wh-question becomes <b>asked</b> + wh-word + statement order, with the tense moved back: why <b>he had to</b>."
+  },
+  {
+   "qid": "c9-11-47",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Who cleaned the grinding stones?",
+   "options": [
+    "By whom was the grinding stones cleaned?",
+    "By whom were the grinding stones cleaned?",
+    "By whom were the grinding stones clean?"
+   ],
+   "answer": 1,
+   "rule": "<b>Who</b> becomes <b>By whom</b>; plural stones take <b>were</b> + past participle <b>cleaned</b>."
+  },
+  {
+   "qid": "c9-11-48",
+   "type": "change",
+   "level": 5,
+   "topic": "unless_conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "You will not get a robot if you do not work hard.",
+   "options": [
+    "You will not get a robot unless you do not work hard.",
+    "You will not get a robot unless you work hard.",
+    "You will get a robot unless you work hard."
+   ],
+   "answer": 1,
+   "rule": "<b>If ... not</b> becomes <b>unless</b> + positive verb. The main clause keeps its <b>not</b>."
+  },
+  {
+   "qid": "c9-11-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Kabir!",
+    "Our",
+    "class",
+    "skit",
+    "was",
+    "a",
+    "big",
+    "hit.",
+    "The",
+    "two",
+    "nine-yard",
+    "sarees",
+    "was",
+    "borrowed",
+    "from",
+    "Nani.",
+    "You",
+    "would",
+    "have",
+    "love",
+    "it",
+    "if",
+    "you",
+    "had",
+    "came",
+    "to",
+    "watch."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "be",
+      "is",
+      "were"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 20,
+     "options": [
+      "loving",
+      "loved",
+      "loves"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 25,
+     "options": [
+      "come",
+      "coming",
+      "comes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Plural sarees: <b>were borrowed</b>. Third conditional: <b>would have loved</b> ... <b>had come</b>."
+  },
+  {
+   "qid": "c9-11-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Neel's",
+    "ancestors",
+    "did",
+    "not",
+    "had",
+    "machines.",
+    "The",
+    "cows",
+    "were",
+    "milked",
+    "by",
+    "hand,",
+    "the",
+    "goats",
+    "were",
+    "took",
+    "up",
+    "the",
+    "hill",
+    "and",
+    "the",
+    "crops",
+    "were",
+    "watered",
+    "every",
+    "day.",
+    "Now",
+    "Neel",
+    "wishes",
+    "he",
+    "have",
+    "a",
+    "robot",
+    "to",
+    "do",
+    "his",
+    "chores!"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "having",
+      "have",
+      "has"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "taken",
+      "taking",
+      "take"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 30,
+     "options": [
+      "having",
+      "had",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Did not</b> + base verb <b>have</b>; passive <b>were taken</b>; <b>wishes</b> + past for an unreal wish: he <b>had</b>."
+  }
+ ]
+}

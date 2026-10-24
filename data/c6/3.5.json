@@ -1,0 +1,991 @@
+{
+ "class": 6,
+ "id": "3.5",
+ "title": "A Book Review - Ranji the Music Maker",
+ "topics": [
+  {
+   "tag": "adjectives",
+   "name": "Adjectives (describing words)"
+  },
+  {
+   "tag": "adverbs_manner",
+   "name": "Adjective or adverb of manner"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "few_little",
+   "name": "A few / a little (countable and uncountable)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-3.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ranji found a old flute.",
+    "Ranji found an flute old.",
+    "Ranji found an old flute."
+   ],
+   "answer": 2,
+   "rule": "The adjective comes before the noun, and <b>old</b> starts with a vowel sound: <b>an old flute</b>."
+  },
+  {
+   "qid": "c6-3.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The crow sang better than Ranji.",
+    "The crow sang more better than Ranji.",
+    "The crow sang good than Ranji."
+   ],
+   "answer": 0,
+   "rule": "<b>Better</b> is already the comparative of good/well. Never say <b>more better</b>."
+  },
+  {
+   "qid": "c6-3.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "few_little",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ranji played a few notes.",
+    "Ranji played a little notes.",
+    "Ranji played a few note."
+   ],
+   "answer": 0,
+   "rule": "<b>Notes</b> can be counted, so use <b>a few</b> with a plural noun: <b>a few notes</b>."
+  },
+  {
+   "qid": "c6-3.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs_manner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cat",
+    "purred",
+    "soft",
+    "in",
+    "the",
+    "sun."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "softness",
+      "soften",
+      "softly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To tell <b>how</b> the cat purred, use an adverb: purred <b>softly</b>."
+  },
+  {
+   "qid": "c6-3.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "kitten",
+    "is",
+    "small",
+    "than",
+    "its",
+    "mother."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "smallest",
+      "smaller",
+      "tiny"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Comparing two things with <b>than</b> needs the comparative: <b>smaller than</b>."
+  },
+  {
+   "qid": "c6-3.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The big cat had",
+   "after": "eyes and black fur.",
+   "options": [
+    "green",
+    "greenly",
+    "greenest"
+   ],
+   "answer": 0,
+   "rule": "Before a noun (<b>eyes</b>) we need an adjective: <b>green</b> eyes."
+  },
+  {
+   "qid": "c6-3.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "few_little",
+   "prompt": "Fill in the gap.",
+   "before": "Please add",
+   "after": "sugar to my tea.",
+   "options": [
+    "a few",
+    "many",
+    "a little"
+   ],
+   "answer": 2,
+   "rule": "<b>Sugar</b> cannot be counted, so use <b>a little</b>."
+  },
+  {
+   "qid": "c6-3.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ranji",
+    "played",
+    "an",
+    "old",
+    "flute."
+   ],
+   "alts": [],
+   "rule": "Article + adjective + noun: <b>an old flute</b>."
+  },
+  {
+   "qid": "c6-3.5-09",
+   "type": "build",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Cats",
+    "are",
+    "smaller",
+    "than",
+    "dogs."
+   ],
+   "alts": [],
+   "rule": "Comparative + <b>than</b> compares two things: <b>smaller than</b>."
+  },
+  {
+   "qid": "c6-3.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "few_little",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ranji",
+     "Do you have any milk for the kitten?"
+    ]
+   ],
+   "options": [
+    "Yes, I have a little milk.",
+    "Yes, I have a few milk.",
+    "Yes, I have many milk."
+   ],
+   "answer": 0,
+   "rule": "<b>Milk</b> is uncountable, so use <b>a little</b>, not a few or many."
+  },
+  {
+   "qid": "c6-3.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs_manner",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ranji walked slow down the lane.",
+    "Ranji walk slowly down the lane.",
+    "Ranji walked slowly down the lane."
+   ],
+   "answer": 2,
+   "rule": "An adverb of manner describes the verb: walked <b>slowly</b>. The story is in the past: <b>walked</b>."
+  },
+  {
+   "qid": "c6-3.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the beautifulest song I know.",
+    "This is the most beautiful song I know.",
+    "This is the most beautifullest song I know."
+   ],
+   "answer": 1,
+   "rule": "Long adjectives form the superlative with <b>the most</b>: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c6-3.5-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "few_little",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "is",
+    "a",
+    "few",
+    "water",
+    "in",
+    "the",
+    "bowl."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "many",
+      "little",
+      "couple"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Water</b> is uncountable, so use <b>a little</b>, not a few."
+  },
+  {
+   "qid": "c6-3.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "It",
+    "was",
+    "a",
+    "sun",
+    "morning",
+    "in",
+    "the",
+    "mohalla."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sunnily",
+      "sunny",
+      "suns"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To describe the noun <b>morning</b>, use the adjective form: a <b>sunny</b> morning."
+  },
+  {
+   "qid": "c6-3.5-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs_manner",
+   "prompt": "Fill in the gap.",
+   "before": "The mother cat listened",
+   "after": "to the music.",
+   "options": [
+    "quiet",
+    "quietly",
+    "quieter"
+   ],
+   "answer": 1,
+   "rule": "<b>Quietly</b> is an adverb; it tells how the cat <b>listened</b>."
+  },
+  {
+   "qid": "c6-3.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The trumpet was",
+   "after": "than the flute.",
+   "options": [
+    "loud",
+    "louder",
+    "loudest"
+   ],
+   "answer": 1,
+   "rule": "Two things compared with <b>than</b>: use the comparative <b>louder</b>."
+  },
+  {
+   "qid": "c6-3.5-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adverbs_manner",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "kitten",
+    "listened",
+    "very",
+    "closely."
+   ],
+   "alts": [],
+   "rule": "The adverb comes after the verb: listened <b>very closely</b>."
+  },
+  {
+   "qid": "c6-3.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "few_little",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "have",
+    "a",
+    "little",
+    "time",
+    "left."
+   ],
+   "alts": [],
+   "rule": "<b>Time</b> is uncountable, so it takes <b>a little</b>."
+  },
+  {
+   "qid": "c6-3.5-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Which is bigger, a cat or a tiger?"
+    ]
+   ],
+   "options": [
+    "A tiger is much bigger than a cat.",
+    "A tiger is much big than a cat.",
+    "A tiger is much more bigger than a cat."
+   ],
+   "answer": 0,
+   "rule": "Short adjectives add <b>-er</b>: <b>bigger than</b>. Don't add <b>more</b> as well."
+  },
+  {
+   "qid": "c6-3.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs_manner",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did your team play today?"
+    ]
+   ],
+   "options": [
+    "We played really good and won!",
+    "We played really well and win!",
+    "We played really well and won!"
+   ],
+   "answer": 2,
+   "rule": "<b>Well</b> is the adverb of <b>good</b>: played <b>well</b>. Keep the past tense: <b>won</b>."
+  },
+  {
+   "qid": "c6-3.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The cats had greens eyes.",
+    "The cats had green eyes.",
+    "The cats had eyes greens."
+   ],
+   "answer": 1,
+   "rule": "Adjectives never take a plural <b>-s</b> and come before the noun: <b>green eyes</b>."
+  },
+  {
+   "qid": "c6-3.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "few_little",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Few people liked Ranji's music, but the cats loved it.",
+    "Few people likes Ranji's music, but the cats loved it.",
+    "A little people liked Ranji's music, but the cats loved it."
+   ],
+   "answer": 0,
+   "rule": "<b>People</b> is countable, so use <b>few</b>, and the verb stays in the past: <b>liked</b>."
+  },
+  {
+   "qid": "c6-3.5-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ranji's drum was as louder as thunder.",
+    "Ranji's drum was as loud as thunder.",
+    "Ranji's drum was as loud than thunder."
+   ],
+   "answer": 1,
+   "rule": "For equal things use <b>as</b> + plain adjective + <b>as</b>: <b>as loud as</b>."
+  },
+  {
+   "qid": "c6-3.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs_manner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ranji",
+    "was",
+    "playing",
+    "the",
+    "flute",
+    "very",
+    "bad",
+    "that",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "worse",
+      "worst",
+      "badly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To describe how he was <b>playing</b>, use the adverb <b>badly</b>."
+  },
+  {
+   "qid": "c6-3.5-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "few_little",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Only",
+    "a",
+    "little",
+    "cats",
+    "followed",
+    "Ranji",
+    "at",
+    "first."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "few",
+      "much",
+      "lot"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Cats</b> can be counted, so use <b>a few</b>, not a little."
+  },
+  {
+   "qid": "c6-3.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Ranji's playing got",
+   "after": "after a few days of practice.",
+   "options": [
+    "gooder",
+    "best",
+    "better"
+   ],
+   "answer": 2,
+   "rule": "<b>Good</b> is irregular: good, <b>better</b>, best. Here we compare before and after."
+  },
+  {
+   "qid": "c6-3.5-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The children heard a",
+   "after": "sound from the storeroom.",
+   "options": [
+    "strangely",
+    "strangeness",
+    "strange"
+   ],
+   "answer": 2,
+   "rule": "Before the noun <b>sound</b> we need an adjective: a <b>strange</b> sound."
+  },
+  {
+   "qid": "c6-3.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ranji",
+    "was",
+    "happier",
+    "than",
+    "ever",
+    "before."
+   ],
+   "alts": [],
+   "rule": "<b>Happier than ever before</b> compares Ranji now with all earlier times."
+  },
+  {
+   "qid": "c6-3.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "few_little",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "How many cats are in the lane now?"
+    ]
+   ],
+   "options": [
+    "Only a few. Most of them have gone home.",
+    "Only a little. Most of them have gone home.",
+    "Only a few. Most of them has gone home."
+   ],
+   "answer": 0,
+   "rule": "<b>How many</b> asks about countable things, so answer with <b>a few</b>. <b>Most of them</b> takes <b>have</b>."
+  },
+  {
+   "qid": "c6-3.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs_manner",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "How does the new song sound?"
+    ]
+   ],
+   "options": [
+    "It sounds beautifully!",
+    "It sound beautiful!",
+    "It sounds beautiful!"
+   ],
+   "answer": 2,
+   "rule": "After <b>sound, look, feel, taste</b> (describing something) use an adjective: sounds <b>beautiful</b>."
+  },
+  {
+   "qid": "c6-3.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ginger cats are more fluffier than grey cats.",
+    "Ginger cats are fluffier than grey cats.",
+    "Ginger cat are fluffier than grey cats."
+   ],
+   "answer": 1,
+   "rule": "<b>Fluffier</b> is already comparative, so no <b>more</b>. Plural <b>cats</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c6-3.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "few_little",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There isn't many time, and we have a few tickets left.",
+    "There isn't much time, and we have a few tickets left.",
+    "There isn't much time, and we have a little tickets left."
+   ],
+   "answer": 1,
+   "rule": "Uncountable <b>time</b> takes <b>much</b>; countable <b>tickets</b> takes <b>a few</b>."
+  },
+  {
+   "qid": "c6-3.5-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs_manner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cats",
+    "were",
+    "listening",
+    "silent",
+    "to",
+    "Ranji's",
+    "new",
+    "tune."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "silence",
+      "silently",
+      "silenced"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To say how they were <b>listening</b>, use the adverb <b>silently</b>."
+  },
+  {
+   "qid": "c6-3.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ranji",
+    "found",
+    "a",
+    "unusual",
+    "drum",
+    "in",
+    "the",
+    "storeroom."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "an",
+      "much",
+      "few"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The adjective <b>unusual</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-3.5-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "few_little",
+   "prompt": "Fill in the gap.",
+   "before": "Grandma bought",
+   "after": "bananas and a little rice from the market.",
+   "options": [
+    "a few",
+    "a little",
+    "much"
+   ],
+   "answer": 0,
+   "rule": "<b>Bananas</b> can be counted (<b>a few</b>); <b>rice</b> cannot (<b>a little</b>)."
+  },
+  {
+   "qid": "c6-3.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Riya is the",
+   "after": "singer in our school choir.",
+   "options": [
+    "best",
+    "better",
+    "good"
+   ],
+   "answer": 0,
+   "rule": "Comparing one with the whole group uses the superlative: <b>the best</b>."
+  },
+  {
+   "qid": "c6-3.5-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "A",
+    "large",
+    "black",
+    "cat",
+    "sat",
+    "near",
+    "Ranji."
+   ],
+   "alts": [],
+   "rule": "Size comes before colour: <b>a large black cat</b>, not a black large cat."
+  },
+  {
+   "qid": "c6-3.5-38",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbs_manner",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ranji",
+    "was",
+    "walking",
+    "slowly",
+    "towards",
+    "the",
+    "station."
+   ],
+   "alts": [
+    [
+     "Ranji",
+     "was",
+     "slowly",
+     "walking",
+     "towards",
+     "the",
+     "station."
+    ]
+   ],
+   "rule": "An adverb of manner usually follows the verb: was walking <b>slowly</b>."
+  },
+  {
+   "qid": "c6-3.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Is your new bicycle faster than your old one?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much faster and lighter.",
+    "Yes, it is much fast and lighter.",
+    "Yes, it is much more faster and lighter."
+   ],
+   "answer": 0,
+   "rule": "Use <b>much</b> + comparative: <b>much faster</b>. Never <b>more faster</b>."
+  },
+  {
+   "qid": "c6-3.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "few_little",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "How much sugar do you need?"
+    ]
+   ],
+   "options": [
+    "Just a few, please. Half a kilo is enough.",
+    "Just a little, please. Half a kilo are enough.",
+    "Just a little, please. Half a kilo is enough."
+   ],
+   "answer": 2,
+   "rule": "Sugar is uncountable: <b>a little</b>. One amount (<b>half a kilo</b>) takes <b>is</b>."
+  },
+  {
+   "qid": "c6-3.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs_manner",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Of all the children, Ranji played the most loud.",
+    "Of all the children, Ranji played the more loudly.",
+    "Of all the children, Ranji played the most loudly."
+   ],
+   "answer": 2,
+   "rule": "Comparing with a whole group needs the superlative of the adverb: <b>the most loudly</b>."
+  },
+  {
+   "qid": "c6-3.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "few_little",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ranji had a few friend, so he was often lonely.",
+    "Ranji had few friends, so he were often lonely.",
+    "Ranji had few friends, so he was often lonely."
+   ],
+   "answer": 2,
+   "rule": "<b>Few</b> (without a) means almost none and takes a plural noun; <b>he</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c6-3.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "drum",
+    "is",
+    "more",
+    "heavier",
+    "than",
+    "the",
+    "old",
+    "trumpet."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "most",
+      "much",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Heavier</b> is already comparative. To make it stronger, use <b>much heavier</b>."
+  },
+  {
+   "qid": "c6-3.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs_manner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ranji",
+    "felt",
+    "happily",
+    "when",
+    "the",
+    "kitten",
+    "sat",
+    "down",
+    "beside",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "happy",
+      "happiness",
+      "happen"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Felt</b> here describes Ranji, not an action, so it takes an adjective: felt <b>happy</b>."
+  },
+  {
+   "qid": "c6-3.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "few_little",
+   "prompt": "Fill in the gap.",
+   "before": "There was",
+   "after": "noise in the lane, so Ranji's mother could finally rest.",
+   "options": [
+    "few",
+    "little",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>Noise</b> is uncountable; <b>little</b> (without a) means almost none."
+  },
+  {
+   "qid": "c6-3.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The more Ranji practised, the",
+   "after": "he played.",
+   "options": [
+    "better",
+    "well",
+    "best"
+   ],
+   "answer": 0,
+   "rule": "<b>The more ..., the + comparative</b>: the more he practised, the <b>better</b> he played."
+  },
+  {
+   "qid": "c6-3.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "few_little",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Only",
+    "a",
+    "few",
+    "cats",
+    "stayed",
+    "behind."
+   ],
+   "alts": [],
+   "rule": "<b>A few</b> goes before a plural countable noun: <b>a few cats</b>."
+  },
+  {
+   "qid": "c6-3.5-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs_manner",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did Ranji play the flute well?"
+    ]
+   ],
+   "options": [
+    "At first he played badly, but soon his notes sounded sweet.",
+    "At first he played bad, but soon his notes sounded sweet.",
+    "At first he played badly, but soon his notes sounded sweetly."
+   ],
+   "answer": 0,
+   "rule": "Action verb + adverb: played <b>badly</b>. <b>Sounded</b> describing notes + adjective: <b>sweet</b>."
+  },
+  {
+   "qid": "c6-3.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "Which book did you like the most this year?"
+    ]
+   ],
+   "options": [
+    "'Ranji the Music Maker' was the most funniest book I read this year.",
+    "'Ranji the Music Maker' was the funniest book I read this year.",
+    "'Ranji the Music Maker' was the funnier book I read this year."
+   ],
+   "answer": 1,
+   "rule": "One out of many books: superlative <b>the funniest</b>. Never <b>most funniest</b>."
+  },
+  {
+   "qid": "c6-3.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "few_little",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did many students bring books for the book fair?"
+    ]
+   ],
+   "options": [
+    "Not much. Only a few students brought books.",
+    "Not many. Only a little students brought books.",
+    "Not many. Only a few students brought books."
+   ],
+   "answer": 2,
+   "rule": "<b>Students</b> are countable: <b>not many</b>, <b>a few</b> students."
+  }
+ ]
+}

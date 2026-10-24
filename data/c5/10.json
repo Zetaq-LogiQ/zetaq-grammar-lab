@@ -1,0 +1,999 @@
+{
+ "class": 5,
+ "id": "10",
+ "title": "Three Sacks of Rice",
+ "topics": [
+  {
+   "tag": "adjectives",
+   "name": "Adjectives"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense (was/were, regular and irregular verbs)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Comparing with -er / -est"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-10-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It is a old sack.",
+    "It is an old sack.",
+    "It is old a sack."
+   ],
+   "answer": 1,
+   "rule": "<b>old</b> begins with a vowel sound, so we say <b>an old</b> sack."
+  },
+  {
+   "qid": "c5-10-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "Last year, the friend gave them rice.",
+    "Last year, the friend gived them rice.",
+    "Last year, the friend given them rice."
+   ],
+   "answer": 0,
+   "rule": "<b>give</b> is irregular. Its simple past is <b>gave</b>, not gived."
+  },
+  {
+   "qid": "c5-10-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Raju is the most youngest of the three brothers.",
+    "Raju is the young of the three brothers.",
+    "Raju is the youngest of the three brothers."
+   ],
+   "answer": 2,
+   "rule": "For one out of three or more, add <b>-est</b>: <b>the youngest</b>. Never use most with -est."
+  },
+  {
+   "qid": "c5-10-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Meena",
+    "buy",
+    "a",
+    "sack",
+    "of",
+    "rice."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "buys",
+      "bought",
+      "buying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past, so use the simple past: <b>bought</b>."
+  },
+  {
+   "qid": "c5-10-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "brothers",
+    "were",
+    "very",
+    "kindness",
+    "to",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "kind",
+      "kinds",
+      "kindest"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>were very</b> we need an adjective: <b>kind</b>. Kindness is a noun."
+  },
+  {
+   "qid": "c5-10-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The priest is",
+   "after": "honest man.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>honest</b> begins with a vowel sound (the h is silent), so we say <b>an</b> honest man."
+  },
+  {
+   "qid": "c5-10-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last week, our uncle",
+   "after": "a clever plan.",
+   "options": [
+    "made",
+    "makes",
+    "make"
+   ],
+   "answer": 0,
+   "rule": "<b>Last week</b> is in the past. The past of make is <b>made</b>."
+  },
+  {
+   "qid": "c5-10-08",
+   "type": "build",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "priest",
+    "was",
+    "kind."
+   ],
+   "alts": [],
+   "rule": "<b>kind</b> is an adjective. It tells us more about the priest."
+  },
+  {
+   "qid": "c5-10-09",
+   "type": "build",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "ate",
+    "an",
+    "apple."
+   ],
+   "alts": [],
+   "rule": "<b>apple</b> begins with a vowel sound, so we use <b>an</b>."
+  },
+  {
+   "qid": "c5-10-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Did you finish your homework?"
+    ]
+   ],
+   "options": [
+    "Yes, I finished it.",
+    "Yes, I finishing it.",
+    "Yes, I finish it yesterday."
+   ],
+   "answer": 0,
+   "rule": "The question is about the past (<b>Did</b>), so reply in the simple past: <b>I finished it</b>."
+  },
+  {
+   "qid": "c5-10-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Their mother was an hardworking woman.",
+    "Their mother was a hardworking woman.",
+    "Their mother was a hardwork woman."
+   ],
+   "answer": 1,
+   "rule": "<b>hardworking</b> is the adjective, and it starts with a consonant sound, so: <b>a hardworking</b> woman."
+  },
+  {
+   "qid": "c5-10-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "The friend visited the mother and tell her his plan.",
+    "The friend visit the mother and told her his plan.",
+    "The friend visited the mother and told her his plan."
+   ],
+   "answer": 2,
+   "rule": "Both actions happened in the past, so both verbs are past: <b>visited</b> and <b>told</b>."
+  },
+  {
+   "qid": "c5-10-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I will be back in an hour.",
+    "I will be back in a hour.",
+    "I will be back in hour."
+   ],
+   "answer": 0,
+   "rule": "The <b>h</b> in <b>hour</b> is silent, so it starts with a vowel sound: <b>an hour</b>."
+  },
+  {
+   "qid": "c5-10-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi's",
+    "new",
+    "shop",
+    "is",
+    "much",
+    "big",
+    "than",
+    "his",
+    "old",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "biggest",
+      "bigger",
+      "bigness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>than</b> compares two things, so use the -er form: much <b>bigger</b> than."
+  },
+  {
+   "qid": "c5-10-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year,",
+    "the",
+    "middle",
+    "brother",
+    "give",
+    "the",
+    "rice",
+    "to",
+    "the",
+    "poor."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "gives",
+      "given",
+      "gave"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last year</b> shows the past, so use <b>gave</b>, the past of give."
+  },
+  {
+   "qid": "c5-10-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "The priest gave the rice to the",
+   "after": "people.",
+   "options": [
+    "hunger",
+    "hungry",
+    "hungrily"
+   ],
+   "answer": 1,
+   "rule": "Before a noun (<b>people</b>) we need an adjective: <b>hungry</b> people."
+  },
+  {
+   "qid": "c5-10-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "A sack of rice is",
+   "after": "than a bag of sugar.",
+   "options": [
+    "heavier",
+    "heaviest",
+    "heavy"
+   ],
+   "answer": 0,
+   "rule": "<b>than</b> compares two things, so use the -er form: <b>heavier</b> than."
+  },
+  {
+   "qid": "c5-10-18",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "He",
+    "sold",
+    "the",
+    "rice",
+    "to",
+    "his",
+    "customers."
+   ],
+   "alts": [
+    [
+     "He",
+     "sold",
+     "his",
+     "rice",
+     "to",
+     "the",
+     "customers."
+    ]
+   ],
+   "rule": "<b>sold</b> is the past of sell. Order: who (He) + did what (sold) + what (the rice) + to whom."
+  },
+  {
+   "qid": "c5-10-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle",
+     "What did the shopkeeper do with the old rice?"
+    ]
+   ],
+   "options": [
+    "He sell it to his customers.",
+    "He sold it to his customers.",
+    "He selled it to his customers."
+   ],
+   "answer": 1,
+   "rule": "<b>did</b> asks about the past. The past of sell is <b>sold</b>, not selled."
+  },
+  {
+   "qid": "c5-10-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "What do you want for lunch?"
+    ]
+   ],
+   "options": [
+    "I want a egg sandwich.",
+    "I want egg a sandwich.",
+    "I want an egg sandwich."
+   ],
+   "answer": 2,
+   "rule": "<b>egg</b> starts with a vowel sound, so we say <b>an egg</b> sandwich."
+  },
+  {
+   "qid": "c5-10-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The farmer lent him a unused plot of land.",
+    "The farmer lended him an unused plot of land.",
+    "The farmer lent him an unused plot of land."
+   ],
+   "answer": 2,
+   "rule": "<b>unused</b> starts with a vowel sound, so <b>an unused</b> plot. The past of lend is <b>lent</b>."
+  },
+  {
+   "qid": "c5-10-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct comparison.",
+   "options": [
+    "Priya is more cleverer than her brother.",
+    "Priya is cleverer than her brother.",
+    "Priya is cleverest than her brother."
+   ],
+   "answer": 1,
+   "rule": "Comparing two people with <b>than</b>: use <b>cleverer</b>. Never put more before an -er word."
+  },
+  {
+   "qid": "c5-10-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "farmer",
+    "was",
+    "happy",
+    "to",
+    "see",
+    "the",
+    "healthily",
+    "crop."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "health",
+      "healthy",
+      "healths"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A word that describes a noun (<b>crop</b>) must be an adjective: the <b>healthy</b> crop."
+  },
+  {
+   "qid": "c5-10-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "friend",
+    "returned,",
+    "the",
+    "priest",
+    "greet",
+    "him",
+    "with",
+    "joy."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "greeted",
+      "greeting",
+      "greets"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is in the past (<b>returned</b>), so the priest <b>greeted</b> him."
+  },
+  {
+   "qid": "c5-10-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The friend came back after nearly",
+   "after": "year.",
+   "options": [
+    "an",
+    "many",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>year</b> starts with a 'y' consonant sound, so we say <b>a year</b>, not an year."
+  },
+  {
+   "qid": "c5-10-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The eldest brother had the",
+   "after": "shop in the whole town.",
+   "options": [
+    "biggest",
+    "bigger",
+    "more big"
+   ],
+   "answer": 0,
+   "rule": "One shop out of all the shops in the town: use the <b>-est</b> form, <b>the biggest</b>."
+  },
+  {
+   "qid": "c5-10-27",
+   "type": "build",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "He",
+    "gave",
+    "me",
+    "a",
+    "small",
+    "brown",
+    "purse."
+   ],
+   "alts": [],
+   "rule": "Adjectives come before the noun. A size word comes before a colour word: <b>a small brown purse</b>."
+  },
+  {
+   "qid": "c5-10-28",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Make a sentence that compares.",
+   "answer": [
+    "This",
+    "sack",
+    "is",
+    "heavier",
+    "than",
+    "my",
+    "bag."
+   ],
+   "alts": [],
+   "rule": "To compare two things use the <b>-er</b> form + <b>than</b>: heavier than."
+  },
+  {
+   "qid": "c5-10-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Which bag is heavier, yours or mine?"
+    ]
+   ],
+   "options": [
+    "Mine is heavier than yours.",
+    "Mine is more heavier than yours.",
+    "Mine is heaviest than yours."
+   ],
+   "answer": 0,
+   "rule": "Two bags are compared, so use <b>heavier than</b>. Do not add more before -er."
+  },
+  {
+   "qid": "c5-10-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Describe your new classmate in two words."
+    ]
+   ],
+   "options": [
+    "She is kind and honest.",
+    "She is kind and honestly.",
+    "She is kindness and honest."
+   ],
+   "answer": 0,
+   "rule": "After <b>is</b>, describing words are adjectives: <b>kind</b> and <b>honest</b>."
+  },
+  {
+   "qid": "c5-10-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "All three brothers was honest and kind.",
+    "All three brother were honest and kind.",
+    "All three brothers were honest and kind."
+   ],
+   "answer": 2,
+   "rule": "<b>brothers</b> is plural, so the past of be is <b>were</b>: brothers <b>were</b>."
+  },
+  {
+   "qid": "c5-10-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The priest gave an bag of rice to an old woman.",
+    "The priest gave a bag of rice to an old woman.",
+    "The priest give a bag of rice to an old woman."
+   ],
+   "answer": 1,
+   "rule": "<b>a bag</b> (consonant sound), <b>an old</b> woman (vowel sound). The past of give is <b>gave</b>."
+  },
+  {
+   "qid": "c5-10-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena",
+    "is",
+    "tallest",
+    "than",
+    "her",
+    "sister",
+    "Asha."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "tall",
+      "tallness",
+      "taller"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Two people are compared with <b>than</b>, so use the -er form: <b>taller</b> than."
+  },
+  {
+   "qid": "c5-10-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "three",
+    "brothers",
+    "was",
+    "fond",
+    "of",
+    "their",
+    "mother."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>The three brothers</b> is plural. In the past, plural subjects take <b>were</b>."
+  },
+  {
+   "qid": "c5-10-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Many months passed, but the friend",
+   "after": "not return.",
+   "options": [
+    "was",
+    "do",
+    "did"
+   ],
+   "answer": 2,
+   "rule": "The sentence is in the past (<b>passed</b>), so the negative is <b>did not</b> + base verb."
+  },
+  {
+   "qid": "c5-10-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Choose the colour that fits.",
+   "before": "Riya bought an",
+   "after": "umbrella for the rainy season.",
+   "options": [
+    "orange",
+    "yellow",
+    "blue"
+   ],
+   "answer": 0,
+   "rule": "<b>an</b> is used before a vowel sound. Only <b>orange</b> starts with a vowel sound."
+  },
+  {
+   "qid": "c5-10-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Did",
+    "the",
+    "friend",
+    "come",
+    "back?"
+   ],
+   "alts": [],
+   "rule": "A past question starts with <b>Did</b> + who + base verb: Did the friend <b>come</b> back?"
+  },
+  {
+   "qid": "c5-10-38",
+   "type": "build",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "You",
+    "are",
+    "such",
+    "an",
+    "honest",
+    "person!"
+   ],
+   "alts": [],
+   "rule": "<b>such an</b> comes before the adjective + noun: such <b>an honest</b> person."
+  },
+  {
+   "qid": "c5-10-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Where were you last evening?"
+    ]
+   ],
+   "options": [
+    "I am at the farm with Raju.",
+    "I were at the farm with Raju.",
+    "I was at the farm with Raju."
+   ],
+   "answer": 2,
+   "rule": "<b>last evening</b> is the past. With <b>I</b>, the past of be is <b>was</b>."
+  },
+  {
+   "qid": "c5-10-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Who is the youngest in your family?"
+    ]
+   ],
+   "options": [
+    "My sister Pinky is the younger of us all.",
+    "My sister Pinky is youngest than us all.",
+    "My sister Pinky is the youngest of us all."
+   ],
+   "answer": 2,
+   "rule": "One person out of the whole family: use <b>the youngest</b> of us all."
+  },
+  {
+   "qid": "c5-10-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the most useful book on my shelf.",
+    "This is the usefulest book on my shelf.",
+    "This is the most usefulest book on my shelf."
+   ],
+   "answer": 0,
+   "rule": "Long adjectives take <b>most</b> for the top degree: <b>the most useful</b>. Usefulest is not a word."
+  },
+  {
+   "qid": "c5-10-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The wise old man gave each boy a heavily sack.",
+    "The wise old man gave each boys a heavy sack.",
+    "The wise old man gave each boy a heavy sack."
+   ],
+   "answer": 2,
+   "rule": "Describe a noun with an adjective: a <b>heavy</b> sack. <b>each</b> is followed by a singular noun: each <b>boy</b>."
+  },
+  {
+   "qid": "c5-10-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "youngest",
+    "brother",
+    "sowed",
+    "the",
+    "paddy,",
+    "and",
+    "the",
+    "crop",
+    "grow",
+    "very",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "grew",
+      "grown",
+      "growing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both actions are in the past (<b>sowed</b>), so the crop <b>grew</b>, the past of grow."
+  },
+  {
+   "qid": "c5-10-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "youngest",
+    "brother",
+    "was",
+    "the",
+    "clever",
+    "of",
+    "all",
+    "three."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "cleverer",
+      "cleverest",
+      "cleverly"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>the ... of all three</b> picks one out of many, so use the -est form: <b>the cleverest</b>."
+  },
+  {
+   "qid": "c5-10-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of the two brothers, Ravi is the",
+   "after": "one.",
+   "options": [
+    "elder",
+    "eldest",
+    "most old"
+   ],
+   "answer": 0,
+   "rule": "For <b>two</b> people, use the -er form: <b>the elder</b>. Eldest is for three or more."
+  },
+  {
+   "qid": "c5-10-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "He kept back five sacks and",
+   "after": "the other twenty at the market.",
+   "options": [
+    "sell",
+    "sold",
+    "selled"
+   ],
+   "answer": 1,
+   "rule": "<b>kept</b> is past, so the joined verb must be past too: <b>sold</b>."
+  },
+  {
+   "qid": "c5-10-47",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "He",
+    "was",
+    "the",
+    "kindest",
+    "of",
+    "all",
+    "three",
+    "brothers."
+   ],
+   "alts": [],
+   "rule": "<b>the kindest of all</b> picks one person out of a group, so the -est form is used."
+  },
+  {
+   "qid": "c5-10-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle",
+     "I left a sack of rice with you. What did you do with it?"
+    ]
+   ],
+   "options": [
+    "I give it to the poor, and they blessed you.",
+    "I gave it to the poor, and they blessed you.",
+    "I gave it to the poor, and they blessing you."
+   ],
+   "answer": 1,
+   "rule": "<b>did</b> asks about the past, so both verbs are past: <b>gave</b> and <b>blessed</b>."
+  },
+  {
+   "qid": "c5-10-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Was the harvest good this year?"
+    ]
+   ],
+   "options": [
+    "Yes, it was the most best harvest ever.",
+    "Yes, it was the best harvest ever.",
+    "Yes, it was the better harvest ever."
+   ],
+   "answer": 1,
+   "rule": "good - better - <b>best</b>. With <b>ever</b> we need the top degree: the <b>best</b> harvest."
+  },
+  {
+   "qid": "c5-10-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Do you want a big sack or a small one?"
+    ]
+   ],
+   "options": [
+    "A small one, please. It is more lighter.",
+    "A small one, please. It is lightest.",
+    "A small one, please. It is lighter."
+   ],
+   "answer": 2,
+   "rule": "Comparing two sacks: use the <b>-er</b> form, <b>lighter</b>. Never more + -er."
+  }
+ ]
+}

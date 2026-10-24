@@ -1,0 +1,995 @@
+{
+ "class": 5,
+ "id": "21",
+ "title": "The Journey to the Great Oz",
+ "topics": [
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions: and, but, so, because"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular)"
+  },
+  {
+   "tag": "comparison",
+   "name": "Adjectives: -er / -est"
+  },
+  {
+   "tag": "word_endings",
+   "name": "Word endings -ful and -ly (adjective or adverb)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-21-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The Lion jumps over the ditch yesterday.",
+    "The Lion jumping over the ditch yesterday.",
+    "The Lion jumped over the ditch yesterday."
+   ],
+   "answer": 2,
+   "rule": "<b>yesterday</b> shows the past, so use the simple past: <b>jumped</b>."
+  },
+  {
+   "qid": "c5-21-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dorothy was tired, so she rode on the Lion's back.",
+    "Dorothy was tired, so she ride on the Lion's back.",
+    "Dorothy were tired, so she rode on the Lion's back."
+   ],
+   "answer": 0,
+   "rule": "<b>so</b> joins a cause and its result; both parts are in the past: <b>was</b> tired, <b>rode</b>."
+  },
+  {
+   "qid": "c5-21-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The second gulf was more wider than the first.",
+    "The second gulf was widest than the first.",
+    "The second gulf was wider than the first."
+   ],
+   "answer": 2,
+   "rule": "Comparing two things: short adjective + <b>-er than</b>: <b>wider than</b> (never more wider)."
+  },
+  {
+   "qid": "c5-21-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week,",
+    "Dorothy's",
+    "house",
+    "fly",
+    "away",
+    "in",
+    "a",
+    "cyclone."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "flown",
+      "flew",
+      "flying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last week</b> is the past. The past of <b>fly</b> is <b>flew</b>."
+  },
+  {
+   "qid": "c5-21-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "giraffe",
+    "is",
+    "much",
+    "tall",
+    "than",
+    "a",
+    "horse."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "tallest",
+      "taller",
+      "tallness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>than</b>, use the -er form: much <b>taller than</b>."
+  },
+  {
+   "qid": "c5-21-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "The Lion was big",
+   "after": "strong.",
+   "options": [
+    "because",
+    "and",
+    "so"
+   ],
+   "answer": 1,
+   "rule": "<b>and</b> joins two similar ideas: big <b>and</b> strong."
+  },
+  {
+   "qid": "c5-21-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The Lion",
+   "after": "his shaggy mane.",
+   "options": [
+    "shake",
+    "shaken",
+    "shook"
+   ],
+   "answer": 2,
+   "rule": "The past of <b>shake</b> is <b>shook</b> (irregular verb); shaken needs has/had."
+  },
+  {
+   "qid": "c5-21-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "Lion",
+    "roared",
+    "loudly."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + adverb: The Lion <b>roared</b> loudly."
+  },
+  {
+   "qid": "c5-21-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did you read today?"
+    ]
+   ],
+   "options": [
+    "I readed a story about Oz.",
+    "I reading a story about Oz.",
+    "I read a story about Oz."
+   ],
+   "answer": 2,
+   "rule": "The past of <b>read</b> is spelt <b>read</b> too (said 'red'); readed is not a word."
+  },
+  {
+   "qid": "c5-21-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dorothy",
+     "Who is lighter, the Scarecrow or the Tin Woodman?"
+    ]
+   ],
+   "options": [
+    "The Scarecrow is lighter than the Tin Woodman.",
+    "The Scarecrow is lightest than the Tin Woodman.",
+    "The Scarecrow is more light than the Tin Woodman."
+   ],
+   "answer": 0,
+   "rule": "Comparing two: <b>lighter than</b>."
+  },
+  {
+   "qid": "c5-21-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "word_endings",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Woodman spoke softly to Dorothy.",
+    "The Woodman spoke soft to Dorothy.",
+    "The Woodman spoke softness to Dorothy."
+   ],
+   "answer": 0,
+   "rule": "To tell <b>how</b> he spoke, use the -ly adverb: <b>softly</b>."
+  },
+  {
+   "qid": "c5-21-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct past tense.",
+   "options": [
+    "The Scarecrow falled over backwards.",
+    "The Scarecrow fell over backwards.",
+    "The Scarecrow fallen over backwards."
+   ],
+   "answer": 1,
+   "rule": "<b>fall</b> is irregular: the past is <b>fell</b>."
+  },
+  {
+   "qid": "c5-21-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dorothy held Toto in her arms and climbed on the Lion's back.",
+    "Dorothy held Toto in her arms and climb on the Lion's back.",
+    "Dorothy holds Toto in her arms and climbed on the Lion's back."
+   ],
+   "answer": 0,
+   "rule": "Verbs joined by <b>and</b> keep the same tense: <b>held</b> ... and <b>climbed</b>."
+  },
+  {
+   "qid": "c5-21-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "wait",
+    "here",
+    "but",
+    "the",
+    "Lion",
+    "comes",
+    "back",
+    "for",
+    "you."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "than",
+      "until",
+      "nor"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>until</b> means 'up to the time when': wait here <b>until</b> the Lion comes back."
+  },
+  {
+   "qid": "c5-21-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_endings",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Lion",
+    "measured",
+    "the",
+    "jump",
+    "careful",
+    "in",
+    "his",
+    "mind."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "carefully",
+      "care",
+      "cared"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To describe how an action is done, use the adverb: measured <b>carefully</b>."
+  },
+  {
+   "qid": "c5-21-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The second ditch was",
+   "after": "than the first one.",
+   "options": [
+    "broadest",
+    "broad",
+    "broader"
+   ],
+   "answer": 2,
+   "rule": "Comparing two ditches with <b>than</b>: <b>broader</b>."
+  },
+  {
+   "qid": "c5-21-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "word_endings",
+   "prompt": "Fill in the gap.",
+   "before": "The Lion",
+   "after": "crouched down at the edge.",
+   "options": [
+    "slowly",
+    "slow",
+    "slowness"
+   ],
+   "answer": 0,
+   "rule": "An adverb tells how the action happened: <b>slowly</b> crouched."
+  },
+  {
+   "qid": "c5-21-18",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Make a command with 'and'.",
+   "answer": [
+    "Run",
+    "and",
+    "jump",
+    "over",
+    "it."
+   ],
+   "alts": [],
+   "rule": "<b>and</b> joins two actions: Run <b>and</b> jump."
+  },
+  {
+   "qid": "c5-21-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Why were you late?"
+    ]
+   ],
+   "options": [
+    "Because the bus were late.",
+    "Because the bus was late.",
+    "Because the bus late."
+   ],
+   "answer": 1,
+   "rule": "A <b>Why</b> question is answered with <b>because</b>; one bus takes <b>was</b>."
+  },
+  {
+   "qid": "c5-21-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "word_endings",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How should we cross the road?"
+    ]
+   ],
+   "options": [
+    "We should cross it careful.",
+    "We should crossing it carefully.",
+    "We should cross it carefully."
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> asks about manner: use the -ly adverb <b>carefully</b>, and base verb after should."
+  },
+  {
+   "qid": "c5-21-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Kalidahs were more big than the Lion.",
+    "The Kalidahs were biggest than the Lion.",
+    "The Kalidahs were bigger than the Lion."
+   ],
+   "answer": 2,
+   "rule": "<b>big</b> becomes <b>bigger</b> (double g) when comparing two."
+  },
+  {
+   "qid": "c5-21-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "word_endings",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It was an eventful day for the travellers.",
+    "It was an eventfully day for the travellers.",
+    "It was a eventful day for the travellers."
+   ],
+   "answer": 0,
+   "rule": "Before a noun use the adjective <b>eventful</b> (-ful); it starts with a vowel sound, so <b>an</b>."
+  },
+  {
+   "qid": "c5-21-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Then",
+    "the",
+    "Tin",
+    "Woodman",
+    "chop",
+    "down",
+    "the",
+    "tall",
+    "tree."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "chopping",
+      "chopped",
+      "chopper"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "One person in a story told in the past: <b>chopped</b> (double p before -ed)."
+  },
+  {
+   "qid": "c5-21-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Of",
+    "all",
+    "the",
+    "beasts,",
+    "the",
+    "Kalidahs",
+    "were",
+    "the",
+    "more",
+    "dangerous."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "most",
+      "much",
+      "very"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Of all</b> compares more than two, so use <b>the most</b> dangerous."
+  },
+  {
+   "qid": "c5-21-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "The Scarecrow went first",
+   "after": "a fall would not hurt him.",
+   "options": [
+    "but",
+    "or",
+    "because"
+   ],
+   "answer": 2,
+   "rule": "<b>because</b> gives the reason: he went first <b>because</b> a fall would not hurt him."
+  },
+  {
+   "qid": "c5-21-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "The Lion",
+   "after": "a great spring and landed safely.",
+   "options": [
+    "give",
+    "gave",
+    "given"
+   ],
+   "answer": 1,
+   "rule": "<b>landed</b> is past, so the first verb is past too: <b>gave</b> (past of give)."
+  },
+  {
+   "qid": "c5-21-27",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "Lion",
+    "is",
+    "stronger",
+    "than",
+    "Toto."
+   ],
+   "alts": [],
+   "rule": "Comparing two: adjective + <b>-er than</b>: stronger than."
+  },
+  {
+   "qid": "c5-21-28",
+   "type": "build",
+   "level": 3,
+   "topic": "word_endings",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "smiled",
+    "happily",
+    "at",
+    "her",
+    "friends."
+   ],
+   "alts": [],
+   "rule": "The adverb <b>happily</b> tells how she smiled (happy + -ly, y becomes i)."
+  },
+  {
+   "qid": "c5-21-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Leela",
+     "How did the Lion cross the ditch?"
+    ]
+   ],
+   "options": [
+    "He jump across it in one big leap.",
+    "He jumped across it in one big leaps.",
+    "He jumped across it in one big leap."
+   ],
+   "answer": 2,
+   "rule": "Past question, so <b>jumped</b>; <b>one</b> takes the singular <b>leap</b>."
+  },
+  {
+   "qid": "c5-21-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Do you want tea or juice?"
+    ]
+   ],
+   "options": [
+    "Juice, please, because I thirsty.",
+    "Juice, please, because I am thirsty.",
+    "Juice, please, because I is thirsty."
+   ],
+   "answer": 1,
+   "rule": "After <b>because</b> we need a full sentence: I <b>am</b> thirsty."
+  },
+  {
+   "qid": "c5-21-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "What did the Scarecrow said?",
+    "What did the Scarecrow say?",
+    "What the Scarecrow did say?"
+   ],
+   "answer": 1,
+   "rule": "After <b>did</b>, use the base form: What <b>did</b> he <b>say</b>?"
+  },
+  {
+   "qid": "c5-21-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya ran fastest than Aman because she practised every day.",
+    "Riya ran faster than Aman because she practised every day.",
+    "Riya ran faster than Aman because she practise every day."
+   ],
+   "answer": 1,
+   "rule": "Two people compared: <b>faster than</b>; past story, so <b>practised</b>."
+  },
+  {
+   "qid": "c5-21-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "wanted",
+    "to",
+    "play",
+    "outside",
+    "or",
+    "it",
+    "was",
+    "raining."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "nor",
+      "than",
+      "but"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Wanting to play outside and rain are opposite ideas, so join them with <b>but</b>."
+  },
+  {
+   "qid": "c5-21-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "word_endings",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aman",
+    "is",
+    "a",
+    "very",
+    "help",
+    "boy",
+    "in",
+    "our",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "helpful",
+      "helps",
+      "helped"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Before a noun we need an adjective: help + <b>-ful</b> = <b>helpful</b> boy."
+  },
+  {
+   "qid": "c5-21-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Mount Everest is the",
+   "after": "mountain in the world.",
+   "options": [
+    "highest",
+    "higher",
+    "high"
+   ],
+   "answer": 0,
+   "rule": "<b>the ... in the world</b> compares with all others: use <b>-est</b>: the highest."
+  },
+  {
+   "qid": "c5-21-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "word_endings",
+   "prompt": "Fill in the gap.",
+   "before": "Thank you for the",
+   "after": "gift, Aunty!",
+   "options": [
+    "beautifully",
+    "beautify",
+    "beautiful"
+   ],
+   "answer": 2,
+   "rule": "An adjective describes the noun <b>gift</b>: a <b>beautiful</b> gift."
+  },
+  {
+   "qid": "c5-21-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "the",
+    "Wizard",
+    "live?"
+   ],
+   "alts": [],
+   "rule": "Past question: <b>Where did</b> + subject + base verb (<b>live</b>)?"
+  },
+  {
+   "qid": "c5-21-38",
+   "type": "build",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas with 'so'.",
+   "answer": [
+    "The",
+    "road",
+    "was",
+    "dark,",
+    "so",
+    "Toto",
+    "stayed",
+    "close."
+   ],
+   "alts": [],
+   "rule": "<b>so</b> comes before the result: the road was dark, <b>so</b> Toto stayed close."
+  },
+  {
+   "qid": "c5-21-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How was the race today?"
+    ]
+   ],
+   "options": [
+    "It was great! I run faster than last time.",
+    "It was great! I ran fastest than last time.",
+    "It was great! I ran faster than last time."
+   ],
+   "answer": 2,
+   "rule": "The race is over: <b>ran</b> (past); with <b>than</b>, use <b>faster</b>."
+  },
+  {
+   "qid": "c5-21-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "word_endings",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How was your day at the science fair?"
+    ]
+   ],
+   "options": [
+    "It was very eventful and exciting!",
+    "It was very eventfully and exciting!",
+    "It was very eventful and excite!"
+   ],
+   "answer": 0,
+   "rule": "After <b>was</b>, use adjectives: <b>eventful</b> and <b>exciting</b>."
+  },
+  {
+   "qid": "c5-21-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Lion could not jump the second gulf because it was too broad.",
+    "The Lion could not jumped the second gulf because it was too broad.",
+    "The Lion could not jump the second gulf because it were too broad."
+   ],
+   "answer": 0,
+   "rule": "After <b>could not</b>, base form <b>jump</b>; one gulf takes <b>was</b> after because."
+  },
+  {
+   "qid": "c5-21-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Lion was the most bravest of all the travellers.",
+    "The Lion was the bravest of all the travellers.",
+    "The Lion was the braver of all the travellers."
+   ],
+   "answer": 1,
+   "rule": "<b>of all</b> needs the superlative: <b>the bravest</b>. Never use most with -est."
+  },
+  {
+   "qid": "c5-21-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Toto",
+    "was",
+    "the",
+    "smaller",
+    "of",
+    "all",
+    "the",
+    "travellers",
+    "on",
+    "the",
+    "road."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "small",
+      "smallest",
+      "more"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>of all</b> compares more than two: <b>the smallest</b>."
+  },
+  {
+   "qid": "c5-21-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "Lion",
+    "had",
+    "rested,",
+    "they",
+    "begin",
+    "walking",
+    "along",
+    "the",
+    "yellow",
+    "road."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "began",
+      "begun",
+      "beginning"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is in the past: <b>began</b>. (begun needs has/had before it)"
+  },
+  {
+   "qid": "c5-21-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "We cannot fly, and we cannot climb down,",
+   "after": "we must find another way.",
+   "options": [
+    "because",
+    "or",
+    "so"
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> introduces the result: we cannot fly or climb, <b>so</b> we must find another way."
+  },
+  {
+   "qid": "c5-21-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "When the Kalidahs were nearly across, the tree",
+   "after": "into the gulf with a crash.",
+   "options": [
+    "felled",
+    "fallen",
+    "fell"
+   ],
+   "answer": 2,
+   "rule": "The past of <b>fall</b> is <b>fell</b>. (felled means 'cut down'; fallen needs has/had)"
+  },
+  {
+   "qid": "c5-21-47",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "is",
+    "the",
+    "longest",
+    "river",
+    "in",
+    "India?"
+   ],
+   "alts": [],
+   "rule": "Comparing with all others: <b>the longest</b>."
+  },
+  {
+   "qid": "c5-21-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas with 'but'.",
+   "answer": [
+    "We",
+    "cannot",
+    "jump,",
+    "but",
+    "the",
+    "Lion",
+    "can."
+   ],
+   "alts": [],
+   "rule": "<b>but</b> joins two opposite ideas: we cannot, <b>but</b> the Lion can."
+  },
+  {
+   "qid": "c5-21-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "Did you finish the Oz book?"
+    ]
+   ],
+   "options": [
+    "Not yet. I started it, but I did not finished it.",
+    "Not yet. I start it, but I did not finish it.",
+    "Not yet. I started it, but I did not finish it."
+   ],
+   "answer": 2,
+   "rule": "<b>but</b> joins the opposite ideas; after <b>did not</b>, use the base form <b>finish</b>."
+  },
+  {
+   "qid": "c5-21-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Which was the most exciting part of the story?"
+    ]
+   ],
+   "options": [
+    "The fight with the Kalidahs was the most exciting part.",
+    "The fight with the Kalidahs were the most exciting part.",
+    "The fight with the Kalidahs was the most excitingest part."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>the fight</b> (singular): <b>was</b>; long adjectives take <b>the most</b>, not -est."
+  }
+ ]
+}

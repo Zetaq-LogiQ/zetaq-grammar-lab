@@ -1,0 +1,1191 @@
+{
+ "class": 10,
+ "id": "08",
+ "title": "Three Questions",
+ "topics": [
+  {
+   "tag": "polite_requests",
+   "name": "Polite requests, offers and responses"
+  },
+  {
+   "tag": "non_finite",
+   "name": "Finite and non-finite verbs (infinitive, gerund, participle)"
+  },
+  {
+   "tag": "conditional_3",
+   "name": "Third conditional and 'Had ...' inversion"
+  },
+  {
+   "tag": "reported_questions",
+   "name": "Reported questions and requests"
+  },
+  {
+   "tag": "modals",
+   "name": "Modal meanings (ability, permission, obligation, advice)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-08-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Which request is correct?",
+   "options": [
+    "Would you mind to close the window?",
+    "Would you mind closing the window?",
+    "Would you mind close the window?"
+   ],
+   "answer": 1,
+   "rule": "<b>Would you mind</b> is followed by the -ing form: mind <b>closing</b>."
+  },
+  {
+   "qid": "c10-08-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sun began to sink behind the trees.",
+    "The sun began to sank behind the trees.",
+    "The sun began sink behind the trees."
+   ],
+   "answer": 0,
+   "rule": "<b>began</b> is followed by the infinitive: <b>to sink</b> (to + base verb)."
+  },
+  {
+   "qid": "c10-08-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditional_3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "king",
+    "had",
+    "left",
+    "early,",
+    "his",
+    "enemy",
+    "would",
+    "have",
+    "kill",
+    "him."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "killed",
+      "kills",
+      "killing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: <b>would have + past participle</b> (killed)."
+  },
+  {
+   "qid": "c10-08-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "reported_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hermit",
+    "asked",
+    "the",
+    "king",
+    "to",
+    "give",
+    "he",
+    "the",
+    "spade."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "him",
+      "his",
+      "they"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the verb <b>give</b>, use the object pronoun: give <b>him</b> the spade."
+  },
+  {
+   "qid": "c10-08-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "we plan a class picnic next week?",
+   "options": [
+    "Does",
+    "Have",
+    "Shall"
+   ],
+   "answer": 2,
+   "rule": "To make a suggestion with <b>we</b>, use <b>Shall we ...?</b>"
+  },
+  {
+   "qid": "c10-08-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "The king decided",
+   "after": "to the hermit.",
+   "options": [
+    "going",
+    "go",
+    "to go"
+   ],
+   "answer": 2,
+   "rule": "<b>decide</b> is followed by the infinitive: decided <b>to go</b>."
+  },
+  {
+   "qid": "c10-08-07",
+   "type": "build",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Make a polite question.",
+   "answer": [
+    "May",
+    "I",
+    "know",
+    "the",
+    "exact",
+    "time,",
+    "please?"
+   ],
+   "alts": [],
+   "rule": "<b>May I + base verb</b> asks for permission politely."
+  },
+  {
+   "qid": "c10-08-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "Can you please pass the salad?"
+    ]
+   ],
+   "options": [
+    "Sure, here are you.",
+    "Sure, here you is.",
+    "Sure, here you are."
+   ],
+   "answer": 2,
+   "rule": "When handing something over, say <b>Here you are.</b>"
+  },
+  {
+   "qid": "c10-08-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_questions",
+   "prompt": "Change into indirect speech.",
+   "source": "The king said to the hermit, \"Please let me take the spade.\"",
+   "options": [
+    "The king requested the hermit to let him take the spade.",
+    "The king requested the hermit to let me take the spade.",
+    "The king requested the hermit that let him take the spade."
+   ],
+   "answer": 0,
+   "rule": "A request becomes <b>requested + person + to + verb</b>; me becomes <b>him</b>."
+  },
+  {
+   "qid": "c10-08-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Riya,",
+    "could",
+    "you",
+    "lends",
+    "me",
+    "your",
+    "laptop",
+    "for",
+    "an",
+    "hour?",
+    "I",
+    "need",
+    "to",
+    "finishing",
+    "my",
+    "science",
+    "project",
+    "before",
+    "dinner",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lend",
+      "lent",
+      "lending"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 13,
+     "options": [
+      "finish",
+      "finished",
+      "finishes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>could</b>, use the base verb: lend. The infinitive is <b>to + base verb</b>: to finish."
+  },
+  {
+   "qid": "c10-08-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you had not dressed my wound, I would have died.",
+    "If you had not dressed my wound, I would die.",
+    "If you would not dressed my wound, I would have died."
+   ],
+   "answer": 0,
+   "rule": "Third conditional: <b>If + had + past participle, would have + past participle</b>."
+  },
+  {
+   "qid": "c10-08-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should to rest for a while.",
+    "You should rest for a while.",
+    "You should resting for a while."
+   ],
+   "answer": 1,
+   "rule": "Modals like <b>should</b> (advice) take the base verb without to: should <b>rest</b>."
+  },
+  {
+   "qid": "c10-08-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "king",
+    "grew",
+    "tired",
+    "of",
+    "dig",
+    "the",
+    "hard",
+    "ground",
+    "all",
+    "afternoon."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "dug",
+      "digging",
+      "digs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: tired of <b>digging</b>."
+  },
+  {
+   "qid": "c10-08-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Students",
+    "must",
+    "reaches",
+    "school",
+    "by",
+    "eight",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "reached",
+      "reach",
+      "reaching"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>must</b> (obligation) is followed by the base verb: must <b>reach</b>."
+  },
+  {
+   "qid": "c10-08-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_questions",
+   "prompt": "Fill in the gap.",
+   "before": "The hermit asked the king",
+   "after": "he had come alone.",
+   "options": [
+    "that",
+    "whether",
+    "what"
+   ],
+   "answer": 1,
+   "rule": "A reported yes/no question uses <b>whether</b> (or if), never that."
+  },
+  {
+   "qid": "c10-08-16",
+   "type": "build",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "king",
+    "refused",
+    "to",
+    "return",
+    "the",
+    "spade."
+   ],
+   "alts": [],
+   "rule": "<b>refuse</b> is followed by the infinitive: refused <b>to return</b>."
+  },
+  {
+   "qid": "c10-08-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Do you need help with your homework?"
+    ]
+   ],
+   "options": [
+    "Thanks, but I can manages it myself.",
+    "Thanks, but I can managing it myself.",
+    "Thanks, but I can manage it myself."
+   ],
+   "answer": 2,
+   "rule": "After <b>can</b>, use the base verb: can <b>manage</b>."
+  },
+  {
+   "qid": "c10-08-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Did you catch the bus this morning?"
+    ]
+   ],
+   "options": [
+    "No. If I had woke up earlier, I would have caught it.",
+    "No. If I had woken up earlier, I would have caught it.",
+    "No. If I woke up earlier, I would have catch it."
+   ],
+   "answer": 1,
+   "rule": "Past regret: <b>If I had woken ..., I would have caught</b> (past participles)."
+  },
+  {
+   "qid": "c10-08-19",
+   "type": "change",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Rewrite the sentence using 'If'.",
+   "source": "The king stayed to dig, so he was not killed.",
+   "options": [
+    "If the king had not stayed to dig, he would have been killed.",
+    "If the king did not stay to dig, he would have been killed.",
+    "If the king had not stayed to dig, he would be kill."
+   ],
+   "answer": 0,
+   "rule": "For a past fact, imagine the opposite: <b>If ... had not stayed, ... would have been killed</b>."
+  },
+  {
+   "qid": "c10-08-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "king",
+    "spent",
+    "days",
+    "think",
+    "about",
+    "his",
+    "three",
+    "questions.",
+    "He",
+    "went",
+    "to",
+    "the",
+    "forest,",
+    "hoping",
+    "to",
+    "finds",
+    "the",
+    "answers",
+    "there."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "thought",
+      "thinking",
+      "thinks"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "finding",
+      "finder",
+      "find"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>spend time</b> + gerund: spent days <b>thinking</b>. The infinitive is to + base verb: to <b>find</b>."
+  },
+  {
+   "qid": "c10-08-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Forgiving an enemy is not easy.",
+    "Forgive an enemy is not easy.",
+    "Forgave an enemy is not easy."
+   ],
+   "answer": 0,
+   "rule": "An action used as the subject takes the gerund: <b>Forgiving</b> an enemy is not easy."
+  },
+  {
+   "qid": "c10-08-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Had",
+    "the",
+    "bodyguards",
+    "not",
+    "seen",
+    "him,",
+    "he",
+    "would",
+    "have",
+    "reach",
+    "the",
+    "king."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "reaches",
+      "reached",
+      "reaching"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Had ... not seen</b> = If ... had not seen; the result is <b>would have reached</b>."
+  },
+  {
+   "qid": "c10-08-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "When he was young, the hermit",
+   "after": "walk for miles without rest.",
+   "options": [
+    "can",
+    "may",
+    "could"
+   ],
+   "answer": 2,
+   "rule": "Ability in the past (when he was young) uses <b>could</b>."
+  },
+  {
+   "qid": "c10-08-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Fill in the gap.",
+   "before": "Is it all right if I",
+   "after": "your laptop for a while?",
+   "options": [
+    "using",
+    "uses",
+    "use"
+   ],
+   "answer": 2,
+   "rule": "<b>Is it all right if I + simple present</b> asks politely: if I <b>use</b>."
+  },
+  {
+   "qid": "c10-08-25",
+   "type": "build",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Make a sentence that begins with 'Had'.",
+   "answer": [
+    "Had",
+    "it",
+    "rained,",
+    "we",
+    "would",
+    "have",
+    "stayed",
+    "indoors."
+   ],
+   "alts": [],
+   "rule": "<b>Had it rained</b> = If it had rained; the result clause is <b>would have + past participle</b>: would have stayed."
+  },
+  {
+   "qid": "c10-08-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did the shopkeeper ask you?"
+    ]
+   ],
+   "options": [
+    "He asked me what I wanted to buy.",
+    "He asked me what did I want to buy.",
+    "He asked me what I want to bought."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order, no did: asked me what <b>I wanted</b>."
+  },
+  {
+   "qid": "c10-08-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "May I borrow your pen?"
+    ]
+   ],
+   "options": [
+    "Yes, you may borrows it. Here it is.",
+    "Yes, you may. Here it is.",
+    "Yes, you may borrowing it. Here it is."
+   ],
+   "answer": 1,
+   "rule": "Answer a <b>May I</b> question (permission) with <b>Yes, you may.</b>"
+  },
+  {
+   "qid": "c10-08-28",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_questions",
+   "prompt": "Change into indirect speech.",
+   "source": "The king said to the hermit, \"How can I learn the right time?\"",
+   "options": [
+    "The king asked the hermit how could he learn the right time.",
+    "The king asked the hermit how I could learn the right time.",
+    "The king asked the hermit how he could learn the right time."
+   ],
+   "answer": 2,
+   "rule": "said to becomes <b>asked</b>; use statement order; I becomes <b>he</b>; can becomes <b>could</b>."
+  },
+  {
+   "qid": "c10-08-29",
+   "type": "change",
+   "level": 3,
+   "topic": "polite_requests",
+   "prompt": "Make it a polite request using 'Could'.",
+   "source": "Lend me your dictionary.",
+   "options": [
+    "Could you lend me your dictionary, please?",
+    "Could you lent me your dictionary, please?",
+    "Could you to lend me your dictionary, please?"
+   ],
+   "answer": 0,
+   "rule": "<b>Could you + base verb ..., please?</b> No to after could; lend, not lent."
+  },
+  {
+   "qid": "c10-08-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "If",
+    "you",
+    "have",
+    "not",
+    "pitied",
+    "my",
+    "weakness,",
+    "you",
+    "would",
+    "have",
+    "went",
+    "back",
+    "home.",
+    "My",
+    "enemy",
+    "would",
+    "have",
+    "attack",
+    "you",
+    "on",
+    "the",
+    "way."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "has",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "gone",
+      "go",
+      "going"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "attacked",
+      "attacks",
+      "attacking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: <b>If you had not pitied</b>; would have <b>gone</b>; would have <b>attacked</b>."
+  },
+  {
+   "qid": "c10-08-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The hermit told the king that he must rested for a while.",
+    "The hermit told the king that he must rest for a while.",
+    "The hermit told the king that he must to rest for a while."
+   ],
+   "answer": 1,
+   "rule": "Even in reported speech, <b>must</b> is followed by the base verb: must <b>rest</b>."
+  },
+  {
+   "qid": "c10-08-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Have dug two beds, the king stopped to rest.",
+    "Having dug two beds, the king stopped to rest.",
+    "Having dig two beds, the king stopped to rest."
+   ],
+   "answer": 1,
+   "rule": "A perfect participle shows the earlier action: <b>Having + past participle</b> (dug)."
+  },
+  {
+   "qid": "c10-08-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "the",
+    "parcel",
+    "be",
+    "deliver",
+    "before",
+    "noon,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "delivering",
+      "delivered",
+      "delivers"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Polite passive request: <b>Could + subject + be + past participle</b> (delivered)."
+  },
+  {
+   "qid": "c10-08-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Fill in the gap.",
+   "before": "If he had listened, he would have won,",
+   "after": "he?",
+   "options": [
+    "wouldn't",
+    "hadn't",
+    "didn't"
+   ],
+   "answer": 0,
+   "rule": "The tag follows the main clause <b>he would have won</b>, so the tag is <b>wouldn't he?</b>"
+  },
+  {
+   "qid": "c10-08-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "The king was glad",
+   "after": "peace with his enemy.",
+   "options": [
+    "to having made",
+    "have made",
+    "to have made"
+   ],
+   "answer": 2,
+   "rule": "The perfect infinitive <b>to have + past participle</b> shows an action already done."
+  },
+  {
+   "qid": "c10-08-36",
+   "type": "build",
+   "level": 4,
+   "topic": "reported_questions",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "Meera",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "was",
+    "going."
+   ],
+   "alts": [],
+   "rule": "Reported questions use statement order: where <b>I was going</b>."
+  },
+  {
+   "qid": "c10-08-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Shall I explain the sum again?"
+    ]
+   ],
+   "options": [
+    "Yes, please. I didn't understood the second step.",
+    "Yes, please. I didn't understand the second step.",
+    "Yes, please. I doesn't understand the second step."
+   ],
+   "answer": 1,
+   "rule": "Accept an offer with <b>Yes, please.</b> After didn't, use the base verb: understand."
+  },
+  {
+   "qid": "c10-08-38",
+   "type": "change",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Change into passive voice.",
+   "source": "You must answer these three questions.",
+   "options": [
+    "These three questions must be answered by you.",
+    "These three questions must be answer by you.",
+    "These three questions must answered by you."
+   ],
+   "answer": 0,
+   "rule": "Passive with a modal: <b>must be + past participle</b> (answered)."
+  },
+  {
+   "qid": "c10-08-39",
+   "type": "change",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Begin the sentence with 'Had'.",
+   "source": "If you had not dressed my wound, I would have bled to death.",
+   "options": [
+    "Did you not dress my wound, I would have bled to death.",
+    "Had you not dressed my wound, I would bled to death.",
+    "Had you not dressed my wound, I would have bled to death."
+   ],
+   "answer": 2,
+   "rule": "Drop <b>If</b> and put <b>Had</b> first: Had you not dressed ...; the result clause stays the same."
+  },
+  {
+   "qid": "c10-08-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_questions",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "king",
+    "requested",
+    "the",
+    "hermit",
+    "to",
+    "answering",
+    "his",
+    "three",
+    "questions.",
+    "The",
+    "hermit",
+    "did",
+    "not",
+    "replied",
+    "and",
+    "went",
+    "on",
+    "digging.",
+    "Later,",
+    "the",
+    "king",
+    "asked",
+    "whether",
+    "he",
+    "would",
+    "ever",
+    "gets",
+    "an",
+    "answer."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "answered",
+      "answers",
+      "answer"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "replies",
+      "replying",
+      "reply"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 27,
+     "options": [
+      "get",
+      "got",
+      "getting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "requested ... <b>to answer</b>; did not <b>reply</b>; would ever <b>get</b>: base verb after to, did and would."
+  },
+  {
+   "qid": "c10-08-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Had the king not stayed at the hut, he would have been killed on his way back.",
+    "Had the king not stay at the hut, he would have been killed on his way back.",
+    "If the king had not stayed at the hut, he would had been killed on his way back."
+   ],
+   "answer": 0,
+   "rule": "<b>Had + subject + not + past participle</b>, then <b>would have been + past participle</b>."
+  },
+  {
+   "qid": "c10-08-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "wounded",
+    "man",
+    "lay",
+    "in",
+    "the",
+    "hut",
+    "with",
+    "his",
+    "eyes",
+    "close",
+    "for",
+    "hours."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "closes",
+      "closed",
+      "closure"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>with + noun + past participle</b> describes a state: with his eyes <b>closed</b>."
+  },
+  {
+   "qid": "c10-08-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "had",
+    "better",
+    "rests",
+    "before",
+    "you",
+    "dig",
+    "the",
+    "next",
+    "bed."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "rested",
+      "resting",
+      "rest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had better</b> (strong advice) is followed by the base verb: had better <b>rest</b>."
+  },
+  {
+   "qid": "c10-08-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_questions",
+   "prompt": "Fill in the gap.",
+   "before": "The hermit asked the king whether he",
+   "after": "seen the bearded man before.",
+   "options": [
+    "had",
+    "has",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "After a past reporting verb, have seen moves back to <b>had seen</b>."
+  },
+  {
+   "qid": "c10-08-45",
+   "type": "build",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Make a sentence that begins with a participle.",
+   "answer": [
+    "Having",
+    "forgiven",
+    "his",
+    "enemy,",
+    "King",
+    "Arjun",
+    "felt",
+    "peaceful."
+   ],
+   "alts": [],
+   "rule": "<b>Having + past participle</b> shows the first action; its doer (King Arjun) comes right after the comma."
+  },
+  {
+   "qid": "c10-08-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Vikram",
+     "Is it all right if I use your bike this evening?"
+    ]
+   ],
+   "options": [
+    "I'm sorry, but I needs it myself this evening.",
+    "I'm sorry, but I need it myself this evening.",
+    "I'm sorry, but I am need it myself this evening."
+   ],
+   "answer": 1,
+   "rule": "A polite refusal: <b>I'm sorry, but</b> + reason. With I, use <b>need</b>."
+  },
+  {
+   "qid": "c10-08-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "You lost by one run. What went wrong?"
+    ]
+   ],
+   "options": [
+    "If I had run faster, we would have won the match.",
+    "If I would have run faster, we would have won the match.",
+    "If I had ran faster, we would have won the match."
+   ],
+   "answer": 0,
+   "rule": "The if-clause takes <b>had + past participle</b> (run), never would have."
+  },
+  {
+   "qid": "c10-08-48",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_questions",
+   "prompt": "Change into indirect speech.",
+   "source": "The hermit said to the king, \"Do you not see?\"",
+   "options": [
+    "The hermit asked the king if did he not see.",
+    "The hermit asked the king if he does not see.",
+    "The hermit asked the king if he did not see."
+   ],
+   "answer": 2,
+   "rule": "Yes/no question: <b>asked if</b> + statement order; do not see moves back to <b>did not see</b>."
+  },
+  {
+   "qid": "c10-08-49",
+   "type": "change",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Combine the sentences using a participle.",
+   "source": "The king saw the wounded man. He felt pity for him.",
+   "options": [
+    "Saw the wounded man, the king felt pity for him.",
+    "Seeing the wounded man, the king felt pity for him.",
+    "Seen the wounded man, the king felt pity for him."
+   ],
+   "answer": 1,
+   "rule": "Replace the first verb with a present participle: <b>Seeing</b> the wounded man, the king ..."
+  },
+  {
+   "qid": "c10-08-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "polite_requests",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Could",
+    "you",
+    "told",
+    "me",
+    "the",
+    "way",
+    "to",
+    "the",
+    "hermit's",
+    "hut?",
+    "I",
+    "would",
+    "rather",
+    "walking",
+    "there",
+    "than",
+    "ride",
+    "a",
+    "horse.",
+    "If",
+    "I",
+    "had",
+    "knew",
+    "the",
+    "path,",
+    "I",
+    "would",
+    "have",
+    "come",
+    "earlier."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "telling",
+      "tell",
+      "tells"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "walked",
+      "walks",
+      "walk"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "know",
+      "knowing",
+      "known"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Could you <b>tell</b>; would rather <b>walk</b> (base verb); If I had <b>known</b> (past participle)."
+  }
+ ]
+}

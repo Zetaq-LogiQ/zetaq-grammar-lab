@@ -1,0 +1,992 @@
+{
+ "class": 5,
+ "id": "30",
+ "title": "Be a Netizen",
+ "topics": [
+  {
+   "tag": "art",
+   "name": "Articles a, an, the"
+  },
+  {
+   "tag": "pres",
+   "name": "Simple present tense"
+  },
+  {
+   "tag": "many",
+   "name": "much/many and some/any"
+  },
+  {
+   "tag": "prep",
+   "name": "Prepositions in, on, at"
+  },
+  {
+   "tag": "past",
+   "name": "Simple past (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-30-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "art",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Asha sent a e-mail to her uncle.",
+    "Asha sent an e-mails to her uncle.",
+    "Asha sent an e-mail to her uncle."
+   ],
+   "answer": 2,
+   "rule": "<b>E-mail</b> begins with a vowel sound, so use <b>an</b>. 'An' goes with one thing only."
+  },
+  {
+   "qid": "c5-30-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "pres",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The internet link millions of computers.",
+    "The internet linking millions of computers.",
+    "The internet links millions of computers."
+   ],
+   "answer": 2,
+   "rule": "One thing (the internet) in the simple present takes -s: <b>links</b>."
+  },
+  {
+   "qid": "c5-30-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "art",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "uses",
+    "the",
+    "computer",
+    "for",
+    "a",
+    "hour",
+    "every",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "much",
+      "an",
+      "many"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In <b>hour</b> the h is silent, so it starts with a vowel sound: <b>an hour</b>."
+  },
+  {
+   "qid": "c5-30-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "pres",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Rao",
+    "check",
+    "his",
+    "e-mail",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "checks",
+      "checking",
+      "checker"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Every morning</b> shows a habit. With he/Mr Rao, add -s: <b>checks</b>."
+  },
+  {
+   "qid": "c5-30-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "many",
+   "prompt": "Fill in the gap.",
+   "before": "There are",
+   "after": "websites on the net.",
+   "options": [
+    "much",
+    "a",
+    "many"
+   ],
+   "answer": 2,
+   "rule": "<b>Websites</b> can be counted, so use <b>many</b>. <b>Much</b> is for things we cannot count."
+  },
+  {
+   "qid": "c5-30-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prep",
+   "prompt": "Fill in the gap.",
+   "before": "You can find this information",
+   "after": "the internet.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 1,
+   "rule": "We say <b>on the internet</b>, <b>on the net</b>, <b>on a website</b>."
+  },
+  {
+   "qid": "c5-30-07",
+   "type": "build",
+   "level": 1,
+   "topic": "art",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Riya",
+    "has",
+    "an",
+    "e-mail",
+    "account."
+   ],
+   "alts": [],
+   "rule": "Use <b>an</b> before a vowel sound: <b>an e-mail account</b>."
+  },
+  {
+   "qid": "c5-30-08",
+   "type": "build",
+   "level": 1,
+   "topic": "pres",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "brother",
+    "surfs",
+    "the",
+    "net",
+    "daily."
+   ],
+   "alts": [],
+   "rule": "A daily habit uses the simple present. One person takes -s: <b>surfs</b>."
+  },
+  {
+   "qid": "c5-30-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "pres",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ajay",
+     "Do you use a computer at school?"
+    ]
+   ],
+   "options": [
+    "Yes, I do. We has a computer lab.",
+    "Yes, I does. We have a computer lab.",
+    "Yes, I do. We have a computer lab."
+   ],
+   "answer": 2,
+   "rule": "A <b>Do</b> question gets <b>Yes, I do</b>. <b>We</b> takes <b>have</b>."
+  },
+  {
+   "qid": "c5-30-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "art",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "What do you need for an e-mail account?"
+    ]
+   ],
+   "options": [
+    "You need an password and a e-mail address.",
+    "You need a password and an e-mail address.",
+    "You need a password and a e-mail address."
+   ],
+   "answer": 1,
+   "rule": "<b>a</b> before a consonant sound (a password), <b>an</b> before a vowel sound (an e-mail)."
+  },
+  {
+   "qid": "c5-30-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "many",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How many information can we find on the net?",
+    "How much informations can we find on the net?",
+    "How much information can we find on the net?"
+   ],
+   "answer": 2,
+   "rule": "<b>Information</b> cannot be counted and has no plural, so use <b>How much information</b>."
+  },
+  {
+   "qid": "c5-30-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We have a computer class in Monday.",
+    "We have a computer class on Monday.",
+    "We have a computer class at Monday."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days: <b>on Monday</b>."
+  },
+  {
+   "qid": "c5-30-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "pres",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A search engine shows a list of websites.",
+    "A search engine show a list of websites.",
+    "A search engine showing a list of websites."
+   ],
+   "answer": 0,
+   "rule": "One search engine in the simple present takes -s: <b>shows</b>."
+  },
+  {
+   "qid": "c5-30-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "pres",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "search",
+    "engines",
+    "shows",
+    "a",
+    "long",
+    "list",
+    "of",
+    "websites."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "show",
+      "showing",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both search engines</b> is plural, so the verb has no -s: <b>show</b>."
+  },
+  {
+   "qid": "c5-30-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "chat",
+    "with",
+    "our",
+    "cousins",
+    "at",
+    "Sunday",
+    "evenings."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "in",
+      "to",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With a day, even with a part of the day, use <b>on</b>: <b>on Sunday evenings</b>."
+  },
+  {
+   "qid": "c5-30-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "art",
+   "prompt": "Fill in the gap.",
+   "before": "Search engines help us find websites on",
+   "after": "World Wide Web.",
+   "options": [
+    "a",
+    "the",
+    "an"
+   ],
+   "answer": 1,
+   "rule": "There is only one World Wide Web, so use <b>the</b>: <b>the World Wide Web</b>."
+  },
+  {
+   "qid": "c5-30-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "pres",
+   "prompt": "Fill in the gap.",
+   "before": "My mother",
+   "after": "e-mails to her friends every week.",
+   "options": [
+    "send",
+    "sends",
+    "sending"
+   ],
+   "answer": 1,
+   "rule": "<b>Every week</b> shows a habit. With she/my mother, add -s: <b>sends</b>."
+  },
+  {
+   "qid": "c5-30-18",
+   "type": "build",
+   "level": 2,
+   "topic": "many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "many",
+    "websites",
+    "did",
+    "you",
+    "visit?"
+   ],
+   "alts": [],
+   "rule": "Ask about things we can count with <b>How many</b> + plural noun."
+  },
+  {
+   "qid": "c5-30-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "prep",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "When is your video call with Grandma?"
+    ]
+   ],
+   "options": [
+    "It is in Sunday at seven o'clock.",
+    "It is on Sunday in seven o'clock.",
+    "It is on Sunday at seven o'clock."
+   ],
+   "answer": 2,
+   "rule": "<b>on</b> a day (on Sunday), <b>at</b> a clock time (at seven o'clock)."
+  },
+  {
+   "qid": "c5-30-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you find any pictures of tigers on the net?"
+    ]
+   ],
+   "options": [
+    "Yes, I found many pictures and some videos.",
+    "Yes, I found much pictures and some videos.",
+    "Yes, I found many pictures and any videos."
+   ],
+   "answer": 0,
+   "rule": "<b>many</b> with countable nouns. In a positive sentence use <b>some</b>, not any."
+  },
+  {
+   "qid": "c5-30-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "art",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The internet is like an ocean of information.",
+    "The internet is like a ocean of information.",
+    "The internet is like an ocean of informations."
+   ],
+   "answer": 0,
+   "rule": "<b>Ocean</b> starts with a vowel sound: <b>an ocean</b>. <b>Information</b> has no plural."
+  },
+  {
+   "qid": "c5-30-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "pres",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Arun do not know his password.",
+    "Arun does not know his password.",
+    "Arun does not knows his password."
+   ],
+   "answer": 1,
+   "rule": "Negative with he/Arun: <b>does not</b> + base verb: <b>does not know</b>."
+  },
+  {
+   "qid": "c5-30-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "art",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kavya",
+    "uses",
+    "an",
+    "laptop",
+    "for",
+    "her",
+    "school",
+    "project."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "many",
+      "a",
+      "some"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Laptop</b> starts with a consonant sound, so use <b>a</b>: <b>a laptop</b>."
+  },
+  {
+   "qid": "c5-30-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "many",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "isn't",
+    "many",
+    "space",
+    "left",
+    "on",
+    "my",
+    "phone."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "much",
+      "few",
+      "these"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Space</b> on a phone cannot be counted, so use <b>much</b>: <b>isn't much space</b>."
+  },
+  {
+   "qid": "c5-30-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "prep",
+   "prompt": "Fill in the gap.",
+   "before": "The class will log on",
+   "after": "10 o'clock.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with a clock time: <b>at 10 o'clock</b>."
+  },
+  {
+   "qid": "c5-30-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "many",
+   "prompt": "Fill in the gap.",
+   "before": "Do you have",
+   "after": "e-mail addresses?",
+   "options": [
+    "any",
+    "much",
+    "a"
+   ],
+   "answer": 0,
+   "rule": "In questions, use <b>any</b> with plural nouns: <b>any e-mail addresses</b>."
+  },
+  {
+   "qid": "c5-30-27",
+   "type": "build",
+   "level": 3,
+   "topic": "pres",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "father",
+    "reads",
+    "the",
+    "news",
+    "online."
+   ],
+   "alts": [],
+   "rule": "A habit uses the simple present. One person (my father) takes -s: <b>reads</b>."
+  },
+  {
+   "qid": "c5-30-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prep",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Sameer",
+    "logs",
+    "on",
+    "at",
+    "six",
+    "o'clock."
+   ],
+   "alts": [],
+   "rule": "<b>log on</b> = start using the internet. <b>at</b> goes with a clock time."
+  },
+  {
+   "qid": "c5-30-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "pres",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What is a netizen?"
+    ]
+   ],
+   "options": [
+    "A netizen is an person who uses the net.",
+    "A netizen is a person who use the net.",
+    "A netizen is a person who uses the net."
+   ],
+   "answer": 2,
+   "rule": "<b>a person</b> (consonant sound). <b>who</b> refers to one person, so <b>uses</b>."
+  },
+  {
+   "qid": "c5-30-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "pres",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Imran",
+     "Does your sister play games online?"
+    ]
+   ],
+   "options": [
+    "No, she doesn't. She reads stories online.",
+    "No, she don't. She reads stories online.",
+    "No, she doesn't. She read stories online."
+   ],
+   "answer": 0,
+   "rule": "With she: <b>doesn't</b>, and the simple present takes -s: <b>She reads</b>."
+  },
+  {
+   "qid": "c5-30-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "many",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Last year, we visit many websites about space.",
+    "Last year, we visited many websites about space.",
+    "Last year, we visited much websites about space."
+   ],
+   "answer": 1,
+   "rule": "<b>Last year</b> needs the past: <b>visited</b>. Websites can be counted: <b>many</b>."
+  },
+  {
+   "qid": "c5-30-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our computer class starts on nine o'clock on Monday.",
+    "Our computer class starts at nine o'clock in Monday.",
+    "Our computer class starts at nine o'clock on Monday."
+   ],
+   "answer": 2,
+   "rule": "<b>at</b> a clock time, <b>on</b> a day: <b>at nine o'clock on Monday</b>."
+  },
+  {
+   "qid": "c5-30-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "pres",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each website have its own address.",
+    "Each website has its own address.",
+    "Each websites has its own address."
+   ],
+   "answer": 1,
+   "rule": "<b>Each</b> takes a singular noun and verb: <b>each website has</b>."
+  },
+  {
+   "qid": "c5-30-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Reena",
+    "download",
+    "a",
+    "song",
+    "from",
+    "the",
+    "net."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "downloaded",
+      "downloads",
+      "downloading"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past, so add -ed: <b>downloaded</b>."
+  },
+  {
+   "qid": "c5-30-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "pres",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Strong",
+    "passwords",
+    "keeps",
+    "our",
+    "accounts",
+    "safe."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "keeping",
+      "is",
+      "keep"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Passwords</b> is plural, so the verb has no -s: <b>keep</b>."
+  },
+  {
+   "qid": "c5-30-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "art",
+   "prompt": "Fill in the gap.",
+   "before": "I watched",
+   "after": "useful video about the planets.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>Useful</b> begins with a 'yoo' (consonant) sound, so use <b>a</b>: <b>a useful video</b>."
+  },
+  {
+   "qid": "c5-30-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "many",
+   "prompt": "Fill in the gap.",
+   "before": "There aren't",
+   "after": "computers in our village school.",
+   "options": [
+    "much",
+    "a",
+    "many"
+   ],
+   "answer": 2,
+   "rule": "<b>Computers</b> can be counted, so use <b>many</b>."
+  },
+  {
+   "qid": "c5-30-38",
+   "type": "build",
+   "level": 4,
+   "topic": "past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Did",
+    "you",
+    "send",
+    "the",
+    "e-mail",
+    "to",
+    "Ravi?"
+   ],
+   "alts": [],
+   "rule": "Past question: <b>Did</b> + subject + base verb: <b>Did you send ...?</b>"
+  },
+  {
+   "qid": "c5-30-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "Were you online last night?"
+    ]
+   ],
+   "options": [
+    "Yes, I was. I chatted with Neha.",
+    "Yes, I were. I chatted with Neha.",
+    "Yes, I was. I chat with Neha."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>was</b>. <b>Last night</b> is past: <b>chatted</b>."
+  },
+  {
+   "qid": "c5-30-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "prep",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "Where did you keep my phone?"
+    ]
+   ],
+   "options": [
+    "I keeped it on the table next to the laptop.",
+    "I kept it on the table next on the laptop.",
+    "I kept it on the table next to the laptop."
+   ],
+   "answer": 2,
+   "rule": "Things lie <b>on</b> a table. We say <b>next to</b>. The past of keep is <b>kept</b>."
+  },
+  {
+   "qid": "c5-30-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "many",
+   "prompt": "Which sentence is fully correct?",
+   "options": [
+    "Many websites give us useful information about animals and plants.",
+    "Much websites give us useful information about animals and plants.",
+    "Many websites gives us useful information about animals and plants."
+   ],
+   "answer": 0,
+   "rule": "<b>Many</b> with countable websites; plural subject takes <b>give</b> (no -s)."
+  },
+  {
+   "qid": "c5-30-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "art",
+   "prompt": "Which sentence is fully correct?",
+   "options": [
+    "A e-mail address is short, and no two addresses are the same.",
+    "An e-mail address is short, and no two addresses are the same.",
+    "An e-mail address is short, and no two addresses is the same."
+   ],
+   "answer": 1,
+   "rule": "<b>An e-mail</b> (vowel sound). <b>Two addresses</b> is plural: <b>are</b>."
+  },
+  {
+   "qid": "c5-30-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "pres",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "tell",
+    "her",
+    "password",
+    "to",
+    "nobody,",
+    "so",
+    "her",
+    "account",
+    "stays",
+    "safe."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "telling",
+      "have",
+      "tells"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "This is a habit in the present. With she/Meera, add -s: <b>tells</b>, just like <b>stays</b>."
+  },
+  {
+   "qid": "c5-30-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "cousin",
+    "in",
+    "Canada",
+    "sends",
+    "me",
+    "e-mails",
+    "in",
+    "my",
+    "birthday",
+    "every",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "at",
+      "on",
+      "under"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>on</b> with special days and dates: <b>on my birthday</b>, <b>on Diwali</b>."
+  },
+  {
+   "qid": "c5-30-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "many",
+   "prompt": "Fill in the gap.",
+   "before": "We could not find",
+   "after": "information about the old fort on the net.",
+   "options": [
+    "many",
+    "much",
+    "a"
+   ],
+   "answer": 1,
+   "rule": "<b>Information</b> cannot be counted, so use <b>much</b>, especially with not."
+  },
+  {
+   "qid": "c5-30-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "art",
+   "prompt": "Fill in the gap.",
+   "before": "Asha is",
+   "after": "only girl in her class who has her own e-mail account.",
+   "options": [
+    "a",
+    "an",
+    "the"
+   ],
+   "answer": 2,
+   "rule": "<b>Only</b> means there is just one, so use <b>the only</b>."
+  },
+  {
+   "qid": "c5-30-47",
+   "type": "build",
+   "level": 5,
+   "topic": "pres",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "internet",
+    "links",
+    "computers",
+    "all",
+    "over",
+    "the",
+    "world."
+   ],
+   "alts": [],
+   "rule": "A fact uses the simple present: <b>The internet links</b> ... <b>all over the world</b>."
+  },
+  {
+   "qid": "c5-30-48",
+   "type": "build",
+   "level": 5,
+   "topic": "many",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "much",
+    "time",
+    "do",
+    "you",
+    "spend",
+    "online?"
+   ],
+   "alts": [],
+   "rule": "<b>Time</b> cannot be counted, so ask <b>How much time</b>."
+  },
+  {
+   "qid": "c5-30-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "pres",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "How does a search engine help you?"
+    ]
+   ],
+   "options": [
+    "It shows me a list of websites on my topic.",
+    "It show me a list of websites on my topic.",
+    "It showing me a list of websites on my topic."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> in the simple present takes -s: <b>It shows</b>."
+  },
+  {
+   "qid": "c5-30-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "many",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How many websites did you use for your project?"
+    ]
+   ],
+   "options": [
+    "I used only a few websites, but they had a lot of informations.",
+    "I used only a few websites, but they had a lot of information.",
+    "I used only a little websites, but they had a lot of information."
+   ],
+   "answer": 1,
+   "rule": "<b>a few</b> with countable nouns (websites). <b>Information</b> has no plural."
+  }
+ ]
+}

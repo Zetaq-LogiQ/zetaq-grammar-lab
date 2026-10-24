@@ -1,0 +1,1229 @@
+{
+ "class": 10,
+ "id": "21",
+ "title": "World Heritage",
+ "topics": [
+  {
+   "tag": "not_only",
+   "name": "Not only ... but also"
+  },
+  {
+   "tag": "no_sooner",
+   "name": "No sooner ... than / hardly ... when / as soon as"
+  },
+  {
+   "tag": "sentence_types",
+   "name": "Simple, compound and complex sentences"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-21-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "not_only",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only Ajanta but also Ellora is a World Heritage Site.",
+    "Not only Ajanta also Ellora is a World Heritage Site.",
+    "Not only Ajanta but also Ellora are a World Heritage Site."
+   ],
+   "answer": 0,
+   "rule": "The pair is <b>not only ... but also</b>; the verb agrees with the nearer subject (Ellora): <b>is</b>."
+  },
+  {
+   "qid": "c10-21-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The temples was moved to higher ground.",
+    "The temples were move to higher ground.",
+    "The temples were moved to higher ground."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>were</b> (plural, past) + past participle <b>moved</b>."
+  },
+  {
+   "qid": "c10-21-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Taj",
+    "Mahal",
+    "was",
+    "build",
+    "by",
+    "Shah",
+    "Jahan."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "building",
+      "built",
+      "builds"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive voice: <b>was</b> + past participle (<b>built</b>)."
+  },
+  {
+   "qid": "c10-21-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "no_sooner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "did",
+    "the",
+    "bell",
+    "ring",
+    "when",
+    "the",
+    "assembly",
+    "started."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "than",
+      "then",
+      "that"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>No sooner</b> is always paired with <b>than</b>."
+  },
+  {
+   "qid": "c10-21-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "The fort is old,",
+   "after": "it is still strong.",
+   "options": [
+    "but",
+    "because of",
+    "despite"
+   ],
+   "answer": 0,
+   "rule": "<b>but</b> joins two independent clauses that contrast, making a compound sentence."
+  },
+  {
+   "qid": "c10-21-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Every year, the site",
+   "after": "by thousands of tourists.",
+   "options": [
+    "visits",
+    "is visiting",
+    "is visited"
+   ],
+   "answer": 2,
+   "rule": "With <b>by</b> + doer, use the passive: <b>is visited</b> (simple present passive)."
+  },
+  {
+   "qid": "c10-21-07",
+   "type": "build",
+   "level": 1,
+   "topic": "not_only",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Elephanta",
+    "is",
+    "not",
+    "only",
+    "old",
+    "but",
+    "also",
+    "beautiful."
+   ],
+   "alts": [],
+   "rule": "<b>not only</b> + adjective + <b>but also</b> + adjective: both parts have the same form."
+  },
+  {
+   "qid": "c10-21-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Is the old fort near your town open now?"
+    ]
+   ],
+   "options": [
+    "Yes, it was repair last year.",
+    "Yes, it was repaired last year.",
+    "Yes, it is repaired last year."
+   ],
+   "answer": 1,
+   "rule": "<b>last year</b> needs the past passive: <b>was repaired</b>."
+  },
+  {
+   "qid": "c10-21-09",
+   "type": "change",
+   "level": 1,
+   "topic": "no_sooner",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the guide arrived, the tour began.",
+   "options": [
+    "No sooner the guide arrived than the tour began.",
+    "No sooner did the guide arrive than the tour began.",
+    "No sooner did the guide arrived than the tour began."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner</b> + <b>did</b> + subject + base verb ... <b>than</b>."
+  },
+  {
+   "qid": "c10-21-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "Ajanta",
+    "Caves",
+    "in",
+    "Maharashtra",
+    "is",
+    "famous",
+    "for",
+    "their",
+    "beautiful",
+    "paintings.",
+    "They",
+    "was",
+    "carved",
+    "out",
+    "of",
+    "solid",
+    "rock",
+    "more",
+    "than",
+    "fifteen",
+    "hundred",
+    "years",
+    "ago."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "be",
+      "was",
+      "are"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>The Ajanta Caves</b> is plural: <b>are</b>; plural past passive: <b>They were carved</b>."
+  },
+  {
+   "qid": "c10-21-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "no_sooner",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardly had we entered the fort than it started to rain.",
+    "Hardly had we entered the fort when it started to rain.",
+    "Hardly we had entered the fort when it started to rain."
+   ],
+   "answer": 1,
+   "rule": "<b>Hardly</b> + <b>had</b> + subject + past participle ... <b>when</b>."
+  },
+  {
+   "qid": "c10-21-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Which complex sentence is correct?",
+   "options": [
+    "UNESCO protects sites that is important to humanity.",
+    "UNESCO protects sites that are important to humanity.",
+    "UNESCO protect sites that are important to humanity."
+   ],
+   "answer": 1,
+   "rule": "Main clause <b>UNESCO protects</b> (singular) + clause <b>that are</b> (refers to plural sites)."
+  },
+  {
+   "qid": "c10-21-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Not",
+    "only",
+    "does",
+    "UNESCO",
+    "lists",
+    "sites,",
+    "but",
+    "it",
+    "also",
+    "protects",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "listed",
+      "listing",
+      "list"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>does</b>, use the base verb: <b>does UNESCO list</b>."
+  },
+  {
+   "qid": "c10-21-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Ajanta",
+    "Caves",
+    "were",
+    "inscribe",
+    "on",
+    "the",
+    "World",
+    "Heritage",
+    "List",
+    "in",
+    "1983."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "inscribing",
+      "inscribed",
+      "inscribes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive voice: <b>were</b> + past participle (<b>inscribed</b>)."
+  },
+  {
+   "qid": "c10-21-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "no_sooner",
+   "prompt": "Fill in the gap.",
+   "before": "No sooner",
+   "after": "the gates open than the visitors rushed in.",
+   "options": [
+    "does",
+    "has",
+    "did"
+   ],
+   "answer": 2,
+   "rule": "Past event: <b>No sooner did</b> + subject + base verb (open) ... <b>than</b>."
+  },
+  {
+   "qid": "c10-21-16",
+   "type": "build",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Make the passive sentence.",
+   "answer": [
+    "The",
+    "fort",
+    "is",
+    "visited",
+    "by",
+    "many",
+    "tourists."
+   ],
+   "alts": [],
+   "rule": "Passive: object + <b>is</b> + past participle + <b>by</b> + doer."
+  },
+  {
+   "qid": "c10-21-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What did you see in Hampi?"
+    ]
+   ],
+   "options": [
+    "We saw not only temples but also old markets.",
+    "We seen not only temples but also old markets.",
+    "We saw not only temples but also an old markets."
+   ],
+   "answer": 0,
+   "rule": "Simple past is <b>saw</b>; <b>not only</b> + noun + <b>but also</b> + noun (no <b>an</b> before a plural)."
+  },
+  {
+   "qid": "c10-21-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Why are you late?"
+    ]
+   ],
+   "options": [
+    "I missed the bus, so I had to walk.",
+    "I missed the bus, so I have to walked.",
+    "I missed the bus, because so I had to walk."
+   ],
+   "answer": 0,
+   "rule": "Compound sentence: two clauses joined by <b>so</b>; use one joining word only."
+  },
+  {
+   "qid": "c10-21-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "UNESCO protects these sites.",
+   "options": [
+    "These sites are protected by UNESCO.",
+    "These sites is protected by UNESCO.",
+    "These sites were protected by UNESCO."
+   ],
+   "answer": 0,
+   "rule": "Simple present passive: <b>are</b> (plural) + past participle; keep the present tense."
+  },
+  {
+   "qid": "c10-21-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "World",
+    "Heritage",
+    "Committee",
+    "meets",
+    "once",
+    "an",
+    "year.",
+    "It",
+    "is",
+    "make",
+    "up",
+    "of",
+    "representatives",
+    "from",
+    "twenty-one",
+    "countries,",
+    "and",
+    "it",
+    "decides",
+    "which",
+    "sites",
+    "are",
+    "added",
+    "to",
+    "the",
+    "list."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "the",
+      "some",
+      "a"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "made",
+      "making",
+      "makes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>year</b> starts with a consonant sound, so <b>a year</b>; passive = <b>is</b> + past participle: <b>is made up of</b>."
+  },
+  {
+   "qid": "c10-21-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "not_only",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only the project saved the temples, but it also inspired the world.",
+    "Not only did the project saved the temples, but it also inspired the world.",
+    "Not only did the project save the temples, but it also inspired the world."
+   ],
+   "answer": 2,
+   "rule": "<b>Not only</b> at the start: <b>did</b> + subject + base verb (<b>save</b>)."
+  },
+  {
+   "qid": "c10-21-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many old forts have been restore in recent years.",
+    "Many old forts have been restored in recent years.",
+    "Many old forts has been restored in recent years."
+   ],
+   "answer": 1,
+   "rule": "Present perfect passive: <b>have been</b> (plural) + past participle (<b>restored</b>)."
+  },
+  {
+   "qid": "c10-21-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "site",
+    "will",
+    "be",
+    "removed",
+    "from",
+    "the",
+    "list",
+    "if",
+    "it",
+    "lose",
+    "its",
+    "special",
+    "features."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "lost",
+      "loses",
+      "losing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In the <b>if</b> clause use the simple present; <b>it</b> is singular: <b>loses</b>."
+  },
+  {
+   "qid": "c10-21-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "no_sooner",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the tourists left",
+   "after": "the cleaners arrived.",
+   "options": [
+    "than",
+    "when",
+    "then"
+   ],
+   "answer": 1,
+   "rule": "<b>Hardly</b> is paired with <b>when</b>; <b>No sooner</b> is paired with <b>than</b>."
+  },
+  {
+   "qid": "c10-21-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The Abu Simbel temples",
+   "after": "to higher ground in the 1960s.",
+   "options": [
+    "was moved",
+    "have been moved",
+    "were moved"
+   ],
+   "answer": 2,
+   "rule": "Plural <b>temples</b> + a past time (in the 1960s): simple past passive <b>were moved</b>."
+  },
+  {
+   "qid": "c10-21-26",
+   "type": "build",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Make a complex sentence.",
+   "answer": [
+    "The",
+    "site",
+    "is",
+    "special",
+    "because",
+    "it",
+    "has",
+    "ancient",
+    "paintings."
+   ],
+   "alts": [],
+   "rule": "Main clause + <b>because</b> + dependent clause = a complex sentence."
+  },
+  {
+   "qid": "c10-21-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "no_sooner",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you reach the fort before the rain?"
+    ]
+   ],
+   "options": [
+    "No. No sooner we had parked the car than it began to pour.",
+    "No. No sooner had we parked the car than it began to pour.",
+    "No. No sooner had we parked the car when it began to pour."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b>."
+  },
+  {
+   "qid": "c10-21-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Is the museum open on Mondays?"
+    ]
+   ],
+   "options": [
+    "No, it is close on Mondays for cleaning.",
+    "No, it are closed on Mondays for cleaning.",
+    "No, it is closed on Mondays for cleaning."
+   ],
+   "answer": 2,
+   "rule": "A regular state in the present: <b>is closed</b> (is + past participle)."
+  },
+  {
+   "qid": "c10-21-29",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Make it a complex sentence using 'Because'.",
+   "source": "The site lost its special features and was removed from the list.",
+   "options": [
+    "Because the site lost its special features, it was removed from the list.",
+    "Because the site lost its special features, so it was removed from the list.",
+    "Because the site lost its special features, it removed from the list."
+   ],
+   "answer": 0,
+   "rule": "<b>Because</b> makes a dependent clause; do not add <b>so</b>, and keep the passive <b>was removed</b>."
+  },
+  {
+   "qid": "c10-21-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "When",
+    "Egypt",
+    "planned",
+    "the",
+    "Aswan",
+    "High",
+    "Dam,",
+    "the",
+    "two",
+    "temples",
+    "was",
+    "in",
+    "danger.",
+    "UNESCO",
+    "launch",
+    "a",
+    "campaign,",
+    "and",
+    "the",
+    "temples",
+    "were",
+    "moved",
+    "to",
+    "higher",
+    "ground."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "launched",
+      "launches",
+      "launching"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>temples</b> is plural: <b>were</b>; the story is in the past: UNESCO <b>launched</b>."
+  },
+  {
+   "qid": "c10-21-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only the forts but also the palace have been restored.",
+    "Not only the forts but also the palace has been restored.",
+    "Not only the forts but also the palace has been restore."
+   ],
+   "answer": 1,
+   "rule": "The verb agrees with the nearer subject (<b>the palace</b>): <b>has been restored</b>."
+  },
+  {
+   "qid": "c10-21-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "no_sooner",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "tourists",
+    "reached",
+    "the",
+    "caves",
+    "than",
+    "the",
+    "guide",
+    "begin",
+    "his",
+    "talk."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "began",
+      "begun",
+      "begins"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>than</b>, the second action is in the simple past: <b>began</b>."
+  },
+  {
+   "qid": "c10-21-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hampi,",
+    "which",
+    "were",
+    "the",
+    "capital",
+    "of",
+    "an",
+    "empire,",
+    "is",
+    "now",
+    "a",
+    "World",
+    "Heritage",
+    "Site."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "was",
+      "are",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>which</b> refers to <b>Hampi</b> (singular), so the verb is <b>was</b>."
+  },
+  {
+   "qid": "c10-21-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "The fort,",
+   "after": "was built in the 1600s, is now a museum.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 2,
+   "rule": "For a thing, the relative pronoun is <b>which</b>; it makes the sentence complex."
+  },
+  {
+   "qid": "c10-21-35",
+   "type": "build",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "The",
+    "fort",
+    "was",
+    "not",
+    "only",
+    "cleaned",
+    "but",
+    "also",
+    "repaired."
+   ],
+   "alts": [],
+   "rule": "Passive with <b>not only ... but also</b>: was not only + past participle + but also + past participle."
+  },
+  {
+   "qid": "c10-21-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "no_sooner",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How was the light-and-sound show at the fort?"
+    ]
+   ],
+   "options": [
+    "Amazing! As soon as the lights go off, the music began.",
+    "Amazing! As soon as the lights went off, the music began.",
+    "Amazing! As soon as the lights went off, the music begin."
+   ],
+   "answer": 1,
+   "rule": "Both actions are in the past: <b>As soon as</b> the lights <b>went</b> off, the music <b>began</b>."
+  },
+  {
+   "qid": "c10-21-37",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice, beginning with 'We'.",
+   "source": "The guide showed us the old paintings.",
+   "options": [
+    "We were shown the old paintings by the guide.",
+    "We was shown the old paintings by the guide.",
+    "We were show the old paintings by the guide."
+   ],
+   "answer": 0,
+   "rule": "Past passive: <b>were</b> (with We) + past participle <b>shown</b>."
+  },
+  {
+   "qid": "c10-21-38",
+   "type": "change",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Combine using 'not only ... but also'.",
+   "source": "The State Parties identify new sites. They also nominate them.",
+   "options": [
+    "The State Parties not only identify new sites but also nominates them.",
+    "The State Parties not only identify new sites also nominate them.",
+    "The State Parties not only identify new sites but also nominate them."
+   ],
+   "answer": 2,
+   "rule": "<b>not only</b> + verb ... <b>but also</b> + verb; both verbs agree with <b>State Parties</b> (plural)."
+  },
+  {
+   "qid": "c10-21-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "As",
+    "soon",
+    "as",
+    "we",
+    "reached",
+    "the",
+    "caves,",
+    "the",
+    "guide",
+    "tell",
+    "us",
+    "that",
+    "they",
+    "were",
+    "carve",
+    "by",
+    "monks.",
+    "Not",
+    "only",
+    "are",
+    "the",
+    "paintings",
+    "colourful,",
+    "but",
+    "they",
+    "also",
+    "tells",
+    "stories",
+    "from",
+    "the",
+    "past."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "telling",
+      "tale",
+      "told"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "carving",
+      "carved",
+      "carves"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 26,
+     "options": [
+      "tell",
+      "telling",
+      "teller"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Past action: <b>told</b>; passive: <b>were carved</b>; <b>they</b> (paintings) takes <b>tell</b>."
+  },
+  {
+   "qid": "c10-21-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "If",
+    "a",
+    "site",
+    "lose",
+    "its",
+    "special",
+    "features,",
+    "it",
+    "can",
+    "be",
+    "remove",
+    "from",
+    "the",
+    "list.",
+    "That",
+    "is",
+    "why",
+    "we",
+    "must",
+    "not",
+    "only",
+    "respect",
+    "old",
+    "monuments",
+    "but",
+    "also",
+    "helps",
+    "to",
+    "keep",
+    "them",
+    "clean."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "loses",
+      "losing",
+      "lost"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "removing",
+      "removes",
+      "removed"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "help",
+      "helping",
+      "helper"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>a site loses</b>; passive <b>can be removed</b>; after <b>must not only respect ... but also</b> use the base verb <b>help</b>."
+  },
+  {
+   "qid": "c10-21-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "no_sooner",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardly had the Convention adopted when many countries signed it.",
+    "Hardly had the Convention been adopted when many countries signed it.",
+    "Hardly the Convention had been adopted when many countries signed it."
+   ],
+   "answer": 1,
+   "rule": "Passive past perfect after <b>Hardly</b>: <b>had</b> + subject + <b>been adopted</b> ... <b>when</b>."
+  },
+  {
+   "qid": "c10-21-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "temples",
+    "would",
+    "have",
+    "been",
+    "flood",
+    "if",
+    "UNESCO",
+    "had",
+    "not",
+    "stepped",
+    "in."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "flooding",
+      "floods",
+      "flooded"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive in the third conditional: <b>would have been</b> + past participle (<b>flooded</b>)."
+  },
+  {
+   "qid": "c10-21-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Fill in the gap.",
+   "before": "Not only",
+   "after": "the site attract tourists, but it also creates local jobs.",
+   "options": [
+    "is",
+    "does",
+    "has"
+   ],
+   "answer": 1,
+   "rule": "With the base verb <b>attract</b> after the subject, the helping verb must be <b>does</b>."
+  },
+  {
+   "qid": "c10-21-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The Convention",
+   "after": "by UNESCO's General Conference on 16 November 1972.",
+   "options": [
+    "adopted",
+    "has been adopted",
+    "was adopted"
+   ],
+   "answer": 2,
+   "rule": "A past date + <b>by</b> + doer: simple past passive <b>was adopted</b> (not present perfect)."
+  },
+  {
+   "qid": "c10-21-45",
+   "type": "build",
+   "level": 5,
+   "topic": "no_sooner",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "guide",
+    "arrived",
+    "than",
+    "our",
+    "tour",
+    "began."
+   ],
+   "alts": [
+    [
+     "No",
+     "sooner",
+     "had",
+     "our",
+     "guide",
+     "arrived",
+     "than",
+     "the",
+     "tour",
+     "began."
+    ]
+   ],
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b> + simple past."
+  },
+  {
+   "qid": "c10-21-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why do World Heritage Sites need protection?"
+    ]
+   ],
+   "options": [
+    "Because they can damaged by pollution, war and heavy tourist traffic.",
+    "Because they can be damaged by pollution, war and heavy tourist traffic.",
+    "Because they can be damage by pollution, war and heavy tourist traffic."
+   ],
+   "answer": 1,
+   "rule": "Modal passive: <b>can be</b> + past participle (<b>damaged</b>)."
+  },
+  {
+   "qid": "c10-21-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Did you finish the project on Hampi?"
+    ],
+    [
+     "Om",
+     "Ma'am wants it tomorrow."
+    ]
+   ],
+   "options": [
+    "Yes. Not only have I written it, but I have also added photos.",
+    "Yes. Not only I have written it, but I have also added photos.",
+    "Yes. Not only have I written it, but I have also add photos."
+   ],
+   "answer": 0,
+   "rule": "<b>Not only</b> first: <b>have I written</b>; present perfect needs the past participle <b>added</b>."
+  },
+  {
+   "qid": "c10-21-48",
+   "type": "change",
+   "level": 5,
+   "topic": "no_sooner",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the monsoon arrived, the waterfalls came alive.",
+   "options": [
+    "No sooner did the monsoon arrive than the waterfalls came alive.",
+    "No sooner did the monsoon arrived than the waterfalls came alive.",
+    "No sooner had the monsoon arrive than the waterfalls came alive."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner did</b> + subject + base verb (arrive) ... <b>than</b>."
+  },
+  {
+   "qid": "c10-21-49",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The site was nominated by the State Party.",
+   "options": [
+    "The State Party nominates the site.",
+    "The State Party was nominated the site.",
+    "The State Party nominated the site."
+   ],
+   "answer": 2,
+   "rule": "Passive <b>was nominated</b> (past) becomes active simple past <b>nominated</b>; the doer becomes the subject."
+  },
+  {
+   "qid": "c10-21-50",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Make it a compound sentence.",
+   "source": "Being old, the fort needs care.",
+   "options": [
+    "The fort is old, so it need care.",
+    "The fort is old, because so it needs care.",
+    "The fort is old, so it needs care."
+   ],
+   "answer": 2,
+   "rule": "Compound sentence: two independent clauses joined by <b>so</b>; <b>it</b> takes <b>needs</b>."
+  }
+ ]
+}

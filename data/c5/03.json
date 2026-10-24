@@ -1,0 +1,1000 @@
+{
+ "class": 5,
+ "id": "03",
+ "title": "Be a Good Listener",
+ "topics": [
+  {
+   "tag": "imperatives",
+   "name": "Imperatives (instructions and commands)"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present tense"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh- questions"
+  },
+  {
+   "tag": "polite_words",
+   "name": "Polite words (please, may I, could you, thank you)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-03-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Looks at the speaker.",
+    "Looking at the speaker.",
+    "Look at the speaker."
+   ],
+   "answer": 2,
+   "rule": "An instruction starts with the base form of the verb: <b>Look</b> at the speaker."
+  },
+  {
+   "qid": "c5-03-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A good listener pay attention.",
+    "A good listener pays attention.",
+    "A good listener paying attention."
+   ],
+   "answer": 1,
+   "rule": "With one person (he/she/a listener), the present verb takes <b>-s</b>: <b>pays</b>."
+  },
+  {
+   "qid": "c5-03-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "What this word means?",
+    "What does this word means?",
+    "What does this word mean?"
+   ],
+   "answer": 2,
+   "rule": "Wh-word + <b>does</b> + subject + base verb: What does this word <b>mean</b>?"
+  },
+  {
+   "qid": "c5-03-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Good",
+    "listeners",
+    "pays",
+    "close",
+    "attention",
+    "to",
+    "the",
+    "speaker."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "paying",
+      "payment",
+      "pay"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Listeners</b> is plural, so the verb has no -s: <b>pay</b>."
+  },
+  {
+   "qid": "c5-03-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "sits",
+    "quietly",
+    "and",
+    "listen",
+    "to",
+    "the",
+    "sounds."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "sit",
+      "sitting",
+      "sat"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Instructions use the base form of the verb: <b>Please sit</b> ... and listen."
+  },
+  {
+   "qid": "c5-03-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I ask a question, ma'am?",
+   "options": [
+    "May",
+    "Does",
+    "Am"
+   ],
+   "answer": 0,
+   "rule": "We ask for permission politely with <b>May I</b> ...?"
+  },
+  {
+   "qid": "c5-03-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "do you live?",
+   "options": [
+    "Where",
+    "Who",
+    "Whose"
+   ],
+   "answer": 0,
+   "rule": "<b>Where</b> asks about a place."
+  },
+  {
+   "qid": "c5-03-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make a polite instruction.",
+   "answer": [
+    "Please",
+    "close",
+    "the",
+    "door",
+    "quietly."
+   ],
+   "alts": [],
+   "rule": "<b>Please</b> + base verb makes a polite instruction: Please close the door."
+  },
+  {
+   "qid": "c5-03-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "Here is the pencil you asked for."
+    ]
+   ],
+   "options": [
+    "Thanks you, Anu.",
+    "Thank to you, Anu.",
+    "Thank you, Anu."
+   ],
+   "answer": 2,
+   "rule": "Say <b>Thank you</b> or <b>Thanks</b>, but never 'Thanks you'."
+  },
+  {
+   "qid": "c5-03-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Does your brother play the flute?"
+    ]
+   ],
+   "options": [
+    "Yes, he play it every evening.",
+    "Yes, he plays it every evening.",
+    "Yes, he playing it every evening."
+   ],
+   "answer": 1,
+   "rule": "For a habit, use the simple present; with <b>he</b>, add -s: <b>he plays</b>."
+  },
+  {
+   "qid": "c5-03-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Don't talk while others are speaking.",
+    "Not talk while others are speaking.",
+    "Don't talks while others are speaking."
+   ],
+   "answer": 0,
+   "rule": "A 'do not' instruction is <b>Don't</b> + base verb: <b>Don't talk</b>."
+  },
+  {
+   "qid": "c5-03-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Where do the speaker come from?",
+    "Where does the speaker come from?",
+    "Where does the speaker comes from?"
+   ],
+   "answer": 1,
+   "rule": "One speaker takes <b>does</b>, and after does the verb has no -s: <b>come</b>."
+  },
+  {
+   "qid": "c5-03-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "Could you speaks a little louder, please?",
+    "Could you speak a little louder, please?",
+    "Could you spoke a little louder, please?"
+   ],
+   "answer": 1,
+   "rule": "After <b>Could you</b>, use the base form of the verb: <b>speak</b>."
+  },
+  {
+   "qid": "c5-03-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandma",
+    "tell",
+    "us",
+    "a",
+    "new",
+    "story",
+    "every",
+    "night",
+    "from",
+    "her",
+    "old",
+    "book."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "telling",
+      "tells",
+      "tale"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Grandma</b> is one person (<b>her</b> book) and <b>every night</b> shows a habit: <b>tells</b>."
+  },
+  {
+   "qid": "c5-03-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "does",
+    "the",
+    "baby",
+    "cries",
+    "at",
+    "night?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "cry",
+      "crying",
+      "cried"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b>, use the base form of the verb: does the baby <b>cry</b>?"
+  },
+  {
+   "qid": "c5-03-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "down the important points as you listen.",
+   "options": [
+    "Note",
+    "Notes",
+    "Noting"
+   ],
+   "answer": 0,
+   "rule": "An instruction begins with the base verb: <b>Note</b> down the points."
+  },
+  {
+   "qid": "c5-03-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "The teacher",
+   "after": "every word clearly.",
+   "options": [
+    "speak",
+    "speaks",
+    "speaking"
+   ],
+   "answer": 1,
+   "rule": "<b>The teacher</b> is one person, so the present verb takes -s: <b>speaks</b>."
+  },
+  {
+   "qid": "c5-03-18",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "is",
+    "the",
+    "speaker",
+    "saying?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>is</b> + subject + -ing verb: What is the speaker saying?"
+  },
+  {
+   "qid": "c5-03-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Pooja",
+     "I heard a strange sound outside."
+    ]
+   ],
+   "options": [
+    "What kind of sound you heard?",
+    "What kind of sound did you heard?",
+    "What kind of sound did you hear?"
+   ],
+   "answer": 2,
+   "rule": "Past questions use <b>did</b> + base verb: did you <b>hear</b>?"
+  },
+  {
+   "qid": "c5-03-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Khan",
+     "There is water on the floor."
+    ]
+   ],
+   "options": [
+    "Please is careful. Don't slip.",
+    "Please be careful. Don't slips.",
+    "Please be careful. Don't slip."
+   ],
+   "answer": 2,
+   "rule": "Instructions use the base form: <b>be</b> careful, <b>Don't slip</b>."
+  },
+  {
+   "qid": "c5-03-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She do not understand the new word.",
+    "She does not understand the new word.",
+    "She does not understands the new word."
+   ],
+   "answer": 1,
+   "rule": "With she, use <b>does not</b> + base verb: does not <b>understand</b>."
+  },
+  {
+   "qid": "c5-03-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "How often does you listen to the radio?",
+    "How often you listen to the radio?",
+    "How often do you listen to the radio?"
+   ],
+   "answer": 2,
+   "rule": "With <b>you</b>, the helper is <b>do</b>, and it comes before the subject."
+  },
+  {
+   "qid": "c5-03-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "I",
+    "borrows",
+    "your",
+    "notebook",
+    "for",
+    "a",
+    "day,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "borrowed",
+      "borrow",
+      "borrowing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>May I</b>, use the base form of the verb: May I <b>borrow</b>?"
+  },
+  {
+   "qid": "c5-03-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Listen",
+    "to",
+    "the",
+    "speaker",
+    "and",
+    "waits",
+    "for",
+    "your",
+    "turn."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "wait",
+      "waiting",
+      "waited"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two instructions joined by <b>and</b> both use the base verb: Listen ... and <b>wait</b>."
+  },
+  {
+   "qid": "c5-03-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "pen is this? Is it yours?",
+   "options": [
+    "Whose",
+    "Who",
+    "Who's"
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> asks who something belongs to. <b>Who's</b> means 'who is'."
+  },
+  {
+   "qid": "c5-03-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you please pass me the salt?",
+   "options": [
+    "Do",
+    "Are",
+    "Could"
+   ],
+   "answer": 2,
+   "rule": "A polite request begins with <b>Could you please</b> + base verb?"
+  },
+  {
+   "qid": "c5-03-27",
+   "type": "build",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Ask for permission politely.",
+   "answer": [
+    "May",
+    "I",
+    "come",
+    "in,",
+    "sir?"
+   ],
+   "alts": [],
+   "rule": "<b>May I</b> + base verb asks for permission politely."
+  },
+  {
+   "qid": "c5-03-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Good",
+    "listeners",
+    "look",
+    "at",
+    "the",
+    "speaker."
+   ],
+   "alts": [],
+   "rule": "A plural subject (<b>listeners</b>) takes the verb without -s: <b>look</b>."
+  },
+  {
+   "qid": "c5-03-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Does Meena like loud music?"
+    ]
+   ],
+   "options": [
+    "No, she don't like it at all.",
+    "No, she doesn't likes it at all.",
+    "No, she doesn't like it at all."
+   ],
+   "answer": 2,
+   "rule": "With she, use <b>doesn't</b> + base verb: she doesn't <b>like</b>."
+  },
+  {
+   "qid": "c5-03-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "What would you like?"
+    ]
+   ],
+   "options": [
+    "I would like two pens, please.",
+    "I would likes two pens, please.",
+    "I would like two pen, please."
+   ],
+   "answer": 0,
+   "rule": "After <b>would</b>, use the base verb <b>like</b>; <b>two</b> needs the plural <b>pens</b>."
+  },
+  {
+   "qid": "c5-03-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "What did the teacher say in the assembly?",
+    "What did the teacher said in the assembly?",
+    "What the teacher said in the assembly?"
+   ],
+   "answer": 0,
+   "rule": "Past questions use <b>did</b> + base verb: What did the teacher <b>say</b>?"
+  },
+  {
+   "qid": "c5-03-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Bring me the vase that have pink roses.",
+    "Bring me the vase that has pink roses.",
+    "Brings me the vase that has pink roses."
+   ],
+   "answer": 1,
+   "rule": "Instructions start with the base verb <b>Bring</b>; one vase <b>has</b> roses."
+  },
+  {
+   "qid": "c5-03-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "two",
+    "cousins",
+    "lives",
+    "in",
+    "Nagpur",
+    "and",
+    "visit",
+    "us",
+    "every",
+    "May."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "living",
+      "lived",
+      "live"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Two cousins</b> is plural, so the verb has no -s: <b>live</b> ... and visit."
+  },
+  {
+   "qid": "c5-03-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "was",
+    "both",
+    "your",
+    "brothers",
+    "during",
+    "the",
+    "school",
+    "play?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "were",
+      "is",
+      "am"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both your brothers</b> is plural, so the question uses <b>were</b>."
+  },
+  {
+   "qid": "c5-03-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "Why",
+   "after": "Arjun always sit in the front row?",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "One person (Arjun) takes <b>does</b> + base verb: Why does Arjun sit ...?"
+  },
+  {
+   "qid": "c5-03-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "afraid to ask questions in class.",
+   "options": [
+    "Don't",
+    "Not be",
+    "Don't be"
+   ],
+   "answer": 2,
+   "rule": "<b>afraid</b> is not a verb, so the instruction needs <b>be</b>: <b>Don't be</b> afraid."
+  },
+  {
+   "qid": "c5-03-37",
+   "type": "build",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "you",
+    "find",
+    "this",
+    "old",
+    "coin?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>did</b> + subject + base verb: Where did you <b>find</b> ...?"
+  },
+  {
+   "qid": "c5-03-38",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Make a polite instruction.",
+   "answer": [
+    "Please",
+    "don't",
+    "shout",
+    "in",
+    "the",
+    "library."
+   ],
+   "alts": [],
+   "rule": "<b>Please don't</b> + base verb makes a polite 'do not' instruction."
+  },
+  {
+   "qid": "c5-03-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Who teaches you English?"
+    ]
+   ],
+   "options": [
+    "Mrs Joshi teach us English.",
+    "Mrs Joshi teaches us English.",
+    "Mrs Joshi teaching us English."
+   ],
+   "answer": 1,
+   "rule": "<b>Mrs Joshi</b> is one person, so the present verb takes -es: <b>teaches</b>."
+  },
+  {
+   "qid": "c5-03-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Fernandes",
+     "Can someone help me carry these books?"
+    ]
+   ],
+   "options": [
+    "I helping you, ma'am.",
+    "I will help you, ma'am.",
+    "I will helps you, ma'am."
+   ],
+   "answer": 1,
+   "rule": "To offer help, say <b>I will help you</b>: will + base verb."
+  },
+  {
+   "qid": "c5-03-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Do you know what will the speaker say next?",
+    "Do you know what the speaker will says next?",
+    "Do you know what the speaker will say next?"
+   ],
+   "answer": 2,
+   "rule": "Inside a longer question, keep normal order: what <b>the speaker will say</b>."
+  },
+  {
+   "qid": "c5-03-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the students look at the speaker when she talks.",
+    "Each of the students looks at the speaker when she talks.",
+    "Each of the students looks at the speaker when she talk."
+   ],
+   "answer": 1,
+   "rule": "<b>Each</b> means every single one, so the verb is singular: <b>looks</b>; she <b>talks</b>."
+  },
+  {
+   "qid": "c5-03-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "good",
+    "listener",
+    "never",
+    "turns",
+    "away",
+    "or",
+    "plays",
+    "with",
+    "a",
+    "pen",
+    "when",
+    "Ms",
+    "Rao",
+    "are",
+    "speaking."
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "am",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Ms Rao</b> is one person, so use <b>is speaking</b>."
+  },
+  {
+   "qid": "c5-03-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "many",
+    "new",
+    "words",
+    "does",
+    "Kavya",
+    "learns",
+    "from",
+    "the",
+    "radio",
+    "every",
+    "week?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "learn",
+      "learning",
+      "learned"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does</b>, the main verb is in the base form: does Kavya <b>learn</b>?"
+  },
+  {
+   "qid": "c5-03-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "Excuse me,",
+   "after": "you tell me the way to the post office?",
+   "options": [
+    "are",
+    "could",
+    "does"
+   ],
+   "answer": 1,
+   "rule": "Ask a stranger politely with <b>Could you</b> + base verb."
+  },
+  {
+   "qid": "c5-03-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Sometimes it",
+   "after": "to note down important points while you listen.",
+   "options": [
+    "help",
+    "helping",
+    "helps"
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes a verb with -s in the simple present: <b>it helps</b>."
+  },
+  {
+   "qid": "c5-03-47",
+   "type": "build",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Wait",
+    "for",
+    "the",
+    "speaker",
+    "to",
+    "finish",
+    "talking."
+   ],
+   "alts": [],
+   "rule": "Start with the base verb <b>Wait</b>; <b>to finish</b> tells what the speaker must do."
+  },
+  {
+   "qid": "c5-03-48",
+   "type": "build",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Which",
+    "sounds",
+    "do",
+    "you",
+    "like",
+    "the",
+    "most?"
+   ],
+   "alts": [],
+   "rule": "<b>Which</b> + noun + <b>do you</b> + base verb: Which sounds do you like?"
+  },
+  {
+   "qid": "c5-03-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Receptionist",
+     "Good morning, Sunshine Clinic. How may I help you?"
+    ]
+   ],
+   "options": [
+    "Good morning. May I speaks to Dr Mehta, please?",
+    "Good morning. May I to speak to Dr Mehta, please?",
+    "Good morning. May I speak to Dr Mehta, please?"
+   ],
+   "answer": 2,
+   "rule": "<b>May I</b> is followed directly by the base verb: May I <b>speak</b>?"
+  },
+  {
+   "qid": "c5-03-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ajay",
+     "I can't hear the teacher from the back."
+    ]
+   ],
+   "options": [
+    "Then comes and sit in the front row with me.",
+    "Then come and sitting in the front row with me.",
+    "Then come and sit in the front row with me."
+   ],
+   "answer": 2,
+   "rule": "Both instructions use the base verb: <b>come</b> and <b>sit</b>."
+  }
+ ]
+}

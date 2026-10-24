@@ -1,0 +1,986 @@
+{
+ "class": 5,
+ "id": "19",
+ "title": "Be a Good Host and Guest",
+ "topics": [
+  {
+   "tag": "imperatives",
+   "name": "Imperatives (commands, tips, Don't)"
+  },
+  {
+   "tag": "polite",
+   "name": "Polite words: please, may I, thank you"
+  },
+  {
+   "tag": "prep_time",
+   "name": "Prepositions of time: at, on, in"
+  },
+  {
+   "tag": "future",
+   "name": "Simple future with will"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-19-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Which tip is correct?",
+   "options": [
+    "Be punctual for the party.",
+    "Is punctual for the party.",
+    "Being punctual for the party."
+   ],
+   "answer": 0,
+   "rule": "A command (imperative) starts with the base form of the verb: <b>Be</b> punctual."
+  },
+  {
+   "qid": "c5-19-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The party is at Sunday.",
+    "The party is on Sunday.",
+    "The party is in Sunday."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days: <b>on Sunday</b>, on Monday."
+  },
+  {
+   "qid": "c5-19-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Grandpa will is very happy.",
+    "Grandpa will be very happy.",
+    "Grandpa will being very happy."
+   ],
+   "answer": 1,
+   "rule": "After <b>will</b>, use the base form: <b>will be</b>."
+  },
+  {
+   "qid": "c5-19-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kedar's",
+    "party",
+    "will",
+    "start",
+    "on",
+    "six",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "in",
+      "of",
+      "at"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at six o'clock</b>."
+  },
+  {
+   "qid": "c5-19-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Doesn't",
+    "forget",
+    "to",
+    "bring",
+    "a",
+    "gift",
+    "for",
+    "Grandpa."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Not",
+      "Didn't",
+      "Don't"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A negative command starts with <b>Don't</b>: <b>Don't forget</b> the gift."
+  },
+  {
+   "qid": "c5-19-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "your guests with a smile.",
+   "options": [
+    "Greets",
+    "Greet",
+    "Greeting"
+   ],
+   "answer": 1,
+   "rule": "A command uses the base form of the verb: <b>Greet</b> your guests."
+  },
+  {
+   "qid": "c5-19-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "The games will start",
+   "after": "6 pm.",
+   "options": [
+    "at",
+    "on",
+    "in"
+   ],
+   "answer": 0,
+   "rule": "Use <b>at</b> with a time of the clock: <b>at 6 pm</b>."
+  },
+  {
+   "qid": "c5-19-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make a tip for a good guest.",
+   "answer": [
+    "Be",
+    "friendly",
+    "with",
+    "everyone."
+   ],
+   "alts": [],
+   "rule": "A command begins with the verb: <b>Be</b> friendly with everyone."
+  },
+  {
+   "qid": "c5-19-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Would you like some more kheer?"
+    ]
+   ],
+   "options": [
+    "Yes, please. It is delicious.",
+    "Yes, please. It are delicious.",
+    "Yes, please. It delicious."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> takes <b>is</b>, and <b>Yes, please</b> is the polite way to accept."
+  },
+  {
+   "qid": "c5-19-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sona",
+     "Will you come to Grandpa's party?"
+    ]
+   ],
+   "options": [
+    "Yes, I will comes.",
+    "Yes, I will come.",
+    "Yes, I wills come."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> never changes, and the verb after it is in the base form: <b>will come</b>."
+  },
+  {
+   "qid": "c5-19-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Which polite offer is correct?",
+   "options": [
+    "May I helps you with the plates?",
+    "May I helping you with the plates?",
+    "May I help you with the plates?"
+   ],
+   "answer": 2,
+   "rule": "After <b>May I</b>, use the base form of the verb: <b>May I help</b> you?"
+  },
+  {
+   "qid": "c5-19-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Which tip is correct?",
+   "options": [
+    "Don't wastes food at a party.",
+    "Doesn't waste food at a party.",
+    "Don't waste food at a party."
+   ],
+   "answer": 2,
+   "rule": "A negative command is <b>Don't</b> + base verb: <b>Don't waste</b> food."
+  },
+  {
+   "qid": "c5-19-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The guests will arrive at noon.",
+    "The guests will arrive on noon.",
+    "The guests will arrive in noon."
+   ],
+   "answer": 0,
+   "rule": "Exact times like <b>noon</b> and clock times take <b>at</b>: <b>at noon</b>."
+  },
+  {
+   "qid": "c5-19-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "neighbours",
+    "will",
+    "comes",
+    "to",
+    "the",
+    "party",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "came",
+      "coming",
+      "come"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b>, use the base form: <b>will come</b>, never will comes."
+  },
+  {
+   "qid": "c5-19-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "I",
+    "takes",
+    "one",
+    "more",
+    "sweet,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "took",
+      "take",
+      "taking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>May I</b>, use the base form: <b>May I take</b> ...?"
+  },
+  {
+   "qid": "c5-19-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I come in, please?",
+   "options": [
+    "Am",
+    "May",
+    "Is"
+   ],
+   "answer": 1,
+   "rule": "We ask for permission politely with <b>May I</b> ...?"
+  },
+  {
+   "qid": "c5-19-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa",
+   "after": "be surprised to see everyone.",
+   "options": [
+    "will",
+    "is",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "For the future, use <b>will</b> + base verb: <b>will be</b> surprised."
+  },
+  {
+   "qid": "c5-19-18",
+   "type": "build",
+   "level": 2,
+   "topic": "polite",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "May",
+    "I",
+    "help",
+    "you,",
+    "Grandma?"
+   ],
+   "alts": [],
+   "rule": "A polite offer: <b>May I</b> + base verb ... ?"
+  },
+  {
+   "qid": "c5-19-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kedar",
+     "When is the party?"
+    ]
+   ],
+   "options": [
+    "It is in Sunday evening.",
+    "It is on Sunday evening.",
+    "It is at Sunday evening."
+   ],
+   "answer": 1,
+   "rule": "Use <b>on</b> with days, even with a part of the day: <b>on Sunday evening</b>."
+  },
+  {
+   "qid": "c5-19-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What should a good guest do at a party?"
+    ]
+   ],
+   "options": [
+    "Be friendly and helps the host.",
+    "Is friendly and help the host.",
+    "Be friendly and help the host."
+   ],
+   "answer": 2,
+   "rule": "Both commands use the base form: <b>Be</b> friendly and <b>help</b> the host."
+  },
+  {
+   "qid": "c5-19-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We will had the party on the 21st of December.",
+    "We will have the party on the 21st of December.",
+    "We will have the party in the 21st of December."
+   ],
+   "answer": 1,
+   "rule": "<b>will have</b> (base form after will) and <b>on</b> with a date: on the 21st."
+  },
+  {
+   "qid": "c5-19-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Pick the correct tip for a guest.",
+   "options": [
+    "Please removes the price tag from the gift.",
+    "Please removing the price tag from the gift.",
+    "Please remove the price tag from the gift."
+   ],
+   "answer": 2,
+   "rule": "<b>Please</b> + base verb makes a polite command: <b>Please remove</b> the tag."
+  },
+  {
+   "qid": "c5-19-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "greets",
+    "every",
+    "guest",
+    "at",
+    "the",
+    "door."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "greet",
+      "greeting",
+      "greeted"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A command uses the base form of the verb: <b>Please greet</b> every guest."
+  },
+  {
+   "qid": "c5-19-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "party",
+    "will",
+    "be",
+    "held",
+    "in",
+    "the",
+    "21st",
+    "of",
+    "December."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "on",
+      "at",
+      "to"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>on</b> with a date: <b>on the 21st of December</b>. (in December, but on the 21st)"
+  },
+  {
+   "qid": "c5-19-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "My cousin's birthday is",
+   "after": "Friday.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Days of the week take <b>on</b>: <b>on Friday</b>."
+  },
+  {
+   "qid": "c5-19-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "talk with your mouth full of food.",
+   "options": [
+    "Doesn't",
+    "Not",
+    "Don't"
+   ],
+   "answer": 2,
+   "rule": "A negative command always starts with <b>Don't</b> + base verb."
+  },
+  {
+   "qid": "c5-19-27",
+   "type": "build",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Make an invitation question.",
+   "answer": [
+    "Will",
+    "you",
+    "come",
+    "to",
+    "my",
+    "party?"
+   ],
+   "alts": [],
+   "rule": "A future question: <b>Will</b> + you + base verb ... ?"
+  },
+  {
+   "qid": "c5-19-28",
+   "type": "build",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "party",
+    "starts",
+    "at",
+    "six",
+    "o'clock."
+   ],
+   "alts": [],
+   "rule": "Clock times take <b>at</b>: starts <b>at six o'clock</b>."
+  },
+  {
+   "qid": "c5-19-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Meena",
+     "Here is a small gift for you."
+    ]
+   ],
+   "options": [
+    "Thanks you so much, Aunty! It's lovely.",
+    "Thank you so much, Aunty! It lovely.",
+    "Thank you so much, Aunty! It's lovely."
+   ],
+   "answer": 2,
+   "rule": "We say <b>Thank you</b> or <b>Thanks</b> (never Thanks you), and a sentence needs a verb: <b>It's</b> lovely."
+  },
+  {
+   "qid": "c5-19-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mandar",
+     "Who will bring the balloons?"
+    ]
+   ],
+   "options": [
+    "Kedar will brings them.",
+    "Kedar will bring it.",
+    "Kedar will bring them."
+   ],
+   "answer": 2,
+   "rule": "<b>will bring</b> (base form), and <b>them</b> stands for the plural balloons."
+  },
+  {
+   "qid": "c5-19-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kedar will invite his uncle and aunt on Sunday.",
+    "Kedar will invite him uncle and aunt on Sunday.",
+    "Kedar will invites his uncle and aunt on Sunday."
+   ],
+   "answer": 0,
+   "rule": "<b>will invite</b> (base form), and <b>his</b> shows whose uncle and aunt."
+  },
+  {
+   "qid": "c5-19-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Make an list of the people you want to invite.",
+    "Makes a list of the people you want to invite.",
+    "Make a list of the people you want to invite."
+   ],
+   "answer": 2,
+   "rule": "A command uses the base verb <b>Make</b>; <b>list</b> starts with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c5-19-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sona",
+    "and",
+    "Kedar",
+    "will",
+    "decorates",
+    "the",
+    "hall",
+    "tomorrow."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "decorate",
+      "decorated",
+      "decorating"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, the verb never takes -s: <b>will decorate</b>."
+  },
+  {
+   "qid": "c5-19-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Thank",
+    "you",
+    "for",
+    "inviting",
+    "I",
+    "to",
+    "your",
+    "party."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "me",
+      "my",
+      "mine"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a verb like <b>inviting</b>, use the object pronoun: inviting <b>me</b>."
+  },
+  {
+   "qid": "c5-19-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "We will need",
+   "after": "chairs for the guests.",
+   "options": [
+    "much",
+    "many",
+    "a"
+   ],
+   "answer": 1,
+   "rule": "<b>chairs</b> can be counted, so use <b>many</b>; much is for things we cannot count."
+  },
+  {
+   "qid": "c5-19-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Fill in the gap.",
+   "before": "Could you please pass me",
+   "after": "sweets?",
+   "options": [
+    "those",
+    "that",
+    "this"
+   ],
+   "answer": 0,
+   "rule": "<b>sweets</b> is plural, so use <b>those</b> (that/this are for one thing)."
+  },
+  {
+   "qid": "c5-19-37",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Make a polite reminder.",
+   "answer": [
+    "Please",
+    "do",
+    "not",
+    "forget",
+    "the",
+    "gift."
+   ],
+   "alts": [],
+   "rule": "<b>Please do not</b> + base verb makes a polite negative command."
+  },
+  {
+   "qid": "c5-19-38",
+   "type": "build",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Thank your host.",
+   "answer": [
+    "Thank",
+    "you",
+    "for",
+    "the",
+    "lovely",
+    "party."
+   ],
+   "alts": [],
+   "rule": "<b>Thank you for</b> + the thing you enjoyed. The adjective comes before the noun: lovely party."
+  },
+  {
+   "qid": "c5-19-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "When did your cousins arrive?"
+    ]
+   ],
+   "options": [
+    "They arrive at 7 pm on Saturday.",
+    "They arrived on 7 pm at Saturday.",
+    "They arrived at 7 pm on Saturday."
+   ],
+   "answer": 2,
+   "rule": "Past question, so <b>arrived</b>; <b>at</b> with clock time and <b>on</b> with days."
+  },
+  {
+   "qid": "c5-19-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Host",
+     "Please help yourself to some snacks."
+    ]
+   ],
+   "options": [
+    "Thank you. This samosas look tasty.",
+    "Thank you. These samosas look tasty.",
+    "Thank you. These samosas looks tasty."
+   ],
+   "answer": 1,
+   "rule": "Plural <b>samosas</b> takes <b>these</b> and the plural verb <b>look</b>."
+  },
+  {
+   "qid": "c5-19-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "Pick the sentence with the correct prepositions.",
+   "options": [
+    "Sona will come at 6 on the evening in Friday.",
+    "Sona will come at 6 in the evening on Friday.",
+    "Sona will come in 6 at the evening on Friday."
+   ],
+   "answer": 1,
+   "rule": "<b>at</b> a clock time, <b>in</b> the evening, <b>on</b> a day."
+  },
+  {
+   "qid": "c5-19-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "Pick the correct way to welcome a guest.",
+   "options": [
+    "Please comes in and make yourself comfortable.",
+    "Please come in and make yourself comfortable.",
+    "Please come in and makes yourself comfortable."
+   ],
+   "answer": 1,
+   "rule": "Both commands joined by <b>and</b> use the base form: <b>come</b> in and <b>make</b> yourself comfortable."
+  },
+  {
+   "qid": "c5-19-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "your",
+    "guests",
+    "leave,",
+    "say",
+    "goodbye",
+    "to",
+    "each",
+    "of",
+    "they",
+    "personally."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "their",
+      "them",
+      "theirs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>of</b> (a preposition), use the object pronoun: each of <b>them</b>."
+  },
+  {
+   "qid": "c5-19-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "Sunday,",
+    "my",
+    "grandparents",
+    "will",
+    "visited",
+    "us",
+    "and",
+    "stay",
+    "for",
+    "lunch."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "visiting",
+      "visits",
+      "visit"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Next Sunday</b> is the future: <b>will visit</b> us and (will) stay for lunch."
+  },
+  {
+   "qid": "c5-19-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa was born in a small village",
+   "after": "1950, long before mobile phones.",
+   "options": [
+    "on",
+    "at",
+    "in"
+   ],
+   "answer": 2,
+   "rule": "Use <b>in</b> with years and months: <b>in 1950</b>, in December."
+  },
+  {
+   "qid": "c5-19-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Wrap the gift now, or it",
+   "after": "not be ready in time.",
+   "options": [
+    "will",
+    "does",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "This is about the future: <b>will not be</b> ready. (does/is cannot come before 'be')"
+  },
+  {
+   "qid": "c5-19-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Make a sentence about a plan.",
+   "answer": [
+    "We",
+    "will",
+    "meet",
+    "you",
+    "at",
+    "the",
+    "bus",
+    "stop."
+   ],
+   "alts": [],
+   "rule": "Future: subject + <b>will</b> + base verb: We <b>will meet</b> you."
+  },
+  {
+   "qid": "c5-19-48",
+   "type": "build",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Make a tip for a good host.",
+   "answer": [
+    "Thank",
+    "your",
+    "guests",
+    "for",
+    "coming."
+   ],
+   "alts": [],
+   "rule": "A command starts with the base verb: <b>Thank</b> your guests for coming."
+  },
+  {
+   "qid": "c5-19-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "The guests will come at six."
+    ],
+    [
+     "Dad",
+     "What will you do first?"
+    ]
+   ],
+   "options": [
+    "I will greet them and introduce them to one another.",
+    "I will greet them and introduces them to one another.",
+    "I will greeted them and introduce them to one another."
+   ],
+   "answer": 0,
+   "rule": "<b>will</b> goes with the base form of both verbs: will <b>greet</b> and (will) <b>introduce</b>."
+  },
+  {
+   "qid": "c5-19-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "How do we play Musical Chairs?"
+    ]
+   ],
+   "options": [
+    "Walk around the chairs and sits down when the music stops.",
+    "Walk around the chairs and sit down when the music stop.",
+    "Walk around the chairs and sit down when the music stops."
+   ],
+   "answer": 2,
+   "rule": "Commands use base verbs (<b>walk</b>, <b>sit</b>); <b>the music</b> is singular, so <b>stops</b>."
+  }
+ ]
+}

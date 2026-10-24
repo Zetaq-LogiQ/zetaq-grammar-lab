@@ -1,0 +1,1007 @@
+{
+ "class": 6,
+ "id": "5.5",
+ "title": "The Information Hunt",
+ "topics": [
+  {
+   "tag": "uncountable",
+   "name": "Countable/uncountable nouns, a few / a little, much / many"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions although / when / while / so"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals should / must / can (do's and don'ts)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-5.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mona found a lot of information.",
+    "Mona found a lot of informations.",
+    "Mona found a lots of information."
+   ],
+   "answer": 0,
+   "rule": "<b>Information</b> is uncountable, so it never takes -s: <b>a lot of information</b>."
+  },
+  {
+   "qid": "c6-5.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The librarian were helping Mona.",
+    "The librarian was helping Mona.",
+    "The librarian was help Mona."
+   ],
+   "answer": 1,
+   "rule": "Past continuous = <b>was/were + -ing</b>. One librarian, so <b>was helping</b>."
+  },
+  {
+   "qid": "c6-5.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should reads the book carefully.",
+    "You should to read the book carefully.",
+    "You should read the book carefully."
+   ],
+   "answer": 2,
+   "rule": "After <b>should</b>, use the base verb without 'to': <b>should read</b>."
+  },
+  {
+   "qid": "c6-5.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mona",
+    "was",
+    "look",
+    "for",
+    "a",
+    "book",
+    "on",
+    "scientists",
+    "and",
+    "asking",
+    "the",
+    "librarian",
+    "for",
+    "help."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "looks",
+      "looking",
+      "looker"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>was</b> + -ing makes the past continuous, like <b>asking</b>: <b>was looking</b>."
+  },
+  {
+   "qid": "c6-5.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mona",
+    "has",
+    "very",
+    "few",
+    "information",
+    "about",
+    "Mars."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "little",
+      "many",
+      "several"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Few</b> is for countable nouns. <b>Information</b> is uncountable, so use <b>little</b>."
+  },
+  {
+   "qid": "c6-5.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "The librarian gave Mona",
+   "after": "useful advice.",
+   "options": [
+    "a",
+    "some",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>Advice</b> is uncountable: no 'a', no 'many'. Use <b>some advice</b>."
+  },
+  {
+   "qid": "c6-5.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Students",
+   "after": "not copy information without understanding it.",
+   "options": [
+    "should",
+    "doesn't",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>Should not</b> + base verb gives advice: <b>should not copy</b>."
+  },
+  {
+   "qid": "c6-5.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Mona",
+    "was",
+    "reading",
+    "a",
+    "biography."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>was + -ing</b> + object: <b>Mona was reading a biography.</b>"
+  },
+  {
+   "qid": "c6-5.5-09",
+   "type": "build",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Make a library rule.",
+   "answer": [
+    "You",
+    "must",
+    "return",
+    "the",
+    "book",
+    "on",
+    "time."
+   ],
+   "alts": [],
+   "rule": "<b>Must</b> + base verb shows a rule: <b>You must return the book on time.</b>"
+  },
+  {
+   "qid": "c6-5.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "uncountable",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you find any books on women scientists?"
+    ]
+   ],
+   "options": [
+    "Yes, I found a little good books.",
+    "Yes, I find a few good book.",
+    "Yes, I found a few good books."
+   ],
+   "answer": 2,
+   "rule": "<b>Books</b> are countable, so use <b>a few books</b>; the question is in the past, so <b>found</b>."
+  },
+  {
+   "qid": "c6-5.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Mona was reading, the bell rang.",
+    "While Mona reading, the bell rang.",
+    "While Mona was read, the bell rang."
+   ],
+   "answer": 0,
+   "rule": "<b>While</b> is often followed by the past continuous: <b>while Mona was reading</b>."
+  },
+  {
+   "qid": "c6-5.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is a few magazines on the shelf.",
+    "There are a few magazines on the shelf.",
+    "There are a little magazines on the shelf."
+   ],
+   "answer": 1,
+   "rule": "<b>Magazines</b> is a countable plural: <b>there are a few magazines</b>."
+  },
+  {
+   "qid": "c6-5.5-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the polite request that is correct.",
+   "options": [
+    "Can I to use the computer, please?",
+    "Can I using the computer, please?",
+    "Can I use the computer, please?"
+   ],
+   "answer": 2,
+   "rule": "<b>Can</b> is followed by the base verb: <b>Can I use ...?</b>"
+  },
+  {
+   "qid": "c6-5.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "was",
+    "watching",
+    "a",
+    "film",
+    "about",
+    "Mangalyaan."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Children</b> is plural, so use <b>were watching</b>."
+  },
+  {
+   "qid": "c6-5.5-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "should",
+    "checks",
+    "facts",
+    "on",
+    "a",
+    "government",
+    "website."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "check",
+      "checking",
+      "checked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A modal is always followed by the base verb: <b>should check</b>."
+  },
+  {
+   "qid": "c6-5.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Mona felt lost",
+   "after": "she was in her own community library.",
+   "options": [
+    "despite",
+    "in spite",
+    "although"
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> joins two clauses that contrast. 'Despite' and 'in spite of' need a noun, not a clause."
+  },
+  {
+   "qid": "c6-5.5-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "At ten o'clock, Mona",
+   "after": "notes from an encyclopaedia.",
+   "options": [
+    "were making",
+    "was making",
+    "is make"
+   ],
+   "answer": 1,
+   "rule": "An action going on at a past time takes the past continuous. <b>Mona</b> is singular: <b>was making</b>."
+  },
+  {
+   "qid": "c6-5.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "was",
+    "writing",
+    "notes",
+    "when",
+    "the",
+    "bell",
+    "rang."
+   ],
+   "alts": [],
+   "rule": "Longer action (<b>was writing</b>) + <b>when</b> + short action (<b>rang</b>)."
+  },
+  {
+   "qid": "c6-5.5-19",
+   "type": "build",
+   "level": 2,
+   "topic": "uncountable",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "need",
+    "a",
+    "little",
+    "more",
+    "time."
+   ],
+   "alts": [],
+   "rule": "<b>Time</b> is uncountable, so we say <b>a little more time</b>."
+  },
+  {
+   "qid": "c6-5.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Librarian",
+     "Please keep your voice low in the library."
+    ]
+   ],
+   "options": [
+    "Sorry, I will speaks softly.",
+    "Sorry, I will speaking softly.",
+    "Sorry, I will speak softly."
+   ],
+   "answer": 2,
+   "rule": "<b>Will</b> takes the base verb: <b>will speak</b>."
+  },
+  {
+   "qid": "c6-5.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Mona was searching the shelves when the librarian came.",
+    "Mona searched the shelves when the librarian was come.",
+    "Mona was search the shelves when the librarian came."
+   ],
+   "answer": 0,
+   "rule": "Longer action in the past continuous (<b>was searching</b>), short action in the simple past (<b>came</b>)."
+  },
+  {
+   "qid": "c6-5.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "uncountable",
+   "prompt": "Which question is correct?",
+   "options": [
+    "How many information did you collect?",
+    "How much informations did you collect?",
+    "How much information did you collect?"
+   ],
+   "answer": 2,
+   "rule": "Use <b>how much</b> with uncountable nouns like <b>information</b>."
+  },
+  {
+   "qid": "c6-5.5-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "found",
+    "much",
+    "useful",
+    "websites",
+    "for",
+    "the",
+    "project."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "a",
+      "little",
+      "many"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Websites</b> are countable, so use <b>many</b>, not 'much'."
+  },
+  {
+   "qid": "c6-5.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Students",
+    "must",
+    "not",
+    "believes",
+    "every",
+    "post",
+    "they",
+    "see",
+    "online."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "believe",
+      "believing",
+      "believed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Must not</b> + base verb: <b>must not believe</b>."
+  },
+  {
+   "qid": "c6-5.5-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "Mona had",
+   "after": "time left, so she wrote quickly.",
+   "options": [
+    "a little",
+    "a few",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>Time</b> is uncountable, so use <b>a little</b>, not 'a few' or 'many'."
+  },
+  {
+   "qid": "c6-5.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Mona was reading, her friend was typing on the computer.",
+   "options": [
+    "During",
+    "While",
+    "Meanwhile"
+   ],
+   "answer": 1,
+   "rule": "<b>While</b> joins two actions happening at the same time. 'During' needs a noun after it."
+  },
+  {
+   "qid": "c6-5.5-27",
+   "type": "build",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Ask a question.",
+   "answer": [
+    "Should",
+    "I",
+    "search",
+    "on",
+    "the",
+    "ISRO",
+    "website?"
+   ],
+   "alts": [],
+   "rule": "In a question the modal comes first: <b>Should I search ...?</b>"
+  },
+  {
+   "qid": "c6-5.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "uncountable",
+   "prompt": "Ask a question.",
+   "answer": [
+    "How",
+    "much",
+    "time",
+    "do",
+    "we",
+    "have?"
+   ],
+   "alts": [],
+   "rule": "<b>How much</b> + uncountable noun + <b>do</b> + subject + verb."
+  },
+  {
+   "qid": "c6-5.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "What were you doing at the library yesterday?"
+    ]
+   ],
+   "options": [
+    "I was read about Indian women scientists.",
+    "I was reading about Indian women scientists.",
+    "I were reading about Indian women scientists."
+   ],
+   "answer": 1,
+   "rule": "Answer in the same tense: <b>I was reading</b>. 'I' takes <b>was</b>."
+  },
+  {
+   "qid": "c6-5.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why did you use both books and websites?"
+    ]
+   ],
+   "options": [
+    "I used both because books is detailed and websites are quick.",
+    "I used both because books are detailed and websites are quick.",
+    "I used both because of books are detailed and websites are quick."
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> + a clause; <b>because of</b> + a noun only. Plural <b>books are</b>."
+  },
+  {
+   "qid": "c6-5.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Mona was typing, the computer suddenly stopped.",
+    "While Mona was typing, the computer suddenly stop.",
+    "While Mona were typing, the computer suddenly stopped."
+   ],
+   "answer": 0,
+   "rule": "<b>Mona was typing</b> (past continuous) + <b>stopped</b> (simple past) for the sudden action."
+  },
+  {
+   "qid": "c6-5.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mona asked for advice about websites.",
+    "Mona asked for an advice about websites.",
+    "Mona asked for advices about websites."
+   ],
+   "answer": 0,
+   "rule": "<b>Advice</b> is uncountable: no 'an' and no -s."
+  },
+  {
+   "qid": "c6-5.5-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "Mona",
+    "was",
+    "very",
+    "tired,",
+    "so",
+    "she",
+    "goes",
+    "to",
+    "bed",
+    "early."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "go",
+      "went",
+      "going"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last night</b> is past, and both parts joined by <b>so</b> stay in the past: <b>was tired, so she went</b>."
+  },
+  {
+   "qid": "c6-5.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mona's",
+    "brother",
+    "can",
+    "reads",
+    "e-books",
+    "on",
+    "his",
+    "tablet."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "reading",
+      "read",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Even with 'he/she', a modal takes the base verb: <b>can read</b>."
+  },
+  {
+   "qid": "c6-5.5-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "Mangalyaan reached Mars with",
+   "after": "money than many other missions.",
+   "options": [
+    "fewer",
+    "few",
+    "less"
+   ],
+   "answer": 2,
+   "rule": "<b>Money</b> is uncountable, so the comparative is <b>less</b>. 'Fewer' is for countable nouns."
+  },
+  {
+   "qid": "c6-5.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "When the librarian came, Mona and her friend",
+   "after": "at the crowded shelves.",
+   "options": [
+    "was staring",
+    "were staring",
+    "are stare"
+   ],
+   "answer": 1,
+   "rule": "<b>Mona and her friend</b> = two people, so <b>were staring</b>."
+  },
+  {
+   "qid": "c6-5.5-37",
+   "type": "build",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Although",
+    "it",
+    "was",
+    "raining,",
+    "Mona",
+    "visited",
+    "the",
+    "library."
+   ],
+   "alts": [],
+   "rule": "<b>Although</b> + clause, then a comma, then the main clause."
+  },
+  {
+   "qid": "c6-5.5-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "Can I borrow your laptop for my homework?"
+    ]
+   ],
+   "options": [
+    "Sure, but you must save your files.",
+    "Sure, but you must saved your files.",
+    "Sure, but you musts save your files."
+   ],
+   "answer": 0,
+   "rule": "<b>Must</b> never takes -s and is followed by the base verb: <b>must save</b>."
+  },
+  {
+   "qid": "c6-5.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "uncountable",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mona",
+     "Do you have any glue for my poster?"
+    ]
+   ],
+   "options": [
+    "Yes, I have a few glue in my bag.",
+    "Yes, I have a little glues in my bag.",
+    "Yes, I have a little glue in my bag."
+   ],
+   "answer": 2,
+   "rule": "<b>Glue</b> is uncountable: <b>a little glue</b>."
+  },
+  {
+   "qid": "c6-5.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why didn't you answer my call?"
+    ]
+   ],
+   "options": [
+    "Sorry, I was work on the library computer.",
+    "Sorry, I were working on the library computer.",
+    "Sorry, I was working on the library computer."
+   ],
+   "answer": 2,
+   "rule": "An action in progress when something happened: <b>I was working</b>."
+  },
+  {
+   "qid": "c6-5.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Very little students knew about Mangalyaan, so the teacher showed a film.",
+    "Very few students knew about Mangalyaan, so the teacher showed a film.",
+    "Very few student knew about Mangalyaan, so the teacher showed a film."
+   ],
+   "answer": 1,
+   "rule": "<b>Few</b> + plural countable noun: <b>very few students</b>."
+  },
+  {
+   "qid": "c6-5.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the team faced many failures, but they did not give up.",
+    "Although the team faced many failures, they did not gave up.",
+    "Although the team faced many failures, they did not give up."
+   ],
+   "answer": 2,
+   "rule": "Don't use <b>although</b> and <b>but</b> together. After <b>did not</b>, use the base verb."
+  },
+  {
+   "qid": "c6-5.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "use",
+    "a",
+    "website,",
+    "you",
+    "should",
+    "always",
+    "checking",
+    "whether",
+    "it",
+    "is",
+    "reliable."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "check",
+      "checked",
+      "checks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An adverb may stand between them, but <b>should</b> still takes the base verb: <b>should always check</b>."
+  },
+  {
+   "qid": "c6-5.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mona",
+    "does",
+    "not",
+    "have",
+    "many",
+    "information",
+    "about",
+    "the",
+    "Mars",
+    "mission",
+    "yet."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "few",
+      "several",
+      "much"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With uncountable nouns in negatives, use <b>much</b>: <b>not much information</b>."
+  },
+  {
+   "qid": "c6-5.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Mona",
+   "after": "her notes on the computer when the power suddenly went off.",
+   "options": [
+    "was saving",
+    "is saving",
+    "were saving"
+   ],
+   "answer": 0,
+   "rule": "The story is in the past (<b>went off</b>), and Mona is singular: <b>was saving</b>."
+  },
+  {
+   "qid": "c6-5.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Mona checked three websites",
+   "after": "she could compare the facts.",
+   "options": [
+    "in order",
+    "so that",
+    "so as"
+   ],
+   "answer": 1,
+   "rule": "<b>So that</b> + a clause shows purpose. 'In order' and 'so as' need 'to' + verb."
+  },
+  {
+   "qid": "c6-5.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a 'Don't' rule.",
+   "answer": [
+    "Students",
+    "should",
+    "not",
+    "depend",
+    "on",
+    "one",
+    "website."
+   ],
+   "alts": [],
+   "rule": "<b>Should not</b> + base verb: <b>should not depend on</b>."
+  },
+  {
+   "qid": "c6-5.5-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did you finish the poster, Mona?"
+    ]
+   ],
+   "options": [
+    "Yes, although the printer was not working, but I drew the pictures by hand.",
+    "Yes, although the printer were not working, I drew the pictures by hand.",
+    "Yes, although the printer was not working, I drew the pictures by hand."
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> does not need 'but'. <b>The printer</b> is singular: <b>was</b>."
+  },
+  {
+   "qid": "c6-5.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "uncountable",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How many books did you borrow?"
+    ],
+    [
+     "Kabir",
+     "And how much time do you have to read them?"
+    ]
+   ],
+   "options": [
+    "I borrowed a little books, and I have a few time.",
+    "I borrowed a few books, and I have a little time.",
+    "I borrowed a few books, and I have a few time."
+   ],
+   "answer": 1,
+   "rule": "<b>A few</b> with countable (books), <b>a little</b> with uncountable (time)."
+  },
+  {
+   "qid": "c6-5.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What were you and Ravi doing when the fire alarm rang?"
+    ]
+   ],
+   "options": [
+    "We was watching a documentary on space.",
+    "We were watch a documentary on space.",
+    "We were watching a documentary on space."
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> takes <b>were</b>, and the past continuous needs -ing: <b>were watching</b>."
+  }
+ ]
+}

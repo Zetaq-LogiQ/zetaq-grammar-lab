@@ -1,0 +1,993 @@
+{
+ "class": 5,
+ "id": "33",
+ "title": "Rangoli",
+ "topics": [
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  },
+  {
+   "tag": "prepositions",
+   "name": "Prepositions of place and time"
+  },
+  {
+   "tag": "plural_nouns",
+   "name": "Plural nouns and agreement"
+  },
+  {
+   "tag": "adjectives_degrees",
+   "name": "Adjectives: -er/-est, more/most"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-33-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya drew a peacock in her rangoli.",
+    "Riya drew an peacock in her rangoli.",
+    "Riya drew a peacock in hers rangoli."
+   ],
+   "answer": 0,
+   "rule": "<b>peacock</b> starts with a consonant sound, so use <b>a</b>. Before a noun, use <b>her</b>."
+  },
+  {
+   "qid": "c5-33-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We drew two swan and three fish.",
+    "We drew two swans and three fishs.",
+    "We drew two swans and three fish."
+   ],
+   "answer": 2,
+   "rule": "More than one swan = <b>swans</b>. The plural of fish is usually just <b>fish</b>."
+  },
+  {
+   "qid": "c5-33-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjectives_degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This rangoli is the beautifulest of all.",
+    "This rangoli is the most beautiful of all.",
+    "This rangoli is the more beautiful of all."
+   ],
+   "answer": 1,
+   "rule": "Long adjectives use <b>most</b> for 'of all': <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c5-33-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kabir",
+    "made",
+    "a",
+    "owl",
+    "with",
+    "rice",
+    "powder."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "many",
+      "two",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>owl</b> starts with a vowel sound, so use <b>an</b>: an owl."
+  },
+  {
+   "qid": "c5-33-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "draw",
+    "a",
+    "rangoli",
+    "in",
+    "front",
+    "on",
+    "our",
+    "door."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "at",
+      "of",
+      "by"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The phrase is always <b>in front of</b>."
+  },
+  {
+   "qid": "c5-33-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "My mother drew three",
+   "after": "in the rangoli.",
+   "options": [
+    "leaves",
+    "leafs",
+    "leaf"
+   ],
+   "answer": 0,
+   "rule": "Nouns ending in -f often change to -ves: leaf becomes <b>leaves</b>."
+  },
+  {
+   "qid": "c5-33-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives_degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Diwali rangolis are",
+   "after": "than everyday ones.",
+   "options": [
+    "bigger",
+    "biggest",
+    "big"
+   ],
+   "answer": 0,
+   "rule": "Comparing two things with <b>than</b>? Use the -er form: <b>bigger</b>."
+  },
+  {
+   "qid": "c5-33-08",
+   "type": "build",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Draw",
+    "an",
+    "orange",
+    "lotus",
+    "on",
+    "the",
+    "floor."
+   ],
+   "alts": [],
+   "rule": "<b>an</b> goes before the vowel sound of 'orange'; 'the floor' is the floor here."
+  },
+  {
+   "qid": "c5-33-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where is the rangoli powder?"
+    ]
+   ],
+   "options": [
+    "It is at on the shelf.",
+    "It are on the shelf.",
+    "It is on the shelf."
+   ],
+   "answer": 2,
+   "rule": "Something resting on a surface is <b>on</b> it. <b>It</b> takes <b>is</b>."
+  },
+  {
+   "qid": "c5-33-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "How many colours did you use?"
+    ]
+   ],
+   "options": [
+    "I used five colour.",
+    "I used five colours.",
+    "I uses five colours."
+   ],
+   "answer": 1,
+   "rule": "More than one colour = <b>colours</b>; the past of use is <b>used</b>."
+  },
+  {
+   "qid": "c5-33-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "We decorate our courtyard at the morning.",
+    "We decorate our courtyard on the morning.",
+    "We decorate our courtyard in the morning."
+   ],
+   "answer": 2,
+   "rule": "Parts of the day take <b>in</b>: in the morning, in the evening."
+  },
+  {
+   "qid": "c5-33-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rangoli is an old art form of India.",
+    "Rangoli is a old art form of India.",
+    "Rangoli is an old art form of a India."
+   ],
+   "answer": 0,
+   "rule": "<b>old</b> starts with a vowel sound: <b>an</b> old art. Names of countries take no article: India."
+  },
+  {
+   "qid": "c5-33-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "adjectives_degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena's",
+    "rangoli",
+    "is",
+    "biggest",
+    "than",
+    "mine."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "big",
+      "bigger",
+      "most"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>than</b>, use the -er form: <b>bigger</b> than mine."
+  },
+  {
+   "qid": "c5-33-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "two",
+    "peacock",
+    "look",
+    "very",
+    "real."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "peacocks",
+      "peacockes",
+      "peacock's"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These two</b> means more than one, so add -s: <b>peacocks</b>."
+  },
+  {
+   "qid": "c5-33-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Please bring me",
+   "after": "empty bowl for the powder.",
+   "options": [
+    "a",
+    "many",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>empty</b> starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-33-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "The white design stands out well",
+   "after": "a red background.",
+   "options": [
+    "at",
+    "on",
+    "into"
+   ],
+   "answer": 1,
+   "rule": "A design drawn on a surface is <b>on</b> it: on a red background."
+  },
+  {
+   "qid": "c5-33-17",
+   "type": "build",
+   "level": 2,
+   "topic": "adjectives_degrees",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Riya's",
+    "rangoli",
+    "is",
+    "brighter",
+    "than",
+    "mine."
+   ],
+   "alts": [],
+   "rule": "Comparing two things: <b>bigger than</b>."
+  },
+  {
+   "qid": "c5-33-18",
+   "type": "build",
+   "level": 2,
+   "topic": "prepositions",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Place",
+    "a",
+    "diya",
+    "between",
+    "two",
+    "lotuses."
+   ],
+   "alts": [],
+   "rule": "<b>between</b> is used for something in the middle of two things."
+  },
+  {
+   "qid": "c5-33-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "What would you like to draw today?"
+    ]
+   ],
+   "options": [
+    "I would like to draw a elephant.",
+    "I would like to draw an elephants.",
+    "I would like to draw an elephant."
+   ],
+   "answer": 2,
+   "rule": "<b>elephant</b> starts with a vowel sound: <b>an elephant</b> (one, so no -s)."
+  },
+  {
+   "qid": "c5-33-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "adjectives_degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Which rangoli was the best at the fair?"
+    ]
+   ],
+   "options": [
+    "Ajay's rangoli was the best.",
+    "Ajay's rangoli was the goodest.",
+    "Ajay's rangoli was the most best."
+   ],
+   "answer": 0,
+   "rule": "<b>good</b> is irregular: good, better, <b>best</b>. Never 'goodest' or 'most best'."
+  },
+  {
+   "qid": "c5-33-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kolam designs are made with rice powder.",
+    "Kolam designs is made with rice powder.",
+    "Kolam design are made with rice powder."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>designs</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c5-33-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The rangoli was drawn among the two lamps.",
+    "The rangoli was drawn between the two lamps.",
+    "The rangoli was drawn between of the two lamps."
+   ],
+   "answer": 1,
+   "rule": "Use <b>between</b> for two things; 'among' is for more than two."
+  },
+  {
+   "qid": "c5-33-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kolam is a name for rangoli in the Tamil Nadu.",
+    "Kolam is the name for rangoli in an Tamil Nadu.",
+    "Kolam is the name for rangoli in Tamil Nadu."
+   ],
+   "answer": 2,
+   "rule": "Names of states like <b>Tamil Nadu</b> take no article."
+  },
+  {
+   "qid": "c5-33-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandma",
+    "draws",
+    "a",
+    "rangoli",
+    "at",
+    "an",
+    "doorstep",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "these",
+      "those",
+      "the"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>doorstep</b> starts with a consonant sound, so 'an' is wrong; we mean her own doorstep: <b>the</b>."
+  },
+  {
+   "qid": "c5-33-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "People",
+    "in",
+    "Bengal",
+    "call",
+    "rangoli",
+    "Alpanaa",
+    "on",
+    "their",
+    "language."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "at",
+      "in",
+      "by"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "We speak or name things <b>in</b> a language."
+  },
+  {
+   "qid": "c5-33-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "We used rice powder and rose",
+   "after": "for the design.",
+   "options": [
+    "petal",
+    "petals",
+    "petales"
+   ],
+   "answer": 1,
+   "rule": "A singular noun like 'petal' needs 'a'; for many, use the plural <b>petals</b>."
+  },
+  {
+   "qid": "c5-33-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "adjectives_degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the designs, the peacock was the",
+   "after": "one.",
+   "options": [
+    "most colourful",
+    "more colourful",
+    "colourfulest"
+   ],
+   "answer": 0,
+   "rule": "<b>Of all</b> needs the superlative; long adjectives use <b>most</b>: the most colourful."
+  },
+  {
+   "qid": "c5-33-28",
+   "type": "build",
+   "level": 3,
+   "topic": "plural_nouns",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Many",
+    "women",
+    "practise",
+    "this",
+    "art",
+    "form."
+   ],
+   "alts": [],
+   "rule": "<b>women</b> is plural, so the verb has no -s: <b>practise</b>."
+  },
+  {
+   "qid": "c5-33-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neighbour",
+     "When do you draw your rangoli?"
+    ]
+   ],
+   "options": [
+    "I draw it on six o'clock in the morning.",
+    "I draw it at six o'clock in the morning.",
+    "I draw it at six o'clock at the morning."
+   ],
+   "answer": 1,
+   "rule": "Clock times take <b>at</b>; parts of the day take <b>in</b>: at six o'clock in the morning."
+  },
+  {
+   "qid": "c5-33-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What do you need for the grid?"
+    ]
+   ],
+   "options": [
+    "I need a ruler and an eraser.",
+    "I need a ruler and a eraser.",
+    "I need an ruler and an eraser."
+   ],
+   "answer": 0,
+   "rule": "<b>a</b> before a consonant sound (ruler), <b>an</b> before a vowel sound (eraser)."
+  },
+  {
+   "qid": "c5-33-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adjectives_degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday we made the biggest rangoli in our street.",
+    "Yesterday we make the biggest rangoli in our street.",
+    "Yesterday we made the bigger rangoli in our street."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> needs the past (<b>made</b>); 'in our street' compares many, so use <b>biggest</b>."
+  },
+  {
+   "qid": "c5-33-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The leaves and flowers in this rangoli smell lovely.",
+    "The leaves and flowers in this rangoli smells lovely.",
+    "The leafs and flowers in this rangoli smell lovely."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>leaves and flowers</b> takes <b>smell</b> (no -s). leaf becomes <b>leaves</b>."
+  },
+  {
+   "qid": "c5-33-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Asha",
+    "finished",
+    "her",
+    "big",
+    "kolam",
+    "for",
+    "the",
+    "festival",
+    "at",
+    "Sunday",
+    "afternoon."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "on",
+      "in",
+      "into"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Days take <b>on</b>, even with a part of the day: <b>on</b> Sunday afternoon."
+  },
+  {
+   "qid": "c5-33-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Those",
+    "flower",
+    "in",
+    "the",
+    "kolam",
+    "are",
+    "made",
+    "of",
+    "rice",
+    "powder."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "flower's",
+      "flowery",
+      "flowers"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Those</b> and <b>are</b> show more than one, so use <b>flowers</b>."
+  },
+  {
+   "qid": "c5-33-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Rangoli is known",
+   "after": "different names in different states.",
+   "options": [
+    "at",
+    "by",
+    "with"
+   ],
+   "answer": 1,
+   "rule": "We say something is known <b>by</b> a name."
+  },
+  {
+   "qid": "c5-33-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "plural_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "On Diwali, both the",
+   "after": "were full of rangolis.",
+   "options": [
+    "courtyard",
+    "courtyard's",
+    "courtyards"
+   ],
+   "answer": 2,
+   "rule": "<b>both</b> and <b>were</b> show two, so use the plural <b>courtyards</b>."
+  },
+  {
+   "qid": "c5-33-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adjectives_degrees",
+   "prompt": "Make the question.",
+   "answer": [
+    "Which",
+    "rangoli",
+    "is",
+    "the",
+    "most",
+    "colourful?"
+   ],
+   "alts": [],
+   "rule": "Comparing many things? Use <b>the most</b> + long adjective."
+  },
+  {
+   "qid": "c5-33-38",
+   "type": "build",
+   "level": 4,
+   "topic": "prepositions",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Muggu",
+    "is",
+    "popular",
+    "in",
+    "Andhra",
+    "Pradesh."
+   ],
+   "alts": [],
+   "rule": "Use <b>in</b> with states, countries and cities."
+  },
+  {
+   "qid": "c5-33-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you see at the rangoli fair?"
+    ]
+   ],
+   "options": [
+    "I seen a long carpet of rangoli.",
+    "I saw a long carpet of rangoli.",
+    "I saw an long carpet of rangoli."
+   ],
+   "answer": 1,
+   "rule": "The past of see is <b>saw</b>; <b>long</b> starts with a consonant sound: <b>a</b> long carpet."
+  },
+  {
+   "qid": "c5-33-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adjectives_degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sonu",
+     "Whose rangoli is better, yours or Asha's?"
+    ]
+   ],
+   "options": [
+    "Asha's is more better than mine.",
+    "Asha's is gooder than mine.",
+    "Asha's is better than mine."
+   ],
+   "answer": 2,
+   "rule": "<b>better</b> is already the comparing form of good. Never 'more better' or 'gooder'."
+  },
+  {
+   "qid": "c5-33-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Muggu, Mandana and Alpanaa is different names for rangoli.",
+    "Muggu, Mandana and Alpanaa are different names for rangoli.",
+    "Muggu, Mandana and Alpanaa are different name for rangoli."
+   ],
+   "answer": 1,
+   "rule": "Three names together are plural: they <b>are</b> different <b>names</b>."
+  },
+  {
+   "qid": "c5-33-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "adjectives_degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rangolis made with flowers are fragranter than those made with powder.",
+    "Rangolis made with flowers are most fragrant than those made with powder.",
+    "Rangolis made with flowers are more fragrant than those made with powder."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives compare with <b>more ... than</b>: more fragrant than."
+  },
+  {
+   "qid": "c5-33-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "During",
+    "Diwali,",
+    "rangoli",
+    "is",
+    "drawn",
+    "at",
+    "the",
+    "courtyard",
+    "of",
+    "almost",
+    "every",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "since",
+      "in",
+      "into"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A courtyard is an open space with walls around it, so we draw <b>in</b> the courtyard."
+  },
+  {
+   "qid": "c5-33-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rangoli",
+    "is",
+    "one",
+    "of",
+    "the",
+    "most",
+    "pleasing",
+    "art",
+    "form",
+    "of",
+    "India."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "form's",
+      "formed",
+      "forms"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>one of the ...</b> is always followed by a plural noun: one of the most pleasing art <b>forms</b>."
+  },
+  {
+   "qid": "c5-33-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adjectives_degrees",
+   "prompt": "Fill in the gap.",
+   "before": "This year's Diwali rangoli was the",
+   "after": "we have ever made.",
+   "options": [
+    "larger",
+    "largest",
+    "large"
+   ],
+   "answer": 1,
+   "rule": "<b>the ... we have ever made</b> compares with all the others, so use <b>largest</b>."
+  },
+  {
+   "qid": "c5-33-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Kolam is drawn mainly",
+   "after": "Kerala and Tamil Nadu.",
+   "options": [
+    "in",
+    "at",
+    "on"
+   ],
+   "answer": 0,
+   "rule": "Use <b>in</b> with states and countries: in Kerala."
+  },
+  {
+   "qid": "c5-33-47",
+   "type": "build",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "An",
+    "old",
+    "lady",
+    "taught",
+    "us",
+    "this",
+    "design."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> before the vowel sound of 'old'; taught + person (us) + thing (this design)."
+  },
+  {
+   "qid": "c5-33-48",
+   "type": "build",
+   "level": 5,
+   "topic": "prepositions",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Diyas",
+    "are",
+    "placed",
+    "around",
+    "the",
+    "rangoli",
+    "at",
+    "night."
+   ],
+   "alts": [],
+   "rule": "<b>around</b> shows place (all sides); <b>at</b> night shows time."
+  },
+  {
+   "qid": "c5-33-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "plural_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why do people draw rangoli in front of their homes?"
+    ]
+   ],
+   "options": [
+    "Because it show that guests are welcome.",
+    "Because it shows that guests are welcome.",
+    "Because it shows that guests is welcome."
+   ],
+   "answer": 1,
+   "rule": "<b>it shows</b> (one thing, -s) and <b>guests are</b> (plural)."
+  },
+  {
+   "qid": "c5-33-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adjectives_degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Is your rangoli as big as mine?"
+    ]
+   ],
+   "options": [
+    "No, mine is smallest than yours.",
+    "No, mine is more smaller than yours.",
+    "No, mine is smaller than yours."
+   ],
+   "answer": 2,
+   "rule": "Comparing two with <b>than</b>: <b>smaller</b> (no 'more' with -er)."
+  }
+ ]
+}

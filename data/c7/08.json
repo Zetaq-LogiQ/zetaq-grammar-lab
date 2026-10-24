@@ -1,0 +1,991 @@
+{
+ "class": 7,
+ "id": "08",
+ "title": "The Souvenir",
+ "topics": [
+  {
+   "tag": "collective",
+   "name": "Collective nouns"
+  },
+  {
+   "tag": "punctuation",
+   "name": "Punctuation, exclamations and hyphenated words"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals: would like, have to, must, should, might"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-08-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "collective",
+   "prompt": "Pick the sentence with the correct collective noun.",
+   "options": [
+    "A fleet of bees flew past the window.",
+    "A bunch of bees flew past the window.",
+    "A swarm of bees flew past the window."
+   ],
+   "answer": 2,
+   "rule": "We say <b>a swarm of bees</b>. A <b>fleet</b> is for ships and a <b>bunch</b> is for grapes, keys or flowers."
+  },
+  {
+   "qid": "c7-08-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "punctuation",
+   "prompt": "Pick the correct exclamation.",
+   "options": [
+    "What a beautiful view of the earth!",
+    "What an beautiful view of the earth!",
+    "How a beautiful view of the earth!"
+   ],
+   "answer": 0,
+   "rule": "An exclamation can start with <b>What a + adjective + noun</b>: <b>What a beautiful view!</b> It ends with <b>!</b>"
+  },
+  {
+   "qid": "c7-08-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sayali",
+    "had",
+    "already",
+    "pack",
+    "her",
+    "bag",
+    "when",
+    "the",
+    "bus",
+    "came."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "packing",
+      "packs",
+      "packed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had already packed</b>."
+  },
+  {
+   "qid": "c7-08-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "must",
+    "follows",
+    "the",
+    "rules",
+    "inside",
+    "the",
+    "settlement."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "follow",
+      "following",
+      "followed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a modal like <b>must</b>, use the base verb: <b>must follow</b>."
+  },
+  {
+   "qid": "c7-08-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "collective",
+   "prompt": "Choose the correct collective noun.",
+   "before": "The farmer has a large",
+   "after": "of cattle.",
+   "options": [
+    "flock",
+    "swarm",
+    "herd"
+   ],
+   "answer": 2,
+   "rule": "We say <b>a herd of cattle</b>, <b>a flock of sheep</b> and <b>a swarm of bees</b>."
+  },
+  {
+   "qid": "c7-08-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "like to visit the moon one day.",
+   "options": [
+    "will",
+    "would",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "<b>would like to</b> is the polite way to say what you want: <b>I would like to visit ...</b>"
+  },
+  {
+   "qid": "c7-08-07",
+   "type": "build",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "She",
+    "said",
+    "that",
+    "she",
+    "was",
+    "tired."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + subject + past verb: <b>She said that she was tired.</b>"
+  },
+  {
+   "qid": "c7-08-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Can we go outside the dome without space suits?"
+    ]
+   ],
+   "options": [
+    "No, we have to wear space suits outside.",
+    "No, we has to wear space suits outside.",
+    "No, we have to wearing space suits outside."
+   ],
+   "answer": 0,
+   "rule": "<b>have to</b> + base verb shows a rule: <b>we have to wear</b>. Use <b>has to</b> only with he/she/it."
+  },
+  {
+   "qid": "c7-08-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "collective",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "What did you see at the circus?"
+    ]
+   ],
+   "options": [
+    "We saw a team of gymnast doing high jumps.",
+    "We saw a teams of gymnasts doing high jumps.",
+    "We saw a team of gymnasts doing high jumps."
+   ],
+   "answer": 2,
+   "rule": "<b>a team of</b> + plural noun: <b>a team of gymnasts</b>. <b>A</b> cannot go with <b>teams</b>."
+  },
+  {
+   "qid": "c7-08-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Sayali said, \"I am excited.\"",
+   "options": [
+    "Sayali said that she was excited.",
+    "Sayali said that I was excited.",
+    "Sayali said that she were excited."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>she</b>, and <b>am</b> moves back to <b>was</b>: <b>Sayali said that she was excited.</b>"
+  },
+  {
+   "qid": "c7-08-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The shuttle had landed before the sun rose.",
+    "The shuttle had land before the sun rose.",
+    "The shuttle has landed before the sun rose."
+   ],
+   "answer": 0,
+   "rule": "The earlier of two past actions takes <b>had + past participle</b>: <b>had landed</b> before the sun <b>rose</b>."
+  },
+  {
+   "qid": "c7-08-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You should listens to the receptionist.",
+    "You should listen to the receptionist.",
+    "You should to listen to the receptionist."
+   ],
+   "answer": 1,
+   "rule": "After <b>should</b> use the base verb with no <b>to</b>: <b>should listen</b>."
+  },
+  {
+   "qid": "c7-08-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "collective",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "were",
+    "three",
+    "flock",
+    "of",
+    "sheep",
+    "on",
+    "the",
+    "hill."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "flock's",
+      "flocks",
+      "flocking"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Collective nouns have plurals too: <b>three flocks of sheep</b>, just like <b>herds</b> and <b>teams</b>."
+  },
+  {
+   "qid": "c7-08-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "said",
+    "that",
+    "him",
+    "was",
+    "very",
+    "hungry."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "his",
+      "himself",
+      "he"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject of <b>was</b> needs the subject pronoun <b>he</b>, not <b>him</b>: <b>Ravi said that he was very hungry.</b>"
+  },
+  {
+   "qid": "c7-08-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "When Sayali opened her tiffin box, her little brother",
+   "after": "already eaten the laddoos.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The brother ate first, before Sayali opened the box, so use the past perfect: <b>had already eaten</b>."
+  },
+  {
+   "qid": "c7-08-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "not buy anything from unauthorised shops.",
+   "options": [
+    "should",
+    "has",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "<b>should not</b> + base verb gives advice: <b>You should not buy ...</b> <b>has/have not buy</b> is wrong."
+  },
+  {
+   "qid": "c7-08-17",
+   "type": "build",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "We",
+    "have",
+    "to",
+    "carry",
+    "our",
+    "oxygen",
+    "masks."
+   ],
+   "alts": [],
+   "rule": "<b>have to</b> + base verb shows something necessary: <b>We have to carry ...</b>"
+  },
+  {
+   "qid": "c7-08-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mummy",
+     "Why didn't you call me from the moon?"
+    ]
+   ],
+   "options": [
+    "Sorry, I had forget my phone at the base.",
+    "Sorry, I had forgotten my phone at the base.",
+    "Sorry, I have forgotten my phone at the base yesterday."
+   ],
+   "answer": 1,
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had forgotten</b>. <b>Yesterday</b> never goes with <b>have forgotten</b>."
+  },
+  {
+   "qid": "c7-08-19",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The teacher said, \"Sayali is a good student.\"",
+   "options": [
+    "The teacher said that Sayali is being a good student.",
+    "The teacher said that Sayali was a good student.",
+    "The teacher told that Sayali was a good student."
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b>, <b>is</b> moves back to <b>was</b>. <b>Told</b> needs a person after it (told us)."
+  },
+  {
+   "qid": "c7-08-20",
+   "type": "change",
+   "level": 2,
+   "topic": "collective",
+   "prompt": "Change the subject into the plural.",
+   "source": "The team is practising.",
+   "options": [
+    "The teams are practising.",
+    "The teams is practising.",
+    "The team are practisings."
+   ],
+   "answer": 0,
+   "rule": "The plural of <b>team</b> is <b>teams</b>, and a plural subject takes <b>are</b>: <b>The teams are practising.</b>"
+  },
+  {
+   "qid": "c7-08-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Pick the correct exclamation.",
+   "options": [
+    "How bright the stars are!",
+    "How bright the stars is!",
+    "What bright the stars are!"
+   ],
+   "answer": 0,
+   "rule": "<b>How + adjective + subject + verb!</b>: <b>How bright the stars are!</b> Plural <b>stars</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c7-08-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "By the time the bell rang, we had finished the test.",
+    "By the time the bell rang, we have finished the test.",
+    "By the time the bell rang, we had finish the test."
+   ],
+   "answer": 0,
+   "rule": "<b>By the time</b> + past: the earlier action takes <b>had + past participle</b>: <b>had finished</b>."
+  },
+  {
+   "qid": "c7-08-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "might",
+    "fell",
+    "if",
+    "they",
+    "run",
+    "outside."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "fallen",
+      "falling",
+      "fall"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>might</b> use the base verb: <b>might fall</b>."
+  },
+  {
+   "qid": "c7-08-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sayali",
+    "told",
+    "her",
+    "mother",
+    "that",
+    "she",
+    "have",
+    "bought",
+    "earrings",
+    "the",
+    "day",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "had",
+      "has",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>told</b> (past), the earlier action moves to the past perfect: <b>she had bought earrings the day before</b>."
+  },
+  {
+   "qid": "c7-08-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "collective",
+   "prompt": "Choose the correct collective noun.",
+   "before": "A",
+   "after": "of grapes lay on the table.",
+   "options": [
+    "herd",
+    "fleet",
+    "bunch"
+   ],
+   "answer": 2,
+   "rule": "We say <b>a bunch of grapes</b>, <b>a herd of cattle</b> and <b>a fleet of ships</b>."
+  },
+  {
+   "qid": "c7-08-26",
+   "type": "build",
+   "level": 3,
+   "topic": "punctuation",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "Oh",
+    "dear,",
+    "these",
+    "earrings",
+    "are",
+    "heavy!"
+   ],
+   "alts": [],
+   "rule": "An interjection like <b>Oh dear,</b> starts the sentence, and the exclamation ends with <b>!</b>"
+  },
+  {
+   "qid": "c7-08-27",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "She",
+    "had",
+    "never",
+    "seen",
+    "such",
+    "bright",
+    "stars."
+   ],
+   "alts": [],
+   "rule": "<b>had never + past participle</b>: <b>had never seen</b>. <b>such</b> comes before the adjective + noun."
+  },
+  {
+   "qid": "c7-08-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did the receptionist say?"
+    ]
+   ],
+   "options": [
+    "She said that the shops outside was not safe.",
+    "She said that the shops outside were not safe.",
+    "She said to that the shops outside were not safe."
+   ],
+   "answer": 1,
+   "rule": "<b>The shops</b> is plural, so <b>were</b>. Write <b>said that</b>, not <b>said to that</b>."
+  },
+  {
+   "qid": "c7-08-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "Would you like some juice?"
+    ]
+   ],
+   "options": [
+    "Yes, please. I would loves some.",
+    "Yes, please. I would to love some.",
+    "Yes, please. I would love some."
+   ],
+   "answer": 2,
+   "rule": "After <b>would</b> use the base verb with no <b>to</b>: <b>I would love some.</b>"
+  },
+  {
+   "qid": "c7-08-30",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'after'.",
+   "source": "The shuttle landed. Then the door was opened.",
+   "options": [
+    "The door was opened after the shuttle has landed.",
+    "The door was opened after the shuttle had landed.",
+    "The door had opened after the shuttle was landed."
+   ],
+   "answer": 1,
+   "rule": "The earlier action (landing) takes the past perfect: <b>after the shuttle had landed</b>."
+  },
+  {
+   "qid": "c7-08-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "collective",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A army of ants marched across the floor.",
+    "An army of ant marched across the floor.",
+    "An army of ants marched across the floor."
+   ],
+   "answer": 2,
+   "rule": "<b>army</b> starts with a vowel sound, so <b>an army</b>; it is followed by the plural <b>ants</b>."
+  },
+  {
+   "qid": "c7-08-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neha said that her grandmother live in Kolkata.",
+    "Neha said that her grandmother lived in Kolkata.",
+    "Neha said that she grandmother lived in Kolkata."
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b> the verb moves to the past: <b>lived</b>. Before a noun use the possessive <b>her</b>."
+  },
+  {
+   "qid": "c7-08-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "was",
+    "sad",
+    "because",
+    "she",
+    "have",
+    "lost",
+    "her",
+    "new",
+    "pen."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "having",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "She lost the pen before she felt sad, so use the past perfect: <b>had lost</b>. <b>She have</b> is never correct."
+  },
+  {
+   "qid": "c7-08-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sayali",
+    "had",
+    "to",
+    "ran",
+    "to",
+    "catch",
+    "up",
+    "with",
+    "her",
+    "friends."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "running",
+      "runs",
+      "run"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had to</b> + base verb: <b>had to run</b>. The past is shown by <b>had</b>, not by the main verb."
+  },
+  {
+   "qid": "c7-08-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Dad said that he",
+   "after": "tired after work.",
+   "options": [
+    "were",
+    "be",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "After <b>said</b> use the past, and <b>he</b> takes <b>was</b>: <b>he was tired</b>."
+  },
+  {
+   "qid": "c7-08-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "collective",
+   "prompt": "Fill in the gap.",
+   "before": "Many",
+   "after": "of birds visit our lake in winter.",
+   "options": [
+    "flock",
+    "flocks",
+    "flock's"
+   ],
+   "answer": 1,
+   "rule": "<b>Many</b> needs a plural noun: <b>many flocks of birds</b>."
+  },
+  {
+   "qid": "c7-08-37",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make a rule.",
+   "answer": [
+    "Children",
+    "must",
+    "not",
+    "run",
+    "on",
+    "the",
+    "moon."
+   ],
+   "alts": [],
+   "rule": "<b>must not</b> + base verb tells us something is not allowed: <b>must not run</b>."
+  },
+  {
+   "qid": "c7-08-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you watch the circus on Sunday?"
+    ]
+   ],
+   "options": [
+    "No, it had ended before we got there.",
+    "No, it has ended before we got there.",
+    "No, it had end before we got there."
+   ],
+   "answer": 0,
+   "rule": "The circus ended first, so use <b>had ended</b> before the simple past <b>got there</b>."
+  },
+  {
+   "qid": "c7-08-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Sayali said, \"I am buying earrings for my mother.\"",
+   "options": [
+    "Sayali said that she was buying earrings for her mother.",
+    "Sayali said that she was buying earrings for my mother.",
+    "Sayali said that she was buy earrings for her mother."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> and <b>my</b> become <b>she</b> and <b>her</b>; <b>am buying</b> becomes <b>was buying</b>."
+  },
+  {
+   "qid": "c7-08-40",
+   "type": "change",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Change into a negative sentence.",
+   "source": "We have to pay for the tour.",
+   "options": [
+    "We do not has to pay for the tour.",
+    "We does not have to pay for the tour.",
+    "We do not have to pay for the tour."
+   ],
+   "answer": 2,
+   "rule": "<b>have to</b> makes its negative with <b>do not</b>: <b>We do not have to pay.</b>"
+  },
+  {
+   "qid": "c7-08-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "Sayali realise her mistake only after her mother had held the earrings.",
+    "Sayali realised her mistake only after her mother had held the earrings.",
+    "Sayali realised her mistake only after her mother had hold the earrings."
+   ],
+   "answer": 1,
+   "rule": "The main action is simple past <b>realised</b>; the earlier one is <b>had + past participle</b>: <b>had held</b>."
+  },
+  {
+   "qid": "c7-08-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "They went on a three-day trip to the moon.",
+    "They went on a three-days trip to the moon.",
+    "They went on an three-day trip to the moon."
+   ],
+   "answer": 0,
+   "rule": "A hyphenated number + noun before a noun stays singular: <b>a three-day trip</b>, not three-days."
+  },
+  {
+   "qid": "c7-08-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "guide",
+    "told",
+    "us",
+    "that",
+    "Armstrong",
+    "has",
+    "landed",
+    "there",
+    "long",
+    "ago."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>told</b> (past), an earlier past action takes the past perfect: <b>had landed</b>."
+  },
+  {
+   "qid": "c7-08-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "collective",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "pack",
+    "of",
+    "wolf",
+    "was",
+    "howling",
+    "in",
+    "the",
+    "dark",
+    "forest."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "wolfs",
+      "wolves",
+      "wolf's"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>a pack of</b> + plural noun. The plural of <b>wolf</b> is <b>wolves</b> (f changes to ves)."
+  },
+  {
+   "qid": "c7-08-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "If you go outside without a space suit, you",
+   "after": "get hurt.",
+   "options": [
+    "might",
+    "ought",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "<b>might</b> + base verb shows a possibility: <b>you might get hurt</b>. <b>ought</b> and <b>have</b> need <b>to</b>."
+  },
+  {
+   "qid": "c7-08-46",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Mummy",
+    "said",
+    "that",
+    "the",
+    "earrings",
+    "were",
+    "too",
+    "heavy",
+    "for",
+    "her."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + subject + past verb: <b>the earrings were too heavy</b>."
+  },
+  {
+   "qid": "c7-08-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "What did your mother say about the trip?"
+    ]
+   ],
+   "options": [
+    "She said that it was too expensive but I should go.",
+    "She said that it were too expensive but I should go.",
+    "She said me that it was too expensive but I should go."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> takes <b>was</b>. <b>Said</b> is not followed by a person: say <b>said that</b> or <b>told me that</b>."
+  },
+  {
+   "qid": "c7-08-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "collective",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you see in the sky from the moon?"
+    ]
+   ],
+   "options": [
+    "I saw a galaxy of star and a shining earth.",
+    "I saw an galaxy of stars and a shining earth.",
+    "I saw a galaxy of stars and a shining earth."
+   ],
+   "answer": 2,
+   "rule": "<b>a galaxy of</b> + plural noun: <b>a galaxy of stars</b>. <b>galaxy</b> starts with a consonant sound, so <b>a</b>."
+  },
+  {
+   "qid": "c7-08-49",
+   "type": "change",
+   "level": 5,
+   "topic": "punctuation",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "The view is very beautiful.",
+   "options": [
+    "What a beautiful view it is!",
+    "How a beautiful view it is!",
+    "What a beautiful view is it!"
+   ],
+   "answer": 0,
+   "rule": "<b>What a + adjective + noun + subject + verb!</b>: <b>What a beautiful view it is!</b> (not is it)."
+  },
+  {
+   "qid": "c7-08-50",
+   "type": "change",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'before'.",
+   "source": "Sayali paid for the earrings. Then she ran to her friends.",
+   "options": [
+    "Sayali paid for the earrings before she had ran to her friends.",
+    "Sayali had paid for the earrings before she ran to her friends.",
+    "Sayali had pay for the earrings before she ran to her friends."
+   ],
+   "answer": 1,
+   "rule": "The first action (paying) takes <b>had paid</b>; the later one stays in the simple past: <b>ran</b>."
+  }
+ ]
+}

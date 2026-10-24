@@ -1,0 +1,1196 @@
+{
+ "class": 8,
+ "id": "17",
+ "title": "Ramanujan",
+ "topics": [
+  {
+   "tag": "voice",
+   "name": "Active and passive voice"
+  },
+  {
+   "tag": "sentence_types",
+   "name": "Simple, complex and compound sentences"
+  },
+  {
+   "tag": "noun_verb",
+   "name": "Words used as nouns and verbs"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals (type 1 and type 2)"
+  },
+  {
+   "tag": "not_only",
+   "name": "Not only ... but also"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-17-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The letter was sent by Ramanujan.",
+    "The letter was send by Ramanujan.",
+    "The letter were sent by Ramanujan."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>was/were + past participle</b>. One letter: <b>was sent</b>."
+  },
+  {
+   "qid": "c8-17-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our class paid a visiting to the science museum.",
+    "Our class paid a visits to the science museum.",
+    "Our class paid a visit to the science museum."
+   ],
+   "answer": 2,
+   "rule": "Here <b>visit</b> is a noun: <b>a visit</b> (singular after 'a')."
+  },
+  {
+   "qid": "c8-17-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "envelope",
+    "was",
+    "decorate",
+    "with",
+    "Indian",
+    "stamps."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "decorated",
+      "decorating",
+      "decorates"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>was decorated</b>."
+  },
+  {
+   "qid": "c8-17-04",
+   "type": "fill",
+   "level": 1,
+   "topic": "not_only",
+   "prompt": "Fill in the gap.",
+   "before": "Hardy was not only bored",
+   "after": "irritated.",
+   "options": [
+    "and also",
+    "but also",
+    "or else"
+   ],
+   "answer": 1,
+   "rule": "<b>not only</b> always pairs with <b>but also</b>."
+  },
+  {
+   "qid": "c8-17-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If you practise every day, you",
+   "after": "improve at maths.",
+   "options": [
+    "would",
+    "would have",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>if + present, will + verb</b>: If you practise, you <b>will</b> improve."
+  },
+  {
+   "qid": "c8-17-06",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Make a compound sentence.",
+   "answer": [
+    "Ravi",
+    "was",
+    "tired,",
+    "but",
+    "he",
+    "finished",
+    "his",
+    "homework."
+   ],
+   "alts": [],
+   "rule": "A compound sentence joins two main clauses with a coordinator like <b>but</b>."
+  },
+  {
+   "qid": "c8-17-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Who wrote this letter to Hardy?"
+    ]
+   ],
+   "options": [
+    "It was wrote by Ramanujan.",
+    "It written by Ramanujan.",
+    "It was written by Ramanujan."
+   ],
+   "answer": 2,
+   "rule": "Passive: <b>was + past participle</b>. The participle of write is <b>written</b>."
+  },
+  {
+   "qid": "c8-17-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Can you help me with the maths puzzle this evening?"
+    ]
+   ],
+   "options": [
+    "Sure, if Mum will let me go out, I help you.",
+    "Sure, if Mum lets me go out, I helped you.",
+    "Sure, if Mum lets me go out, I will help you."
+   ],
+   "answer": 2,
+   "rule": "Type 1: present tense after <b>if</b>, <b>will</b> in the main clause."
+  },
+  {
+   "qid": "c8-17-09",
+   "type": "change",
+   "level": 1,
+   "topic": "voice",
+   "prompt": "Change into passive voice.",
+   "source": "Hardy taught Ramanujan.",
+   "options": [
+    "Ramanujan is taught by Hardy.",
+    "Ramanujan was taught by Hardy.",
+    "Ramanujan was teach by Hardy."
+   ],
+   "answer": 1,
+   "rule": "Simple past active becomes <b>was/were + past participle</b>: was taught."
+  },
+  {
+   "qid": "c8-17-10",
+   "type": "change",
+   "level": 1,
+   "topic": "voice",
+   "prompt": "Change into active voice.",
+   "source": "Hardy was bored by that manuscript.",
+   "options": [
+    "That manuscript bores Hardy.",
+    "That manuscript was bored Hardy.",
+    "That manuscript bored Hardy."
+   ],
+   "answer": 2,
+   "rule": "The doer (the manuscript) becomes the subject; keep the past tense: <b>bored</b>."
+  },
+  {
+   "qid": "c8-17-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Which compound sentence is correct?",
+   "options": [
+    "Asha likes maths, but her brother like music.",
+    "Asha likes maths, but her brother liking music.",
+    "Asha likes maths, but her brother likes music."
+   ],
+   "answer": 2,
+   "rule": "Each clause of a compound sentence needs its own correct verb: her brother <b>likes</b>."
+  },
+  {
+   "qid": "c8-17-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardy wrote a report on the new theorems.",
+    "Hardy wrote a reported on the new theorems.",
+    "Hardy wrote report on the new theorems."
+   ],
+   "answer": 0,
+   "rule": "Here <b>report</b> is a noun, so it needs an article: <b>a report</b>."
+  },
+  {
+   "qid": "c8-17-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandpa",
+    "likes",
+    "to",
+    "watched",
+    "cricket",
+    "on",
+    "Sundays."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "watch",
+      "watching",
+      "watches"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>to</b> use the base form of the verb: to <b>watch</b>."
+  },
+  {
+   "qid": "c8-17-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "tomorrow,",
+    "we",
+    "will",
+    "stayed",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "staying",
+      "stay",
+      "stays"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>will</b> use the base form: will <b>stay</b>."
+  },
+  {
+   "qid": "c8-17-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "voice",
+   "prompt": "Fill in the gap.",
+   "before": "Ramanujan",
+   "after": "a Fellow of the Royal Society at thirty.",
+   "options": [
+    "elected",
+    "was elected",
+    "was elect"
+   ],
+   "answer": 1,
+   "rule": "The Society elected him, so he <b>was elected</b> (passive)."
+  },
+  {
+   "qid": "c8-17-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "Fill in the gap.",
+   "before": "The party was a big",
+   "after": "for Grandma.",
+   "options": [
+    "surprise",
+    "surprised",
+    "surprising"
+   ],
+   "answer": 0,
+   "rule": "After <b>a big</b> we need a noun: <b>a big surprise</b>."
+  },
+  {
+   "qid": "c8-17-17",
+   "type": "build",
+   "level": 2,
+   "topic": "voice",
+   "prompt": "Make a sentence in the passive voice.",
+   "answer": [
+    "The",
+    "theorems",
+    "were",
+    "checked",
+    "by",
+    "Littlewood."
+   ],
+   "alts": [],
+   "rule": "Plural subject: <b>were checked</b>, then <b>by</b> + the doer."
+  },
+  {
+   "qid": "c8-17-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "not_only",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "How did the team do in the maths quiz?"
+    ]
+   ],
+   "options": [
+    "They not only won but also set a record.",
+    "They not only won but also sets a record.",
+    "They not only won but set also a record."
+   ],
+   "answer": 0,
+   "rule": "Both parts match in tense: not only <b>won</b> but also <b>set</b> (past of set is set)."
+  },
+  {
+   "qid": "c8-17-19",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Combine using 'and'.",
+   "source": "Ravi finished his sums. He went out to play.",
+   "options": [
+    "Ravi finished his sums and goes out to play.",
+    "Ravi finished his sums and went out to played.",
+    "Ravi finished his sums and went out to play."
+   ],
+   "answer": 2,
+   "rule": "Keep both verbs in the past: finished ... and <b>went</b>. After <b>to</b>, the base form: play."
+  },
+  {
+   "qid": "c8-17-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "voice",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Kiran!",
+    "The",
+    "maths",
+    "project",
+    "was",
+    "give",
+    "to",
+    "us",
+    "last",
+    "Monday.",
+    "It",
+    "was",
+    "check",
+    "by",
+    "Mr",
+    "Desai",
+    "yesterday,",
+    "and",
+    "he",
+    "gave",
+    "us",
+    "full",
+    "marks."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "gave",
+      "giving",
+      "given"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 13,
+     "options": [
+      "checking",
+      "checked",
+      "checks"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: was <b>given</b>, was <b>checked</b>."
+  },
+  {
+   "qid": "c8-17-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Which complex sentence is correct?",
+   "options": [
+    "The boy which solved the puzzle is my classmate.",
+    "The boy who solved the puzzle are my classmate.",
+    "The boy who solved the puzzle is my classmate."
+   ],
+   "answer": 2,
+   "rule": "A person takes <b>who</b>; the main subject 'the boy' is singular, so <b>is</b>."
+  },
+  {
+   "qid": "c8-17-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "not_only",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ramanujan",
+    "was",
+    "not",
+    "only",
+    "brilliant",
+    "and",
+    "also",
+    "hardworking."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "but",
+      "or",
+      "so"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>not only ... but also</b> is a fixed pair."
+  },
+  {
+   "qid": "c8-17-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I",
+    "will",
+    "practise",
+    "more."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Type 2 (imaginary): <b>If I were ... I would</b> + verb."
+  },
+  {
+   "qid": "c8-17-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "Ravi could not play in the final",
+   "after": "he had hurt his knee.",
+   "options": [
+    "because",
+    "because of",
+    "due"
+   ],
+   "answer": 0,
+   "rule": "A full clause (he had hurt his knee) follows <b>because</b>; 'because of' takes only a noun."
+  },
+  {
+   "qid": "c8-17-25",
+   "type": "build",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Make a complex sentence.",
+   "answer": [
+    "The",
+    "boys",
+    "found",
+    "the",
+    "book",
+    "that",
+    "was",
+    "lost."
+   ],
+   "alts": [],
+   "rule": "The clause <b>that was lost</b> describes the book, so it comes right after it."
+  },
+  {
+   "qid": "c8-17-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "What would you do if you won a lot of money?"
+    ]
+   ],
+   "options": [
+    "I would buying a telescope for our school.",
+    "I would bought a telescope for our school.",
+    "I would buy a telescope for our school."
+   ],
+   "answer": 2,
+   "rule": "An imaginary situation (type 2) is answered with <b>would + base verb</b>: would buy."
+  },
+  {
+   "qid": "c8-17-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "noun_verb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Did you watch the final yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, I watch it with my cousins yesterday.",
+    "Yes, I watched it with my cousins.",
+    "Yes, I did watched it with my cousins."
+   ],
+   "answer": 1,
+   "rule": "Here <b>watch</b> is a verb in the past: <b>watched</b>. After 'did' we would need the base form."
+  },
+  {
+   "qid": "c8-17-28",
+   "type": "change",
+   "level": 3,
+   "topic": "voice",
+   "prompt": "Change the voice.",
+   "source": "Sheets of paper were found in it by Hardy.",
+   "options": [
+    "Hardy found sheets of paper in it.",
+    "Hardy finds sheets of paper in it.",
+    "Hardy was found sheets of paper in it."
+   ],
+   "answer": 0,
+   "rule": "Passive past <b>were found</b> becomes active past <b>found</b>, with Hardy as subject."
+  },
+  {
+   "qid": "c8-17-29",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Change into a complex sentence using 'when'.",
+   "source": "Hardy opened the envelope and found sheets of symbols.",
+   "options": [
+    "When Hardy opened the envelope, he finds sheets of symbols.",
+    "When Hardy opened the envelope, he found sheets of symbols.",
+    "When Hardy opened the envelope, and he found sheets of symbols."
+   ],
+   "answer": 1,
+   "rule": "<b>When</b> makes one clause dependent, so drop 'and' and keep the past tense."
+  },
+  {
+   "qid": "c8-17-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "not_only",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Sana!",
+    "If",
+    "both",
+    "Aman",
+    "and",
+    "Divya",
+    "comes",
+    "early",
+    "tomorrow,",
+    "we",
+    "can",
+    "practise",
+    "for",
+    "the",
+    "quiz.",
+    "Our",
+    "team",
+    "must",
+    "not",
+    "only",
+    "answer",
+    "fast",
+    "and",
+    "also",
+    "answer",
+    "correctly."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "coming",
+      "come",
+      "came"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "or",
+      "so",
+      "but"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both</b> Aman and Divya are two people, so <b>come</b>; <b>not only</b> pairs with <b>but also</b>."
+  },
+  {
+   "qid": "c8-17-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ramanujan's notebooks has been studied by many mathematicians.",
+    "Ramanujan's notebooks have been studied by many mathematicians.",
+    "Ramanujan's notebooks have been study by many mathematicians."
+   ],
+   "answer": 1,
+   "rule": "Plural subject + present perfect passive: <b>have been studied</b>."
+  },
+  {
+   "qid": "c8-17-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If our school had a telescope, we will watch the stars every night.",
+    "If our school has a telescope, we would watch the stars every night.",
+    "If our school had a telescope, we would watch the stars every night."
+   ],
+   "answer": 2,
+   "rule": "Type 2: <b>if + past, would + verb</b>. Do not mix had with will, or has with would."
+  },
+  {
+   "qid": "c8-17-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ramanujan's",
+    "mother",
+    "had",
+    "a",
+    "dream",
+    "which",
+    "surprise",
+    "everyone",
+    "in",
+    "the",
+    "family."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "surprising",
+      "surprisingly",
+      "surprised"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Here <b>surprise</b> is a verb in a past story: the dream <b>surprised</b> everyone."
+  },
+  {
+   "qid": "c8-17-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "voice",
+   "prompt": "Fill in the gap.",
+   "before": "The theorems could not",
+   "after": "without proper proofs.",
+   "options": [
+    "accepted",
+    "be accept",
+    "be accepted"
+   ],
+   "answer": 2,
+   "rule": "Modal passive: <b>could not be + past participle</b>."
+  },
+  {
+   "qid": "c8-17-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "noun_verb",
+   "prompt": "Fill in the gap.",
+   "before": "Hardy paid Ramanujan",
+   "after": "in the hospital at Putney.",
+   "options": [
+    "visit",
+    "a visit",
+    "visited"
+   ],
+   "answer": 1,
+   "rule": "After <b>paid</b> (someone) we need a noun with its article: <b>a visit</b>."
+  },
+  {
+   "qid": "c8-17-36",
+   "type": "build",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "If",
+    "you",
+    "heat",
+    "ice,",
+    "it",
+    "melts."
+   ],
+   "alts": [],
+   "rule": "A general truth: <b>if + present, present</b>."
+  },
+  {
+   "qid": "c8-17-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Has the result of the quiz been announced?"
+    ]
+   ],
+   "options": [
+    "Yes, it has announced an hour ago.",
+    "Yes, it has been announced an hour ago.",
+    "Yes, it was announced an hour ago."
+   ],
+   "answer": 2,
+   "rule": "<b>An hour ago</b> is a finished time, so use the simple past passive: <b>was announced</b>."
+  },
+  {
+   "qid": "c8-17-38",
+   "type": "change",
+   "level": 4,
+   "topic": "voice",
+   "prompt": "Change into passive voice.",
+   "source": "The principal will felicitate the quiz winner.",
+   "options": [
+    "The quiz winner will felicitated by the principal.",
+    "The quiz winner will be felicitated by the principal.",
+    "The quiz winner would be felicitated by the principal."
+   ],
+   "answer": 1,
+   "rule": "Future passive: <b>will be + past participle</b>; keep 'will'."
+  },
+  {
+   "qid": "c8-17-39",
+   "type": "change",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Combine using 'not only ... but also'.",
+   "source": "Ramanujan was a genius. He was very humble.",
+   "options": [
+    "Ramanujan was not only a genius but also very humble.",
+    "Ramanujan was not only a genius and also very humble.",
+    "Ramanujan was not only a genius but also very humbly."
+   ],
+   "answer": 0,
+   "rule": "Use <b>but also</b>, and after 'was' we need the adjective <b>humble</b>."
+  },
+  {
+   "qid": "c8-17-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "not_only",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Ramanujan",
+    "was",
+    "born",
+    "in",
+    "1887.",
+    "As",
+    "a",
+    "boy,",
+    "he",
+    "not",
+    "only",
+    "loved",
+    "numbers",
+    "but",
+    "also",
+    "fill",
+    "notebooks",
+    "with",
+    "sums.",
+    "His",
+    "notebooks",
+    "are",
+    "still",
+    "study",
+    "by",
+    "experts",
+    "today.",
+    "In",
+    "1918,",
+    "he",
+    "became",
+    "a",
+    "Fellow",
+    "when",
+    "he",
+    "is",
+    "only",
+    "thirty."
+   ],
+   "errors": [
+    {
+     "i": 15,
+     "options": [
+      "filling",
+      "filled",
+      "fills"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "studied",
+      "studying",
+      "studies"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 35,
+     "options": [
+      "was",
+      "were",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Match the past: loved ... <b>filled</b>; passive <b>are studied</b>; 1918 is past, so he <b>was</b> thirty."
+  },
+  {
+   "qid": "c8-17-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ramanujan, who was largely self-taught, elected a Fellow at thirty.",
+    "Ramanujan, who was largely self-taught, was elected a Fellow at thirty.",
+    "Ramanujan, who were largely self-taught, was elected a Fellow at thirty."
+   ],
+   "answer": 1,
+   "rule": "Others elected him, so the main verb is passive: <b>was elected</b>; 'who' refers to one man: <b>was</b>."
+  },
+  {
+   "qid": "c8-17-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "number",
+    "1729",
+    "is",
+    "now",
+    "knew",
+    "as",
+    "the",
+    "Hardy-Ramanujan",
+    "number."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "known",
+      "knowing",
+      "knows"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive: <b>is known</b> (past participle of know)."
+  },
+  {
+   "qid": "c8-17-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Hardy",
+    "trusted",
+    "telephones,",
+    "he",
+    "would",
+    "sent",
+    "a",
+    "message",
+    "to",
+    "Littlewood."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "sending",
+      "sends",
+      "send"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Type 2: <b>would + base form</b>: would <b>send</b>."
+  },
+  {
+   "qid": "c8-17-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "not_only",
+   "prompt": "Fill in the gap.",
+   "before": "Not only",
+   "after": "Ramanujan elected a Fellow of the Royal Society, but he was also made a Fellow of Trinity.",
+   "options": [
+    "was",
+    "did",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "When a sentence begins with <b>Not only</b>, the helper comes before the subject: <b>was Ramanujan elected</b> (passive)."
+  },
+  {
+   "qid": "c8-17-45",
+   "type": "build",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "His",
+    "work",
+    "must",
+    "have",
+    "been",
+    "admired",
+    "by",
+    "everyone."
+   ],
+   "alts": [],
+   "rule": "Modal perfect passive: <b>must have been + past participle</b>."
+  },
+  {
+   "qid": "c8-17-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "I don't understand this theorem at all."
+    ],
+    [
+     "Sameer",
+     "What should I do?"
+    ]
+   ],
+   "options": [
+    "If I was you, I will ask Ms Kulkarni for help.",
+    "If I were you, I would asked Ms Kulkarni for help.",
+    "If I were you, I would ask Ms Kulkarni for help."
+   ],
+   "answer": 2,
+   "rule": "Advice with type 2: <b>If I were you, I would + base verb</b>."
+  },
+  {
+   "qid": "c8-17-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "Why was Hardy irritated by the letter at first?"
+    ]
+   ],
+   "options": [
+    "Because it had no proofs and it look like a fraud.",
+    "Because it had not proofs and it looked like a fraud.",
+    "Because it had no proofs and it looked like a fraud."
+   ],
+   "answer": 2,
+   "rule": "Both joined clauses stay in the past (<b>had ... looked</b>); before a noun use <b>no</b>, not 'not'."
+  },
+  {
+   "qid": "c8-17-48",
+   "type": "change",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "Change into passive voice.",
+   "source": "Who sent this strange letter?",
+   "options": [
+    "By whom was this strange letter send?",
+    "By whom this strange letter was sent?",
+    "By whom was this strange letter sent?"
+   ],
+   "answer": 2,
+   "rule": "<b>Who</b> becomes <b>By whom</b>; keep question order: <b>was</b> + subject + <b>sent</b>."
+  },
+  {
+   "qid": "c8-17-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "He",
+    "was",
+    "a",
+    "poor",
+    "clerk",
+    "in",
+    "Madras",
+    "who",
+    "earn",
+    "very",
+    "little.",
+    "In",
+    "1914,",
+    "Ramanujan",
+    "were",
+    "sent",
+    "to",
+    "England,",
+    "and",
+    "soon",
+    "his",
+    "talent",
+    "was",
+    "recognise",
+    "by",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "earned",
+      "earning",
+      "earner"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "is",
+      "was",
+      "being"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "recognising",
+      "recognised",
+      "recognises"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past story: <b>earned</b>; one person: <b>was sent</b>; passive: <b>was recognised</b>."
+  },
+  {
+   "qid": "c8-17-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "voice",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Tomorrow",
+    "our",
+    "school",
+    "will",
+    "honour",
+    "Meera,",
+    "who",
+    "won",
+    "the",
+    "national",
+    "maths",
+    "quiz.",
+    "A",
+    "trophy",
+    "will",
+    "be",
+    "give",
+    "to",
+    "her,",
+    "and",
+    "her",
+    "parents",
+    "will",
+    "watches",
+    "proudly",
+    "from",
+    "the",
+    "front",
+    "row."
+   ],
+   "errors": [
+    {
+     "i": 16,
+     "options": [
+      "given",
+      "gave",
+      "giving"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "watching",
+      "watched",
+      "watch"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: <b>will be given</b>; after <b>will</b> use the base verb: will <b>watch</b>."
+  }
+ ]
+}

@@ -1,0 +1,987 @@
+{
+ "class": 6,
+ "id": "2.4",
+ "title": "Young Voices about Independence Day",
+ "topics": [
+  {
+   "tag": "kinds",
+   "name": "Kinds of sentences and end punctuation"
+  },
+  {
+   "tag": "exclaim",
+   "name": "Exclamatory sentences with What / How"
+  },
+  {
+   "tag": "sva",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals should / must / can and need to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-2.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "kinds",
+   "prompt": "Which question is correct?",
+   "options": [
+    "What does freedom means to you?",
+    "What do freedom mean to you?",
+    "What does freedom mean to you?"
+   ],
+   "answer": 2,
+   "rule": "<b>freedom</b> is singular, so use <b>does</b> + base verb <b>mean</b>. A question ends with <b>?</b>"
+  },
+  {
+   "qid": "c6-2.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "exclaim",
+   "prompt": "Which exclamatory sentence is correct?",
+   "options": [
+    "What a proud day it is!",
+    "What a proud day it are!",
+    "What proud day it is!"
+   ],
+   "answer": 0,
+   "rule": "<b>What a + adjective + singular noun</b> + <b>it is</b>, and an exclamation ends with <b>!</b>"
+  },
+  {
+   "qid": "c6-2.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Everyone loves the National Anthem.",
+    "Everyone love the National Anthem.",
+    "Everyone loving the National Anthem."
+   ],
+   "answer": 0,
+   "rule": "<b>Everyone</b> is singular, so the verb takes -s: <b>loves</b>."
+  },
+  {
+   "qid": "c6-2.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Avani's",
+    "two",
+    "cousins",
+    "lives",
+    "in",
+    "Jaipur",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "living",
+      "live",
+      "lived"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Two cousins</b> is plural, so the verb has no -s: <b>Avani's two cousins live</b>."
+  },
+  {
+   "qid": "c6-2.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "stands",
+    "properly",
+    "during",
+    "the",
+    "National",
+    "Anthem."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "standing",
+      "stand",
+      "stood"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "An imperative (request or order) begins with the base verb: <b>Please stand</b>."
+  },
+  {
+   "qid": "c6-2.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "The children",
+   "after": "proud of their country.",
+   "options": [
+    "are",
+    "is",
+    "was"
+   ],
+   "answer": 0,
+   "rule": "<b>children</b> is plural, so use <b>are</b>."
+  },
+  {
+   "qid": "c6-2.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "respect the National Flag.",
+   "options": [
+    "are",
+    "must",
+    "does"
+   ],
+   "answer": 1,
+   "rule": "A duty is shown with <b>must + base verb</b>: <b>must respect</b>."
+  },
+  {
+   "qid": "c6-2.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "kinds",
+   "prompt": "Make an imperative sentence.",
+   "answer": [
+    "Please",
+    "keep",
+    "your",
+    "street",
+    "clean."
+   ],
+   "alts": [],
+   "rule": "An imperative gives a request: <b>Please + base verb</b> ..."
+  },
+  {
+   "qid": "c6-2.4-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ayansh",
+     "When do we celebrate Independence Day?"
+    ]
+   ],
+   "options": [
+    "We celebrates it on 15th August.",
+    "We celebrating it on 15th August.",
+    "We celebrate it on 15th August."
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> takes the base verb in the simple present: <b>We celebrate</b>."
+  },
+  {
+   "qid": "c6-2.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Avantika",
+     "Someone threw a paper flag on the road."
+    ]
+   ],
+   "options": [
+    "We should picks it up and keep it safe.",
+    "We should picked it up and keep it safe.",
+    "We should pick it up and keep it safe."
+   ],
+   "answer": 2,
+   "rule": "After <b>should</b> use the base verb: <b>should pick</b>."
+  },
+  {
+   "qid": "c6-2.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "kinds",
+   "prompt": "Which imperative sentence is correct?",
+   "options": [
+    "Salute the National Flag.",
+    "Salutes the National Flag.",
+    "Saluting the National Flag."
+   ],
+   "answer": 0,
+   "rule": "An imperative starts with the base verb: <b>Salute</b>."
+  },
+  {
+   "qid": "c6-2.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "exclaim",
+   "prompt": "Which exclamatory sentence is correct?",
+   "options": [
+    "How beautiful the flag look!",
+    "How beautiful does the flag look!",
+    "How beautiful the flag looks!"
+   ],
+   "answer": 2,
+   "rule": "<b>How + adjective + subject + verb!</b> No question order, and <b>the flag</b> takes <b>looks</b>."
+  },
+  {
+   "qid": "c6-2.4-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "child",
+    "in",
+    "our",
+    "school",
+    "have",
+    "a",
+    "library",
+    "card",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "having",
+      "has",
+      "had"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every child</b> is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c6-2.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Indians",
+    "should",
+    "lives",
+    "in",
+    "harmony",
+    "with",
+    "one",
+    "another."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "living",
+      "lived",
+      "live"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>should</b> use the base verb: <b>should live</b>."
+  },
+  {
+   "qid": "c6-2.4-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "kinds",
+   "prompt": "Complete the question.",
+   "before": "",
+   "after": "you seen the flag-hoisting video?",
+   "options": [
+    "Have",
+    "Did",
+    "Has"
+   ],
+   "answer": 0,
+   "rule": "<b>seen</b> needs <b>have</b>, and <b>you</b> takes <b>Have</b>, not Has."
+  },
+  {
+   "qid": "c6-2.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "exclaim",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a brave freedom fighter she was!",
+   "options": [
+    "How",
+    "Which",
+    "What"
+   ],
+   "answer": 2,
+   "rule": "Before <b>a/an + noun</b> use <b>What</b>: <b>What a brave freedom fighter</b>!"
+  },
+  {
+   "qid": "c6-2.4-17",
+   "type": "build",
+   "level": 2,
+   "topic": "kinds",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "does",
+    "independence",
+    "mean",
+    "to",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Interrogative: Wh- word + <b>does</b> + subject + base verb ... <b>?</b>"
+  },
+  {
+   "qid": "c6-2.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "exclaim",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "What",
+    "a",
+    "lovely",
+    "speech",
+    "you",
+    "gave!"
+   ],
+   "alts": [],
+   "rule": "<b>What a + adjective + noun + subject + verb!</b>"
+  },
+  {
+   "qid": "c6-2.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "exclaim",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrunmayee",
+     "Our school team won the football final!"
+    ]
+   ],
+   "options": [
+    "What wonderful news!",
+    "What a wonderful news!",
+    "What a wonderful news it is?"
+   ],
+   "answer": 0,
+   "rule": "<b>news</b> is uncountable, so no <b>a</b>: <b>What wonderful news!</b>"
+  },
+  {
+   "qid": "c6-2.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dhirav",
+     "Which fruit do you like?"
+    ]
+   ],
+   "options": [
+    "I like mangoes. They is sweet and juicy.",
+    "I likes mangoes. They are sweet and juicy.",
+    "I like mangoes. They are sweet and juicy."
+   ],
+   "answer": 2,
+   "rule": "<b>I like</b> (no -s with I) and <b>They are</b> (plural)."
+  },
+  {
+   "qid": "c6-2.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "kinds",
+   "prompt": "Which is a correctly written statement?",
+   "options": [
+    "Children expresses their ideas.",
+    "Children expressed their ideas.",
+    "Children expressing their ideas."
+   ],
+   "answer": 1,
+   "rule": "A declarative sentence (statement) has a full verb and ends with a full stop."
+  },
+  {
+   "qid": "c6-2.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the children have a flag.",
+    "Each of the child has a flag.",
+    "Each of the children has a flag."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of the + plural noun</b> takes a singular verb: <b>Each of the children has</b>."
+  },
+  {
+   "qid": "c6-2.4-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We need to keep our nation clean.",
+    "We needs to keep our nation clean.",
+    "We need keep our nation clean."
+   ],
+   "answer": 0,
+   "rule": "<b>We</b> takes <b>need</b>, and in statements it is followed by <b>to + verb</b>."
+  },
+  {
+   "qid": "c6-2.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fruits",
+    "and",
+    "vegetables",
+    "is",
+    "costly",
+    "in",
+    "the",
+    "rainy",
+    "season."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Two plural nouns joined by <b>and</b> take a plural verb: <b>are</b>."
+  },
+  {
+   "qid": "c6-2.4-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "exclaim",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "colourful",
+    "kite",
+    "you",
+    "have",
+    "made!"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "kited",
+      "kites",
+      "kiting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With no <b>a</b>, <b>What</b> needs a plural noun: <b>What colourful kites</b>!"
+  },
+  {
+   "qid": "c6-2.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "One of my friends",
+   "after": "from Hyderabad.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>One</b>, which is singular: <b>One of my friends is</b>."
+  },
+  {
+   "qid": "c6-2.4-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Girls",
+   "after": "get equal chances to play sports.",
+   "options": [
+    "should",
+    "must to",
+    "needs"
+   ],
+   "answer": 0,
+   "rule": "<b>should + base verb</b>. No <b>to</b> after must, and <b>Girls</b> does not take <b>needs</b>."
+  },
+  {
+   "qid": "c6-2.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Our",
+    "teacher",
+    "teaches",
+    "us",
+    "about",
+    "equality."
+   ],
+   "alts": [],
+   "rule": "Singular subject <b>Our teacher</b> + verb with -es: <b>teaches</b>."
+  },
+  {
+   "qid": "c6-2.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "exclaim",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Bhavya",
+     "I bought groceries on my own today!"
+    ]
+   ],
+   "options": [
+    "How confident you must feels!",
+    "How confident you must to feel!",
+    "How confident you must feel!"
+   ],
+   "answer": 2,
+   "rule": "<b>How + adjective + subject + verb!</b> After <b>must</b> use the base verb <b>feel</b>."
+  },
+  {
+   "qid": "c6-2.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arsalan",
+     "Grandpa cannot reach the voting booth on his own."
+    ]
+   ],
+   "options": [
+    "We can take him there on our scooter.",
+    "We can takes him there on our scooter.",
+    "We can taking him there on our scooter."
+   ],
+   "answer": 0,
+   "rule": "After <b>can</b> use the base verb: <b>can take</b>."
+  },
+  {
+   "qid": "c6-2.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Everybody need an equal chance to learn.",
+    "Everybody needs an equal chance to learn.",
+    "Everybody needs a equal chance to learn."
+   ],
+   "answer": 1,
+   "rule": "<b>Everybody</b> is singular: <b>needs</b>. <b>equal</b> starts with a vowel sound: <b>an</b>."
+  },
+  {
+   "qid": "c6-2.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "kinds",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Did you watched the parade on television?",
+    "Did you watching the parade on television?",
+    "Did you watch the parade on television?"
+   ],
+   "answer": 2,
+   "rule": "After <b>Did</b> use the base verb <b>watch</b>, and a question ends with <b>?</b>"
+  },
+  {
+   "qid": "c6-2.4-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "should",
+    "not",
+    "throws",
+    "plastic",
+    "flags",
+    "on",
+    "the",
+    "ground."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "throw",
+      "threw",
+      "throwing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>should not</b> use the base verb: <b>throw</b>."
+  },
+  {
+   "qid": "c6-2.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "exclaim",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "proud",
+    "we",
+    "was",
+    "yesterday",
+    "at",
+    "the",
+    "parade!"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "are",
+      "is",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>yesterday</b> needs the past, and <b>we</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c6-2.4-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "many brave freedom fighters in India.",
+   "options": [
+    "was",
+    "is",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "After <b>There</b>, the verb agrees with the noun that follows: <b>many fighters</b> is plural, so <b>were</b>."
+  },
+  {
+   "qid": "c6-2.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "kinds",
+   "prompt": "Complete the question.",
+   "before": "",
+   "after": "did the children say about independence?",
+   "options": [
+    "What",
+    "Who",
+    "Whom"
+   ],
+   "answer": 0,
+   "rule": "We ask about the thing that was said, so use <b>What</b>."
+  },
+  {
+   "qid": "c6-2.4-37",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "must",
+    "never",
+    "waste",
+    "food."
+   ],
+   "alts": [],
+   "rule": "Adverb <b>never</b> comes after the modal and before the main verb: must never waste."
+  },
+  {
+   "qid": "c6-2.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "kinds",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "did",
+    "you",
+    "buy",
+    "those",
+    "groceries?"
+   ],
+   "alts": [],
+   "rule": "Past question: Wh- word + <b>did</b> + subject + base verb ... <b>?</b>"
+  },
+  {
+   "qid": "c6-2.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Reshma",
+     "Is your brother good at sports?"
+    ]
+   ],
+   "options": [
+    "Yes, he play cricket and swims every day.",
+    "Yes, he plays cricket and swims every day.",
+    "Yes, he plays cricket and swim every day."
+   ],
+   "answer": 1,
+   "rule": "<b>he</b> takes -s on both verbs: <b>plays</b> and <b>swims</b>."
+  },
+  {
+   "qid": "c6-2.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "exclaim",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Alokit",
+     "Our science project won first prize!"
+    ]
+   ],
+   "options": [
+    "What brilliant team you are!",
+    "What a brilliant team you are!",
+    "What a brilliant team you is!"
+   ],
+   "answer": 1,
+   "rule": "<b>What a + adjective + singular noun</b>, and <b>you</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c6-2.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the eight children shares an idea for a better and fairer India.",
+    "Each of the eight children share an idea for a better and fairer India.",
+    "Each of the eight child shares an idea for a better and fairer India."
+   ],
+   "answer": 0,
+   "rule": "<b>Each of the + plural noun</b> takes a singular verb: <b>shares</b>."
+  },
+  {
+   "qid": "c6-2.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "exclaim",
+   "prompt": "Which exclamatory sentence is correct?",
+   "options": [
+    "What a long way our country have come since 1947!",
+    "What a long way our country has come since 1947!",
+    "What long way our country has come since 1947!"
+   ],
+   "answer": 1,
+   "rule": "<b>What a + adjective + noun</b> ... and an exclamation ends with <b>!</b>"
+  },
+  {
+   "qid": "c6-2.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rice",
+    "in",
+    "these",
+    "sacks",
+    "have",
+    "become",
+    "costly",
+    "this",
+    "month."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "has",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>The rice</b> (uncountable, singular), not sacks: <b>has become</b>."
+  },
+  {
+   "qid": "c6-2.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "not",
+    "talk",
+    "or",
+    "laughing",
+    "during",
+    "the",
+    "National",
+    "Anthem."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "laughed",
+      "laugh",
+      "laughs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In an imperative both verbs are in the base form: <b>Do not talk or laugh</b>."
+  },
+  {
+   "qid": "c6-2.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "Arnav, along with his friends,",
+   "after": "planting trees in the park.",
+   "options": [
+    "are",
+    "were",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>Arnav</b>; <b>along with his friends</b> does not change it: <b>is</b>."
+  },
+  {
+   "qid": "c6-2.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "exclaim",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "loudly the crowd cheered for our sportswomen!",
+   "options": [
+    "What",
+    "What a",
+    "How"
+   ],
+   "answer": 2,
+   "rule": "Before an adverb or adjective with no noun, use <b>How</b>: <b>How loudly</b> ...!"
+  },
+  {
+   "qid": "c6-2.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "exclaim",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "How",
+    "bravely",
+    "they",
+    "fought",
+    "for",
+    "our",
+    "freedom!"
+   ],
+   "alts": [],
+   "rule": "<b>How + adverb + subject + verb</b> ...!"
+  },
+  {
+   "qid": "c6-2.4-48",
+   "type": "build",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "each",
+    "student",
+    "in",
+    "your",
+    "class",
+    "get",
+    "uniforms?"
+   ],
+   "alts": [],
+   "rule": "<b>each student</b> is singular, so the question starts with <b>Does</b> + base verb <b>get</b>."
+  },
+  {
+   "qid": "c6-2.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Thomas",
+     "Why should we vote?"
+    ],
+    [
+     "Ms Thomas",
+     "Give me one good reason."
+    ]
+   ],
+   "options": [
+    "We should votes because good leaders work for everyone's future.",
+    "We should vote because good leaders works for everyone's future.",
+    "We should vote because good leaders work for everyone's future."
+   ],
+   "answer": 2,
+   "rule": "<b>should vote</b> (base verb), and plural <b>leaders</b> takes <b>work</b>."
+  },
+  {
+   "qid": "c6-2.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ayaan",
+     "What do you think about equality?"
+    ]
+   ],
+   "options": [
+    "I think everyone deserves the same chances.",
+    "I think everyone deserve the same chances.",
+    "I thinks everyone deserves the same chances."
+   ],
+   "answer": 0,
+   "rule": "<b>I think</b> (no -s with I), and <b>everyone</b> is singular: <b>deserves</b>."
+  }
+ ]
+}

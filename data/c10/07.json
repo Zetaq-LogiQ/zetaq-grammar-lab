@@ -1,0 +1,1194 @@
+{
+ "class": 10,
+ "id": "07",
+ "title": "Animals",
+ "topics": [
+  {
+   "tag": "wish_could",
+   "name": "'Wish' sentences, 'If only' and 'would rather'"
+  },
+  {
+   "tag": "negative_inversion",
+   "name": "Inversion after never, seldom, hardly, not only"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison and 'the more ... the more'"
+  },
+  {
+   "tag": "word_forms",
+   "name": "Word forms: adjective, adverb and noun"
+  },
+  {
+   "tag": "affirm_negative",
+   "name": "Affirmative and negative sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-07-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "wish_could",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I wish I can fly like an eagle.",
+    "I wish I could flew like an eagle.",
+    "I wish I could fly like an eagle."
+   ],
+   "answer": 2,
+   "rule": "A wish about something impossible now takes <b>could + base verb</b>: I wish I could fly."
+  },
+  {
+   "qid": "c10-07-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "affirm_negative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Animals does not complain about their condition.",
+    "Animals do not complains about their condition.",
+    "Animals do not complain about their condition."
+   ],
+   "answer": 2,
+   "rule": "Plural subject takes <b>do not</b>, and after do not the verb stays in the base form: complain."
+  },
+  {
+   "qid": "c10-07-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "affirm_negative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "dog",
+    "does",
+    "not",
+    "sleeps",
+    "on",
+    "the",
+    "sofa",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "sleep",
+      "slept",
+      "sleeping"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does not</b>, use the base form of the verb: does not <b>sleep</b>."
+  },
+  {
+   "qid": "c10-07-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "blue",
+    "whale",
+    "is",
+    "the",
+    "bigger",
+    "animal",
+    "in",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "big",
+      "more",
+      "biggest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing one with all others in a group (in the world) needs the superlative: <b>the biggest</b>."
+  },
+  {
+   "qid": "c10-07-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "wish_could",
+   "prompt": "Fill in the gap.",
+   "before": "I wish I",
+   "after": "a bird for just one day.",
+   "options": [
+    "were",
+    "am",
+    "will be"
+   ],
+   "answer": 0,
+   "rule": "For an unreal wish about the present, use <b>were</b>: I wish I were a bird."
+  },
+  {
+   "qid": "c10-07-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The old horse walked",
+   "after": "to the river.",
+   "options": [
+    "slowness",
+    "slowly",
+    "slows"
+   ],
+   "answer": 1,
+   "rule": "To describe how someone walked, we need an adverb: <b>slowly</b>."
+  },
+  {
+   "qid": "c10-07-07",
+   "type": "build",
+   "level": 1,
+   "topic": "affirm_negative",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Animals",
+    "never",
+    "complain",
+    "about",
+    "their",
+    "condition."
+   ],
+   "alts": [],
+   "rule": "<b>Never</b> goes before the main verb: Animals never complain."
+  },
+  {
+   "qid": "c10-07-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "wish_could",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Do you ever wish you were a bird?"
+    ]
+   ],
+   "options": [
+    "Yes, I wish I could fly over the hills.",
+    "Yes, I wish I can flying over the hills.",
+    "Yes, I wishing I could fly over the hills."
+   ],
+   "answer": 0,
+   "rule": "Use <b>I wish I could + base verb</b> for something you cannot do now."
+  },
+  {
+   "qid": "c10-07-09",
+   "type": "change",
+   "level": 1,
+   "topic": "affirm_negative",
+   "prompt": "Change into a negative sentence without changing the meaning.",
+   "source": "Animals are content with what they have.",
+   "options": [
+    "Animals are not content with what they have.",
+    "Animals are not discontented with what they have.",
+    "Animals is not discontented with what they have."
+   ],
+   "answer": 1,
+   "rule": "Add <b>not</b> and use the opposite word (content to <b>discontented</b>) so the meaning stays the same."
+  },
+  {
+   "qid": "c10-07-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "affirm_negative",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Our",
+    "dog",
+    "Bruno",
+    "do",
+    "not",
+    "lie",
+    "awake",
+    "at",
+    "night.",
+    "He",
+    "sleep",
+    "peacefully",
+    "in",
+    "his",
+    "basket",
+    "and",
+    "wakes",
+    "up",
+    "happy",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "does",
+      "doing",
+      "done"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "sleeps",
+      "sleeping",
+      "sleepy"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "One dog (Bruno, he) takes singular forms: <b>does not lie</b> and <b>sleeps</b>."
+  },
+  {
+   "qid": "c10-07-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "negative_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Seldom our cat leaves the garden.",
+    "Seldom does our cat leaves the garden.",
+    "Seldom does our cat leave the garden."
+   ],
+   "answer": 2,
+   "rule": "After <b>Seldom</b> at the start, use question order: <b>does + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-07-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The more you feed the cat, the lazier it gets.",
+    "The more you feed the cat, the lazy it gets.",
+    "More you feed the cat, the lazier it gets."
+   ],
+   "answer": 0,
+   "rule": "The pattern is <b>the + comparative ..., the + comparative</b>: the more ..., the lazier."
+  },
+  {
+   "qid": "c10-07-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "watched",
+    "the",
+    "deer",
+    "very",
+    "careful",
+    "from",
+    "behind",
+    "the",
+    "bushes."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "care",
+      "carefully",
+      "carefulness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To say <b>how</b> she watched, use an adverb: very <b>carefully</b>."
+  },
+  {
+   "qid": "c10-07-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "wish_could",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "wishes",
+    "she",
+    "has",
+    "seen",
+    "the",
+    "tigers",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A wish about the past takes the past perfect: wishes she <b>had seen</b>."
+  },
+  {
+   "qid": "c10-07-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "negative_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Not only",
+   "after": "the dog guard the house, but it also plays with the children.",
+   "options": [
+    "does",
+    "do",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "After <b>Not only</b> at the start, use question order; the dog is singular, so <b>does</b>."
+  },
+  {
+   "qid": "c10-07-16",
+   "type": "build",
+   "level": 2,
+   "topic": "wish_could",
+   "prompt": "Make a wish sentence.",
+   "answer": [
+    "Kabir",
+    "wishes",
+    "he",
+    "could",
+    "swim",
+    "like",
+    "a",
+    "fish."
+   ],
+   "alts": [],
+   "rule": "<b>wishes + he could + base verb</b> expresses a wish about the present."
+  },
+  {
+   "qid": "c10-07-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Which is faster, the cheetah or the horse?"
+    ]
+   ],
+   "options": [
+    "The cheetah is more faster than the horse.",
+    "The cheetah is fastest than the horse.",
+    "The cheetah is faster than the horse."
+   ],
+   "answer": 2,
+   "rule": "Comparing two things: <b>faster than</b>. Never use more with -er."
+  },
+  {
+   "qid": "c10-07-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "affirm_negative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Do cats complain about their food?"
+    ]
+   ],
+   "options": [
+    "No, they doesn't complain about it.",
+    "No, they don't complain about it.",
+    "No, they don't complains about it."
+   ],
+   "answer": 1,
+   "rule": "<b>They</b> takes don't, and after don't use the base verb: don't <b>complain</b>."
+  },
+  {
+   "qid": "c10-07-19",
+   "type": "change",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "The cheetah is the fastest land animal.",
+   "options": [
+    "The cheetah is faster than any land animal.",
+    "The cheetah is fast than any other land animal.",
+    "The cheetah is faster than any other land animal."
+   ],
+   "answer": 2,
+   "rule": "Superlative to comparative: <b>faster than any other</b>. 'Other' is needed because the cheetah is itself a land animal."
+  },
+  {
+   "qid": "c10-07-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "affirm_negative",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "animals",
+    "in",
+    "the",
+    "forest",
+    "are",
+    "very",
+    "placid.",
+    "Not",
+    "one",
+    "of",
+    "them",
+    "are",
+    "unhappy.",
+    "They",
+    "never",
+    "whines",
+    "about",
+    "their",
+    "condition."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "whine",
+      "whiny",
+      "whining"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Not one of them</b> is singular: is. <b>They</b> takes the plain verb: never whine."
+  },
+  {
+   "qid": "c10-07-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Their simple is a lesson for all of us.",
+    "Their simplicity is a lesson for all of us.",
+    "Their simply is a lesson for all of us."
+   ],
+   "answer": 1,
+   "rule": "After <b>their</b>, as the subject, we need a noun: <b>simplicity</b>."
+  },
+  {
+   "qid": "c10-07-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "negative_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Seldom",
+    "do",
+    "a",
+    "cat",
+    "sleep",
+    "out",
+    "in",
+    "the",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "doing",
+      "does",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Seldom</b>, use question order. <b>A cat</b> is singular, so: Seldom <b>does</b> a cat sleep."
+  },
+  {
+   "qid": "c10-07-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The more we own, the",
+   "after": "we worry.",
+   "options": [
+    "more",
+    "most",
+    "much"
+   ],
+   "answer": 0,
+   "rule": "Both halves need a comparative: <b>the more ..., the more</b>."
+  },
+  {
+   "qid": "c10-07-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "wish_could",
+   "prompt": "Fill in the gap.",
+   "before": "If only I",
+   "after": "as placid as my cat!",
+   "options": [
+    "am",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "rule": "<b>If only</b> works like wish: for an unreal present, use <b>were</b>."
+  },
+  {
+   "qid": "c10-07-25",
+   "type": "build",
+   "level": 3,
+   "topic": "negative_inversion",
+   "prompt": "Make a sentence that begins with 'Not once'.",
+   "answer": [
+    "Not",
+    "once",
+    "did",
+    "the",
+    "old",
+    "horse",
+    "complain."
+   ],
+   "alts": [],
+   "rule": "After <b>Not once</b>, use question order: <b>did + subject + base verb</b>."
+  },
+  {
+   "qid": "c10-07-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "negative_inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anaya",
+     "Have you ever seen a white tiger?"
+    ]
+   ],
+   "options": [
+    "No, never I have seen one.",
+    "No, never have I saw one.",
+    "No, never have I seen one."
+   ],
+   "answer": 2,
+   "rule": "With <b>never</b> first, the helper comes before the subject: <b>never have I seen</b>."
+  },
+  {
+   "qid": "c10-07-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "word_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How did the puppy behave at the vet's?"
+    ]
+   ],
+   "options": [
+    "He behaved very calmly.",
+    "He behaved very calm.",
+    "He behaved very calmness."
+   ],
+   "answer": 0,
+   "rule": "<b>Behaved</b> is an action verb, so describe it with an adverb: <b>calmly</b>."
+  },
+  {
+   "qid": "c10-07-28",
+   "type": "change",
+   "level": 3,
+   "topic": "affirm_negative",
+   "prompt": "Change into an affirmative sentence without changing the meaning.",
+   "source": "Not one animal is dissatisfied.",
+   "options": [
+    "Every animal are satisfied.",
+    "Every animals is satisfied.",
+    "Every animal is satisfied."
+   ],
+   "answer": 2,
+   "rule": "<b>Not one ... dissatisfied</b> = <b>Every ... satisfied</b>. Every takes a singular noun and verb."
+  },
+  {
+   "qid": "c10-07-29",
+   "type": "change",
+   "level": 3,
+   "topic": "negative_inversion",
+   "prompt": "Begin the sentence with 'Never'.",
+   "source": "I have never seen such a peaceful horse.",
+   "options": [
+    "Never I have seen such a peaceful horse.",
+    "Never had I seen such a peaceful horse.",
+    "Never have I seen such a peaceful horse."
+   ],
+   "answer": 2,
+   "rule": "Move <b>never</b> to the front and invert: <b>Never have I seen</b>. Keep the tense (have, not had)."
+  },
+  {
+   "qid": "c10-07-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "wish_could",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Dev",
+    "wishes",
+    "he",
+    "has",
+    "visited",
+    "the",
+    "farm",
+    "last",
+    "summer.",
+    "The",
+    "cows",
+    "there",
+    "are",
+    "calm",
+    "and",
+    "never",
+    "complains",
+    "about",
+    "their",
+    "food.",
+    "Not",
+    "one",
+    "of",
+    "them",
+    "lie",
+    "awake",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "complain",
+      "complaining",
+      "complaint"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "lying",
+      "lain",
+      "lies"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past wish: <b>had visited</b>. The cows (plural): <b>complain</b>. Not one of them (singular): <b>lies</b>."
+  },
+  {
+   "qid": "c10-07-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "affirm_negative",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Animals do not lie awake at night, don't they?",
+    "Animals do not lie awake at night, do they?",
+    "Animals do not lie awake at night, does they?"
+   ],
+   "answer": 1,
+   "rule": "A negative sentence takes a positive tag. Animals = they, so: <b>do they?</b>"
+  },
+  {
+   "qid": "c10-07-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "No other animal is loved as more as the dog.",
+    "No other animal is loved as much as the dog.",
+    "No other animal are loved as much as the dog."
+   ],
+   "answer": 1,
+   "rule": "Positive degree: <b>as much as</b>. No other animal is singular, so <b>is loved</b>."
+  },
+  {
+   "qid": "c10-07-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "negative_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hardly",
+    "had",
+    "the",
+    "cat",
+    "seen",
+    "the",
+    "mouse",
+    "when",
+    "it",
+    "jump",
+    "off",
+    "the",
+    "wall."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "jumped",
+      "jumps",
+      "jumping"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Hardly had ... when</b> is followed by the simple past: when it <b>jumped</b>."
+  },
+  {
+   "qid": "c10-07-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "word_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The farmer's horses are",
+   "after": "looked after by his sons.",
+   "options": [
+    "careful",
+    "care",
+    "carefully"
+   ],
+   "answer": 2,
+   "rule": "The passive verb <b>are looked after</b> is described by an adverb: are <b>carefully</b> looked after."
+  },
+  {
+   "qid": "c10-07-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "wish_could",
+   "prompt": "Fill in the gap.",
+   "before": "Grandpa wishes he",
+   "after": "kept a dog when he was young.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "A wish about the past (when he was young) uses the past perfect: <b>had kept</b>."
+  },
+  {
+   "qid": "c10-07-36",
+   "type": "build",
+   "level": 4,
+   "topic": "affirm_negative",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "Your",
+    "cat",
+    "doesn't",
+    "like",
+    "milk,",
+    "does",
+    "it?"
+   ],
+   "alts": [],
+   "rule": "Negative statement + positive tag: <b>doesn't like ..., does it?</b>"
+  },
+  {
+   "qid": "c10-07-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Is a tortoise as fast as a rabbit?"
+    ]
+   ],
+   "options": [
+    "No, a tortoise is not as fast as a rabbit.",
+    "No, a tortoise is not as faster as a rabbit.",
+    "No, a tortoise is not so fast than a rabbit."
+   ],
+   "answer": 0,
+   "rule": "Positive degree uses the plain adjective: <b>not as fast as</b>. Never as ... than."
+  },
+  {
+   "qid": "c10-07-38",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The elephant is stronger than the horse.",
+   "options": [
+    "The horse is not as strong as the elephant.",
+    "The horse is not as stronger as the elephant.",
+    "The elephant is not as strong as the horse."
+   ],
+   "answer": 0,
+   "rule": "Start with the weaker one: <b>The horse is not as strong as</b> the elephant. The meaning stays the same."
+  },
+  {
+   "qid": "c10-07-39",
+   "type": "change",
+   "level": 4,
+   "topic": "affirm_negative",
+   "prompt": "Change into passive voice.",
+   "source": "Our dog does not bite strangers.",
+   "options": [
+    "Strangers are not bit by our dog.",
+    "Strangers are not bitten by our dog.",
+    "Strangers is not bitten by our dog."
+   ],
+   "answer": 1,
+   "rule": "Simple present passive: <b>are not + past participle</b> (bitten). Strangers is plural: are."
+  },
+  {
+   "qid": "c10-07-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "more",
+    "time",
+    "Leena",
+    "spends",
+    "with",
+    "her",
+    "rabbits,",
+    "the",
+    "most",
+    "she",
+    "loves",
+    "them.",
+    "She",
+    "wishes",
+    "she",
+    "could",
+    "keeps",
+    "one",
+    "in",
+    "her",
+    "school",
+    "bag!",
+    "Not",
+    "one",
+    "of",
+    "her",
+    "rabbits",
+    "have",
+    "ever",
+    "bitten",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "much",
+      "more",
+      "mostly"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 17,
+     "options": [
+      "keep",
+      "kept",
+      "keeping"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 28,
+     "options": [
+      "having",
+      "are",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The more ..., the <b>more</b>. After could, base verb: <b>keep</b>. Not one of her rabbits is singular: <b>has</b>."
+  },
+  {
+   "qid": "c10-07-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "negative_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only the dog guards the house, but it also brings in the newspaper.",
+    "Not only does the dog guards the house, but it also brings in the newspaper.",
+    "Not only does the dog guard the house, but it also brings in the newspaper."
+   ],
+   "answer": 2,
+   "rule": "<b>Not only</b> at the start needs inversion: <b>does the dog guard</b> (base verb after does)."
+  },
+  {
+   "qid": "c10-07-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "word_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Her",
+    "patience",
+    "and",
+    "gentle",
+    "with",
+    "the",
+    "injured",
+    "deer",
+    "impressed",
+    "the",
+    "forest",
+    "officer."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "gently",
+      "gentleness",
+      "gentler"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>and</b> joins two nouns of the same kind: patience and <b>gentleness</b>."
+  },
+  {
+   "qid": "c10-07-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "one",
+    "of",
+    "the",
+    "most",
+    "loyal",
+    "dog",
+    "I",
+    "have",
+    "ever",
+    "owned."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "dog's",
+      "dogs",
+      "doggie"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>One of the most ...</b> is always followed by a plural noun: dogs."
+  },
+  {
+   "qid": "c10-07-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "negative_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "No sooner had the cat seen the dog",
+   "after": "it climbed the tree.",
+   "options": [
+    "when",
+    "then",
+    "than"
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> is always paired with <b>than</b> (hardly goes with when)."
+  },
+  {
+   "qid": "c10-07-45",
+   "type": "build",
+   "level": 5,
+   "topic": "negative_inversion",
+   "prompt": "Make a sentence that begins with 'Seldom'.",
+   "answer": [
+    "Seldom",
+    "have",
+    "I",
+    "met",
+    "a",
+    "more",
+    "contented",
+    "creature."
+   ],
+   "alts": [],
+   "rule": "After <b>Seldom</b>, invert: <b>have I met</b>. A more + adjective comes before the noun."
+  },
+  {
+   "qid": "c10-07-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "wish_could",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Would you rather be a bird or a fish?"
+    ]
+   ],
+   "options": [
+    "I would rather to be a bird than a fish.",
+    "I would rather being a bird than a fish.",
+    "I would rather be a bird than a fish."
+   ],
+   "answer": 2,
+   "rule": "<b>Would rather</b> is followed by the base verb without to: would rather <b>be</b>."
+  },
+  {
+   "qid": "c10-07-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "affirm_negative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Didn't the dog bark at the postman today?"
+    ]
+   ],
+   "options": [
+    "No, it didn't barked at him at all.",
+    "No, it doesn't barked at him at all.",
+    "No, it didn't bark at him at all."
+   ],
+   "answer": 2,
+   "rule": "Past negative: <b>didn't + base verb</b> (bark), never didn't barked."
+  },
+  {
+   "qid": "c10-07-48",
+   "type": "change",
+   "level": 5,
+   "topic": "affirm_negative",
+   "prompt": "Rewrite using 'None but'.",
+   "source": "Only a patient person can tame a horse.",
+   "options": [
+    "None but a patient person cannot tame a horse.",
+    "None but a patient person can tame a horse.",
+    "None but a patient person can tames a horse."
+   ],
+   "answer": 1,
+   "rule": "<b>Only</b> becomes <b>None but</b>; the verb stays positive: can tame."
+  },
+  {
+   "qid": "c10-07-49",
+   "type": "change",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few animals are as loyal as the dog.",
+   "options": [
+    "The dog is the most loyal animal.",
+    "The dog is one of the most loyal animals.",
+    "The dog is one of the most loyal animal."
+   ],
+   "answer": 1,
+   "rule": "<b>Very few ... as ... as</b> becomes <b>one of the most ... + plural noun</b>, not simply the most."
+  },
+  {
+   "qid": "c10-07-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "negative_inversion",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Not",
+    "only",
+    "does",
+    "animals",
+    "stay",
+    "placid,",
+    "but",
+    "they",
+    "also",
+    "never",
+    "complains",
+    "about",
+    "their",
+    "condition.",
+    "The",
+    "longer",
+    "I",
+    "watch",
+    "them,",
+    "the",
+    "most",
+    "peaceful",
+    "I",
+    "feel."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "doing",
+      "are",
+      "do"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "complaining",
+      "complain",
+      "complaint"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "more",
+      "much",
+      "mostly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Animals is plural: Not only <b>do</b> animals. They <b>complain</b>. The longer ..., the <b>more</b> peaceful."
+  }
+ ]
+}

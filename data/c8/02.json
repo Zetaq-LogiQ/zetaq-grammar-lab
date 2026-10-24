@@ -1,0 +1,1222 @@
+{
+ "class": 8,
+ "id": "02",
+ "title": "Dick Whittington and his Cat",
+ "topics": [
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech"
+  },
+  {
+   "tag": "past_habit",
+   "name": "used to / would for past habits"
+  },
+  {
+   "tag": "phrasal",
+   "name": "Phrasal verbs (put up with, set out, get rid of)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-02-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Amit is more stronger than Yatin.",
+    "Amit is strong than Yatin.",
+    "Amit is stronger than Yatin."
+   ],
+   "answer": 2,
+   "rule": "To compare two people, add <b>-er</b> and use <b>than</b>: <b>stronger than</b>. Never use <b>more</b> with <b>-er</b>."
+  },
+  {
+   "qid": "c8-02-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_habit",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dick use to sleep in the attic.",
+    "Dick used to slept in the attic.",
+    "Dick used to sleep in the attic."
+   ],
+   "answer": 2,
+   "rule": "A past habit is <b>used to</b> + base verb: <b>used to sleep</b>."
+  },
+  {
+   "qid": "c8-02-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "worse",
+    "road",
+    "in",
+    "the",
+    "whole",
+    "city."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "bad",
+      "worst",
+      "worser"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>the</b> ... <b>in the whole city</b> needs the superlative. bad - worse - <b>worst</b>."
+  },
+  {
+   "qid": "c8-02-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "phrasal",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cat",
+    "got",
+    "rid",
+    "on",
+    "all",
+    "the",
+    "rats."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "of",
+      "from",
+      "with"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The phrase is <b>get rid of</b> (remove something unwanted): got rid <b>of</b> the rats."
+  },
+  {
+   "qid": "c8-02-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Mumbai is",
+   "after": "than my village.",
+   "options": [
+    "biggest",
+    "bigger",
+    "big"
+   ],
+   "answer": 1,
+   "rule": "<b>than</b> compares two places, so use the comparative: <b>bigger</b>."
+  },
+  {
+   "qid": "c8-02-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_habit",
+   "prompt": "Fill in the gap.",
+   "before": "When I was small, I",
+   "after": "play in the rain.",
+   "options": [
+    "use to",
+    "am used to",
+    "used to"
+   ],
+   "answer": 2,
+   "rule": "For a habit in the past, use <b>used to</b> + base verb: I <b>used to play</b>."
+  },
+  {
+   "qid": "c8-02-07",
+   "type": "build",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "Dick",
+    "said",
+    "that",
+    "he",
+    "had",
+    "no",
+    "home."
+   ],
+   "alts": [],
+   "rule": "\"I have no home\" becomes <b>he had no home</b>: the pronoun and the tense both change after <b>said</b>."
+  },
+  {
+   "qid": "c8-02-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_habit",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Did you live in a village as a child?"
+    ]
+   ],
+   "options": [
+    "Yes, I used to live near a farm.",
+    "Yes, I use to live near a farm.",
+    "Yes, I used to living near a farm."
+   ],
+   "answer": 0,
+   "rule": "Past habit or state: <b>used to</b> + base verb: <b>I used to live</b>."
+  },
+  {
+   "qid": "c8-02-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Is your new school bigger than the old one?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much biggest than the old one.",
+    "Yes, it is more bigger than the old one.",
+    "Yes, it is much bigger than the old one."
+   ],
+   "answer": 2,
+   "rule": "Two schools are compared, so use <b>bigger than</b>. <b>much</b> can make a comparative stronger."
+  },
+  {
+   "qid": "c8-02-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Dick said, \"I am hungry.\"",
+   "options": [
+    "Dick said that I was hungry.",
+    "Dick said that he was hungry.",
+    "Dick said that he were hungry."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>he</b>, and after <b>said</b> the present <b>am</b> moves back to <b>was</b>."
+  },
+  {
+   "qid": "c8-02-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The cook told Dick to go away.",
+    "The cook told Dick that go away.",
+    "The cook told to Dick to go away."
+   ],
+   "answer": 0,
+   "rule": "A reported command is <b>told</b> + person + <b>to</b> + verb: told Dick <b>to go</b> away."
+  },
+  {
+   "qid": "c8-02-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "phrasal",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please look for after my cat while I am away.",
+    "Please look after my cat while I am away.",
+    "Please look after of my cat while I am away."
+   ],
+   "answer": 1,
+   "rule": "<b>look after</b> means take care of. It needs no extra word: <b>look after my cat</b>."
+  },
+  {
+   "qid": "c8-02-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_habit",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "summer,",
+    "Grandpa",
+    "would",
+    "wake",
+    "us",
+    "early",
+    "and",
+    "took",
+    "us",
+    "to",
+    "the",
+    "farm."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "take",
+      "takes",
+      "taking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>would</b> for a past habit is followed by the base verb, for both actions: would wake ... and <b>take</b>."
+  },
+  {
+   "qid": "c8-02-14",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Alice asked her father if she",
+   "after": "put something in for Dick.",
+   "options": [
+    "is able",
+    "could",
+    "was able"
+   ],
+   "answer": 1,
+   "rule": "After <b>asked</b>, <b>can</b> moves back to <b>could</b> in reported speech."
+  },
+  {
+   "qid": "c8-02-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "phrasal",
+   "prompt": "Fill in the gap.",
+   "before": "Dick decided to",
+   "after": "for London early the next morning.",
+   "options": [
+    "set up",
+    "set in",
+    "set out"
+   ],
+   "answer": 2,
+   "rule": "<b>set out</b> means start a journey: set out <b>for London</b>."
+  },
+  {
+   "qid": "c8-02-16",
+   "type": "build",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Make a comparison.",
+   "answer": [
+    "The",
+    "queen",
+    "was",
+    "more",
+    "alarmed",
+    "than",
+    "the",
+    "king."
+   ],
+   "alts": [],
+   "rule": "Longer adjectives form the comparative with <b>more</b>: <b>more alarmed than</b>."
+  },
+  {
+   "qid": "c8-02-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Desai",
+     "What did the carter ask Dick?"
+    ]
+   ],
+   "options": [
+    "He asked Dick if he was running away from home.",
+    "He asked Dick if was he running away from home.",
+    "He asked Dick that was he running away from home."
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question uses <b>if</b> and normal word order: <b>if he was</b> running away."
+  },
+  {
+   "qid": "c8-02-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "phrasal",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "How did you get rid of the mosquitoes?"
+    ]
+   ],
+   "options": [
+    "We got rid from them with a net.",
+    "We got rid them with a net.",
+    "We got rid of them with a net."
+   ],
+   "answer": 2,
+   "rule": "Always keep <b>of</b> in <b>get rid of</b>: we got rid <b>of</b> them."
+  },
+  {
+   "qid": "c8-02-19",
+   "type": "change",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Change into the comparative degree.",
+   "source": "Dick was the poorest boy in the village.",
+   "options": [
+    "Dick was poorer than any other boy in the village.",
+    "Dick was poorer than other any boy in the village.",
+    "Dick was more poorer than any other boy in the village."
+   ],
+   "answer": 0,
+   "rule": "Superlative <b>the poorest</b> becomes <b>poorer than any other</b> boy."
+  },
+  {
+   "qid": "c8-02-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "past_habit",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "As",
+    "a",
+    "boy,",
+    "my",
+    "grandfather",
+    "used",
+    "to",
+    "walked",
+    "five",
+    "kilometres",
+    "to",
+    "school.",
+    "He",
+    "would",
+    "carries",
+    "his",
+    "books",
+    "in",
+    "a",
+    "cloth",
+    "bag",
+    "and",
+    "sing",
+    "all",
+    "the",
+    "way."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "walking",
+      "walks",
+      "walk"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "carried",
+      "carry",
+      "carrying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both <b>used to</b> and <b>would</b> for past habits take the base verb: <b>used to walk</b>, <b>would carry</b> ... and sing."
+  },
+  {
+   "qid": "c8-02-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This road is lesser crowded than that one.",
+    "This road is the less crowded than that one.",
+    "This road is less crowded than that one."
+   ],
+   "answer": 2,
+   "rule": "The opposite of <b>more</b> is <b>less</b>: <b>less crowded than</b>. Don't add <b>the</b> before a comparative with <b>than</b>."
+  },
+  {
+   "qid": "c8-02-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reported question.",
+   "options": [
+    "The queen asked what did they call the animal.",
+    "The queen asked what they called the animal.",
+    "The queen asked what they call the animal?"
+   ],
+   "answer": 1,
+   "rule": "A reported question has statement word order (<b>they called</b>), a past tense, and ends with a full stop."
+  },
+  {
+   "qid": "c8-02-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Between",
+    "Riya",
+    "and",
+    "Tara,",
+    "Riya",
+    "is",
+    "the",
+    "cleverest",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "clever",
+      "cleverer",
+      "more"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "When only two are compared, use the comparative: the <b>cleverer</b> one (of two)."
+  },
+  {
+   "qid": "c8-02-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "queen",
+    "asked",
+    "the",
+    "captain",
+    "whether",
+    "her",
+    "could",
+    "buy",
+    "the",
+    "cat."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "hers",
+      "herself",
+      "she"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A reported question needs a subject before <b>could</b>, so use the subject pronoun: whether <b>she</b> could buy the cat."
+  },
+  {
+   "qid": "c8-02-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "phrasal",
+   "prompt": "Fill in the gap.",
+   "before": "Dick was looking forward",
+   "after": "a good night's sleep.",
+   "options": [
+    "to",
+    "for",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "The phrase is <b>look forward to</b> + noun or <b>-ing</b>: looking forward <b>to</b> a good sleep."
+  },
+  {
+   "qid": "c8-02-26",
+   "type": "build",
+   "level": 3,
+   "topic": "past_habit",
+   "prompt": "Make a sentence about a past habit.",
+   "answer": [
+    "Dick",
+    "would",
+    "sit",
+    "by",
+    "the",
+    "window",
+    "every",
+    "evening."
+   ],
+   "alts": [],
+   "rule": "<b>would</b> + base verb shows a repeated action in the past: Dick <b>would sit</b> every evening."
+  },
+  {
+   "qid": "c8-02-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "For a long trip, which is better, a bus or a train?"
+    ]
+   ],
+   "options": [
+    "A train is more better than a bus.",
+    "A train is better than a bus.",
+    "A train is best than a bus."
+   ],
+   "answer": 1,
+   "rule": "<b>good</b> is irregular: good - <b>better</b> - best. Two things are compared: <b>better than</b>."
+  },
+  {
+   "qid": "c8-02-28",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "The carter said to Dick, \"Where are you going?\"",
+   "options": [
+    "The carter asked Dick where he was going.",
+    "The carter asked Dick where was he going.",
+    "The carter asked Dick where he were going."
+   ],
+   "answer": 0,
+   "rule": "Use <b>asked</b>, keep the question word, then statement order with the past: <b>where he was going</b>."
+  },
+  {
+   "qid": "c8-02-29",
+   "type": "change",
+   "level": 3,
+   "topic": "past_habit",
+   "prompt": "Rewrite using 'used to'.",
+   "source": "Dick slept in an alley, but he does not now.",
+   "options": [
+    "Dick use to sleep in an alley.",
+    "Dick used to sleep in an alley.",
+    "Dick used to slept in an alley."
+   ],
+   "answer": 1,
+   "rule": "Something true in the past but not now: <b>used to</b> + base verb: <b>used to sleep</b>."
+  },
+  {
+   "qid": "c8-02-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Mr",
+    "Fitzwarren",
+    "asked",
+    "Dick",
+    "why",
+    "he",
+    "did",
+    "not",
+    "work.",
+    "Dick",
+    "replied",
+    "that",
+    "he",
+    "would",
+    "work,",
+    "but",
+    "nobody",
+    "will",
+    "give",
+    "him",
+    "anything",
+    "to",
+    "do.",
+    "Mr",
+    "Fitzwarren",
+    "told",
+    "the",
+    "cook",
+    "to",
+    "fed",
+    "him",
+    "first."
+   ],
+   "errors": [
+    {
+     "i": 17,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 29,
+     "options": [
+      "feeding",
+      "feeds",
+      "feed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>replied</b>, <b>will</b> moves back to <b>would</b>. After <b>told</b> + person + <b>to</b>, use the base verb: <b>to feed</b>."
+  },
+  {
+   "qid": "c8-02-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dick became richest than he had ever imagined.",
+    "Dick became richer than he had ever imagine.",
+    "Dick became richer than he had ever imagined."
+   ],
+   "answer": 2,
+   "rule": "<b>than</b> needs the comparative (<b>richer</b>), and the past perfect is <b>had</b> + past participle: <b>had imagined</b>."
+  },
+  {
+   "qid": "c8-02-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "phrasal",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "firefighters",
+    "put",
+    "on",
+    "the",
+    "fire",
+    "within",
+    "an",
+    "hour."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "out",
+      "in",
+      "up"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>put out</b> a fire means stop it burning. <b>put on</b> means wear or switch on."
+  },
+  {
+   "qid": "c8-02-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_habit",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "use",
+    "to",
+    "be",
+    "a",
+    "big",
+    "banyan",
+    "tree",
+    "near",
+    "our",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "uses",
+      "using",
+      "used"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A past state that is no longer true is <b>used to</b> + base verb: there <b>used to be</b> a tree."
+  },
+  {
+   "qid": "c8-02-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The queen asked the captain what the animal",
+   "after": "called.",
+   "options": [
+    "were",
+    "did",
+    "was"
+   ],
+   "answer": 2,
+   "rule": "After <b>asked</b>, the present <b>is</b> moves back to <b>was</b>: what the animal <b>was</b> called."
+  },
+  {
+   "qid": "c8-02-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Dick's cat was",
+   "after": "mouser on the whole ship.",
+   "options": [
+    "the best",
+    "the better",
+    "the good"
+   ],
+   "answer": 0,
+   "rule": "<b>on the whole ship</b> compares one with all the others, so use the superlative: good - better - <b>the best</b>."
+  },
+  {
+   "qid": "c8-02-36",
+   "type": "build",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "Alice",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "was",
+    "going."
+   ],
+   "alts": [],
+   "rule": "In a reported question the subject comes before the verb: where <b>I was</b> going."
+  },
+  {
+   "qid": "c8-02-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "phrasal",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Iyer",
+     "Why are you late, Kiran?"
+    ]
+   ],
+   "options": [
+    "Sorry, sir, the bus broke down on the way.",
+    "Sorry, sir, the bus breaked down on the way.",
+    "Sorry, sir, the bus was broke down on the way."
+   ],
+   "answer": 0,
+   "rule": "<b>break down</b> = stop working. Its past is <b>broke down</b> (irregular), with no <b>was</b>."
+  },
+  {
+   "qid": "c8-02-38",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Change into the positive degree.",
+   "source": "London was bigger than Dick's village.",
+   "options": [
+    "Dick's village was not as big as London.",
+    "Dick's village was not as bigger as London.",
+    "Dick's village was not so big than London."
+   ],
+   "answer": 0,
+   "rule": "Comparative becomes <b>not as</b> + plain adjective + <b>as</b>: <b>not as big as</b> London."
+  },
+  {
+   "qid": "c8-02-39",
+   "type": "change",
+   "level": 4,
+   "topic": "past_habit",
+   "prompt": "Rewrite using 'would' for a past habit.",
+   "source": "As a boy, Dick used to help the cook with the pots and pans.",
+   "options": [
+    "As a boy, Dick would help the cook with the pots and pans.",
+    "As a boy, Dick would helped the cook with the pots and pans.",
+    "As a boy, Dick will help the cook with the pots and pans."
+   ],
+   "answer": 0,
+   "rule": "For repeated past actions, <b>used to</b> + verb can become <b>would</b> + base verb: <b>would help</b>."
+  },
+  {
+   "qid": "c8-02-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "London",
+    "was",
+    "the",
+    "bigger",
+    "city",
+    "Dick",
+    "had",
+    "ever",
+    "seen.",
+    "Its",
+    "streets",
+    "were",
+    "dirtiest",
+    "than",
+    "he",
+    "had",
+    "imagined,",
+    "and",
+    "its",
+    "people",
+    "were",
+    "not",
+    "as",
+    "friendlier",
+    "as",
+    "in",
+    "his",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "big",
+      "biggest",
+      "most"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "dirty",
+      "dirtier",
+      "most"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "friendliest",
+      "friend",
+      "friendly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had ever seen</b> needs a superlative (<b>biggest</b>); <b>than</b> needs <b>dirtier</b>; <b>not as ... as</b> takes the plain form: <b>friendly</b>."
+  },
+  {
+   "qid": "c8-02-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reported question.",
+   "options": [
+    "She asked me whether I had finished my homework yet?",
+    "She asked me whether I had finished my homework.",
+    "She asked me whether had I finished my homework."
+   ],
+   "answer": 1,
+   "rule": "A reported question uses <b>whether/if</b>, statement order (<b>I had finished</b>) and a full stop, not <b>?</b>."
+  },
+  {
+   "qid": "c8-02-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Dick",
+    "was",
+    "not",
+    "only",
+    "famous",
+    "but",
+    "also",
+    "one",
+    "of",
+    "the",
+    "most",
+    "popular",
+    "man",
+    "in",
+    "London."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "mans",
+      "men",
+      "manly"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>one of the</b> + superlative is followed by a plural noun: one of the most popular <b>men</b>."
+  },
+  {
+   "qid": "c8-02-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_habit",
+   "prompt": "Fill in the gap.",
+   "before": "Dick soon got used to",
+   "after": "with the pots and pans in the kitchen.",
+   "options": [
+    "work",
+    "worked",
+    "working"
+   ],
+   "answer": 2,
+   "rule": "In <b>get used to</b> (= become familiar with), <b>to</b> is a preposition, so the <b>-ing</b> form follows: got used to <b>working</b>."
+  },
+  {
+   "qid": "c8-02-44",
+   "type": "build",
+   "level": 5,
+   "topic": "phrasal",
+   "prompt": "Make a sentence with a phrasal verb.",
+   "answer": [
+    "He",
+    "could",
+    "not",
+    "put",
+    "up",
+    "with",
+    "the",
+    "cook's",
+    "temper."
+   ],
+   "alts": [],
+   "rule": "<b>put up with</b> means tolerate. The three parts stay together: could not <b>put up with</b> the temper."
+  },
+  {
+   "qid": "c8-02-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did Mr Joshi tell you?"
+    ]
+   ],
+   "options": [
+    "He told me to bring my atlas tomorrow.",
+    "He told me bring my atlas tomorrow.",
+    "He said me to bring my atlas tomorrow."
+   ],
+   "answer": 0,
+   "rule": "A reported instruction: <b>told</b> + person + <b>to</b> + verb. <b>said</b> cannot take a person directly."
+  },
+  {
+   "qid": "c8-02-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Is Kolkata as crowded as Mumbai?"
+    ]
+   ],
+   "options": [
+    "No, Mumbai is even most crowded than Kolkata.",
+    "No, Mumbai is even crowdeder than Kolkata.",
+    "No, Mumbai is even more crowded than Kolkata."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives like <b>crowded</b> use <b>more</b> for comparing two: <b>more crowded than</b>."
+  },
+  {
+   "qid": "c8-02-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Mr Fitzwarren said to Dick, \"Have you nothing of your own?\"",
+   "options": [
+    "Mr Fitzwarren asked Dick if he had nothing of his own.",
+    "Mr Fitzwarren asked Dick if he had nothing of your own.",
+    "Mr Fitzwarren asked Dick if had he nothing of his own."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: <b>asked</b> + <b>if</b>, statement order, <b>have</b> becomes <b>had</b>, <b>your</b> becomes <b>his</b>."
+  },
+  {
+   "qid": "c8-02-48",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few cats are as clever as Puss.",
+   "options": [
+    "Puss is one of the most cleverest cats.",
+    "Puss is one of the cleverest cats.",
+    "Puss is one of the cleverest cat."
+   ],
+   "answer": 1,
+   "rule": "<b>Very few ... as clever as</b> becomes <b>one of the cleverest</b> + plural noun: <b>cats</b>."
+  },
+  {
+   "qid": "c8-02-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "queen",
+    "asked",
+    "the",
+    "captain",
+    "about",
+    "the",
+    "animal.",
+    "The",
+    "captain",
+    "told",
+    "she",
+    "that",
+    "its",
+    "name",
+    "was",
+    "Puss.",
+    "He",
+    "say",
+    "that",
+    "Puss",
+    "was",
+    "very",
+    "friendly",
+    "and",
+    "advised",
+    "her",
+    "not",
+    "to",
+    "worrying",
+    "about",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "hers",
+      "her",
+      "she's"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "said",
+      "saying",
+      "told"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 29,
+     "options": [
+      "worried",
+      "worry",
+      "worries"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>told</b> takes an object pronoun (<b>her</b>); the story is past (<b>said</b>); <b>advised</b> + person + <b>to</b> + base verb (<b>to worry</b>)."
+  },
+  {
+   "qid": "c8-02-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "past_habit",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "In",
+    "his",
+    "old",
+    "age,",
+    "Dick",
+    "used",
+    "to",
+    "sat",
+    "with",
+    "his",
+    "grandchildren",
+    "every",
+    "evening.",
+    "He",
+    "told",
+    "them",
+    "that",
+    "the",
+    "bells",
+    "of",
+    "London",
+    "has",
+    "called",
+    "him",
+    "back.",
+    "It",
+    "was",
+    "the",
+    "more",
+    "wonderful",
+    "story",
+    "they",
+    "had",
+    "ever",
+    "heard."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "sitting",
+      "seated",
+      "sit"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "is",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>used to</b> + base verb (<b>sit</b>); after <b>told</b> use the past perfect (<b>had called</b>); <b>had ever heard</b> needs <b>the most</b>."
+  }
+ ]
+}

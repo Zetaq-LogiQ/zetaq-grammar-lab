@@ -1,0 +1,998 @@
+{
+ "class": 7,
+ "id": "22",
+ "title": "The Red-Headed League",
+ "topics": [
+  {
+   "tag": "modals",
+   "name": "Modal auxiliaries"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs ending in -ly"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-22-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mr Wilson can copies the pages neatly.",
+    "Mr Wilson can copy the pages neatly.",
+    "Mr Wilson can to copy the pages neatly."
+   ],
+   "answer": 1,
+   "rule": "After a modal like <b>can</b>, use the base verb without 'to': <b>can copy</b>."
+  },
+  {
+   "qid": "c7-22-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Holmes looked at the shop careful.",
+    "Holmes looked carefully at the shop.",
+    "Holmes looked careful at the shop."
+   ],
+   "answer": 1,
+   "rule": "An adverb tells <b>how</b> someone does something: looked <b>carefully</b> (careful + ly)."
+  },
+  {
+   "qid": "c7-22-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Watson",
+    "arrived,",
+    "the",
+    "two",
+    "visitors",
+    "has",
+    "already",
+    "taken",
+    "their",
+    "seats."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "had",
+      "have",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The earlier past action takes the past perfect: <b>had already taken</b>."
+  },
+  {
+   "qid": "c7-22-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Visitors",
+    "must",
+    "not",
+    "touches",
+    "the",
+    "boxes",
+    "in",
+    "the",
+    "cellar."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "touch",
+      "touching",
+      "touched"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A modal is followed by the base form of the verb: <b>must not touch</b>."
+  },
+  {
+   "qid": "c7-22-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Mr Wilson did his work",
+   "after": "every day.",
+   "options": [
+    "proper",
+    "more proper",
+    "properly"
+   ],
+   "answer": 2,
+   "rule": "To describe <b>how</b> he did the work, use the adverb <b>properly</b>."
+  },
+  {
+   "qid": "c7-22-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Holmes can",
+   "after": "the case by Monday.",
+   "options": [
+    "solves",
+    "solved",
+    "solve"
+   ],
+   "answer": 2,
+   "rule": "We never add -s or -ed to the verb after a modal: <b>can solve</b>."
+  },
+  {
+   "qid": "c7-22-07",
+   "type": "build",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Make a question asking for help.",
+   "answer": [
+    "Can",
+    "you",
+    "help",
+    "me,",
+    "Mr",
+    "Holmes?"
+   ],
+   "alts": [],
+   "rule": "In a question, the modal comes first: <b>Can you help me ...?</b>"
+  },
+  {
+   "qid": "c7-22-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Can you come to the detective film tonight?"
+    ]
+   ],
+   "options": [
+    "Yes, I can come. Let's meet at seven.",
+    "Yes, I can comes. Let's meet at seven.",
+    "Yes, I can to come. Let's meet at seven."
+   ],
+   "answer": 0,
+   "rule": "<b>can</b> + base verb, with no 'to' and no -s: <b>I can come</b>."
+  },
+  {
+   "qid": "c7-22-09",
+   "type": "change",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Change into a negative sentence.",
+   "source": "Spaulding can develop photographs.",
+   "options": [
+    "Spaulding does not can develop photographs.",
+    "Spaulding cannot developed photographs.",
+    "Spaulding cannot develop photographs."
+   ],
+   "answer": 2,
+   "rule": "Modals make negatives without 'do': <b>can</b> becomes <b>cannot</b>, and the verb stays in base form."
+  },
+  {
+   "qid": "c7-22-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Mr Wilson said, \"I am shocked.\"",
+   "options": [
+    "Mr Wilson said that I was shocked.",
+    "Mr Wilson said that he was shocked.",
+    "Mr Wilson said that he were shocked."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>he</b>, and <b>am</b> moves back to <b>was</b> after 'said'."
+  },
+  {
+   "qid": "c7-22-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Wilson had already leave when Watson came in.",
+    "Wilson has already left when Watson came in.",
+    "Wilson had already left when Watson came in."
+   ],
+   "answer": 2,
+   "rule": "The action that happened first in the past takes <b>had + past participle</b>: <b>had left</b>."
+  },
+  {
+   "qid": "c7-22-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Holmes said that he would solve the case by Monday.",
+    "Holmes said that he will solved the case by Monday.",
+    "Holmes said that he would solves the case by Monday."
+   ],
+   "answer": 0,
+   "rule": "In reported speech <b>will</b> becomes <b>would</b>, followed by the base verb: <b>would solve</b>."
+  },
+  {
+   "qid": "c7-22-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Wilson",
+    "copied",
+    "the",
+    "pages",
+    "diligent",
+    "for",
+    "four",
+    "hours."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "diligence",
+      "diligently",
+      "careful"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The word tells how he copied, so it must be an adverb: <b>diligently</b>."
+  },
+  {
+   "qid": "c7-22-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Holmes",
+    "said",
+    "Watson",
+    "that",
+    "the",
+    "crime",
+    "was",
+    "serious."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "told",
+      "spoke",
+      "talked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "When the listener comes straight after the verb, use <b>told</b>: <b>told Watson that ...</b>"
+  },
+  {
+   "qid": "c7-22-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Wilson found that the rooms",
+   "after": "rented under a false name.",
+   "options": [
+    "has been",
+    "have been",
+    "had been"
+   ],
+   "answer": 2,
+   "rule": "The renting happened before he found out, so use the past perfect: <b>had been rented</b>."
+  },
+  {
+   "qid": "c7-22-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Today is Saturday, so the bank",
+   "after": "be closed tomorrow.",
+   "options": [
+    "will",
+    "is",
+    "has"
+   ],
+   "answer": 0,
+   "rule": "Before the base verb <b>be</b> we need a modal; <b>will</b> shows the future."
+  },
+  {
+   "qid": "c7-22-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "bank",
+    "had",
+    "borrowed",
+    "gold",
+    "from",
+    "France."
+   ],
+   "alts": [],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had borrowed</b>."
+  },
+  {
+   "qid": "c7-22-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "I must finish my homework first. Can you wait for ten minutes?"
+    ]
+   ],
+   "options": [
+    "Of course, I can waiting for you.",
+    "Of course, I can wait for you.",
+    "Of course, I can waits for you."
+   ],
+   "answer": 1,
+   "rule": "A modal takes the plain base verb: <b>can wait</b>."
+  },
+  {
+   "qid": "c7-22-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you watch the start of the detective show?"
+    ]
+   ],
+   "options": [
+    "No, it had already started when I switched on the TV.",
+    "No, it has already started when I switched on the TV.",
+    "No, it had already start when I switched on the TV."
+   ],
+   "answer": 0,
+   "rule": "The show started before you switched on the TV, so use <b>had started</b>."
+  },
+  {
+   "qid": "c7-22-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Spaulding said, \"I like photography.\"",
+   "options": [
+    "Spaulding said that he like photography.",
+    "Spaulding said that I liked photography.",
+    "Spaulding said that he liked photography."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b>, and the simple present <b>like</b> becomes the simple past <b>liked</b>."
+  },
+  {
+   "qid": "c7-22-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "You ought tell the police at once.",
+    "You ought to tell the police at once.",
+    "You ought to told the police at once."
+   ],
+   "answer": 1,
+   "rule": "<b>Ought</b> always takes <b>to</b> + base verb: <b>ought to tell</b>."
+  },
+  {
+   "qid": "c7-22-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The cellar was darkly, so they moved carefully.",
+    "The cellar was dark, so they moved careful.",
+    "The cellar was dark, so they moved carefully."
+   ],
+   "answer": 2,
+   "rule": "After <b>was</b> describe the noun with an adjective (<b>dark</b>); describe the action with an adverb (<b>carefully</b>)."
+  },
+  {
+   "qid": "c7-22-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "Spaulding",
+    "returned,",
+    "Mr",
+    "Wilson",
+    "had",
+    "went",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "go",
+      "going",
+      "gone"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>had</b> takes the past participle: <b>had gone</b>, not 'had went'."
+  },
+  {
+   "qid": "c7-22-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Wilson",
+    "has",
+    "to",
+    "stays",
+    "in",
+    "the",
+    "office",
+    "till",
+    "two",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "stay",
+      "stayed",
+      "staying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>has to</b> is followed by the base verb: <b>has to stay</b>."
+  },
+  {
+   "qid": "c7-22-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Holmes said that they",
+   "after": "hunt a clever criminal that night.",
+   "options": [
+    "will",
+    "would",
+    "shall"
+   ],
+   "answer": 1,
+   "rule": "After 'said', the future <b>will</b> moves back to <b>would</b>; 'that night' shows reported speech."
+  },
+  {
+   "qid": "c7-22-26",
+   "type": "build",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Make a polite question.",
+   "answer": [
+    "Could",
+    "you",
+    "tell",
+    "me",
+    "the",
+    "way",
+    "to",
+    "Baker",
+    "Street?"
+   ],
+   "alts": [],
+   "rule": "<b>Could you ...?</b> makes a polite request; the base verb <b>tell</b> follows the subject."
+  },
+  {
+   "qid": "c7-22-27",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "Wilson",
+    "said",
+    "that",
+    "he",
+    "had",
+    "lost",
+    "his",
+    "job."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + subject + verb moved back in time: <b>he had lost</b>."
+  },
+  {
+   "qid": "c7-22-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "What did the shopkeeper tell you?"
+    ]
+   ],
+   "options": [
+    "He told that the shop was closed on Sundays.",
+    "He said that the shop was closed on Sundays.",
+    "He said that the shop were closed on Sundays."
+   ],
+   "answer": 1,
+   "rule": "Use <b>said that</b> (or 'told me that'); <b>the shop</b> is singular, so <b>was</b>."
+  },
+  {
+   "qid": "c7-22-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "How did Rohan bat today?"
+    ]
+   ],
+   "options": [
+    "He batted brilliantly and scored fifty runs.",
+    "He batted brilliant and scored fifty runs.",
+    "He batted brilliantly and score fifty runs."
+   ],
+   "answer": 0,
+   "rule": "<b>How</b> did he bat? With an adverb: <b>brilliantly</b>. Both verbs stay in the past."
+  },
+  {
+   "qid": "c7-22-30",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join the sentences using 'After'.",
+   "source": "The thieves dug a tunnel. Then they entered the cellar.",
+   "options": [
+    "After the thieves have dug a tunnel, they entered the cellar.",
+    "After the thieves had dig a tunnel, they entered the cellar.",
+    "After the thieves had dug a tunnel, they entered the cellar."
+   ],
+   "answer": 2,
+   "rule": "The first action takes the past perfect (<b>had dug</b>); the later one stays in the simple past."
+  },
+  {
+   "qid": "c7-22-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You can keep a secret, can you?",
+    "You can keep a secret, don't you?",
+    "You can keep a secret, can't you?"
+   ],
+   "answer": 2,
+   "rule": "A positive sentence with <b>can</b> takes the negative tag <b>can't you?</b>"
+  },
+  {
+   "qid": "c7-22-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The gold boxes had been bring to the cellar a week earlier.",
+    "The gold boxes has been brought to the cellar a week earlier.",
+    "The gold boxes had been brought to the cellar a week earlier."
+   ],
+   "answer": 2,
+   "rule": "Past perfect passive = <b>had been + past participle</b>: <b>had been brought</b>."
+  },
+  {
+   "qid": "c7-22-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Holmes",
+    "examined",
+    "the",
+    "pavement",
+    "more",
+    "careful",
+    "than",
+    "Watson."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "care",
+      "carefully",
+      "carefulness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Comparing how two people did something needs an adverb: <b>more carefully than</b>."
+  },
+  {
+   "qid": "c7-22-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Jones",
+    "have",
+    "to",
+    "wait",
+    "outside",
+    "with",
+    "two",
+    "officers."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "having",
+      "be",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Mr Jones</b> is singular, so use <b>has to</b>, not 'have to'."
+  },
+  {
+   "qid": "c7-22-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Mr Wilson had worked there",
+   "after": "eight weeks when the League closed.",
+   "options": [
+    "for",
+    "since",
+    "from"
+   ],
+   "answer": 0,
+   "rule": "Use <b>for</b> with a length of time (eight weeks) and <b>since</b> with a starting point."
+  },
+  {
+   "qid": "c7-22-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "If the thieves come out of the hole, we",
+   "after": "catch them at once.",
+   "options": [
+    "would have",
+    "will",
+    "had"
+   ],
+   "answer": 1,
+   "rule": "<b>If</b> + simple present, then <b>will</b> + base verb: <b>we will catch</b>."
+  },
+  {
+   "qid": "c7-22-37",
+   "type": "build",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Make a warning.",
+   "answer": [
+    "You",
+    "must",
+    "not",
+    "open",
+    "this",
+    "door",
+    "at",
+    "night."
+   ],
+   "alts": [],
+   "rule": "<b>must not</b> + base verb shows something is not allowed."
+  },
+  {
+   "qid": "c7-22-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did your teacher say about the trip?"
+    ]
+   ],
+   "options": [
+    "She said that the bus would leave at eight.",
+    "She said me that the bus would leave at eight.",
+    "She said that the bus will leaves at eight."
+   ],
+   "answer": 0,
+   "rule": "Use <b>said that</b> (no 'me' after said), and <b>will</b> becomes <b>would</b> + base verb."
+  },
+  {
+   "qid": "c7-22-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Why were you late for the match?"
+    ]
+   ],
+   "options": [
+    "The bus had already gone, so I walked.",
+    "The bus had already went, so I walked.",
+    "The bus has already gone, so I walk."
+   ],
+   "answer": 0,
+   "rule": "The bus left first, so <b>had gone</b>; then the simple past <b>walked</b>."
+  },
+  {
+   "qid": "c7-22-40",
+   "type": "change",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Change into a question.",
+   "source": "Mr Ross will come back on Monday.",
+   "options": [
+    "Does Mr Ross will come back on Monday?",
+    "Will Mr Ross come back on Monday?",
+    "Will Mr Ross comes back on Monday?"
+   ],
+   "answer": 1,
+   "rule": "Put the modal before the subject; no 'do' is needed and the verb stays in base form."
+  },
+  {
+   "qid": "c7-22-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mr Merryweather told that the bank was grateful to Holmes.",
+    "Mr Merryweather said that the bank was grateful to Holmes.",
+    "Mr Merryweather said that the bank was gratefully to Holmes."
+   ],
+   "answer": 1,
+   "rule": "<b>told</b> needs a listener after it; <b>said that</b> does not. After <b>was</b> use the adjective <b>grateful</b>."
+  },
+  {
+   "qid": "c7-22-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Wilson had never seen so many red-headed men before that day.",
+    "Wilson has never seen so many red-headed men before that day.",
+    "Wilson had never saw so many red-headed men before that day."
+   ],
+   "answer": 0,
+   "rule": "'Before that day' points to a time before a past moment: <b>had never seen</b>."
+  },
+  {
+   "qid": "c7-22-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Watson",
+    "asked",
+    "about",
+    "the",
+    "trousers,",
+    "Holmes",
+    "said",
+    "that",
+    "he",
+    "has",
+    "seen",
+    "exactly",
+    "what",
+    "he",
+    "expected."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a past reporting verb, <b>has seen</b> moves back to <b>had seen</b>."
+  },
+  {
+   "qid": "c7-22-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Clay",
+    "closed",
+    "the",
+    "door",
+    "so",
+    "sudden",
+    "that",
+    "Holmes",
+    "saw",
+    "only",
+    "his",
+    "knees."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "suddenly",
+      "suddenness",
+      "abrupt"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>so ... that</b> here describes how he closed the door, so use the adverb <b>suddenly</b>."
+  },
+  {
+   "qid": "c7-22-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Holmes warned them that they",
+   "after": "make any noise in the dark cellar.",
+   "options": [
+    "must not to",
+    "did not must",
+    "must not"
+   ],
+   "answer": 2,
+   "rule": "Never put 'to' after <b>must</b>, and never use 'do' with a modal: <b>must not make</b>."
+  },
+  {
+   "qid": "c7-22-46",
+   "type": "build",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "some",
+    "hot",
+    "tea,",
+    "Dr",
+    "Watson?"
+   ],
+   "alts": [],
+   "rule": "<b>Would you like ...?</b> is the polite way to offer something."
+  },
+  {
+   "qid": "c7-22-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why didn't you come to the science club yesterday?"
+    ]
+   ],
+   "options": [
+    "I couldn't came because I had to look after my little brother.",
+    "I couldn't come because I had to look after my little brother.",
+    "I couldn't come because I must looked after my little brother."
+   ],
+   "answer": 1,
+   "rule": "<b>couldn't</b> + base verb; for a past duty use <b>had to</b> + base verb."
+  },
+  {
+   "qid": "c7-22-48",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Holmes said, \"I am going to Baker Street now.\"",
+   "options": [
+    "Holmes said that he is going to Baker Street now.",
+    "Holmes said that I was going to Baker Street then.",
+    "Holmes said that he was going to Baker Street then."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b>, <b>am going</b> becomes <b>was going</b>, and <b>now</b> becomes <b>then</b>."
+  },
+  {
+   "qid": "c7-22-49",
+   "type": "change",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Rewrite using an adverb in place of the adjective.",
+   "source": "Holmes was patient as he waited.",
+   "options": [
+    "Holmes waited patiently.",
+    "Holmes waited patient.",
+    "Holmes was patiently as he waited."
+   ],
+   "answer": 0,
+   "rule": "The adjective <b>patient</b> becomes the adverb <b>patiently</b>, which describes the verb <b>waited</b>."
+  },
+  {
+   "qid": "c7-22-50",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Mr Wilson said, \"I wrote about Archery.\"",
+   "options": [
+    "Mr Wilson said that he had wrote about Archery.",
+    "Mr Wilson said that he had written about Archery.",
+    "Mr Wilson said that I had written about Archery."
+   ],
+   "answer": 1,
+   "rule": "The simple past <b>wrote</b> moves back to the past perfect <b>had written</b>; <b>I</b> becomes <b>he</b>."
+  }
+ ]
+}

@@ -1,0 +1,1219 @@
+{
+ "class": 8,
+ "id": "12",
+ "title": "The Last Leaf",
+ "topics": [
+  {
+   "tag": "clauses",
+   "name": "Main and subordinate clauses (subordinators)"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals: type 1 and type 2"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported speech"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect and past perfect progressive"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-12-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Johnsy was sleeping when the two goes upstairs.",
+    "Johnsy were sleeping when the two went upstairs.",
+    "Johnsy was sleeping when the two went upstairs."
+   ],
+   "answer": 2,
+   "rule": "Both clauses are about the past: <b>was sleeping</b> ... <b>when</b> the two <b>went</b>."
+  },
+  {
+   "qid": "c8-12-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If it will rain, we will stay inside.",
+    "If it rains, we will stay inside.",
+    "If it rains, we would stays inside."
+   ],
+   "answer": 1,
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb. No <b>will</b> in the if-clause."
+  },
+  {
+   "qid": "c8-12-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "the",
+    "doctor",
+    "came,",
+    "Johnsy",
+    "has",
+    "fallen",
+    "asleep."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "She fell asleep before the doctor <b>came</b> (past), so use the past perfect: <b>had fallen</b>."
+  },
+  {
+   "qid": "c8-12-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sue",
+    "stayed",
+    "awake",
+    "because",
+    "Johnsy",
+    "were",
+    "very",
+    "ill."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Johnsy</b> is one person, and the story is in the past: <b>was</b>."
+  },
+  {
+   "qid": "c8-12-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If Johnsy takes her medicine, she",
+   "after": "get well soon.",
+   "options": [
+    "will",
+    "would",
+    "had"
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>If</b> + present (<b>takes</b>), then <b>will</b> + base verb."
+  },
+  {
+   "qid": "c8-12-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Sue said that she",
+   "after": "busy with her drawings.",
+   "options": [
+    "were",
+    "was",
+    "is being"
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b>, <b>am</b> moves back to <b>was</b>. <b>She</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c8-12-07",
+   "type": "build",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "Make a sentence with a time clause.",
+   "answer": [
+    "Sue",
+    "closed",
+    "the",
+    "window",
+    "before",
+    "it",
+    "got",
+    "dark."
+   ],
+   "alts": [],
+   "rule": "Main clause <b>Sue closed the window</b> + subordinate clause <b>before it got dark</b>."
+  },
+  {
+   "qid": "c8-12-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you catch the bus?"
+    ]
+   ],
+   "options": [
+    "No, it had already left when I reached the stop.",
+    "No, it has already left when I reached the stop.",
+    "No, it had already leave when I reached the stop."
+   ],
+   "answer": 0,
+   "rule": "The bus left before I reached, so use the past perfect: <b>had left</b>."
+  },
+  {
+   "qid": "c8-12-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Johnsy said, \"I want to see the last leaf.\"",
+   "options": [
+    "Johnsy said that she wanted to see the last leaf.",
+    "Johnsy said that I wanted to see the last leaf.",
+    "Johnsy said that she want to see the last leaf."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>she</b> and <b>want</b> moves back to <b>wanted</b>."
+  },
+  {
+   "qid": "c8-12-10",
+   "type": "change",
+   "level": 1,
+   "topic": "clauses",
+   "prompt": "Join using 'when'.",
+   "source": "Sue woke up. She saw Johnsy staring at the window.",
+   "options": [
+    "When Sue woke up, she sees Johnsy staring at the window.",
+    "When Sue woke up when she saw Johnsy staring at the window.",
+    "When Sue woke up, she saw Johnsy staring at the window."
+   ],
+   "answer": 2,
+   "rule": "<b>When</b> begins the subordinate clause; the main clause keeps the past tense: <b>she saw</b>."
+  },
+  {
+   "qid": "c8-12-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Behrman asked Sue why had she allowed such thoughts.",
+    "Behrman asked Sue why she has allowed such thoughts?",
+    "Behrman asked Sue why she had allowed such thoughts."
+   ],
+   "answer": 2,
+   "rule": "A reported question uses statement order (<b>she had allowed</b>) and ends with a full stop."
+  },
+  {
+   "qid": "c8-12-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Behrman had painted the leaf before the storm ended.",
+    "Behrman had paint the leaf before the storm ended.",
+    "Behrman has painted the leaf before the storm ended."
+   ],
+   "answer": 0,
+   "rule": "The earlier past action takes <b>had</b> + past participle: <b>had painted</b>."
+  },
+  {
+   "qid": "c8-12-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Dr",
+    "Rao",
+    "come",
+    "today,",
+    "Sue",
+    "will",
+    "ask",
+    "him",
+    "about",
+    "Johnsy."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "coming",
+      "comes",
+      "came"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In a type 1 conditional the if-clause takes the simple present: <b>If Dr Rao comes</b>."
+  },
+  {
+   "qid": "c8-12-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "That",
+    "evening,",
+    "Johnsy",
+    "told",
+    "Sue",
+    "that",
+    "she",
+    "wants",
+    "to",
+    "see",
+    "the",
+    "last",
+    "leaf",
+    "fall."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wanted",
+      "wanting",
+      "want"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the past verb <b>told</b>, <b>wants</b> moves back to <b>wanted</b>."
+  },
+  {
+   "qid": "c8-12-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Sue thought that Johnsy",
+   "after": "asleep.",
+   "options": [
+    "has fallen",
+    "had fallen",
+    "had fell"
+   ],
+   "answer": 1,
+   "rule": "Falling asleep came before Sue's thinking, so use <b>had</b> + past participle <b>fallen</b>."
+  },
+  {
+   "qid": "c8-12-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Sue looked after her well, Johnsy showed no signs of improvement.",
+   "options": [
+    "Despite",
+    "However",
+    "Though"
+   ],
+   "answer": 2,
+   "rule": "<b>Though</b> joins a clause. <b>Despite</b> needs a noun, and <b>However</b> cannot join two clauses."
+  },
+  {
+   "qid": "c8-12-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Make a type 1 conditional sentence.",
+   "answer": [
+    "If",
+    "Johnsy",
+    "eats",
+    "well,",
+    "she",
+    "will",
+    "recover."
+   ],
+   "alts": [],
+   "rule": "<b>If</b> + simple present, <b>will</b> + base verb."
+  },
+  {
+   "qid": "c8-12-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "What did the doctor tell Sue?"
+    ]
+   ],
+   "options": [
+    "He told to her that Johnsy had one chance in ten.",
+    "He told her that Johnsy had one chance in ten.",
+    "He told her that Johnsy has had one chance in ten."
+   ],
+   "answer": 1,
+   "rule": "<b>told</b> takes the person directly (no <b>to</b>), and <b>has</b> moves back to <b>had</b>."
+  },
+  {
+   "qid": "c8-12-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "What would you do if you had a lot of money?"
+    ]
+   ],
+   "options": [
+    "If I have a lot of money, I would build a hospital.",
+    "If I had a lot of money, I would build a hospital.",
+    "If I had a lot of money, I will build a hospital."
+   ],
+   "answer": 1,
+   "rule": "Type 2 (imagined): <b>If</b> + simple past, <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-12-20",
+   "type": "change",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Join using 'after'.",
+   "source": "The last leaf fell. Behrman painted a new one on the wall.",
+   "options": [
+    "After the last leaf had fallen, Behrman painted a new one on the wall.",
+    "After the last leaf has fallen, Behrman painted a new one on the wall.",
+    "After the last leaf had fell, Behrman painted a new one on the wall."
+   ],
+   "answer": 0,
+   "rule": "The earlier action takes the past perfect: <b>had fallen</b>. After <b>had</b>, use the participle <b>fallen</b>, not <b>fell</b>."
+  },
+  {
+   "qid": "c8-12-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Behrman was a painter who lived on the ground floor.",
+    "Behrman was a painter which lived on the ground floor.",
+    "Behrman was a painter who live on the ground floor."
+   ],
+   "answer": 0,
+   "rule": "For a person, use <b>who</b>; the past story needs <b>lived</b>."
+  },
+  {
+   "qid": "c8-12-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Before",
+    "Johnsy",
+    "fell",
+    "ill,",
+    "the",
+    "two",
+    "friends",
+    "has",
+    "shared",
+    "a",
+    "flat",
+    "for",
+    "months."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Sharing the flat came before she <b>fell</b> ill, so use <b>had shared</b>."
+  },
+  {
+   "qid": "c8-12-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night,",
+    "Sue",
+    "drew",
+    "quietly",
+    "so",
+    "that",
+    "Johnsy",
+    "can",
+    "sleep."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "will",
+      "must",
+      "could"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The main clause is past (<b>drew</b>), so the purpose clause uses <b>could</b>."
+  },
+  {
+   "qid": "c8-12-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If Johnsy",
+   "after": "stronger, she would fight the illness.",
+   "options": [
+    "were",
+    "is",
+    "will be"
+   ],
+   "answer": 0,
+   "rule": "Type 2 (unreal): <b>If</b> + past form (<b>were</b>), <b>would</b> + base verb."
+  },
+  {
+   "qid": "c8-12-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The doctor asked Sue whether Johnsy",
+   "after": "any broth.",
+   "options": [
+    "has took",
+    "taking",
+    "had taken"
+   ],
+   "answer": 2,
+   "rule": "After <b>asked</b>, the earlier action moves back to the past perfect: <b>had taken</b>."
+  },
+  {
+   "qid": "c8-12-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "Sue",
+    "asked",
+    "her",
+    "what",
+    "she",
+    "was",
+    "counting."
+   ],
+   "alts": [],
+   "rule": "Reported question: <b>what</b> + subject + verb: <b>what she was counting</b>."
+  },
+  {
+   "qid": "c8-12-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why was Arjun absent yesterday?"
+    ]
+   ],
+   "options": [
+    "He was absent because of he had a fever.",
+    "He was absent because he had a fever.",
+    "He was absent because he have a fever."
+   ],
+   "answer": 1,
+   "rule": "<b>because</b> joins a clause; <b>because of</b> needs a noun. <b>He</b> takes <b>had</b>."
+  },
+  {
+   "qid": "c8-12-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "Will you come to the art show on Sunday?"
+    ]
+   ],
+   "options": [
+    "Yes, if I finish my project, I will come.",
+    "Yes, if I will finish my project, I will come.",
+    "Yes, if I finish my project, I would came."
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>if</b> + simple present (<b>finish</b>), <b>will</b> + base verb (<b>come</b>)."
+  },
+  {
+   "qid": "c8-12-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Sue said to Johnsy, \"Try to sleep.\"",
+   "options": [
+    "Sue told Johnsy try to sleep.",
+    "Sue told Johnsy that to try to sleep.",
+    "Sue told Johnsy to try to sleep."
+   ],
+   "answer": 2,
+   "rule": "A command becomes <b>told + person + to + verb</b>: told Johnsy <b>to try</b>."
+  },
+  {
+   "qid": "c8-12-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "That",
+    "night,",
+    "Sue",
+    "was",
+    "worried",
+    "because",
+    "Johnsy",
+    "has",
+    "stopped",
+    "eating.",
+    "She",
+    "told",
+    "Behrman",
+    "that",
+    "Johnsy",
+    "believe",
+    "she",
+    "would",
+    "die",
+    "with",
+    "the",
+    "last",
+    "leaf."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "believing",
+      "believed",
+      "belief"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Earlier past action: <b>had stopped</b>. After <b>told</b>, use the past: <b>believed</b>."
+  },
+  {
+   "qid": "c8-12-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The leaf had been painted by Behrman during the storm.",
+    "The leaf had painted by Behrman during the storm.",
+    "The leaf had been paint by Behrman during the storm."
+   ],
+   "answer": 0,
+   "rule": "Past perfect passive = <b>had been</b> + past participle: <b>had been painted</b>."
+  },
+  {
+   "qid": "c8-12-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I was you, I will rest for a week.",
+    "If I were you, I would rest for a week.",
+    "If I were you, I would rested for a week."
+   ],
+   "answer": 1,
+   "rule": "For advice: <b>If I were you, I would</b> + base verb."
+  },
+  {
+   "qid": "c8-12-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "doctor",
+    "told",
+    "Sue",
+    "that",
+    "Johnsy",
+    "would",
+    "recover",
+    "only",
+    "if",
+    "she",
+    "want",
+    "to",
+    "live."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "wanting",
+      "wishing",
+      "wanted"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>told</b>, the reported if-clause also moves back: <b>if she wanted</b> to live."
+  },
+  {
+   "qid": "c8-12-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "Sue would have closed the window, but she",
+   "after": "the light for her drawings.",
+   "options": [
+    "needed",
+    "need",
+    "needing"
+   ],
+   "answer": 0,
+   "rule": "The clause after <b>but</b> is about the past and <b>she</b> needs a full verb: <b>needed</b>."
+  },
+  {
+   "qid": "c8-12-35",
+   "type": "build",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Make a sentence in the past perfect.",
+   "answer": [
+    "Johnsy",
+    "realised",
+    "that",
+    "she",
+    "had",
+    "been",
+    "wrong."
+   ],
+   "alts": [],
+   "rule": "Being wrong came before realising, so use <b>had been</b>."
+  },
+  {
+   "qid": "c8-12-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Why were you so sleepy at breakfast?"
+    ]
+   ],
+   "options": [
+    "I had been studying till midnight.",
+    "I had been study till midnight.",
+    "I have been studying till midnight yesterday."
+   ],
+   "answer": 0,
+   "rule": "A long action up to a past moment: <b>had been + verb-ing</b>."
+  },
+  {
+   "qid": "c8-12-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Neha, what did Vikram say on the phone?"
+    ]
+   ],
+   "options": [
+    "He said me that he would come to school the next day.",
+    "He said that he will come to school the next day.",
+    "He said that he would come to school the next day."
+   ],
+   "answer": 2,
+   "rule": "After <b>said</b>, <b>will</b> becomes <b>would</b>. Use <b>told me</b> or <b>said</b>, not <b>said me</b>."
+  },
+  {
+   "qid": "c8-12-38",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not take your medicine, you will not get well.",
+   "options": [
+    "Unless you do not take your medicine, you will not get well.",
+    "Unless you take your medicine, you will not get well.",
+    "Unless you will take your medicine, you will not get well."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> already means <b>if not</b>, so drop <b>do not</b>; no <b>will</b> after unless."
+  },
+  {
+   "qid": "c8-12-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Mr",
+    "Behrman",
+    "live",
+    "on",
+    "the",
+    "ground",
+    "floor.",
+    "He",
+    "had",
+    "wanted",
+    "to",
+    "paint",
+    "a",
+    "masterpiece",
+    "for",
+    "forty",
+    "years,",
+    "but",
+    "he",
+    "had",
+    "never",
+    "began",
+    "it.",
+    "If",
+    "he",
+    "were",
+    "alive",
+    "today,",
+    "people",
+    "would",
+    "admired",
+    "his",
+    "last",
+    "leaf."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "lived",
+      "living",
+      "alive"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "begin",
+      "beginning",
+      "begun"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "admiring",
+      "admires",
+      "admire"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past story: <b>lived</b>. Past perfect: <b>had begun</b>. After <b>would</b>, base verb: <b>admire</b>."
+  },
+  {
+   "qid": "c8-12-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Sue",
+    "ask",
+    "Johnsy",
+    "whether",
+    "she",
+    "wanted",
+    "some",
+    "broth.",
+    "Johnsy",
+    "replied",
+    "that",
+    "she",
+    "want",
+    "only",
+    "to",
+    "see",
+    "the",
+    "last",
+    "leaf",
+    "fall",
+    "before",
+    "it",
+    "got",
+    "dark."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "asking",
+      "asked",
+      "question"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "wanted",
+      "wanting",
+      "wishing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is past: <b>asked</b>. After <b>replied</b>, the reported verb is past: <b>wanted</b>."
+  },
+  {
+   "qid": "c8-12-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The leaf that Johnsy saw had been painted by the old man which lived downstairs.",
+    "The leaf that Johnsy saw had painted by the old man who lived downstairs.",
+    "The leaf that Johnsy saw had been painted by the old man who lived downstairs."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for the old man, and the passive <b>had been painted</b> for the leaf."
+  },
+  {
+   "qid": "c8-12-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "in",
+    "Johnsy's",
+    "place,",
+    "I",
+    "will",
+    "never",
+    "lose",
+    "hope."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "shall",
+      "would",
+      "can"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Type 2 (imagined): <b>If I were</b> ..., <b>I would</b> + base verb."
+  },
+  {
+   "qid": "c8-12-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Sue told Behrman that Johnsy",
+   "after": "counting the leaves for three days.",
+   "options": [
+    "had been",
+    "has been",
+    "have been"
+   ],
+   "answer": 0,
+   "rule": "After <b>told</b>, the present perfect progressive moves back to <b>had been</b> + verb-ing."
+  },
+  {
+   "qid": "c8-12-44",
+   "type": "build",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Make a sentence with a reason clause.",
+   "answer": [
+    "Behrman",
+    "fell",
+    "ill",
+    "because",
+    "he",
+    "had",
+    "worked",
+    "in",
+    "the",
+    "rain."
+   ],
+   "alts": [],
+   "rule": "The earlier action (working in the rain) takes the past perfect: <b>had worked</b>."
+  },
+  {
+   "qid": "c8-12-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why did Ananya miss the final?"
+    ]
+   ],
+   "options": [
+    "She has injured her ankle the day before, so she could not play.",
+    "She had injured her ankle the day before, so she could not play.",
+    "She had injured her ankle the day before, so she cannot played."
+   ],
+   "answer": 1,
+   "rule": "<b>the day before</b> is earlier than the past match: <b>had injured</b>; then <b>could not</b> + base verb."
+  },
+  {
+   "qid": "c8-12-46",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Johnsy said to Sue, \"Will you open the window?\"",
+   "options": [
+    "Johnsy asked Sue if she will open the window.",
+    "Johnsy asked Sue if she would open the window.",
+    "Johnsy asked Sue if would she open the window."
+   ],
+   "answer": 1,
+   "rule": "<b>said to</b> becomes <b>asked</b>, <b>will</b> becomes <b>would</b>, and statement order: <b>if she would</b>."
+  },
+  {
+   "qid": "c8-12-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Rewrite as one sentence beginning with 'If'.",
+   "source": "Johnsy is not strong, so she cannot fight the illness.",
+   "options": [
+    "If Johnsy were strong, she could fight the illness.",
+    "If Johnsy is strong, she could fight the illness.",
+    "If Johnsy were strong, she can fight the illness."
+   ],
+   "answer": 0,
+   "rule": "An unreal present takes type 2: <b>If</b> + <b>were</b>, then <b>could</b> + base verb."
+  },
+  {
+   "qid": "c8-12-48",
+   "type": "change",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Join using 'who'.",
+   "source": "Behrman painted the last leaf. He died of pneumonia two days later.",
+   "options": [
+    "Behrman, who painted the last leaf, he died of pneumonia two days later.",
+    "Behrman, who painted the last leaf, died of pneumonia two days later.",
+    "Behrman, which painted the last leaf, died of pneumonia two days later."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces <b>He</b>, so do not repeat <b>he</b>; use <b>who</b> for a person."
+  },
+  {
+   "qid": "c8-12-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "sweeper",
+    "found",
+    "Mr",
+    "Behrman",
+    "in",
+    "his",
+    "room.",
+    "His",
+    "clothes",
+    "and",
+    "shoes",
+    "was",
+    "very",
+    "wet",
+    "because",
+    "he",
+    "has",
+    "stood",
+    "out",
+    "in",
+    "the",
+    "rain",
+    "all",
+    "night.",
+    "Two",
+    "days",
+    "later,",
+    "he",
+    "die",
+    "in",
+    "hospital."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "were",
+      "is",
+      "has"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "have",
+      "had",
+      "was"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 29,
+     "options": [
+      "dies",
+      "dead",
+      "died"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>clothes and shoes were</b>; the earlier action is <b>had stood</b>; <b>Two days later</b> needs <b>died</b>."
+  },
+  {
+   "qid": "c8-12-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Johnsy",
+    "told",
+    "Sue",
+    "that",
+    "she",
+    "has",
+    "been",
+    "a",
+    "bad",
+    "girl.",
+    "She",
+    "said",
+    "that",
+    "she",
+    "want",
+    "to",
+    "sit",
+    "up",
+    "and",
+    "have",
+    "some",
+    "broth.",
+    "Sue",
+    "was",
+    "so",
+    "happy",
+    "that",
+    "she",
+    "hug",
+    "her",
+    "friend."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "have",
+      "was",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 14,
+     "options": [
+      "wanted",
+      "wanting",
+      "wishing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 28,
+     "options": [
+      "hugging",
+      "hugged",
+      "hugs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>told/said</b>: <b>had been</b>, <b>wanted</b>. The past story needs <b>hugged</b>."
+  }
+ ]
+}

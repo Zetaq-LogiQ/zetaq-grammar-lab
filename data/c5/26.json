@@ -1,0 +1,996 @@
+{
+ "class": 5,
+ "id": "26",
+ "title": "Water in the Well",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past: irregular verbs"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns: he/him/his, my/mine, your/yours"
+  },
+  {
+   "tag": "apostrophe",
+   "name": "Apostrophe for possession ('s)"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh- questions"
+  },
+  {
+   "tag": "polite",
+   "name": "Polite words: please, may I, thank you"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-26-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Kasim buyed the well from Ahmad.",
+    "Kasim bought the well from Ahmad.",
+    "Kasim buying the well from Ahmad."
+   ],
+   "answer": 1,
+   "rule": "<b>Buy</b> is irregular. Its past form is <b>bought</b>."
+  },
+  {
+   "qid": "c5-26-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "apostrophe",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The well was outside Kasim's field.",
+    "The well was outside Kasim field.",
+    "The well was outside the Kasim's field."
+   ],
+   "answer": 0,
+   "rule": "The field belongs to Kasim, so add <b>'s</b>: <b>Kasim's field</b>. A name with <b>'s</b> takes no <b>the</b>."
+  },
+  {
+   "qid": "c5-26-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This well is my.",
+    "This well is me.",
+    "This well is mine."
+   ],
+   "answer": 2,
+   "rule": "With no noun after it, use <b>mine</b>: <b>This well is mine.</b>"
+  },
+  {
+   "qid": "c5-26-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Kasim",
+    "dig",
+    "a",
+    "channel",
+    "near",
+    "the",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "digs",
+      "digging",
+      "dug"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Yesterday</b> shows the past. The past of <b>dig</b> is <b>dug</b>."
+  },
+  {
+   "qid": "c5-26-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kasim",
+    "and",
+    "him",
+    "went",
+    "to",
+    "the",
+    "court",
+    "together."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "his",
+      "he",
+      "himself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The people doing the action take <b>he</b>, not <b>him</b>: <b>Kasim and he went</b>."
+  },
+  {
+   "qid": "c5-26-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "apostrophe",
+   "prompt": "Fill in the gap.",
+   "before": "Everyone in the court heard",
+   "after": "story.",
+   "options": [
+    "Kasim's",
+    "Kasim",
+    "Kasims"
+   ],
+   "answer": 0,
+   "rule": "The story belongs to Kasim, so write <b>Kasim's</b>."
+  },
+  {
+   "qid": "c5-26-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "owned the well?",
+   "options": [
+    "Whom",
+    "Who",
+    "Whose"
+   ],
+   "answer": 1,
+   "rule": "To ask about the person who does the action, use <b>Who</b>."
+  },
+  {
+   "qid": "c5-26-08",
+   "type": "build",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "May",
+    "I",
+    "use",
+    "your",
+    "well,",
+    "please?"
+   ],
+   "alts": [],
+   "rule": "<b>May I ...</b> asks for permission; <b>please</b> makes it polite."
+  },
+  {
+   "qid": "c5-26-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "What did you do with your pocket money?"
+    ]
+   ],
+   "options": [
+    "I buyed a new pencil box.",
+    "I buying a new pencil box.",
+    "I bought a new pencil box."
+   ],
+   "answer": 2,
+   "rule": "The question is in the past (<b>did</b>), so answer with the past form <b>bought</b>."
+  },
+  {
+   "qid": "c5-26-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ahmad",
+     "Why are you standing near my well?"
+    ]
+   ],
+   "options": [
+    "May I take some water, please?",
+    "May I taking some water, please?",
+    "May I takes some water, please?"
+   ],
+   "answer": 0,
+   "rule": "After <b>may</b>, use the base verb: <b>May I take ...?</b>"
+  },
+  {
+   "qid": "c5-26-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Where is the well?",
+    "Where the well is?",
+    "Where are the well?"
+   ],
+   "answer": 0,
+   "rule": "In a question, the verb comes before the subject, and one well takes <b>is</b>: <b>Where is the well?</b>"
+  },
+  {
+   "qid": "c5-26-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ahmad selled the well but kept the water.",
+    "Ahmad sold the well but kept the water.",
+    "Ahmad sold the well but keeped the water."
+   ],
+   "answer": 1,
+   "rule": "Irregular pasts: <b>sell - sold</b>, <b>keep - kept</b>."
+  },
+  {
+   "qid": "c5-26-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "apostrophe",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "judge",
+    "listened",
+    "to",
+    "Kasim",
+    "side",
+    "of",
+    "the",
+    "story."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "he",
+      "Kasims",
+      "Kasim's"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The side belongs to Kasim, so add <b>'s</b>: <b>Kasim's side</b>."
+  },
+  {
+   "qid": "c5-26-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kasim",
+    "thinked",
+    "about",
+    "the",
+    "plan",
+    "for",
+    "a",
+    "long",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "thinking",
+      "think",
+      "thought"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Think</b> is irregular. Its past form is <b>thought</b>, not <i>thinked</i>."
+  },
+  {
+   "qid": "c5-26-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Kasim paid for the well, so the well is",
+   "after": "now.",
+   "options": [
+    "his",
+    "him",
+    "he"
+   ],
+   "answer": 0,
+   "rule": "To show that something belongs to a man, use <b>his</b>."
+  },
+  {
+   "qid": "c5-26-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "did Kasim go to the court?",
+   "options": [
+    "Who",
+    "Whom",
+    "Why"
+   ],
+   "answer": 2,
+   "rule": "To ask for a reason, use <b>Why</b>."
+  },
+  {
+   "qid": "c5-26-17",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Kasim",
+    "dug",
+    "a",
+    "long",
+    "channel",
+    "yesterday."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object + time: <b>Kasim dug a long channel yesterday.</b>"
+  },
+  {
+   "qid": "c5-26-18",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "sold",
+    "the",
+    "old",
+    "well",
+    "to",
+    "Kasim?"
+   ],
+   "alts": [],
+   "rule": "When <b>Who</b> is the doer, the verb comes straight after it: <b>Who sold ...?</b>"
+  },
+  {
+   "qid": "c5-26-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "apostrophe",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Whose bicycle is this?"
+    ]
+   ],
+   "options": [
+    "It is my brothers bicycle.",
+    "It is my brother's bicycle.",
+    "It is my brother bicycle's."
+   ],
+   "answer": 1,
+   "rule": "The owner takes <b>'s</b>: <b>my brother's bicycle</b>."
+  },
+  {
+   "qid": "c5-26-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "Is this water bottle yours?"
+    ]
+   ],
+   "options": [
+    "No, it is not mine. It is Asha's.",
+    "No, it is not my. It is Asha's.",
+    "No, it is not mine. It is her's."
+   ],
+   "answer": 0,
+   "rule": "Use <b>mine</b> with no noun after it. <b>Hers</b> never takes an apostrophe."
+  },
+  {
+   "qid": "c5-26-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Why Ahmad did refuse to share the water?",
+    "Why did Ahmad refuse to share the water?",
+    "Why did Ahmad refused to share the water?"
+   ],
+   "answer": 1,
+   "rule": "Wh-word + <b>did</b> + subject + base verb: <b>Why did Ahmad refuse ...?</b>"
+  },
+  {
+   "qid": "c5-26-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "apostrophe",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The childrens' shoes were wet.",
+    "The children shoes were wet.",
+    "The children's shoes were wet."
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is already plural without <b>s</b>, so just add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c5-26-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kasim felt sad when the judge spoke.",
+    "Kasim feeled sad when the judge spoke.",
+    "Kasim felt sad when the judge speaked."
+   ],
+   "answer": 0,
+   "rule": "Irregular pasts: <b>feel - felt</b>, <b>speak - spoke</b>."
+  },
+  {
+   "qid": "c5-26-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "did",
+    "Kasim",
+    "went",
+    "after",
+    "he",
+    "met",
+    "Ahmad?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "goes",
+      "going",
+      "go"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Did</b> already shows the past, so the main verb stays in base form: <b>did ... go</b>."
+  },
+  {
+   "qid": "c5-26-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "please",
+    "helps",
+    "me",
+    "carry",
+    "this",
+    "bucket?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "help",
+      "helping",
+      "helped"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>could you (please)</b>, use the base verb: <b>help</b>."
+  },
+  {
+   "qid": "c5-26-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "apostrophe",
+   "prompt": "Fill in the gap.",
+   "before": "All the villagers came to the",
+   "after": "court.",
+   "options": [
+    "judges",
+    "judge's",
+    "judge"
+   ],
+   "answer": 1,
+   "rule": "The court belongs to the judge, so write <b>judge's</b>."
+  },
+  {
+   "qid": "c5-26-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Kasim's heart",
+   "after": "when he heard the judge's words.",
+   "options": [
+    "sink",
+    "sank",
+    "sinks"
+   ],
+   "answer": 1,
+   "rule": "<b>Heard</b> is past, so use the past of <b>sink</b>: <b>sank</b>."
+  },
+  {
+   "qid": "c5-26-28",
+   "type": "build",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "water",
+    "in",
+    "this",
+    "well",
+    "is",
+    "mine."
+   ],
+   "alts": [],
+   "rule": "<b>Mine</b> stands alone at the end, without a noun after it."
+  },
+  {
+   "qid": "c5-26-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "I went to the village fair yesterday."
+    ]
+   ],
+   "options": [
+    "Who you went with?",
+    "Who did you go with?",
+    "Who did you went with?"
+   ],
+   "answer": 1,
+   "rule": "Past question: <b>did</b> + subject + base verb: <b>Who did you go with?</b>"
+  },
+  {
+   "qid": "c5-26-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Good morning! What would you like?"
+    ]
+   ],
+   "options": [
+    "Could I have a bottle of water, please?",
+    "Could I has a bottle of water, please?",
+    "Could I having a bottle of water, please?"
+   ],
+   "answer": 0,
+   "rule": "After <b>could</b>, use the base verb: <b>Could I have ..., please?</b>"
+  },
+  {
+   "qid": "c5-26-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My friend and me bought a kite.",
+    "Me and my friend bought a kite.",
+    "My friend and I bought a kite."
+   ],
+   "answer": 2,
+   "rule": "The doers of the action take <b>I</b>, and we name the other person first: <b>My friend and I</b>."
+  },
+  {
+   "qid": "c5-26-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "apostrophe",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ashas brother has two goats.",
+    "Asha's brother have two goats.",
+    "Asha's brother has two goats."
+   ],
+   "answer": 2,
+   "rule": "Owner + <b>'s</b> (<b>Asha's</b>), and one brother takes <b>has</b>."
+  },
+  {
+   "qid": "c5-26-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "two",
+    "men",
+    "digged",
+    "a",
+    "deep",
+    "well",
+    "near",
+    "the",
+    "field."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "dug",
+      "digs",
+      "digging"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The past of <b>dig</b> is <b>dug</b>, not <i>digged</i>."
+  },
+  {
+   "qid": "c5-26-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ahmad",
+    "asked",
+    "Kasim",
+    "to",
+    "give",
+    "he",
+    "the",
+    "money."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "his",
+      "him",
+      "they"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a verb like <b>give</b>, the person receiving takes <b>him</b>, not <b>he</b>."
+  },
+  {
+   "qid": "c5-26-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "do you want to buy this old well?",
+   "options": [
+    "Why",
+    "Whose",
+    "Which"
+   ],
+   "answer": 0,
+   "rule": "To ask for a reason, use <b>Why</b>."
+  },
+  {
+   "qid": "c5-26-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "apostrophe",
+   "prompt": "Fill in the gap.",
+   "before": "This is not your book. It is",
+   "after": "book.",
+   "options": [
+    "Meeras",
+    "Meera's",
+    "Meera"
+   ],
+   "answer": 1,
+   "rule": "To show the book belongs to Meera, write <b>Meera's</b>."
+  },
+  {
+   "qid": "c5-26-37",
+   "type": "build",
+   "level": 4,
+   "topic": "polite",
+   "prompt": "Say thank you politely.",
+   "answer": [
+    "Thank",
+    "you",
+    "for",
+    "your",
+    "kind",
+    "help."
+   ],
+   "alts": [],
+   "rule": "<b>Thank you for</b> + the thing you are thankful for."
+  },
+  {
+   "qid": "c5-26-38",
+   "type": "build",
+   "level": 4,
+   "topic": "apostrophe",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "My",
+    "uncle's",
+    "farm",
+    "has",
+    "a",
+    "deep",
+    "well."
+   ],
+   "alts": [],
+   "rule": "<b>Uncle's</b> comes right before the thing he owns: <b>my uncle's farm</b>."
+  },
+  {
+   "qid": "c5-26-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "How did you come to school today?"
+    ]
+   ],
+   "options": [
+    "I comed by bus with my friends.",
+    "I came by bus with my friends.",
+    "I coming by bus with my friends."
+   ],
+   "answer": 1,
+   "rule": "The question is in the past, and the past of <b>come</b> is <b>came</b>."
+  },
+  {
+   "qid": "c5-26-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Your project was very good."
+    ],
+    [
+     "Teacher",
+     "Who helped you?"
+    ]
+   ],
+   "options": [
+    "My sister helped I with it.",
+    "My sister helping me with it.",
+    "My sister helped me with it."
+   ],
+   "answer": 2,
+   "rule": "After the verb, use <b>me</b>, not <b>I</b>; the question is past, so <b>helped</b>."
+  },
+  {
+   "qid": "c5-26-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ahmad thought the judge would help him, but he was wrong.",
+    "Ahmad thinked the judge would help him, but he was wrong.",
+    "Ahmad thought the judge would help him, but he were wrong."
+   ],
+   "answer": 0,
+   "rule": "Past of <b>think</b> is <b>thought</b>; one person (<b>he</b>) takes <b>was</b>."
+  },
+  {
+   "qid": "c5-26-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "apostrophe",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The judges words made everyone in the court laugh.",
+    "The judge's words made everyone in the court laugh.",
+    "The judge's words made everyone in the court laughed."
+   ],
+   "answer": 1,
+   "rule": "Owner + <b>'s</b>: <b>the judge's words</b>. After <b>made everyone</b>, use the base verb <b>laugh</b>."
+  },
+  {
+   "qid": "c5-26-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Which",
+    "farmer",
+    "own",
+    "the",
+    "old",
+    "well",
+    "near",
+    "the",
+    "field?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "owns",
+      "owning",
+      "owner"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Which farmer</b> is one person and the doer, so the verb takes <b>-s</b>: <b>owns</b>."
+  },
+  {
+   "qid": "c5-26-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "I",
+    "borrows",
+    "your",
+    "pencil",
+    "for",
+    "a",
+    "minute,",
+    "please?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "borrowed",
+      "borrowing",
+      "borrow"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>May I</b>, use the base verb: <b>borrow</b>."
+  },
+  {
+   "qid": "c5-26-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Kasim did not ask Ahmad for the rent because",
+   "after": "was a kind man.",
+   "options": [
+    "he",
+    "him",
+    "his"
+   ],
+   "answer": 0,
+   "rule": "The doer of <b>was</b> takes the subject pronoun <b>he</b>."
+  },
+  {
+   "qid": "c5-26-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "money did Kasim pay for the well?",
+   "options": [
+    "How many",
+    "How much",
+    "How"
+   ],
+   "answer": 1,
+   "rule": "<b>Money</b> cannot be counted one by one, so ask <b>How much</b>."
+  },
+  {
+   "qid": "c5-26-47",
+   "type": "build",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "When",
+    "did",
+    "Kasim",
+    "buy",
+    "the",
+    "well?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>did</b> + subject + base verb: <b>When did Kasim buy ...?</b>"
+  },
+  {
+   "qid": "c5-26-48",
+   "type": "build",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "this",
+    "umbrella",
+    "yours",
+    "or",
+    "mine?"
+   ],
+   "alts": [],
+   "rule": "<b>Yours</b> and <b>mine</b> stand alone without a noun after them."
+  },
+  {
+   "qid": "c5-26-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Thank you for the lovely gift!"
+    ]
+   ],
+   "options": [
+    "You're welcome. I choosed it myself.",
+    "You're welcome. I chosen it myself.",
+    "You're welcome. I chose it myself."
+   ],
+   "answer": 2,
+   "rule": "Reply to thanks with <b>You're welcome</b>. The past of <b>choose</b> is <b>chose</b>."
+  },
+  {
+   "qid": "c5-26-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "apostrophe",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where is your cricket bat?"
+    ]
+   ],
+   "options": [
+    "I left it at Rahuls house.",
+    "I leaved it at Rahul's house.",
+    "I left it at Rahul's house."
+   ],
+   "answer": 2,
+   "rule": "The house belongs to Rahul: <b>Rahul's house</b>. The past of <b>leave</b> is <b>left</b>."
+  }
+ ]
+}

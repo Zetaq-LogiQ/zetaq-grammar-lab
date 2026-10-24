@@ -1,0 +1,1221 @@
+{
+ "class": 8,
+ "id": "16",
+ "title": "The Bees",
+ "topics": [
+  {
+   "tag": "as_as",
+   "name": "Comparisons with as ... as / not so ... as"
+  },
+  {
+   "tag": "adj_adv",
+   "name": "Adjectives and adverbs"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative clauses (who / which / whose)"
+  },
+  {
+   "tag": "agreement",
+   "name": "Subject-verb agreement"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-16-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Meera is as busier as a bee today.",
+    "Meera is so busy as a bee today.",
+    "Meera is as busy as a bee today."
+   ],
+   "answer": 2,
+   "rule": "In <b>as ... as</b> use the plain adjective: <b>as busy as</b>. 'So ... as' is used only after <b>not</b>."
+  },
+  {
+   "qid": "c8-16-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Honey is make by bees.",
+    "Honey are made by bees.",
+    "Honey is made by bees."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>be + past participle</b>. Honey is uncountable, so: <b>is made</b>."
+  },
+  {
+   "qid": "c8-16-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "runs",
+    "as",
+    "fastest",
+    "as",
+    "a",
+    "deer."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "faster",
+      "fast",
+      "quickest"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Between <b>as ... as</b> we use the plain form: <b>as fast as</b>."
+  },
+  {
+   "qid": "c8-16-04",
+   "type": "fill",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "The old tortoise moved as",
+   "after": "as a snail.",
+   "options": [
+    "slow",
+    "slower",
+    "slowest"
+   ],
+   "answer": 0,
+   "rule": "<b>as + plain adjective + as</b>: as slow as a snail."
+  },
+  {
+   "qid": "c8-16-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Bees are insects",
+   "after": "live in large groups.",
+   "options": [
+    "which",
+    "whom",
+    "whose"
+   ],
+   "answer": 0,
+   "rule": "For animals and things the subject relative pronoun is <b>which</b> (or that)."
+  },
+  {
+   "qid": "c8-16-06",
+   "type": "build",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Make a sentence in the passive voice.",
+   "answer": [
+    "The",
+    "hive",
+    "was",
+    "built",
+    "by",
+    "the",
+    "bees."
+   ],
+   "alts": [],
+   "rule": "Passive: object first, then <b>was + past participle</b>, then <b>by</b> + the doer."
+  },
+  {
+   "qid": "c8-16-07",
+   "type": "chat",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How was your new cousin at the party?"
+    ]
+   ],
+   "options": [
+    "He was as quietly as a mouse all evening.",
+    "He was as quiet as a mouse all evening.",
+    "He were as quiet as a mouse all evening."
+   ],
+   "answer": 1,
+   "rule": "After <b>was</b> we need an adjective: <b>as quiet as</b>. With <b>he</b> use <b>was</b>."
+  },
+  {
+   "qid": "c8-16-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Joshi",
+     "Who painted this lovely poster of bees?"
+    ]
+   ],
+   "options": [
+    "It was paint by Sana and me.",
+    "It were painted by Sana and me.",
+    "It was painted by Sana and me."
+   ],
+   "answer": 2,
+   "rule": "Past passive with a singular subject: <b>it was painted</b>."
+  },
+  {
+   "qid": "c8-16-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Bees collect nectar.",
+   "options": [
+    "Nectar was collected by bees.",
+    "Nectar is collect by bees.",
+    "Nectar is collected by bees."
+   ],
+   "answer": 2,
+   "rule": "Simple present active becomes <b>is/are + past participle</b>: nectar <b>is collected</b>."
+  },
+  {
+   "qid": "c8-16-10",
+   "type": "change",
+   "level": 1,
+   "topic": "as_as",
+   "prompt": "Rewrite using 'not as ... as'.",
+   "source": "A giraffe is taller than a horse.",
+   "options": [
+    "A horse is not as tall as a giraffe.",
+    "A horse is as tall as a giraffe.",
+    "A horse is not as taller as a giraffe."
+   ],
+   "answer": 0,
+   "rule": "Swap the two and use <b>not as + plain adjective + as</b>: a horse is <b>not as tall as</b> a giraffe."
+  },
+  {
+   "qid": "c8-16-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the sentence with the correct relative pronoun.",
+   "options": [
+    "The boy which keeps bees lives next door.",
+    "The boy who keeps bees lives next door.",
+    "The boy whose keeps bees lives next door."
+   ],
+   "answer": 1,
+   "rule": "For a person use <b>who</b> as the subject of the clause."
+  },
+  {
+   "qid": "c8-16-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "adj_adv",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The porter bees carried their heavy burdens carefully.",
+    "The porter bees carried their heavy burdens careful.",
+    "The porter bees carried their heavily burdens carefully."
+   ],
+   "answer": 0,
+   "rule": "An adjective describes a noun (<b>heavy</b> burdens); an adverb describes a verb (carried <b>carefully</b>)."
+  },
+  {
+   "qid": "c8-16-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hundreds",
+    "of",
+    "bees",
+    "buzzes",
+    "around",
+    "our",
+    "mango",
+    "tree",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "buzzing",
+      "buzz",
+      "buzzer"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Hundreds of bees</b> is plural, so the verb is <b>buzz</b>, not buzzes."
+  },
+  {
+   "qid": "c8-16-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "honey",
+    "was",
+    "collect",
+    "by",
+    "the",
+    "farmer",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "collecting",
+      "collected",
+      "collects"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>was collected</b>."
+  },
+  {
+   "qid": "c8-16-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The roof of the hive",
+   "after": "of golden wax.",
+   "options": [
+    "is made",
+    "is make",
+    "making"
+   ],
+   "answer": 0,
+   "rule": "The roof does not make anything; it is made. Passive: <b>is made</b>."
+  },
+  {
+   "qid": "c8-16-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adj_adv",
+   "prompt": "Fill in the gap.",
+   "before": "The drone yawned",
+   "after": "and did no work.",
+   "options": [
+    "lazily",
+    "lazy",
+    "laziness"
+   ],
+   "answer": 0,
+   "rule": "To describe how he yawned (a verb), use the adverb <b>lazily</b>."
+  },
+  {
+   "qid": "c8-16-17",
+   "type": "build",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Riya",
+    "met",
+    "a",
+    "beekeeper",
+    "who",
+    "sells",
+    "honey."
+   ],
+   "alts": [],
+   "rule": "The clause <b>who sells honey</b> comes right after the noun it describes: a beekeeper."
+  },
+  {
+   "qid": "c8-16-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Which jar should I open?"
+    ]
+   ],
+   "options": [
+    "Open the one which has a yellow lid.",
+    "Open the one who has a yellow lid.",
+    "Open the one whose has a yellow lid."
+   ],
+   "answer": 0,
+   "rule": "A jar is a thing, so use <b>which</b>."
+  },
+  {
+   "qid": "c8-16-19",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join using 'who'.",
+   "source": "I know a farmer. He keeps fifty beehives.",
+   "options": [
+    "I know a farmer who he keeps fifty beehives.",
+    "I know a farmer which keeps fifty beehives.",
+    "I know a farmer who keeps fifty beehives."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> replaces <b>he</b>, so do not repeat the pronoun: a farmer <b>who keeps</b> ..."
+  },
+  {
+   "qid": "c8-16-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "There",
+    "is",
+    "three",
+    "beehives",
+    "in",
+    "our",
+    "school",
+    "garden",
+    "now.",
+    "The",
+    "honey",
+    "is",
+    "sell",
+    "at",
+    "the",
+    "school",
+    "fair",
+    "every",
+    "year,",
+    "and",
+    "the",
+    "money",
+    "goes",
+    "to",
+    "the",
+    "library."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "be",
+      "was",
+      "are"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "selling",
+      "sold",
+      "sells"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>There are</b> + plural (three beehives). Passive: honey <b>is sold</b>."
+  },
+  {
+   "qid": "c8-16-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The elephant is not as bigger as the blue whale.",
+    "The elephant is not as big than the blue whale.",
+    "The elephant is not as big as the blue whale."
+   ],
+   "answer": 2,
+   "rule": "The pattern is <b>not as + plain adjective + as</b>, never 'than' and never -er."
+  },
+  {
+   "qid": "c8-16-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "girl",
+    "whom",
+    "won",
+    "the",
+    "quiz",
+    "is",
+    "my",
+    "cousin."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "which",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The girl did the winning, so the relative pronoun is the subject: <b>who</b>, not whom."
+  },
+  {
+   "qid": "c8-16-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adj_adv",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "soldier",
+    "bees",
+    "marched",
+    "merry",
+    "back",
+    "to",
+    "the",
+    "hive."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "merrier",
+      "merrily",
+      "merriment"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>merrily</b> (adverb) tells us how they marched."
+  },
+  {
+   "qid": "c8-16-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Sunita is the girl",
+   "after": "bees won a prize at the fair.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 1,
+   "rule": "<b>whose</b> shows possession: the bees belong to the girl."
+  },
+  {
+   "qid": "c8-16-25",
+   "type": "build",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Our",
+    "coach",
+    "is",
+    "not",
+    "so",
+    "strict",
+    "as",
+    "yours."
+   ],
+   "alts": [],
+   "rule": "After <b>not</b> we can use <b>so ... as</b>: not so strict as."
+  },
+  {
+   "qid": "c8-16-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anil",
+     "Is the new bus as fast as the old one?"
+    ]
+   ],
+   "options": [
+    "No, it is not as fast as the old one.",
+    "No, it is not as faster as the old one.",
+    "No, it does not as fast as the old one."
+   ],
+   "answer": 0,
+   "rule": "Answer an <b>is</b> question with <b>is not as fast as</b>; keep the plain adjective."
+  },
+  {
+   "qid": "c8-16-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Has either of your friends tasted this honey?"
+    ]
+   ],
+   "options": [
+    "Yes, each of them have tasted it.",
+    "Yes, each of them has tasted it.",
+    "Yes, each of them tasting it."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of them</b> is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c8-16-28",
+   "type": "change",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The bees were building a new comb.",
+   "options": [
+    "A new comb was built by the bees.",
+    "A new comb were being built by the bees.",
+    "A new comb was being built by the bees."
+   ],
+   "answer": 2,
+   "rule": "Past continuous passive: <b>was/were being + past participle</b>. One comb, so <b>was being built</b>."
+  },
+  {
+   "qid": "c8-16-29",
+   "type": "change",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Join using 'which'.",
+   "source": "The bees live in a hive. It hangs from the neem tree.",
+   "options": [
+    "The bees live in a hive which hangs from the neem tree.",
+    "The bees live in a hive which it hangs from the neem tree.",
+    "The bees live in a hive which hang from the neem tree."
+   ],
+   "answer": 0,
+   "rule": "<b>which</b> replaces <b>it</b> and refers to one hive, so the verb is <b>hangs</b>."
+  },
+  {
+   "qid": "c8-16-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "adj_adv",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Hi",
+    "Neha!",
+    "The",
+    "honey",
+    "from",
+    "Grandpa's",
+    "farm",
+    "is",
+    "as",
+    "sweeter",
+    "as",
+    "sugar.",
+    "He",
+    "packed",
+    "it",
+    "careful",
+    "in",
+    "small",
+    "glass",
+    "jars,",
+    "so",
+    "not",
+    "one",
+    "jar",
+    "broke",
+    "on",
+    "the",
+    "bus."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "sweetest",
+      "sweet",
+      "sweetly"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "care",
+      "carefully",
+      "carefulness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>as sweet as</b> uses the plain adjective; <b>packed carefully</b> needs an adverb."
+  },
+  {
+   "qid": "c8-16-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The new hive has been placed near the window.",
+    "The new hive has been place near the window.",
+    "The new hive have been placed near the window."
+   ],
+   "answer": 0,
+   "rule": "Present perfect passive: <b>has/have been + past participle</b>. One hive: <b>has been placed</b>."
+  },
+  {
+   "qid": "c8-16-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The beekeeper which visited us yesterday has gone home.",
+    "The beekeeper who visits us yesterday has gone home.",
+    "The beekeeper who visited us yesterday has gone home."
+   ],
+   "answer": 2,
+   "rule": "A person takes <b>who</b>, and <b>yesterday</b> needs the past: <b>visited</b>."
+  },
+  {
+   "qid": "c8-16-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adj_adv",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "we",
+    "arrived,",
+    "the",
+    "bees",
+    "had",
+    "calm",
+    "settled",
+    "back",
+    "into",
+    "the",
+    "hive."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "calmer",
+      "calmness",
+      "calmly"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>calmly</b> (adverb) tells us how the bees had settled; an adjective cannot describe a verb."
+  },
+  {
+   "qid": "c8-16-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The beehive must",
+   "after": "with great care.",
+   "options": [
+    "be handled",
+    "been handled",
+    "handled"
+   ],
+   "answer": 0,
+   "rule": "Modal passive: <b>must be + past participle</b>."
+  },
+  {
+   "qid": "c8-16-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "as_as",
+   "prompt": "Fill in the gap.",
+   "before": "This summer was not",
+   "after": "as last summer.",
+   "options": [
+    "hotter",
+    "the hottest",
+    "as hot"
+   ],
+   "answer": 2,
+   "rule": "The second <b>as</b> needs a first one: <b>not as hot as</b>."
+  },
+  {
+   "qid": "c8-16-36",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a sentence in the passive voice.",
+   "answer": [
+    "The",
+    "honey",
+    "will",
+    "be",
+    "sold",
+    "at",
+    "the",
+    "fair."
+   ],
+   "alts": [],
+   "rule": "Future passive: <b>will be + past participle</b>: will be sold."
+  },
+  {
+   "qid": "c8-16-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Have the project files been submitted?"
+    ]
+   ],
+   "options": [
+    "Yes, all of them have been submitted.",
+    "Yes, all of them have been submit.",
+    "Yes, all of them has been submitted."
+   ],
+   "answer": 0,
+   "rule": "<b>All of them</b> is plural: <b>have been submitted</b> (past participle)."
+  },
+  {
+   "qid": "c8-16-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The farmer has sold all the honey.",
+   "options": [
+    "All the honey was sold by the farmer.",
+    "All the honey has been sold by the farmer.",
+    "All the honey has been sell by the farmer."
+   ],
+   "answer": 1,
+   "rule": "Keep the tense: present perfect active <b>has sold</b> becomes <b>has been sold</b>."
+  },
+  {
+   "qid": "c8-16-39",
+   "type": "change",
+   "level": 4,
+   "topic": "as_as",
+   "prompt": "Change into the comparative degree.",
+   "source": "No other insect is as busy as the bee.",
+   "options": [
+    "The bee is busiest than any other insect.",
+    "The bee is more busier than any other insect.",
+    "The bee is busier than any other insect."
+   ],
+   "answer": 2,
+   "rule": "'No other ... as busy as' becomes <b>busier than any other</b>. Never 'more busier'."
+  },
+  {
+   "qid": "c8-16-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Hi",
+    "Arjun!",
+    "The",
+    "beehives",
+    "which",
+    "hangs",
+    "from",
+    "our",
+    "school",
+    "roof",
+    "are",
+    "full",
+    "of",
+    "honey.",
+    "Mr",
+    "Pawar",
+    "says",
+    "that",
+    "the",
+    "honey",
+    "will",
+    "be",
+    "sell",
+    "at",
+    "the",
+    "Diwali",
+    "fair.",
+    "He",
+    "is",
+    "the",
+    "person",
+    "whom",
+    "looks",
+    "after",
+    "the",
+    "hives."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "hang",
+      "hanging",
+      "hanged"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "sold",
+      "selling",
+      "sale"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "which",
+      "who",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>which</b> refers to beehives (plural): <b>hang</b>. Passive: <b>be sold</b>. Subject for a person: <b>who</b>."
+  },
+  {
+   "qid": "c8-16-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the queen bee nor the workers are resting.",
+    "Neither the queen bee nor the workers is resting.",
+    "Neither the queen bee or the workers are resting."
+   ],
+   "answer": 0,
+   "rule": "With <b>neither ... nor</b> the verb agrees with the nearer subject: the workers <b>are</b>."
+  },
+  {
+   "qid": "c8-16-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "worker",
+    "bee",
+    "in",
+    "this",
+    "hive",
+    "carry",
+    "pollen",
+    "from",
+    "the",
+    "flowers."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "carrying",
+      "carrier",
+      "carries"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Every</b> + singular noun takes a singular verb: every worker bee <b>carries</b>."
+  },
+  {
+   "qid": "c8-16-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ms",
+    "Rao",
+    "is",
+    "the",
+    "scientist",
+    "whom",
+    "book",
+    "on",
+    "bees",
+    "won",
+    "an",
+    "award."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "who",
+      "whose",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The book belongs to the scientist, so use the possessive <b>whose</b>."
+  },
+  {
+   "qid": "c8-16-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "agreement",
+   "prompt": "Fill in the gap.",
+   "before": "Not one of the hundreds of bees in the hive",
+   "after": "idle during the day.",
+   "options": [
+    "are",
+    "is",
+    "were"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>not one</b> (singular), so use <b>is</b>, even though 'bees' comes just before."
+  },
+  {
+   "qid": "c8-16-45",
+   "type": "build",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "hives",
+    "should",
+    "have",
+    "been",
+    "checked",
+    "before",
+    "the",
+    "rains."
+   ],
+   "alts": [],
+   "rule": "Modal perfect passive: <b>should have been + past participle</b>."
+  },
+  {
+   "qid": "c8-16-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "as_as",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Is your new phone better than your old one?"
+    ]
+   ],
+   "options": [
+    "No, it isn't nearly as better as my old one.",
+    "No, it isn't nearly so good than my old one.",
+    "No, it isn't nearly as good as my old one."
+   ],
+   "answer": 2,
+   "rule": "<b>not nearly as good as</b>: plain adjective between as ... as."
+  },
+  {
+   "qid": "c8-16-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle Raj",
+     "What happened to the old beehive behind the shed?"
+    ]
+   ],
+   "options": [
+    "It has taken away by the forest officers.",
+    "It has been took away by the forest officers.",
+    "It has been taken away by the forest officers."
+   ],
+   "answer": 2,
+   "rule": "The hive did not take anything; it <b>has been taken</b> (has been + past participle)."
+  },
+  {
+   "qid": "c8-16-48",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Who disturbed the bees?",
+   "options": [
+    "By whom were the bees disturbed?",
+    "By whom was the bees disturbed?",
+    "Who were the bees disturbed?"
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> becomes <b>By whom</b>; the bees are plural, so <b>were ... disturbed</b>."
+  },
+  {
+   "qid": "c8-16-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "my",
+    "sister",
+    "and",
+    "I",
+    "visited",
+    "a",
+    "bee",
+    "farm",
+    "which",
+    "belong",
+    "to",
+    "our",
+    "uncle.",
+    "He",
+    "showed",
+    "us",
+    "how",
+    "honey",
+    "is",
+    "extract",
+    "from",
+    "the",
+    "combs.",
+    "The",
+    "fresh",
+    "honey",
+    "taste",
+    "as",
+    "sweet",
+    "as",
+    "jaggery."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "belonging",
+      "belongs",
+      "belongings"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "extracted",
+      "extracting",
+      "extracts"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 28,
+     "options": [
+      "tasted",
+      "tasting",
+      "tastily"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "A farm <b>which belongs</b>; passive <b>is extracted</b>; a past visit, so the honey <b>tasted</b> as sweet as jaggery."
+  },
+  {
+   "qid": "c8-16-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "science",
+    "teacher,",
+    "whose",
+    "loves",
+    "insects,",
+    "says",
+    "that",
+    "bees",
+    "are",
+    "as",
+    "important",
+    "as",
+    "farmers.",
+    "Without",
+    "them,",
+    "fewer",
+    "fruits",
+    "would",
+    "be",
+    "produce",
+    "on",
+    "farms.",
+    "Every",
+    "farmer",
+    "in",
+    "our",
+    "village",
+    "know",
+    "this."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "which",
+      "who",
+      "whom"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "producing",
+      "produced",
+      "produces"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "knowing",
+      "knows",
+      "known"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Subject for a person: <b>who</b>; passive: <b>be produced</b>; every farmer (singular) <b>knows</b>."
+  }
+ ]
+}

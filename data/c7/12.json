@@ -1,0 +1,997 @@
+{
+ "class": 7,
+ "id": "12",
+ "title": "Chasing the Sea Monster",
+ "topics": [
+  {
+   "tag": "transitive",
+   "name": "Transitive and intransitive verbs (raise/rise, lay/lie)"
+  },
+  {
+   "tag": "time_prepositions",
+   "name": "Prepositions of time (at, on, in, for, since)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present and past)"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-12-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "transitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sun rose at six o'clock.",
+    "The sun raised at six o'clock.",
+    "The sun risen at six o'clock."
+   ],
+   "answer": 0,
+   "rule": "<b>rise - rose</b> is intransitive (no object). <b>raise</b> is transitive: it needs an object."
+  },
+  {
+   "qid": "c7-12-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "time_prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The light reappeared at midnight.",
+    "The light reappeared on midnight.",
+    "The light reappeared in midnight."
+   ],
+   "answer": 0,
+   "rule": "Use <b>at</b> with clock times and <b>midnight</b>, <b>noon</b>, <b>dawn</b>."
+  },
+  {
+   "qid": "c7-12-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "transitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "gunner",
+    "rose",
+    "the",
+    "cannon",
+    "into",
+    "position."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "risen",
+      "raised",
+      "rise"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The verb has an object (<b>the cannon</b>), so use the transitive verb <b>raise - raised</b>."
+  },
+  {
+   "qid": "c7-12-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "time_prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mist",
+    "rolled",
+    "away",
+    "on",
+    "eight",
+    "o'clock."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "in",
+      "since",
+      "at"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>at</b> with clock times: <b>at eight o'clock</b>."
+  },
+  {
+   "qid": "c7-12-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "When we reached the jetty, the boat",
+   "after": "already left.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "The boat left <b>before</b> we reached, so use the past perfect: <b>had left</b>."
+  },
+  {
+   "qid": "c7-12-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "time_prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "We will meet",
+   "after": "Monday morning.",
+   "options": [
+    "on",
+    "in",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>on</b> with days: <b>on Monday</b>, <b>on Monday morning</b>."
+  },
+  {
+   "qid": "c7-12-07",
+   "type": "build",
+   "level": 1,
+   "topic": "transitive",
+   "prompt": "Make a sentence with a transitive verb.",
+   "answer": [
+    "Ned",
+    "Land",
+    "sharpened",
+    "his",
+    "harpoon."
+   ],
+   "alts": [],
+   "rule": "<b>sharpened</b> is transitive: its object is <b>his harpoon</b>."
+  },
+  {
+   "qid": "c7-12-08",
+   "type": "build",
+   "level": 1,
+   "topic": "time_prepositions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "frigate",
+    "sailed",
+    "on",
+    "a",
+    "Sunday",
+    "morning."
+   ],
+   "alts": [],
+   "rule": "<b>on</b> + a day: <b>on a Sunday morning</b>."
+  },
+  {
+   "qid": "c7-12-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "time_prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ned",
+     "What time does the boat leave tomorrow?"
+    ]
+   ],
+   "options": [
+    "It leaves on seven o'clock in the morning.",
+    "It leaves at seven o'clock in the morning.",
+    "It leaves at seven o'clock on the morning."
+   ],
+   "answer": 1,
+   "rule": "<b>at</b> + clock time, <b>in the morning</b>: <b>at seven o'clock in the morning</b>."
+  },
+  {
+   "qid": "c7-12-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The gunner loaded the cannon.",
+   "options": [
+    "The cannon was loaded by the gunner.",
+    "The cannon is loaded by the gunner.",
+    "The cannon was load by the gunner."
+   ],
+   "answer": 0,
+   "rule": "Simple past active becomes <b>was + past participle</b>: <b>The cannon was loaded</b>."
+  },
+  {
+   "qid": "c7-12-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "transitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ned Land lay his harpoon on the deck.",
+    "Ned Land lied his harpoon on the deck.",
+    "Ned Land laid his harpoon on the deck."
+   ],
+   "answer": 2,
+   "rule": "<b>lay - laid</b> is transitive (lay something down). <b>lie - lay</b> has no object."
+  },
+  {
+   "qid": "c7-12-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The animal had disappear before the crew could fire.",
+    "The animal has disappeared before the crew could fire.",
+    "The animal had disappeared before the crew could fire."
+   ],
+   "answer": 2,
+   "rule": "The earlier past action takes the past perfect: <b>had + past participle</b> = <b>had disappeared</b>."
+  },
+  {
+   "qid": "c7-12-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "transitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "crew",
+    "rose",
+    "a",
+    "loud",
+    "cheer",
+    "when",
+    "the",
+    "order",
+    "came."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "raised",
+      "risen",
+      "arose"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>a loud cheer</b> is an object, so use transitive <b>raise</b>: <b>raised a loud cheer</b>."
+  },
+  {
+   "qid": "c7-12-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "had",
+    "already",
+    "finish",
+    "his",
+    "homework",
+    "when",
+    "the",
+    "power",
+    "went",
+    "off."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "finishing",
+      "finished",
+      "finishes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had already finished</b>."
+  },
+  {
+   "qid": "c7-12-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "transitive",
+   "prompt": "Fill in the gap.",
+   "before": "Please",
+   "after": "the books on the table.",
+   "options": [
+    "lay",
+    "lie",
+    "lain"
+   ],
+   "answer": 0,
+   "rule": "The books are the object, so use transitive <b>lay</b> (put down). <b>lie</b> takes no object."
+  },
+  {
+   "qid": "c7-12-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "time_prepositions",
+   "prompt": "Fill in the gap.",
+   "before": "Our school reopens",
+   "after": "June.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "Use <b>in</b> with months, seasons and years: <b>in June</b>."
+  },
+  {
+   "qid": "c7-12-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "mist",
+    "had",
+    "cleared",
+    "before",
+    "noon."
+   ],
+   "alts": [],
+   "rule": "Past perfect: <b>had + past participle</b>: <b>had cleared</b>."
+  },
+  {
+   "qid": "c7-12-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "transitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Did you see the sun rise this morning?"
+    ]
+   ],
+   "options": [
+    "Yes, it raised over the sea at six.",
+    "Yes, it rose over the sea at six.",
+    "Yes, it rised over the sea at six."
+   ],
+   "answer": 1,
+   "rule": "The sun <b>rises</b> by itself (no object). Past of <b>rise</b> is <b>rose</b>."
+  },
+  {
+   "qid": "c7-12-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did the coach tell you?"
+    ]
+   ],
+   "options": [
+    "He said me that the match would start at four.",
+    "He said that the match will starts at four.",
+    "He said that the match would start at four."
+   ],
+   "answer": 2,
+   "rule": "<b>said that</b> (no object after <b>said</b>), and <b>will</b> becomes <b>would</b>: <b>would start</b>."
+  },
+  {
+   "qid": "c7-12-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Ned said, \"I see a whale.\"",
+   "options": [
+    "Ned said that I saw a whale.",
+    "Ned said that he seen a whale.",
+    "Ned said that he saw a whale."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b>, and the simple present <b>see</b> moves back to the simple past <b>saw</b>."
+  },
+  {
+   "qid": "c7-12-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "transitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The light disappeared near midnight.",
+    "The light was disappeared near midnight.",
+    "The light disappear near midnight."
+   ],
+   "answer": 0,
+   "rule": "<b>disappear</b> is intransitive, so it cannot be passive: <b>The light disappeared.</b>"
+  },
+  {
+   "qid": "c7-12-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "time_prepositions",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The chase had gone on since an hour.",
+    "The chase had gone on for an hour.",
+    "The chase had gone on from an hour."
+   ],
+   "answer": 1,
+   "rule": "Use <b>for</b> with a length of time (<b>an hour</b>) and <b>since</b> with a starting point (<b>since dawn</b>)."
+  },
+  {
+   "qid": "c7-12-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "shell",
+    "had",
+    "miss",
+    "the",
+    "target,",
+    "the",
+    "commander",
+    "shouted",
+    "angrily."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "missing",
+      "missed",
+      "misses"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The earlier action is past perfect: <b>had + past participle</b> = <b>had missed</b>."
+  },
+  {
+   "qid": "c7-12-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "captain",
+    "told",
+    "the",
+    "storm",
+    "was",
+    "coming",
+    "closer."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "spoke",
+      "talked",
+      "said"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>told</b> needs a person after it (told us). With no person, use <b>said</b>: <b>The captain said the storm was coming closer.</b>"
+  },
+  {
+   "qid": "c7-12-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Farragut said that he",
+   "after": "know what kind of creature it was.",
+   "options": [
+    "not",
+    "did not",
+    "do not"
+   ],
+   "answer": 1,
+   "rule": "After <b>said</b>, the present <b>does not know</b> moves back to the past: <b>did not know</b>. A negative verb needs a helper."
+  },
+  {
+   "qid": "c7-12-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "transitive",
+   "prompt": "Fill in the gap.",
+   "before": "The water level",
+   "after": "after the heavy rain.",
+   "options": [
+    "rose",
+    "raised",
+    "rised"
+   ],
+   "answer": 0,
+   "rule": "There is no object, so use intransitive <b>rise</b>. Its past is <b>rose</b>."
+  },
+  {
+   "qid": "c7-12-27",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "Ned",
+    "said",
+    "that",
+    "he",
+    "could",
+    "hear",
+    "a",
+    "whale."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + subject + backshifted verb (<b>can</b> becomes <b>could</b>)."
+  },
+  {
+   "qid": "c7-12-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you catch the 8 a.m. bus?"
+    ]
+   ],
+   "options": [
+    "No, it had already left when I reached the stop.",
+    "No, it has already left when I reached the stop.",
+    "No, it had already leave when I reached the stop."
+   ],
+   "answer": 0,
+   "rule": "The bus left before I reached, so use the past perfect: <b>had already left</b>."
+  },
+  {
+   "qid": "c7-12-29",
+   "type": "change",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Ned Land launched the harpoon.",
+   "options": [
+    "The harpoon was launched by Ned Land.",
+    "The harpoon was launch by Ned Land.",
+    "The harpoon launched by Ned Land."
+   ],
+   "answer": 0,
+   "rule": "Simple past passive: <b>was + past participle</b>: <b>was launched</b>."
+  },
+  {
+   "qid": "c7-12-30",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join using 'after'.",
+   "source": "The crew loaded the guns. Then they waited for dawn.",
+   "options": [
+    "After the crew had load the guns, they waited for dawn.",
+    "After the crew had loaded the guns, they waited for dawn.",
+    "After the crew has loaded the guns, they waited for dawn."
+   ],
+   "answer": 1,
+   "rule": "The first action takes the past perfect: <b>After the crew had loaded ...</b>, then the simple past."
+  },
+  {
+   "qid": "c7-12-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Was the shell fire by the old gunner?",
+    "Was the shell fired by the old gunner?",
+    "Did the shell fired by the old gunner?"
+   ],
+   "answer": 1,
+   "rule": "Passive question: <b>Was + subject + past participle</b>: <b>Was the shell fired ...?</b>"
+  },
+  {
+   "qid": "c7-12-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "The monster had vanished by dawn, hadn't it?",
+    "The monster had vanished by dawn, didn't it?",
+    "The monster had vanished by dawn, had it?"
+   ],
+   "answer": 0,
+   "rule": "A positive sentence with <b>had</b> takes the negative tag <b>hadn't it?</b>"
+  },
+  {
+   "qid": "c7-12-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "time_prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ships",
+    "have",
+    "used",
+    "sonar",
+    "to",
+    "find",
+    "whales",
+    "since",
+    "many",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "at",
+      "by",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>many years</b> is a length of time, so use <b>for</b>: <b>for many years</b>."
+  },
+  {
+   "qid": "c7-12-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "ship's",
+    "masts",
+    "were",
+    "shake",
+    "by",
+    "the",
+    "strong",
+    "wind."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "shook",
+      "shaking",
+      "shaken"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive: <b>were + past participle</b>. The past participle of <b>shake</b> is <b>shaken</b>."
+  },
+  {
+   "qid": "c7-12-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The animal",
+   "after": "away before the cannon was fired.",
+   "options": [
+    "has swum",
+    "had swam",
+    "had swum"
+   ],
+   "answer": 2,
+   "rule": "Past perfect = <b>had + past participle</b>. <b>swim - swam - swum</b>, so <b>had swum</b>."
+  },
+  {
+   "qid": "c7-12-36",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "harpoon",
+    "was",
+    "thrown",
+    "by",
+    "Ned",
+    "Land."
+   ],
+   "alts": [],
+   "rule": "Passive: object + <b>was + past participle</b> + <b>by</b> + doer: <b>was thrown by Ned Land</b>."
+  },
+  {
+   "qid": "c7-12-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "time_prepositions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "How long have you lived in Ratnagiri?"
+    ]
+   ],
+   "options": [
+    "We have lived here since six years.",
+    "We have lived here for six years.",
+    "We are living here for six years."
+   ],
+   "answer": 1,
+   "rule": "<b>How long</b> asks for the present perfect + <b>for</b> a length of time: <b>have lived here for six years</b>."
+  },
+  {
+   "qid": "c7-12-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did the guide ask you at the aquarium?"
+    ]
+   ],
+   "options": [
+    "He asked whether I had ever seen a whale.",
+    "He asked whether had I ever seen a whale.",
+    "He asked whether I have ever saw a whale."
+   ],
+   "answer": 0,
+   "rule": "A reported question uses statement order: <b>whether I had ever seen</b>."
+  },
+  {
+   "qid": "c7-12-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "The Commander said, \"We will wait for daylight.\"",
+   "options": [
+    "The Commander said that we will wait for daylight.",
+    "The Commander said that they will waited for daylight.",
+    "The Commander said that they would wait for daylight."
+   ],
+   "answer": 2,
+   "rule": "<b>We</b> becomes <b>they</b>, and <b>will</b> becomes <b>would</b>: <b>they would wait</b>."
+  },
+  {
+   "qid": "c7-12-40",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The order was given by the Commander.",
+   "options": [
+    "The Commander given the order.",
+    "The Commander gives the order.",
+    "The Commander gave the order."
+   ],
+   "answer": 2,
+   "rule": "<b>was given</b> is simple past passive, so the active is simple past: <b>The Commander gave the order.</b>"
+  },
+  {
+   "qid": "c7-12-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Aronnax said me that he had never seen such a fast creature before.",
+    "Aronnax said that he had never saw such a fast creature before.",
+    "Aronnax said that he had never seen such a fast creature before."
+   ],
+   "answer": 2,
+   "rule": "<b>said that</b> (no object), and past perfect needs the past participle: <b>had never seen</b>."
+  },
+  {
+   "qid": "c7-12-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "transitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Exhausted after the chase, the sailors laid on the deck until dawn.",
+    "Exhausted after the chase, the sailors lay on the deck until dawn.",
+    "Exhausted after the chase, the sailors lain on the deck until dawn."
+   ],
+   "answer": 1,
+   "rule": "The sailors rested with no object, so use <b>lie</b>. Its past is <b>lay</b>. <b>laid</b> needs an object."
+  },
+  {
+   "qid": "c7-12-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "time_prepositions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "one",
+    "on",
+    "the",
+    "frigate",
+    "had",
+    "slept",
+    "since",
+    "twenty",
+    "hours,",
+    "yet",
+    "the",
+    "crew",
+    "kept",
+    "going."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "from",
+      "for",
+      "at"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>twenty hours</b> is a length of time, so use <b>for</b>: <b>No one had slept for twenty hours</b>."
+  },
+  {
+   "qid": "c7-12-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "sunrise,",
+    "the",
+    "whaling",
+    "gear",
+    "had",
+    "been",
+    "fix",
+    "along",
+    "the",
+    "railings",
+    "of",
+    "the",
+    "frigate."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "fixing",
+      "fixed",
+      "fixes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>had been + past participle</b> (past perfect passive): <b>had been fixed</b>."
+  },
+  {
+   "qid": "c7-12-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "transitive",
+   "prompt": "Fill in the gap.",
+   "before": "The harpooner",
+   "after": "his arm and hurled the harpoon with all his strength.",
+   "options": [
+    "raised",
+    "rose",
+    "risen"
+   ],
+   "answer": 0,
+   "rule": "<b>his arm</b> is an object, so use transitive <b>raise - raised</b>, matching <b>hurled</b>."
+  },
+  {
+   "qid": "c7-12-46",
+   "type": "build",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "By",
+    "eight",
+    "o'clock,",
+    "the",
+    "mist",
+    "had",
+    "rolled",
+    "away."
+   ],
+   "alts": [],
+   "rule": "<b>By + a past time</b> often takes the past perfect: <b>had rolled away</b>."
+  },
+  {
+   "qid": "c7-12-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Ned Land tell the Commander?"
+    ]
+   ],
+   "options": [
+    "He told him that there was definitely a whale in their waters.",
+    "He told to him that there was definitely a whale in their waters.",
+    "He told him that there were definitely a whale in their waters."
+   ],
+   "answer": 0,
+   "rule": "<b>told him</b> (no <b>to</b>), and <b>a whale</b> is singular: <b>there was</b>."
+  },
+  {
+   "qid": "c7-12-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "Has the old ship been repaired yet?"
+    ]
+   ],
+   "options": [
+    "Yes, it has repaired and painted too.",
+    "Yes, it has been repaired and painted too.",
+    "Yes, it has been repair and painted too."
+   ],
+   "answer": 1,
+   "rule": "The ship does not repair itself, so use the passive: <b>has been repaired</b>."
+  },
+  {
+   "qid": "c7-12-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Ned Land said, \"There is a whale lurking in our waters.\"",
+   "options": [
+    "Ned Land said that there were a whale lurking in their waters.",
+    "Ned Land said that there is a whale lurking in our waters.",
+    "Ned Land said that there was a whale lurking in their waters."
+   ],
+   "answer": 2,
+   "rule": "<b>is</b> becomes <b>was</b> and <b>our</b> becomes <b>their</b>: <b>there was a whale ... in their waters</b>."
+  },
+  {
+   "qid": "c7-12-50",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The crew greeted the order with three cheers.",
+   "options": [
+    "The order was greeted by the crew with three cheers.",
+    "The order is greeted by the crew with three cheers.",
+    "The order was greet by the crew with three cheers."
+   ],
+   "answer": 0,
+   "rule": "Simple past active becomes <b>was + past participle</b>: <b>The order was greeted by the crew</b>."
+  }
+ ]
+}

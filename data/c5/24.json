@@ -1,0 +1,989 @@
+{
+ "class": 5,
+ "id": "24",
+ "title": "Senses Alert",
+ "topics": [
+  {
+   "tag": "present_continuous",
+   "name": "Present continuous tense"
+  },
+  {
+   "tag": "sense_verbs",
+   "name": "Sense words: looks / sounds / smells / feels / tastes + adjective"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an / the"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present (he / she / it + -s)"
+  },
+  {
+   "tag": "some_any",
+   "name": "some / any"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-24-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sense_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The mango tastes sweet.",
+    "The mango taste sweet.",
+    "The mango tastes sweetly."
+   ],
+   "answer": 0,
+   "rule": "After sense verbs like <b>tastes</b>, use an adjective: tastes <b>sweet</b>. One mango takes -s."
+  },
+  {
+   "qid": "c5-24-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "I can hear an owl.",
+    "I can hear a owl.",
+    "I can hear an owls."
+   ],
+   "answer": 0,
+   "rule": "<b>owl</b> starts with a vowel sound, so use <b>an</b>. 'an' goes with one thing only."
+  },
+  {
+   "qid": "c5-24-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The kitten is looking at a ball.",
+    "The kitten is look at a ball.",
+    "The kitten are looking at a ball."
+   ],
+   "answer": 0,
+   "rule": "Present continuous = <b>is</b> + verb<b>-ing</b>. One kitten takes <b>is</b>: is looking."
+  },
+  {
+   "qid": "c5-24-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "sense_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "baby's",
+    "skin",
+    "feels",
+    "softly",
+    "and",
+    "warm."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "softness",
+      "soft",
+      "soften"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>feels</b>, use an adjective, not an -ly adverb: feels <b>soft</b> and warm."
+  },
+  {
+   "qid": "c5-24-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "morning,",
+    "Grandma",
+    "light",
+    "an",
+    "incense",
+    "stick."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lighting",
+      "lightly",
+      "lights"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A daily habit with one person (Grandma) takes the simple present with <b>-s</b>: <b>lights</b>."
+  },
+  {
+   "qid": "c5-24-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "sense_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "The lemon tastes",
+   "after": ".",
+   "options": [
+    "sourly",
+    "sourness",
+    "sour"
+   ],
+   "answer": 2,
+   "rule": "After <b>tastes</b>, use an adjective to describe the taste: tastes <b>sour</b>."
+  },
+  {
+   "qid": "c5-24-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "I can see",
+   "after": "elephant in the photograph.",
+   "options": [
+    "a",
+    "many",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>elephant</b> starts with a vowel sound and is one animal, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-24-08",
+   "type": "build",
+   "level": 1,
+   "topic": "present_continuous",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "dog",
+    "is",
+    "barking",
+    "loudly."
+   ],
+   "alts": [],
+   "rule": "Present continuous: subject + <b>is</b> + verb-ing. <b>loudly</b> tells how."
+  },
+  {
+   "qid": "c5-24-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "sense_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "How does the cake taste?"
+    ]
+   ],
+   "options": [
+    "It tastes yummy!",
+    "It taste yummy!",
+    "It tastes yummily!"
+   ],
+   "answer": 0,
+   "rule": "With <b>it</b>, add -s: <b>tastes</b>. After a sense verb, use an adjective: <b>yummy</b>."
+  },
+  {
+   "qid": "c5-24-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "some_any",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Do we have any milk?"
+    ]
+   ],
+   "options": [
+    "Yes, we have any milk.",
+    "Yes, we has some milk.",
+    "Yes, we have some milk."
+   ],
+   "answer": 2,
+   "rule": "In a 'yes' (positive) sentence, use <b>some</b>. With <b>we</b>, use <b>have</b>."
+  },
+  {
+   "qid": "c5-24-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "some_any",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "There isn't some noise in the room.",
+    "There aren't any noise in the room.",
+    "There isn't any noise in the room."
+   ],
+   "answer": 2,
+   "rule": "In negative sentences use <b>any</b>. Noise cannot be counted, so use <b>isn't</b>."
+  },
+  {
+   "qid": "c5-24-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The photograph show a tiny black kitten.",
+    "The photograph shows a tiny black kitten.",
+    "The photograph showing a tiny black kitten."
+   ],
+   "answer": 1,
+   "rule": "<b>The photograph</b> is one thing, so the simple present verb takes -s: <b>shows</b>."
+  },
+  {
+   "qid": "c5-24-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Listen!",
+    "My",
+    "two",
+    "sisters",
+    "is",
+    "singing",
+    "a",
+    "sweet",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Two sisters</b> is plural, so use <b>are</b>: are singing."
+  },
+  {
+   "qid": "c5-24-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "sense_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rotten",
+    "eggs",
+    "smell",
+    "badly",
+    "in",
+    "the",
+    "kitchen."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "badness",
+      "sadly",
+      "bad"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>smell</b>, use an adjective: the eggs smell <b>bad</b>."
+  },
+  {
+   "qid": "c5-24-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "some_any",
+   "prompt": "Fill in the gap.",
+   "before": "We do not have",
+   "after": "sticky sweets at home.",
+   "options": [
+    "any",
+    "some",
+    "a"
+   ],
+   "answer": 0,
+   "rule": "In a negative sentence (<b>do not</b>), use <b>any</b>."
+  },
+  {
+   "qid": "c5-24-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The car gave",
+   "after": "loud honk.",
+   "options": [
+    "a",
+    "an",
+    "any"
+   ],
+   "answer": 0,
+   "rule": "<b>loud</b> starts with a consonant sound, so use <b>a</b>: a loud honk."
+  },
+  {
+   "qid": "c5-24-17",
+   "type": "build",
+   "level": 2,
+   "topic": "sense_verbs",
+   "prompt": "Describe how it feels.",
+   "answer": [
+    "The",
+    "sand",
+    "feels",
+    "hot",
+    "and",
+    "dry."
+   ],
+   "alts": [],
+   "rule": "<b>feels</b> + adjectives: the sand feels <b>hot</b> and <b>dry</b>."
+  },
+  {
+   "qid": "c5-24-18",
+   "type": "build",
+   "level": 2,
+   "topic": "some_any",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "there",
+    "any",
+    "mangoes",
+    "in",
+    "the",
+    "basket?"
+   ],
+   "alts": [],
+   "rule": "In questions, use <b>any</b>: Are there <b>any</b> mangoes?"
+  },
+  {
+   "qid": "c5-24-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "What can you see in the picture?"
+    ]
+   ],
+   "options": [
+    "I can see a owl on a branch.",
+    "I can see an owl on a branch.",
+    "I can see an owl on an branch."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> before a vowel sound (an owl), <b>a</b> before a consonant sound (a branch)."
+  },
+  {
+   "qid": "c5-24-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "present_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "What is the baby doing?"
+    ]
+   ],
+   "options": [
+    "She playing with a rattle.",
+    "She is playing with a rattle.",
+    "She is play with a rattle."
+   ],
+   "answer": 1,
+   "rule": "Present continuous needs <b>is</b> + verb<b>-ing</b>: she is playing."
+  },
+  {
+   "qid": "c5-24-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sense_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The old rope feels roughly and hard.",
+    "The old rope feels rough and hard.",
+    "The old rope feel rough and hard."
+   ],
+   "answer": 1,
+   "rule": "<b>feels</b> + adjectives: rough and hard. The rope is one thing, so the verb takes -s."
+  },
+  {
+   "qid": "c5-24-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "An umbrella is lying on the wet grass.",
+    "A umbrella is lying on the wet grass.",
+    "An umbrella are lying on the wet grass."
+   ],
+   "answer": 0,
+   "rule": "<b>umbrella</b> starts with a vowel sound: <b>an</b>. One umbrella takes <b>is</b>."
+  },
+  {
+   "qid": "c5-24-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "some_any",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Is there any frogs near the lake?",
+    "Are there any frog near the lake?",
+    "Are there any frogs near the lake?"
+   ],
+   "answer": 2,
+   "rule": "Questions use <b>any</b>. Frogs is plural, so use <b>Are there</b> + a plural noun."
+  },
+  {
+   "qid": "c5-24-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "white",
+    "smoke",
+    "are",
+    "curling",
+    "up",
+    "slowly."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "were",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Smoke</b> cannot be counted, so it takes <b>is</b>: is curling."
+  },
+  {
+   "qid": "c5-24-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Godavari",
+    "flow",
+    "gently",
+    "past",
+    "our",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "flows",
+      "flowing",
+      "flown"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>The Godavari</b> is one river, so the simple present verb takes -s: <b>flows</b>."
+  },
+  {
+   "qid": "c5-24-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "sense_verbs",
+   "prompt": "Fill in the gap.",
+   "before": "The freshly baked bread smells",
+   "after": ".",
+   "options": [
+    "deliciously",
+    "delicious",
+    "delicacy"
+   ],
+   "answer": 1,
+   "rule": "After <b>smells</b>, use an adjective: smells <b>delicious</b>."
+  },
+  {
+   "qid": "c5-24-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "some_any",
+   "prompt": "Fill in the gap.",
+   "before": "Mother bought",
+   "after": "fresh vegetables from the market.",
+   "options": [
+    "any",
+    "some",
+    "a"
+   ],
+   "answer": 1,
+   "rule": "In a positive sentence, use <b>some</b>: bought <b>some</b> vegetables."
+  },
+  {
+   "qid": "c5-24-28",
+   "type": "build",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "An",
+    "owl",
+    "hooted",
+    "in",
+    "the",
+    "dark."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> before the vowel sound of owl; <b>the</b> dark = a particular darkness we know."
+  },
+  {
+   "qid": "c5-24-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "some_any",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Can I have some popcorn?"
+    ]
+   ],
+   "options": [
+    "Sorry, there isn't some left.",
+    "Sorry, there no any left.",
+    "Sorry, there isn't any left."
+   ],
+   "answer": 2,
+   "rule": "In a negative sentence (<b>isn't</b>), use <b>any</b>: there isn't <b>any</b> left."
+  },
+  {
+   "qid": "c5-24-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "sense_verbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How does the music sound?"
+    ]
+   ],
+   "options": [
+    "It sounds sweet and soft.",
+    "It sound sweet and soft.",
+    "It sounds sweetly and soft."
+   ],
+   "answer": 0,
+   "rule": "With <b>it</b>, add -s: <b>sounds</b>. After a sense verb, use adjectives: sweet and soft."
+  },
+  {
+   "qid": "c5-24-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "sense_verbs",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Yesterday the market smells of fresh mangoes.",
+    "Yesterday the market smelled of fresh mangoes.",
+    "Yesterday the market smelling of fresh mangoes."
+   ],
+   "answer": 1,
+   "rule": "<b>Yesterday</b> shows the past, so use the past form: <b>smelled</b>."
+  },
+  {
+   "qid": "c5-24-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We saw an huge elephant at the zoo.",
+    "We saw a huge elephant at the zoo.",
+    "We seen a huge elephant at the zoo."
+   ],
+   "answer": 1,
+   "rule": "<b>huge</b> starts with a consonant sound: <b>a</b> huge elephant. Past of see is <b>saw</b>."
+  },
+  {
+   "qid": "c5-24-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Two",
+    "sheeps",
+    "are",
+    "eating",
+    "the",
+    "green",
+    "grass."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "sheep",
+      "lamb",
+      "goat"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Sheep</b> is the same in singular and plural: one sheep, two <b>sheep</b>."
+  },
+  {
+   "qid": "c5-24-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "sense_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "pillow",
+    "feels",
+    "soft",
+    "than",
+    "that",
+    "one."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "softest",
+      "softly",
+      "softer"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparing two things with <b>than</b> needs the <b>-er</b> form: feels <b>softer</b> than."
+  },
+  {
+   "qid": "c5-24-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Last Sunday, we visited",
+   "after": "old fort.",
+   "options": [
+    "a",
+    "an",
+    "many"
+   ],
+   "answer": 1,
+   "rule": "<b>old</b> starts with a vowel sound, so use <b>an</b>: an old fort."
+  },
+  {
+   "qid": "c5-24-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "some_any",
+   "prompt": "Fill in the gap.",
+   "before": "There",
+   "after": "some sweets on the plate.",
+   "options": [
+    "was",
+    "were",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>Some sweets</b> is plural, so use the plural verb <b>were</b>."
+  },
+  {
+   "qid": "c5-24-37",
+   "type": "build",
+   "level": 4,
+   "topic": "sense_verbs",
+   "prompt": "Describe the taste.",
+   "answer": [
+    "The",
+    "soup",
+    "tasted",
+    "too",
+    "salty."
+   ],
+   "alts": [],
+   "rule": "<b>tasted</b> (past) + adjective: tasted too <b>salty</b>."
+  },
+  {
+   "qid": "c5-24-38",
+   "type": "build",
+   "level": 4,
+   "topic": "present_continuous",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "A",
+    "cat",
+    "is",
+    "hiding",
+    "under",
+    "the",
+    "bed."
+   ],
+   "alts": [],
+   "rule": "Present continuous: <b>is hiding</b>. <b>under</b> tells the place."
+  },
+  {
+   "qid": "c5-24-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "What did you see at the station?"
+    ]
+   ],
+   "options": [
+    "I saw a engine and a long train.",
+    "I saw an engine and a long train.",
+    "I see an engine and a long train."
+   ],
+   "answer": 1,
+   "rule": "<b>an engine</b> (vowel sound), <b>a long</b> train. The question is past, so use <b>saw</b>."
+  },
+  {
+   "qid": "c5-24-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "When does the shop open?"
+    ]
+   ],
+   "options": [
+    "It opens at nine o'clock.",
+    "It open at nine o'clock.",
+    "It opens on nine o'clock."
+   ],
+   "answer": 0,
+   "rule": "With <b>it</b>, add -s: <b>opens</b>. Use <b>at</b> for a clock time."
+  },
+  {
+   "qid": "c5-24-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sense_verbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The rain is falling softly, and the wet earth smells fresh.",
+    "The rain is falling softly, and the wet earth smell fresh.",
+    "The rain are falling softly, and the wet earth smells fresh."
+   ],
+   "answer": 0,
+   "rule": "<b>The rain</b> takes <b>is</b>; <b>the earth</b> (one thing) takes <b>smells</b> + adjective fresh."
+  },
+  {
+   "qid": "c5-24-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An eagle is flying high above the hills.",
+    "A eagle is flying high above the hills.",
+    "An eagle is fly high above the hills."
+   ],
+   "answer": 0,
+   "rule": "<b>eagle</b> starts with a vowel sound: <b>an</b> eagle. Present continuous: is fly<b>ing</b>."
+  },
+  {
+   "qid": "c5-24-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "little",
+    "brother",
+    "always",
+    "whisper",
+    "a",
+    "secret",
+    "before",
+    "he",
+    "sleeps."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whispering",
+      "whispered",
+      "whispers"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A habit (<b>always</b>) with one person (my brother) takes -s: <b>whispers</b>, like <b>sleeps</b>."
+  },
+  {
+   "qid": "c5-24-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "sense_verbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "After",
+    "the",
+    "rain,",
+    "the",
+    "garden",
+    "looks",
+    "greenly",
+    "and",
+    "fresh."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "greenery",
+      "greenness",
+      "green"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>looks</b>, use adjectives: looks <b>green</b> and fresh."
+  },
+  {
+   "qid": "c5-24-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "Look! Two butterflies",
+   "after": "around the bright flowers.",
+   "options": [
+    "are fluttering",
+    "is fluttering",
+    "flutters"
+   ],
+   "answer": 0,
+   "rule": "<b>Look!</b> = happening now. Two butterflies is plural: <b>are fluttering</b>."
+  },
+  {
+   "qid": "c5-24-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The honk of",
+   "after": "old bus woke the whole street.",
+   "options": [
+    "a",
+    "any",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>old</b> begins with a vowel sound, so use <b>an</b>: an old bus."
+  },
+  {
+   "qid": "c5-24-47",
+   "type": "build",
+   "level": 5,
+   "topic": "some_any",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Nobody",
+    "is",
+    "making",
+    "any",
+    "noise."
+   ],
+   "alts": [],
+   "rule": "<b>Nobody</b> makes the sentence negative, so use <b>any</b>: making any noise."
+  },
+  {
+   "qid": "c5-24-48",
+   "type": "build",
+   "level": 5,
+   "topic": "sense_verbs",
+   "prompt": "Describe the taste.",
+   "answer": [
+    "The",
+    "sticky",
+    "honey",
+    "tastes",
+    "very",
+    "sweet."
+   ],
+   "alts": [
+    [
+     "The",
+     "very",
+     "sticky",
+     "honey",
+     "tastes",
+     "sweet."
+    ]
+   ],
+   "rule": "Adjective before the noun (<b>sticky honey</b>), and adjective after the sense verb (<b>tastes very sweet</b>)."
+  },
+  {
+   "qid": "c5-24-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "some_any",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did you hear any sounds in the forest?"
+    ]
+   ],
+   "options": [
+    "Yes, I heard any birds and a loud crash.",
+    "Yes, I heard some birds and a loud crash.",
+    "Yes, I hear some birds and a loud crash."
+   ],
+   "answer": 1,
+   "rule": "A positive answer uses <b>some</b>. The question is past (<b>did</b>), so use <b>heard</b>."
+  },
+  {
+   "qid": "c5-24-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "What does your grandmother do every evening?"
+    ]
+   ],
+   "options": [
+    "She light a lamp and sings softly.",
+    "She lights a lamp and sing softly.",
+    "She lights a lamp and sings softly."
+   ],
+   "answer": 2,
+   "rule": "A daily habit with <b>she</b>: both verbs take -s: <b>lights</b> and <b>sings</b>."
+  }
+ ]
+}

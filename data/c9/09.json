@@ -1,0 +1,1210 @@
+{
+ "class": 9,
+ "id": "09",
+ "title": "The Fall of Troy",
+ "topics": [
+  {
+   "tag": "too_enough_so_that",
+   "name": "too ... to, enough to, so ... that"
+  },
+  {
+   "tag": "adj_preposition",
+   "name": "Adjective + preposition (tired of, afraid of, famous for)"
+  },
+  {
+   "tag": "conditional_3",
+   "name": "Third conditional (unreal past)"
+  },
+  {
+   "tag": "clauses",
+   "name": "Clauses and linking words in complex sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-09-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "too_enough_so_that",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The horse was too big to go through the gate.",
+    "The horse was too big for go through the gate.",
+    "The horse was too big that go through the gate."
+   ],
+   "answer": 0,
+   "rule": "The pattern is <b>too</b> + adjective + <b>to</b> + verb: too big to go."
+  },
+  {
+   "qid": "c9-09-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adj_preposition",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Greeks were tired of the long war.",
+    "The Greeks were tired on the long war.",
+    "The Greeks were tired at the long war."
+   ],
+   "answer": 0,
+   "rule": "When you have had enough of something, you are <b>tired of</b> it."
+  },
+  {
+   "qid": "c9-09-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "too_enough_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "walls",
+    "were",
+    "so",
+    "high",
+    "than",
+    "no",
+    "enemy",
+    "could",
+    "climb",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "as",
+      "then",
+      "that"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The pair is <b>so</b> ... <b>that</b>: so high that no enemy could climb them."
+  },
+  {
+   "qid": "c9-09-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adj_preposition",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "is",
+    "very",
+    "fond",
+    "of",
+    "read",
+    "old",
+    "Greek",
+    "myths."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "reads",
+      "reading",
+      "reader"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a preposition (<b>fond of</b>), a verb takes the -ing form: <b>fond of reading</b>."
+  },
+  {
+   "qid": "c9-09-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adj_preposition",
+   "prompt": "Fill in the gap.",
+   "before": "Odysseus was famous",
+   "after": "his clever tricks.",
+   "options": [
+    "of",
+    "for",
+    "with"
+   ],
+   "answer": 1,
+   "rule": "We are <b>famous for</b> something we are known for."
+  },
+  {
+   "qid": "c9-09-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "too_enough_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The horse was big",
+   "after": "to hold many soldiers.",
+   "options": [
+    "too",
+    "enough",
+    "so"
+   ],
+   "answer": 1,
+   "rule": "<b>enough</b> comes after the adjective: big enough to hold."
+  },
+  {
+   "qid": "c9-09-07",
+   "type": "build",
+   "level": 1,
+   "topic": "too_enough_so_that",
+   "prompt": "Make a sentence with 'too'.",
+   "answer": [
+    "The",
+    "gates",
+    "were",
+    "too",
+    "narrow",
+    "for",
+    "the",
+    "horse."
+   ],
+   "alts": [],
+   "rule": "<b>too narrow for</b> + noun shows that something is more than the limit."
+  },
+  {
+   "qid": "c9-09-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adj_preposition",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why did the Trojans open their gates?"
+    ]
+   ],
+   "options": [
+    "They were tired of staying inside the walls.",
+    "They were tired of stay inside the walls.",
+    "They were tired on staying inside the walls."
+   ],
+   "answer": 0,
+   "rule": "<b>tired of</b> + -ing form: tired of staying."
+  },
+  {
+   "qid": "c9-09-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "Could the Trojans have saved their city?"
+    ]
+   ],
+   "options": [
+    "Yes, if they listen to the priest, they would have saved it.",
+    "Yes, if they had listened to the priest, they will save it.",
+    "Yes, if they had listened to the priest, they would have saved it."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>if + had + past participle</b>, <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-09-10",
+   "type": "change",
+   "level": 1,
+   "topic": "too_enough_so_that",
+   "prompt": "Rewrite using 'too ... to'.",
+   "source": "The horse was so big that it could not go through the gate.",
+   "options": [
+    "The horse was too big to not go through the gate.",
+    "The horse was too big to go through the gate.",
+    "The horse was too big that it go through the gate."
+   ],
+   "answer": 1,
+   "rule": "<b>too ... to</b> already has a negative meaning, so drop 'not': too big to go."
+  },
+  {
+   "qid": "c9-09-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Homer was a blind poet which wandered from city to city.",
+    "Homer was a blind poet who he wandered from city to city.",
+    "Homer was a blind poet who wandered from city to city."
+   ],
+   "answer": 2,
+   "rule": "For a person, the adjective clause starts with <b>who</b>, and 'who' is its subject (no extra 'he')."
+  },
+  {
+   "qid": "c9-09-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the Trojans had burnt the horse, the Greeks would have fail.",
+    "If the Trojans would have burnt the horse, the Greeks would have failed.",
+    "If the Trojans had burnt the horse, the Greeks would have failed."
+   ],
+   "answer": 2,
+   "rule": "No 'would' in the if-clause. Use <b>had burnt</b> ... <b>would have failed</b>."
+  },
+  {
+   "qid": "c9-09-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "too_enough_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "That",
+    "day",
+    "the",
+    "Trojans",
+    "were",
+    "so",
+    "excited",
+    "that",
+    "they",
+    "pay",
+    "no",
+    "attention",
+    "to",
+    "the",
+    "priest."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "paid",
+      "pays",
+      "paying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "'That day' and 'were' are past, so the 'that' clause is also past: <b>paid</b>."
+  },
+  {
+   "qid": "c9-09-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Achilles",
+    "was",
+    "a",
+    "hero",
+    "which",
+    "nobody",
+    "could",
+    "defeat."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "whom",
+      "where"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A hero is a person, and here he is the object of 'defeat', so use <b>whom</b> (or who/that)."
+  },
+  {
+   "qid": "c9-09-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "adj_preposition",
+   "prompt": "Fill in the gap.",
+   "before": "The Trojans were delighted",
+   "after": "the news of peace.",
+   "options": [
+    "at",
+    "to",
+    "on"
+   ],
+   "answer": 0,
+   "rule": "We say <b>delighted at</b> (or with) the news, not 'to' or 'on'."
+  },
+  {
+   "qid": "c9-09-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Fill in the gap.",
+   "before": "If the Greeks had not used a trick, they",
+   "after": "Troy.",
+   "options": [
+    "might never take",
+    "might never have taken",
+    "had never taken"
+   ],
+   "answer": 1,
+   "rule": "The result of an unreal past is <b>might/would have + past participle</b>."
+  },
+  {
+   "qid": "c9-09-17",
+   "type": "build",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Make a sentence with an adjective clause.",
+   "answer": [
+    "Homer",
+    "was",
+    "a",
+    "poet",
+    "who",
+    "could",
+    "not",
+    "see."
+   ],
+   "alts": [],
+   "rule": "<b>who could not see</b> is an adjective clause describing 'a poet'."
+  },
+  {
+   "qid": "c9-09-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "too_enough_so_that",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mitali",
+     "Can your little brother read The Iliad?"
+    ]
+   ],
+   "options": [
+    "No, he is too young to understand it.",
+    "No, he is too young that he understands it.",
+    "No, he is not enough old to understand it."
+   ],
+   "answer": 0,
+   "rule": "Use <b>too young to</b>, or 'not old enough to'. 'enough' goes after the adjective."
+  },
+  {
+   "qid": "c9-09-19",
+   "type": "change",
+   "level": 2,
+   "topic": "too_enough_so_that",
+   "prompt": "Rewrite using 'enough'.",
+   "source": "The wall was so broad that people could walk on it.",
+   "options": [
+    "The wall was broad enough for people to walk on.",
+    "The wall was enough broad for people to walk on.",
+    "The wall was broad enough that people to walk on."
+   ],
+   "answer": 0,
+   "rule": "Adjective + <b>enough</b> + <b>for</b> someone + <b>to</b> + verb: broad enough for people to walk on."
+  },
+  {
+   "qid": "c9-09-20",
+   "type": "change",
+   "level": 2,
+   "topic": "clauses",
+   "prompt": "Join using 'which'.",
+   "source": "Troy was a rich city. It stood near the sea.",
+   "options": [
+    "Troy was a rich city which it stood near the sea.",
+    "Troy was a rich city who stood near the sea.",
+    "Troy was a rich city which stood near the sea."
+   ],
+   "answer": 2,
+   "rule": "<b>which</b> replaces 'It', so 'it' is dropped. Use 'which' for a place or thing."
+  },
+  {
+   "qid": "c9-09-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adj_preposition",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Menelaus was angry on Paris for taking Helen away.",
+    "Menelaus was angry with Paris for take Helen away.",
+    "Menelaus was angry with Paris for taking Helen away."
+   ],
+   "answer": 2,
+   "rule": "We are <b>angry with</b> a person, and after 'for' we use the -ing form: <b>for taking</b>."
+  },
+  {
+   "qid": "c9-09-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Which sentence has the correct noun clause?",
+   "options": [
+    "The Trojans wondered how had the horse been built.",
+    "The Trojans wondered how the horse had been built.",
+    "The Trojans wondered how the horse had been build."
+   ],
+   "answer": 1,
+   "rule": "A noun clause uses statement order (subject before helper): <b>how the horse had been built</b>."
+  },
+  {
+   "qid": "c9-09-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "priest",
+    "had",
+    "been",
+    "heard,",
+    "the",
+    "city",
+    "would",
+    "not",
+    "have",
+    "burn",
+    "down."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "burning",
+      "burns",
+      "burnt"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>would not have</b>, use the past participle: <b>burnt</b> down (or burned)."
+  },
+  {
+   "qid": "c9-09-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "too_enough_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "horse",
+    "was",
+    "too",
+    "heavy",
+    "for",
+    "ten",
+    "men",
+    "to",
+    "lifted",
+    "without",
+    "ropes."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "lifting",
+      "lifts",
+      "lift"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>to</b> in 'too ... to', use the base form: <b>to lift</b>."
+  },
+  {
+   "qid": "c9-09-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "too_enough_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The Greek ships were",
+   "after": "far away that nobody could see them.",
+   "options": [
+    "so",
+    "too",
+    "such"
+   ],
+   "answer": 0,
+   "rule": "Adjective/adverb + 'that' clause: <b>so far away that</b>. 'such' needs a noun; 'too' takes 'to'."
+  },
+  {
+   "qid": "c9-09-26",
+   "type": "build",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "If",
+    "they",
+    "had",
+    "listened,",
+    "Troy",
+    "would",
+    "have",
+    "survived."
+   ],
+   "alts": [],
+   "rule": "<b>If + had + past participle</b>, <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-09-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Do you know who built the wooden horse?"
+    ]
+   ],
+   "options": [
+    "Yes, a skilful engineer, which knew its secret door.",
+    "Yes, a skilful engineer who knew its secret door.",
+    "Yes, a skilful engineer who he knew its secret door."
+   ],
+   "answer": 1,
+   "rule": "An engineer is a person, so use <b>who</b>; 'who' is the subject, so no extra 'he'."
+  },
+  {
+   "qid": "c9-09-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "adj_preposition",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why didn't Kunal play today?"
+    ]
+   ],
+   "options": [
+    "He was afraid of hurting his ankle again.",
+    "He was afraid for hurt his ankle again.",
+    "He was afraid of hurt his ankle again."
+   ],
+   "answer": 0,
+   "rule": "<b>afraid of</b> + -ing form: afraid of hurting."
+  },
+  {
+   "qid": "c9-09-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Combine using 'If' (third conditional).",
+   "source": "The Trojans broke the wall. So the Greeks got inside.",
+   "options": [
+    "If the Trojans did not break the wall, the Greeks would not have got inside.",
+    "If the Trojans had not broke the wall, the Greeks would not have got inside.",
+    "If the Trojans had not broken the wall, the Greeks would not have got inside."
+   ],
+   "answer": 2,
+   "rule": "Turn the past fact into its opposite: <b>had not broken</b> ..., <b>would not have got</b> ..."
+  },
+  {
+   "qid": "c9-09-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "too_enough_so_that",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "That",
+    "morning,",
+    "the",
+    "Trojans",
+    "were",
+    "so",
+    "happy",
+    "that",
+    "they",
+    "open",
+    "the",
+    "gates.",
+    "They",
+    "were",
+    "surprised",
+    "to",
+    "seen",
+    "a",
+    "huge",
+    "wooden",
+    "horse",
+    "on",
+    "the",
+    "shore."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "opens",
+      "opened",
+      "opening"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "saw",
+      "see",
+      "seeing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The story is past, so <b>they opened</b>. After 'to', use the base form: <b>to see</b>."
+  },
+  {
+   "qid": "c9-09-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "too_enough_so_that",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The priest was too wise to be fooled by the trick.",
+    "The priest was too wise to be fool by the trick.",
+    "The priest was too wise for be fooled by the trick."
+   ],
+   "answer": 0,
+   "rule": "too ... <b>to</b> + passive infinitive: <b>to be fooled</b> (be + past participle)."
+  },
+  {
+   "qid": "c9-09-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Greek",
+    "who",
+    "was",
+    "left",
+    "behind",
+    "pretend",
+    "to",
+    "be",
+    "very",
+    "frightened."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "pretended",
+      "pretending",
+      "pretender"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The main verb of 'The Greek' must be past like the clause: <b>pretended</b>."
+  },
+  {
+   "qid": "c9-09-33",
+   "type": "fill",
+   "level": 4,
+   "topic": "adj_preposition",
+   "prompt": "Fill in the gap.",
+   "before": "Hector was not only brave but also capable",
+   "after": "leading an army.",
+   "options": [
+    "to",
+    "for",
+    "of"
+   ],
+   "answer": 2,
+   "rule": "We say <b>capable of</b> + -ing form."
+  },
+  {
+   "qid": "c9-09-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Fill in the gap.",
+   "before": "The Trojans did not know",
+   "after": "the Greeks had really gone.",
+   "options": [
+    "unless",
+    "whether",
+    "what"
+   ],
+   "answer": 1,
+   "rule": "A yes/no doubt becomes a noun clause with <b>whether</b> (or if)."
+  },
+  {
+   "qid": "c9-09-35",
+   "type": "build",
+   "level": 4,
+   "topic": "too_enough_so_that",
+   "prompt": "Make a sentence with 'so ... that'.",
+   "answer": [
+    "They",
+    "were",
+    "so",
+    "excited",
+    "that",
+    "they",
+    "forgot",
+    "everything."
+   ],
+   "alts": [],
+   "rule": "<b>so</b> + adjective + <b>that</b> + result clause."
+  },
+  {
+   "qid": "c9-09-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "You missed the school bus again!"
+    ]
+   ],
+   "options": [
+    "Sorry, if I had woken up early, I would have caught it.",
+    "Sorry, if I wake up early, I would have caught it.",
+    "Sorry, if I had woken up early, I will catch it."
+   ],
+   "answer": 0,
+   "rule": "Regret about the past: <b>if I had woken</b> ..., <b>I would have caught</b> ..."
+  },
+  {
+   "qid": "c9-09-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "adj_preposition",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rina",
+     "Are you ready for the history quiz on Troy?"
+    ]
+   ],
+   "options": [
+    "Yes, I'm quite good at remembering names and dates.",
+    "Yes, I'm quite good on remembering names and dates.",
+    "Yes, I'm quite good at remember names and dates."
+   ],
+   "answer": 0,
+   "rule": "<b>good at</b> + -ing form: good at remembering."
+  },
+  {
+   "qid": "c9-09-38",
+   "type": "change",
+   "level": 4,
+   "topic": "too_enough_so_that",
+   "prompt": "Remove 'too'.",
+   "source": "The gates were too narrow for the horse to pass through.",
+   "options": [
+    "The gates were so narrow that the horse can not pass through them.",
+    "The gates were so narrow that the horse could not pass through them.",
+    "The gates were so narrow that the horse could pass through them."
+   ],
+   "answer": 1,
+   "rule": "<b>too ... to</b> becomes <b>so ... that ... could not</b> (past, negative)."
+  },
+  {
+   "qid": "c9-09-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "adj_preposition",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Odysseus",
+    "was",
+    "famous",
+    "for",
+    "plan",
+    "clever",
+    "tricks.",
+    "He",
+    "knew",
+    "that",
+    "the",
+    "Trojans",
+    "would",
+    "never",
+    "open",
+    "the",
+    "gates",
+    "unless",
+    "they",
+    "believed",
+    "that",
+    "the",
+    "Greeks",
+    "has",
+    "left."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "plans",
+      "planning",
+      "planned"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 23,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>famous for</b> + -ing form: <b>planning</b>. An earlier past action after 'believed': <b>had left</b>."
+  },
+  {
+   "qid": "c9-09-40",
+   "type": "spot",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It is believed that Homer, who lived long ago, have composed both epics.",
+    "It is believed that Homer, which lived long ago, composed both epics.",
+    "It is believed that Homer, who lived long ago, composed both epics."
+   ],
+   "answer": 2,
+   "rule": "The subject of the noun clause is <b>Homer</b> (one person, past): <b>composed</b>. A person takes <b>who</b>."
+  },
+  {
+   "qid": "c9-09-41",
+   "type": "fix",
+   "level": 5,
+   "topic": "too_enough_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Trojan",
+    "wall",
+    "was",
+    "such",
+    "strong",
+    "that",
+    "no",
+    "army",
+    "could",
+    "break",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "too",
+      "very",
+      "so"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Before an adjective alone, use <b>so</b> ... that. 'such' needs a noun (such a strong wall)."
+  },
+  {
+   "qid": "c9-09-42",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Fill in the gap.",
+   "before": "Had Achilles' heel been protected, the arrow",
+   "after": "him.",
+   "options": [
+    "would not kill",
+    "would not have killed",
+    "had not killed"
+   ],
+   "answer": 1,
+   "rule": "'Had ... been protected' = 'If ... had been protected', so the result is <b>would not have killed</b>."
+  },
+  {
+   "qid": "c9-09-43",
+   "type": "build",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Make a sentence with a noun clause.",
+   "answer": [
+    "The",
+    "Trojans",
+    "wondered",
+    "why",
+    "their",
+    "enemies",
+    "had",
+    "left",
+    "a",
+    "horse."
+   ],
+   "alts": [],
+   "rule": "<b>why their enemies had left a horse</b> is a noun clause (object of 'wondered') in statement order."
+  },
+  {
+   "qid": "c9-09-44",
+   "type": "chat",
+   "level": 5,
+   "topic": "too_enough_so_that",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you finish the Troy project?"
+    ],
+    [
+     "Neha",
+     "It was huge!"
+    ]
+   ],
+   "options": [
+    "No, it was too long that I couldn't finish it in one day.",
+    "No, it was so long that I couldn't finish it in one day.",
+    "No, it was such long that I couldn't finish it in one day."
+   ],
+   "answer": 1,
+   "rule": "Adjective + result clause: <b>so long that</b>. 'too' pairs with 'to'; 'such' needs a noun."
+  },
+  {
+   "qid": "c9-09-45",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Rewrite beginning with 'Had'.",
+   "source": "If the Trojans had listened to the priest, Troy would have survived.",
+   "options": [
+    "Had the Trojans listened to the priest, Troy would survived.",
+    "Had the Trojans had listened to the priest, Troy would have survived.",
+    "Had the Trojans listened to the priest, Troy would have survived."
+   ],
+   "answer": 2,
+   "rule": "Drop 'If' and put <b>Had</b> before the subject: Had the Trojans listened ..., ... would have survived."
+  },
+  {
+   "qid": "c9-09-46",
+   "type": "change",
+   "level": 5,
+   "topic": "too_enough_so_that",
+   "prompt": "Rewrite using 'not ... enough'.",
+   "source": "The Trojans were too careless to notice the trick.",
+   "options": [
+    "The Trojans were not careful enough to notice the trick.",
+    "The Trojans were not enough careful to notice the trick.",
+    "The Trojans were not careful enough that noticed the trick."
+   ],
+   "answer": 0,
+   "rule": "Use the opposite adjective + <b>enough</b>: too careless = <b>not careful enough</b> to notice."
+  },
+  {
+   "qid": "c9-09-47",
+   "type": "change",
+   "level": 5,
+   "topic": "clauses",
+   "prompt": "Make one complex sentence using 'when'.",
+   "source": "The fleet returned. The Greek gave the signal.",
+   "options": [
+    "When the fleet returned, the Greek gave the signal.",
+    "When the fleet returned, then the Greek gave the signal.",
+    "When the fleet had returned, so the Greek gave the signal."
+   ],
+   "answer": 0,
+   "rule": "<b>When</b> starts the subordinate clause; the main clause needs no 'then' or 'so'."
+  },
+  {
+   "qid": "c9-09-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "too_enough_so_that",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Odysseus,",
+    "who",
+    "were",
+    "famous",
+    "for",
+    "tricks,",
+    "planned",
+    "a",
+    "huge",
+    "wooden",
+    "horse.",
+    "It",
+    "was",
+    "so",
+    "big",
+    "that",
+    "the",
+    "Trojans",
+    "has",
+    "to",
+    "break",
+    "part",
+    "of",
+    "their",
+    "wall,",
+    "but",
+    "they",
+    "were",
+    "too",
+    "happy",
+    "to",
+    "noticed",
+    "the",
+    "danger."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "was",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "had",
+      "have",
+      "having"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "noticing",
+      "notice",
+      "notices"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "'who' refers to Odysseus (one man, past): <b>was</b>. Plural past: <b>had to</b>. 'too happy to' + base verb: <b>notice</b>."
+  },
+  {
+   "qid": "c9-09-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "Trojans",
+    "were",
+    "tired",
+    "of",
+    "wait",
+    "inside",
+    "their",
+    "walls.",
+    "If",
+    "they",
+    "had",
+    "been",
+    "more",
+    "careful,",
+    "they",
+    "would",
+    "have",
+    "checked",
+    "the",
+    "horse",
+    "before",
+    "they",
+    "drag",
+    "it",
+    "into",
+    "the",
+    "city,",
+    "where",
+    "they",
+    "celebrate",
+    "all",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "waiting",
+      "waited",
+      "waits"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "drags",
+      "dragging",
+      "dragged"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "celebrates",
+      "celebrated",
+      "celebrating"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>tired of waiting</b> (-ing after a preposition). The past story needs <b>dragged</b> and <b>celebrated</b>."
+  },
+  {
+   "qid": "c9-09-50",
+   "type": "proof",
+   "level": 4,
+   "topic": "clauses",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Homer",
+    "was",
+    "a",
+    "poet",
+    "whom",
+    "wandered",
+    "from",
+    "village",
+    "to",
+    "village.",
+    "The",
+    "people",
+    "who",
+    "heard",
+    "his",
+    "songs",
+    "gives",
+    "him",
+    "food",
+    "and",
+    "shelter."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "who",
+      "which"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "gave",
+      "giving",
+      "given"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject of 'wandered' needs <b>who</b>, not 'whom'. The story is past: <b>gave</b>."
+  }
+ ]
+}

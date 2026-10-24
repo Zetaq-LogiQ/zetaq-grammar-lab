@@ -1,0 +1,983 @@
+{
+ "class": 7,
+ "id": "07",
+ "title": "From a Railway Carriage",
+ "topics": [
+  {
+   "tag": "simile",
+   "name": "Comparisons with like and as ... as"
+  },
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative pronouns who / which / that / whose"
+  },
+  {
+   "tag": "here_there",
+   "name": "Here is / There are: agreement"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect tense"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-07-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The train ran as fast like the wind.",
+    "The train ran as faster as the wind.",
+    "The train ran as fast as the wind."
+   ],
+   "answer": 2,
+   "rule": "A comparison of equals uses <b>as + adjective + as</b>: <b>as fast as</b>. Don't mix it with <b>like</b> or use -er."
+  },
+  {
+   "qid": "c7-07-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "here_there",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There are two cows in the meadow.",
+    "There is two cows in the meadow.",
+    "There are two cow in the meadow."
+   ],
+   "answer": 0,
+   "rule": "<b>Two cows</b> is plural, so use <b>There are</b> and the plural noun <b>cows</b>."
+  },
+  {
+   "qid": "c7-07-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "waved",
+    "to",
+    "a",
+    "woman",
+    "which",
+    "was",
+    "selling",
+    "flowers",
+    "at",
+    "the",
+    "station."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "who",
+      "whom",
+      "whose"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "For a person (a woman) use <b>who</b> as the subject: <b>a woman who was selling flowers</b>. <b>Which</b> is for things."
+  },
+  {
+   "qid": "c7-07-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "here_there",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "are",
+    "a",
+    "tramp",
+    "standing",
+    "near",
+    "the",
+    "gate."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "were",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>A tramp</b> is one person, so use <b>There is</b>: <b>There is a tramp standing near the gate.</b>"
+  },
+  {
+   "qid": "c7-07-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Fill in the gap.",
+   "before": "The wind was as cold",
+   "after": "ice.",
+   "options": [
+    "like",
+    "than",
+    "as"
+   ],
+   "answer": 2,
+   "rule": "<b>as ... as</b> always comes in a pair: <b>as cold as ice</b>."
+  },
+  {
+   "qid": "c7-07-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Meera",
+   "after": "just boarded the train.",
+   "options": [
+    "is",
+    "have",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "Present perfect = <b>has/have + past participle</b>. <b>Meera</b> is one person, so use <b>has</b>: <b>has just boarded</b>."
+  },
+  {
+   "qid": "c7-07-07",
+   "type": "build",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Make a sentence in the present perfect.",
+   "answer": [
+    "The",
+    "train",
+    "has",
+    "just",
+    "reached",
+    "Pune."
+   ],
+   "alts": [],
+   "rule": "<b>has + just + past participle</b> tells us something happened a moment ago: <b>has just reached</b>."
+  },
+  {
+   "qid": "c7-07-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "here_there",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "What can you see from the train window?"
+    ]
+   ],
+   "options": [
+    "I can see a river. There is cows near it.",
+    "I can see a river. There are cows near it.",
+    "I can sees a river. There are cows near it."
+   ],
+   "answer": 1,
+   "rule": "<b>Cows</b> is plural, so <b>There are cows</b>. After <b>can</b> use the base verb: <b>can see</b>."
+  },
+  {
+   "qid": "c7-07-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How fast was the express train?"
+    ]
+   ],
+   "options": [
+    "It was as fast than an arrow!",
+    "It was as fast as an arrow!",
+    "It was more fast as an arrow!"
+   ],
+   "answer": 1,
+   "rule": "To say two things are equal, use <b>as fast as</b>. <b>Than</b> goes only with a comparative like <b>faster</b>."
+  },
+  {
+   "qid": "c7-07-10",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Rewrite using 'not as ... as'.",
+   "source": "The bus is slower than the train.",
+   "options": [
+    "The bus is not as faster as the train.",
+    "The bus is not as fast as the train.",
+    "The bus is not as fast than the train."
+   ],
+   "answer": 1,
+   "rule": "<b>slower than</b> = <b>not as fast as</b>. Keep the plain adjective between the two <b>as</b> words."
+  },
+  {
+   "qid": "c7-07-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the sentence with the correct relative pronoun.",
+   "options": [
+    "I saw a mill who stood by the river.",
+    "I saw a mill which stood by the river.",
+    "I saw a mill whom stood by the river."
+   ],
+   "answer": 1,
+   "rule": "A mill is a thing, so use <b>which</b> (or that): <b>a mill which stood by the river</b>."
+  },
+  {
+   "qid": "c7-07-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We have already cross three bridges.",
+    "We has already crossed three bridges.",
+    "We have already crossed three bridges."
+   ],
+   "answer": 2,
+   "rule": "Present perfect = <b>have/has + past participle</b>. With <b>We</b> use <b>have crossed</b>."
+  },
+  {
+   "qid": "c7-07-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "simile",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "horse",
+    "was",
+    "as",
+    "slow",
+    "than",
+    "a",
+    "snail."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "as",
+      "like",
+      "then"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>as ... as</b> is a pair: <b>as slow as a snail</b>. <b>Than</b> is used only after a comparative like <b>slower</b>."
+  },
+  {
+   "qid": "c7-07-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "has",
+    "never",
+    "see",
+    "a",
+    "windmill",
+    "before."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "saw",
+      "sees",
+      "seen"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>has</b> we need the past participle: <b>has never seen</b>, not the base form <b>see</b>."
+  },
+  {
+   "qid": "c7-07-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "This is the cart",
+   "after": "ran away down the road.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 2,
+   "rule": "A cart is a thing, so use <b>which</b>: <b>the cart which ran away</b>."
+  },
+  {
+   "qid": "c7-07-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "here_there",
+   "prompt": "Fill in the gap.",
+   "before": "Here",
+   "after": "the daisies for your garland.",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "rule": "The real subject comes after <b>Here</b>: <b>the daisies</b> is plural, so <b>Here are the daisies</b>."
+  },
+  {
+   "qid": "c7-07-17",
+   "type": "build",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "We",
+    "waved",
+    "at",
+    "the",
+    "farmer",
+    "who",
+    "was",
+    "milking",
+    "cows."
+   ],
+   "alts": [],
+   "rule": "<b>who</b> comes right after the person it describes: <b>the farmer who was milking cows</b>."
+  },
+  {
+   "qid": "c7-07-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Have you packed your bag for the trip?"
+    ]
+   ],
+   "options": [
+    "Yes, I have packed it already.",
+    "Yes, I have pack it already.",
+    "Yes, I has packed it already."
+   ],
+   "answer": 0,
+   "rule": "Answer a <b>Have you ...?</b> question with <b>I have + past participle</b>: <b>I have packed</b>."
+  },
+  {
+   "qid": "c7-07-19",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "Here is a child. He is gathering brambles.",
+   "options": [
+    "Here is a child who he is gathering brambles.",
+    "Here is a child who is gathering brambles.",
+    "Here is a child which is gathering brambles."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces <b>He</b>, so drop the pronoun: <b>a child who is gathering brambles</b>."
+  },
+  {
+   "qid": "c7-07-20",
+   "type": "change",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Rewrite using 'not as ... as' without changing the meaning.",
+   "source": "The aeroplane is faster than the train.",
+   "options": [
+    "The train is not as faster as the aeroplane.",
+    "The aeroplane is not as fast as the train.",
+    "The train is not as fast as the aeroplane."
+   ],
+   "answer": 2,
+   "rule": "Start with the slower one: <b>The train is not as fast as the aeroplane.</b> Swapping the nouns would change the meaning."
+  },
+  {
+   "qid": "c7-07-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simile",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The meadow was as green as an emerald.",
+    "The meadow was green as like an emerald.",
+    "The meadow was as greener as an emerald."
+   ],
+   "answer": 0,
+   "rule": "Use the plain adjective inside <b>as ... as</b>: <b>as green as an emerald</b>."
+  },
+  {
+   "qid": "c7-07-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "here_there",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There was many people at the station yesterday.",
+    "There were many people at the station yesterday.",
+    "There were many people at the station tomorrow."
+   ],
+   "answer": 1,
+   "rule": "<b>Many people</b> is plural and <b>yesterday</b> is past, so use <b>There were</b>."
+  },
+  {
+   "qid": "c7-07-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "girl",
+    "whose",
+    "bag",
+    "I",
+    "found",
+    "are",
+    "my",
+    "cousin."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "am",
+      "is",
+      "were"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>The girl</b> (one person), so the verb is <b>is</b>: <b>The girl whose bag I found is my cousin.</b>"
+  },
+  {
+   "qid": "c7-07-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "has",
+    "lived",
+    "in",
+    "Nashik",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "from",
+      "for",
+      "during"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (<b>for five years</b>) and <b>since</b> with a starting point (<b>since 2020</b>)."
+  },
+  {
+   "qid": "c7-07-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "this poem three times already.",
+   "options": [
+    "has read",
+    "had reading",
+    "have read"
+   ],
+   "answer": 2,
+   "rule": "<b>already</b> goes with the present perfect. With <b>I</b> use <b>have read</b>."
+  },
+  {
+   "qid": "c7-07-26",
+   "type": "build",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Have",
+    "you",
+    "ever",
+    "seen",
+    "stars",
+    "like",
+    "these?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Have + you + ever + past participle</b>: <b>Have you ever seen ...?</b>"
+  },
+  {
+   "qid": "c7-07-27",
+   "type": "build",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "bridge",
+    "that",
+    "Grandpa",
+    "built."
+   ],
+   "alts": [],
+   "rule": "<b>that</b> joins the extra detail to <b>the bridge</b>: <b>the bridge that Grandpa built</b>."
+  },
+  {
+   "qid": "c7-07-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who was R. L. Stevenson?"
+    ]
+   ],
+   "options": [
+    "He was a Scottish writer who wrote Treasure Island.",
+    "He was a Scottish writer which wrote Treasure Island.",
+    "He was a Scottish writer who write Treasure Island."
+   ],
+   "answer": 0,
+   "rule": "A writer is a person, so use <b>who</b>; the action is past, so <b>who wrote</b>."
+  },
+  {
+   "qid": "c7-07-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "here_there",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Is there a shop near the station?"
+    ]
+   ],
+   "options": [
+    "Yes, there are a small tea stall next to it.",
+    "Yes, there is a small tea stall next of it.",
+    "Yes, there is a small tea stall next to it."
+   ],
+   "answer": 2,
+   "rule": "<b>A small tea stall</b> is singular, so <b>there is</b>. The phrase is <b>next to</b>, not next of."
+  },
+  {
+   "qid": "c7-07-30",
+   "type": "change",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Change into a negative sentence.",
+   "source": "Ravi has finished his homework.",
+   "options": [
+    "Ravi has not finish his homework.",
+    "Ravi did not finished his homework.",
+    "Ravi has not finished his homework."
+   ],
+   "answer": 2,
+   "rule": "Put <b>not</b> after <b>has</b> and keep the past participle: <b>has not finished</b>."
+  },
+  {
+   "qid": "c7-07-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the best journey I have ever had.",
+    "This is the most good journey I have ever had.",
+    "This is the best journey I have ever have."
+   ],
+   "answer": 0,
+   "rule": "<b>good - better - best</b> is irregular. With <b>ever</b> use the present perfect: <b>I have ever had</b>."
+  },
+  {
+   "qid": "c7-07-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simile",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children were as busy as bees.",
+    "The children were as busy as a bees.",
+    "The children was as busy as bees."
+   ],
+   "answer": 0,
+   "rule": "<b>Children</b> is plural, so <b>were</b>. <b>A</b> cannot go with the plural <b>bees</b>: <b>as busy as bees</b>."
+  },
+  {
+   "qid": "c7-07-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "the",
+    "stations",
+    "which",
+    "we",
+    "passed",
+    "was",
+    "painted",
+    "blue."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>All the stations</b> (plural), so the verb is <b>were</b>, even after the <b>which</b> clause."
+  },
+  {
+   "qid": "c7-07-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "You",
+    "have",
+    "seen",
+    "the",
+    "Taj",
+    "Mahal,",
+    "didn't",
+    "you?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "hasn't",
+      "haven't",
+      "weren't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The tag uses the same helper as the sentence: <b>You have seen ...</b> takes <b>haven't you?</b>"
+  },
+  {
+   "qid": "c7-07-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the sights, the river was the",
+   "after": "beautiful.",
+   "options": [
+    "more",
+    "most",
+    "very"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> compares more than two things, so use the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c7-07-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "the Konkan Railway last year.",
+   "options": [
+    "have travelled on",
+    "has travelled on",
+    "travelled on"
+   ],
+   "answer": 2,
+   "rule": "<b>Last year</b> is a finished past time, so use the simple past <b>travelled</b>, not the present perfect."
+  },
+  {
+   "qid": "c7-07-37",
+   "type": "build",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "An",
+    "aeroplane",
+    "flies",
+    "higher",
+    "than",
+    "birds."
+   ],
+   "alts": [],
+   "rule": "Comparing two things: <b>comparative + than</b>: <b>flies higher than birds</b>."
+  },
+  {
+   "qid": "c7-07-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which is longer, the bridge or the tunnel?"
+    ]
+   ],
+   "options": [
+    "The tunnel is longer than the bridge.",
+    "The tunnel is more longer than the bridge.",
+    "The tunnel is longest than the bridge."
+   ],
+   "answer": 0,
+   "rule": "For two things use the comparative <b>longer than</b>. Never add <b>more</b> to an -er word."
+  },
+  {
+   "qid": "c7-07-39",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Change into the comparative degree.",
+   "source": "No other river in India is as long as the Ganga.",
+   "options": [
+    "The Ganga is longest than any other river in India.",
+    "The Ganga is longer than any other river in India.",
+    "The Ganga is more longer than any other river in India."
+   ],
+   "answer": 1,
+   "rule": "Positive <b>No other ... as long as</b> becomes comparative <b>longer than any other</b>."
+  },
+  {
+   "qid": "c7-07-40",
+   "type": "change",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'which'.",
+   "source": "We crossed a bridge. It was very old.",
+   "options": [
+    "We crossed a bridge which it was very old.",
+    "We crossed a bridge who was very old.",
+    "We crossed a bridge which was very old."
+   ],
+   "answer": 2,
+   "rule": "<b>which</b> replaces <b>It</b>, so don't repeat the pronoun: <b>a bridge which was very old</b>."
+  },
+  {
+   "qid": "c7-07-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Grandpa has worked at the station since 1995.",
+    "Grandpa has worked at the station for 1995.",
+    "Grandpa is working at the station since 1995."
+   ],
+   "answer": 0,
+   "rule": "<b>since</b> + a starting point (<b>1995</b>) goes with the present perfect <b>has worked</b>; <b>for</b> needs a length of time."
+  },
+  {
+   "qid": "c7-07-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Pick the sentence with the correct relative pronoun.",
+   "options": [
+    "That is the boy who's kite got stuck in the tree.",
+    "That is the boy whose kite got stuck in the tree.",
+    "That is the boy whom kite got stuck in the tree."
+   ],
+   "answer": 1,
+   "rule": "<b>whose</b> shows ownership (the boy's kite). <b>who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c7-07-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "one",
+    "of",
+    "the",
+    "longest",
+    "bridge",
+    "in",
+    "Asia."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "bridge's",
+      "bridges",
+      "bridged"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>one of the + superlative</b> is always followed by a plural noun: <b>one of the longest bridges</b>."
+  },
+  {
+   "qid": "c7-07-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "here_there",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Look,",
+    "here",
+    "comes",
+    "Rani's",
+    "two",
+    "brothers",
+    "with",
+    "their",
+    "kites."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "coming",
+      "come",
+      "arrives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>here</b> the subject comes after the verb: <b>Rani's two brothers</b> is plural, so <b>here come Rani's two brothers</b>."
+  },
+  {
+   "qid": "c7-07-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The man",
+   "after": "cart ran away was very upset.",
+   "options": [
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": 2,
+   "rule": "The cart belongs to the man, so use the possessive <b>whose</b>: <b>The man whose cart ran away</b>."
+  },
+  {
+   "qid": "c7-07-46",
+   "type": "build",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "long",
+    "have",
+    "you",
+    "lived",
+    "in",
+    "Pune?"
+   ],
+   "alts": [],
+   "rule": "<b>How long</b> + present perfect asks about time up to now: <b>How long have you lived ...?</b>"
+  },
+  {
+   "qid": "c7-07-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Have you ever travelled on a toy train?"
+    ]
+   ],
+   "options": [
+    "Yes, I have travelled on one in Matheran last May.",
+    "Yes, I travel on one in Matheran last May.",
+    "Yes, I travelled on one in Matheran last May."
+   ],
+   "answer": 2,
+   "rule": "A question with <b>ever</b> uses the present perfect, but a fixed past time (<b>last May</b>) needs the simple past: <b>I travelled</b>."
+  },
+  {
+   "qid": "c7-07-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "What was the most exciting part of your trip?"
+    ]
+   ],
+   "options": [
+    "The tunnel, which was darker than night, was the most exciting part.",
+    "The tunnel, which was more darker than night, was the most exciting part.",
+    "The tunnel, who was darker than night, was the most exciting part."
+   ],
+   "answer": 0,
+   "rule": "Use <b>darker than</b> (never more darker) and <b>which</b> for a thing like a tunnel."
+  },
+  {
+   "qid": "c7-07-49",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Change into the superlative degree.",
+   "source": "Very few sights are as lovely as a rainbow.",
+   "options": [
+    "A rainbow is one of the loveliest sight.",
+    "A rainbow is one of the loveliest sights.",
+    "A rainbow is one of the most loveliest sights."
+   ],
+   "answer": 1,
+   "rule": "<b>Very few ... as lovely as</b> becomes <b>one of the loveliest + plural noun</b>: <b>one of the loveliest sights</b>."
+  },
+  {
+   "qid": "c7-07-50",
+   "type": "change",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Change into a question.",
+   "source": "The train has left the station.",
+   "options": [
+    "Has the train left the station?",
+    "Has the train leave the station?",
+    "Did the train has left the station?"
+   ],
+   "answer": 0,
+   "rule": "Move <b>has</b> before the subject and keep the past participle: <b>Has the train left ...?</b>"
+  }
+ ]
+}

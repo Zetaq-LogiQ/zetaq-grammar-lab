@@ -1,0 +1,987 @@
+{
+ "class": 5,
+ "id": "11",
+ "title": "Be a Good Speaker",
+ "topics": [
+  {
+   "tag": "imperatives",
+   "name": "Imperatives: do and don't"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner (-ly words)"
+  },
+  {
+   "tag": "polite_words",
+   "name": "Polite words and requests (please, may I, could you, sorry, pardon)"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present tense"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-11-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Speaks clearly to your friends.",
+    "Speak clearly to your friends.",
+    "Speaking clearly to your friends."
+   ],
+   "answer": 1,
+   "rule": "An instruction (imperative) starts with the base verb: <b>Speak</b> clearly."
+  },
+  {
+   "qid": "c5-11-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Arjun answered polite.",
+    "Arjun answer politely.",
+    "Arjun answered politely."
+   ],
+   "answer": 2,
+   "rule": "To tell <b>how</b> someone did an action, use an adverb: answered <b>politely</b>."
+  },
+  {
+   "qid": "c5-11-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A good speaker listen carefully.",
+    "A good speaker listens carefully.",
+    "A good speakers listens carefully."
+   ],
+   "answer": 1,
+   "rule": "One person (<b>a good speaker</b>) takes a verb with <b>-s</b> in the simple present: <b>listens</b>."
+  },
+  {
+   "qid": "c5-11-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "answer",
+    "polite",
+    "when",
+    "elders",
+    "speak",
+    "to",
+    "you."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "politeness",
+      "politely",
+      "impolite"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>answer</b> is a verb. To say how, use the adverb <b>politely</b>."
+  },
+  {
+   "qid": "c5-11-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Don't",
+    "talks",
+    "all",
+    "the",
+    "time",
+    "in",
+    "a",
+    "discussion."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "talking",
+      "talk",
+      "talked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Don't</b> in an instruction, use the base verb: Don't <b>talk</b>."
+  },
+  {
+   "qid": "c5-11-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "politely to everyone.",
+   "options": [
+    "Speak",
+    "Speaks",
+    "Speaking"
+   ],
+   "answer": 0,
+   "rule": "An instruction begins with the base form of the verb: <b>Speak</b> politely."
+  },
+  {
+   "qid": "c5-11-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "The baby smiled",
+   "after": "at her grandmother.",
+   "options": [
+    "happy",
+    "happiness",
+    "happily"
+   ],
+   "answer": 2,
+   "rule": "<b>How</b> did the baby smile? Use the adverb: smiled <b>happily</b>."
+  },
+  {
+   "qid": "c5-11-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Don't",
+    "shout",
+    "at",
+    "others."
+   ],
+   "alts": [],
+   "rule": "A 'don't' instruction: <b>Don't</b> + base verb: Don't <b>shout</b>."
+  },
+  {
+   "qid": "c5-11-09",
+   "type": "build",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Ask for permission politely.",
+   "answer": [
+    "May",
+    "I",
+    "come",
+    "in?"
+   ],
+   "alts": [],
+   "rule": "To ask for permission, use <b>May I</b> + base verb: May I <b>come</b> in?"
+  },
+  {
+   "qid": "c5-11-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who will give the welcome speech?"
+    ]
+   ],
+   "options": [
+    "I wills, ma'am.",
+    "I willing, ma'am.",
+    "I will, ma'am."
+   ],
+   "answer": 2,
+   "rule": "<b>will</b> never takes -s or -ing. A short answer: <b>I will</b>, ma'am."
+  },
+  {
+   "qid": "c5-11-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Pick the correct polite question.",
+   "options": [
+    "Shall I share my idea with the group, sir?",
+    "Shall I shares my idea with the group, sir?",
+    "Shall I sharing my idea with the group, sir?"
+   ],
+   "answer": 0,
+   "rule": "After <b>Shall I</b>, use the base verb: Shall I <b>share</b>?"
+  },
+  {
+   "qid": "c5-11-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Don't mumbles when you speak.",
+    "Not mumble when you speak.",
+    "Don't mumble when you speak."
+   ],
+   "answer": 2,
+   "rule": "A negative instruction is <b>Don't</b> + base verb: Don't <b>mumble</b>."
+  },
+  {
+   "qid": "c5-11-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please listen carefully to others.",
+    "Please listen carefulness to others.",
+    "Please listen careful to others."
+   ],
+   "answer": 0,
+   "rule": "<b>How</b> should you listen? Use the adverb: listen <b>carefully</b>."
+  },
+  {
+   "qid": "c5-11-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "good",
+    "speaker",
+    "look",
+    "at",
+    "the",
+    "audience."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "looks",
+      "looking",
+      "see"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>A good speaker</b> is one person, so the present verb takes -s: <b>looks</b>."
+  },
+  {
+   "qid": "c5-11-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Excuse",
+    "me,",
+    "may",
+    "I",
+    "borrows",
+    "your",
+    "pen",
+    "for",
+    "a",
+    "minute?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "borrow",
+      "borrowing",
+      "borrowed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>may</b> is followed by the base verb: may I <b>borrow</b>?"
+  },
+  {
+   "qid": "c5-11-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I open the window, ma'am?",
+   "options": [
+    "May",
+    "Does",
+    "Am"
+   ],
+   "answer": 0,
+   "rule": "To ask for permission politely, we say <b>May I</b> + base verb: May I <b>open</b>?"
+  },
+  {
+   "qid": "c5-11-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Riya always",
+   "after": "her speech in her mind first.",
+   "options": [
+    "rehearse",
+    "rehearsing",
+    "rehearses"
+   ],
+   "answer": 2,
+   "rule": "A habit is in the simple present. <b>Riya</b> is one person, so add -s: <b>rehearses</b>."
+  },
+  {
+   "qid": "c5-11-18",
+   "type": "build",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "repeat",
+    "that?"
+   ],
+   "alts": [],
+   "rule": "A polite request: <b>Could you please</b> + base verb?"
+  },
+  {
+   "qid": "c5-11-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Can you hear me at the back?"
+    ]
+   ],
+   "options": [
+    "No. Please speak more loudly.",
+    "No. Please speak more loudness.",
+    "No. Please speaks more loudly."
+   ],
+   "answer": 0,
+   "rule": "An instruction uses the base verb <b>speak</b>. To tell how, use the adverb <b>loudly</b>."
+  },
+  {
+   "qid": "c5-11-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sameer",
+     "Here is my notebook for your speech notes."
+    ]
+   ],
+   "options": [
+    "Thanks you so much!",
+    "Thank you so many!",
+    "Thank you so much!"
+   ],
+   "answer": 2,
+   "rule": "The polite phrase is <b>Thank you</b> (or Thanks). We say <b>so much</b>, not so many."
+  },
+  {
+   "qid": "c5-11-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Shy children often speaks very softly.",
+    "Shy children often speak very softly.",
+    "Shy children often speaking very softly."
+   ],
+   "answer": 1,
+   "rule": "<b>children</b> is plural, so the present verb has no -s: children <b>speak</b>. Speaking needs a helper verb."
+  },
+  {
+   "qid": "c5-11-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Pick the correct polite request.",
+   "options": [
+    "Could you please passes me the microphone?",
+    "Could you please pass me the microphone?",
+    "Could you please passing me the microphone?"
+   ],
+   "answer": 1,
+   "rule": "<b>Could you please</b> is followed by the base verb: <b>pass</b>."
+  },
+  {
+   "qid": "c5-11-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kabir",
+    "listened",
+    "careful",
+    "to",
+    "his",
+    "friends'",
+    "ideas."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "carefully",
+      "care",
+      "carefulness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>careful</b> is an adjective. To tell how he listened, use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c5-11-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "shy",
+    "children",
+    "feels",
+    "nervous",
+    "in",
+    "front",
+    "of",
+    "a",
+    "crowd."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "feeling",
+      "feelings",
+      "feel"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Many shy children</b> is plural, so the present verb has no -s: <b>feel</b>."
+  },
+  {
+   "qid": "c5-11-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "interrupt others when they are speaking.",
+   "options": [
+    "Doesn't",
+    "Don't",
+    "Not"
+   ],
+   "answer": 1,
+   "rule": "A negative instruction uses <b>Don't</b> + base verb: <b>Don't interrupt</b>."
+  },
+  {
+   "qid": "c5-11-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Raj answered the tricky question",
+   "after": ".",
+   "options": [
+    "wise",
+    "wisely",
+    "wisdom"
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> did Raj answer? Use the adverb: answered <b>wisely</b>."
+  },
+  {
+   "qid": "c5-11-27",
+   "type": "build",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Make an instruction.",
+   "answer": [
+    "Let",
+    "others",
+    "share",
+    "their",
+    "ideas."
+   ],
+   "alts": [],
+   "rule": "An instruction starts with the base verb: <b>Let</b> others share."
+  },
+  {
+   "qid": "c5-11-28",
+   "type": "build",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Thank someone politely.",
+   "answer": [
+    "Thank",
+    "you",
+    "for",
+    "your",
+    "kind",
+    "words."
+   ],
+   "alts": [],
+   "rule": "<b>Thank you for</b> + the thing you are thankful for."
+  },
+  {
+   "qid": "c5-11-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Do you understand the topic?"
+    ]
+   ],
+   "options": [
+    "No, ma'am. Could you explains it again, please?",
+    "No, ma'am. Could you explained it again, please?",
+    "No, ma'am. Could you explain it again, please?"
+   ],
+   "answer": 2,
+   "rule": "After <b>Could you</b>, use the base verb: could you <b>explain</b>."
+  },
+  {
+   "qid": "c5-11-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How did you feel on the stage?"
+    ]
+   ],
+   "options": [
+    "I feeled nervous, but I spoke clearly.",
+    "I felt nervous, but I speaked clearly.",
+    "I felt nervous, but I spoke clearly."
+   ],
+   "answer": 2,
+   "rule": "<b>did</b> asks about the past. Past of feel = <b>felt</b>, past of speak = <b>spoke</b>."
+  },
+  {
+   "qid": "c5-11-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday, Meena gave her speech confidently.",
+    "Yesterday, Meena give her speech confidently.",
+    "Yesterday, Meena gave her speech confident."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> needs the past: <b>gave</b>. To tell how, use the adverb <b>confidently</b>."
+  },
+  {
+   "qid": "c5-11-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Pick the correct instruction.",
+   "options": [
+    "Look at they when you talk to them.",
+    "Look at them when you talk to them.",
+    "Look at them when you talks to them."
+   ],
+   "answer": 1,
+   "rule": "After <b>at</b> use the object pronoun <b>them</b>. With <b>you</b>, the verb has no -s: you <b>talk</b>."
+  },
+  {
+   "qid": "c5-11-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "week,",
+    "Tara",
+    "speak",
+    "clearly",
+    "at",
+    "the",
+    "school",
+    "assembly."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "speaks",
+      "speaking",
+      "spoke"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last week</b> is the past. The past of speak is <b>spoke</b>."
+  },
+  {
+   "qid": "c5-11-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Could",
+    "you",
+    "please",
+    "explain",
+    "it",
+    "to",
+    "I",
+    "again?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "me",
+      "my",
+      "mine"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition (<b>to</b>) use the object pronoun: to <b>me</b>, not to I."
+  },
+  {
+   "qid": "c5-11-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "Thank you for",
+   "after": "me with my speech.",
+   "options": [
+    "help",
+    "helping",
+    "helped"
+   ],
+   "answer": 1,
+   "rule": "After <b>Thank you for</b>, use the -ing form of the verb: thank you for <b>helping</b>."
+  },
+  {
+   "qid": "c5-11-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you get nervous before a speech?",
+   "options": [
+    "Are",
+    "Does",
+    "Do"
+   ],
+   "answer": 2,
+   "rule": "A simple present question with <b>you</b> starts with <b>Do</b> + base verb."
+  },
+  {
+   "qid": "c5-11-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a question.",
+   "answer": [
+    "Did",
+    "you",
+    "plan",
+    "your",
+    "speech",
+    "in",
+    "advance?"
+   ],
+   "alts": [],
+   "rule": "A past question: <b>Did</b> + you + base verb (<b>plan</b>)?"
+  },
+  {
+   "qid": "c5-11-38",
+   "type": "build",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "Say sorry politely.",
+   "answer": [
+    "I",
+    "am",
+    "sorry",
+    "to",
+    "interrupt",
+    "you."
+   ],
+   "alts": [],
+   "rule": "<b>I am sorry to</b> + base verb is a polite way to interrupt someone."
+  },
+  {
+   "qid": "c5-11-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "You keep talking all the time in our group!"
+    ]
+   ],
+   "options": [
+    "I'm sorry. I will let others speak.",
+    "I'm sorry. I will lets others speak.",
+    "I'm sorry. I will let others speaks."
+   ],
+   "answer": 0,
+   "rule": "After <b>will</b> use the base verb (<b>let</b>), and after <b>let others</b> also the base verb (<b>speak</b>)."
+  },
+  {
+   "qid": "c5-11-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What does Sana do before a speech?"
+    ]
+   ],
+   "options": [
+    "She notes down her points.",
+    "She note down her points.",
+    "She noting down her points."
+   ],
+   "answer": 0,
+   "rule": "<b>Sana</b> is one person, so the present verb takes -s: she <b>notes</b> down."
+  },
+  {
+   "qid": "c5-11-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neha spoke too fastly, so nobody understood her.",
+    "Neha spoke too fast, so nobody understood her.",
+    "Neha spoke too fast, so nobody understand her."
+   ],
+   "answer": 1,
+   "rule": "<b>fast</b> is already an adverb (no -ly). Both verbs are past: <b>spoke</b>, <b>understood</b>."
+  },
+  {
+   "qid": "c5-11-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct advice.",
+   "options": [
+    "When you disagree, says it politely and give your reason.",
+    "When you disagree, say it polite and give your reason.",
+    "When you disagree, say it politely and give your reason."
+   ],
+   "answer": 2,
+   "rule": "Advice uses the base verb (<b>say</b>, <b>give</b>). To tell how, use the adverb <b>politely</b>."
+  },
+  {
+   "qid": "c5-11-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Neha",
+    "stood",
+    "up",
+    "to",
+    "speak,",
+    "she",
+    "forget",
+    "her",
+    "first",
+    "line."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "forgotten",
+      "forgot",
+      "forgetting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The sentence is in the past (<b>stood</b>), so the past of forget is <b>forgot</b>."
+  },
+  {
+   "qid": "c5-11-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rehearse",
+    "your",
+    "speech",
+    "good",
+    "before",
+    "you",
+    "stand",
+    "up",
+    "to",
+    "speak."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "goodly",
+      "well",
+      "goodness"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>good</b> is an adjective. The adverb that tells how you rehearse is <b>well</b>."
+  },
+  {
+   "qid": "c5-11-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "She spoke clearly in a",
+   "after": "voice.",
+   "options": [
+    "pleasantly",
+    "pleasant",
+    "pleasantness"
+   ],
+   "answer": 1,
+   "rule": "Before a noun (<b>voice</b>) we need an adjective: a <b>pleasant</b> voice."
+  },
+  {
+   "qid": "c5-11-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "If you do not understand something,",
+   "after": "for an explanation politely.",
+   "options": [
+    "ask",
+    "asks",
+    "asking"
+   ],
+   "answer": 0,
+   "rule": "This is advice to <b>you</b>, so use the instruction form, the base verb: <b>ask</b>."
+  },
+  {
+   "qid": "c5-11-47",
+   "type": "build",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Ask someone to repeat politely.",
+   "answer": [
+    "Pardon",
+    "me,",
+    "could",
+    "you",
+    "say",
+    "that",
+    "again?"
+   ],
+   "alts": [],
+   "rule": "<b>Pardon me</b> + <b>could you</b> + base verb is a polite way to ask someone to repeat."
+  },
+  {
+   "qid": "c5-11-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Let's hold the class party on Friday."
+    ]
+   ],
+   "options": [
+    "Sorry, but I doesn't agree. Saturday is better for all of us.",
+    "Sorry, but I don't agree. Saturday is more better for all of us.",
+    "Sorry, but I don't agree. Saturday is better for all of us."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b> say <b>don't</b>. good - <b>better</b>: never more better."
+  },
+  {
+   "qid": "c5-11-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "Why are you practising your speech again?"
+    ]
+   ],
+   "options": [
+    "Because I wants to speak well tomorrow.",
+    "Because I want to speak good tomorrow.",
+    "Because I want to speak well tomorrow."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, no -s: I <b>want</b>. To tell how you speak, use the adverb <b>well</b>."
+  },
+  {
+   "qid": "c5-11-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Shall we make the poster bigger?"
+    ]
+   ],
+   "options": [
+    "Yes, that is a great idea. Let's doing it.",
+    "Yes, that is a great idea. Let's does it.",
+    "Yes, that is a great idea. Let's do it."
+   ],
+   "answer": 2,
+   "rule": "<b>Let's</b> is followed by the base verb: Let's <b>do</b> it."
+  }
+ ]
+}

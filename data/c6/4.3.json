@@ -1,0 +1,1014 @@
+{
+ "class": 6,
+ "id": "4.3",
+ "title": "The Untold Story of Samosa",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense (regular and irregular)"
+  },
+  {
+   "tag": "quantity",
+   "name": "Countable and uncountable: much, many, a few, a little"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions so, because, although, when, while"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a, an, the"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-4.3-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Traders brought the recipe to India.",
+    "Traders bringed the recipe to India.",
+    "Traders brung the recipe to India."
+   ],
+   "answer": 0,
+   "rule": "<b>Bring</b> is irregular: bring - <b>brought</b> - brought."
+  },
+  {
+   "qid": "c6-4.3-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "quantity",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Add a little salt to the dough.",
+    "Add a few salt to the dough.",
+    "Add many salt to the dough."
+   ],
+   "answer": 0,
+   "rule": "<b>Salt</b> is uncountable, so use <b>a little</b>, not 'a few' or 'many'."
+  },
+  {
+   "qid": "c6-4.3-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I ate a aloo samosa at the station.",
+    "I ate an aloo samosa at the station.",
+    "I ate the aloo samosa at an station."
+   ],
+   "answer": 1,
+   "rule": "Use <b>an</b> before a vowel sound (<b>an aloo</b> samosa) and <b>a/the</b> before 'station'."
+  },
+  {
+   "qid": "c6-4.3-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "Bengali",
+    "shingara",
+    "is",
+    "much",
+    "small",
+    "than",
+    "a",
+    "Punjabi",
+    "samosa."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "smallest",
+      "smallness",
+      "smaller"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>much ... than</b> compares two things, so use the comparative: <b>smaller</b>."
+  },
+  {
+   "qid": "c6-4.3-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Portuguese",
+    "bring",
+    "the",
+    "potato",
+    "to",
+    "India",
+    "in",
+    "the",
+    "16th",
+    "century."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "brings",
+      "brought",
+      "bringing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>In the 16th century</b> is the past, so use the simple past: <b>brought</b>."
+  },
+  {
+   "qid": "c6-4.3-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "quantity",
+   "prompt": "Fill in the gap.",
+   "before": "How",
+   "after": "samosas did you eat?",
+   "options": [
+    "many",
+    "much",
+    "little"
+   ],
+   "answer": 0,
+   "rule": "<b>Samosas</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c6-4.3-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The potato is",
+   "after": "important vegetable in Indian kitchens.",
+   "options": [
+    "a",
+    "much",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>Important</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-4.3-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "fried",
+    "the",
+    "samosas",
+    "in",
+    "hot",
+    "oil."
+   ],
+   "alts": [],
+   "rule": "Subject + past verb + object + place: We <b>fried</b> the samosas in hot oil."
+  },
+  {
+   "qid": "c6-4.3-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Which is bigger, a Punjabi samosa or a Bengali shingara?"
+    ]
+   ],
+   "options": [
+    "A Punjabi samosa is more big.",
+    "A Punjabi samosa is bigger.",
+    "A Punjabi samosa is biggest."
+   ],
+   "answer": 1,
+   "rule": "Comparing two things: big - <b>bigger</b> (double the g, add -er)."
+  },
+  {
+   "qid": "c6-4.3-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "quantity",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Do we need any chutney for the samosas?"
+    ]
+   ],
+   "options": [
+    "Yes, we need a little chutney.",
+    "Yes, we need a few chutney.",
+    "Yes, we need many chutney."
+   ],
+   "answer": 0,
+   "rule": "<b>Chutney</b> is uncountable, so use <b>a little</b>."
+  },
+  {
+   "qid": "c6-4.3-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the samosa came from Persia, but India made it famous.",
+    "Although the samosa came from Persia, so India made it famous.",
+    "Although the samosa came from Persia, India made it famous."
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> already joins the two parts, so don't add 'but' or 'so'."
+  },
+  {
+   "qid": "c6-4.3-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tea tastes more good with a hot samosa.",
+    "Tea tastes gooder with a hot samosa.",
+    "Tea tastes better with a hot samosa."
+   ],
+   "answer": 2,
+   "rule": "<b>Good</b> is irregular: good - <b>better</b> - best."
+  },
+  {
+   "qid": "c6-4.3-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "quantity",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "need",
+    "much",
+    "boiled",
+    "potatoes",
+    "for",
+    "the",
+    "filling,",
+    "so",
+    "please",
+    "peel",
+    "them",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "a",
+      "many",
+      "every"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Potatoes</b> can be counted, so use <b>many</b>, not much."
+  },
+  {
+   "qid": "c6-4.3-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "samosa",
+    "is",
+    "a",
+    "irresistible",
+    "snack",
+    "for",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "an",
+      "many",
+      "few"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Irresistible</b> starts with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c6-4.3-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Middle Eastern traders",
+   "after": "sail for India in the 14th century.",
+   "options": [
+    "set",
+    "setted",
+    "sets"
+   ],
+   "answer": 0,
+   "rule": "<b>Set</b> is irregular and stays the same: set - <b>set</b> - set."
+  },
+  {
+   "qid": "c6-4.3-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Potatoes were cheap and filling,",
+   "after": "they became the perfect stuffing.",
+   "options": [
+    "because of",
+    "so",
+    "despite"
+   ],
+   "answer": 1,
+   "rule": "<b>So</b> joins a reason to its result; 'because of' and 'despite' need a noun, not a clause."
+  },
+  {
+   "qid": "c6-4.3-17",
+   "type": "build",
+   "level": 2,
+   "topic": "quantity",
+   "prompt": "Make a cooking instruction.",
+   "answer": [
+    "Add",
+    "a",
+    "few",
+    "green",
+    "peas."
+   ],
+   "alts": [],
+   "rule": "<b>Peas</b> can be counted, so use <b>a few</b>."
+  },
+  {
+   "qid": "c6-4.3-18",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "samosa",
+    "is",
+    "an",
+    "old",
+    "snack."
+   ],
+   "alts": [],
+   "rule": "<b>Old</b> begins with a vowel sound, so it takes <b>an</b>: an old snack."
+  },
+  {
+   "qid": "c6-4.3-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Where did you eat samosas yesterday?"
+    ]
+   ],
+   "options": [
+    "I eated them at the school canteen.",
+    "I ate them at the school canteen.",
+    "I have ate them at the school canteen."
+   ],
+   "answer": 1,
+   "rule": "<b>Eat</b> is irregular: eat - <b>ate</b> - eaten."
+  },
+  {
+   "qid": "c6-4.3-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why didn't you eat the samosa?"
+    ]
+   ],
+   "options": [
+    "I didn't eat it because it were too spicy.",
+    "I didn't eat it because of it was too spicy.",
+    "I didn't eat it because it was too spicy."
+   ],
+   "answer": 2,
+   "rule": "<b>Because</b> + a clause (it was ...); 'because of' needs only a noun. <b>It</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c6-4.3-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The samosa travelled along trade routes and reached India.",
+    "The samosa travelled along trade routes and reach India.",
+    "The samosa travel along trade routes and reached India."
+   ],
+   "answer": 0,
+   "rule": "Two past actions joined by <b>and</b> both take the past: <b>travelled</b> ... <b>reached</b>."
+  },
+  {
+   "qid": "c6-4.3-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "quantity",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There is a few oil left, but there are only a few potatoes.",
+    "There is a little oil left, but there are only a few potatoes.",
+    "There is a little oil left, but there are only a little potatoes."
+   ],
+   "answer": 1,
+   "rule": "<b>A little</b> with uncountable nouns (oil); <b>a few</b> with plural countable nouns (potatoes)."
+  },
+  {
+   "qid": "c6-4.3-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "samosas",
+    "were",
+    "frying,",
+    "Mother",
+    "make",
+    "the",
+    "green",
+    "chutney."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "makes",
+      "making",
+      "made"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The story is in the past (<b>were frying</b>), so use the simple past: <b>made</b>."
+  },
+  {
+   "qid": "c6-4.3-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "like",
+    "samosas",
+    "so",
+    "they",
+    "are",
+    "crispy",
+    "and",
+    "spicy."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "therefore",
+      "then",
+      "because"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The second part gives the reason, so join with <b>because</b>; 'so' introduces a result."
+  },
+  {
+   "qid": "c6-4.3-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The Punjabi samosa has the",
+   "after": "crust of all the samosas.",
+   "options": [
+    "thicker",
+    "thickest",
+    "thick"
+   ],
+   "answer": 1,
+   "rule": "<b>The ... of all</b> compares with many, so use the superlative: <b>thickest</b>."
+  },
+  {
+   "qid": "c6-4.3-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Amir Khusrau was",
+   "after": "famous poet and musician.",
+   "options": [
+    "an",
+    "many",
+    "a"
+   ],
+   "answer": 2,
+   "rule": "<b>Famous</b> begins with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c6-4.3-27",
+   "type": "build",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Although",
+    "it",
+    "was",
+    "late,",
+    "we",
+    "bought",
+    "samosas."
+   ],
+   "alts": [],
+   "rule": "<b>Although</b> + one idea, comma, then the main idea - with no 'but'."
+  },
+  {
+   "qid": "c6-4.3-28",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Sweet",
+    "samosas",
+    "are",
+    "less",
+    "spicy",
+    "than",
+    "aloo",
+    "samosas."
+   ],
+   "alts": [],
+   "rule": "<b>Less</b> + adjective + <b>than</b> compares downwards: less spicy than."
+  },
+  {
+   "qid": "c6-4.3-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "quantity",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "How much chutney do you want?"
+    ]
+   ],
+   "options": [
+    "Just a little, please.",
+    "Just a few, please.",
+    "Just many, please."
+   ],
+   "answer": 0,
+   "rule": "<b>How much</b> asks about an uncountable thing (chutney), so answer <b>a little</b>."
+  },
+  {
+   "qid": "c6-4.3-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Did you eat samosas at the wedding?"
+    ]
+   ],
+   "options": [
+    "Yes, I eat two while the band was playing.",
+    "Yes, I ate two while the band was playing.",
+    "Yes, I ate two while the band was play."
+   ],
+   "answer": 1,
+   "rule": "<b>While</b> + past continuous for the longer action (was playing); the short action is <b>ate</b>."
+  },
+  {
+   "qid": "c6-4.3-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The British made the humble potato popular in the 19th century.",
+    "The British made the humble potato popular on the 19th century.",
+    "The British maked the humble potato popular in the 19th century."
+   ],
+   "answer": 0,
+   "rule": "<b>Make</b> is irregular: <b>made</b>; and centuries take <b>in</b>."
+  },
+  {
+   "qid": "c6-4.3-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the most delicious samosa I have ever eaten.",
+    "This is the more delicious samosa I have ever eaten.",
+    "This is the deliciousest samosa I have ever eaten."
+   ],
+   "answer": 0,
+   "rule": "Long adjectives form the superlative with <b>the most</b>: the most delicious."
+  },
+  {
+   "qid": "c6-4.3-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the potato reached Indian kitchens, so cooks used it in samosas.",
+    "When the potato reach Indian kitchens, cooks used it in samosas.",
+    "When the potato reached Indian kitchens, cooks used it in samosas."
+   ],
+   "answer": 2,
+   "rule": "<b>When</b> joins the two parts, so no 'so'; both actions are past: <b>reached</b>, <b>used</b>."
+  },
+  {
+   "qid": "c6-4.3-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother",
+    "makes",
+    "the",
+    "best",
+    "samosas",
+    "in",
+    "an",
+    "whole",
+    "town."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "many",
+      "the",
+      "some"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "We say <b>the whole</b> town; 'an' is wrong before the consonant sound in 'whole'."
+  },
+  {
+   "qid": "c6-4.3-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "quantity",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "isn't",
+    "many",
+    "time",
+    "left",
+    "before",
+    "the",
+    "train",
+    "leaves."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "much",
+      "few",
+      "several"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Time</b> here is uncountable, so use <b>much</b>."
+  },
+  {
+   "qid": "c6-4.3-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "At first, Indians",
+   "after": "not sure what to do with the potato.",
+   "options": [
+    "was",
+    "were",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "<b>At first</b> points to the past, and <b>Indians</b> is plural: <b>were</b>."
+  },
+  {
+   "qid": "c6-4.3-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "quantity",
+   "prompt": "Fill in the gap.",
+   "before": "Only",
+   "after": "people know that the samosa came from Persia.",
+   "options": [
+    "a little",
+    "a few",
+    "much"
+   ],
+   "answer": 1,
+   "rule": "<b>People</b> can be counted, so use <b>a few</b>."
+  },
+  {
+   "qid": "c6-4.3-38",
+   "type": "build",
+   "level": 4,
+   "topic": "quantity",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "much",
+    "oil",
+    "do",
+    "we",
+    "need?"
+   ],
+   "alts": [],
+   "rule": "<b>Oil</b> is uncountable, so ask <b>How much</b>."
+  },
+  {
+   "qid": "c6-4.3-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Is the South Indian samosa spicier than the sweet samosa?"
+    ]
+   ],
+   "options": [
+    "Yes, it is much spicier.",
+    "Yes, it is much more spicier.",
+    "Yes, it is very spicier."
+   ],
+   "answer": 0,
+   "rule": "Strengthen a comparative with <b>much</b>, not 'very'; never use 'more' with an -er word."
+  },
+  {
+   "qid": "c6-4.3-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Uncle",
+     "What would you like to eat?"
+    ]
+   ],
+   "options": [
+    "I would like a aloo samosa and a cup of tea.",
+    "I would like an aloo samosa and an cup of tea.",
+    "I would like an aloo samosa and a cup of tea."
+   ],
+   "answer": 2,
+   "rule": "<b>An</b> before a vowel sound (an aloo samosa); <b>a</b> before a consonant sound (a cup)."
+  },
+  {
+   "qid": "c6-4.3-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Triangles are easy to fold and seal, so the filling do not escape.",
+    "Triangles are easy to fold and seal, so the filling does not escape.",
+    "Triangles are easy to fold and seal, because of the filling does not escape."
+   ],
+   "answer": 1,
+   "rule": "<b>So</b> introduces the result; <b>the filling</b> is singular, so <b>does not</b>."
+  },
+  {
+   "qid": "c6-4.3-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The samosa moved from royal banquets to roadside stalls and winned everyone's heart.",
+    "The samosa moved from royal banquets to roadside stalls and win everyone's heart.",
+    "The samosa moved from royal banquets to roadside stalls and won everyone's heart."
+   ],
+   "answer": 2,
+   "rule": "<b>Win</b> is irregular: win - <b>won</b> - won. Keep both verbs in the past."
+  },
+  {
+   "qid": "c6-4.3-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "samosa",
+    "is",
+    "the",
+    "more",
+    "popular",
+    "snack",
+    "of",
+    "all",
+    "at",
+    "this",
+    "stall."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Of all</b> compares with many, so use the superlative: <b>the most</b> popular."
+  },
+  {
+   "qid": "c6-4.3-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "quantity",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Very",
+    "few",
+    "people",
+    "knows",
+    "that",
+    "the",
+    "samosa",
+    "first",
+    "came",
+    "from",
+    "Persia."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "knowing",
+      "know",
+      "known"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Few people</b> is plural, so the verb is <b>know</b>, not 'knows'."
+  },
+  {
+   "qid": "c6-4.3-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the samosas were frying, Riya set the table.",
+   "options": [
+    "So",
+    "Because of",
+    "While"
+   ],
+   "answer": 2,
+   "rule": "<b>While</b> joins two actions happening at the same time."
+  },
+  {
+   "qid": "c6-4.3-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Ain-i-Akbari lists the samosa as part of the royal spread.",
+   "options": [
+    "The",
+    "An",
+    "A"
+   ],
+   "answer": 0,
+   "rule": "A unique, well-known book or record takes <b>the</b>: <b>the</b> Ain-i-Akbari."
+  },
+  {
+   "qid": "c6-4.3-47",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "samosa",
+    "became",
+    "a",
+    "royal",
+    "delicacy."
+   ],
+   "alts": [],
+   "rule": "<b>Become</b> is irregular: become - <b>became</b> - become."
+  },
+  {
+   "qid": "c6-4.3-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "stall",
+    "was",
+    "crowded,",
+    "so",
+    "we",
+    "waited."
+   ],
+   "alts": [],
+   "rule": "Cause first, then comma + <b>so</b> + result."
+  },
+  {
+   "qid": "c6-4.3-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "quantity",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Chef Anil",
+     "We have only a little dough and a few potatoes left."
+    ],
+    [
+     "Chef Anil",
+     "Can we still make twenty samosas?"
+    ]
+   ],
+   "options": [
+    "No, there isn't enough dough for twenty samosas.",
+    "No, there aren't enough dough for twenty samosas.",
+    "No, there isn't enough doughs for twenty samosas."
+   ],
+   "answer": 0,
+   "rule": "<b>Dough</b> is uncountable: it has no plural and takes <b>isn't</b>."
+  },
+  {
+   "qid": "c6-4.3-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meher",
+     "Which samosa did you like best at the food festival?"
+    ]
+   ],
+   "options": [
+    "I liked the sweet chocolate samosa the most.",
+    "I liked the sweet chocolate samosa the more.",
+    "I liked the sweet chocolate samosa the mostest."
+   ],
+   "answer": 0,
+   "rule": "For the top choice among many, use <b>the most</b>; 'mostest' is not a word."
+  }
+ ]
+}

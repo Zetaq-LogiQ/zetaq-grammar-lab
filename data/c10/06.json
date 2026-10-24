@@ -1,0 +1,1201 @@
+{
+ "class": 10,
+ "id": "06",
+ "title": "The Alchemy of Nature",
+ "topics": [
+  {
+   "tag": "abstract_nouns",
+   "name": "Concrete and abstract nouns (noun forms)"
+  },
+  {
+   "tag": "transitive_intransitive",
+   "name": "Transitive and intransitive verbs (rise/raise, lie/lay)"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals: if clauses (types 1, 2 and 3)"
+  },
+  {
+   "tag": "however_concession",
+   "name": "However / although / despite (contrast)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-06-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "transitive_intransitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The sun raises in the east.",
+    "The sun rises in the east.",
+    "The sun rise in the east."
+   ],
+   "answer": 1,
+   "rule": "<b>rise</b> is intransitive (no object): the sun <b>rises</b>. Raise needs an object."
+  },
+  {
+   "qid": "c10-06-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "abstract_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The ants showed great persevere.",
+    "The ants showed great persevering.",
+    "The ants showed great perseverance."
+   ],
+   "answer": 2,
+   "rule": "After <b>showed great</b> we need a noun: the abstract noun <b>perseverance</b>."
+  },
+  {
+   "qid": "c10-06-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "transitive_intransitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "lie",
+    "the",
+    "books",
+    "on",
+    "the",
+    "table."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "lay",
+      "lain",
+      "lying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>lay</b> (put down) takes an object: lay the books. <b>lie</b> has no object."
+  },
+  {
+   "qid": "c10-06-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "abstract_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rainbow",
+    "filled",
+    "our",
+    "hearts",
+    "with",
+    "joyful",
+    "and",
+    "wonder."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "joyfully",
+      "enjoy",
+      "joy"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>with</b>, and joined to the noun wonder, we need a noun: <b>joy</b>."
+  },
+  {
+   "qid": "c10-06-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If you water the plant daily, it",
+   "after": "bloom.",
+   "options": [
+    "will",
+    "would",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb."
+  },
+  {
+   "qid": "c10-06-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "transitive_intransitive",
+   "prompt": "Fill in the gap.",
+   "before": "The hibiscus flower",
+   "after": "to the ground by evening.",
+   "options": [
+    "fells",
+    "falls",
+    "fall"
+   ],
+   "answer": 1,
+   "rule": "<b>fall</b> is intransitive: the flower <b>falls</b>. Fell (a tree) needs an object."
+  },
+  {
+   "qid": "c10-06-07",
+   "type": "build",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "If",
+    "it",
+    "rains,",
+    "we",
+    "will",
+    "stay",
+    "indoors."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If</b> + present (it rains), <b>will</b> + base verb (we will stay)."
+  },
+  {
+   "qid": "c10-06-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "abstract_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do the ants teach us?"
+    ]
+   ],
+   "options": [
+    "They teach us the important of teamwork.",
+    "They teach us the importance of teamwork.",
+    "They teach us the importantly of teamwork."
+   ],
+   "answer": 1,
+   "rule": "After <b>the</b> and before of, we need a noun: the <b>importance</b> of teamwork."
+  },
+  {
+   "qid": "c10-06-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "transitive_intransitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Where are my glasses?"
+    ]
+   ],
+   "options": [
+    "You lied them on the sofa this morning.",
+    "You laid them on the sofa this morning.",
+    "You lain them on the sofa this morning."
+   ],
+   "answer": 1,
+   "rule": "Put something down = <b>lay</b>; past tense <b>laid</b>. Lied means told a lie."
+  },
+  {
+   "qid": "c10-06-10",
+   "type": "change",
+   "level": 1,
+   "topic": "transitive_intransitive",
+   "prompt": "Change into passive voice.",
+   "source": "A rainbow colours the entire sky.",
+   "options": [
+    "The entire sky is coloured by a rainbow.",
+    "The entire sky was coloured by a rainbow.",
+    "The entire sky is colour by a rainbow."
+   ],
+   "answer": 0,
+   "rule": "Colours is transitive and present: passive = <b>is coloured</b> by."
+  },
+  {
+   "qid": "c10-06-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "however_concession",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "However hard the rock are, water shapes it.",
+    "However hard the rock is, water shapes it.",
+    "However the rock is hard, water shapes it."
+   ],
+   "answer": 1,
+   "rule": "Pattern: <b>However + adjective</b> + subject + verb: However <b>hard</b> the rock is."
+  },
+  {
+   "qid": "c10-06-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I was a bird, I will fly over the ocean.",
+    "If I were a bird, I will fly over the ocean.",
+    "If I were a bird, I would fly over the ocean."
+   ],
+   "answer": 2,
+   "rule": "Imaginary situation (type 2): <b>If I were</b> ..., <b>would</b> + base verb."
+  },
+  {
+   "qid": "c10-06-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "transitive_intransitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Grandpa",
+    "raises",
+    "early",
+    "and",
+    "walks",
+    "in",
+    "the",
+    "garden."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "raising",
+      "raised",
+      "rises"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Get up = <b>rise</b> (no object). Raise needs an object, like raise your hand."
+  },
+  {
+   "qid": "c10-06-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "abstract_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nature",
+    "gives",
+    "us",
+    "peace",
+    "and",
+    "happy",
+    "every",
+    "single",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "happiness",
+      "happily",
+      "happier"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Gives us peace and ... needs a noun like peace: <b>happiness</b>."
+  },
+  {
+   "qid": "c10-06-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If we",
+   "after": "down the trees, the birds will lose their homes.",
+   "options": [
+    "will cut",
+    "would cut",
+    "cut"
+   ],
+   "answer": 2,
+   "rule": "Type 1: no will in the <b>if</b> clause. If we <b>cut</b> down the trees, ... will ..."
+  },
+  {
+   "qid": "c10-06-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "however_concession",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "small an ant is, it can carry a heavy load.",
+   "options": [
+    "However",
+    "Although",
+    "Despite"
+   ],
+   "answer": 0,
+   "rule": "<b>However + adjective</b> (However small) means no matter how small."
+  },
+  {
+   "qid": "c10-06-17",
+   "type": "build",
+   "level": 2,
+   "topic": "abstract_nouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Their",
+    "perseverance",
+    "impressed",
+    "everyone."
+   ],
+   "alts": [],
+   "rule": "The abstract noun <b>perseverance</b> is the subject of the verb impressed."
+  },
+  {
+   "qid": "c10-06-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "however_concession",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Will you finish the project today?"
+    ]
+   ],
+   "options": [
+    "Yes, however long it takes.",
+    "Yes, however it takes long.",
+    "Yes, however long does it take."
+   ],
+   "answer": 0,
+   "rule": "<b>however long</b> + subject + verb (it takes) = no matter how long."
+  },
+  {
+   "qid": "c10-06-19",
+   "type": "change",
+   "level": 2,
+   "topic": "transitive_intransitive",
+   "prompt": "Change into active voice.",
+   "source": "The fly was carried by the ants.",
+   "options": [
+    "The ants carried the fly.",
+    "The ants carry the fly.",
+    "The ants carried by the fly."
+   ],
+   "answer": 0,
+   "rule": "Keep the past tense: was carried becomes <b>carried</b>; the doer (the ants) becomes the subject."
+  },
+  {
+   "qid": "c10-06-20",
+   "type": "change",
+   "level": 2,
+   "topic": "however_concession",
+   "prompt": "Join using 'although'.",
+   "source": "The spider's web is delicate. It is very strong.",
+   "options": [
+    "Although the spider's web is delicate, but it is very strong.",
+    "Although the spider's web is delicate, it are very strong.",
+    "Although the spider's web is delicate, it is very strong."
+   ],
+   "answer": 2,
+   "rule": "Use <b>although</b> alone; never add but in the other half."
+  },
+  {
+   "qid": "c10-06-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "transitive_intransitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We discussed the problem with our teacher.",
+    "We discussed about the problem with our teacher.",
+    "We discussed on the problem with our teacher."
+   ],
+   "answer": 0,
+   "rule": "<b>discuss</b> is transitive: discuss something. No about or on after it."
+  },
+  {
+   "qid": "c10-06-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we lived like the hibiscus, we will enjoy every day.",
+    "If we live like the hibiscus, we would enjoyed every day.",
+    "If we lived like the hibiscus, we would enjoy every day."
+   ],
+   "answer": 2,
+   "rule": "Type 2: If + past (lived), <b>would</b> + base verb (would enjoy)."
+  },
+  {
+   "qid": "c10-06-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "transitive_intransitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tired",
+    "traveller",
+    "laid",
+    "under",
+    "the",
+    "tree",
+    "for",
+    "an",
+    "hour."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "lain",
+      "laying",
+      "lay"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Rest flat = <b>lie</b>; its past is <b>lay</b>. Laid is the past of lay (put something down)."
+  },
+  {
+   "qid": "c10-06-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "transitive_intransitive",
+   "prompt": "Fill in the gap.",
+   "before": "We reached",
+   "after": "beach before sunset.",
+   "options": [
+    "at the",
+    "the",
+    "to the"
+   ],
+   "answer": 1,
+   "rule": "<b>reach</b> is transitive: reach a place. No at or to after it."
+  },
+  {
+   "qid": "c10-06-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "abstract_nouns",
+   "prompt": "Fill in the gap.",
+   "before": "We were filled with",
+   "after": "at the sight of the majestic ocean.",
+   "options": [
+    "awful",
+    "awe",
+    "awesome"
+   ],
+   "answer": 1,
+   "rule": "After <b>filled with</b> we need a noun: <b>awe</b> (great wonder). The others are adjectives."
+  },
+  {
+   "qid": "c10-06-26",
+   "type": "build",
+   "level": 3,
+   "topic": "however_concession",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "However",
+    "tiny",
+    "a",
+    "seed",
+    "is,",
+    "it",
+    "can",
+    "grow."
+   ],
+   "alts": [
+    [
+     "However",
+     "tiny",
+     "it",
+     "is,",
+     "a",
+     "seed",
+     "can",
+     "grow."
+    ]
+   ],
+   "rule": "<b>However + adjective</b> + subject + verb, then the main clause."
+  },
+  {
+   "qid": "c10-06-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Papa",
+     "What would you do if you had a garden?"
+    ]
+   ],
+   "options": [
+    "I will plant a neem tree in it.",
+    "I would plant a neem tree in it.",
+    "I would planted a neem tree in it."
+   ],
+   "answer": 1,
+   "rule": "Answer an imaginary question with <b>would</b> + base verb: I would <b>plant</b>."
+  },
+  {
+   "qid": "c10-06-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "abstract_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Why do you love the sea so much?"
+    ]
+   ],
+   "options": [
+    "Its vast fills me with wonder.",
+    "Its vastness fills me with wonder.",
+    "Its vastly fills me with wonder."
+   ],
+   "answer": 1,
+   "rule": "The subject after <b>Its</b> must be a noun: <b>vastness</b> (from the adjective vast)."
+  },
+  {
+   "qid": "c10-06-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Begin the sentence with 'If'.",
+   "source": "Water the plant, or it will wither.",
+   "options": [
+    "If you will not water the plant, it will wither.",
+    "If you do not water the plant, it would wither.",
+    "If you do not water the plant, it will wither."
+   ],
+   "answer": 2,
+   "rule": "or = if not. Type 1: <b>If you do not water</b> ..., it <b>will</b> wither."
+  },
+  {
+   "qid": "c10-06-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "however_concession",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "tree",
+    "looked",
+    "dead",
+    "in",
+    "winter.",
+    "However,",
+    "when",
+    "spring",
+    "come",
+    "again,",
+    "it",
+    "was",
+    "back",
+    "to",
+    "its",
+    "green",
+    "majesty",
+    "and",
+    "full",
+    "of",
+    "flower",
+    "and",
+    "birds."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "coming",
+      "came",
+      "comes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "flowering",
+      "flowered",
+      "flowers"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past story: when spring <b>came</b>. Full of ... and birds needs a plural noun: <b>flowers</b>."
+  },
+  {
+   "qid": "c10-06-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the trees are cut down, the birds will lose their homes.",
+    "If the trees are cut down, the birds would lose their homes.",
+    "If the trees will be cut down, the birds will lose their homes."
+   ],
+   "answer": 0,
+   "rule": "Type 1 with a passive: <b>If</b> + present (are cut down), <b>will</b> + base verb."
+  },
+  {
+   "qid": "c10-06-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "abstract_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Pearls",
+    "are",
+    "a",
+    "symbol",
+    "of",
+    "beautiful",
+    "and",
+    "patience."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "beauty",
+      "beautifully",
+      "beautify"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>of</b>, joined to the noun patience, we need a noun: <b>beauty</b>."
+  },
+  {
+   "qid": "c10-06-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "transitive_intransitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "river",
+    "has",
+    "rose",
+    "above",
+    "the",
+    "danger",
+    "mark."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "raised",
+      "risen",
+      "rising"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect = has + past participle. rise, rose, <b>risen</b>; raise needs an object."
+  },
+  {
+   "qid": "c10-06-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "however_concession",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the heavy rain, the farmers kept working.",
+   "options": [
+    "Although",
+    "Despite",
+    "However"
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> + noun (the heavy rain). Although needs a full clause."
+  },
+  {
+   "qid": "c10-06-35",
+   "type": "build",
+   "level": 4,
+   "topic": "transitive_intransitive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Our",
+    "garden",
+    "was",
+    "cleaned",
+    "by",
+    "the",
+    "students."
+   ],
+   "alts": [],
+   "rule": "Only a transitive verb (clean) can be passive: <b>was cleaned by</b> the students."
+  },
+  {
+   "qid": "c10-06-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "however_concession",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "We lost the match. Should we stop practising?"
+    ]
+   ],
+   "options": [
+    "No. However it is hard, we must keep going.",
+    "No. However hard it is, we must kept going.",
+    "No. However hard it is, we must keep going."
+   ],
+   "answer": 2,
+   "rule": "<b>However + adjective</b> + subject + verb; after must, use the base verb keep."
+  },
+  {
+   "qid": "c10-06-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "What will you do if the bus doesn't come?"
+    ]
+   ],
+   "options": [
+    "If it doesn't come, I will walk to school.",
+    "If it won't come, I will walk to school.",
+    "If it doesn't come, I would walked to school."
+   ],
+   "answer": 0,
+   "rule": "Type 1: simple present in the <b>if</b> clause (doesn't come), <b>will</b> + base verb."
+  },
+  {
+   "qid": "c10-06-38",
+   "type": "change",
+   "level": 4,
+   "topic": "transitive_intransitive",
+   "prompt": "Change into passive voice.",
+   "source": "Who planted this neem tree?",
+   "options": [
+    "By whom this neem tree was planted?",
+    "By whom was this neem tree planted?",
+    "By whom was this neem tree plant?"
+   ],
+   "answer": 1,
+   "rule": "Who ...? becomes <b>By whom was</b> ... + past participle <b>planted</b>?"
+  },
+  {
+   "qid": "c10-06-39",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'If'.",
+   "source": "We do not have wings, so we cannot fly like birds.",
+   "options": [
+    "If we had wings, we could fly like birds.",
+    "If we have wings, we could fly like birds.",
+    "If we had wings, we can fly like birds."
+   ],
+   "answer": 0,
+   "rule": "Imaginary present (type 2): If + past (<b>had</b>), <b>could</b> + base verb."
+  },
+  {
+   "qid": "c10-06-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "transitive_intransitive",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Every",
+    "fortnight,",
+    "a",
+    "big",
+    "bright",
+    "flower",
+    "blooms",
+    "on",
+    "our",
+    "hibiscus",
+    "plant.",
+    "It",
+    "rises",
+    "its",
+    "face",
+    "to",
+    "the",
+    "sun",
+    "all",
+    "day,",
+    "but",
+    "by",
+    "evening",
+    "its",
+    "petals",
+    "lays",
+    "on",
+    "the",
+    "ground."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "rising",
+      "risen",
+      "raises"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "lie",
+      "laid",
+      "lain"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With an object (its face) use <b>raise</b>: it <b>raises</b>. Petals rest with no object: they <b>lie</b> on the ground."
+  },
+  {
+   "qid": "c10-06-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we had protected the forest, the river will not have dried up.",
+    "If we would have protected the forest, the river would not have dried up.",
+    "If we had protected the forest, the river would not have dried up."
+   ],
+   "answer": 2,
+   "rule": "Type 3 (past, unreal): If + <b>had</b> + past participle, <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c10-06-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "however_concession",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "However",
+    "difficult",
+    "things",
+    "are",
+    "right",
+    "now,",
+    "they",
+    "will",
+    "not",
+    "remains",
+    "so",
+    "forever."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "remained",
+      "remain",
+      "remaining"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>will not</b>, use the base verb: will not <b>remain</b>."
+  },
+  {
+   "qid": "c10-06-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "transitive_intransitive",
+   "prompt": "Fill in the gap.",
+   "before": "The old man",
+   "after": "his walking stick on the bench and sat down.",
+   "options": [
+    "laid",
+    "lay",
+    "lied",
+    "lain"
+   ],
+   "answer": 0,
+   "rule": "Put something down = <b>lay</b> (transitive). Past tense, like sat: <b>laid</b>."
+  },
+  {
+   "qid": "c10-06-44",
+   "type": "build",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Make a type 3 conditional that begins with Had.",
+   "answer": [
+    "Had",
+    "Ravi",
+    "known",
+    "about",
+    "the",
+    "storm,",
+    "he",
+    "would",
+    "have",
+    "stayed."
+   ],
+   "alts": [],
+   "rule": "<b>Had</b> + subject + past participle = If Ravi had known; then <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c10-06-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "abstract_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What does the caterpillar teach us?"
+    ]
+   ],
+   "options": [
+    "Its transformation teaches us that change can be beautiful.",
+    "Its transform teaches us that change can be beautiful.",
+    "Its transformation teach us that change can be beautifully."
+   ],
+   "answer": 0,
+   "rule": "Subject noun: <b>transformation</b> (singular, so teaches). After can be, use the adjective beautiful."
+  },
+  {
+   "qid": "c10-06-46",
+   "type": "change",
+   "level": 5,
+   "topic": "however_concession",
+   "prompt": "Rewrite using 'Despite'.",
+   "source": "Although the ants were small, they carried a huge fly.",
+   "options": [
+    "Despite of being small, the ants carried a huge fly.",
+    "Despite the ants were small, they carried a huge fly.",
+    "Despite being small, the ants carried a huge fly."
+   ],
+   "answer": 2,
+   "rule": "<b>Despite</b> + noun or -ing (being small). Never despite of, never despite + full clause."
+  },
+  {
+   "qid": "c10-06-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'If' (type 3 conditional).",
+   "source": "We did not water the plant, so it withered.",
+   "options": [
+    "If we watered the plant, it would not have withered.",
+    "If we had watered the plant, it would not have withered.",
+    "If we had watered the plant, it will not have withered."
+   ],
+   "answer": 1,
+   "rule": "Past regret: If + <b>had watered</b>, <b>would not have withered</b>."
+  },
+  {
+   "qid": "c10-06-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "abstract_nouns",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Spider",
+    "webs",
+    "looks",
+    "delicate,",
+    "yet",
+    "their",
+    "strong",
+    "is",
+    "amazing.",
+    "An",
+    "oyster",
+    "takes",
+    "in",
+    "a",
+    "grain",
+    "of",
+    "sand",
+    "and",
+    "slowly",
+    "turns",
+    "it",
+    "into",
+    "a",
+    "pearl",
+    "of",
+    "great",
+    "beautiful",
+    "and",
+    "value."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "looking",
+      "look",
+      "looker"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 6,
+     "options": [
+      "strongly",
+      "stronger",
+      "strength"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "beauty",
+      "beautify",
+      "beautifully"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "webs (plural) <b>look</b>; after their we need a noun: <b>strength</b>; of great ... and value needs a noun: <b>beauty</b>."
+  },
+  {
+   "qid": "c10-06-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "transitive_intransitive",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "If",
+    "we",
+    "had",
+    "planted",
+    "more",
+    "trees,",
+    "the",
+    "city",
+    "would",
+    "not",
+    "have",
+    "became",
+    "so",
+    "hot.",
+    "Every",
+    "summer,",
+    "the",
+    "temperature",
+    "raises",
+    "a",
+    "little",
+    "more.",
+    "We",
+    "must",
+    "act",
+    "before",
+    "it",
+    "is",
+    "too",
+    "lately",
+    "for",
+    "our",
+    "children."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "becoming",
+      "become",
+      "becomes"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "rises",
+      "rising",
+      "raised"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 29,
+     "options": [
+      "later",
+      "latest",
+      "late"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "would not have + past participle: <b>become</b>. Temperature goes up by itself: <b>rises</b>. too + adjective: too <b>late</b>."
+  },
+  {
+   "qid": "c10-06-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "abstract_nouns",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "However",
+    "small",
+    "an",
+    "act",
+    "of",
+    "kind",
+    "may",
+    "be,",
+    "it",
+    "never",
+    "dies.",
+    "One",
+    "hour",
+    "of",
+    "honest",
+    "effort",
+    "can",
+    "bring",
+    "happy",
+    "to",
+    "much",
+    "people."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "kindly",
+      "kinder",
+      "kindness"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 18,
+     "options": [
+      "happily",
+      "happiness",
+      "happier"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 20,
+     "options": [
+      "plenty",
+      "many",
+      "lot"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "an act of <b>kindness</b> (noun); bring + noun: <b>happiness</b>; countable people takes <b>many</b>."
+  }
+ ]
+}

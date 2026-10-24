@@ -1,0 +1,993 @@
+{
+ "class": 5,
+ "id": "22",
+ "title": "A Book Review",
+ "topics": [
+  {
+   "tag": "simple_present",
+   "name": "Simple present tense"
+  },
+  {
+   "tag": "comparison",
+   "name": "Adjectives: -er / -est, more / most"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions and / but / or / because"
+  },
+  {
+   "tag": "possessive",
+   "name": "Apostrophe for possession"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-22-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "George likes to know why.",
+    "George like to know why.",
+    "George liking to know why."
+   ],
+   "answer": 0,
+   "rule": "With one person (he/she/George), the simple present verb takes <b>-s</b>: George <b>likes</b>."
+  },
+  {
+   "qid": "c5-22-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Cosmos is the smarter computer in the world.",
+    "Cosmos is the smartest computer in the world.",
+    "Cosmos is the most smartest computer in the world."
+   ],
+   "answer": 1,
+   "rule": "Compared with all others (<b>in the world</b>), use <b>-est</b>: the <b>smartest</b>. Never use most and -est together."
+  },
+  {
+   "qid": "c5-22-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Annies father is a scientist.",
+    "Annie father is a scientist.",
+    "Annie's father is a scientist."
+   ],
+   "answer": 2,
+   "rule": "To show that something belongs to one person, add <b>'s</b>: <b>Annie's</b> father."
+  },
+  {
+   "qid": "c5-22-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "evening,",
+    "Eric",
+    "answer",
+    "George's",
+    "questions",
+    "about",
+    "stars."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "answering",
+      "answers",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Eric</b> is one person and this is a habit (every evening), so the verb takes -s: <b>answers</b>."
+  },
+  {
+   "qid": "c5-22-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Jupiter",
+    "is",
+    "the",
+    "bigger",
+    "planet",
+    "in",
+    "our",
+    "solar",
+    "system."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "biggest",
+      "more",
+      "bigness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Jupiter is compared with all the planets, so use the <b>-est</b> form: the <b>biggest</b> planet."
+  },
+  {
+   "qid": "c5-22-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "George wants a computer,",
+   "after": "his parents say no.",
+   "options": [
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": 1,
+   "rule": "<b>but</b> joins two ideas that go against each other: he wants it, <b>but</b> they say no."
+  },
+  {
+   "qid": "c5-22-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "George's parents",
+   "after": "only home-cooked food.",
+   "options": [
+    "eats",
+    "eating",
+    "eat"
+   ],
+   "answer": 2,
+   "rule": "<b>Parents</b> is plural, so the simple present verb has no -s: they <b>eat</b>."
+  },
+  {
+   "qid": "c5-22-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Cosmos",
+    "opens",
+    "windows",
+    "on",
+    "the",
+    "universe."
+   ],
+   "alts": [],
+   "rule": "Subject + verb + object: <b>Cosmos opens windows</b> on the universe."
+  },
+  {
+   "qid": "c5-22-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Whose book is this on the bench?"
+    ]
+   ],
+   "options": [
+    "It is Kabirs book.",
+    "It is Kabir book's.",
+    "It is Kabir's book."
+   ],
+   "answer": 2,
+   "rule": "The book belongs to Kabir, so add <b>'s</b> to his name: <b>Kabir's</b> book."
+  },
+  {
+   "qid": "c5-22-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Do you read storybooks?"
+    ]
+   ],
+   "options": [
+    "Yes, I reads one every week.",
+    "Yes, I reading one every week.",
+    "Yes, I read one every week."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, the simple present verb has no -s: I <b>read</b>."
+  },
+  {
+   "qid": "c5-22-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "George has no TV at home because his parents ban it.",
+    "George has no TV at home because of his parents ban it.",
+    "George has no TV at home because his parents bans it."
+   ],
+   "answer": 0,
+   "rule": "<b>because</b> + a full sentence: because <b>his parents ban</b> it. 'because of' needs only a noun after it."
+  },
+  {
+   "qid": "c5-22-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "My parents's bicycles are blue.",
+    "My parents' bicycles are blue.",
+    "My parents' bicycles is blue."
+   ],
+   "answer": 1,
+   "rule": "Plural noun ending in -s: add only an apostrophe (<b>parents'</b>). Bicycles is plural, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-22-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Stephen",
+    "Hawkings",
+    "wheelchair",
+    "helps",
+    "him",
+    "move",
+    "about."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "Hawking",
+      "Hawkings's",
+      "Hawking's"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The wheelchair belongs to Stephen Hawking, so add <b>'s</b>: <b>Hawking's</b> wheelchair."
+  },
+  {
+   "qid": "c5-22-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "George",
+    "asks",
+    "many",
+    "questions",
+    "but",
+    "he",
+    "likes",
+    "to",
+    "know",
+    "why."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "because",
+      "or",
+      "until"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Liking to know why is the <b>reason</b> he asks questions, so join them with <b>because</b>."
+  },
+  {
+   "qid": "c5-22-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Mars is",
+   "after": "than the Earth.",
+   "options": [
+    "small",
+    "smaller",
+    "smallest"
+   ],
+   "answer": 1,
+   "rule": "Comparing two things with <b>than</b> needs the <b>-er</b> form: <b>smaller</b> than."
+  },
+  {
+   "qid": "c5-22-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "George went to",
+   "after": "house next door.",
+   "options": [
+    "Annies",
+    "Annie's",
+    "Annie"
+   ],
+   "answer": 1,
+   "rule": "The house belongs to Annie's family, so use <b>'s</b>: <b>Annie's</b> house."
+  },
+  {
+   "qid": "c5-22-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas with 'but'.",
+   "answer": [
+    "George",
+    "has",
+    "no",
+    "TV,",
+    "but",
+    "he",
+    "loves",
+    "books."
+   ],
+   "alts": [],
+   "rule": "<b>but</b> joins two opposite ideas. Put a comma before it: no TV, <b>but</b> he loves books."
+  },
+  {
+   "qid": "c5-22-18",
+   "type": "build",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Make a comparison.",
+   "answer": [
+    "A",
+    "black",
+    "hole",
+    "is",
+    "darker",
+    "than",
+    "night."
+   ],
+   "alts": [],
+   "rule": "Comparing two things: <b>-er</b> adjective + <b>than</b>: darker than night."
+  },
+  {
+   "qid": "c5-22-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you reading so late?"
+    ]
+   ],
+   "options": [
+    "Because the story is very exciting.",
+    "Because of the story is very exciting.",
+    "Because the story are very exciting."
+   ],
+   "answer": 0,
+   "rule": "<b>because</b> + subject + verb: because the story <b>is</b> exciting. 'because of' takes only a noun."
+  },
+  {
+   "qid": "c5-22-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Patil",
+     "Which is the biggest planet?"
+    ]
+   ],
+   "options": [
+    "Jupiter is the biggest planet.",
+    "Jupiter is the most big planet.",
+    "Jupiter is a biggest planet."
+   ],
+   "answer": 0,
+   "rule": "Short adjectives take <b>-est</b>, and the superlative needs <b>the</b>: <b>the biggest</b>."
+  },
+  {
+   "qid": "c5-22-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct negative sentence.",
+   "options": [
+    "George's parents does not buy biscuits.",
+    "George's parents do not buy biscuits.",
+    "George's parents do not buys biscuits."
+   ],
+   "answer": 1,
+   "rule": "Plural subject takes <b>do not</b>, and after do not the verb has no -s: do not <b>buy</b>."
+  },
+  {
+   "qid": "c5-22-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the excitingest book on my shelf.",
+    "This is the most excitingest book on my shelf.",
+    "This is the most exciting book on my shelf."
+   ],
+   "answer": 2,
+   "rule": "Long adjectives use <b>most</b>, not -est: <b>the most exciting</b>."
+  },
+  {
+   "qid": "c5-22-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Both girls' bags are on the bench.",
+    "Both girl's bags are on the bench.",
+    "Both girls's bags are on the bench."
+   ],
+   "answer": 0,
+   "rule": "<b>Both girls</b> is plural ending in -s, so add only an apostrophe: <b>girls'</b> bags."
+  },
+  {
+   "qid": "c5-22-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "George",
+    "doesn't",
+    "thinks",
+    "the",
+    "computer",
+    "is",
+    "a",
+    "bad",
+    "thing."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "thinking",
+      "thought",
+      "think"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>does / doesn't</b>, use the base verb with no -s: doesn't <b>think</b>."
+  },
+  {
+   "qid": "c5-22-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "comet",
+    "is",
+    "bright",
+    "than",
+    "that",
+    "star",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "brighter",
+      "brightest",
+      "brightly"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Comparing two things with <b>than</b> needs the <b>-er</b> form: <b>brighter</b> than."
+  },
+  {
+   "qid": "c5-22-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Do you want to read the book",
+   "after": "watch the film?",
+   "options": [
+    "but",
+    "or",
+    "because"
+   ],
+   "answer": 1,
+   "rule": "<b>or</b> gives a choice between two things: read the book <b>or</b> watch the film."
+  },
+  {
+   "qid": "c5-22-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "George",
+   "after": "a bicycle to school every day.",
+   "options": [
+    "ride",
+    "riding",
+    "rides"
+   ],
+   "answer": 2,
+   "rule": "A daily habit with one person (George) takes the simple present with <b>-s</b>: <b>rides</b>."
+  },
+  {
+   "qid": "c5-22-28",
+   "type": "build",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Eric's",
+    "computer",
+    "can",
+    "visit",
+    "any",
+    "planet."
+   ],
+   "alts": [],
+   "rule": "<b>Eric's computer</b> = the computer that belongs to Eric. After <b>can</b>, use the base verb: can <b>visit</b>."
+  },
+  {
+   "qid": "c5-22-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What does your father do?"
+    ]
+   ],
+   "options": [
+    "He work in a bank.",
+    "He works in a bank.",
+    "He is work in a bank."
+   ],
+   "answer": 1,
+   "rule": "For a job or habit, use the simple present. With <b>he</b>, add -s: he <b>works</b>."
+  },
+  {
+   "qid": "c5-22-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Is this your pen or Meera's?"
+    ]
+   ],
+   "options": [
+    "It is Meera's.",
+    "It is Meeras.",
+    "It is Meera."
+   ],
+   "answer": 0,
+   "rule": "<b>Meera's</b> here means 'Meera's pen'. The apostrophe + s shows it belongs to her."
+  },
+  {
+   "qid": "c5-22-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Pick the sentence with the correct verbs.",
+   "options": [
+    "Lucy Hawking writed the story, and Garry Parsons drew the pictures.",
+    "Lucy Hawking wrote the story, and Garry Parsons drawed the pictures.",
+    "Lucy Hawking wrote the story, and Garry Parsons drew the pictures."
+   ],
+   "answer": 2,
+   "rule": "<b>and</b> joins two past actions. Write and draw are irregular: <b>wrote</b>, <b>drew</b>."
+  },
+  {
+   "qid": "c5-22-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "That book is my, and this one is Annie's.",
+    "That book is mine, and this one is Annie's.",
+    "That book is mine, and this one is Annies."
+   ],
+   "answer": 1,
+   "rule": "Use <b>mine</b> when no noun follows, and <b>Annie's</b> (with an apostrophe) to show it is hers."
+  },
+  {
+   "qid": "c5-22-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday's",
+    "storm",
+    "was",
+    "the",
+    "worse",
+    "storm",
+    "of",
+    "the",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "bad",
+      "worst",
+      "baddest"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Bad - worse - <b>worst</b>. Compared with all storms of the year, use the superlative: the <b>worst</b>."
+  },
+  {
+   "qid": "c5-22-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "George",
+    "and",
+    "Annie",
+    "is",
+    "next-door",
+    "neighbours."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "are",
+      "am",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two people joined by <b>and</b> make a plural subject, so use <b>are</b>."
+  },
+  {
+   "qid": "c5-22-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Stephen Hawking was one of the",
+   "after": "scientists of our times.",
+   "options": [
+    "greater",
+    "greatest",
+    "more great"
+   ],
+   "answer": 1,
+   "rule": "<b>one of the</b> + superlative + plural noun: one of the <b>greatest</b> scientists."
+  },
+  {
+   "qid": "c5-22-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "The",
+   "after": "toys were all over the floor.",
+   "options": [
+    "childrens'",
+    "childs'",
+    "children's"
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is already plural and does not end in -s, so add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c5-22-37",
+   "type": "build",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas with 'because'.",
+   "answer": [
+    "Annie",
+    "laughed",
+    "because",
+    "the",
+    "joke",
+    "was",
+    "funny."
+   ],
+   "alts": [],
+   "rule": "<b>because</b> gives the reason: Annie laughed <b>because</b> the joke was funny."
+  },
+  {
+   "qid": "c5-22-38",
+   "type": "build",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Make a comparison.",
+   "answer": [
+    "The",
+    "second",
+    "book",
+    "was",
+    "longer",
+    "than",
+    "the",
+    "first."
+   ],
+   "alts": [],
+   "rule": "Two things compared in the past: <b>was</b> + <b>-er</b> adjective + <b>than</b>."
+  },
+  {
+   "qid": "c5-22-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you finish the book?"
+    ]
+   ],
+   "options": [
+    "Yes, I finish it last night.",
+    "Yes, I finished him last night.",
+    "Yes, I finished it last night."
+   ],
+   "answer": 2,
+   "rule": "<b>Last night</b> is past, so use <b>finished</b>. A book is a thing, so the pronoun is <b>it</b>."
+  },
+  {
+   "qid": "c5-22-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Which book do you like more, this one or that one?"
+    ]
+   ],
+   "options": [
+    "I like this one more. It is more funnier.",
+    "I like this one more. It is funnier.",
+    "I like this one more. It is funniest."
+   ],
+   "answer": 1,
+   "rule": "Comparing two books, use the <b>-er</b> form alone: <b>funnier</b>. Never 'more funnier'."
+  },
+  {
+   "qid": "c5-22-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "George's parents uses candles instead of lights because they want to save electricity.",
+    "George's parents use candles instead of lights because they want to save electricity.",
+    "George's parents use candles instead of lights because they wants to save electricity."
+   ],
+   "answer": 1,
+   "rule": "<b>Parents</b> and <b>they</b> are plural, so both verbs have no -s: <b>use</b>, <b>want</b>."
+  },
+  {
+   "qid": "c5-22-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Of all the planets, Mercury is the closer to the Sun, and it is smaller than the Earth.",
+    "Of all the planets, Mercury is the closest to the Sun, and it is smallest than the Earth.",
+    "Of all the planets, Mercury is the closest to the Sun, and it is smaller than the Earth."
+   ],
+   "answer": 2,
+   "rule": "<b>Of all</b> needs the superlative: <b>closest</b>. Comparing two with <b>than</b> needs <b>smaller</b>."
+  },
+  {
+   "qid": "c5-22-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children's",
+    "favourite",
+    "part",
+    "of",
+    "the",
+    "book",
+    "are",
+    "the",
+    "black",
+    "hole."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "were",
+      "am",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject is <b>part</b> (one thing), not 'book' or 'children', so the verb is <b>is</b>."
+  },
+  {
+   "qid": "c5-22-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "two",
+    "elder",
+    "brothers's",
+    "cricket",
+    "bats",
+    "are",
+    "lying",
+    "under",
+    "the",
+    "bed."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "brother",
+      "brothers'",
+      "brother's"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Brothers</b> is a plural ending in -s, so add only an apostrophe: my two brothers<b>'</b> bats."
+  },
+  {
+   "qid": "c5-22-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "George wanted to visit a comet,",
+   "after": "he was afraid of the dark.",
+   "options": [
+    "but",
+    "because",
+    "or"
+   ],
+   "answer": 0,
+   "rule": "Wanting to go and being afraid pull in opposite ways, so join them with <b>but</b>."
+  },
+  {
+   "qid": "c5-22-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Cosmos is",
+   "after": "than any computer in George's school.",
+   "options": [
+    "more powerful",
+    "powerfuller",
+    "most powerful"
+   ],
+   "answer": 0,
+   "rule": "Long adjectives compare with <b>more</b> + adjective + <b>than</b>: <b>more powerful</b> than."
+  },
+  {
+   "qid": "c5-22-47",
+   "type": "build",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Make a question.",
+   "answer": [
+    "Who",
+    "is",
+    "the",
+    "most",
+    "famous",
+    "scientist?"
+   ],
+   "alts": [],
+   "rule": "Long adjectives use <b>the most</b>: the most famous. In a wh- question, <b>is</b> comes after Who."
+  },
+  {
+   "qid": "c5-22-48",
+   "type": "build",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "Eric's",
+    "computer",
+    "faster",
+    "than",
+    "yours?"
+   ],
+   "alts": [],
+   "rule": "Yes/no question: <b>Is</b> comes first. <b>Eric's</b> shows owning; <b>yours</b> needs no apostrophe."
+  },
+  {
+   "qid": "c5-22-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Whose idea was it to write a book review?"
+    ]
+   ],
+   "options": [
+    "It was my sister's idea.",
+    "It was my sisters idea.",
+    "It were my sister's idea."
+   ],
+   "answer": 0,
+   "rule": "The idea belongs to my sister, so write <b>sister's</b>. With <b>it</b>, use <b>was</b>."
+  },
+  {
+   "qid": "c5-22-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why should we read this book?"
+    ]
+   ],
+   "options": [
+    "Because it teaches science and it is fun.",
+    "Because it teach science and it is fun.",
+    "Because of it teaches science and it is fun."
+   ],
+   "answer": 0,
+   "rule": "<b>because</b> + subject + verb: because it <b>teaches</b>. 'because of' needs only a noun."
+  }
+ ]
+}

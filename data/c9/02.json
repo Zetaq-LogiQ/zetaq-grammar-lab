@@ -1,0 +1,1203 @@
+{
+ "class": 9,
+ "id": "02",
+ "title": "A Synopsis - The Swiss Family Robinson",
+ "topics": [
+  {
+   "tag": "noun_verb",
+   "name": "Same word as noun and verb (hold, return, mark, value)"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements, questions, commands)"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "participle",
+   "name": "Participles and non-finite verbs"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-02-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Jenny returns to England was a happy event.",
+    "Jenny's return to England was a happy event.",
+    "Jenny returned to England was a happy event."
+   ],
+   "answer": 1,
+   "rule": "The subject of <b>was</b> must be a noun phrase. Here <b>return</b> is a noun: <b>Jenny's return</b>."
+  },
+  {
+   "qid": "c9-02-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When the family woke up, the other passengers had leave the ship.",
+    "When the family woke up, the other passengers have left the ship.",
+    "When the family woke up, the other passengers had left the ship."
+   ],
+   "answer": 2,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had + past participle</b> = <b>had left</b>."
+  },
+  {
+   "qid": "c9-02-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tubs",
+    "were",
+    "fill",
+    "with",
+    "food",
+    "and",
+    "tools",
+    "by",
+    "Father."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "filling",
+      "filled",
+      "fills"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive voice = <b>be + past participle</b>: <b>were filled</b>."
+  },
+  {
+   "qid": "c9-02-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Let",
+    "me",
+    "holds",
+    "the",
+    "bag",
+    "for",
+    "you."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "held",
+      "hold",
+      "holding"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>let me</b>, use the base form of the verb: <b>Let me hold</b>."
+  },
+  {
+   "qid": "c9-02-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The storm had",
+   "after": "by the morning.",
+   "options": [
+    "pass",
+    "passing",
+    "passed"
+   ],
+   "answer": 2,
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had passed</b>."
+  },
+  {
+   "qid": "c9-02-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "participle",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a cave, Fritz shouted with joy.",
+   "options": [
+    "Finding",
+    "Found",
+    "Find"
+   ],
+   "answer": 0,
+   "rule": "The <b>-ing</b> participle shows what Fritz did: <b>Finding a cave</b>, he shouted with joy."
+  },
+  {
+   "qid": "c9-02-07",
+   "type": "build",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "ship",
+    "was",
+    "caught",
+    "in",
+    "a",
+    "storm."
+   ],
+   "alts": [],
+   "rule": "Passive: subject + <b>was</b> + past participle (<b>caught</b>)."
+  },
+  {
+   "qid": "c9-02-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Fritz",
+     "What did Father say about the gourds?"
+    ]
+   ],
+   "options": [
+    "He said that they will made excellent bowls.",
+    "He said that they would make excellent bowls.",
+    "He said that they would makes excellent bowls."
+   ],
+   "answer": 1,
+   "rule": "In reported speech <b>will</b> becomes <b>would</b>, and <b>would</b> is followed by the base verb <b>make</b>."
+  },
+  {
+   "qid": "c9-02-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Fritz found a rubber tree.",
+   "options": [
+    "A rubber tree was found by Fritz.",
+    "A rubber tree is found by Fritz.",
+    "A rubber tree was find by Fritz."
+   ],
+   "answer": 0,
+   "rule": "Simple past active becomes <b>was/were + past participle</b>: <b>was found by Fritz</b>."
+  },
+  {
+   "qid": "c9-02-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Jenny said, \"I am happy here.\"",
+   "options": [
+    "Jenny said that I was happy there.",
+    "Jenny said that she were happy there.",
+    "Jenny said that she was happy there."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b>, <b>am</b> becomes <b>was</b> and <b>here</b> becomes <b>there</b>."
+  },
+  {
+   "qid": "c9-02-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Elizabeth told to William that she wanted a safer home.",
+    "Elizabeth told William that she wanted a safer home.",
+    "Elizabeth said William that she wanted a safer home."
+   ],
+   "answer": 1,
+   "rule": "<b>Tell</b> takes a person directly: <b>told William</b>. <b>Said</b> needs <b>to</b>: said to William."
+  },
+  {
+   "qid": "c9-02-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A ladder was made from rope and bamboo.",
+    "A ladder was make from rope and bamboo.",
+    "A ladder were made from rope and bamboo."
+   ],
+   "answer": 0,
+   "rule": "Singular <b>a ladder</b> takes <b>was</b>, and the passive needs the past participle <b>made</b>."
+  },
+  {
+   "qid": "c9-02-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "help",
+    "came,",
+    "Jenny",
+    "had",
+    "live",
+    "alone",
+    "for",
+    "three",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "living",
+      "lived",
+      "lives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had lived</b>."
+  },
+  {
+   "qid": "c9-02-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "family's",
+    "arrive",
+    "on",
+    "the",
+    "island",
+    "was",
+    "a",
+    "relief."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "arrived",
+      "arrival",
+      "arrives"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>the family's</b> we need a noun. The noun form of <b>arrive</b> is <b>arrival</b>."
+  },
+  {
+   "qid": "c9-02-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The cave",
+   "after": "by the whole family.",
+   "options": [
+    "carved",
+    "was carve",
+    "was carved"
+   ],
+   "answer": 2,
+   "rule": "With <b>by the whole family</b> the sentence is passive: <b>was + past participle</b> = <b>was carved</b>."
+  },
+  {
+   "qid": "c9-02-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Fritz asked his father",
+   "after": "the message was old.",
+   "options": [
+    "whether",
+    "that",
+    "what"
+   ],
+   "answer": 0,
+   "rule": "A reported yes/no question is joined with <b>if</b> or <b>whether</b>, not <b>that</b>."
+  },
+  {
+   "qid": "c9-02-17",
+   "type": "build",
+   "level": 2,
+   "topic": "participle",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Thinking",
+    "ahead,",
+    "Father",
+    "built",
+    "a",
+    "strong",
+    "storage",
+    "room."
+   ],
+   "alts": [],
+   "rule": "The participle phrase <b>Thinking ahead</b> describes the subject, <b>Father</b>, who comes right after the comma."
+  },
+  {
+   "qid": "c9-02-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you catch the bus?"
+    ]
+   ],
+   "options": [
+    "No, it has already left when I reached the stop.",
+    "No, it had already leave when I reached the stop.",
+    "No, it had already left when I reached the stop."
+   ],
+   "answer": 2,
+   "rule": "The bus left before I reached, so use the past perfect: <b>had already left</b>."
+  },
+  {
+   "qid": "c9-02-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Can you tie the rope to the post?"
+    ]
+   ],
+   "options": [
+    "Yes, I will a knot it tightly.",
+    "Yes, I will knot it tightly.",
+    "Yes, I will knotted it tightly."
+   ],
+   "answer": 1,
+   "rule": "Here <b>knot</b> is a verb, so it follows <b>will</b> in the base form, with no article: <b>I will knot it</b>."
+  },
+  {
+   "qid": "c9-02-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Father said to Jack, \"Climb the pole carefully.\"",
+   "options": [
+    "Father told Jack to climb the pole carefully.",
+    "Father told Jack that climb the pole carefully.",
+    "Father told Jack to climbed the pole carefully."
+   ],
+   "answer": 0,
+   "rule": "A command is reported with <b>told + person + to + base verb</b>: told Jack <b>to climb</b>."
+  },
+  {
+   "qid": "c9-02-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "participle",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rowing hard, the family reached the shore.",
+    "Rowed hard, the family reached the shore.",
+    "Rowing hard, the family reaching the shore."
+   ],
+   "answer": 0,
+   "rule": "Use the <b>-ing</b> participle for an action done by the subject, and the main clause needs a finite verb: <b>reached</b>."
+  },
+  {
+   "qid": "c9-02-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Jenny",
+    "had",
+    "been",
+    "alone",
+    "for",
+    "three",
+    "years",
+    "when",
+    "Fritz",
+    "finds",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "find",
+      "finding",
+      "found"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The past perfect (<b>had been</b>) is paired with a simple past action: <b>when Fritz found her</b>."
+  },
+  {
+   "qid": "c9-02-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "huts",
+    "were",
+    "destroy",
+    "by",
+    "a",
+    "herd",
+    "of",
+    "wild",
+    "elephants",
+    "at",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "destroyed",
+      "destroying",
+      "destroys"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>were + past participle</b>: <b>were destroyed</b> by a herd of elephants."
+  },
+  {
+   "qid": "c9-02-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Jenny asked if anyone",
+   "after": "support her return to England.",
+   "options": [
+    "willing",
+    "would",
+    "would to"
+   ],
+   "answer": 1,
+   "rule": "<b>Asked</b> is past, so <b>will</b> shifts to <b>would</b>, and a modal takes the base verb with no <b>to</b>: <b>would support</b>."
+  },
+  {
+   "qid": "c9-02-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "noun_verb",
+   "prompt": "Fill in the gap.",
+   "before": "The family placed great",
+   "after": "on hard work.",
+   "options": [
+    "value",
+    "valued",
+    "valuable"
+   ],
+   "answer": 0,
+   "rule": "After the adjective <b>great</b> we need a noun: <b>great value</b>. Here <b>value</b> is a noun."
+  },
+  {
+   "qid": "c9-02-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "Fritz",
+    "asked",
+    "his",
+    "father",
+    "what",
+    "the",
+    "message",
+    "meant."
+   ],
+   "alts": [],
+   "rule": "In a reported question the word order is like a statement: <b>what the message meant</b>, not 'what did the message mean'."
+  },
+  {
+   "qid": "c9-02-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Jack",
+     "What did the captain ask you?"
+    ]
+   ],
+   "options": [
+    "He asked where had we come from.",
+    "He asked that where we had come from.",
+    "He asked where we had come from."
+   ],
+   "answer": 2,
+   "rule": "A reported wh-question keeps statement order (<b>we had come</b>) and does not use <b>that</b>."
+  },
+  {
+   "qid": "c9-02-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who wrote The Swiss Family Robinson?"
+    ]
+   ],
+   "options": [
+    "It was wrote by Johann David Wyss.",
+    "It written by Johann David Wyss.",
+    "It was written by Johann David Wyss."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>was + past participle</b>. The participle of <b>write</b> is <b>written</b>."
+  },
+  {
+   "qid": "c9-02-29",
+   "type": "change",
+   "level": 3,
+   "topic": "participle",
+   "prompt": "Combine the sentences using a participle.",
+   "source": "Father saw the footprints. He knew elephants had come.",
+   "options": [
+    "Seeing the footprints, Father knew elephants had come.",
+    "Saw the footprints, Father knew elephants had come.",
+    "Seen the footprints, Father knew elephants had come."
+   ],
+   "answer": 0,
+   "rule": "The first action becomes an <b>-ing</b> participle phrase: <b>Seeing the footprints</b>, Father knew ..."
+  },
+  {
+   "qid": "c9-02-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "When",
+    "the",
+    "captain",
+    "arrived,",
+    "the",
+    "family",
+    "had",
+    "already",
+    "clean",
+    "their",
+    "home.",
+    "A",
+    "tent",
+    "was",
+    "put",
+    "up",
+    "on",
+    "the",
+    "beach,",
+    "and",
+    "a",
+    "feast",
+    "were",
+    "prepared",
+    "for",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "cleaning",
+      "cleans",
+      "cleaned"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "being",
+      "was",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect needs <b>had cleaned</b>. Singular <b>a feast</b> takes <b>was prepared</b>."
+  },
+  {
+   "qid": "c9-02-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The captain asked Fritz where did he live.",
+    "The captain asked Fritz where he lived.",
+    "The captain asked to Fritz where he lived."
+   ],
+   "answer": 1,
+   "rule": "Reported questions use statement order (<b>where he lived</b>), and <b>asked</b> takes the person directly."
+  },
+  {
+   "qid": "c9-02-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The journals were handed over to the captain.",
+    "The journals was handed over to the captain.",
+    "The journals were hand over to the captain."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>journals</b> takes <b>were</b>, and the passive needs the past participle <b>handed</b>."
+  },
+  {
+   "qid": "c9-02-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Fritz",
+    "made",
+    "a",
+    "quick",
+    "returned",
+    "to",
+    "the",
+    "ship",
+    "for",
+    "tools."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "returning",
+      "returns",
+      "return"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>a quick</b> we need a singular noun: <b>a quick return</b>. Here <b>return</b> is a noun."
+  },
+  {
+   "qid": "c9-02-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "No sooner had the ship left",
+   "after": "the family started exploring.",
+   "options": [
+    "when",
+    "than",
+    "then"
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner had ... than</b> is a fixed pair. The past perfect shows the first action."
+  },
+  {
+   "qid": "c9-02-35",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "Candles",
+    "can",
+    "be",
+    "made",
+    "from",
+    "this",
+    "waxy",
+    "fruit."
+   ],
+   "alts": [],
+   "rule": "Passive with a modal: <b>can + be + past participle</b> = <b>can be made</b>."
+  },
+  {
+   "qid": "c9-02-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "Why were you so tired yesterday?"
+    ]
+   ],
+   "options": [
+    "Because I have walked five kilometres in the sun.",
+    "Because I had walk five kilometres in the sun.",
+    "Because I had walked five kilometres in the sun."
+   ],
+   "answer": 2,
+   "rule": "The walk happened before you were tired (past), so use the past perfect: <b>had walked</b>."
+  },
+  {
+   "qid": "c9-02-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did the doctor tell you?"
+    ]
+   ],
+   "options": [
+    "She told me not to eat street food for a week.",
+    "She told me to not eating street food for a week.",
+    "She told me don't eat street food for a week."
+   ],
+   "answer": 0,
+   "rule": "A negative command is reported with <b>told + person + not to + base verb</b>."
+  },
+  {
+   "qid": "c9-02-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into active voice.",
+   "source": "The ladder was built by the boys.",
+   "options": [
+    "The boys build the ladder.",
+    "The boys were built the ladder.",
+    "The boys built the ladder."
+   ],
+   "answer": 2,
+   "rule": "<b>was built</b> is simple past passive, so the active is simple past: <b>The boys built the ladder.</b>"
+  },
+  {
+   "qid": "c9-02-39",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Fritz said to Jenny, \"Do you want to go to England?\"",
+   "options": [
+    "Fritz asked Jenny did she want to go to England.",
+    "Fritz asked Jenny if she wanted to go to England.",
+    "Fritz asked Jenny if you wanted to go to England."
+   ],
+   "answer": 1,
+   "rule": "A yes/no question is reported with <b>asked ... if</b>; <b>you</b> becomes <b>she</b> and <b>want</b> becomes <b>wanted</b>."
+  },
+  {
+   "qid": "c9-02-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Ten",
+    "years",
+    "had",
+    "passed,",
+    "and",
+    "the",
+    "boys",
+    "has",
+    "grown",
+    "into",
+    "young",
+    "men.",
+    "Fritz,",
+    "the",
+    "eldest,",
+    "were",
+    "the",
+    "bravest",
+    "of",
+    "all.",
+    "He",
+    "sailed",
+    "to",
+    "a",
+    "distant",
+    "island",
+    "and",
+    "rescued",
+    "a",
+    "young",
+    "woman."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "had",
+      "is",
+      "was"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "been",
+      "being",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The story is past, so <b>the boys had grown</b>. <b>Fritz</b> is one person, so <b>Fritz was</b>."
+  },
+  {
+   "qid": "c9-02-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Father told Fritz that the bird might have came from far away.",
+    "Father told Fritz that the bird might have come from far away.",
+    "Father told to Fritz that the bird might have come from far away."
+   ],
+   "answer": 1,
+   "rule": "<b>Might have</b> takes the past participle <b>come</b>, and <b>told</b> takes the person without <b>to</b>."
+  },
+  {
+   "qid": "c9-02-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "captain,",
+    "along",
+    "with",
+    "his",
+    "crew,",
+    "were",
+    "amazed",
+    "by",
+    "the",
+    "family's",
+    "good",
+    "health."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "are",
+      "was",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>along with</b>, the verb agrees with the first subject, <b>the captain</b>: <b>was amazed</b>."
+  },
+  {
+   "qid": "c9-02-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Jenny's father believed that his daughter",
+   "after": "the shipwreck.",
+   "options": [
+    "had survived",
+    "had survive",
+    "survive"
+   ],
+   "answer": 0,
+   "rule": "After a past verb (<b>believed</b>), an earlier past action takes the past perfect: <b>had survived</b>."
+  },
+  {
+   "qid": "c9-02-44",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make a reported sentence.",
+   "answer": [
+    "Fritz",
+    "told",
+    "his",
+    "parents",
+    "that",
+    "he",
+    "wished",
+    "to",
+    "marry",
+    "Jenny."
+   ],
+   "alts": [],
+   "rule": "Reported statement: <b>told + person + that</b> + clause with the past tense <b>wished</b>."
+  },
+  {
+   "qid": "c9-02-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ernest",
+     "What did Jenny say when she saw the ship?"
+    ]
+   ],
+   "options": [
+    "She said that she had never be so happy.",
+    "She said that she had never been so happy.",
+    "She said that she had never been so happier."
+   ],
+   "answer": 1,
+   "rule": "Past perfect = <b>had + been</b>. After <b>so</b> use the plain adjective <b>happy</b>."
+  },
+  {
+   "qid": "c9-02-46",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The captain will publish Father's journals.",
+   "options": [
+    "Father's journals will published by the captain.",
+    "Father's journals will be publish by the captain.",
+    "Father's journals will be published by the captain."
+   ],
+   "answer": 2,
+   "rule": "Future passive = <b>will be + past participle</b>: <b>will be published</b>."
+  },
+  {
+   "qid": "c9-02-47",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "Elizabeth said, \"I want to stay here forever.\"",
+   "options": [
+    "Elizabeth said that she wanted to stay there forever.",
+    "Elizabeth said that I wanted to stay there forever.",
+    "Elizabeth said that she want to stay there forever."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>she</b>, <b>want</b> becomes <b>wanted</b> and <b>here</b> becomes <b>there</b>."
+  },
+  {
+   "qid": "c9-02-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "participle",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Elizabeth",
+    "asked",
+    "William",
+    "if",
+    "they",
+    "could",
+    "move",
+    "to",
+    "a",
+    "tree",
+    "house.",
+    "She",
+    "say",
+    "that",
+    "their",
+    "camp",
+    "was",
+    "too",
+    "hot.",
+    "Looked",
+    "at",
+    "the",
+    "huge",
+    "tree,",
+    "William",
+    "agree",
+    "with",
+    "her",
+    "plan."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "telling",
+      "told",
+      "said"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "Looking",
+      "Look",
+      "Looks"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "agreeing",
+      "agreed",
+      "agreement"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past reporting verb <b>said</b>; the participle phrase <b>Looking at</b> describes William; the main verb is past: <b>agreed</b>."
+  },
+  {
+   "qid": "c9-02-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Over",
+    "many",
+    "days,",
+    "the",
+    "family",
+    "cut",
+    "windows",
+    "into",
+    "the",
+    "rock.",
+    "The",
+    "large",
+    "oil",
+    "lamp,",
+    "which",
+    "were",
+    "rescued",
+    "from",
+    "the",
+    "ship,",
+    "was",
+    "hang",
+    "from",
+    "a",
+    "tall",
+    "bamboo",
+    "pole",
+    "by",
+    "Jack."
+   ],
+   "errors": [
+    {
+     "i": 15,
+     "options": [
+      "are",
+      "been",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "hanging",
+      "hangs",
+      "hung"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>which</b> refers to the singular <b>lamp</b>, so <b>was rescued</b>. Passive needs the participle: <b>was hung</b>."
+  },
+  {
+   "qid": "c9-02-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "captain",
+    "asked",
+    "Fritz",
+    "how",
+    "long",
+    "his",
+    "family",
+    "had",
+    "live",
+    "on",
+    "the",
+    "island.",
+    "Fritz",
+    "replied",
+    "that",
+    "they",
+    "had",
+    "stayed",
+    "there",
+    "for",
+    "ten",
+    "years.",
+    "He",
+    "also",
+    "said",
+    "the",
+    "captain",
+    "that",
+    "Jenny",
+    "was",
+    "safe."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "lived",
+      "living",
+      "lives"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "spoke",
+      "told",
+      "asked"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect = <b>had lived</b>. Use <b>told</b> + person: <b>told the captain that ...</b> (<b>said</b> needs <b>to</b>)."
+  }
+ ]
+}

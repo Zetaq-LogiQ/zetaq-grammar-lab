@@ -1,0 +1,1157 @@
+{
+ "class": 9,
+ "id": "06",
+ "title": "Invictus",
+ "topics": [
+  {
+   "tag": "linking_words",
+   "name": "Linking words (although, despite, however, therefore)"
+  },
+  {
+   "tag": "non_finite",
+   "name": "Non-finite verbs (infinitive, gerund, participle)"
+  },
+  {
+   "tag": "sentence_types",
+   "name": "Simple, compound and complex sentences"
+  },
+  {
+   "tag": "time_conj",
+   "name": "unless / until / as soon as / no sooner ... than / hardly ... when"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-06-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although it was dark, but Neel walked home bravely.",
+    "Although it was dark, Neel walked home bravely.",
+    "Despite it was dark, Neel walked home bravely."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> already joins the ideas, so don't add <b>but</b>. <b>Despite</b> cannot take a full clause."
+  },
+  {
+   "qid": "c9-06-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Asha decided facing her fear.",
+    "Asha decided to face her fear.",
+    "Asha decided to faced her fear."
+   ],
+   "answer": 1,
+   "rule": "<b>Decide</b> is followed by the infinitive: <b>to + base form</b> - <b>to face</b>."
+  },
+  {
+   "qid": "c9-06-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "time_conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Do not give up until you will reach the top.",
+    "Do not give up until you reached the top.",
+    "Do not give up until you reach the top."
+   ],
+   "answer": 2,
+   "rule": "After <b>until</b>, use the simple present for a future event: <b>until you reach</b>."
+  },
+  {
+   "qid": "c9-06-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Despite the heavy rain, the team kept playing.",
+    "Despite of the heavy rain, the team kept playing.",
+    "Despite the heavy rain, the team kept play."
+   ],
+   "answer": 0,
+   "rule": "Say <b>despite</b> (no 'of') or <b>in spite of</b>. <b>Kept</b> is followed by an -ing form."
+  },
+  {
+   "qid": "c9-06-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Which compound sentence is correct?",
+   "options": [
+    "The storm was fierce, but the sailors did not lost hope.",
+    "The storm was fierce, but the sailors did not lose hope.",
+    "The storm was fierce, although but the sailors did not lose hope."
+   ],
+   "answer": 1,
+   "rule": "A compound sentence joins two clauses with one linker like <b>but</b>; after <b>did not</b>, use the base form."
+  },
+  {
+   "qid": "c9-06-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Facing problems calmly needs real courage.",
+    "Face problems calmly needs real courage.",
+    "Faced problems calmly needs real courage."
+   ],
+   "answer": 0,
+   "rule": "An action used as the subject takes the gerund (-ing form): <b>Facing problems</b>."
+  },
+  {
+   "qid": "c9-06-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "time_conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Unless you don't practise daily, you will not improve.",
+    "Unless you will practise daily, you will not improve.",
+    "Unless you practise daily, you will not improve."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> means 'if not', so don't add another not; use the simple present after it."
+  },
+  {
+   "qid": "c9-06-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardly the sun had risen when the climbers set out.",
+    "Hardly had the sun risen than the climbers set out.",
+    "Hardly had the sun risen when the climbers set out."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly</b> takes inverted order (<b>had the sun risen</b>) and pairs with <b>when</b>."
+  },
+  {
+   "qid": "c9-06-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kabir",
+    "is",
+    "fond",
+    "of",
+    "climb",
+    "hills",
+    "near",
+    "Lonavala."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "climbing",
+      "climbs",
+      "climbed"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: <b>fond of climbing</b>."
+  },
+  {
+   "qid": "c9-06-10",
+   "type": "fix",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Despite",
+    "he",
+    "was",
+    "injured,",
+    "Rahul",
+    "finished",
+    "the",
+    "race."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Moreover",
+      "Therefore",
+      "Although"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A full clause (<b>he was injured</b>) needs <b>Although</b>; <b>despite</b> takes a noun or -ing form."
+  },
+  {
+   "qid": "c9-06-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "time_conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Wait",
+    "here",
+    "until",
+    "Aai",
+    "come",
+    "back",
+    "from",
+    "work."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "comes",
+      "coming",
+      "came"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>until</b>, use the simple present for the future; <b>Aai</b> is singular, so <b>comes</b>."
+  },
+  {
+   "qid": "c9-06-12",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "climber",
+    "who",
+    "reach",
+    "the",
+    "top",
+    "first",
+    "was",
+    "only",
+    "nineteen."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "reached",
+      "reaching",
+      "reachable"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The relative clause tells a past event, matching <b>was</b>: <b>who reached the top first</b>."
+  },
+  {
+   "qid": "c9-06-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Encourage",
+    "by",
+    "her",
+    "coach,",
+    "Tanvi",
+    "tried",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Encouraging",
+      "Encourages",
+      "Encouraged"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Tanvi received the action, so use the past participle: <b>Encouraged by her coach</b>."
+  },
+  {
+   "qid": "c9-06-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "linking_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "path",
+    "was",
+    "steep;",
+    "however,",
+    "every",
+    "climber",
+    "were",
+    "calm."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "being",
+      "was",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every climber</b> is singular, so use <b>was</b>. <b>However</b> after a semicolon links the ideas."
+  },
+  {
+   "qid": "c9-06-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "time_conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "as",
+    "soon",
+    "as",
+    "the",
+    "sun",
+    "rose,",
+    "the",
+    "birds",
+    "begin",
+    "to",
+    "sing."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "begun",
+      "began",
+      "beginning"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b> and <b>rose</b> show the past, so use the simple past: <b>began</b>."
+  },
+  {
+   "qid": "c9-06-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "match",
+    "started",
+    "when",
+    "it",
+    "began",
+    "to",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "then",
+      "that",
+      "than"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>No sooner</b> always pairs with <b>than</b>; <b>hardly</b> pairs with when."
+  },
+  {
+   "qid": "c9-06-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the darkness, the boy was not afraid.",
+   "options": [
+    "Despite",
+    "Although",
+    "However"
+   ],
+   "answer": 0,
+   "rule": "<b>The darkness</b> is a noun phrase, not a clause, so use <b>Despite</b>."
+  },
+  {
+   "qid": "c9-06-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "We hope",
+   "after": "the summit by noon.",
+   "options": [
+    "reaching",
+    "to reach",
+    "reach"
+   ],
+   "answer": 1,
+   "rule": "<b>Hope</b> is followed by the infinitive: <b>hope to reach</b>."
+  },
+  {
+   "qid": "c9-06-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "time_conj",
+   "prompt": "Fill in the gap.",
+   "before": "Unless you",
+   "after": "your fear, it will control you.",
+   "options": [
+    "will face",
+    "face",
+    "faced"
+   ],
+   "answer": 1,
+   "rule": "After <b>unless</b>, use the simple present to talk about the future: <b>unless you face</b>."
+  },
+  {
+   "qid": "c9-06-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Fill in the gap.",
+   "before": "In spite",
+   "after": "the pain, he smiled.",
+   "options": [
+    "from",
+    "with",
+    "of"
+   ],
+   "answer": 2,
+   "rule": "The fixed phrase is <b>in spite of</b> + noun."
+  },
+  {
+   "qid": "c9-06-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "The night was black,",
+   "after": "the poet did not lose courage.",
+   "options": [
+    "despite",
+    "however",
+    "yet"
+   ],
+   "answer": 2,
+   "rule": "<b>Yet</b> joins two clauses into a compound sentence; <b>despite</b> can't join clauses and <b>however</b> needs a semicolon."
+  },
+  {
+   "qid": "c9-06-22",
+   "type": "fill",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "You should avoid",
+   "after": "in the sun at noon.",
+   "options": [
+    "to play",
+    "playing",
+    "play"
+   ],
+   "answer": 1,
+   "rule": "<b>Avoid</b> is followed by a gerund: <b>avoid playing</b>."
+  },
+  {
+   "qid": "c9-06-23",
+   "type": "fill",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the climbers reached the camp",
+   "after": "the storm broke.",
+   "options": [
+    "than",
+    "then",
+    "when"
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly ... when</b> is the correct pair (No sooner ... than)."
+  },
+  {
+   "qid": "c9-06-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the poem twice, Isha understood its message.",
+   "options": [
+    "Having read",
+    "Have read",
+    "Had read"
+   ],
+   "answer": 0,
+   "rule": "The perfect participle <b>Having read</b> shows an action finished before the main one."
+  },
+  {
+   "qid": "c9-06-25",
+   "type": "build",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "I",
+    "want",
+    "to",
+    "be",
+    "brave."
+   ],
+   "alts": [],
+   "rule": "<b>Want</b> is followed by the infinitive: <b>want to be</b>."
+  },
+  {
+   "qid": "c9-06-26",
+   "type": "build",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Make a sentence with 'despite'.",
+   "answer": [
+    "Despite",
+    "heavy",
+    "rain,",
+    "our",
+    "boat",
+    "returned",
+    "safely."
+   ],
+   "alts": [],
+   "rule": "<b>Despite</b> + noun phrase (<b>heavy rain</b>), then the main clause."
+  },
+  {
+   "qid": "c9-06-27",
+   "type": "build",
+   "level": 3,
+   "topic": "time_conj",
+   "prompt": "Give an instruction with 'until'.",
+   "answer": [
+    "Do",
+    "not",
+    "stop",
+    "until",
+    "you",
+    "reach",
+    "home."
+   ],
+   "alts": [],
+   "rule": "<b>Until</b> + simple present: <b>until you reach home</b>."
+  },
+  {
+   "qid": "c9-06-28",
+   "type": "build",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Make a complex sentence.",
+   "answer": [
+    "She",
+    "is",
+    "the",
+    "girl",
+    "who",
+    "never",
+    "gives",
+    "up."
+   ],
+   "alts": [],
+   "rule": "The relative clause <b>who never gives up</b> describes <b>the girl</b>."
+  },
+  {
+   "qid": "c9-06-29",
+   "type": "build",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Make a 'No sooner' sentence.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "bell",
+    "rung",
+    "than",
+    "we",
+    "ran",
+    "out."
+   ],
+   "alts": [],
+   "rule": "<b>No sooner had + subject + past participle ... than</b> + simple past."
+  },
+  {
+   "qid": "c9-06-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohit",
+     "What do you want to do after school?"
+    ]
+   ],
+   "options": [
+    "I want to become a pilot.",
+    "I want become a pilot.",
+    "I want to becoming a pilot."
+   ],
+   "answer": 0,
+   "rule": "<b>Want</b> is followed by <b>to + base form</b>: <b>want to become</b>."
+  },
+  {
+   "qid": "c9-06-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Did you go for your run this morning?"
+    ]
+   ],
+   "options": [
+    "Yes, although it was raining.",
+    "Yes, despite it was raining.",
+    "Yes, although raining was it."
+   ],
+   "answer": 0,
+   "rule": "<b>Although</b> + clause (<b>it was raining</b>); <b>despite</b> cannot take a full clause."
+  },
+  {
+   "qid": "c9-06-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "time_conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "When should we start the warm-up?"
+    ]
+   ],
+   "options": [
+    "As soon as everyone arrives, sir.",
+    "As soon as everyone will arrive, sir.",
+    "As soon as everyone arrived, sir."
+   ],
+   "answer": 0,
+   "rule": "For a future event after <b>as soon as</b>, use the simple present: <b>arrives</b>."
+  },
+  {
+   "qid": "c9-06-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Iyer",
+     "Why didn't you join the trek, Om?"
+    ]
+   ],
+   "options": [
+    "I had a sprained ankle; therefore, I stay back.",
+    "I had a sprained ankle; therefore, I stayed back.",
+    "I had a sprained ankle; therefore, I staying back."
+   ],
+   "answer": 1,
+   "rule": "<b>Therefore</b> gives the result; both parts are past: <b>had ... stayed</b>."
+  },
+  {
+   "qid": "c9-06-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zara",
+     "How do you stay calm before exams?"
+    ]
+   ],
+   "options": [
+    "By take deep breaths and plan my time.",
+    "By taking deep breaths and planning my time.",
+    "By to take deep breaths and planning my time."
+   ],
+   "answer": 1,
+   "rule": "After the preposition <b>by</b>, use gerunds: <b>by taking ... and planning</b>."
+  },
+  {
+   "qid": "c9-06-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you finish the project?"
+    ]
+   ],
+   "options": [
+    "Yes, and I also helped Kiran, which was stuck.",
+    "Yes, and I also help Kiran, who was stuck yesterday.",
+    "Yes, and I also helped Kiran, who was stuck."
+   ],
+   "answer": 2,
+   "rule": "Use <b>who</b> for a person in a relative clause, and keep the past: <b>helped</b>."
+  },
+  {
+   "qid": "c9-06-36",
+   "type": "chat",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nani",
+     "Will you come to the fair with us?"
+    ]
+   ],
+   "options": [
+    "Yes, unless it will rain heavily.",
+    "Yes, unless it rains heavily.",
+    "Yes, unless it doesn't rain heavily."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> = if not, so no extra negative, and use the simple present: <b>unless it rains</b>."
+  },
+  {
+   "qid": "c9-06-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Why do you look so happy?"
+    ]
+   ],
+   "options": [
+    "I'm proud of have finished my first marathon.",
+    "I'm proud of having finished my first marathon.",
+    "I'm proud to having finished my first marathon."
+   ],
+   "answer": 1,
+   "rule": "After <b>proud of</b>, use a gerund; <b>having finished</b> shows the action is complete."
+  },
+  {
+   "qid": "c9-06-38",
+   "type": "change",
+   "level": 1,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'although'.",
+   "source": "It was very dark, but Neha was not afraid.",
+   "options": [
+    "Although it was very dark, Neha was not afraid.",
+    "Although it was very dark, but Neha was not afraid.",
+    "Although it was very dark, Neha were not afraid."
+   ],
+   "answer": 0,
+   "rule": "With <b>although</b>, drop <b>but</b>: one linker is enough."
+  },
+  {
+   "qid": "c9-06-39",
+   "type": "change",
+   "level": 2,
+   "topic": "linking_words",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although she was nervous, Tara sang on the stage.",
+   "options": [
+    "Despite being nervous, Tara sang on the stage.",
+    "Despite she was nervous, Tara sang on the stage.",
+    "Despite of being nervous, Tara sang on the stage."
+   ],
+   "answer": 0,
+   "rule": "<b>Despite</b> + -ing form or noun (no 'of'): <b>Despite being nervous</b>."
+  },
+  {
+   "qid": "c9-06-40",
+   "type": "change",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "Join the sentences using an infinitive.",
+   "source": "Raj went to the hills. He wanted to see the sunrise.",
+   "options": [
+    "Raj went to the hills for see the sunrise.",
+    "Raj went to the hills to see the sunrise.",
+    "Raj went to the hills to seeing the sunrise."
+   ],
+   "answer": 1,
+   "rule": "The infinitive <b>to see</b> shows purpose."
+  },
+  {
+   "qid": "c9-06-41",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Make it a simple sentence using a participle.",
+   "source": "He was brave, and he faced the storm.",
+   "options": [
+    "Been brave, he faced the storm.",
+    "Being brave, he faced the storm.",
+    "Be brave, he faced the storm."
+   ],
+   "answer": 1,
+   "rule": "The participle <b>Being brave</b> replaces the first clause, leaving one finite verb."
+  },
+  {
+   "qid": "c9-06-42",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Make it a complex sentence using 'who'.",
+   "source": "Arjun lost a leg in an accident. He still climbed the mountain.",
+   "options": [
+    "Arjun, who lost a leg in an accident, still climbed the mountain.",
+    "Arjun, which lost a leg in an accident, still climbed the mountain.",
+    "Arjun, who lost a leg in an accident, still climb the mountain."
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> introduces a clause about a person; the main verb stays past: <b>climbed</b>."
+  },
+  {
+   "qid": "c9-06-43",
+   "type": "change",
+   "level": 4,
+   "topic": "time_conj",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not believe in yourself, you will not win.",
+   "options": [
+    "Unless you do not believe in yourself, you will not win.",
+    "Unless you will believe in yourself, you will not win.",
+    "Unless you believe in yourself, you will not win."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> = if not, so drop <b>do not</b>: <b>Unless you believe</b>."
+  },
+  {
+   "qid": "c9-06-44",
+   "type": "change",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Rewrite beginning with 'Hardly'.",
+   "source": "As soon as the sailors saw the light, they cheered.",
+   "options": [
+    "Hardly the sailors had seen the light when they cheered.",
+    "Hardly had the sailors seen the light than they cheered.",
+    "Hardly had the sailors seen the light when they cheered."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly had + subject + past participle ... when</b> + simple past."
+  },
+  {
+   "qid": "c9-06-45",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Combine using 'not only ... but also'.",
+   "source": "The poet was brave. He was also hopeful.",
+   "options": [
+    "The poet was not only brave but also hopeful.",
+    "The poet was not only brave and also hopeful.",
+    "The poet was not only brave but also hope."
+   ],
+   "answer": 0,
+   "rule": "<b>Not only</b> pairs with <b>but also</b>, joining two adjectives: <b>brave</b> and <b>hopeful</b>."
+  },
+  {
+   "qid": "c9-06-46",
+   "type": "proof",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Every",
+    "morning,",
+    "Arnav",
+    "wants",
+    "to",
+    "watching",
+    "the",
+    "sunrise",
+    "from",
+    "the",
+    "hill.",
+    "He",
+    "spends",
+    "an",
+    "hour",
+    "sit",
+    "there",
+    "quietly."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "watched",
+      "watches",
+      "watch"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "sits",
+      "sat",
+      "sitting"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Wants to</b> + base form (<b>watch</b>); <b>spend time</b> + -ing form (<b>sitting</b>)."
+  },
+  {
+   "qid": "c9-06-47",
+   "type": "proof",
+   "level": 3,
+   "topic": "linking_words",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Although",
+    "the",
+    "heavy",
+    "rain,",
+    "the",
+    "team",
+    "continued",
+    "the",
+    "match.",
+    "Despite",
+    "feel",
+    "tired,",
+    "the",
+    "players",
+    "did",
+    "not",
+    "give",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Moreover",
+      "Despite",
+      "Therefore"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 10,
+     "options": [
+      "felt",
+      "feels",
+      "feeling"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Despite</b> goes before a noun (<b>the heavy rain</b>) or an -ing form (<b>feeling tired</b>)."
+  },
+  {
+   "qid": "c9-06-48",
+   "type": "proof",
+   "level": 4,
+   "topic": "time_conj",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "The",
+    "trekkers",
+    "waited",
+    "at",
+    "the",
+    "camp",
+    "until",
+    "the",
+    "guide",
+    "return",
+    "from",
+    "the",
+    "village.",
+    "As",
+    "soon",
+    "as",
+    "he",
+    "arrived,",
+    "they",
+    "start",
+    "the",
+    "climb."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "returning",
+      "returns",
+      "returned"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "starting",
+      "started",
+      "starts"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The story is in the past, so both verbs take the simple past: <b>returned</b>, <b>started</b>."
+  },
+  {
+   "qid": "c9-06-49",
+   "type": "proof",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Henley,",
+    "which",
+    "spent",
+    "many",
+    "months",
+    "in",
+    "hospital,",
+    "wrote",
+    "poems",
+    "in",
+    "order",
+    "to",
+    "keeping",
+    "his",
+    "spirits",
+    "up.",
+    "The",
+    "poem",
+    "shows",
+    "a",
+    "man",
+    "who",
+    "refuse",
+    "to",
+    "give",
+    "in."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "keep",
+      "kept",
+      "keeps"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "refuses",
+      "refusing",
+      "refusal"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Who</b> for a person; <b>in order to</b> + base form (<b>keep</b>); <b>a man who refuses</b> (singular, present)."
+  },
+  {
+   "qid": "c9-06-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "time_conj",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "ship",
+    "left",
+    "the",
+    "harbour",
+    "when",
+    "a",
+    "storm",
+    "broke.",
+    "Despite",
+    "we",
+    "were",
+    "all",
+    "frightened,",
+    "the",
+    "captain",
+    "stayed",
+    "calm",
+    "and",
+    "guide",
+    "the",
+    "ship",
+    "to",
+    "safety."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "then",
+      "than",
+      "that"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "Although",
+      "Moreover",
+      "Therefore"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "guided",
+      "guiding",
+      "guides"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>No sooner ... than</b>; a clause (<b>we were all frightened</b>) needs <b>Although</b>; <b>stayed ... and guided</b> (both past)."
+  }
+ ]
+}

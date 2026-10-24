@@ -1,0 +1,980 @@
+{
+ "class": 5,
+ "id": "08",
+ "title": "Peer Profile",
+ "topics": [
+  {
+   "tag": "simple_present",
+   "name": "Simple present (I enjoy / she enjoys)"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns (I / me, my / mine, her / hers)"
+  },
+  {
+   "tag": "has_have",
+   "name": "has / have and has to / have to"
+  },
+  {
+   "tag": "polite_words",
+   "name": "Polite words and requests"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-08-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nisha enjoy swimming.",
+    "Nisha enjoys swimming.",
+    "Nisha enjoying swimming."
+   ],
+   "answer": 1,
+   "rule": "With one person (he, she, Nisha), the simple present verb adds <b>-s</b>: enjoys."
+  },
+  {
+   "qid": "c5-08-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Me name is Anisha.",
+    "Mine name is Anisha.",
+    "My name is Anisha."
+   ],
+   "answer": 2,
+   "rule": "Before a noun, use <b>my</b>: my name. <b>Mine</b> stands alone: It is mine."
+  },
+  {
+   "qid": "c5-08-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "has_have",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Sona has a pet cat.",
+    "Sona have a pet cat.",
+    "Sona having a pet cat."
+   ],
+   "answer": 0,
+   "rule": "One person (he, she, Sona) takes <b>has</b>."
+  },
+  {
+   "qid": "c5-08-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "friend",
+    "Sona",
+    "like",
+    "mangoes",
+    "very",
+    "much."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "liking",
+      "likes",
+      "likely"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Sona</b> is one person, so the verb adds <b>-s</b>: likes."
+  },
+  {
+   "qid": "c5-08-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rahul",
+    "and",
+    "me",
+    "are",
+    "good",
+    "friends."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "my",
+      "I",
+      "mine"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before the verb we need a subject pronoun: Rahul and <b>I</b> are friends."
+  },
+  {
+   "qid": "c5-08-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "has_have",
+   "prompt": "Fill in the gap.",
+   "before": "I",
+   "after": "two best friends.",
+   "options": [
+    "has",
+    "have",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "<b>I</b>, you, we and they take <b>have</b>."
+  },
+  {
+   "qid": "c5-08-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I borrow your pencil, please?",
+   "options": [
+    "Am",
+    "May",
+    "Was"
+   ],
+   "answer": 1,
+   "rule": "Ask for permission politely with <b>May I</b> ... ?"
+  },
+  {
+   "qid": "c5-08-08",
+   "type": "build",
+   "level": 1,
+   "topic": "polite_words",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "fill",
+    "in",
+    "this",
+    "sheet."
+   ],
+   "alts": [],
+   "rule": "A polite request can start with <b>Please</b> + the action word: Please fill in ..."
+  },
+  {
+   "qid": "c5-08-09",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Ravi",
+    "hates",
+    "cutting",
+    "onions."
+   ],
+   "alts": [],
+   "rule": "One person + verb with <b>-s</b>: Ravi <b>hates</b> cutting onions."
+  },
+  {
+   "qid": "c5-08-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anisha",
+     "Is this your notebook?"
+    ]
+   ],
+   "options": [
+    "Yes, it is mine. Thank you!",
+    "Yes, it is my. Thank you!",
+    "Yes, it is me. Thank you!"
+   ],
+   "answer": 0,
+   "rule": "At the end, with no noun after it, use <b>mine</b>: It is mine."
+  },
+  {
+   "qid": "c5-08-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Kiran doesn't like loud music.",
+    "Kiran don't like loud music.",
+    "Kiran doesn't likes loud music."
+   ],
+   "answer": 0,
+   "rule": "One person takes <b>doesn't</b>, and the verb after it has no -s: doesn't <b>like</b>."
+  },
+  {
+   "qid": "c5-08-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "has_have",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My friends has many good habits.",
+    "My friends having many good habits.",
+    "My friends have many good habits."
+   ],
+   "answer": 2,
+   "rule": "<b>My friends</b> is plural, so use <b>have</b>."
+  },
+  {
+   "qid": "c5-08-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "my",
+    "sisters",
+    "has",
+    "to",
+    "get",
+    "up",
+    "early."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "having",
+      "have",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both my sisters</b> is plural, so say <b>have to</b>."
+  },
+  {
+   "qid": "c5-08-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "keeps",
+    "hers",
+    "clothes",
+    "neatly",
+    "in",
+    "the",
+    "cupboard."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "she",
+      "her",
+      "herself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Before a noun use <b>her</b>: her clothes. <b>Hers</b> stands alone: The clothes are hers."
+  },
+  {
+   "qid": "c5-08-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Most of my friends",
+   "after": "ice cream.",
+   "options": [
+    "loves",
+    "loving",
+    "love"
+   ],
+   "answer": 2,
+   "rule": "<b>Most of my friends</b> is plural, so the verb has no -s: love."
+  },
+  {
+   "qid": "c5-08-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Dhoni is a great captain. I like",
+   "after": "very much.",
+   "options": [
+    "he",
+    "his",
+    "him"
+   ],
+   "answer": 2,
+   "rule": "After a verb (like), use the object pronoun: <b>him</b>."
+  },
+  {
+   "qid": "c5-08-17",
+   "type": "build",
+   "level": 2,
+   "topic": "has_have",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "have",
+    "to",
+    "get",
+    "up",
+    "early."
+   ],
+   "alts": [],
+   "rule": "<b>have to</b> + base verb shows something you must do: I have to get up early."
+  },
+  {
+   "qid": "c5-08-18",
+   "type": "build",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "This",
+    "pencil",
+    "box",
+    "is",
+    "mine."
+   ],
+   "alts": [],
+   "rule": "<b>Mine</b> stands alone at the end, with no noun after it."
+  },
+  {
+   "qid": "c5-08-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Anil, can you help Tara with her report?"
+    ]
+   ],
+   "options": [
+    "Yes, ma'am. I will helps her.",
+    "Yes, ma'am. I will help her.",
+    "Yes, ma'am. I will help she."
+   ],
+   "answer": 1,
+   "rule": "After <b>will</b>, use the base verb (help); after a verb, use <b>her</b>, not she."
+  },
+  {
+   "qid": "c5-08-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "What does your sister do on Sundays?"
+    ]
+   ],
+   "options": [
+    "She goes swimming with her friends.",
+    "She go swimming with her friends.",
+    "She going swimming with her friends."
+   ],
+   "answer": 0,
+   "rule": "<b>She</b> takes the verb with <b>-s/-es</b>: she goes."
+  },
+  {
+   "qid": "c5-08-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Nobody is afraid of exams.",
+    "Nobody are afraid of exams.",
+    "Nobody am afraid of exams."
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> is treated as singular, so use <b>is</b>."
+  },
+  {
+   "qid": "c5-08-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Does Sona has a good hobby?",
+    "Do Sona have a good hobby?",
+    "Does Sona have a good hobby?"
+   ],
+   "answer": 2,
+   "rule": "Use <b>Does</b> with one person, then the base form: Does she <b>have</b>?"
+  },
+  {
+   "qid": "c5-08-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Is this pen your or mine?",
+    "Is this pen yours or mine?",
+    "Is this pen yours or my?"
+   ],
+   "answer": 1,
+   "rule": "With no noun after them, use <b>yours</b> and <b>mine</b>."
+  },
+  {
+   "qid": "c5-08-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "All",
+    "my",
+    "classmates",
+    "hates",
+    "getting",
+    "up",
+    "early."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "hate",
+      "hating",
+      "hateful"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>All my classmates</b> is plural, so the verb has no -s: hate."
+  },
+  {
+   "qid": "c5-08-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "May",
+    "I",
+    "asks",
+    "you",
+    "a",
+    "few",
+    "questions?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "ask",
+      "asking",
+      "asked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>May I</b>, use the base form of the verb: May I <b>ask</b>?"
+  },
+  {
+   "qid": "c5-08-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Fill in the gap.",
+   "before": "Rohit",
+   "after": "to fold his clothes before he goes to bed.",
+   "options": [
+    "has",
+    "have",
+    "having"
+   ],
+   "answer": 0,
+   "rule": "One person (Rohit) takes <b>has to</b>."
+  },
+  {
+   "qid": "c5-08-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "Thank you",
+   "after": "filling in my sheet!",
+   "options": [
+    "to",
+    "for",
+    "of"
+   ],
+   "answer": 1,
+   "rule": "We say <b>Thank you for</b> + -ing: Thank you for helping."
+  },
+  {
+   "qid": "c5-08-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "does",
+    "Nisha",
+    "enjoy",
+    "most?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>does</b> + subject + base verb: What does Nisha <b>enjoy</b>?"
+  },
+  {
+   "qid": "c5-08-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "has_have",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Do you have any bad habits?"
+    ]
+   ],
+   "options": [
+    "Yes, I has one. I stuff my clothes in the cupboard.",
+    "Yes, I have one. I stuffs my clothes in the cupboard.",
+    "Yes, I have one. I stuff my clothes in the cupboard."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> takes <b>have</b>, and the verb after I has no -s: I stuff."
+  },
+  {
+   "qid": "c5-08-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Who gave you this ice cream?"
+    ]
+   ],
+   "options": [
+    "Rohan gave it to I.",
+    "Rohan gave it to mine.",
+    "Rohan gave it to me."
+   ],
+   "answer": 2,
+   "rule": "After <b>to</b>, use the object pronoun: to <b>me</b>."
+  },
+  {
+   "qid": "c5-08-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Anisha's friends call her Nisha.",
+    "Anishas friends call her Nisha.",
+    "Anisha's friends call she Nisha."
+   ],
+   "answer": 0,
+   "rule": "Show ownership with <b>'s</b> (Anisha's), and use <b>her</b> after a verb."
+  },
+  {
+   "qid": "c5-08-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Some of my friends doesn't like any vegetables.",
+    "Some of my friends don't likes any vegetables.",
+    "Some of my friends don't like any vegetables."
+   ],
+   "answer": 2,
+   "rule": "<b>Some of my friends</b> is plural: <b>don't like</b> (no -s after don't)."
+  },
+  {
+   "qid": "c5-08-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mahendra",
+    "Singh",
+    "Dhoni",
+    "have",
+    "a",
+    "cool",
+    "head",
+    "and",
+    "a",
+    "kind",
+    "heart."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "having",
+      "has",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "One person (he, Dhoni) takes <b>has</b>."
+  },
+  {
+   "qid": "c5-08-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Pooja",
+    "hate",
+    "cutting",
+    "onions",
+    "because",
+    "they",
+    "make",
+    "her",
+    "eyes",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "hating",
+      "hater",
+      "hates"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Pooja</b> is one person, so the verb adds <b>-s</b>: hates."
+  },
+  {
+   "qid": "c5-08-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Your handwriting is good, but",
+   "after": "is even neater.",
+   "options": [
+    "my",
+    "mine",
+    "me"
+   ],
+   "answer": 1,
+   "rule": "<b>mine</b> means 'my handwriting' here. It stands alone, with no noun after it."
+  },
+  {
+   "qid": "c5-08-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Nisha enjoys music, but she",
+   "after": "not like loud songs.",
+   "options": [
+    "do",
+    "are",
+    "does"
+   ],
+   "answer": 2,
+   "rule": "<b>She</b> takes <b>does not</b> + base verb: she does not like."
+  },
+  {
+   "qid": "c5-08-37",
+   "type": "build",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Could",
+    "you",
+    "please",
+    "sign",
+    "my",
+    "sheet?"
+   ],
+   "alts": [],
+   "rule": "A polite request: <b>Could you please</b> + base verb ... ?"
+  },
+  {
+   "qid": "c5-08-38",
+   "type": "build",
+   "level": 4,
+   "topic": "has_have",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "your",
+    "sister",
+    "have",
+    "a",
+    "pet?"
+   ],
+   "alts": [],
+   "rule": "<b>Does</b> + subject + <b>have</b> (not has) in a question."
+  },
+  {
+   "qid": "c5-08-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How often do you brush your teeth?"
+    ]
+   ],
+   "options": [
+    "I brushes them twice a day.",
+    "I brush them twice a day.",
+    "I brush it twice a day."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> takes the verb with no -s, and <b>teeth</b> is plural, so use <b>them</b>."
+  },
+  {
+   "qid": "c5-08-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Leela",
+     "Would you like some ice cream?"
+    ]
+   ],
+   "options": [
+    "Yes, please. That sounds lovely!",
+    "Yes, please. That sound lovely!",
+    "Yes, please. That sounding lovely!"
+   ],
+   "answer": 0,
+   "rule": "<b>That</b> is one thing, so the verb adds -s: That <b>sounds</b> lovely."
+  },
+  {
+   "qid": "c5-08-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Most of the children enjoys swimming, but only one of them enjoys singing.",
+    "Most of the children enjoy swimming, but only one of them enjoy singing.",
+    "Most of the children enjoy swimming, but only one of them enjoys singing."
+   ],
+   "answer": 2,
+   "rule": "<b>Most of the children</b> is plural (enjoy); <b>one of them</b> is singular (enjoys)."
+  },
+  {
+   "qid": "c5-08-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya told Aman and I about her favourite singer.",
+    "Riya told Aman and me about hers favourite singer.",
+    "Riya told Aman and me about her favourite singer."
+   ],
+   "answer": 2,
+   "rule": "After a verb (told), use <b>me</b>; before a noun, use <b>her</b>."
+  },
+  {
+   "qid": "c5-08-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "has_have",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "one",
+    "of",
+    "my",
+    "ten",
+    "friends",
+    "have",
+    "a",
+    "favourite",
+    "cricketer."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "having",
+      "has",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject is <b>Every one</b>, which is singular, so use <b>has</b>."
+  },
+  {
+   "qid": "c5-08-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "red",
+    "bags",
+    "are",
+    "our",
+    "and",
+    "the",
+    "blue",
+    "ones",
+    "are",
+    "theirs."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "ours",
+      "us",
+      "we"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With no noun after it, use <b>ours</b>, just like <b>theirs</b>."
+  },
+  {
+   "qid": "c5-08-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Fill in the gap.",
+   "before": "Excuse me,",
+   "after": "you mind filling in this sheet for my project?",
+   "options": [
+    "would",
+    "are",
+    "does"
+   ],
+   "answer": 0,
+   "rule": "A very polite request: <b>Would you mind</b> + -ing ... ?"
+  },
+  {
+   "qid": "c5-08-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "has_have",
+   "prompt": "Fill in the gap.",
+   "before": "My grandparents",
+   "after": "to take their medicines after dinner.",
+   "options": [
+    "has",
+    "have",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "<b>My grandparents</b> is plural, so use <b>have to</b>."
+  },
+  {
+   "qid": "c5-08-47",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "does",
+    "your",
+    "brother",
+    "hate",
+    "cutting",
+    "onions?"
+   ],
+   "alts": [],
+   "rule": "Why + <b>does</b> + subject + base verb (hate, not hates)."
+  },
+  {
+   "qid": "c5-08-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you find most interesting in your report?"
+    ]
+   ],
+   "options": [
+    "Most of my friends are afraid of mice, but nobody is afraid of exams.",
+    "Most of my friends is afraid of mice, but nobody is afraid of exams.",
+    "Most of my friends are afraid of mice, but nobody are afraid of exams."
+   ],
+   "answer": 0,
+   "rule": "<b>Most of my friends</b> is plural (are); <b>nobody</b> is singular (is)."
+  },
+  {
+   "qid": "c5-08-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "polite_words",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Farhan",
+     "Can you fill in my peer profile sheet?"
+    ]
+   ],
+   "options": [
+    "Sure! May I takes it home and give it back tomorrow?",
+    "Sure! May I take it home and give it back tomorrow?",
+    "Sure! May I take it home and gives it back tomorrow?"
+   ],
+   "answer": 1,
+   "rule": "After <b>May I</b>, both verbs stay in the base form: take ... give."
+  },
+  {
+   "qid": "c5-08-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "Whose ice cream is this, yours or Tina's?"
+    ]
+   ],
+   "options": [
+    "It's her. Mine is the chocolate one.",
+    "It's hers. My is the chocolate one.",
+    "It's hers. Mine is the chocolate one."
+   ],
+   "answer": 2,
+   "rule": "Standing alone, use <b>hers</b> and <b>mine</b>, not her and my."
+  }
+ ]
+}

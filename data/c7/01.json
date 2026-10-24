@@ -1,0 +1,985 @@
+{
+ "class": 7,
+ "id": "01",
+ "title": "Past, Present, Future",
+ "topics": [
+  {
+   "tag": "simile",
+   "name": "Similes with as ... as and like"
+  },
+  {
+   "tag": "present_perfect",
+   "name": "Present perfect vs simple past"
+  },
+  {
+   "tag": "future",
+   "name": "Future with will and first conditional"
+  },
+  {
+   "tag": "degrees",
+   "name": "Degrees of comparison"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-01-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The evening was as softer as silk.",
+    "The evening was as soft as silk.",
+    "The evening was as soft than silk."
+   ],
+   "answer": 1,
+   "rule": "A simile with <b>as ... as</b> uses the plain adjective between the two <b>as</b>: <b>as soft as</b>."
+  },
+  {
+   "qid": "c7-01-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I have finished my homework already.",
+    "I have finish my homework already.",
+    "I has finished my homework already."
+   ],
+   "answer": 0,
+   "rule": "Present perfect = <b>have/has</b> + past participle. With <b>I</b>, use <b>have finished</b>."
+  },
+  {
+   "qid": "c7-01-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan",
+    "is",
+    "as",
+    "tall",
+    "than",
+    "his",
+    "elder",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "as",
+      "like",
+      "so"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The pattern is <b>as + adjective + as</b>: <b>as tall as</b>. Never mix <b>as</b> with <b>than</b>."
+  },
+  {
+   "qid": "c7-01-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Priya",
+    "have",
+    "written",
+    "a",
+    "short",
+    "poem",
+    "about",
+    "the",
+    "sea."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "With a singular subject like <b>Priya</b>, the present perfect uses <b>has</b>: <b>has written</b>."
+  },
+  {
+   "qid": "c7-01-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Fill in the gap.",
+   "before": "Her hands were as cold",
+   "after": "ice.",
+   "options": [
+    "as",
+    "than",
+    "like"
+   ],
+   "answer": 0,
+   "rule": "Complete the simile with the second <b>as</b>: <b>as cold as ice</b>."
+  },
+  {
+   "qid": "c7-01-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Look! The bird",
+   "after": "flown away.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>The bird</b> is singular, so the present perfect is <b>has flown</b>."
+  },
+  {
+   "qid": "c7-01-07",
+   "type": "build",
+   "level": 1,
+   "topic": "simile",
+   "prompt": "Make a sentence with a simile.",
+   "answer": [
+    "The",
+    "baby's",
+    "smile",
+    "is",
+    "like",
+    "sunshine."
+   ],
+   "alts": [],
+   "rule": "A simile compares two things using <b>like</b> or <b>as</b>: the baby's smile <b>is like</b> sunshine."
+  },
+  {
+   "qid": "c7-01-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Will you come to the beach with us tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, I will come with you.",
+    "Yes, I will came with you.",
+    "Yes, I coming with you."
+   ],
+   "answer": 0,
+   "rule": "After <b>will</b>, use the base form of the verb: <b>will come</b>."
+  },
+  {
+   "qid": "c7-01-09",
+   "type": "change",
+   "level": 1,
+   "topic": "degrees",
+   "prompt": "Change into the comparative degree.",
+   "source": "No other girl in the class is as tall as Asha.",
+   "options": [
+    "Asha is tallest than any other girl in the class.",
+    "Asha is taller than any other girl in the class.",
+    "Asha is taller than any girl in the class."
+   ],
+   "answer": 1,
+   "rule": "Positive <b>no other ... as tall as</b> becomes comparative <b>taller than any other</b>. Asha is a girl too, so keep <b>other</b>."
+  },
+  {
+   "qid": "c7-01-10",
+   "type": "change",
+   "level": 1,
+   "topic": "present_perfect",
+   "prompt": "Make it negative.",
+   "source": "The rain has stopped.",
+   "options": [
+    "The rain does not stopped.",
+    "The rain have not stopped.",
+    "The rain has not stopped."
+   ],
+   "answer": 2,
+   "rule": "In the present perfect, put <b>not</b> after <b>has</b>: <b>has not stopped</b>."
+  },
+  {
+   "qid": "c7-01-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Which sentence talks about the future correctly?",
+   "options": [
+    "The bird will flew away soon.",
+    "The bird will flying away soon.",
+    "The bird will fly away soon."
+   ],
+   "answer": 2,
+   "rule": "Simple future = <b>will</b> + base verb: <b>will fly</b>."
+  },
+  {
+   "qid": "c7-01-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Spring is the most brightest season of the year.",
+    "Spring is the brightest season of the year.",
+    "Spring is the brighter season of the year."
+   ],
+   "answer": 1,
+   "rule": "Comparing one with many needs the superlative: <b>the brightest</b>. Never use <b>most</b> with <b>-est</b>."
+  },
+  {
+   "qid": "c7-01-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "have",
+    "lived",
+    "in",
+    "Pune",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "from",
+      "by",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Use <b>for</b> with a length of time (<b>for five years</b>) and <b>since</b> with a starting point (<b>since 2020</b>)."
+  },
+  {
+   "qid": "c7-01-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Have",
+    "you",
+    "ever",
+    "saw",
+    "a",
+    "rainbow",
+    "over",
+    "the",
+    "sea?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "see",
+      "seen",
+      "seeing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Have</b> needs the past participle: <b>have you ever seen</b>, not <b>saw</b>."
+  },
+  {
+   "qid": "c7-01-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Don't worry. I",
+   "after": "carry your bag to the bus stop.",
+   "options": [
+    "will",
+    "am",
+    "was"
+   ],
+   "answer": 0,
+   "rule": "To offer help or promise something, use <b>will</b> + base verb: <b>I will carry</b>."
+  },
+  {
+   "qid": "c7-01-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "Gold is",
+   "after": "than silver.",
+   "options": [
+    "costliest",
+    "costlier",
+    "costly"
+   ],
+   "answer": 1,
+   "rule": "<b>than</b> compares two things, so use the comparative: <b>costlier than</b>."
+  },
+  {
+   "qid": "c7-01-17",
+   "type": "build",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Make a question.",
+   "answer": [
+    "Has",
+    "the",
+    "young",
+    "bird",
+    "learnt",
+    "to",
+    "fly?"
+   ],
+   "alts": [],
+   "rule": "Present perfect question: <b>Has</b> + subject + past participle: <b>Has the young bird learnt ...?</b>"
+  },
+  {
+   "qid": "c7-01-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Have you finished your homework?"
+    ]
+   ],
+   "options": [
+    "Yes, I have finish it.",
+    "Yes, I has finished it.",
+    "Yes, I have finished it."
+   ],
+   "answer": 2,
+   "rule": "Answer in the same tense: <b>I have finished</b> (have + past participle)."
+  },
+  {
+   "qid": "c7-01-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simile",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "How was the sea at Alibag?"
+    ]
+   ],
+   "options": [
+    "It was as calm as a lake.",
+    "It were as calm as a lake.",
+    "It was as calmer as a lake."
+   ],
+   "answer": 0,
+   "rule": "<b>It</b> takes <b>was</b>, and the simile keeps the plain adjective: <b>as calm as</b>."
+  },
+  {
+   "qid": "c7-01-20",
+   "type": "change",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Change into a question.",
+   "source": "The children will sing a song.",
+   "options": [
+    "Will the children sang a song?",
+    "Will the children sing a song?",
+    "Do the children will sing a song?"
+   ],
+   "answer": 1,
+   "rule": "Move <b>will</b> to the front and keep the base verb: <b>Will the children sing ...?</b>"
+  },
+  {
+   "qid": "c7-01-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "We have gone to the beach last Sunday.",
+    "We went to the beach last Sunday.",
+    "We go to the beach last Sunday."
+   ],
+   "answer": 1,
+   "rule": "A finished time like <b>last Sunday</b> needs the simple past (<b>went</b>), not the present perfect."
+  },
+  {
+   "qid": "c7-01-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "simile",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The clouds look like white sheep.",
+    "The clouds looks like white sheep.",
+    "The clouds look likes white sheep."
+   ],
+   "answer": 0,
+   "rule": "Plural <b>clouds</b> takes <b>look</b>, and <b>like</b> in a simile never changes: <b>look like</b>."
+  },
+  {
+   "qid": "c7-01-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Asha",
+    "is",
+    "more",
+    "taller",
+    "than",
+    "her",
+    "younger",
+    "sister."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "most",
+      "very",
+      "much"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>taller</b> is already comparative, so don't add <b>more</b>. Use <b>much taller</b> to make it stronger."
+  },
+  {
+   "qid": "c7-01-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simile",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "On",
+    "a",
+    "clear",
+    "day",
+    "the",
+    "sea",
+    "looks",
+    "as",
+    "bluer",
+    "as",
+    "the",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "bluest",
+      "blueness",
+      "blue"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Between <b>as ... as</b> use the plain adjective: <b>as blue as the sky</b>."
+  },
+  {
+   "qid": "c7-01-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "Rahul",
+   "after": "in Mumbai since he was five.",
+   "options": [
+    "lived",
+    "lives",
+    "has lived"
+   ],
+   "answer": 2,
+   "rule": "<b>since</b> + a starting point goes with the present perfect: <b>has lived</b>."
+  },
+  {
+   "qid": "c7-01-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "If you water the seeds every day, they",
+   "after": "into small plants by next month.",
+   "options": [
+    "will grow",
+    "grew",
+    "would have grown"
+   ],
+   "answer": 0,
+   "rule": "First conditional: <b>If</b> + simple present, <b>will</b> + base verb: <b>they will grow</b>."
+  },
+  {
+   "qid": "c7-01-27",
+   "type": "build",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Make a sentence about the future.",
+   "answer": [
+    "The",
+    "children",
+    "will",
+    "play",
+    "in",
+    "the",
+    "rain."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>will</b> + base verb + place: <b>The children will play in the rain.</b>"
+  },
+  {
+   "qid": "c7-01-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Which season do you like best?"
+    ]
+   ],
+   "options": [
+    "I like spring the best because it is the most colourful season.",
+    "I like spring the better because it is the more colourful season.",
+    "I like spring the best because it is the colourfullest season."
+   ],
+   "answer": 0,
+   "rule": "Long adjectives form the superlative with <b>the most</b>: <b>the most colourful</b>."
+  },
+  {
+   "qid": "c7-01-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "When did you get your new bicycle?"
+    ]
+   ],
+   "options": [
+    "I have got it last week.",
+    "I got it last week.",
+    "I get it last week."
+   ],
+   "answer": 1,
+   "rule": "<b>last week</b> is a finished time, so use the simple past: <b>I got it</b>."
+  },
+  {
+   "qid": "c7-01-30",
+   "type": "change",
+   "level": 3,
+   "topic": "degrees",
+   "prompt": "Rewrite using 'not as ... as', beginning with 'Sameer'.",
+   "source": "Ravi is taller than Sameer.",
+   "options": [
+    "Sameer is as tall as Ravi.",
+    "Sameer is not as tall as Ravi.",
+    "Sameer is not as taller as Ravi."
+   ],
+   "answer": 1,
+   "rule": "<b>A is taller than B</b> = <b>B is not as tall as A</b>. Use the plain adjective with <b>as ... as</b>."
+  },
+  {
+   "qid": "c7-01-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you help me, I will help you too.",
+    "If you will help me, I help you too.",
+    "If you helps me, I will help you too."
+   ],
+   "answer": 0,
+   "rule": "First conditional: <b>If</b> + simple present (<b>you help</b>), then <b>will</b> + base verb."
+  },
+  {
+   "qid": "c7-01-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Dadi have lived in this house since 1990.",
+    "Dadi has lived in this house for 1990.",
+    "Dadi has lived in this house since 1990."
+   ],
+   "answer": 2,
+   "rule": "<b>Dadi</b> is singular: <b>has lived</b>. A year is a starting point, so use <b>since 1990</b>."
+  },
+  {
+   "qid": "c7-01-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Tara",
+    "practises",
+    "daily,",
+    "she",
+    "will",
+    "became",
+    "a",
+    "fine",
+    "singer."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "become",
+      "becomes",
+      "becoming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b> always use the base form: <b>will become</b>."
+  },
+  {
+   "qid": "c7-01-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha,",
+    "who",
+    "live",
+    "next",
+    "door,",
+    "will",
+    "join",
+    "our",
+    "choir",
+    "next",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "living",
+      "lives",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>who</b> refers to <b>Neha</b> (one person), so the verb is <b>lives</b>."
+  },
+  {
+   "qid": "c7-01-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "simile",
+   "prompt": "Fill in the gap.",
+   "before": "The young bird flaps",
+   "after": "wings like a tiny engine.",
+   "options": [
+    "it's",
+    "their",
+    "its"
+   ],
+   "answer": 2,
+   "rule": "<b>its</b> shows belonging (the bird's wings). <b>it's</b> means <b>it is</b>."
+  },
+  {
+   "qid": "c7-01-36",
+   "type": "build",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Make a first conditional sentence.",
+   "answer": [
+    "If",
+    "it",
+    "rains,",
+    "we",
+    "will",
+    "stay",
+    "indoors."
+   ],
+   "alts": [],
+   "rule": "<b>If</b> + simple present, then <b>will</b> + base verb: <b>If it rains, we will stay indoors.</b>"
+  },
+  {
+   "qid": "c7-01-37",
+   "type": "build",
+   "level": 4,
+   "topic": "degrees",
+   "prompt": "Make a comparison.",
+   "answer": [
+    "Today",
+    "is",
+    "warmer",
+    "than",
+    "yesterday."
+   ],
+   "alts": [],
+   "rule": "Comparative + <b>than</b> compares two things: <b>warmer than yesterday</b>."
+  },
+  {
+   "qid": "c7-01-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Can we go to the park this evening?"
+    ]
+   ],
+   "options": [
+    "If it will stop raining, we go.",
+    "If it stop raining, we will go.",
+    "If it stops raining, we will go."
+   ],
+   "answer": 2,
+   "rule": "In the <b>if</b> part use the simple present (<b>it stops</b>); in the result part use <b>will</b>."
+  },
+  {
+   "qid": "c7-01-39",
+   "type": "change",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Use 'unless'.",
+   "source": "If you do not hurry, you will miss the bus.",
+   "options": [
+    "Unless you hurry, you will miss the bus.",
+    "Unless you do not hurry, you will miss the bus.",
+    "Unless you hurry, you missed the bus."
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> already means <b>if not</b>, so drop <b>do not</b>: <b>Unless you hurry</b>."
+  },
+  {
+   "qid": "c7-01-40",
+   "type": "change",
+   "level": 4,
+   "topic": "present_perfect",
+   "prompt": "Change into a question.",
+   "source": "Kiran has seen the sea.",
+   "options": [
+    "Have Kiran seen the sea?",
+    "Has Kiran seen the sea?",
+    "Has Kiran saw the sea?"
+   ],
+   "answer": 1,
+   "rule": "Move <b>has</b> to the front and keep the past participle: <b>Has Kiran seen ...?</b>"
+  },
+  {
+   "qid": "c7-01-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Pacific is larger than any ocean in the world.",
+    "The Pacific is largest than any other ocean.",
+    "The Pacific is larger than any other ocean."
+   ],
+   "answer": 2,
+   "rule": "The Pacific is itself an ocean, so compare it with <b>any other ocean</b>: <b>larger than any other</b>."
+  },
+  {
+   "qid": "c7-01-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simile",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Yesterday the sea shines like a mirror under a cloudless sky.",
+    "Yesterday the sea has shone like a mirror under a cloudless sky.",
+    "Yesterday the sea shone like a mirror under a cloudless sky."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is a finished time, so use the simple past: <b>shone</b>."
+  },
+  {
+   "qid": "c7-01-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Spring",
+    "is",
+    "the",
+    "more",
+    "beautiful",
+    "season",
+    "of",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "much",
+      "very",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>of all</b> compares more than two, so use the superlative: <b>the most beautiful</b>."
+  },
+  {
+   "qid": "c7-01-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Unless",
+    "we",
+    "leave",
+    "now,",
+    "we",
+    "will",
+    "missed",
+    "the",
+    "last",
+    "bus",
+    "to",
+    "the",
+    "beach."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "missing",
+      "misses",
+      "miss"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb: <b>will miss</b>."
+  },
+  {
+   "qid": "c7-01-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Fill in the gap.",
+   "before": "This is one of the",
+   "after": "poems I have ever read.",
+   "options": [
+    "finest",
+    "finer",
+    "fine"
+   ],
+   "answer": 0,
+   "rule": "<b>one of the</b> + superlative + plural noun: <b>one of the finest poems</b>."
+  },
+  {
+   "qid": "c7-01-46",
+   "type": "build",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Make a sentence in the present perfect.",
+   "answer": [
+    "My",
+    "family",
+    "has",
+    "lived",
+    "in",
+    "Nashik",
+    "since",
+    "2015."
+   ],
+   "alts": [],
+   "rule": "<b>has lived ... since 2015</b>: the present perfect shows an action that started in the past and still goes on."
+  },
+  {
+   "qid": "c7-01-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "present_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "How long have you known Meena?"
+    ]
+   ],
+   "options": [
+    "I have knew her since Class 2.",
+    "I know her since Class 2.",
+    "I have known her since Class 2."
+   ],
+   "answer": 2,
+   "rule": "From a past point till now, use the present perfect: <b>have known</b> (past participle of know)."
+  },
+  {
+   "qid": "c7-01-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Which bus should I take, the red one or the blue one?"
+    ]
+   ],
+   "options": [
+    "Take the blue one. It is more faster, so you will reach on time.",
+    "Take the blue one. It is faster, so you will reach on time.",
+    "Take the blue one. It is faster, so you will reached on time."
+   ],
+   "answer": 1,
+   "rule": "Comparing two buses: <b>faster</b> (no <b>more</b>). After <b>will</b> use the base verb <b>reach</b>."
+  },
+  {
+   "qid": "c7-01-49",
+   "type": "change",
+   "level": 5,
+   "topic": "degrees",
+   "prompt": "Change into the positive degree.",
+   "source": "Spring is the most pleasant season of the year.",
+   "options": [
+    "No other season of the year is more pleasant as spring.",
+    "No other season of the year is as pleasant as spring.",
+    "No other season of the year is as pleasant than spring."
+   ],
+   "answer": 1,
+   "rule": "Superlative <b>the most pleasant</b> becomes positive <b>No other ... is as pleasant as</b>."
+  },
+  {
+   "qid": "c7-01-50",
+   "type": "change",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Add the correct question tag.",
+   "source": "The future will be exciting.",
+   "options": [
+    "The future will be exciting, will it?",
+    "The future will be exciting, won't it?",
+    "The future will be exciting, isn't it?"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>will</b> takes a negative tag with <b>won't</b>: <b>won't it?</b>"
+  }
+ ]
+}

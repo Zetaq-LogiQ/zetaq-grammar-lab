@@ -1,0 +1,1011 @@
+{
+ "class": 7,
+ "id": "04",
+ "title": "The King's Choice",
+ "topics": [
+  {
+   "tag": "countable_uncountable",
+   "name": "Countable and uncountable nouns"
+  },
+  {
+   "tag": "plurals",
+   "name": "Singular and plural nouns"
+  },
+  {
+   "tag": "comparison",
+   "name": "Degrees of comparison (the more ... the more)"
+  },
+  {
+   "tag": "perfect_tenses",
+   "name": "Past perfect and present perfect"
+  },
+  {
+   "tag": "relative_pronouns",
+   "name": "Relative pronouns who, which, whose, that"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-04-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "countable_uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lion drank some water from the river.",
+    "The lion drank some waters from the river.",
+    "The lion drank a water from the river."
+   ],
+   "answer": 0,
+   "rule": "<b>Water</b> is uncountable: no <b>a</b> and no plural <b>-s</b>. Say <b>some water</b>."
+  },
+  {
+   "qid": "c7-04-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "The vulture flew over two country.",
+    "The vulture flew over two countries.",
+    "The vulture flew over a countries."
+   ],
+   "answer": 1,
+   "rule": "<b>Two</b> needs a plural noun. <b>Country</b> becomes <b>countries</b> (y after a consonant → ies)."
+  },
+  {
+   "qid": "c7-04-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "countable_uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "king",
+    "keeps",
+    "a",
+    "lot",
+    "of",
+    "golds",
+    "in",
+    "his",
+    "treasury."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "golden",
+      "gold",
+      "goldsmith"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Gold</b> is an uncountable noun, so it has no plural: <b>a lot of gold</b>."
+  },
+  {
+   "qid": "c7-04-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "watch",
+    "are",
+    "a",
+    "gift",
+    "from",
+    "our",
+    "grandfather."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "watches",
+      "watched",
+      "watching"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>These ... are</b> needs a plural noun. Words ending in <b>-ch</b> add <b>-es</b>: <b>watches</b>."
+  },
+  {
+   "qid": "c7-04-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "countable_uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "There is not",
+   "after": "water left in the pot.",
+   "options": [
+    "many",
+    "a few",
+    "much"
+   ],
+   "answer": 2,
+   "rule": "Use <b>much</b> with uncountable nouns like <b>water</b>; <b>many</b> and <b>a few</b> go with countable nouns."
+  },
+  {
+   "qid": "c7-04-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The camel was",
+   "after": "than the fox.",
+   "options": [
+    "tallest",
+    "more tall",
+    "taller"
+   ],
+   "answer": 2,
+   "rule": "Comparing two with <b>than</b> needs the comparative: short adjective + <b>-er</b> = <b>taller</b>."
+  },
+  {
+   "qid": "c7-04-07",
+   "type": "build",
+   "level": 1,
+   "topic": "countable_uncountable",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "She",
+    "drank",
+    "a",
+    "glass",
+    "of",
+    "milk."
+   ],
+   "alts": [],
+   "rule": "We count milk with a unit: <b>a glass of milk</b>, never <b>a milk</b>."
+  },
+  {
+   "qid": "c7-04-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "How many eggs do we need for the cake?"
+    ]
+   ],
+   "options": [
+    "We need three egg.",
+    "We needs three eggs.",
+    "We need three eggs."
+   ],
+   "answer": 2,
+   "rule": "<b>Three</b> takes a plural noun: <b>eggs</b>. With <b>we</b>, the verb is <b>need</b>."
+  },
+  {
+   "qid": "c7-04-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did you see at the zoo?"
+    ]
+   ],
+   "options": [
+    "I saw two lions and three foxes.",
+    "I saw two lion and three foxes.",
+    "I seen two lions and three foxes."
+   ],
+   "answer": 0,
+   "rule": "<b>Two</b> needs the plural <b>lions</b>, and the simple past of see is <b>saw</b>, not <b>seen</b>."
+  },
+  {
+   "qid": "c7-04-10",
+   "type": "change",
+   "level": 1,
+   "topic": "plurals",
+   "prompt": "Change into plural.",
+   "source": "The fox is clever.",
+   "options": [
+    "The foxes is clever.",
+    "The foxes are clever.",
+    "The fox are clever."
+   ],
+   "answer": 1,
+   "rule": "<b>Fox</b> → <b>foxes</b>, and a plural subject takes <b>are</b>."
+  },
+  {
+   "qid": "c7-04-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "After the lion had ate his meal, he left the remains.",
+    "After the lion had eaten his meal, he left the remains.",
+    "After the lion has eaten his meal, he left the remains."
+   ],
+   "answer": 1,
+   "rule": "The earlier past action takes the past perfect: <b>had + past participle</b> = <b>had eaten</b>."
+  },
+  {
+   "qid": "c7-04-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "countable_uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The camel carried a heavy luggage across the desert.",
+    "The camel carried heavy luggages across the desert.",
+    "The camel carried heavy luggage across the desert."
+   ],
+   "answer": 2,
+   "rule": "<b>Luggage</b> is uncountable: no <b>a</b> and no <b>-s</b>."
+  },
+  {
+   "qid": "c7-04-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "perfect_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "the",
+    "time",
+    "the",
+    "fox",
+    "came",
+    "back,",
+    "the",
+    "lion",
+    "had",
+    "fell",
+    "asleep."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "fallen",
+      "falling",
+      "fall"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The past perfect is <b>had + past participle</b>. The participle of fall is <b>fallen</b>."
+  },
+  {
+   "qid": "c7-04-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "leopard",
+    "was",
+    "the",
+    "more",
+    "watchful",
+    "of",
+    "all",
+    "the",
+    "animals",
+    "in",
+    "the",
+    "court."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "much",
+      "many",
+      "most"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Of all</b> compares more than two, so use the superlative: <b>the most watchful</b>."
+  },
+  {
+   "qid": "c7-04-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "The more Ravi practises, the",
+   "after": "he plays.",
+   "options": [
+    "best",
+    "good",
+    "better"
+   ],
+   "answer": 2,
+   "rule": "The pattern <b>the more ..., the + comparative</b> needs a comparative: good → <b>better</b>."
+  },
+  {
+   "qid": "c7-04-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "countable_uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "The fox ate a few",
+   "after": "of bread.",
+   "options": [
+    "slices",
+    "slice",
+    "breads"
+   ],
+   "answer": 0,
+   "rule": "<b>Bread</b> is uncountable, so we count the unit: <b>a few slices of bread</b>."
+  },
+  {
+   "qid": "c7-04-17",
+   "type": "build",
+   "level": 2,
+   "topic": "perfect_tenses",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "lion",
+    "had",
+    "eaten",
+    "his",
+    "meal",
+    "before",
+    "sunset."
+   ],
+   "alts": [],
+   "rule": "Past perfect: <b>had + past participle</b> (had eaten) shows an action finished before a past time."
+  },
+  {
+   "qid": "c7-04-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Why didn't Neha come to the party last night?"
+    ]
+   ],
+   "options": [
+    "She had already left for Pune with her parents.",
+    "She had already leave for Pune with her parents.",
+    "She had already leaving for Pune with her parents."
+   ],
+   "answer": 0,
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had left</b>."
+  },
+  {
+   "qid": "c7-04-19",
+   "type": "change",
+   "level": 2,
+   "topic": "perfect_tenses",
+   "prompt": "Make it negative.",
+   "source": "The lion had seen a camel before.",
+   "options": [
+    "The lion had not saw a camel before.",
+    "The lion did not had seen a camel before.",
+    "The lion had not seen a camel before."
+   ],
+   "answer": 2,
+   "rule": "Put <b>not</b> after <b>had</b> and keep the participle: <b>had not seen</b>."
+  },
+  {
+   "qid": "c7-04-20",
+   "type": "change",
+   "level": 2,
+   "topic": "plurals",
+   "prompt": "Change into singular.",
+   "source": "These countries are big.",
+   "options": [
+    "This country are big.",
+    "This country is big.",
+    "This countries is big."
+   ],
+   "answer": 1,
+   "rule": "In the singular: <b>these</b> → <b>this</b>, <b>countries</b> → <b>country</b>, <b>are</b> → <b>is</b>."
+  },
+  {
+   "qid": "c7-04-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "countable_uncountable",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "How many milk and how much eggs do we need?",
+    "How much milk and how much eggs do we need?",
+    "How much milk and how many eggs do we need?"
+   ],
+   "answer": 2,
+   "rule": "<b>How much</b> + uncountable (milk); <b>how many</b> + countable plural (eggs)."
+  },
+  {
+   "qid": "c7-04-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "relative_pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The vulture, whose wings were strong, flew ahead.",
+    "The vulture, who wings were strong, flew ahead.",
+    "The vulture, which wings were strong, flew ahead."
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> shows possession: the wings belong to the vulture."
+  },
+  {
+   "qid": "c7-04-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "perfect_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "when",
+    "we",
+    "reached",
+    "the",
+    "hall,",
+    "the",
+    "film",
+    "has",
+    "already",
+    "started."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "have",
+      "had",
+      "having"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The film started before we reached (past), so use the past perfect: <b>had already started</b>."
+  },
+  {
+   "qid": "c7-04-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "countable_uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "guide",
+    "gave",
+    "us",
+    "a",
+    "lot",
+    "of",
+    "useful",
+    "informations",
+    "about",
+    "the",
+    "desert."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "informed",
+      "information",
+      "informing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Information</b> is uncountable, so it never takes <b>-s</b>."
+  },
+  {
+   "qid": "c7-04-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative_pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "The camel,",
+   "after": "master was a trader, followed the fox.",
+   "options": [
+    "whose",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "<b>Whose</b> shows possession: the master belongs to the camel."
+  },
+  {
+   "qid": "c7-04-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Of all the courtiers, the fox was the",
+   "after": "one.",
+   "options": [
+    "cleverer",
+    "cleverest",
+    "more clever"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> compares more than two, so use the superlative: <b>the cleverest</b>."
+  },
+  {
+   "qid": "c7-04-27",
+   "type": "build",
+   "level": 3,
+   "topic": "comparison",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "more",
+    "we",
+    "share,",
+    "the",
+    "happier",
+    "everyone",
+    "becomes."
+   ],
+   "alts": [],
+   "rule": "Pattern: <b>The more ..., the + comparative ...</b> Both halves use a comparative."
+  },
+  {
+   "qid": "c7-04-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "countable_uncountable",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Good morning! What would you like?"
+    ]
+   ],
+   "options": [
+    "Two packets of biscuits and a litre of milk, please.",
+    "Two packet of biscuits and a litre of milk, please.",
+    "Two packets of biscuits and a litre of milks, please."
+   ],
+   "answer": 0,
+   "rule": "<b>Two packets</b> is plural; <b>milk</b> is uncountable, so <b>a litre of milk</b>."
+  },
+  {
+   "qid": "c7-04-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative_pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "Which book are you reading?"
+    ]
+   ],
+   "options": [
+    "The one who my uncle gave me.",
+    "The one that my uncle gave me.",
+    "The one whose my uncle gave me."
+   ],
+   "answer": 1,
+   "rule": "For things, use <b>that</b> or <b>which</b>. <b>Who</b> is for people."
+  },
+  {
+   "qid": "c7-04-30",
+   "type": "change",
+   "level": 3,
+   "topic": "relative_pronouns",
+   "prompt": "Join using 'who'.",
+   "source": "The fox was clever. He thought of a plan.",
+   "options": [
+    "The fox who was clever, he thought of a plan.",
+    "The fox, who was clever, thinks of a plan.",
+    "The fox, who was clever, thought of a plan."
+   ],
+   "answer": 2,
+   "rule": "<b>Who</b> replaces <b>he</b>, so don't repeat the subject. Keep the past tense: <b>thought</b>."
+  },
+  {
+   "qid": "c7-04-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "countable_uncountable",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "There isn't much water in the pot, isn't it?",
+    "There aren't much water in the pot, are there?",
+    "There isn't much water in the pot, is there?"
+   ],
+   "answer": 2,
+   "rule": "<b>Water</b> takes <b>is</b>. A negative <b>there isn't</b> takes a positive tag: <b>is there?</b>"
+  },
+  {
+   "qid": "c7-04-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "When we had reached the station, the train already left.",
+    "When we reached the station, the train had already left.",
+    "When we reached the station, the train has already left."
+   ],
+   "answer": 1,
+   "rule": "The train left first, so it takes the past perfect (<b>had left</b>); the later action is simple past (<b>reached</b>)."
+  },
+  {
+   "qid": "c7-04-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "countable_uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "news",
+    "were",
+    "a",
+    "big",
+    "surprise",
+    "for",
+    "the",
+    "courtiers."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "are",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>News</b> is uncountable and takes a singular verb: <b>This news was</b>."
+  },
+  {
+   "qid": "c7-04-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "plurals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "the",
+    "leopards",
+    "was",
+    "resting",
+    "under",
+    "the",
+    "tall",
+    "tree."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both the leopards</b> is plural, so the past continuous is <b>were resting</b>."
+  },
+  {
+   "qid": "c7-04-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "countable_uncountable",
+   "prompt": "Fill in the gap.",
+   "before": "Could you lend me",
+   "after": "money for the bus ticket?",
+   "options": [
+    "some",
+    "many",
+    "a few"
+   ],
+   "answer": 0,
+   "rule": "<b>Money</b> is uncountable, so use <b>some</b>; <b>many</b> and <b>a few</b> need countable nouns."
+  },
+  {
+   "qid": "c7-04-36",
+   "type": "build",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "The",
+    "fox",
+    "was",
+    "cleverer",
+    "than",
+    "the",
+    "leopard,",
+    "wasn't",
+    "he?"
+   ],
+   "alts": [],
+   "rule": "Comparative + <b>than</b>; a positive statement with <b>was</b> takes the tag <b>wasn't he?</b>"
+  },
+  {
+   "qid": "c7-04-37",
+   "type": "build",
+   "level": 4,
+   "topic": "relative_pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "met",
+    "Komal,",
+    "who",
+    "lives",
+    "near",
+    "our",
+    "school."
+   ],
+   "alts": [],
+   "rule": "<b>Who</b> comes right after the person it describes: <b>Komal, who lives ...</b>"
+  },
+  {
+   "qid": "c7-04-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "Have you finished the project report?"
+    ]
+   ],
+   "options": [
+    "Yes, I finished it yesterday.",
+    "Yes, I have finished it yesterday.",
+    "Yes, I had finish it yesterday."
+   ],
+   "answer": 0,
+   "rule": "With a finished past time like <b>yesterday</b>, use the simple past (<b>finished</b>), not the present perfect."
+  },
+  {
+   "qid": "c7-04-39",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "The camel was the tallest animal in the group.",
+   "options": [
+    "No other animal in the group was so tall than the camel.",
+    "No other animal in the group was as tall as the camel.",
+    "No other animal in the group was taller as the camel."
+   ],
+   "answer": 1,
+   "rule": "Superlative → positive: <b>No other ... was as tall as ...</b>"
+  },
+  {
+   "qid": "c7-04-40",
+   "type": "change",
+   "level": 4,
+   "topic": "comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "The fox was the cleverest of all the courtiers.",
+   "options": [
+    "The fox was cleverer than any other courtier.",
+    "The fox was cleverer than all other courtier.",
+    "The fox was more cleverer than any other courtier."
+   ],
+   "answer": 0,
+   "rule": "Superlative → comparative: <b>cleverer than any other</b> + singular noun. Never <b>more cleverer</b>."
+  },
+  {
+   "qid": "c7-04-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "comparison",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The most water you drink in summer, the fresher you will feel.",
+    "The more waters you drink in summer, the fresher you will feel.",
+    "The more water you drink in summer, the fresher you will feel."
+   ],
+   "answer": 2,
+   "rule": "Pattern: <b>the more ..., the + comparative</b>. <b>Water</b> is uncountable, so no <b>-s</b>."
+  },
+  {
+   "qid": "c7-04-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "The courtiers realised that they had making a terrible mistake.",
+    "The courtiers realised that they had made a terrible mistake.",
+    "The courtiers realised that they had make a terrible mistake."
+   ],
+   "answer": 1,
+   "rule": "Past perfect = <b>had + past participle</b>: <b>had made</b>."
+  },
+  {
+   "qid": "c7-04-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative_pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "trader,",
+    "whom",
+    "owned",
+    "the",
+    "camel,",
+    "had",
+    "crossed",
+    "the",
+    "desert",
+    "many",
+    "times."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "whose",
+      "which",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The relative pronoun is the subject of <b>owned</b>, so use <b>who</b>, not <b>whom</b>."
+  },
+  {
+   "qid": "c7-04-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "countable_uncountable",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Only",
+    "a",
+    "few",
+    "water",
+    "was",
+    "left",
+    "in",
+    "the",
+    "bottles",
+    "after",
+    "the",
+    "long",
+    "walk."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "many",
+      "little",
+      "less"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>A few</b> is for countable nouns. With uncountable <b>water</b>, use <b>a little</b>."
+  },
+  {
+   "qid": "c7-04-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "perfect_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "The camel",
+   "after": "never met a lion before that day, so he was surprised.",
+   "options": [
+    "has",
+    "have",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "An action before another past moment (<b>before that day</b>) takes the past perfect: <b>had never met</b>."
+  },
+  {
+   "qid": "c7-04-46",
+   "type": "build",
+   "level": 5,
+   "topic": "relative_pronouns",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Sameer",
+    "thanked",
+    "the",
+    "doctors",
+    "who",
+    "had",
+    "saved",
+    "his",
+    "life."
+   ],
+   "alts": [],
+   "rule": "<b>Who</b> follows the people it describes (<b>the doctors who ...</b>); <b>had saved</b> is the earlier action."
+  },
+  {
+   "qid": "c7-04-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "perfect_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "Why was Aarav so happy yesterday evening?"
+    ]
+   ],
+   "options": [
+    "He had won the chess match that morning.",
+    "He had win the chess match that morning.",
+    "He has won the chess match that morning."
+   ],
+   "answer": 0,
+   "rule": "The win came before the evening (both past), so use <b>had won</b>. <b>Has won</b> can't go with <b>that morning</b>."
+  },
+  {
+   "qid": "c7-04-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "countable_uncountable",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Shall I pack some food for your school trip?"
+    ]
+   ],
+   "options": [
+    "Yes, please. Just a little sandwiches and a few juice.",
+    "Yes, please. Just a few sandwich and a little juice.",
+    "Yes, please. Just a few sandwiches and a little juice."
+   ],
+   "answer": 2,
+   "rule": "<b>A few</b> + plural countable (sandwiches); <b>a little</b> + uncountable (juice)."
+  },
+  {
+   "qid": "c7-04-49",
+   "type": "change",
+   "level": 5,
+   "topic": "perfect_tenses",
+   "prompt": "Change into a question without changing the meaning.",
+   "source": "The lion had never seen a camel.",
+   "options": [
+    "Has the lion ever seen a camel?",
+    "Had the lion ever seen a camel?",
+    "Did the lion had ever seen a camel?"
+   ],
+   "answer": 1,
+   "rule": "Move <b>had</b> before the subject and change <b>never</b> to <b>ever</b>: <b>Had the lion ever seen ...?</b>"
+  },
+  {
+   "qid": "c7-04-50",
+   "type": "change",
+   "level": 5,
+   "topic": "relative_pronouns",
+   "prompt": "Join using 'which'.",
+   "source": "The vulture saw a desert. It was a few miles away.",
+   "options": [
+    "The vulture saw a desert which was a few miles away.",
+    "The vulture saw a desert which it was a few miles away.",
+    "The vulture saw a desert who was a few miles away."
+   ],
+   "answer": 0,
+   "rule": "<b>Which</b> replaces <b>it</b> (a thing), so don't repeat <b>it</b>."
+  }
+ ]
+}

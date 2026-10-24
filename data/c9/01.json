@@ -1,0 +1,1201 @@
+{
+ "class": 9,
+ "id": "01",
+ "title": "Life",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "-ly adverbs of manner and their comparison"
+  },
+  {
+   "tag": "sentence_kinds",
+   "name": "Rhetorical questions: interrogative and assertive sentences"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals (types 1, 2 and 3), unless"
+  },
+  {
+   "tag": "linking",
+   "name": "Linking words: though, although, despite, hardly ... when"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-01-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children laughed merrily at the joke.",
+    "The children laughs merrily at the joke.",
+    "The children laughed merry at the joke."
+   ],
+   "answer": 0,
+   "rule": "<b>Merrily</b> is an adverb telling how they laughed, and plural <b>children</b> takes <b>laughed</b>, not <b>laughs</b>."
+  },
+  {
+   "qid": "c9-01-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Pick the correct conditional sentence.",
+   "options": [
+    "If it will rain, the roses will bloom.",
+    "If it rains, the roses bloomed.",
+    "If it rains, the roses will bloom."
+   ],
+   "answer": 2,
+   "rule": "Type 1 conditional: <b>if + simple present</b>, then <b>will + verb</b>: If it <b>rains</b>, the roses <b>will bloom</b>."
+  },
+  {
+   "qid": "c9-01-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "solved",
+    "the",
+    "puzzle",
+    "clever",
+    "and",
+    "won",
+    "a",
+    "gold",
+    "medal."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "cleverly",
+      "cleverer",
+      "cleverness"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say <b>how</b> she solved it, use the adverb <b>cleverly</b>, not the adjective <b>clever</b>."
+  },
+  {
+   "qid": "c9-01-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "linking",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "went",
+    "out",
+    "although",
+    "the",
+    "heavy",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "despite",
+      "because",
+      "unless"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Although</b> needs a clause (subject + verb). Before a noun phrase like <b>the heavy rain</b>, use <b>despite</b>."
+  },
+  {
+   "qid": "c9-01-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Enjoy the holidays",
+   "after": "before school reopens.",
+   "options": [
+    "cheerfully",
+    "cheerful",
+    "cheer"
+   ],
+   "answer": 0,
+   "rule": "The word describes how to enjoy (a verb), so use the -ly adverb <b>cheerfully</b>."
+  },
+  {
+   "qid": "c9-01-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If you water the plants daily, they",
+   "after": "well.",
+   "options": [
+    "grew",
+    "growing",
+    "grow"
+   ],
+   "answer": 2,
+   "rule": "For a general truth, use the simple present in both parts: If you <b>water</b> ..., they <b>grow</b> well."
+  },
+  {
+   "qid": "c9-01-07",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "should",
+    "we",
+    "lament",
+    "the",
+    "rain?"
+   ],
+   "alts": [],
+   "rule": "In a wh-question the helping verb comes before the subject: <b>Why should we</b> ...?"
+  },
+  {
+   "qid": "c9-01-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "How did Kabir play in the final?"
+    ]
+   ],
+   "options": [
+    "He played brilliant and scored fifty.",
+    "He played brilliantly and scored fifty.",
+    "He plays brilliantly and score fifty."
+   ],
+   "answer": 1,
+   "rule": "<b>How did he play?</b> needs an adverb: <b>brilliantly</b>. The question is in the past, so use <b>played</b> and <b>scored</b>."
+  },
+  {
+   "qid": "c9-01-09",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an assertive sentence.",
+   "source": "Who does not love a sunny morning?",
+   "options": [
+    "Nobody loves a sunny morning.",
+    "Everyone loves a sunny morning.",
+    "Everyone does not love a sunny morning."
+   ],
+   "answer": 1,
+   "rule": "The question means that all people love it. So the statement is <b>Everyone loves a sunny morning.</b>"
+  },
+  {
+   "qid": "c9-01-10",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an interrogative sentence.",
+   "source": "Nobody can stop the rain.",
+   "options": [
+    "Who cannot stop the rain?",
+    "Who can stop the rain?",
+    "Can nobody stops the rain?"
+   ],
+   "answer": 1,
+   "rule": "<b>Nobody can</b> becomes the rhetorical question <b>Who can ...?</b> It keeps the same meaning."
+  },
+  {
+   "qid": "c9-01-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Though she was tired, but she helped her mother.",
+    "Despite she was tired, she helped her mother.",
+    "Though she was tired, she helped her mother."
+   ],
+   "answer": 2,
+   "rule": "Do not use <b>but</b> after <b>though</b>. <b>Despite</b> cannot take a clause like <b>she was tired</b>."
+  },
+  {
+   "qid": "c9-01-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Pick the correct conditional sentence.",
+   "options": [
+    "If I have wings, I would fly over the hills.",
+    "If I had wings, I will fly over the hills.",
+    "If I had wings, I would fly over the hills."
+   ],
+   "answer": 2,
+   "rule": "Type 2 (imagined) conditional: <b>if + past</b>, then <b>would + verb</b>: If I <b>had</b> wings, I <b>would fly</b>."
+  },
+  {
+   "qid": "c9-01-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "soldiers",
+    "marched",
+    "brave",
+    "towards",
+    "the",
+    "enemy",
+    "camp."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "braver",
+      "bravely",
+      "bravery"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The word tells how they marched, so use the adverb <b>bravely</b>."
+  },
+  {
+   "qid": "c9-01-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "tomorrow,",
+    "they",
+    "will",
+    "cancels",
+    "the",
+    "match."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "cancelled",
+      "cancelling",
+      "cancel"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b> use the base form of the verb: <b>will cancel</b>."
+  },
+  {
+   "qid": "c9-01-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the dark clouds, the children kept playing in the park.",
+   "options": [
+    "Although",
+    "Despite",
+    "However"
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> is followed by a noun phrase (<b>the dark clouds</b>). <b>Although</b> needs a subject and verb."
+  },
+  {
+   "qid": "c9-01-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "you, I would not lose hope.",
+   "options": [
+    "am",
+    "be",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "For an imagined situation, use <b>If I were you</b> with <b>would</b> in the main clause."
+  },
+  {
+   "qid": "c9-01-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Make a conditional sentence.",
+   "answer": [
+    "If",
+    "you",
+    "practise",
+    "daily,",
+    "your",
+    "game",
+    "will",
+    "improve."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If + simple present</b>, then <b>will + verb</b>: If you practise daily, your game will improve."
+  },
+  {
+   "qid": "c9-01-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Will you go to the park if it rains?"
+    ]
+   ],
+   "options": [
+    "No, if it rains, I will stay at home.",
+    "No, if it will rain, I stay at home.",
+    "No, if it rained, I will staying at home."
+   ],
+   "answer": 0,
+   "rule": "Type 1 conditional: <b>if it rains</b> (simple present), <b>I will stay</b> (will + base verb)."
+  },
+  {
+   "qid": "c9-01-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "linking",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you enjoy the trip?"
+    ]
+   ],
+   "options": [
+    "Yes, although it rained, we had fun.",
+    "Yes, despite it rained, we had fun.",
+    "Yes, although it rained, but we had fun."
+   ],
+   "answer": 0,
+   "rule": "<b>Although</b> joins a clause and needs no <b>but</b>. <b>Despite</b> cannot be followed by <b>it rained</b>."
+  },
+  {
+   "qid": "c9-01-20",
+   "type": "change",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Change into the comparative degree.",
+   "source": "Tara runs the fastest in her class.",
+   "options": [
+    "Tara runs faster than any student in her class.",
+    "Tara runs more fast than any other student in her class.",
+    "Tara runs faster than any other student in her class."
+   ],
+   "answer": 2,
+   "rule": "Superlative to comparative: <b>faster than any other</b>. Without <b>other</b>, Tara would be compared with herself."
+  },
+  {
+   "qid": "c9-01-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The jasmine flowers smell sweetly.",
+    "The jasmine flowers smells sweet.",
+    "The jasmine flowers smell sweet."
+   ],
+   "answer": 2,
+   "rule": "After linking verbs like <b>smell, look, feel</b>, use an adjective: <b>smell sweet</b>. Plural <b>flowers</b> takes <b>smell</b>."
+  },
+  {
+   "qid": "c9-01-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "we",
+    "had",
+    "left",
+    "earlier,",
+    "we",
+    "would",
+    "have",
+    "catch",
+    "the",
+    "train."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "catching",
+      "caught",
+      "catches"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Type 3 conditional: <b>would have + past participle</b>: <b>would have caught</b>."
+  },
+  {
+   "qid": "c9-01-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "linking",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aman",
+    "felt",
+    "nervous,",
+    "despite",
+    "he",
+    "smiled",
+    "at",
+    "the",
+    "audience."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "but",
+      "during",
+      "without"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Despite</b> cannot introduce a clause (<b>he smiled</b>). Join the two contrasting clauses with <b>but</b>."
+  },
+  {
+   "qid": "c9-01-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Nisha climbed the cliff",
+   "after": "of all the climbers.",
+   "options": [
+    "most fearlessly",
+    "more fearlessly",
+    "most fearless"
+   ],
+   "answer": 0,
+   "rule": "Comparing with all the climbers needs the superlative adverb: <b>most fearlessly</b>."
+  },
+  {
+   "qid": "c9-01-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If she had known about the test, she",
+   "after": "for it.",
+   "options": [
+    "will study",
+    "would have studied",
+    "would study"
+   ],
+   "answer": 1,
+   "rule": "Type 3 (past, unreal): <b>if + had + past participle</b>, then <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-01-26",
+   "type": "build",
+   "level": 3,
+   "topic": "linking",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Despite",
+    "heavy",
+    "rain,",
+    "our",
+    "team",
+    "won",
+    "the",
+    "match."
+   ],
+   "alts": [],
+   "rule": "<b>Despite</b> + noun phrase (<b>heavy rain</b>), then the main clause: our team won the match."
+  },
+  {
+   "qid": "c9-01-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why did you miss the bus?"
+    ]
+   ],
+   "options": [
+    "If I had woke up earlier, I would not have missed it.",
+    "If I had woken up earlier, I would not have missed it.",
+    "If I had woken up earlier, I will not miss it."
+   ],
+   "answer": 1,
+   "rule": "Type 3: <b>had woken</b> (past participle) + <b>would not have missed</b>. <b>Woke</b> is the simple past, not the participle."
+  },
+  {
+   "qid": "c9-01-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "I failed one test. I'm so upset."
+    ]
+   ],
+   "options": [
+    "Why losing hope over one test? You will do better next time.",
+    "Why lose hope over one test? You will doing better next time.",
+    "Why lose hope over one test? You will do better next time."
+   ],
+   "answer": 2,
+   "rule": "A short rhetorical question can be <b>Why + base verb</b>: <b>Why lose hope?</b> After <b>will</b>, use <b>do</b>."
+  },
+  {
+   "qid": "c9-01-29",
+   "type": "change",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an assertive sentence.",
+   "source": "Can fear ever defeat true courage?",
+   "options": [
+    "Fear can ever defeat true courage.",
+    "Fear could never defeated true courage.",
+    "Fear can never defeat true courage."
+   ],
+   "answer": 2,
+   "rule": "The question expects the answer 'No', so <b>Can ... ever</b> becomes <b>can never</b>, followed by the base verb."
+  },
+  {
+   "qid": "c9-01-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Our",
+    "coach",
+    "says",
+    "that",
+    "if",
+    "we",
+    "guard",
+    "our",
+    "goal",
+    "careful",
+    "in",
+    "every",
+    "match,",
+    "we",
+    "will",
+    "win",
+    "more",
+    "often.",
+    "Yesterday",
+    "we",
+    "passed",
+    "the",
+    "ball",
+    "wise",
+    "and",
+    "won",
+    "easily."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "carefully",
+      "careless",
+      "care"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "wisely",
+      "wiser",
+      "wisdom"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Both words tell how they did the action, so use adverbs: <b>guard our goal carefully</b>, <b>passed the ball wisely</b>."
+  },
+  {
+   "qid": "c9-01-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Yesterday the boys play noisily in the rain.",
+    "Yesterday the boys played noisily in the rain.",
+    "Yesterday the boys played noisy in the rain."
+   ],
+   "answer": 1,
+   "rule": "<b>Yesterday</b> needs the past (<b>played</b>), and <b>noisily</b> is the adverb telling how they played."
+  },
+  {
+   "qid": "c9-01-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although each of the girls were tired, they finished the trek.",
+    "Although each of the girls was tired, they finished the trek.",
+    "Despite each of the girls was tired, they finished the trek."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of</b> takes a singular verb (<b>was</b>). <b>Although</b>, not <b>despite</b>, introduces a clause."
+  },
+  {
+   "qid": "c9-01-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "of",
+    "the",
+    "brothers",
+    "was",
+    "afraid,",
+    "though",
+    "the",
+    "waves",
+    "rose",
+    "dangerous",
+    "high."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "danger",
+      "endangered",
+      "dangerously"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A word describing an adjective (<b>high</b>) must be an adverb: <b>dangerously high</b>."
+  },
+  {
+   "qid": "c9-01-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the rain stopped",
+   "after": "the children ran outside.",
+   "options": [
+    "when",
+    "than",
+    "then"
+   ],
+   "answer": 0,
+   "rule": "The pair is <b>hardly ... when</b>. (<b>No sooner</b> goes with <b>than</b>.)"
+  },
+  {
+   "qid": "c9-01-35",
+   "type": "build",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Make a sentence with 'unless'.",
+   "answer": [
+    "Unless",
+    "we",
+    "leave",
+    "now,",
+    "Grandpa",
+    "will",
+    "miss",
+    "his",
+    "train."
+   ],
+   "alts": [],
+   "rule": "<b>Unless</b> means 'if not'. It takes the simple present (<b>we leave</b>), and the main clause uses <b>will</b>."
+  },
+  {
+   "qid": "c9-01-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Have you finished your homework?"
+    ]
+   ],
+   "options": [
+    "Not yet, but I will finished it quickly after dinner.",
+    "Not yet, but I will finish it quickly after dinner.",
+    "Not yet, but I finishing it quickly after dinner."
+   ],
+   "answer": 1,
+   "rule": "Use <b>will + base verb</b> for a future plan: <b>I will finish it quickly</b>. <b>Quickly</b> tells how."
+  },
+  {
+   "qid": "c9-01-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Shall we play outside?"
+    ]
+   ],
+   "options": [
+    "We can't, as it is raining heavy. Let's play chess instead.",
+    "We can't, as it is raining heavily. Let's play chess instead.",
+    "We can't, as it raining heavily. Let's play chess instead."
+   ],
+   "answer": 1,
+   "rule": "Present continuous needs <b>is</b>: <b>it is raining</b>. The adverb <b>heavily</b> tells how it is raining."
+  },
+  {
+   "qid": "c9-01-38",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you do not water the roses, they will not bloom.",
+   "options": [
+    "Unless you water the roses, they will not bloom.",
+    "Unless you do not water the roses, they will not bloom.",
+    "Unless you water the roses, they will bloom."
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> already means 'if not', so drop <b>do not</b> from the if-clause and keep the main clause the same."
+  },
+  {
+   "qid": "c9-01-39",
+   "type": "change",
+   "level": 4,
+   "topic": "linking",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although the hike was difficult, the friends kept going.",
+   "options": [
+    "Despite the hike was difficult, the friends kept going.",
+    "Despite of the difficult hike, the friends kept going.",
+    "Despite the difficult hike, the friends kept going."
+   ],
+   "answer": 2,
+   "rule": "<b>Despite</b> takes a noun phrase (<b>the difficult hike</b>) and is never followed by <b>of</b>."
+  },
+  {
+   "qid": "c9-01-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "adverbs",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Last",
+    "Sunday,",
+    "Priya's",
+    "family",
+    "went",
+    "to",
+    "the",
+    "beach.",
+    "Despite",
+    "the",
+    "strong",
+    "wind,",
+    "they",
+    "enjoy",
+    "the",
+    "day.",
+    "Priya's",
+    "brother",
+    "held",
+    "her",
+    "hand",
+    "very",
+    "careful",
+    "in",
+    "the",
+    "waves."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "enjoying",
+      "enjoyment",
+      "enjoyed"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "carefully",
+      "care",
+      "cared"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is about <b>last Sunday</b>, so use the past: <b>enjoyed</b>. <b>Held her hand</b> needs the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c9-01-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct conditional sentence.",
+   "options": [
+    "Had I known about the storm, I would stay at home yesterday.",
+    "Had I knew about the storm, I would have stayed at home.",
+    "Had I known about the storm, I would have stayed at home."
+   ],
+   "answer": 2,
+   "rule": "<b>Had I known</b> = If I had known (type 3). The main clause needs <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c9-01-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "linking",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "clouds",
+    "cleared",
+    "when",
+    "the",
+    "sun",
+    "shone",
+    "brightly",
+    "over",
+    "the",
+    "hills."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "then",
+      "than",
+      "that"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>No sooner</b> is always paired with <b>than</b>: No sooner had ... <b>than</b> ..."
+  },
+  {
+   "qid": "c9-01-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If the shower had not come, the roses",
+   "after": "so beautifully.",
+   "options": [
+    "will not bloom",
+    "had not bloomed",
+    "would not have bloomed"
+   ],
+   "answer": 2,
+   "rule": "Type 3: <b>if + had not come</b>, then <b>would not have bloomed</b> for an unreal past result."
+  },
+  {
+   "qid": "c9-01-44",
+   "type": "build",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Make a sentence starting with 'Had'.",
+   "answer": [
+    "Had",
+    "you",
+    "told",
+    "me",
+    "earlier,",
+    "I",
+    "would",
+    "have",
+    "helped."
+   ],
+   "alts": [],
+   "rule": "<b>Had you told me</b> = If you had told me. Then <b>I would have helped</b> (type 3)."
+  },
+  {
+   "qid": "c9-01-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Why didn't Arjun come to the match?"
+    ]
+   ],
+   "options": [
+    "He will have come if he had not been ill.",
+    "He would have come if he had not been ill.",
+    "He would have come if he has not been ill."
+   ],
+   "answer": 1,
+   "rule": "For an unreal past, pair <b>would have come</b> with <b>if he had not been</b> (type 3)."
+  },
+  {
+   "qid": "c9-01-46",
+   "type": "change",
+   "level": 5,
+   "topic": "linking",
+   "prompt": "Begin with 'No sooner'.",
+   "source": "As soon as the sun came out, the children ran outside.",
+   "options": [
+    "No sooner did the sun come out than the children ran outside.",
+    "No sooner did the sun came out than the children ran outside.",
+    "No sooner did the sun come out when the children ran outside."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner did + subject + base verb ... than</b>. After <b>did</b> use <b>come</b>, and pair it with <b>than</b>."
+  },
+  {
+   "qid": "c9-01-47",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Change into a negative sentence without changing the meaning.",
+   "source": "Hope always rises again.",
+   "options": [
+    "Hope does not always rise again.",
+    "Hope never fails to rise again.",
+    "Hope never fail to rise again."
+   ],
+   "answer": 1,
+   "rule": "<b>always rises</b> = <b>never fails to rise</b>. Singular <b>Hope</b> takes <b>fails</b>."
+  },
+  {
+   "qid": "c9-01-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "storm",
+    "destroyed",
+    "our",
+    "tent,",
+    "but",
+    "we",
+    "did",
+    "not",
+    "lose",
+    "hope.",
+    "Father",
+    "cut",
+    "bamboo",
+    "tireless",
+    "all",
+    "week,",
+    "and",
+    "the",
+    "boys",
+    "helped",
+    "he",
+    "cheerfully.",
+    "If",
+    "we",
+    "had",
+    "given",
+    "up,",
+    "we",
+    "would",
+    "never",
+    "have",
+    "build",
+    "this",
+    "new",
+    "shelter."
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "tiring",
+      "tirelessly",
+      "tire"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "him",
+      "his",
+      "they"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 32,
+     "options": [
+      "building",
+      "builds",
+      "built"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>cut bamboo tirelessly</b> (adverb); <b>helped him</b> (object pronoun); <b>would never have built</b> (past participle)."
+  },
+  {
+   "qid": "c9-01-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "I",
+    "am",
+    "only",
+    "a",
+    "boy,",
+    "but",
+    "if",
+    "I",
+    "were",
+    "a",
+    "bird,",
+    "I",
+    "will",
+    "fly",
+    "over",
+    "the",
+    "green",
+    "hills",
+    "every",
+    "morning.",
+    "My",
+    "friends",
+    "and",
+    "I",
+    "enjoys",
+    "every",
+    "sunny",
+    "hour",
+    "together."
+   ],
+   "errors": [
+    {
+     "i": 12,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "enjoying",
+      "enjoyment",
+      "enjoy"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>If I were</b> (imagined) pairs with <b>would fly</b>. With the plural subject <b>My friends and I</b>, the verb has no -s: <b>enjoy</b>."
+  },
+  {
+   "qid": "c9-01-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Who",
+    "does",
+    "not",
+    "loves",
+    "the",
+    "rain?",
+    "It",
+    "makes",
+    "the",
+    "roses",
+    "bloom",
+    "in",
+    "June.",
+    "However,",
+    "too",
+    "much",
+    "rain",
+    "spoil",
+    "the",
+    "crops,",
+    "and",
+    "every",
+    "farmer",
+    "worry",
+    "about",
+    "the",
+    "losses."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "love",
+      "loved",
+      "loving"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "spoiling",
+      "spoilage",
+      "spoils"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "worries",
+      "worrying",
+      "worrier"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>does not</b> use the base verb <b>love</b>; <b>too much rain spoils</b> and <b>every farmer worries</b> take singular verbs."
+  }
+ ]
+}

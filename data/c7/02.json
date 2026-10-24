@@ -1,0 +1,982 @@
+{
+ "class": 7,
+ "id": "02",
+ "title": "Odd One In",
+ "topics": [
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner ending in -ly"
+  },
+  {
+   "tag": "nouns",
+   "name": "Common and proper nouns"
+  },
+  {
+   "tag": "relative",
+   "name": "Relative pronouns who, which, whose"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  },
+  {
+   "tag": "neg_question",
+   "name": "Negative and question forms"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-02-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Malti sang beautiful.",
+    "Malti sang beautifully.",
+    "Malti sung beautifully."
+   ],
+   "answer": 1,
+   "rule": "An adverb tells <b>how</b> someone does something: she sang <b>beautifully</b>."
+  },
+  {
+   "qid": "c7-02-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We visited Nashik last year.",
+    "We visited the Nashik last year.",
+    "We visited a Nashik last year."
+   ],
+   "answer": 0,
+   "rule": "A city name is a proper noun: it starts with a capital and takes no <b>a</b> or <b>the</b>: <b>Nashik</b>."
+  },
+  {
+   "qid": "c7-02-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Malti",
+    "raised",
+    "her",
+    "hand",
+    "quick",
+    "when",
+    "Teacher",
+    "asked."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "quickly",
+      "quickness",
+      "quicken"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say <b>how</b> she raised her hand, use the adverb <b>quickly</b>."
+  },
+  {
+   "qid": "c7-02-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Shahnaz",
+    "is",
+    "the",
+    "girl",
+    "which",
+    "giggled",
+    "in",
+    "class."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "who",
+      "whose",
+      "whom"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Use <b>who</b> for people and <b>which</b> for things: the girl <b>who</b> giggled."
+  },
+  {
+   "qid": "c7-02-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Malti spoke",
+   "after": "to her teacher.",
+   "options": [
+    "polite",
+    "politeness",
+    "politely"
+   ],
+   "answer": 2,
+   "rule": "The gap tells <b>how</b> she spoke, so use the adverb <b>politely</b>."
+  },
+  {
+   "qid": "c7-02-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Our school trip went to",
+   "after": "last week.",
+   "options": [
+    "the Lonavala",
+    "Lonavala",
+    "a Lonavala"
+   ],
+   "answer": 1,
+   "rule": "A town name is a proper noun, so it needs no <b>a</b> or <b>the</b>: <b>Lonavala</b>."
+  },
+  {
+   "qid": "c7-02-07",
+   "type": "build",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Make a sentence with an adverb.",
+   "answer": [
+    "Malti",
+    "sang",
+    "the",
+    "song",
+    "beautifully."
+   ],
+   "alts": [],
+   "rule": "An adverb of manner usually comes after the verb and its object: sang the song <b>beautifully</b>."
+  },
+  {
+   "qid": "c7-02-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "How did Malti sing?"
+    ]
+   ],
+   "options": [
+    "She sang very sweetly.",
+    "She sang very sweet.",
+    "She singed very sweetly."
+   ],
+   "answer": 0,
+   "rule": "<b>How</b> asks for an adverb: <b>sweetly</b>. The past of sing is <b>sang</b>."
+  },
+  {
+   "qid": "c7-02-09",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Malti said, \"I like maths.\"",
+   "options": [
+    "Malti said that I liked maths.",
+    "Malti said that she like maths.",
+    "Malti said that she liked maths."
+   ],
+   "answer": 2,
+   "rule": "In reported speech, <b>I</b> becomes <b>she</b> and the present <b>like</b> becomes past <b>liked</b>."
+  },
+  {
+   "qid": "c7-02-10",
+   "type": "change",
+   "level": 1,
+   "topic": "neg_question",
+   "prompt": "Make it negative.",
+   "source": "Rima felt happy.",
+   "options": [
+    "Rima did not felt happy.",
+    "Rima did not feel happy.",
+    "Rima not felt happy."
+   ],
+   "answer": 1,
+   "rule": "Simple past negative: <b>did not</b> + base verb: <b>did not feel</b>."
+  },
+  {
+   "qid": "c7-02-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Malti is the girl which won the first prize.",
+    "Malti is the girl whose won the first prize.",
+    "Malti is the girl who won the first prize."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> is used for people: the girl <b>who</b> won."
+  },
+  {
+   "qid": "c7-02-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rima said that she were tired.",
+    "Rima said that she was tired.",
+    "Rima said that her was tired."
+   ],
+   "answer": 1,
+   "rule": "In reported speech use the subject pronoun <b>she</b> with <b>was</b>: <b>she was tired</b>."
+  },
+  {
+   "qid": "c7-02-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Malti",
+    "told",
+    "Teacher",
+    "that",
+    "she",
+    "knowed",
+    "the",
+    "answer."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "known",
+      "knowing",
+      "knew"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The past of <b>know</b> is <b>knew</b>. Reported speech after <b>told</b> uses the past."
+  },
+  {
+   "qid": "c7-02-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Malti",
+    "and",
+    "Neha",
+    "are",
+    "good",
+    "friend",
+    "now."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "friends",
+      "friendly",
+      "friendship"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two girls are more than one, so the noun must be plural: <b>good friends</b>."
+  },
+  {
+   "qid": "c7-02-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "This is the school",
+   "after": "Malti joined this year.",
+   "options": [
+    "who",
+    "which",
+    "whose"
+   ],
+   "answer": 1,
+   "rule": "A school is a thing, so use <b>which</b>."
+  },
+  {
+   "qid": "c7-02-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Malti said that she",
+   "after": "from another state.",
+   "options": [
+    "had come",
+    "has came",
+    "come"
+   ],
+   "answer": 0,
+   "rule": "After <b>said</b>, \"I have come\" moves back to <b>had come</b>."
+  },
+  {
+   "qid": "c7-02-17",
+   "type": "build",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Make a sentence with 'who'.",
+   "answer": [
+    "Malti",
+    "is",
+    "a",
+    "girl",
+    "who",
+    "loves",
+    "maths."
+   ],
+   "alts": [],
+   "rule": "<b>who</b> joins extra information about a person: a girl <b>who loves</b> maths."
+  },
+  {
+   "qid": "c7-02-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Who is Malti?"
+    ]
+   ],
+   "options": [
+    "She is the new girl who sits next to me.",
+    "She is the new girl which sits next to me.",
+    "She is the new girl who sit next to me."
+   ],
+   "answer": 0,
+   "rule": "Use <b>who</b> for a person; <b>who</b> refers to one girl, so <b>sits</b>."
+  },
+  {
+   "qid": "c7-02-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where does your new friend live?"
+    ]
+   ],
+   "options": [
+    "She live in Kolhapur.",
+    "She lives in Kolhapur.",
+    "She lives in the Kolhapur."
+   ],
+   "answer": 1,
+   "rule": "<b>She</b> takes <b>lives</b>, and a city name (proper noun) takes no <b>the</b>: <b>in Kolhapur</b>."
+  },
+  {
+   "qid": "c7-02-20",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join using 'who'.",
+   "source": "Malti is a new girl. She comes from another state.",
+   "options": [
+    "Malti is a new girl who she comes from another state.",
+    "Malti is a new girl who comes from another state.",
+    "Malti is a new girl which comes from another state."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> replaces <b>she</b>, so do not repeat the pronoun: a new girl <b>who comes</b>."
+  },
+  {
+   "qid": "c7-02-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Clare giggled catty and Malti looked sad.",
+    "Clare giggled cattily and Malti looked sad.",
+    "Clare giggled cattily and Malti looked sadly."
+   ],
+   "answer": 1,
+   "rule": "An action verb takes an adverb (<b>giggled cattily</b>); <b>looked</b> meaning 'seemed' takes an adjective (<b>looked sad</b>)."
+  },
+  {
+   "qid": "c7-02-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My cousin is doctor in Nashik.",
+    "My cousin is a doctor in a Nashik.",
+    "My cousin is a doctor in Nashik."
+   ],
+   "answer": 2,
+   "rule": "A singular common noun needs <b>a</b> (<b>a doctor</b>); a proper noun like <b>Nashik</b> takes no article."
+  },
+  {
+   "qid": "c7-02-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Malti",
+    "helped",
+    "her",
+    "classmates",
+    "cheerful",
+    "with",
+    "their",
+    "sums."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "cheerfully",
+      "cheerfulness",
+      "cheered"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To describe <b>how</b> she helped, use the adverb <b>cheerfully</b>."
+  },
+  {
+   "qid": "c7-02-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "song",
+    "who",
+    "Malti",
+    "sang",
+    "was",
+    "an",
+    "old",
+    "Hindi",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A song is a thing, so use <b>which</b>, not <b>who</b>."
+  },
+  {
+   "qid": "c7-02-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Rima and her friends",
+   "after": "disliked the new girl.",
+   "options": [
+    "stubborn",
+    "stubbornly",
+    "stubbornness"
+   ],
+   "answer": 1,
+   "rule": "A word that describes the verb <b>disliked</b> must be an adverb: <b>stubbornly</b>."
+  },
+  {
+   "qid": "c7-02-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Malti is the girl",
+   "after": "singing won the first prize.",
+   "options": [
+    "whose",
+    "who",
+    "which"
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> shows belonging: the girl <b>whose</b> singing won."
+  },
+  {
+   "qid": "c7-02-27",
+   "type": "build",
+   "level": 3,
+   "topic": "nouns",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "My",
+    "uncle",
+    "works",
+    "at",
+    "Seva",
+    "Hospital."
+   ],
+   "alts": [],
+   "rule": "<b>Seva Hospital</b> is the name of a particular place, so both words take capitals."
+  },
+  {
+   "qid": "c7-02-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did Teacher say about Malti?"
+    ]
+   ],
+   "options": [
+    "She said that Malti was very bright.",
+    "She said that Malti very bright.",
+    "She said that Malti were very bright."
+   ],
+   "answer": 0,
+   "rule": "Reported speech after <b>said</b> moves to the past: <b>Malti was very bright</b>."
+  },
+  {
+   "qid": "c7-02-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Clare",
+     "Who runs faster, you or Shahnaz?"
+    ]
+   ],
+   "options": [
+    "Shahnaz runs fastest than I do.",
+    "Shahnaz run faster than I do.",
+    "Shahnaz runs faster than I do."
+   ],
+   "answer": 2,
+   "rule": "Comparing two people: <b>faster than</b>. <b>Shahnaz</b> takes <b>runs</b>."
+  },
+  {
+   "qid": "c7-02-30",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Rima said, \"My friends are angry with me.\"",
+   "options": [
+    "Rima said that her friends were angry with her.",
+    "Rima said that my friends were angry with me.",
+    "Rima said that her friends was angry with her."
+   ],
+   "answer": 0,
+   "rule": "<b>my/me</b> become <b>her</b>, and <b>are</b> becomes <b>were</b> (plural friends)."
+  },
+  {
+   "qid": "c7-02-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The prize, who Malti won, was a silver cup.",
+    "The prize, which Malti win, was a silver cup.",
+    "The prize, which Malti won, was a silver cup."
+   ],
+   "answer": 2,
+   "rule": "A prize is a thing: <b>which</b>. The event is past: <b>won</b>."
+  },
+  {
+   "qid": "c7-02-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Malti said that her English were weak.",
+    "Malti said that her English was weak.",
+    "Malti said that she English was weak."
+   ],
+   "answer": 1,
+   "rule": "Use the possessive <b>her</b> before a noun, and <b>English</b> is singular: <b>was weak</b>."
+  },
+  {
+   "qid": "c7-02-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rima",
+    "told",
+    "her",
+    "mother",
+    "that",
+    "her",
+    "had",
+    "no",
+    "lessons",
+    "that",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "hers",
+      "she",
+      "herself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject of <b>had</b> needs a subject pronoun: <b>she had</b>, not <b>her had</b>."
+  },
+  {
+   "qid": "c7-02-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Malti's",
+    "parents",
+    "is",
+    "very",
+    "proud",
+    "of",
+    "their",
+    "daughter."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "are",
+      "am",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>parents</b> is a plural noun, so the verb is <b>are</b>."
+  },
+  {
+   "qid": "c7-02-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "nouns",
+   "prompt": "Fill in the gap.",
+   "before": "Many",
+   "after": "in the class asked Malti for help in maths.",
+   "options": [
+    "children",
+    "childs",
+    "child"
+   ],
+   "answer": 0,
+   "rule": "<b>Many</b> needs a plural noun. The plural of <b>child</b> is <b>children</b>."
+  },
+  {
+   "qid": "c7-02-36",
+   "type": "build",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Make a reported speech sentence.",
+   "answer": [
+    "Neha",
+    "said",
+    "that",
+    "she",
+    "was",
+    "sorry."
+   ],
+   "alts": [],
+   "rule": "In reported speech, \"I am sorry\" becomes <b>she was sorry</b>: <b>Neha said that she was sorry.</b>"
+  },
+  {
+   "qid": "c7-02-37",
+   "type": "build",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Make a sentence with 'whose'.",
+   "answer": [
+    "Neha",
+    "is",
+    "the",
+    "friend",
+    "whose",
+    "bag",
+    "I",
+    "borrowed."
+   ],
+   "alts": [],
+   "rule": "<b>whose</b> + noun shows belonging: the friend <b>whose bag</b> I borrowed."
+  },
+  {
+   "qid": "c7-02-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Do you know Rahul?"
+    ]
+   ],
+   "options": [
+    "Yes, he is the boy who father has opened a bakery.",
+    "Yes, he is the boy whose father have opened a bakery.",
+    "Yes, he is the boy whose father has opened a bakery."
+   ],
+   "answer": 2,
+   "rule": "<b>whose father</b> shows belonging, and <b>father</b> is singular: <b>has opened</b>."
+  },
+  {
+   "qid": "c7-02-39",
+   "type": "change",
+   "level": 4,
+   "topic": "neg_question",
+   "prompt": "Make it negative without changing the meaning.",
+   "source": "Malti was always polite.",
+   "options": [
+    "Malti was not never rude.",
+    "Malti was never rude.",
+    "Malti was never polite."
+   ],
+   "answer": 1,
+   "rule": "Use the opposite word with <b>never</b>: always polite = <b>never rude</b>. Avoid a double negative."
+  },
+  {
+   "qid": "c7-02-40",
+   "type": "change",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Join using 'which'.",
+   "source": "Rima won a prize. It did not make her happy.",
+   "options": [
+    "Rima won a prize which it did not make her happy.",
+    "Rima won a prize who did not make her happy.",
+    "Rima won a prize which did not make her happy."
+   ],
+   "answer": 2,
+   "rule": "<b>which</b> replaces <b>it</b> (a thing), so drop <b>it</b>: a prize <b>which did not</b> ..."
+  },
+  {
+   "qid": "c7-02-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Of all the girls, Malti answered the most confident.",
+    "Of all the girls, Malti answered most confidentlier.",
+    "Of all the girls, Malti answered the most confidently."
+   ],
+   "answer": 2,
+   "rule": "<b>answered</b> needs an adverb; long adverbs compare with <b>most</b>: <b>the most confidently</b>."
+  },
+  {
+   "qid": "c7-02-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Malti is the new girl whose voice won everyone's heart.",
+    "Malti is the new girl who's voice won everyone's heart.",
+    "Malti is the new girl whom voice won everyone's heart."
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> shows belonging (her voice). <b>who's</b> means <b>who is</b>."
+  },
+  {
+   "qid": "c7-02-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "met",
+    "a",
+    "singer",
+    "who's",
+    "songs",
+    "are",
+    "famous",
+    "in",
+    "Assam."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "whom",
+      "which"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>whose songs</b> = the singer's songs. <b>who's</b> means <b>who is</b>, which does not fit."
+  },
+  {
+   "qid": "c7-02-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rima",
+    "mocked",
+    "Malti",
+    "merciless",
+    "and",
+    "her",
+    "own",
+    "friends",
+    "turned",
+    "against",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "mercy",
+      "mercilessly",
+      "merciful"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "To describe <b>how</b> she mocked, use the adverb <b>mercilessly</b>."
+  },
+  {
+   "qid": "c7-02-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Teacher said that Malti",
+   "after": "the best voice in the school.",
+   "options": [
+    "have",
+    "having",
+    "had"
+   ],
+   "answer": 2,
+   "rule": "Reported speech after <b>said</b> moves <b>has</b> back to <b>had</b>."
+  },
+  {
+   "qid": "c7-02-46",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make a reported speech sentence.",
+   "answer": [
+    "Teacher",
+    "said",
+    "that",
+    "the",
+    "class",
+    "had",
+    "done",
+    "well."
+   ],
+   "alts": [],
+   "rule": "\"The class has done well\" becomes <b>the class had done well</b> in reported speech."
+  },
+  {
+   "qid": "c7-02-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shahnaz",
+     "What did Rima say to Malti today?"
+    ]
+   ],
+   "options": [
+    "She said that she was sorry for being rude.",
+    "She said that she is sorry for be rude.",
+    "She said that she was sorry for been rude."
+   ],
+   "answer": 0,
+   "rule": "After a preposition like <b>for</b>, use the <b>-ing</b> form: <b>for being rude</b>."
+  },
+  {
+   "qid": "c7-02-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "How did the Inter-House competition go?"
+    ]
+   ],
+   "options": [
+    "It went real good. Malti won the first prize.",
+    "It went really well. Malti winned the first prize.",
+    "It went really well. Malti won the first prize."
+   ],
+   "answer": 2,
+   "rule": "<b>well</b> is the adverb of good: <b>went really well</b>. The past of win is <b>won</b>."
+  },
+  {
+   "qid": "c7-02-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Mr Sen said, \"I am getting tired of Rima's attitude.\"",
+   "options": [
+    "Mr Sen said that he was getting tired of Rima's attitude.",
+    "Mr Sen said that I was getting tired of Rima's attitude.",
+    "Mr Sen said that he is got tired of Rima's attitude."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b>, and <b>am getting</b> becomes <b>was getting</b>."
+  },
+  {
+   "qid": "c7-02-50",
+   "type": "change",
+   "level": 5,
+   "topic": "neg_question",
+   "prompt": "Change into a question.",
+   "source": "Malti helps her classmates with maths.",
+   "options": [
+    "Does Malti helps her classmates with maths?",
+    "Do Malti help her classmates with maths?",
+    "Does Malti help her classmates with maths?"
+   ],
+   "answer": 2,
+   "rule": "Use <b>Does</b> with a singular subject, then the base verb: <b>Does Malti help ...?</b>"
+  }
+ ]
+}

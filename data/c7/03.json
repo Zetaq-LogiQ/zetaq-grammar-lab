@@ -1,0 +1,980 @@
+{
+ "class": 7,
+ "id": "03",
+ "title": "In Time of Silver Rain",
+ "topics": [
+  {
+   "tag": "sva",
+   "name": "Subject-verb agreement"
+  },
+  {
+   "tag": "gerund_inf",
+   "name": "Gerund and infinitive"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice (simple present and past)"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-03-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The butterflies lift their wings.",
+    "The butterflies lifts their wings.",
+    "The butterflies lift its wings."
+   ],
+   "answer": 0,
+   "rule": "A plural subject takes a verb without -s and a plural pronoun: butterflies <b>lift their</b> wings."
+  },
+  {
+   "qid": "c7-03-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children love sing in the rain.",
+    "The children love to singing in the rain.",
+    "The children love singing in the rain."
+   ],
+   "answer": 2,
+   "rule": "After <b>love</b>, use the -ing form (<b>love singing</b>) or <b>to</b> + base verb (<b>love to sing</b>)."
+  },
+  {
+   "qid": "c7-03-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "new",
+    "trousers",
+    "is",
+    "wet",
+    "from",
+    "the",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Trousers</b> is always plural, so it takes <b>are</b>."
+  },
+  {
+   "qid": "c7-03-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meena",
+    "is",
+    "fond",
+    "of",
+    "jump",
+    "in",
+    "puddles."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "jumping",
+      "jumped",
+      "jumps"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the -ing form: <b>fond of jumping</b>."
+  },
+  {
+   "qid": "c7-03-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "The trees",
+   "after": "new leaves in spring.",
+   "options": [
+    "grows",
+    "grow",
+    "growing"
+   ],
+   "answer": 1,
+   "rule": "<b>The trees</b> is plural, so the simple present verb has no -s: <b>grow</b>."
+  },
+  {
+   "qid": "c7-03-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "It's a lovely day,",
+   "after": "it?",
+   "options": [
+    "wasn't",
+    "isn't",
+    "doesn't"
+   ],
+   "answer": 1,
+   "rule": "<b>It's</b> = <b>it is</b>, so the tag uses <b>is</b> in the negative: <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-03-07",
+   "type": "build",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "flowers",
+    "lift",
+    "their",
+    "heads."
+   ],
+   "alts": [],
+   "rule": "Plural subject <b>flowers</b> + plural verb <b>lift</b> + plural pronoun <b>their</b>."
+  },
+  {
+   "qid": "c7-03-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Asha",
+     "Is it still raining?"
+    ]
+   ],
+   "options": [
+    "Yes, it are raining heavily.",
+    "Yes, it is raining heavily.",
+    "Yes, it raining heavily."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes <b>is</b>: present continuous = <b>is raining</b>."
+  },
+  {
+   "qid": "c7-03-09",
+   "type": "change",
+   "level": 1,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Farmers grow rice.",
+   "options": [
+    "Rice was grown by farmers.",
+    "Rice is grow by farmers.",
+    "Rice is grown by farmers."
+   ],
+   "answer": 2,
+   "rule": "Simple present passive: <b>is/are</b> + past participle: <b>Rice is grown</b>."
+  },
+  {
+   "qid": "c7-03-10",
+   "type": "change",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Add the correct question tag.",
+   "source": "The flowers look fresh.",
+   "options": [
+    "The flowers look fresh, don't they?",
+    "The flowers look fresh, aren't they?",
+    "The flowers look fresh, doesn't it?"
+   ],
+   "answer": 0,
+   "rule": "<b>look</b> is a simple present verb with a plural subject, so the tag is <b>don't they?</b>"
+  },
+  {
+   "qid": "c7-03-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Green grass are seen everywhere after the rain.",
+    "Green grass is saw everywhere after the rain.",
+    "Green grass is seen everywhere after the rain."
+   ],
+   "answer": 2,
+   "rule": "<b>Grass</b> is uncountable, so <b>is</b>; the passive needs the past participle <b>seen</b>."
+  },
+  {
+   "qid": "c7-03-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It is raining, aren't it?",
+    "It is raining, doesn't it?",
+    "It is raining, isn't it?"
+   ],
+   "answer": 2,
+   "rule": "A positive sentence takes a negative tag with the same helper: <b>is ... isn't it?</b>"
+  },
+  {
+   "qid": "c7-03-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "plain",
+    "is",
+    "cover",
+    "with",
+    "green",
+    "grass."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "covering",
+      "covers",
+      "covered"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive = <b>is</b> + past participle: <b>is covered</b>."
+  },
+  {
+   "qid": "c7-03-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "is",
+    "coming",
+    "with",
+    "us,",
+    "doesn't",
+    "she?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "isn't",
+      "wasn't",
+      "aren't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The sentence uses <b>is</b>, so the tag must use <b>isn't</b>: <b>isn't she?</b>"
+  },
+  {
+   "qid": "c7-03-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "I love",
+   "after": "to the sound of rain.",
+   "options": [
+    "listen",
+    "listened",
+    "listening"
+   ],
+   "answer": 2,
+   "rule": "After <b>love</b> we can use the -ing form or <b>to</b> + verb. Here only <b>listening</b> fits: <b>love listening</b>."
+  },
+  {
+   "qid": "c7-03-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Rice",
+   "after": "in many parts of India during the monsoon.",
+   "options": [
+    "is grown",
+    "is grow",
+    "are grown"
+   ],
+   "answer": 0,
+   "rule": "<b>Rice</b> is singular: passive <b>is</b> + past participle <b>grown</b>."
+  },
+  {
+   "qid": "c7-03-17",
+   "type": "build",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Make a sentence with a gerund.",
+   "answer": [
+    "Swimming",
+    "is",
+    "my",
+    "favourite",
+    "sport."
+   ],
+   "alts": [],
+   "rule": "A gerund (-ing word) can be the subject of a sentence: <b>Swimming is</b> ..."
+  },
+  {
+   "qid": "c7-03-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What do you like doing in the rain?"
+    ]
+   ],
+   "options": [
+    "I like make paper boats.",
+    "I like making paper boats.",
+    "I like to making paper boats."
+   ],
+   "answer": 1,
+   "rule": "After <b>like</b>, use the -ing form: <b>like making</b>."
+  },
+  {
+   "qid": "c7-03-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Who painted this rainbow picture?"
+    ]
+   ],
+   "options": [
+    "It was painted by my sister.",
+    "It was paint by my sister.",
+    "It painted by my sister."
+   ],
+   "answer": 0,
+   "rule": "Simple past passive: <b>was</b> + past participle: <b>was painted</b>."
+  },
+  {
+   "qid": "c7-03-20",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The rain washed the streets.",
+   "options": [
+    "The streets are washed by the rain.",
+    "The streets were washed by the rain.",
+    "The streets was washed by the rain."
+   ],
+   "answer": 1,
+   "rule": "Past active <b>washed</b> becomes <b>were washed</b>; <b>streets</b> is plural."
+  },
+  {
+   "qid": "c7-03-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Pick the sentence with correct agreement.",
+   "options": [
+    "Each of the flowers lift its head.",
+    "Each of the flowers lifts its head.",
+    "Each of the flowers are lifting its head."
+   ],
+   "answer": 1,
+   "rule": "<b>Each of</b> is singular, so it takes a singular verb: <b>lifts</b>."
+  },
+  {
+   "qid": "c7-03-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "We went out for watch the rainbow.",
+    "We went out to watch the rainbow.",
+    "We went out to watching the rainbow."
+   ],
+   "answer": 1,
+   "rule": "To show purpose, use <b>to</b> + base verb: <b>to watch</b>."
+  },
+  {
+   "qid": "c7-03-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "flower",
+    "in",
+    "the",
+    "garden",
+    "lift",
+    "its",
+    "head",
+    "after",
+    "the",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "lifting",
+      "lifts",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every flower</b> is singular, so the verb takes -s: <b>lifts</b>."
+  },
+  {
+   "qid": "c7-03-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "boys",
+    "are",
+    "tired",
+    "of",
+    "carry",
+    "their",
+    "wet",
+    "bags",
+    "to",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "carried",
+      "carries",
+      "carrying"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After the preposition <b>of</b> in <b>tired of</b>, use the -ing form: <b>tired of carrying</b>."
+  },
+  {
+   "qid": "c7-03-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "The children were singing,",
+   "after": "they?",
+   "options": [
+    "weren't",
+    "didn't",
+    "aren't"
+   ],
+   "answer": 0,
+   "rule": "The helper is <b>were</b>, so the negative tag is <b>weren't they?</b>"
+  },
+  {
+   "qid": "c7-03-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Fill in the gap.",
+   "before": "One of my friends",
+   "after": "a red umbrella.",
+   "options": [
+    "have",
+    "has",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "The subject is <b>One</b> (singular), not friends, so use <b>has</b>."
+  },
+  {
+   "qid": "c7-03-27",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "New",
+    "leaves",
+    "are",
+    "seen",
+    "on",
+    "the",
+    "trees."
+   ],
+   "alts": [],
+   "rule": "Simple present passive: <b>are</b> + past participle: <b>are seen</b>."
+  },
+  {
+   "qid": "c7-03-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "You have finished your project, haven't you?"
+    ]
+   ],
+   "options": [
+    "Yes, I have. It is ready.",
+    "Yes, I has. It is ready.",
+    "Yes, I am. It is ready."
+   ],
+   "answer": 0,
+   "rule": "Answer a tag question with the same helper: <b>haven't you?</b> - <b>Yes, I have.</b>"
+  },
+  {
+   "qid": "c7-03-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "sva",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Where are your new boots?"
+    ]
+   ],
+   "options": [
+    "They is near the door.",
+    "It are near the door.",
+    "They are near the door."
+   ],
+   "answer": 2,
+   "rule": "<b>Boots</b> are plural, so use <b>They are</b>."
+  },
+  {
+   "qid": "c7-03-30",
+   "type": "change",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Rewrite using a gerund as the subject.",
+   "source": "It is fun to splash in puddles.",
+   "options": [
+    "Splashing in puddles is fun.",
+    "Splash in puddles is fun.",
+    "Splashing in puddles are fun."
+   ],
+   "answer": 0,
+   "rule": "A gerund subject (<b>Splashing</b>) is singular, so it takes <b>is</b>."
+  },
+  {
+   "qid": "c7-03-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The seeds was planted by the farmers last June.",
+    "The seeds were plant by the farmers last June.",
+    "The seeds were planted by the farmers last June."
+   ],
+   "answer": 2,
+   "rule": "Plural <b>seeds</b> + past passive: <b>were planted</b>."
+  },
+  {
+   "qid": "c7-03-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi swims well, isn't he?",
+    "Ravi swims well, doesn't he?",
+    "Ravi swims well, don't he?"
+   ],
+   "answer": 1,
+   "rule": "<b>swims</b> is simple present with he/she, so the tag is <b>doesn't he?</b>"
+  },
+  {
+   "qid": "c7-03-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "mango",
+    "trees",
+    "was",
+    "planted",
+    "by",
+    "my",
+    "grandfather."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "be",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>These trees</b> is plural, so the past passive is <b>were planted</b>."
+  },
+  {
+   "qid": "c7-03-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cattle",
+    "grazes",
+    "on",
+    "the",
+    "green",
+    "plain",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "grazing",
+      "grazer",
+      "graze"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Cattle</b> is always plural, so the verb has no -s: <b>graze</b>."
+  },
+  {
+   "qid": "c7-03-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "The poem",
+   "after": "by Langston Hughes.",
+   "options": [
+    "was written",
+    "was wrote",
+    "written"
+   ],
+   "answer": 0,
+   "rule": "Past passive: <b>was</b> + past participle <b>written</b>."
+  },
+  {
+   "qid": "c7-03-36",
+   "type": "build",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "like",
+    "the",
+    "rain,",
+    "don't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive simple present with <b>you</b> takes the tag <b>don't you?</b>"
+  },
+  {
+   "qid": "c7-03-37",
+   "type": "build",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "seeds",
+    "were",
+    "sown",
+    "in",
+    "June."
+   ],
+   "alts": [],
+   "rule": "Past passive: <b>were</b> + past participle <b>sown</b>."
+  },
+  {
+   "qid": "c7-03-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Which language is spoken in Kerala?"
+    ]
+   ],
+   "options": [
+    "Malayalam is speak there.",
+    "Malayalam are spoken there.",
+    "Malayalam is spoken there."
+   ],
+   "answer": 2,
+   "rule": "Present passive: <b>is</b> + past participle <b>spoken</b>."
+  },
+  {
+   "qid": "c7-03-39",
+   "type": "change",
+   "level": 4,
+   "topic": "sva",
+   "prompt": "Change into the plural.",
+   "source": "The bird sings its song.",
+   "options": [
+    "The birds sing their songs.",
+    "The birds sings their songs.",
+    "The birds sing its songs."
+   ],
+   "answer": 0,
+   "rule": "Plural subject: verb without -s (<b>sing</b>) and plural pronoun <b>their</b>."
+  },
+  {
+   "qid": "c7-03-40",
+   "type": "change",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The children painted a rainbow.",
+   "options": [
+    "A rainbow were painted by the children.",
+    "A rainbow is painted by the children.",
+    "A rainbow was painted by the children."
+   ],
+   "answer": 2,
+   "rule": "Past active <b>painted</b> becomes <b>was painted</b>; <b>a rainbow</b> is singular."
+  },
+  {
+   "qid": "c7-03-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sva",
+   "prompt": "Pick the sentence with correct agreement.",
+   "options": [
+    "The sound of the raindrops on the roof is very soothing.",
+    "The sound of the raindrops on the roof are very soothing.",
+    "The sounds of the raindrop on the roof is very soothing."
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>The sound</b> (singular), not raindrops, so use <b>is</b>."
+  },
+  {
+   "qid": "c7-03-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Walk in the rain without an umbrella is fun.",
+    "Walking in the rain without an umbrella is fun.",
+    "Walking in the rain without an umbrella are fun."
+   ],
+   "answer": 1,
+   "rule": "A gerund (<b>Walking</b>) can be the subject; it is singular, so <b>is</b>."
+  },
+  {
+   "qid": "c7-03-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "roadway",
+    "is",
+    "wash",
+    "clean",
+    "by",
+    "the",
+    "silver",
+    "rain",
+    "every",
+    "spring."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "washed",
+      "washing",
+      "washes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>is</b> + past participle: <b>is washed</b>."
+  },
+  {
+   "qid": "c7-03-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Instead",
+    "of",
+    "stay",
+    "indoors,",
+    "the",
+    "children",
+    "ran",
+    "out",
+    "to",
+    "dance",
+    "in",
+    "the",
+    "rain."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "stayed",
+      "staying",
+      "stays"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>instead of</b>, use the -ing form: <b>instead of staying</b>."
+  },
+  {
+   "qid": "c7-03-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "After the long summer, everyone was eager",
+   "after": "the first rain.",
+   "options": [
+    "to see",
+    "seeing",
+    "see"
+   ],
+   "answer": 0,
+   "rule": "<b>eager</b> is followed by <b>to</b> + base verb: <b>eager to see</b>."
+  },
+  {
+   "qid": "c7-03-46",
+   "type": "build",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Ravi",
+    "is",
+    "looking",
+    "forward",
+    "to",
+    "seeing",
+    "the",
+    "monsoon",
+    "rains."
+   ],
+   "alts": [],
+   "rule": "In <b>look forward to</b>, <b>to</b> is a preposition, so the -ing form follows: <b>to seeing</b>."
+  },
+  {
+   "qid": "c7-03-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Shall we go for a walk after the rain stops?"
+    ]
+   ],
+   "options": [
+    "Yes, I would love to. Walking on wet grass are fun.",
+    "Yes, I would love to. Walking on wet grass is fun.",
+    "Yes, I would love to. Walk on wet grass is fun."
+   ],
+   "answer": 1,
+   "rule": "Use the gerund <b>Walking</b> as the subject; it is singular, so <b>is fun</b>."
+  },
+  {
+   "qid": "c7-03-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandma",
+     "The rain has washed everything clean, hasn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it has. Even the leaves is shining.",
+    "Yes, it does. Even the leaves are shining.",
+    "Yes, it has. Even the leaves are shining."
+   ],
+   "answer": 2,
+   "rule": "Answer with the same helper (<b>Yes, it has</b>); plural <b>leaves</b> takes <b>are</b>."
+  },
+  {
+   "qid": "c7-03-49",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "The silver rain brings new life to the earth.",
+   "options": [
+    "New life is bringing to the earth by the silver rain.",
+    "New life is brought to the earth by the silver rain.",
+    "New life was brought to the earth by the silver rain."
+   ],
+   "answer": 1,
+   "rule": "Simple present <b>brings</b> becomes <b>is brought</b> (is + past participle)."
+  },
+  {
+   "qid": "c7-03-50",
+   "type": "change",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Add the correct question tag.",
+   "source": "The first rain came late this year.",
+   "options": [
+    "The first rain came late this year, did it?",
+    "The first rain came late this year, wasn't it?",
+    "The first rain came late this year, didn't it?"
+   ],
+   "answer": 2,
+   "rule": "Simple past positive (<b>came</b>) takes the negative tag <b>didn't it?</b>"
+  }
+ ]
+}

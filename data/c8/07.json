@@ -1,0 +1,1210 @@
+{
+ "class": 8,
+ "id": "07",
+ "title": "The Worm",
+ "topics": [
+  {
+   "tag": "imperative",
+   "name": "Imperatives and negative commands"
+  },
+  {
+   "tag": "pronoun",
+   "name": "Modern pronouns: you, your, yours, I, me"
+  },
+  {
+   "tag": "sv_agreement",
+   "name": "Subject-verb agreement in the simple present"
+  },
+  {
+   "tag": "prep_collocation",
+   "name": "Prepositions after adjectives and verbs"
+  },
+  {
+   "tag": "passive",
+   "name": "Passive voice"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-07-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Which sentence is a correct negative command?",
+   "options": [
+    "Do not crush that little worm.",
+    "Not crush that little worm.",
+    "Don't crushing that little worm."
+   ],
+   "answer": 0,
+   "rule": "A negative command is <b>Do not / Don't</b> + base verb: <b>Do not crush</b>."
+  },
+  {
+   "qid": "c8-07-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An earthworm live in moist soil.",
+    "An earthworm are living in moist soil.",
+    "An earthworm lives in moist soil."
+   ],
+   "answer": 2,
+   "rule": "A singular subject (<b>an earthworm</b>) takes a verb with <b>-s</b> in the simple present: <b>lives</b>."
+  },
+  {
+   "qid": "c8-07-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "pronoun",
+   "prompt": "Pick the sentence with the correct pronoun.",
+   "options": [
+    "This garden is yours, so please look after it.",
+    "This garden is your, so please look after it.",
+    "This garden is your's, so please look after it."
+   ],
+   "answer": 0,
+   "rule": "With no noun after it, use the possessive pronoun <b>yours</b>. It never takes an apostrophe."
+  },
+  {
+   "qid": "c8-07-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "prep_collocation",
+   "prompt": "Which sentence uses the correct preposition?",
+   "options": [
+    "Farmers depend at earthworms for rich soil.",
+    "Farmers depend on earthworms for rich soil.",
+    "Farmers depend to earthworms for rich soil."
+   ],
+   "answer": 1,
+   "rule": "The verb <b>depend</b> is followed by <b>on</b>: <b>depend on</b> someone."
+  },
+  {
+   "qid": "c8-07-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Which passive sentence is correct?",
+   "options": [
+    "The waste is turned into compost by the worms.",
+    "The waste is turn into compost by the worms.",
+    "The waste are turned into compost by the worms."
+   ],
+   "answer": 0,
+   "rule": "Passive = <b>is/are</b> + past participle. <b>Waste</b> is singular, so: <b>is turned</b>."
+  },
+  {
+   "qid": "c8-07-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the bees have a job in the hive.",
+    "Each of the bee has a job in the hive.",
+    "Each of the bees has a job in the hive."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of</b> + plural noun takes a singular verb: <b>Each of the bees has</b>."
+  },
+  {
+   "qid": "c8-07-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Don't step on the ants, are you?",
+    "Don't step on the ants, will you?",
+    "Don't step on the ants, do you?"
+   ],
+   "answer": 1,
+   "rule": "A negative command takes the tag <b>will you?</b>: Don't step on the ants, <b>will you?</b>"
+  },
+  {
+   "qid": "c8-07-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "sv_agreement",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the spider nor the ants harms the young plants.",
+    "Neither the spider nor the ants harm the young plants.",
+    "Neither the spider or the ants harm the young plants."
+   ],
+   "answer": 1,
+   "rule": "<b>Neither ... nor</b> go together, and the verb agrees with the nearer subject: <b>the ants harm</b>."
+  },
+  {
+   "qid": "c8-07-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Meera",
+    "feed",
+    "the",
+    "worms",
+    "in",
+    "her",
+    "compost",
+    "pit",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "feeding",
+      "feeder",
+      "feeds"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Meera</b> is one person, so the simple present verb takes <b>-s</b>: <b>feeds</b>."
+  },
+  {
+   "qid": "c8-07-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rohan,",
+    "please",
+    "turns",
+    "your",
+    "foot",
+    "aside",
+    "and",
+    "let",
+    "the",
+    "worm",
+    "pass."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "turning",
+      "turned",
+      "turn"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A command uses the base form of the verb: <b>please turn</b> ... and <b>let</b>."
+  },
+  {
+   "qid": "c8-07-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep_collocation",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "net",
+    "prevents",
+    "the",
+    "birds",
+    "from",
+    "eat",
+    "our",
+    "seeds."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "ate",
+      "eating",
+      "eaten"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Prevent ... from</b> is followed by the -ing form: <b>from eating</b>."
+  },
+  {
+   "qid": "c8-07-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "compost",
+    "pit",
+    "was",
+    "build",
+    "by",
+    "the",
+    "students",
+    "last",
+    "week."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "building",
+      "built",
+      "builds"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Passive = <b>was</b> + past participle: the pit <b>was built</b> by the students."
+  },
+  {
+   "qid": "c8-07-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "pronoun",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tanvi",
+    "and",
+    "me",
+    "planted",
+    "marigolds",
+    "near",
+    "the",
+    "worm",
+    "bin."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "myself",
+      "mine",
+      "I"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject of a verb takes the subject pronoun: <b>Tanvi and I</b> planted (you would say <b>I planted</b>)."
+  },
+  {
+   "qid": "c8-07-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Many",
+    "people",
+    "in",
+    "our",
+    "village",
+    "has",
+    "started",
+    "making",
+    "vermicompost",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "have",
+      "is",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>People</b> is plural, so the present perfect uses <b>have</b>: People <b>have started</b>."
+  },
+  {
+   "qid": "c8-07-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Plastic",
+    "bags",
+    "should",
+    "not",
+    "be",
+    "throw",
+    "into",
+    "the",
+    "compost",
+    "pit."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "thrown",
+      "threw",
+      "throwing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive with a modal = modal + <b>be</b> + past participle: <b>should not be thrown</b>."
+  },
+  {
+   "qid": "c8-07-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "prep_collocation",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandmother",
+    "always",
+    "insists",
+    "for",
+    "feeding",
+    "the",
+    "birds",
+    "before",
+    "she",
+    "eats",
+    "her",
+    "breakfast."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "at",
+      "on",
+      "to"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The verb <b>insist</b> takes <b>on</b>: she <b>insists on</b> feeding the birds."
+  },
+  {
+   "qid": "c8-07-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "crush that helpless worm!",
+   "options": [
+    "Doesn't",
+    "Not",
+    "Don't"
+   ],
+   "answer": 2,
+   "rule": "A negative command begins with <b>Don't</b> + base verb."
+  },
+  {
+   "qid": "c8-07-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "pronoun",
+   "prompt": "Fill in the gap.",
+   "before": "Is this watering can",
+   "after": "or mine?",
+   "options": [
+    "your",
+    "you",
+    "yours"
+   ],
+   "answer": 2,
+   "rule": "No noun follows, so use the possessive pronoun <b>yours</b>, just like <b>mine</b>."
+  },
+  {
+   "qid": "c8-07-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Fill in the gap.",
+   "before": "The queen bee and her workers",
+   "after": "together in the hive.",
+   "options": [
+    "live",
+    "lives",
+    "is living"
+   ],
+   "answer": 0,
+   "rule": "Two subjects joined by <b>and</b> make a plural subject: they <b>live</b>."
+  },
+  {
+   "qid": "c8-07-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "prep_collocation",
+   "prompt": "Fill in the gap.",
+   "before": "Ants are famous",
+   "after": "their hard work and discipline.",
+   "options": [
+    "for",
+    "of",
+    "with"
+   ],
+   "answer": 0,
+   "rule": "We say <b>famous for</b> something."
+  },
+  {
+   "qid": "c8-07-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Fill in the gap.",
+   "before": "Our school garden",
+   "after": "by the eco club every Saturday.",
+   "options": [
+    "waters",
+    "is watered",
+    "is watering"
+   ],
+   "answer": 1,
+   "rule": "The garden receives the action and <b>by the eco club</b> names the doer, so use the passive: <b>is watered</b>."
+  },
+  {
+   "qid": "c8-07-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperative",
+   "prompt": "Fill in the gap.",
+   "before": "Let the little creatures",
+   "after": "their simple lives.",
+   "options": [
+    "enjoy",
+    "to enjoy",
+    "enjoying"
+   ],
+   "answer": 0,
+   "rule": "<b>Let</b> + object + base verb (no <b>to</b>): <b>Let</b> them <b>enjoy</b>."
+  },
+  {
+   "qid": "c8-07-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "pronoun",
+   "prompt": "Fill in the gap.",
+   "before": "The bees in this hive work hard; the honey on our table is",
+   "after": ".",
+   "options": [
+    "their",
+    "them",
+    "theirs"
+   ],
+   "answer": 2,
+   "rule": "At the end, with no noun after it, use the possessive pronoun <b>theirs</b>."
+  },
+  {
+   "qid": "c8-07-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "prep_collocation",
+   "prompt": "Fill in the gap.",
+   "before": "Rather than complaining",
+   "after": "the spiders in the corner, Aunt Leela thanked them for catching the mosquitoes.",
+   "options": [
+    "about",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "We <b>complain about</b> something and <b>thank</b> someone <b>for</b> something."
+  },
+  {
+   "qid": "c8-07-25",
+   "type": "build",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Make a negative command.",
+   "answer": [
+    "Do",
+    "not",
+    "crush",
+    "the",
+    "worm."
+   ],
+   "alts": [],
+   "rule": "A negative command: <b>Do not</b> + base verb + object."
+  },
+  {
+   "qid": "c8-07-26",
+   "type": "build",
+   "level": 2,
+   "topic": "pronoun",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "This",
+    "notebook",
+    "is",
+    "not",
+    "yours."
+   ],
+   "alts": [],
+   "rule": "<b>yours</b> stands alone at the end; <b>not</b> comes after <b>is</b>."
+  },
+  {
+   "qid": "c8-07-27",
+   "type": "build",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "honey",
+    "was",
+    "collected",
+    "by",
+    "the",
+    "beekeeper."
+   ],
+   "alts": [],
+   "rule": "Passive: object first, then <b>was</b> + past participle + <b>by</b> + doer."
+  },
+  {
+   "qid": "c8-07-28",
+   "type": "build",
+   "level": 4,
+   "topic": "sv_agreement",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "Neither",
+    "of",
+    "my",
+    "brothers",
+    "likes",
+    "spiders."
+   ],
+   "alts": [],
+   "rule": "<b>Neither of</b> + plural noun takes a singular verb: <b>likes</b>."
+  },
+  {
+   "qid": "c8-07-29",
+   "type": "build",
+   "level": 5,
+   "topic": "prep_collocation",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "We",
+    "should",
+    "be",
+    "grateful",
+    "to",
+    "bees",
+    "for",
+    "their",
+    "hard",
+    "work."
+   ],
+   "alts": [],
+   "rule": "<b>grateful to</b> a person or creature, <b>for</b> what they do."
+  },
+  {
+   "qid": "c8-07-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Riya, there is a worm on the path."
+    ]
+   ],
+   "options": [
+    "Oh! Let's not stepping on it.",
+    "Oh! Let's not step on it.",
+    "Oh! Let us not to step on it."
+   ],
+   "answer": 1,
+   "rule": "<b>Let's not</b> + base verb: <b>Let's not step</b> on it."
+  },
+  {
+   "qid": "c8-07-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronoun",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Is this green umbrella yours?"
+    ]
+   ],
+   "options": [
+    "No, it is not mine. It is hers.",
+    "No, it is not my. It is hers.",
+    "No, it is not mine. It is her's."
+   ],
+   "answer": 0,
+   "rule": "Without a noun after them, use <b>mine</b> and <b>hers</b>. <b>hers</b> has no apostrophe."
+  },
+  {
+   "qid": "c8-07-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What does an earthworm eat?"
+    ]
+   ],
+   "options": [
+    "It eat dead leaves and soil.",
+    "It eating dead leaves and soil.",
+    "It eats dead leaves and soil."
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes a verb with <b>-s</b> in the simple present: <b>It eats</b>."
+  },
+  {
+   "qid": "c8-07-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Who made this compost?"
+    ]
+   ],
+   "options": [
+    "It was make by our eco club.",
+    "It was made by our eco club.",
+    "It made by our eco club."
+   ],
+   "answer": 1,
+   "rule": "Passive = <b>was</b> + past participle: It <b>was made</b> by our eco club."
+  },
+  {
+   "qid": "c8-07-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "prep_collocation",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Are you scared of bees?"
+    ]
+   ],
+   "options": [
+    "No, I am not scared from them. I like them.",
+    "No, I am not scared of them. I like them.",
+    "No, I am not scared at them. I like them."
+   ],
+   "answer": 1,
+   "rule": "We say <b>scared of</b> something."
+  },
+  {
+   "qid": "c8-07-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "My little brother keeps poking the ants with a stick."
+    ]
+   ],
+   "options": [
+    "Tell him leave them alone.",
+    "Tell to him to leave them alone.",
+    "Tell him to leave them alone."
+   ],
+   "answer": 2,
+   "rule": "<b>Tell</b> + person + <b>to</b> + verb: <b>Tell him to leave</b> them alone."
+  },
+  {
+   "qid": "c8-07-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did the bees sting anyone at the picnic?"
+    ]
+   ],
+   "options": [
+    "No, nobody was stung.",
+    "No, nobody were stung.",
+    "No, nobody was stinged."
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> is singular, and the past participle of sting is <b>stung</b>: nobody <b>was stung</b>."
+  },
+  {
+   "qid": "c8-07-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "pronoun",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who planted these sunflowers, Meera?"
+    ]
+   ],
+   "options": [
+    "Arjun and me did, ma'am. The idea was his, but the work was ours.",
+    "Arjun and I did, ma'am. The idea was him, but the work was our.",
+    "Arjun and I did, ma'am. The idea was his, but the work was ours."
+   ],
+   "answer": 2,
+   "rule": "Subject: <b>Arjun and I</b>. With no noun after them, use <b>his</b> and <b>ours</b>."
+  },
+  {
+   "qid": "c8-07-38",
+   "type": "change",
+   "level": 1,
+   "topic": "imperative",
+   "prompt": "Change into a negative command.",
+   "source": "Disturb the bees.",
+   "options": [
+    "Don't disturbing the bees.",
+    "Do not disturb the bees.",
+    "Not disturb the bees."
+   ],
+   "answer": 1,
+   "rule": "Add <b>Do not</b> before the base verb: <b>Do not disturb</b> the bees."
+  },
+  {
+   "qid": "c8-07-39",
+   "type": "change",
+   "level": 2,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Worms loosen the soil.",
+   "options": [
+    "The soil was loosened by worms.",
+    "The soil is loosened by worms.",
+    "The soil is loosen by worms."
+   ],
+   "answer": 1,
+   "rule": "Simple present passive = <b>is/are</b> + past participle: <b>is loosened</b>. The tense stays present."
+  },
+  {
+   "qid": "c8-07-40",
+   "type": "change",
+   "level": 2,
+   "topic": "sv_agreement",
+   "prompt": "Change the subject to 'Ants' and rewrite the sentence.",
+   "source": "An ant carries food to its nest.",
+   "options": [
+    "Ants carries food to their nest.",
+    "Ants carry food to their nest.",
+    "Ants carry food to its nest."
+   ],
+   "answer": 1,
+   "rule": "A plural subject takes the base verb (<b>carry</b>) and the plural pronoun <b>their</b>."
+  },
+  {
+   "qid": "c8-07-41",
+   "type": "change",
+   "level": 3,
+   "topic": "prep_collocation",
+   "prompt": "Rewrite using 'fond of'.",
+   "source": "Riya loves watching butterflies.",
+   "options": [
+    "Riya is fond of watch butterflies.",
+    "Riya is fond to watching butterflies.",
+    "Riya is fond of watching butterflies."
+   ],
+   "answer": 2,
+   "rule": "<b>fond of</b> is followed by a noun or an -ing form: <b>fond of watching</b>."
+  },
+  {
+   "qid": "c8-07-42",
+   "type": "change",
+   "level": 4,
+   "topic": "imperative",
+   "prompt": "Change into indirect speech.",
+   "source": "Mother said to me, \"Don't crush the ants.\"",
+   "options": [
+    "Mother told me not to crush the ants.",
+    "Mother told me that not to crush the ants.",
+    "Mother told me don't crush the ants."
+   ],
+   "answer": 0,
+   "rule": "A negative command becomes <b>told</b> + person + <b>not to</b> + verb."
+  },
+  {
+   "qid": "c8-07-43",
+   "type": "change",
+   "level": 4,
+   "topic": "pronoun",
+   "prompt": "Change into indirect speech.",
+   "source": "Kabir said, \"My garden has many earthworms.\"",
+   "options": [
+    "Kabir said that my garden had many earthworms.",
+    "Kabir said that his garden had many earthworms.",
+    "Kabir said that his garden have many earthworms."
+   ],
+   "answer": 1,
+   "rule": "<b>My</b> changes to <b>his</b> (Kabir's), and <b>has</b> moves back to <b>had</b>."
+  },
+  {
+   "qid": "c8-07-44",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "We must not kill harmless creatures.",
+   "options": [
+    "Harmless creatures must not be killed by us.",
+    "Harmless creatures must not be kill by us.",
+    "Harmless creatures must not killed by us."
+   ],
+   "answer": 0,
+   "rule": "Modal passive = modal + <b>be</b> + past participle: <b>must not be killed</b>."
+  },
+  {
+   "qid": "c8-07-45",
+   "type": "change",
+   "level": 5,
+   "topic": "passive",
+   "prompt": "Change into passive voice.",
+   "source": "Who planted these tulsi plants?",
+   "options": [
+    "By whom were these tulsi plants planted?",
+    "By whom was these tulsi plants planted?",
+    "By whom were these tulsi plants plant?"
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> becomes <b>By whom</b>; plural plants take <b>were</b> + past participle <b>planted</b>."
+  },
+  {
+   "qid": "c8-07-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "sv_agreement",
+   "prompt": "Find and fix the 2 errors in this note.",
+   "words": [
+    "Grandpa",
+    "keep",
+    "a",
+    "worm",
+    "bin",
+    "in",
+    "the",
+    "backyard.",
+    "Many",
+    "people",
+    "from",
+    "our",
+    "building",
+    "visits",
+    "his",
+    "garden",
+    "to",
+    "learn",
+    "vermicomposting."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "keeping",
+      "keeps",
+      "kept"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 13,
+     "options": [
+      "visiting",
+      "visitor",
+      "visit"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Grandpa</b> is one person: <b>keeps</b>. <b>People</b> is plural: <b>visit</b>."
+  },
+  {
+   "qid": "c8-07-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "passive",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "month",
+    "a",
+    "compost",
+    "pit",
+    "was",
+    "dig",
+    "by",
+    "the",
+    "students",
+    "of",
+    "Class",
+    "8.",
+    "The",
+    "kitchen",
+    "waste",
+    "was",
+    "cover",
+    "with",
+    "dry",
+    "leaves.",
+    "Ms",
+    "Rao",
+    "praised",
+    "the",
+    "work,",
+    "and",
+    "Tanvi",
+    "and",
+    "me",
+    "felt",
+    "very",
+    "proud."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "digged",
+      "digging",
+      "dug"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "covered",
+      "covering",
+      "covers"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 29,
+     "options": [
+      "myself",
+      "mine",
+      "I"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>was dug</b>, <b>was covered</b>. As a subject, say <b>Tanvi and I</b>."
+  },
+  {
+   "qid": "c8-07-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "prep_collocation",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Riya",
+    "has",
+    "a",
+    "keen",
+    "interest",
+    "at",
+    "beekeeping.",
+    "She",
+    "has",
+    "kept",
+    "bees",
+    "since",
+    "two",
+    "years,",
+    "and",
+    "she",
+    "says",
+    "that",
+    "many",
+    "flowers",
+    "depend",
+    "at",
+    "bees",
+    "for",
+    "pollination."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "in",
+      "on",
+      "for"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 11,
+     "options": [
+      "from",
+      "for",
+      "during"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 21,
+     "options": [
+      "with",
+      "to",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>interest in</b>, <b>for</b> + a period of time (two years), <b>depend on</b>."
+  },
+  {
+   "qid": "c8-07-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "imperative",
+   "prompt": "Find and fix the 3 errors in this notice.",
+   "words": [
+    "Dear",
+    "students,",
+    "please",
+    "don't",
+    "threw",
+    "plastic",
+    "in",
+    "the",
+    "school",
+    "garden,",
+    "and",
+    "never",
+    "forgets",
+    "to",
+    "put",
+    "fruit",
+    "peels",
+    "in",
+    "the",
+    "green",
+    "bin.",
+    "Let",
+    "the",
+    "worms",
+    "does",
+    "their",
+    "work!"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "thrown",
+      "throwing",
+      "throw"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 12,
+     "options": [
+      "forgot",
+      "forget",
+      "forgetting"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 24,
+     "options": [
+      "doing",
+      "do",
+      "did"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Commands use the base verb: <b>don't throw</b>, <b>never forget</b>. After <b>let</b> + object, use the base verb: <b>do</b>."
+  },
+  {
+   "qid": "c8-07-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "pronoun",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Our",
+    "teacher",
+    "gave",
+    "Meera",
+    "and",
+    "I",
+    "a",
+    "small",
+    "garden",
+    "behind",
+    "the",
+    "library.",
+    "Every",
+    "rose",
+    "in",
+    "it",
+    "was",
+    "plant",
+    "by",
+    "us,",
+    "and",
+    "hers",
+    "favourite",
+    "flower",
+    "is",
+    "the",
+    "yellow",
+    "rose",
+    "near",
+    "the",
+    "gate."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "my",
+      "mine",
+      "me"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "planting",
+      "plants",
+      "planted"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 21,
+     "options": [
+      "her",
+      "she",
+      "herself"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Object of <b>gave</b>: <b>Meera and me</b>. Passive: <b>was planted</b>. Before a noun use <b>her</b>: her favourite flower."
+  }
+ ]
+}

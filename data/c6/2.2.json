@@ -1,0 +1,1017 @@
+{
+ "class": 6,
+ "id": "2.2",
+ "title": "The Midnight Stitch",
+ "topics": [
+  {
+   "tag": "past_cont",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "conj",
+   "name": "Conjunctions so / when / while / although"
+  },
+  {
+   "tag": "possessive",
+   "name": "Possessive 's and s'"
+  },
+  {
+   "tag": "offers",
+   "name": "Polite offers and requests"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-2.2-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_cont",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Denu and Dhania was making shoes.",
+    "Denu and Dhania were making shoes.",
+    "Denu and Dhania were make shoes."
+   ],
+   "answer": 1,
+   "rule": "Past continuous = <b>was/were + -ing</b>. Two people (Denu and Dhania) take <b>were</b>: <b>were making</b>."
+  },
+  {
+   "qid": "c6-2.2-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "Pick the sentence with the correct possessive.",
+   "options": [
+    "The cobbler's tools were very old.",
+    "The cobblers tools were very old.",
+    "The cobbler's tool were very old."
+   ],
+   "answer": 0,
+   "rule": "The tools belong to one cobbler, so add <b>'s</b>: <b>the cobbler's tools</b>. Plural <b>tools</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c6-2.2-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "offers",
+   "prompt": "Pick the correct polite offer.",
+   "options": [
+    "Shall I carry your bag, Grandma?",
+    "Shall I carries your bag, Grandma?",
+    "Shall me carry your bag, Grandma?"
+   ],
+   "answer": 0,
+   "rule": "Offer help with <b>Shall I + base verb</b>: <b>Shall I carry</b>. The subject is <b>I</b>, not <b>me</b>."
+  },
+  {
+   "qid": "c6-2.2-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_cont",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "fairies",
+    "were",
+    "sing",
+    "and",
+    "dancing",
+    "all",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sang",
+      "singing",
+      "sings"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>were</b> we need the <b>-ing</b> form, just like <b>dancing</b>: <b>were singing and dancing</b>."
+  },
+  {
+   "qid": "c6-2.2-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Riya",
+    "borrowed",
+    "her",
+    "friend",
+    "bat",
+    "for",
+    "the",
+    "match."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "friends",
+      "friend's",
+      "befriend"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The bat belongs to her friend, so use the possessive <b>friend's</b>: <b>her friend's bat</b>."
+  },
+  {
+   "qid": "c6-2.2-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "past_cont",
+   "prompt": "Fill in the gap.",
+   "before": "Dhania",
+   "after": "clothes when Denu came in.",
+   "options": [
+    "was sewing",
+    "were sewing",
+    "is sewing"
+   ],
+   "answer": 0,
+   "rule": "An action in progress in the past uses <b>was/were + -ing</b>. One person (Dhania) takes <b>was</b>: <b>was sewing</b>."
+  },
+  {
+   "qid": "c6-2.2-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "conj",
+   "prompt": "Choose the correct joining word.",
+   "before": "We wanted to know who made the shoes,",
+   "after": "we hid behind the door.",
+   "options": [
+    "but",
+    "or",
+    "so"
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> joins a reason to its result: we wanted to know, <b>so</b> we hid."
+  },
+  {
+   "qid": "c6-2.2-08",
+   "type": "build",
+   "level": 1,
+   "topic": "offers",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Shall",
+    "I",
+    "help",
+    "you",
+    "with",
+    "this?"
+   ],
+   "alts": [],
+   "rule": "A polite offer: <b>Shall I + base verb ...?</b> Shall I help you with this?"
+  },
+  {
+   "qid": "c6-2.2-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_cont",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What were you doing at eight last night?"
+    ]
+   ],
+   "options": [
+    "I were watching a cricket match with Dad.",
+    "I was watch a cricket match with Dad.",
+    "I was watching a cricket match with Dad."
+   ],
+   "answer": 2,
+   "rule": "Answer a past continuous question with <b>I was + -ing</b>: <b>I was watching</b>."
+  },
+  {
+   "qid": "c6-2.2-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "offers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt Meena",
+     "These bags are so heavy!"
+    ]
+   ],
+   "options": [
+    "Shall I takes one bag for you?",
+    "Shall I taking one bag for you?",
+    "Shall I take one bag for you?"
+   ],
+   "answer": 2,
+   "rule": "After <b>Shall I</b> use the base verb: <b>Shall I take ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Denu was sleep, the fairies came in.",
+    "While Denu was sleeping, the fairies came in.",
+    "While Denu were sleeping, the fairies came in."
+   ],
+   "answer": 1,
+   "rule": "<b>while</b> often goes with the past continuous: <b>While Denu was sleeping</b>, something else happened."
+  },
+  {
+   "qid": "c6-2.2-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Pick the sentence with the correct possessive.",
+   "options": [
+    "The fairies's clothes were bright and colourful.",
+    "The fairies' clothes was bright and colourful.",
+    "The fairies' clothes were bright and colourful."
+   ],
+   "answer": 2,
+   "rule": "For a plural noun ending in <b>s</b>, add only an apostrophe: <b>the fairies' clothes</b>. Plural clothes take <b>were</b>."
+  },
+  {
+   "qid": "c6-2.2-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "shoes",
+    "were",
+    "ready",
+    "although",
+    "the",
+    "fairies",
+    "worked",
+    "all",
+    "night."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "because",
+      "or",
+      "until"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The fairies' work is the reason the shoes were ready, so use <b>because</b>, not <b>although</b>."
+  },
+  {
+   "qid": "c6-2.2-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "past_cont",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "we",
+    "reached",
+    "the",
+    "ground,",
+    "it",
+    "were",
+    "raining",
+    "heavily."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "is",
+      "are",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>it</b> takes <b>was</b> in the past continuous: <b>it was raining</b>."
+  },
+  {
+   "qid": "c6-2.2-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "The",
+   "after": "section has new storybooks.",
+   "options": [
+    "childrens'",
+    "childs'",
+    "children's"
+   ],
+   "answer": 2,
+   "rule": "<b>children</b> is already plural without s, so add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c6-2.2-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "offers",
+   "prompt": "Make a polite request.",
+   "before": "",
+   "after": "you pass me the salt, please?",
+   "options": [
+    "Could",
+    "Shall",
+    "Are"
+   ],
+   "answer": 0,
+   "rule": "Ask someone politely with <b>Could you + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-17",
+   "type": "build",
+   "level": 2,
+   "topic": "past_cont",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Two",
+    "fairies",
+    "were",
+    "stitching",
+    "the",
+    "leather."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>were</b> + verb-<b>ing</b> + object: Two fairies were stitching the leather."
+  },
+  {
+   "qid": "c6-2.2-18",
+   "type": "build",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Denu",
+    "was",
+    "sleeping",
+    "while",
+    "the",
+    "fairies",
+    "worked."
+   ],
+   "alts": [],
+   "rule": "<b>while</b> joins two actions happening at the same time."
+  },
+  {
+   "qid": "c6-2.2-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Why did Denu work so late last night?"
+    ]
+   ],
+   "options": [
+    "He had many orders, so he work till midnight.",
+    "He had many orders, so he worked till midnight.",
+    "He had many orders, so he is worked till midnight."
+   ],
+   "answer": 1,
+   "rule": "Both parts are in the past: <b>He had many orders, so he worked</b> till midnight."
+  },
+  {
+   "qid": "c6-2.2-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Whose water bottle is this?"
+    ]
+   ],
+   "options": [
+    "It is Aryan's bottle, ma'am.",
+    "It is Aryans bottle, ma'am.",
+    "It is Aryan bottle, ma'am."
+   ],
+   "answer": 0,
+   "rule": "To show the owner, add <b>'s</b> to the name: <b>Aryan's bottle</b>."
+  },
+  {
+   "qid": "c6-2.2-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_cont",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "We was playing cricket when it started to rain.",
+    "We were playing cricket when it was start to rain.",
+    "We were playing cricket when it started to rain."
+   ],
+   "answer": 2,
+   "rule": "Longer action: <b>were playing</b>. Short action that interrupts it: simple past <b>started</b>."
+  },
+  {
+   "qid": "c6-2.2-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "conj",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although Denu was poor, he never stopped working.",
+    "Although Denu was poor, but he never stopped working.",
+    "Although Denu were poor, he never stopped working."
+   ],
+   "answer": 0,
+   "rule": "Use <b>although</b> OR <b>but</b>, never both in one sentence. Denu takes <b>was</b>."
+  },
+  {
+   "qid": "c6-2.2-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "offers",
+   "prompt": "Which polite request is correct?",
+   "options": [
+    "Could you please lending me your pencil?",
+    "Could you please lend I your pencil?",
+    "Could you please lend me your pencil?"
+   ],
+   "answer": 2,
+   "rule": "<b>Could you + base verb</b>: <b>lend</b>. After a verb use the object pronoun <b>me</b>."
+  },
+  {
+   "qid": "c6-2.2-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "possessive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "mens",
+    "shoes",
+    "are",
+    "on",
+    "the",
+    "top",
+    "shelf."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "man",
+      "men's",
+      "mans"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>men</b> is plural without s, so its possessive is <b>men's</b>."
+  },
+  {
+   "qid": "c6-2.2-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_cont",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "was",
+    "reading",
+    "a",
+    "storybook",
+    "while",
+    "my",
+    "sister",
+    "were",
+    "drawing."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "is",
+      "was",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>my sister</b> is one person, so use <b>was</b>: <b>my sister was drawing</b>."
+  },
+  {
+   "qid": "c6-2.2-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "conj",
+   "prompt": "Choose the correct joining word.",
+   "before": "",
+   "after": "the fairies were working, Denu and Dhania watched quietly.",
+   "options": [
+    "While",
+    "So",
+    "Or"
+   ],
+   "answer": 0,
+   "rule": "<b>While</b> shows two things happening at the same time."
+  },
+  {
+   "qid": "c6-2.2-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "offers",
+   "prompt": "Make a polite offer.",
+   "before": "It is very hot in here.",
+   "after": "I open the window?",
+   "options": [
+    "Am",
+    "Shall",
+    "Was"
+   ],
+   "answer": 1,
+   "rule": "Offer to do something with <b>Shall I + base verb ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-28",
+   "type": "build",
+   "level": 3,
+   "topic": "offers",
+   "prompt": "Make a polite offer.",
+   "answer": [
+    "Would",
+    "you",
+    "like",
+    "some",
+    "more",
+    "rice?"
+   ],
+   "alts": [],
+   "rule": "Offer food politely with <b>Would you like ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_cont",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "I called you twice last evening!"
+    ],
+    [
+     "Arjun",
+     "Why didn't you answer?"
+    ]
+   ],
+   "options": [
+    "Sorry, I was help Dad in the kitchen.",
+    "Sorry, I was helping Dad in the kitchen.",
+    "Sorry, I were helping Dad in the kitchen."
+   ],
+   "answer": 1,
+   "rule": "Use the past continuous for what you were busy doing: <b>I was helping</b>."
+  },
+  {
+   "qid": "c6-2.2-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "offers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "I can't read this small print on my phone."
+    ]
+   ],
+   "options": [
+    "Shall I read it out for you, Grandpa?",
+    "Shall I reads it out for you, Grandpa?",
+    "Shall I reading it out for you, Grandpa?"
+   ],
+   "answer": 0,
+   "rule": "<b>Shall I + base verb</b>: <b>Shall I read</b> it out for you?"
+  },
+  {
+   "qid": "c6-2.2-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_cont",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The fairies was carrying tiny tools in their hands.",
+    "The fairies were carrying tiny tools in theirs hands.",
+    "The fairies were carrying tiny tools in their hands."
+   ],
+   "answer": 2,
+   "rule": "Plural <b>fairies</b> takes <b>were carrying</b>. Before a noun use <b>their</b>, not <b>theirs</b>."
+  },
+  {
+   "qid": "c6-2.2-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "There isn't some leather left in Denu's workshop.",
+    "There isn't any leather left in Denu's workshop.",
+    "There isn't any leather left in Denus workshop."
+   ],
+   "answer": 1,
+   "rule": "Use <b>any</b> in negative sentences, and <b>Denu's</b> for the owner of the workshop."
+  },
+  {
+   "qid": "c6-2.2-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conj",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "While",
+    "the",
+    "fairies",
+    "were",
+    "dancing,",
+    "Denu's",
+    "wife",
+    "smile",
+    "happily."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "smiled",
+      "smiling",
+      "smiles"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The story is in the past, so after the <b>while</b> part use the simple past: <b>smiled</b>."
+  },
+  {
+   "qid": "c6-2.2-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_cont",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "At",
+    "midnight,",
+    "the",
+    "fairies",
+    "were",
+    "sitting",
+    "in",
+    "the",
+    "floor."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "on",
+      "at",
+      "into"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We sit <b>on</b> a surface: <b>sitting on the floor</b>."
+  },
+  {
+   "qid": "c6-2.2-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "bag is lighter than mine.",
+   "options": [
+    "Rohans",
+    "Rohan",
+    "Rohan's"
+   ],
+   "answer": 2,
+   "rule": "The bag belongs to Rohan, so use <b>Rohan's</b>."
+  },
+  {
+   "qid": "c6-2.2-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "offers",
+   "prompt": "Make a polite request.",
+   "before": "Excuse me,",
+   "after": "you tell me the way to the post office?",
+   "options": [
+    "shall",
+    "could",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "Ask a stranger politely with <b>Could you ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-37",
+   "type": "build",
+   "level": 4,
+   "topic": "past_cont",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "children",
+    "were",
+    "flying",
+    "kites",
+    "on",
+    "the",
+    "terrace."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>were + -ing</b> + object + place: The children were flying kites on the terrace."
+  },
+  {
+   "qid": "c6-2.2-38",
+   "type": "build",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "is",
+    "your",
+    "brother's",
+    "cricket",
+    "bat?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>is</b> + subject: Where is your brother's cricket bat?"
+  },
+  {
+   "qid": "c6-2.2-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Did you finish the project?"
+    ]
+   ],
+   "options": [
+    "Yes, although it was difficult, but I finished it last night.",
+    "Yes, although it was difficult, I finish it last night.",
+    "Yes, although it was difficult, I finished it last night."
+   ],
+   "answer": 2,
+   "rule": "Don't use <b>but</b> after <b>although</b>. <b>last night</b> needs the past: <b>finished</b>."
+  },
+  {
+   "qid": "c6-2.2-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "possessive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Whose shoes are these near the door?"
+    ]
+   ],
+   "options": [
+    "They are Kiran shoes. She came to study.",
+    "They are Kiran's shoes. She came to study.",
+    "They are Kiran's shoes. She come to study."
+   ],
+   "answer": 1,
+   "rule": "Owner: <b>Kiran's</b> shoes. The visit already happened: <b>She came</b>."
+  },
+  {
+   "qid": "c6-2.2-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_cont",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "While Dhania was sewing tiny clothes, Denu was cutting the last piece of leather.",
+    "While Dhania was sewing tiny clothes, Denu cutting the last piece of leather.",
+    "While Dhania sewing tiny clothes, Denu was cutting the last piece of leather."
+   ],
+   "answer": 0,
+   "rule": "Each part needs its own helping verb: <b>was sewing</b> and <b>was cutting</b>."
+  },
+  {
+   "qid": "c6-2.2-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "possessive",
+   "prompt": "Pick the sentence with the correct possessives.",
+   "options": [
+    "The childrens' clothes and the women's bags were kept in the cobbler's shop.",
+    "The children's clothes and the womens' bags were kept in the cobbler's shop.",
+    "The children's clothes and the women's bags were kept in the cobbler's shop."
+   ],
+   "answer": 2,
+   "rule": "Irregular plurals <b>children</b> and <b>women</b> take <b>'s</b>: <b>children's</b>, <b>women's</b>."
+  },
+  {
+   "qid": "c6-2.2-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_cont",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Denu",
+    "was",
+    "cutting",
+    "leather",
+    "when",
+    "he",
+    "suddenly",
+    "hear",
+    "a",
+    "soft",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "hears",
+      "hearing",
+      "heard"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The short action that interrupts <b>was cutting</b> is in the simple past: <b>heard</b>."
+  },
+  {
+   "qid": "c6-2.2-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "offers",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Shall",
+    "I",
+    "helps",
+    "you",
+    "carry",
+    "the",
+    "boxes",
+    "to",
+    "the",
+    "shop,",
+    "Uncle?"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "helped",
+      "help",
+      "helping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>Shall I</b> always use the base verb: <b>Shall I help</b>."
+  },
+  {
+   "qid": "c6-2.2-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Choose the correct joining word.",
+   "before": "",
+   "after": "Dhania was tired, she stayed up to sew the clothes.",
+   "options": [
+    "Although",
+    "Because",
+    "So"
+   ],
+   "answer": 0,
+   "rule": "Being tired and staying up are opposite ideas, so use <b>Although</b> to show the contrast."
+  },
+  {
+   "qid": "c6-2.2-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "past_cont",
+   "prompt": "Fill in the gap.",
+   "before": "The fairies",
+   "after": "and dancing when the cock crowed.",
+   "options": [
+    "was singing",
+    "sang",
+    "were singing"
+   ],
+   "answer": 2,
+   "rule": "Match the pattern: <b>were singing and dancing</b>. Plural <b>fairies</b> takes <b>were</b>."
+  },
+  {
+   "qid": "c6-2.2-47",
+   "type": "build",
+   "level": 5,
+   "topic": "past_cont",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "were",
+    "the",
+    "fairies",
+    "doing",
+    "at",
+    "midnight?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>What were + subject + -ing ...?</b>"
+  },
+  {
+   "qid": "c6-2.2-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Although",
+    "Denu",
+    "had",
+    "little",
+    "money,",
+    "he",
+    "stayed",
+    "honest."
+   ],
+   "alts": [
+    [
+     "Although",
+     "he",
+     "had",
+     "little",
+     "money,",
+     "Denu",
+     "stayed",
+     "honest."
+    ]
+   ],
+   "rule": "<b>Although</b> + contrast clause, then the main clause: Although Denu had little money, he stayed honest."
+  },
+  {
+   "qid": "c6-2.2-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "conj",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Iyer",
+     "Rahul, why are you late?"
+    ],
+    [
+     "Ms Iyer",
+     "The class started ten minutes ago."
+    ]
+   ],
+   "options": [
+    "Sorry, ma'am. The bus broke down while we was crossing the bridge.",
+    "Sorry, ma'am. The bus broke down while we were crossing the bridge.",
+    "Sorry, ma'am. The bus break down while we were crossing the bridge."
+   ],
+   "answer": 1,
+   "rule": "Simple past <b>broke down</b> + <b>while</b> + past continuous <b>we were crossing</b>."
+  },
+  {
+   "qid": "c6-2.2-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "offers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dhruv",
+     "I can't carry all these books to the library."
+    ]
+   ],
+   "options": [
+    "Don't worry. I'll carry half of them, and you can take the rest.",
+    "Don't worry. I'll carried half of them, and you can take the rest.",
+    "Don't worry. I'll carry half of them, and you can takes the rest."
+   ],
+   "answer": 0,
+   "rule": "Offer help with <b>I'll + base verb</b>. After <b>can</b> also use the base verb: <b>can take</b>."
+  }
+ ]
+}

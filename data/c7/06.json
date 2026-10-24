@@ -1,0 +1,976 @@
+{
+ "class": 7,
+ "id": "06",
+ "title": "A Collage",
+ "topics": [
+  {
+   "tag": "conditionals_1",
+   "name": "Conditionals type 1 (if + present, will + verb)"
+  },
+  {
+   "tag": "sentence_kinds",
+   "name": "Commands, suggestions and exclamations"
+  },
+  {
+   "tag": "gerund_infinitive",
+   "name": "Gerund and infinitive"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a, an, the"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-06-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals_1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you will think yourself strong, you will be strong.",
+    "If you think yourself strong, you will be strong.",
+    "If you think yourself strong, you are be strong."
+   ],
+   "answer": 1,
+   "rule": "Type 1 conditional: <b>If + simple present</b>, <b>will + base verb</b>. No <b>will</b> in the if-part."
+  },
+  {
+   "qid": "c7-06-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Swami Vivekananda was an great thinker.",
+    "Swami Vivekananda was great a thinker.",
+    "Swami Vivekananda was a great thinker."
+   ],
+   "answer": 2,
+   "rule": "<b>Great</b> begins with a consonant sound, so use <b>a</b>, and the article comes before the adjective."
+  },
+  {
+   "qid": "c7-06-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditionals_1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rain",
+    "tomorrow,",
+    "we",
+    "will",
+    "stay",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "rained",
+      "raining",
+      "rains"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In the if-part, use the simple present. <b>It</b> takes <b>-s</b>: <b>If it rains</b>."
+  },
+  {
+   "qid": "c7-06-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Reading",
+    "good",
+    "books",
+    "are",
+    "a",
+    "healthy",
+    "habit."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "were",
+      "is",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A gerund subject (<b>Reading ...</b>) is one activity, so it takes a singular verb: <b>is</b>."
+  },
+  {
+   "qid": "c7-06-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "He gave",
+   "after": "inspiring speech in America.",
+   "options": [
+    "an",
+    "a",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>Inspiring</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c7-06-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a lovely collage this is!",
+   "options": [
+    "What",
+    "How",
+    "Which"
+   ],
+   "answer": 0,
+   "rule": "Use <b>What a/an + noun</b> in an exclamation: <b>What a lovely collage ...!</b>"
+  },
+  {
+   "qid": "c7-06-07",
+   "type": "build",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Make a command.",
+   "answer": [
+    "Never",
+    "give",
+    "up",
+    "your",
+    "dream."
+   ],
+   "alts": [],
+   "rule": "A command starts with the verb (or <b>Never</b> / <b>Do not</b> + verb) and has no subject."
+  },
+  {
+   "qid": "c7-06-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditionals_1",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditya",
+     "Will you come to the exhibition this evening?"
+    ]
+   ],
+   "options": [
+    "If I will finish my homework, I come.",
+    "If I finished my homework, I will come.",
+    "If I finish my homework, I will come."
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>If + simple present</b> (finish), <b>will + base verb</b> (will come)."
+  },
+  {
+   "qid": "c7-06-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "gerund_infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What is your hobby?"
+    ]
+   ],
+   "options": [
+    "I enjoy making collages.",
+    "I enjoy to make collages.",
+    "I enjoy make collages."
+   ],
+   "answer": 0,
+   "rule": "<b>Enjoy</b> is followed by the <b>-ing</b> form (gerund): <b>enjoy making</b>."
+  },
+  {
+   "qid": "c7-06-10",
+   "type": "change",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Make it negative without changing the meaning.",
+   "source": "Remember the goal.",
+   "options": [
+    "Do not remember the goal.",
+    "Do not forget the goal.",
+    "Not forget the goal."
+   ],
+   "answer": 1,
+   "rule": "A negative command starts with <b>Do not</b>. Use the opposite verb to keep the meaning: <b>forget</b>."
+  },
+  {
+   "qid": "c7-06-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "gerund_infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He wants becoming a doctor.",
+    "He wants become a doctor.",
+    "He wants to become a doctor."
+   ],
+   "answer": 2,
+   "rule": "<b>Want</b> is followed by <b>to + base verb</b> (infinitive): <b>wants to become</b>."
+  },
+  {
+   "qid": "c7-06-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He received a two-minutes standing ovation.",
+    "He received a two-minute standing ovation.",
+    "He received an two-minute standing ovation."
+   ],
+   "answer": 1,
+   "rule": "Before a noun, a number word joined by a hyphen stays singular (<b>two-minute</b>). <b>Two</b> starts with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c7-06-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals_1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "taking",
+    "up",
+    "one",
+    "idea,",
+    "you",
+    "will",
+    "succeed."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "take",
+      "taken",
+      "takes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "If-part = simple present: <b>If you take up ...</b>, then <b>will + base verb</b>."
+  },
+  {
+   "qid": "c7-06-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Narendra",
+    "was",
+    "a",
+    "honest",
+    "and",
+    "brave",
+    "young",
+    "man."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "some",
+      "many",
+      "an"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The <b>h</b> in <b>honest</b> is silent, so it starts with a vowel sound: <b>an honest</b>."
+  },
+  {
+   "qid": "c7-06-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "Talk to yourself at least once",
+   "after": "day.",
+   "options": [
+    "an",
+    "a",
+    "the"
+   ],
+   "answer": 1,
+   "rule": "<b>Once a day</b> means one time every day; we use <b>a</b> for 'per'."
+  },
+  {
+   "qid": "c7-06-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "gerund_infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "Avoid",
+   "after": "time on your phone before exams.",
+   "options": [
+    "to waste",
+    "waste",
+    "wasting"
+   ],
+   "answer": 2,
+   "rule": "<b>Avoid</b> is followed by the <b>-ing</b> form: <b>avoid wasting</b>."
+  },
+  {
+   "qid": "c7-06-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conditionals_1",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "If",
+    "it",
+    "rains,",
+    "the",
+    "match",
+    "will",
+    "be",
+    "cancelled."
+   ],
+   "alts": [],
+   "rule": "Type 1: <b>If + simple present</b>, then <b>will + verb</b> (here passive: <b>will be cancelled</b>)."
+  },
+  {
+   "qid": "c7-06-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Shall we put up the collages tomorrow?"
+    ]
+   ],
+   "options": [
+    "Yes, let's put them up after the assembly.",
+    "Yes, let's putting them up after the assembly.",
+    "Yes, let us to put them up after the assembly."
+   ],
+   "answer": 0,
+   "rule": "A suggestion with <b>let's</b> takes the base verb: <b>let's put</b>."
+  },
+  {
+   "qid": "c7-06-19",
+   "type": "change",
+   "level": 2,
+   "topic": "gerund_infinitive",
+   "prompt": "Begin with a gerund.",
+   "source": "To help others is a great joy.",
+   "options": [
+    "Help others is a great joy.",
+    "Helping others are a great joy.",
+    "Helping others is a great joy."
+   ],
+   "answer": 2,
+   "rule": "<b>To help</b> → gerund <b>Helping</b>. It is one activity, so keep <b>is</b>."
+  },
+  {
+   "qid": "c7-06-20",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It is a very beautiful collage.",
+   "options": [
+    "What a beautiful collage it is!",
+    "How a beautiful collage it is!",
+    "What beautiful collage it is!"
+   ],
+   "answer": 0,
+   "rule": "<b>Very</b> + adjective + noun → <b>What a</b> + adjective + noun + subject + verb + <b>!</b>"
+  },
+  {
+   "qid": "c7-06-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conditionals_1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If we don't leave now, we will miss the bus.",
+    "If we didn't leave now, we will miss the bus.",
+    "If we don't leave now, we missing the bus."
+   ],
+   "answer": 0,
+   "rule": "Negative if-part uses the simple present: <b>don't leave</b>; the result uses <b>will + verb</b>."
+  },
+  {
+   "qid": "c7-06-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My uncle has decided joining a yoga class.",
+    "My uncle has decided to join a yoga class.",
+    "My uncle has decided to joining a yoga class."
+   ],
+   "answer": 1,
+   "rule": "<b>Decide</b> is followed by <b>to + base verb</b>: <b>decided to join</b>."
+  },
+  {
+   "qid": "c7-06-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "a",
+    "wonderful",
+    "speech",
+    "he",
+    "gave!"
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "Which",
+      "What",
+      "Who"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>What a</b> + adjective + noun in exclamations; <b>How</b> goes with an adjective alone."
+  },
+  {
+   "qid": "c7-06-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "sun",
+    "rises",
+    "in",
+    "a",
+    "east",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "an",
+      "one",
+      "the"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Directions take <b>the</b>: <b>in the east</b>, <b>in the west</b>."
+  },
+  {
+   "qid": "c7-06-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditionals_1",
+   "prompt": "Fill in the gap.",
+   "before": "If you think yourself weak, you",
+   "after": "weak.",
+   "options": [
+    "will being",
+    "would been",
+    "will be"
+   ],
+   "answer": 2,
+   "rule": "Result part of type 1: <b>will + base verb</b> = <b>will be</b>."
+  },
+  {
+   "qid": "c7-06-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "Vivekananda advised young people",
+   "after": "hard for their goals.",
+   "options": [
+    "to work",
+    "working",
+    "work"
+   ],
+   "answer": 0,
+   "rule": "<b>Advise + person</b> is followed by <b>to + base verb</b>: <b>advised young people to work</b>."
+  },
+  {
+   "qid": "c7-06-27",
+   "type": "build",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "great",
+    "idea",
+    "this",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "Exclamation: <b>What a</b> + adjective + noun + subject + verb (<b>this is</b>) + <b>!</b>"
+  },
+  {
+   "qid": "c7-06-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "gerund_infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Why are you so tired today?"
+    ]
+   ],
+   "options": [
+    "I spent the whole evening practising my speech.",
+    "I spent the whole evening to practise my speech.",
+    "I spent the whole evening practise my speech."
+   ],
+   "answer": 0,
+   "rule": "<b>Spend time</b> is followed by the <b>-ing</b> form: <b>spent the evening practising</b>."
+  },
+  {
+   "qid": "c7-06-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Who was Swami Vivekananda?"
+    ]
+   ],
+   "options": [
+    "He was an Indian monk and a great thinker.",
+    "He was a Indian monk and a great thinker.",
+    "He was an Indian monk and an great thinker."
+   ],
+   "answer": 0,
+   "rule": "<b>An</b> before a vowel sound (<b>an Indian</b>), <b>a</b> before a consonant sound (<b>a great</b>)."
+  },
+  {
+   "qid": "c7-06-30",
+   "type": "change",
+   "level": 3,
+   "topic": "conditionals_1",
+   "prompt": "Rewrite using 'if'.",
+   "source": "Work hard, and you will succeed.",
+   "options": [
+    "If you will work hard, you will succeed.",
+    "If you work hard, you will succeed.",
+    "If you work hard, you succeeded."
+   ],
+   "answer": 1,
+   "rule": "<b>If + simple present</b> (work), <b>will + verb</b> (will succeed). Never <b>will</b> in the if-part."
+  },
+  {
+   "qid": "c7-06-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditionals_1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Meena win the prize, her parents will be proud of her.",
+    "If Meena wins the prize, her parents will proud of her.",
+    "If Meena wins the prize, her parents will be proud of her."
+   ],
+   "answer": 2,
+   "rule": "<b>Meena</b> takes <b>wins</b>; <b>proud</b> is an adjective, so it needs <b>be</b>: <b>will be proud</b>."
+  },
+  {
+   "qid": "c7-06-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "He is one of the greatest thinkers of India.",
+    "He is one of the greatest thinker of India.",
+    "He is one of greatest thinkers of India."
+   ],
+   "answer": 0,
+   "rule": "<b>One of the</b> + superlative + plural noun: <b>one of the greatest thinkers</b>."
+  },
+  {
+   "qid": "c7-06-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "gerund_infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Narendra",
+    "was",
+    "fond",
+    "of",
+    "read",
+    "books",
+    "on",
+    "philosophy."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "reads",
+      "reader",
+      "reading"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the gerund: <b>fond of reading</b>."
+  },
+  {
+   "qid": "c7-06-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditionals_1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "doesn't",
+    "believe",
+    "in",
+    "yourself,",
+    "nobody",
+    "else",
+    "will",
+    "believe",
+    "in",
+    "you."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "didn't",
+      "don't",
+      "aren't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>You</b> takes <b>don't</b>, and the if-part of type 1 stays in the simple present."
+  },
+  {
+   "qid": "c7-06-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "brave the young monk was!",
+   "options": [
+    "What",
+    "How",
+    "Which"
+   ],
+   "answer": 1,
+   "rule": "<b>How</b> + adjective + subject + verb makes an exclamation: <b>How brave ... was!</b>"
+  },
+  {
+   "qid": "c7-06-36",
+   "type": "build",
+   "level": 4,
+   "topic": "gerund_infinitive",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Talking",
+    "to",
+    "yourself",
+    "can",
+    "build",
+    "confidence."
+   ],
+   "alts": [],
+   "rule": "A gerund (<b>Talking ...</b>) can be the subject of a sentence; <b>can</b> + base verb follows."
+  },
+  {
+   "qid": "c7-06-37",
+   "type": "build",
+   "level": 4,
+   "topic": "conditionals_1",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "will",
+    "miss",
+    "the",
+    "bus",
+    "if",
+    "we",
+    "don't",
+    "hurry."
+   ],
+   "alts": [],
+   "rule": "The if-part can come second: <b>will + verb ... if + simple present</b> (no comma needed)."
+  },
+  {
+   "qid": "c7-06-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "conditionals_1",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "What will happen if we lose this match?"
+    ]
+   ],
+   "options": [
+    "If we will lose, we not reach the final.",
+    "If we lose, we will not reached the final.",
+    "If we lose, we will not reach the final."
+   ],
+   "answer": 2,
+   "rule": "<b>If + simple present</b>, <b>will not + base verb</b>: <b>will not reach</b>."
+  },
+  {
+   "qid": "c7-06-39",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an assertive sentence.",
+   "source": "What a great personality Vivekananda was!",
+   "options": [
+    "Vivekananda were a very great personality.",
+    "Vivekananda was a very great personality.",
+    "Vivekananda is a very great personality was."
+   ],
+   "answer": 1,
+   "rule": "Exclamation → statement: subject + verb + <b>very</b> + adjective + noun, ending with a full stop."
+  },
+  {
+   "qid": "c7-06-40",
+   "type": "change",
+   "level": 4,
+   "topic": "gerund_infinitive",
+   "prompt": "Rewrite using 'fond of'.",
+   "source": "Ravi loves to make collages.",
+   "options": [
+    "Ravi is fond to make collages.",
+    "Ravi is fond of make collages.",
+    "Ravi is fond of making collages."
+   ],
+   "answer": 2,
+   "rule": "<b>Of</b> is a preposition, so the verb after it takes <b>-ing</b>: <b>fond of making</b>."
+  },
+  {
+   "qid": "c7-06-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals_1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If the students will complete their collages on time, the teacher will hold an exhibition.",
+    "If the students complete their collages on time, the teacher will held an exhibition.",
+    "If the students complete their collages on time, the teacher will hold an exhibition."
+   ],
+   "answer": 2,
+   "rule": "No <b>will</b> in the if-part; after <b>will</b> use the base verb <b>hold</b>, not <b>held</b>."
+  },
+  {
+   "qid": "c7-06-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The Himalayas are the highest mountains in the world.",
+    "Himalayas are the highest mountains in the world.",
+    "The Himalayas are highest mountains in the world."
+   ],
+   "answer": 0,
+   "rule": "Mountain ranges take <b>the</b> (<b>the Himalayas</b>), and superlatives take <b>the</b> (<b>the highest</b>)."
+  },
+  {
+   "qid": "c7-06-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "gerund_infinitive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Instead",
+    "of",
+    "complain",
+    "about",
+    "problems,",
+    "think",
+    "of",
+    "ways",
+    "to",
+    "solve",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "complained",
+      "complaining",
+      "complains"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Instead of</b> ends in a preposition, so the verb after it takes <b>-ing</b>: <b>instead of complaining</b>."
+  },
+  {
+   "qid": "c7-06-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Narendra",
+    "studied",
+    "philosophy",
+    "at",
+    "an",
+    "university",
+    "in",
+    "Kolkata."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "a",
+      "many",
+      "few"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>University</b> starts with a 'yoo' (consonant) sound, so use <b>a</b>, not <b>an</b>."
+  },
+  {
+   "qid": "c7-06-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "gerund_infinitive",
+   "prompt": "Fill in the gap.",
+   "before": "It is never too late",
+   "after": "a new dream.",
+   "options": [
+    "to start",
+    "starting",
+    "start"
+   ],
+   "answer": 0,
+   "rule": "<b>Too + adjective</b> is followed by <b>to + base verb</b>: <b>too late to start</b>."
+  },
+  {
+   "qid": "c7-06-46",
+   "type": "build",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Make a command.",
+   "answer": [
+    "Keep",
+    "working",
+    "until",
+    "you",
+    "reach",
+    "your",
+    "goal."
+   ],
+   "alts": [],
+   "rule": "A command begins with the verb (<b>Keep</b>); <b>keep</b> is followed by the <b>-ing</b> form."
+  },
+  {
+   "qid": "c7-06-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "gerund_infinitive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anil",
+     "My cousins from Pune are coming to the exhibition."
+    ]
+   ],
+   "options": [
+    "Great! I'm looking forward to meet them there.",
+    "Great! I'm looking forward to meeting them there.",
+    "Great! I'm looking forward meeting them there."
+   ],
+   "answer": 1,
+   "rule": "In <b>look forward to</b>, <b>to</b> is a preposition, so use the <b>-ing</b> form: <b>to meeting</b>."
+  },
+  {
+   "qid": "c7-06-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Where did Vivekananda give his famous speech?"
+    ]
+   ],
+   "options": [
+    "He gave it in the Chicago, in the United States.",
+    "He gave it in Chicago, in the United States.",
+    "He gave it in Chicago, in United States."
+   ],
+   "answer": 1,
+   "rule": "City names take no article (<b>Chicago</b>), but <b>the United States</b> always takes <b>the</b>."
+  },
+  {
+   "qid": "c7-06-49",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals_1",
+   "prompt": "Join using 'if'.",
+   "source": "You talk to yourself every day. You will know yourself better.",
+   "options": [
+    "If you talk to yourself every day, you will know yourself better.",
+    "If you will talk to yourself every day, you will know yourself better.",
+    "If you talk to yourself every day, you knew yourself better."
+   ],
+   "answer": 0,
+   "rule": "Type 1: <b>If + simple present</b> (talk), <b>will + base verb</b> (will know)."
+  },
+  {
+   "qid": "c7-06-50",
+   "type": "change",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Change into an imperative sentence.",
+   "source": "You should not miss a meeting with yourself.",
+   "options": [
+    "Not miss a meeting with yourself.",
+    "Do not missed a meeting with yourself.",
+    "Do not miss a meeting with yourself."
+   ],
+   "answer": 2,
+   "rule": "A negative command starts with <b>Do not</b> + base verb, without a subject: <b>Do not miss</b>."
+  }
+ ]
+}

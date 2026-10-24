@@ -1,0 +1,1224 @@
+{
+ "class": 8,
+ "id": "09",
+ "title": "The Happy Prince",
+ "topics": [
+  {
+   "tag": "reported",
+   "name": "Reported (indirect) speech"
+  },
+  {
+   "tag": "nonfinite",
+   "name": "Infinitives, participles and gerunds"
+  },
+  {
+   "tag": "past_perfect",
+   "name": "Past perfect tense"
+  },
+  {
+   "tag": "too_so",
+   "name": "Too ... to / so ... that"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c8-09-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "nonfinite",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Swim is good exercise.",
+    "Swimming is good exercise.",
+    "Swims is good exercise."
+   ],
+   "answer": 1,
+   "rule": "A verb used as the subject takes the -ing form (a gerund): <b>Swimming</b> is good exercise."
+  },
+  {
+   "qid": "c8-09-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "His friends had went to Egypt before the snow came.",
+    "His friends has gone to Egypt before the snow came.",
+    "His friends had gone to Egypt before the snow came."
+   ],
+   "answer": 2,
+   "rule": "Past perfect = <b>had</b> + past participle: <b>had gone</b> (not went) for the earlier past action."
+  },
+  {
+   "qid": "c8-09-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Which reported sentence is correct?",
+   "options": [
+    "The Swallow said that he will stays for one more night.",
+    "The Swallow said that he would stayed for one more night.",
+    "The Swallow said that he would stay for one more night."
+   ],
+   "answer": 2,
+   "rule": "In reported speech, <b>will</b> becomes <b>would</b>, followed by the base verb: <b>would stay</b>."
+  },
+  {
+   "qid": "c8-09-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The boy was too ill that he could not get out of bed.",
+    "The boy was so ill to get out of bed.",
+    "The boy was too ill to get out of bed."
+   ],
+   "answer": 2,
+   "rule": "Use <b>too</b> + adjective + <b>to</b> + verb, or <b>so</b> + adjective + <b>that</b> + clause. Don't mix them."
+  },
+  {
+   "qid": "c8-09-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "nonfinite",
+   "prompt": "Which sentence uses the past participle correctly?",
+   "options": [
+    "Ravi wore a tore shirt to the match.",
+    "Ravi wore a torn shirt to the match.",
+    "Ravi wore a tear shirt to the match."
+   ],
+   "answer": 1,
+   "rule": "A past participle can work as an adjective: a <b>torn</b> shirt, a <b>broken</b> heart."
+  },
+  {
+   "qid": "c8-09-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Which reported question is correct?",
+   "options": [
+    "The prince asked the Swallow would he stay one more night.",
+    "The prince asked the Swallow if will he stay one more night.",
+    "The prince asked the Swallow if he would stay one more night."
+   ],
+   "answer": 2,
+   "rule": "A reported yes/no question uses <b>if</b> + statement order: <b>if he would stay</b>."
+  },
+  {
+   "qid": "c8-09-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "When the guard arrived, the boys have already left the bridge.",
+    "When the guard arrived, the boys had already left the bridge.",
+    "When the guard arrived, the boys had already leave the bridge."
+   ],
+   "answer": 1,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had already left</b>."
+  },
+  {
+   "qid": "c8-09-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which reported command is correct?",
+   "options": [
+    "The prince told the Swallow not to forget his poor people.",
+    "The prince told the Swallow to not forgetting his poor people.",
+    "The prince told to the Swallow not to forget his poor people."
+   ],
+   "answer": 0,
+   "rule": "A reported negative command: <b>told</b> + person (no <b>to</b>) + <b>not to</b> + base verb."
+  },
+  {
+   "qid": "c8-09-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "nonfinite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Swallow",
+    "could",
+    "not",
+    "took",
+    "out",
+    "the",
+    "other",
+    "eye."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "take",
+      "taking",
+      "taken"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a modal like <b>could</b>, use the base form (infinitive without to): <b>could not take</b>."
+  },
+  {
+   "qid": "c8-09-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "guard",
+    "has",
+    "shouted",
+    "at",
+    "the",
+    "boys",
+    "before",
+    "the",
+    "Swallow",
+    "arrived."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "had",
+      "have",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An action before another past action takes the past perfect: <b>had shouted</b> ... before ... arrived."
+  },
+  {
+   "qid": "c8-09-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "prince",
+    "said",
+    "the",
+    "Swallow",
+    "that",
+    "he",
+    "must",
+    "go",
+    "to",
+    "Egypt."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "told",
+      "spoke",
+      "talked"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>told</b> takes a person directly (told the Swallow); <b>said</b> needs <b>to</b> before the person."
+  },
+  {
+   "qid": "c8-09-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "snow",
+    "was",
+    "too",
+    "heavy",
+    "that",
+    "the",
+    "Swallow",
+    "could",
+    "not",
+    "fly."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "very",
+      "much",
+      "so"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Before a <b>that</b>-clause of result, use <b>so</b>: <b>so heavy that</b> ..."
+  },
+  {
+   "qid": "c8-09-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "nonfinite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "young",
+    "writer",
+    "was",
+    "tired",
+    "of",
+    "write",
+    "stories",
+    "in",
+    "the",
+    "cold."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "wrote",
+      "writing",
+      "written"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a preposition such as <b>of</b>, a verb takes the -ing form (gerund): <b>tired of writing</b>."
+  },
+  {
+   "qid": "c8-09-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "gold",
+    "had",
+    "been",
+    "pull",
+    "off",
+    "piece",
+    "by",
+    "piece",
+    "before",
+    "the",
+    "snow",
+    "came."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "pulling",
+      "pulled",
+      "pulls"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past perfect passive = <b>had been</b> + past participle: <b>had been pulled</b>."
+  },
+  {
+   "qid": "c8-09-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Swallow",
+    "asked",
+    "the",
+    "prince",
+    "whom",
+    "he",
+    "was."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "which",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Who are you?</b> becomes <b>who he was</b>; <b>whom</b> is only for an object."
+  },
+  {
+   "qid": "c8-09-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Swallow",
+    "loved",
+    "the",
+    "prince",
+    "so",
+    "much",
+    "than",
+    "he",
+    "refused",
+    "to",
+    "leave",
+    "for",
+    "Egypt."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "that",
+      "then",
+      "as"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The result pattern is <b>so</b> ... <b>that</b>: so much <b>that</b> he refused."
+  },
+  {
+   "qid": "c8-09-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "nonfinite",
+   "prompt": "Fill in the gap.",
+   "before": "The Swallow wanted",
+   "after": "to Egypt.",
+   "options": [
+    "go",
+    "to go",
+    "going"
+   ],
+   "answer": 1,
+   "rule": "<b>want</b> is followed by the infinitive: <b>wanted to go</b>."
+  },
+  {
+   "qid": "c8-09-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The prince",
+   "after": "the Swallow to take the red jewel.",
+   "options": [
+    "asked",
+    "said",
+    "spoke"
+   ],
+   "answer": 0,
+   "rule": "A reported request: <b>asked</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c8-09-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The boy's fever",
+   "after": "when his mother woke up.",
+   "options": [
+    "has gone down",
+    "had gone down",
+    "have gone down"
+   ],
+   "answer": 1,
+   "rule": "It happened before she woke up (past), so use the past perfect: <b>had gone down</b>."
+  },
+  {
+   "qid": "c8-09-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Fill in the gap.",
+   "before": "The prince was",
+   "after": "kind to ignore the poor.",
+   "options": [
+    "so",
+    "such",
+    "too"
+   ],
+   "answer": 2,
+   "rule": "<b>too</b> + adjective + <b>to</b> + verb shows that something does not happen: too kind to ignore."
+  },
+  {
+   "qid": "c8-09-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "nonfinite",
+   "prompt": "Fill in the gap.",
+   "before": "We could hear the",
+   "after": "children outside the palace gate.",
+   "options": [
+    "crying",
+    "cried",
+    "cry"
+   ],
+   "answer": 0,
+   "rule": "The present participle (-ing) works as an adjective: the <b>crying</b> children."
+  },
+  {
+   "qid": "c8-09-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "The boys said that they",
+   "after": "very hungry.",
+   "options": [
+    "are being",
+    "was",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "After <b>said</b>, the present <b>are</b> moves back to <b>were</b>; <b>they</b> needs <b>were</b>, not was."
+  },
+  {
+   "qid": "c8-09-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Fill in the gap.",
+   "before": "The writer saw that someone",
+   "after": "a blue jewel on his table.",
+   "options": [
+    "has left",
+    "had left",
+    "leaving"
+   ],
+   "answer": 1,
+   "rule": "The leaving happened before he saw it, so use the past perfect: <b>had left</b>."
+  },
+  {
+   "qid": "c8-09-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Fill in the gap.",
+   "before": "The Swallow was",
+   "after": "tired that he fell asleep at the prince's feet.",
+   "options": [
+    "such",
+    "too",
+    "so"
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> + adjective + <b>that</b>. <b>such</b> needs a noun (such a tired bird)."
+  },
+  {
+   "qid": "c8-09-25",
+   "type": "build",
+   "level": 1,
+   "topic": "nonfinite",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "I",
+    "love",
+    "reading",
+    "stories."
+   ],
+   "alts": [],
+   "rule": "The gerund <b>reading</b> is the object of <b>love</b>."
+  },
+  {
+   "qid": "c8-09-26",
+   "type": "build",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "The",
+    "box",
+    "is",
+    "too",
+    "heavy",
+    "to",
+    "lift."
+   ],
+   "alts": [],
+   "rule": "<b>too</b> + adjective + <b>to</b> + verb."
+  },
+  {
+   "qid": "c8-09-27",
+   "type": "build",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Make a correct sentence.",
+   "answer": [
+    "The",
+    "train",
+    "had",
+    "left",
+    "before",
+    "we",
+    "arrived."
+   ],
+   "alts": [],
+   "rule": "The earlier action takes the past perfect (<b>had left</b>); the later one the simple past (<b>arrived</b>)."
+  },
+  {
+   "qid": "c8-09-28",
+   "type": "build",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Make a reported question.",
+   "answer": [
+    "She",
+    "asked",
+    "me",
+    "where",
+    "I",
+    "lived."
+   ],
+   "alts": [],
+   "rule": "A reported question keeps statement order: <b>where I lived</b>."
+  },
+  {
+   "qid": "c8-09-29",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make a reported command.",
+   "answer": [
+    "The",
+    "teacher",
+    "told",
+    "us",
+    "not",
+    "to",
+    "waste",
+    "paper."
+   ],
+   "alts": [
+    [
+     "The",
+     "teacher",
+     "told",
+     "us",
+     "to",
+     "not",
+     "waste",
+     "paper."
+    ]
+   ],
+   "rule": "Reported negative command: <b>told</b> + person + <b>not to</b> + base verb."
+  },
+  {
+   "qid": "c8-09-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "nonfinite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "What is your hobby?"
+    ]
+   ],
+   "options": [
+    "My hobby is painting birds.",
+    "My hobby is paint birds.",
+    "My hobby is to painting birds."
+   ],
+   "answer": 0,
+   "rule": "After <b>is</b>, use a gerund as the complement: <b>painting</b> birds."
+  },
+  {
+   "qid": "c8-09-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "too_so",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Can you carry this bag?"
+    ]
+   ],
+   "options": [
+    "No, Dad. It is too heavy that I carry.",
+    "No, Dad. It is too heavy for me to carry.",
+    "No, Dad. It is very heavy to carry it."
+   ],
+   "answer": 1,
+   "rule": "<b>too</b> + adjective + <b>for me to</b> + verb."
+  },
+  {
+   "qid": "c8-09-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "What did the teacher say about the trip?"
+    ]
+   ],
+   "options": [
+    "She said me that the trip was cancelled.",
+    "She said that the trip has been cancel.",
+    "She said that the trip had been cancelled."
+   ],
+   "answer": 2,
+   "rule": "<b>said that</b> (no person after said), and <b>has been</b> moves back to <b>had been cancelled</b>."
+  },
+  {
+   "qid": "c8-09-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Did you see the start of the match?"
+    ]
+   ],
+   "options": [
+    "No, the match had already started when I got there.",
+    "No, the match has already started when I got there.",
+    "No, the match had already start when I got there."
+   ],
+   "answer": 0,
+   "rule": "It started before you reached: past perfect <b>had already started</b>."
+  },
+  {
+   "qid": "c8-09-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "nonfinite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why are you late, Sameer?"
+    ]
+   ],
+   "options": [
+    "Sorry, ma'am. I stopped for help an injured dog.",
+    "Sorry, ma'am. I stopped to helping an injured dog.",
+    "Sorry, ma'am. I stopped to help an injured dog."
+   ],
+   "answer": 2,
+   "rule": "<b>stopped to help</b> = stopped in order to help (infinitive of purpose)."
+  },
+  {
+   "qid": "c8-09-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did Grandpa say on the phone?"
+    ]
+   ],
+   "options": [
+    "He said that he would visit us on Sunday.",
+    "He said that he will visited us on Sunday.",
+    "He told that he would visit us on Sunday."
+   ],
+   "answer": 0,
+   "rule": "<b>said that</b> + <b>would</b> + base verb. <b>told</b> must have a person after it."
+  },
+  {
+   "qid": "c8-09-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "too_so",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neel",
+     "Why didn't you finish your ice cream?"
+    ]
+   ],
+   "options": [
+    "It was too cold that my teeth hurt.",
+    "It was so cold than my teeth hurt.",
+    "It was so cold that my teeth hurt."
+   ],
+   "answer": 2,
+   "rule": "A result clause follows <b>so</b> + adjective + <b>that</b>."
+  },
+  {
+   "qid": "c8-09-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_perfect",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Why were you so upset yesterday?"
+    ]
+   ],
+   "options": [
+    "I had lost my bus pass, and I had to walk home.",
+    "I had losed my bus pass, and I had to walk home.",
+    "I had lose my bus pass, and I had to walk home."
+   ],
+   "answer": 0,
+   "rule": "Losing the pass came before being upset (past), so use the past perfect: <b>had lost</b>."
+  },
+  {
+   "qid": "c8-09-38",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The boy said, \"I feel better.\"",
+   "options": [
+    "The boy said that I felt better.",
+    "The boy said that he felt better.",
+    "The boy said that he feel better."
+   ],
+   "answer": 1,
+   "rule": "<b>I</b> becomes <b>he</b>, and the present <b>feel</b> moves back to <b>felt</b>."
+  },
+  {
+   "qid": "c8-09-39",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The Swallow asked the prince, \"Why are you crying?\"",
+   "options": [
+    "The Swallow asked the prince why was he crying.",
+    "The Swallow asked the prince why he was crying.",
+    "The Swallow asked the prince why he were crying."
+   ],
+   "answer": 1,
+   "rule": "A reported wh-question uses statement order and moves the tense back: <b>why he was crying</b>."
+  },
+  {
+   "qid": "c8-09-40",
+   "type": "change",
+   "level": 2,
+   "topic": "too_so",
+   "prompt": "Rewrite using 'too ... to'.",
+   "source": "The girl was so poor that she could not buy new matches.",
+   "options": [
+    "The girl was too poor that she could not buy new matches.",
+    "The girl was too poor not to buy new matches.",
+    "The girl was too poor to buy new matches."
+   ],
+   "answer": 2,
+   "rule": "<b>so ... that ... could not</b> becomes <b>too</b> + adjective + <b>to</b> + verb (no <b>not</b>)."
+  },
+  {
+   "qid": "c8-09-41",
+   "type": "change",
+   "level": 3,
+   "topic": "past_perfect",
+   "prompt": "Join using 'after'.",
+   "source": "The Swallow took the jewel. Then he flew over the roofs.",
+   "options": [
+    "After the Swallow had taken the jewel, he flew over the roofs.",
+    "After the Swallow has taken the jewel, he flew over the roofs.",
+    "After the Swallow had took the jewel, he flew over the roofs."
+   ],
+   "answer": 0,
+   "rule": "The first action takes the past perfect: <b>had taken</b> (past participle of take)."
+  },
+  {
+   "qid": "c8-09-42",
+   "type": "change",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The guard said to the boys, \"Don't lie here.\"",
+   "options": [
+    "The guard told the boys to not lying there.",
+    "The guard told the boys don't lie there.",
+    "The guard told the boys not to lie there."
+   ],
+   "answer": 2,
+   "rule": "Negative command: <b>told</b> + person + <b>not to</b> + verb, and <b>here</b> changes to <b>there</b>."
+  },
+  {
+   "qid": "c8-09-43",
+   "type": "change",
+   "level": 4,
+   "topic": "nonfinite",
+   "prompt": "Combine using an infinitive.",
+   "source": "The young man sold the jewel. He wanted to buy food.",
+   "options": [
+    "The young man sold the jewel for buy food.",
+    "The young man sold the jewel to bought food.",
+    "The young man sold the jewel to buy food."
+   ],
+   "answer": 2,
+   "rule": "Purpose is shown by the infinitive <b>to</b> + base verb: <b>to buy</b>."
+  },
+  {
+   "qid": "c8-09-44",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into indirect speech.",
+   "source": "The prince said, \"Will you stay with me tonight, little bird?\"",
+   "options": [
+    "The prince asked the little bird if he would stay with him that night.",
+    "The prince asked the little bird if would he stay with him that night.",
+    "The prince asked the little bird if he would stay with me that night."
+   ],
+   "answer": 0,
+   "rule": "Yes/no question: <b>asked if</b>; <b>will</b> becomes <b>would</b>, <b>me</b> becomes <b>him</b>, <b>tonight</b> becomes <b>that night</b>."
+  },
+  {
+   "qid": "c8-09-45",
+   "type": "change",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Rewrite using 'so ... that'.",
+   "source": "The Swallow was too weak to fly to Egypt.",
+   "options": [
+    "The Swallow was so weak that he could fly to Egypt.",
+    "The Swallow was so weak that he cannot fly to Egypt.",
+    "The Swallow was so weak that he could not fly to Egypt."
+   ],
+   "answer": 2,
+   "rule": "<b>too ... to</b> has a negative meaning, so add <b>could not</b> in the past: so weak that he <b>could not</b> fly."
+  },
+  {
+   "qid": "c8-09-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "nonfinite",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "Swallow",
+    "was",
+    "fond",
+    "of",
+    "tell",
+    "stories",
+    "about",
+    "strange",
+    "lands.",
+    "The",
+    "prince",
+    "listened",
+    "carefully",
+    "and",
+    "wanted",
+    "to",
+    "knowing",
+    "more",
+    "about",
+    "the",
+    "people",
+    "of",
+    "his",
+    "city."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "telling",
+      "told",
+      "tells"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "known",
+      "know",
+      "knew"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>of</b>, use the gerund: <b>fond of telling</b>. After <b>to</b>, use the base verb: <b>to know</b>."
+  },
+  {
+   "qid": "c8-09-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "past_perfect",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "When",
+    "the",
+    "officer",
+    "saw",
+    "the",
+    "statue,",
+    "he",
+    "said",
+    "that",
+    "it",
+    "look",
+    "like",
+    "a",
+    "beggar.",
+    "The",
+    "red",
+    "jewel",
+    "had",
+    "been",
+    "remove",
+    "from",
+    "its",
+    "waist,",
+    "and",
+    "somebody",
+    "has",
+    "taken",
+    "both",
+    "its",
+    "eyes."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "looking",
+      "looked",
+      "seen"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "removed",
+      "removing",
+      "removes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "have",
+      "had",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>said</b>, use the past: <b>looked</b>. <b>had been removed</b> (passive). Earlier past action: <b>had taken</b>."
+  },
+  {
+   "qid": "c8-09-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "Happy",
+    "Prince",
+    "asked",
+    "the",
+    "Swallow",
+    "if",
+    "he",
+    "can",
+    "stay",
+    "one",
+    "more",
+    "night.",
+    "The",
+    "Swallow",
+    "said",
+    "that",
+    "his",
+    "friends",
+    "were",
+    "waiting",
+    "for",
+    "he",
+    "in",
+    "Egypt",
+    "and",
+    "that",
+    "he",
+    "will",
+    "leave",
+    "the",
+    "next",
+    "day."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "will",
+      "could",
+      "may"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 22,
+     "options": [
+      "his",
+      "him",
+      "himself"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "shall",
+      "is",
+      "would"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In reported speech <b>can</b> becomes <b>could</b> and <b>will</b> becomes <b>would</b>. After <b>for</b>, use the object pronoun <b>him</b>."
+  },
+  {
+   "qid": "c8-09-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "too_so",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "winter",
+    "was",
+    "too",
+    "cold",
+    "for",
+    "the",
+    "little",
+    "bird",
+    "to",
+    "surviving",
+    "in",
+    "the",
+    "city.",
+    "The",
+    "prince",
+    "was",
+    "such",
+    "kind",
+    "that",
+    "he",
+    "gave",
+    "away",
+    "all",
+    "his",
+    "gold,",
+    "and",
+    "his",
+    "heart",
+    "was",
+    "so",
+    "heavy",
+    "than",
+    "it",
+    "broke."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "survive",
+      "survived",
+      "survives"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "too",
+      "very",
+      "so"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 32,
+     "options": [
+      "then",
+      "that",
+      "as"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>too cold ... to survive</b> (base verb). <b>so</b> + adjective + <b>that</b>: <b>so kind that</b>, <b>so heavy that</b>."
+  },
+  {
+   "qid": "c8-09-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "nonfinite",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Surprisingly,",
+    "the",
+    "broken",
+    "heart",
+    "had",
+    "not",
+    "been",
+    "melt",
+    "by",
+    "the",
+    "fire.",
+    "The",
+    "workmen",
+    "had",
+    "no",
+    "choice",
+    "but",
+    "to",
+    "threw",
+    "it",
+    "away",
+    "with",
+    "the",
+    "dead",
+    "Swallow."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "melted",
+      "melting",
+      "melts"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "thrown",
+      "throwing",
+      "throw"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Passive needs the past participle: <b>had not been melted</b>. After <b>to</b>, use the base verb: <b>to throw</b>."
+  }
+ ]
+}

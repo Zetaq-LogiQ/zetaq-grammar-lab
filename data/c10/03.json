@@ -1,0 +1,1229 @@
+{
+ "class": 10,
+ "id": "03",
+ "title": "On Wings of Courage",
+ "topics": [
+  {
+   "tag": "homophones",
+   "name": "Homophones in sentences (their/there, led/lead, role/roll)"
+  },
+  {
+   "tag": "participle_phrases",
+   "name": "Participle phrases (Having flown, Known as)"
+  },
+  {
+   "tag": "not_only_inversion",
+   "name": "Not only ... but also and inversion"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "degrees_comparison",
+   "name": "Degrees of comparison"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-03-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The pilots were proud of there squadron.",
+    "The pilots were proud of their squadron.",
+    "The pilots were proud of they're squadron."
+   ],
+   "answer": 1,
+   "rule": "<b>their</b> shows belonging; there = a place; they're = they are."
+  },
+  {
+   "qid": "c10-03-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Arjan Singh is born on 15 April 1919.",
+    "Arjan Singh was borned on 15 April 1919.",
+    "Arjan Singh was born on 15 April 1919."
+   ],
+   "answer": 2,
+   "rule": "A past birth date takes <b>was born</b>."
+  },
+  {
+   "qid": "c10-03-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "1947,",
+    "Arjan",
+    "Singh",
+    "lead",
+    "a",
+    "fly-past",
+    "over",
+    "the",
+    "Red",
+    "Fort."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "led",
+      "leads",
+      "leading"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The past of the verb lead is <b>led</b>, which sounds like the metal lead."
+  },
+  {
+   "qid": "c10-03-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "He",
+    "was",
+    "award",
+    "the",
+    "Padma",
+    "Vibhushan",
+    "for",
+    "his",
+    "leadership."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "awarded",
+      "awarding",
+      "awards"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = <b>was + past participle</b>: was awarded."
+  },
+  {
+   "qid": "c10-03-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Arjan Singh was one of the",
+   "after": "pilots of his time.",
+   "options": [
+    "braver",
+    "bravest",
+    "brave"
+   ],
+   "answer": 1,
+   "rule": "<b>one of the</b> is followed by a superlative and a plural noun: one of the bravest pilots."
+  },
+  {
+   "qid": "c10-03-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "not_only_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "He was not only a fearless pilot",
+   "after": "a wise leader.",
+   "options": [
+    "but also",
+    "and also",
+    "or also"
+   ],
+   "answer": 0,
+   "rule": "<b>not only</b> is always paired with <b>but also</b>."
+  },
+  {
+   "qid": "c10-03-07",
+   "type": "build",
+   "level": 1,
+   "topic": "participle_phrases",
+   "prompt": "Make a sentence that begins with a participle.",
+   "answer": [
+    "Known",
+    "as",
+    "a",
+    "man",
+    "of",
+    "few",
+    "words,",
+    "he",
+    "was",
+    "respected."
+   ],
+   "alts": [],
+   "rule": "A participle phrase (Known as ...) describes the subject that comes right after the comma."
+  },
+  {
+   "qid": "c10-03-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "Can you hear the planes?"
+    ]
+   ],
+   "options": [
+    "Yes! Their flying over our school.",
+    "Yes! There flying over our school.",
+    "Yes! They're flying over our school."
+   ],
+   "answer": 2,
+   "rule": "<b>They're</b> = they are: they are flying."
+  },
+  {
+   "qid": "c10-03-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Priya",
+     "Which is faster, a jet or a biplane?"
+    ]
+   ],
+   "options": [
+    "A jet is much more faster than a biplane.",
+    "A jet is much faster than a biplane.",
+    "A jet is much fastest than a biplane."
+   ],
+   "answer": 1,
+   "rule": "Short adjectives add <b>-er</b> before than; never use more with -er."
+  },
+  {
+   "qid": "c10-03-10",
+   "type": "change",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "The government honoured Arjan Singh.",
+   "options": [
+    "Arjan Singh is honoured by the government.",
+    "Arjan Singh was honoured by the government.",
+    "Arjan Singh was honour by the government."
+   ],
+   "answer": 1,
+   "rule": "Simple past active becomes <b>was + past participle</b>: was honoured."
+  },
+  {
+   "qid": "c10-03-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "not_only_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Our captain not only bats well but also bowls fast.",
+    "Our captain not only bats well but also bowl fast.",
+    "Our captain not only bats well but bowls also fast."
+   ],
+   "answer": 0,
+   "rule": "Both verbs match the subject (bats, bowls), and <b>but also</b> stays together."
+  },
+  {
+   "qid": "c10-03-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "participle_phrases",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Having complete his course, he joined the squadron.",
+    "Having completed his course, he joined the squadron.",
+    "Having completed his course, he join the squadron."
+   ],
+   "answer": 1,
+   "rule": "<b>Having + past participle</b> shows the first action; the main verb stays past: joined."
+  },
+  {
+   "qid": "c10-03-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "captain",
+    "played",
+    "a",
+    "major",
+    "roll",
+    "in",
+    "the",
+    "team's",
+    "victory."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "role",
+      "rule",
+      "rolls"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>role</b> = a part someone plays; roll = to turn over, or a bread roll."
+  },
+  {
+   "qid": "c10-03-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "IAF",
+    "became",
+    "the",
+    "fourth",
+    "big",
+    "air",
+    "force",
+    "in",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "bigger",
+      "large",
+      "biggest"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A rank (fourth) in the world needs the superlative: the fourth <b>biggest</b>."
+  },
+  {
+   "qid": "c10-03-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "The rank of Marshal of the Air Force was",
+   "after": "upon him in 2002.",
+   "options": [
+    "confer",
+    "conferring",
+    "conferred"
+   ],
+   "answer": 2,
+   "rule": "Passive = was + past participle: was <b>conferred</b> upon him."
+  },
+  {
+   "qid": "c10-03-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "Leading a fly-past of a hundred aircraft was a great",
+   "after": ".",
+   "options": [
+    "feet",
+    "feats",
+    "feat"
+   ],
+   "answer": 2,
+   "rule": "<b>feat</b> = a great achievement; feet = more than one foot. After <b>a</b>, use the singular."
+  },
+  {
+   "qid": "c10-03-17",
+   "type": "build",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "He",
+    "was",
+    "promoted",
+    "to",
+    "the",
+    "rank",
+    "of",
+    "Squadron",
+    "Leader."
+   ],
+   "alts": [],
+   "rule": "Passive: <b>was + past participle</b> (promoted) + to the rank of ..."
+  },
+  {
+   "qid": "c10-03-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "participle_phrases",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why are you so tired?"
+    ]
+   ],
+   "options": [
+    "Having ran ten rounds, I need some rest.",
+    "Have run ten rounds, I need some rest.",
+    "Having run ten rounds, I need some rest."
+   ],
+   "answer": 2,
+   "rule": "<b>Having + past participle</b>: the past participle of run is <b>run</b>."
+  },
+  {
+   "qid": "c10-03-19",
+   "type": "change",
+   "level": 2,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the positive degree.",
+   "source": "Arjan Singh was the greatest air chief of India.",
+   "options": [
+    "No other air chief of India was so greater as Arjan Singh.",
+    "No other air chief of India was as great than Arjan Singh.",
+    "No other air chief of India was as great as Arjan Singh."
+   ],
+   "answer": 2,
+   "rule": "Superlative becomes <b>No other ... as + adjective + as</b>."
+  },
+  {
+   "qid": "c10-03-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Arjan",
+    "Singh",
+    "had",
+    "flown",
+    "more",
+    "then",
+    "sixty",
+    "types",
+    "of",
+    "aircraft.",
+    "He",
+    "was",
+    "respect",
+    "by",
+    "every",
+    "young",
+    "pilot",
+    "in",
+    "the",
+    "squadron."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "that",
+      "than",
+      "the"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 12,
+     "options": [
+      "respecting",
+      "respects",
+      "respected"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Comparisons use <b>than</b>. Passive = was + past participle: was <b>respected</b>."
+  },
+  {
+   "qid": "c10-03-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "not_only_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only he flew fighters, but he also flew transport aircraft.",
+    "Not only did he fly fighters, but he also flew transport aircraft.",
+    "Not only did he flew fighters, but he also flew transport aircraft."
+   ],
+   "answer": 1,
+   "rule": "A sentence starting with <b>Not only</b> takes question order: <b>did he fly</b>."
+  },
+  {
+   "qid": "c10-03-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "participle_phrases",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Having",
+    "be",
+    "selected",
+    "for",
+    "training,",
+    "Arjan",
+    "Singh",
+    "went",
+    "to",
+    "Cranwell",
+    "at",
+    "nineteen."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "been",
+      "is",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Perfect passive participle: <b>Having been + past participle</b>."
+  },
+  {
+   "qid": "c10-03-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "degrees_comparison",
+   "prompt": "Fill in the gap.",
+   "before": "Arjan Singh had flown",
+   "after": "types of aircraft than most pilots.",
+   "options": [
+    "most",
+    "many",
+    "more"
+   ],
+   "answer": 2,
+   "rule": "<b>than</b> needs the comparative: <b>more</b> types."
+  },
+  {
+   "qid": "c10-03-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "participle_phrases",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "by his courage, the young pilots worked harder.",
+   "options": [
+    "Inspiring",
+    "Inspired",
+    "Inspire"
+   ],
+   "answer": 1,
+   "rule": "The pilots were inspired (passive meaning), so use the past participle: <b>Inspired by</b>."
+  },
+  {
+   "qid": "c10-03-25",
+   "type": "build",
+   "level": 3,
+   "topic": "not_only_inversion",
+   "prompt": "Make a sentence with 'not only ... but also'.",
+   "answer": [
+    "He",
+    "was",
+    "not",
+    "only",
+    "a",
+    "pilot",
+    "but",
+    "also",
+    "an",
+    "ambassador."
+   ],
+   "alts": [],
+   "rule": "Put <b>not only</b> and <b>but also</b> before matching parts: a pilot / an ambassador."
+  },
+  {
+   "qid": "c10-03-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "not_only_inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you clean your room?"
+    ]
+   ],
+   "options": [
+    "Yes, I not only cleaned it but also arranged my books.",
+    "Yes, I not only cleaned it but also arrange my books.",
+    "Yes, I not only clean it but also arranged my books."
+   ],
+   "answer": 0,
+   "rule": "Both verbs after not only / but also must be in the same tense: cleaned, arranged."
+  },
+  {
+   "qid": "c10-03-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Has the result been announced?"
+    ]
+   ],
+   "options": [
+    "Yes, it was announced an hour ago.",
+    "Yes, it was announce an hour ago.",
+    "Yes, it is announced an hour ago."
+   ],
+   "answer": 0,
+   "rule": "<b>ago</b> needs the simple past; passive: <b>was announced</b>."
+  },
+  {
+   "qid": "c10-03-28",
+   "type": "change",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Change into active voice.",
+   "source": "The squadron was led by Arjan Singh.",
+   "options": [
+    "Arjan Singh leads the squadron.",
+    "Arjan Singh led the squadron.",
+    "Arjan Singh was leading by the squadron."
+   ],
+   "answer": 1,
+   "rule": "Keep the tense: was led becomes <b>led</b>, and the doer becomes the subject."
+  },
+  {
+   "qid": "c10-03-29",
+   "type": "change",
+   "level": 3,
+   "topic": "not_only_inversion",
+   "prompt": "Begin with 'Not only'.",
+   "source": "He was a fearless pilot and also a great leader.",
+   "options": [
+    "Not only was he a fearless pilot but also a great leader.",
+    "Not only he was a fearless pilot but also a great leader.",
+    "Not only was he a fearless pilot but a great leader also was."
+   ],
+   "answer": 0,
+   "rule": "<b>Not only</b> at the start takes question order: <b>was he</b> ... but also ..."
+  },
+  {
+   "qid": "c10-03-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "homophones",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "The",
+    "air",
+    "show",
+    "was",
+    "held",
+    "on",
+    "Sunday.",
+    "Their",
+    "were",
+    "planes",
+    "of",
+    "every",
+    "size,",
+    "and",
+    "the",
+    "more",
+    "exciting",
+    "moment",
+    "of",
+    "all",
+    "was",
+    "the",
+    "fly-past.",
+    "Having",
+    "watch",
+    "the",
+    "show,",
+    "we",
+    "went",
+    "home",
+    "happy."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "They're",
+      "Theirs",
+      "There"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "most",
+      "much",
+      "many"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 24,
+     "options": [
+      "watching",
+      "watched",
+      "watches"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>There</b> were (exists). The best of all: <b>the most</b> exciting. <b>Having + past participle</b>: watched."
+  },
+  {
+   "qid": "c10-03-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The new runway is being build near our town.",
+    "The new runway is being built near our town.",
+    "The new runway is been built near our town."
+   ],
+   "answer": 1,
+   "rule": "Present continuous passive = <b>is being + past participle</b>: is being built."
+  },
+  {
+   "qid": "c10-03-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the pilots has been given a medal.",
+    "Each of the pilots have been given a medal.",
+    "Each of the pilots has been give a medal."
+   ],
+   "answer": 0,
+   "rule": "<b>Each of</b> takes a singular verb (has), and the passive needs <b>given</b>."
+  },
+  {
+   "qid": "c10-03-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Gnat",
+    "was",
+    "one",
+    "of",
+    "the",
+    "fastest",
+    "plane",
+    "of",
+    "its",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "planes",
+      "plane's",
+      "plain"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>one of the + superlative</b> is followed by a plural noun: planes."
+  },
+  {
+   "qid": "c10-03-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "participle_phrases",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Having",
+    "retired",
+    "from",
+    "the",
+    "IAF,",
+    "Arjan",
+    "Singh",
+    "become",
+    "an",
+    "ambassador",
+    "in",
+    "1971."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "been",
+      "became",
+      "becoming"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The participle phrase needs a full past verb after it: Arjan Singh later <b>became</b>."
+  },
+  {
+   "qid": "c10-03-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "homophones",
+   "prompt": "Fill in the gap.",
+   "before": "The young pilot was the only",
+   "after": "to a large fortune, but he chose to serve the nation.",
+   "options": [
+    "air",
+    "hair",
+    "heir"
+   ],
+   "answer": 2,
+   "rule": "<b>heir</b> = a person who will receive family property; it sounds like air."
+  },
+  {
+   "qid": "c10-03-36",
+   "type": "build",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Make a sentence with a superlative.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "fastest",
+    "jet",
+    "in",
+    "our",
+    "air",
+    "force."
+   ],
+   "alts": [
+    [
+     "This",
+     "jet",
+     "is",
+     "the",
+     "fastest",
+     "in",
+     "our",
+     "air",
+     "force."
+    ]
+   ],
+   "rule": "Superlative: <b>the + -est</b> form, followed by in + a group or place."
+  },
+  {
+   "qid": "c10-03-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "participle_phrases",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nikhil",
+     "Did you finish the fact file?"
+    ]
+   ],
+   "options": [
+    "Yes. Having reading the article twice, I found all the dates.",
+    "Yes. Having read the article twice, I found all the dates.",
+    "Yes. Having read the article twice, I find all the dates."
+   ],
+   "answer": 1,
+   "rule": "<b>Having + past participle</b> (read), and the main verb stays in the past: found."
+  },
+  {
+   "qid": "c10-03-38",
+   "type": "change",
+   "level": 4,
+   "topic": "participle_phrases",
+   "prompt": "Join the sentences. Begin with 'Having'.",
+   "source": "Arjan Singh led the squadron bravely. He was awarded the DFC.",
+   "options": [
+    "Having lead the squadron bravely, Arjan Singh was awarded the DFC.",
+    "Having led the squadron bravely, Arjan Singh awarded the DFC.",
+    "Having led the squadron bravely, Arjan Singh was awarded the DFC."
+   ],
+   "answer": 2,
+   "rule": "<b>Having + past participle</b> (led) for the first action; keep the passive: was awarded."
+  },
+  {
+   "qid": "c10-03-39",
+   "type": "change",
+   "level": 4,
+   "topic": "degrees_comparison",
+   "prompt": "Change into the comparative degree.",
+   "source": "Very few air forces are as large as the IAF.",
+   "options": [
+    "The IAF is larger than most other air force.",
+    "The IAF is more larger than most other air forces.",
+    "The IAF is larger than most other air forces."
+   ],
+   "answer": 2,
+   "rule": "<b>Very few ... as large as</b> becomes <b>larger than most other</b> + plural noun; never more with -er."
+  },
+  {
+   "qid": "c10-03-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "not_only_inversion",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Last",
+    "week,",
+    "our",
+    "school",
+    "team",
+    "gear",
+    "up",
+    "for",
+    "the",
+    "final",
+    "match.",
+    "Not",
+    "only",
+    "did",
+    "we",
+    "practise",
+    "daily,",
+    "but",
+    "we",
+    "watch",
+    "videos",
+    "of",
+    "the",
+    "more",
+    "successful",
+    "captains",
+    "of",
+    "all",
+    "time",
+    "as",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "geared",
+      "gears",
+      "gearing"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "watched",
+      "watching",
+      "watches"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "most",
+      "much",
+      "many"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Last week</b>: geared, watched. <b>of all time</b> needs the superlative: the most successful."
+  },
+  {
+   "qid": "c10-03-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "not_only_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Seldom India has seen such a brave air chief.",
+    "Seldom has India seen such a brave air chief.",
+    "Seldom has India saw such a brave air chief."
+   ],
+   "answer": 1,
+   "rule": "After <b>Seldom</b> at the start, use question order: <b>has India seen</b>."
+  },
+  {
+   "qid": "c10-03-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "By",
+    "1966,",
+    "the",
+    "rank",
+    "of",
+    "the",
+    "air",
+    "chief",
+    "had",
+    "been",
+    "upgrade",
+    "to",
+    "Air",
+    "Chief",
+    "Marshal."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "grade",
+      "upgrades",
+      "upgraded"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect passive = <b>had been + past participle</b>: had been upgraded."
+  },
+  {
+   "qid": "c10-03-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "not_only_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Not only",
+   "after": "he fly over sixty types of aircraft, but he also kept his flying skills till the end.",
+   "options": [
+    "did",
+    "does",
+    "had"
+   ],
+   "answer": 0,
+   "rule": "Past story + base verb fly: <b>Not only did he fly</b>."
+  },
+  {
+   "qid": "c10-03-44",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Make a passive question.",
+   "answer": [
+    "By",
+    "whom",
+    "was",
+    "the",
+    "fly-past",
+    "led?"
+   ],
+   "alts": [],
+   "rule": "Passive question: <b>By whom + was + subject + past participle</b>?"
+  },
+  {
+   "qid": "c10-03-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "degrees_comparison",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Is Mount Everest higher than K2?"
+    ]
+   ],
+   "options": [
+    "Yes, it is higher than any mountain in the world.",
+    "Yes, it is higher than any other mountain in the world.",
+    "Yes, it is highest than any other mountain in the world."
+   ],
+   "answer": 1,
+   "rule": "Everest is itself a mountain, so say <b>higher than any other</b> mountain."
+  },
+  {
+   "qid": "c10-03-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "homophones",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "Why was the match stopped?"
+    ]
+   ],
+   "options": [
+    "It was stopped because of the heavy rein.",
+    "It was stopped because of the heavy rain.",
+    "It was stop because of the heavy rain."
+   ],
+   "answer": 1,
+   "rule": "<b>rain</b> = water from clouds; rein = a strap for a horse. Passive: was <b>stopped</b>."
+  },
+  {
+   "qid": "c10-03-47",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Did the Supreme Allied Commander award him the DFC?",
+   "options": [
+    "Was he awarded the DFC by the Supreme Allied Commander?",
+    "Did he awarded the DFC by the Supreme Allied Commander?",
+    "Was he award the DFC by the Supreme Allied Commander?"
+   ],
+   "answer": 0,
+   "rule": "A <b>Did</b> question becomes <b>Was + subject + past participle</b> in the passive."
+  },
+  {
+   "qid": "c10-03-48",
+   "type": "change",
+   "level": 5,
+   "topic": "not_only_inversion",
+   "prompt": "Begin with 'Never'.",
+   "source": "I have never seen such a grand fly-past.",
+   "options": [
+    "Never I have seen such a grand fly-past.",
+    "Never have I saw such a grand fly-past.",
+    "Never have I seen such a grand fly-past."
+   ],
+   "answer": 2,
+   "rule": "After <b>Never</b> at the start, use question order: <b>have I seen</b>."
+  },
+  {
+   "qid": "c10-03-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "participle_phrases",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Having",
+    "flew",
+    "over",
+    "sixty",
+    "types",
+    "of",
+    "aircraft,",
+    "Arjan",
+    "Singh",
+    "were",
+    "not",
+    "only",
+    "a",
+    "skilled",
+    "pilot",
+    "but",
+    "also",
+    "an",
+    "astute",
+    "leader,",
+    "and",
+    "his",
+    "courage",
+    "will",
+    "always",
+    "be",
+    "remember",
+    "by",
+    "the",
+    "nation."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "flying",
+      "flies",
+      "flown"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 9,
+     "options": [
+      "is",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "remembering",
+      "remembered",
+      "remembers"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Having <b>flown</b>. Arjan Singh (one person): <b>was</b>. Passive: will be <b>remembered</b>."
+  },
+  {
+   "qid": "c10-03-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "not_only_inversion",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Hardly",
+    "had",
+    "the",
+    "planes",
+    "took",
+    "off",
+    "when",
+    "the",
+    "crowd",
+    "began",
+    "to",
+    "cheer.",
+    "It",
+    "was",
+    "the",
+    "louder",
+    "cheer",
+    "I",
+    "had",
+    "ever",
+    "heard."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "taken",
+      "taking",
+      "takes"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "loudly",
+      "loudest",
+      "loud"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Hardly had + subject + past participle</b> (taken). <b>ever heard</b> needs the superlative: loudest."
+  }
+ ]
+}

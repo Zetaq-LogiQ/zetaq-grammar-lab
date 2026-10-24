@@ -1,0 +1,1186 @@
+{
+ "class": 9,
+ "id": "18",
+ "title": "Intellectual Rubbish",
+ "topics": [
+  {
+   "tag": "word_class",
+   "name": "Noun or verb: advice/advise, device/devise, practice/practise"
+  },
+  {
+   "tag": "dep_prep",
+   "name": "Expressions with prepositions (prone to, wary of, under the influence)"
+  },
+  {
+   "tag": "linkers",
+   "name": "Linking words (however, therefore, although, despite)"
+  },
+  {
+   "tag": "conditional2",
+   "name": "Second conditional (If I were ...)"
+  },
+  {
+   "tag": "unless_until",
+   "name": "Unless, until, as soon as, no sooner ... than"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-18-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "word_class",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My grandmother gave me some good advice.",
+    "My grandmother gave me some good advise.",
+    "My grandmother gave me a good advices."
+   ],
+   "answer": 0,
+   "rule": "<b>Advice</b> (with c) is the noun and is uncountable. <b>Advise</b> (with s) is the verb."
+  },
+  {
+   "qid": "c9-18-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "dep_prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Be wary on opinions that flatter you.",
+    "Be wary with opinions that flatter you.",
+    "Be wary of opinions that flatter you."
+   ],
+   "answer": 2,
+   "rule": "The fixed expression is <b>wary of</b> something."
+  },
+  {
+   "qid": "c9-18-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "dep_prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Divya",
+    "and",
+    "Kabir",
+    "had",
+    "a",
+    "difference",
+    "with",
+    "opinion",
+    "about",
+    "the",
+    "new",
+    "film."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "for",
+      "at",
+      "of"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The expression is <b>a difference of opinion</b>."
+  },
+  {
+   "qid": "c9-18-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditional2",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Rohan",
+    "had",
+    "a",
+    "telescope,",
+    "he",
+    "would",
+    "studies",
+    "the",
+    "night",
+    "sky."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "studied",
+      "study",
+      "studying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Second conditional: <b>would</b> + base verb: <b>would study</b>."
+  },
+  {
+   "qid": "c9-18-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "linkers",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "his fame, Aristotle made a silly mistake.",
+   "options": [
+    "Although",
+    "Despite",
+    "However"
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> is followed by a noun (<b>his fame</b>). <b>Although</b> needs a full clause."
+  },
+  {
+   "qid": "c9-18-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "word_class",
+   "prompt": "Fill in the gap.",
+   "before": "Our teacher will",
+   "after": "us on how to prepare for the exam.",
+   "options": [
+    "advice",
+    "advices",
+    "advise"
+   ],
+   "answer": 2,
+   "rule": "After <b>will</b> we need a verb: <b>advise</b> (with s). <b>Advice</b> (with c) is a noun."
+  },
+  {
+   "qid": "c9-18-07",
+   "type": "build",
+   "level": 1,
+   "topic": "conditional2",
+   "prompt": "Give advice with 'If I were you'.",
+   "answer": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I'd",
+    "check",
+    "it."
+   ],
+   "alts": [],
+   "rule": "We give advice with <b>If I were you, I'd</b> + base verb."
+  },
+  {
+   "qid": "c9-18-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "unless_until",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "When shall we leave for the market?"
+    ]
+   ],
+   "options": [
+    "We'll leave as soon as the rain will stop.",
+    "We'll leave as soon as the rain stop.",
+    "We'll leave as soon as the rain stops."
+   ],
+   "answer": 2,
+   "rule": "After <b>as soon as</b>, use the simple present for the future, not <b>will</b>: <b>as soon as the rain stops</b>."
+  },
+  {
+   "qid": "c9-18-09",
+   "type": "change",
+   "level": 1,
+   "topic": "unless_until",
+   "prompt": "Rewrite using 'unless'.",
+   "source": "If you don't check the facts, you will believe rumours.",
+   "options": [
+    "Unless you don't check the facts, you will believe rumours.",
+    "Unless you check the facts, you will believe rumours.",
+    "Unless you will check the facts, you will believe rumours."
+   ],
+   "answer": 1,
+   "rule": "<b>Unless</b> means <b>if not</b>, so drop the <b>don't</b>: <b>Unless you check</b>."
+  },
+  {
+   "qid": "c9-18-10",
+   "type": "proof",
+   "level": 1,
+   "topic": "word_class",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "My",
+    "coach",
+    "gave",
+    "me",
+    "some",
+    "very",
+    "good",
+    "advise",
+    "yesterday.",
+    "She",
+    "said,",
+    "'Practise",
+    "every",
+    "day,",
+    "because",
+    "practise",
+    "makes",
+    "perfect.'"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "advice",
+      "advices",
+      "advised"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "practised",
+      "practises",
+      "practice"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Nouns end in <b>-ice</b> (<b>advice</b>, <b>practice</b>); verbs end in <b>-ise</b> (<b>Practise every day</b>)."
+  },
+  {
+   "qid": "c9-18-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional2",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I knew the answer, I would tell you.",
+    "If I knew the answer, I will tell you.",
+    "If I know the answer, I would tell you."
+   ],
+   "answer": 0,
+   "rule": "Second conditional: <b>If</b> + simple past, <b>would</b> + base verb."
+  },
+  {
+   "qid": "c9-18-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "linkers",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the test was hard, but Sameer passed it.",
+    "Although the test was hard, Sameer passed it.",
+    "Despite the test was hard, Sameer passed it."
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> + clause, then the main clause with no <b>but</b>. <b>Despite</b> cannot take a full clause."
+  },
+  {
+   "qid": "c9-18-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "word_class",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "science",
+    "club",
+    "will",
+    "device",
+    "a",
+    "new",
+    "experiment."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "devices",
+      "devised",
+      "devise"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>will</b> we need the verb <b>devise</b> (to plan). <b>Device</b> is a noun (a tool)."
+  },
+  {
+   "qid": "c9-18-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "unless_until",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Please",
+    "wait",
+    "at",
+    "the",
+    "gate",
+    "until",
+    "Papa",
+    "arrive",
+    "from",
+    "the",
+    "office."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "arriving",
+      "arrived",
+      "arrives"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>until</b>, use the simple present for a future event. <b>Papa</b> is singular: <b>arrives</b>."
+  },
+  {
+   "qid": "c9-18-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "dep_prep",
+   "prompt": "Fill in the gap.",
+   "before": "Fear has a strong influence",
+   "after": "our thinking.",
+   "options": [
+    "on",
+    "to",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "We say <b>an influence on</b> something."
+  },
+  {
+   "qid": "c9-18-16",
+   "type": "build",
+   "level": 2,
+   "topic": "linkers",
+   "prompt": "Make a sentence with 'despite'.",
+   "answer": [
+    "Despite",
+    "heavy",
+    "rain,",
+    "the",
+    "match",
+    "continued."
+   ],
+   "alts": [],
+   "rule": "<b>Despite</b> + noun phrase (<b>heavy rain</b>), then the main clause."
+  },
+  {
+   "qid": "c9-18-17",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditional2",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "What would you do with a time machine?"
+    ]
+   ],
+   "options": [
+    "I will visited the age of the dinosaurs.",
+    "I would visit the age of the dinosaurs.",
+    "I would visited the age of the dinosaurs."
+   ],
+   "answer": 1,
+   "rule": "An imagined situation: <b>would</b> + base verb: <b>I would visit</b>."
+  },
+  {
+   "qid": "c9-18-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "word_class",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Why are you here so early, Sahil?"
+    ]
+   ],
+   "options": [
+    "I have come for practise, sir.",
+    "I have come for practice, sir.",
+    "I has come for practice, sir."
+   ],
+   "answer": 1,
+   "rule": "After <b>for</b> we need the noun <b>practice</b> (with c), and <b>I</b> takes <b>have</b>."
+  },
+  {
+   "qid": "c9-18-19",
+   "type": "change",
+   "level": 2,
+   "topic": "linkers",
+   "prompt": "Combine using 'although'.",
+   "source": "Riya was tired. She finished her homework.",
+   "options": [
+    "Although Riya was tired, but she finished her homework.",
+    "Although Riya is tired, she finished her homework.",
+    "Although Riya was tired, she finished her homework."
+   ],
+   "answer": 2,
+   "rule": "<b>Although</b> + clause, then the main clause with no <b>but</b>. Both clauses stay in the past."
+  },
+  {
+   "qid": "c9-18-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "dep_prep",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Fear",
+    "has",
+    "many",
+    "forms.",
+    "My",
+    "cousin",
+    "is",
+    "afraid",
+    "from",
+    "the",
+    "dark,",
+    "and",
+    "Kabir",
+    "is",
+    "always",
+    "wary",
+    "of",
+    "talk",
+    "to",
+    "strangers."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "of",
+      "by",
+      "at"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "talked",
+      "talks",
+      "talking"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "We say <b>afraid of</b>. After a preposition like <b>of</b>, use the -ing form: <b>wary of talking</b>."
+  },
+  {
+   "qid": "c9-18-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "dep_prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The prophetess took advantage on her followers.",
+    "The prophetess took advantage of her followers.",
+    "The prophetess took advantage at her followers."
+   ],
+   "answer": 1,
+   "rule": "The fixed expression is <b>take advantage of</b> someone."
+  },
+  {
+   "qid": "c9-18-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "unless_until",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Until you admit your fears, you cannot conquer them.",
+    "Unless you don't admit your fears, you cannot conquer them.",
+    "Until you won't admit your fears, you cannot conquer them."
+   ],
+   "answer": 0,
+   "rule": "<b>Until</b> takes the simple present for the future, and <b>unless</b> is never used with <b>don't</b>."
+  },
+  {
+   "qid": "c9-18-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "linkers",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Despite",
+    "he",
+    "was",
+    "very",
+    "tired,",
+    "Arjun",
+    "finished",
+    "the",
+    "race."
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "However",
+      "Therefore",
+      "Although"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A full clause (<b>he was very tired</b>) needs <b>Although</b>. <b>Despite</b> takes a noun or -ing form."
+  },
+  {
+   "qid": "c9-18-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditional2",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "you, I would read a different newspaper for a change.",
+   "options": [
+    "am",
+    "were",
+    "will be"
+   ],
+   "answer": 1,
+   "rule": "For an imaginary situation, use <b>If I were you</b> with <b>would</b>."
+  },
+  {
+   "qid": "c9-18-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "word_class",
+   "prompt": "Fill in the gap.",
+   "before": "Regular",
+   "after": "will improve your handwriting.",
+   "options": [
+    "practise",
+    "practice",
+    "practised"
+   ],
+   "answer": 1,
+   "rule": "The subject of a sentence is a noun: <b>practice</b> (with c). <b>Practise</b> (with s) is the verb."
+  },
+  {
+   "qid": "c9-18-26",
+   "type": "build",
+   "level": 3,
+   "topic": "unless_until",
+   "prompt": "Give a warning with 'unless'.",
+   "answer": [
+    "Don't",
+    "believe",
+    "rumours",
+    "unless",
+    "you",
+    "check",
+    "them."
+   ],
+   "alts": [],
+   "rule": "<b>Unless</b> means <b>if not</b>: <b>Don't believe rumours unless you check them.</b>"
+  },
+  {
+   "qid": "c9-18-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "linkers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nisha",
+     "Did the cricket match go ahead yesterday?"
+    ]
+   ],
+   "options": [
+    "Yes, it was played despite of the rain.",
+    "Yes, it was played although the rain.",
+    "Yes, it was played in spite of the rain."
+   ],
+   "answer": 2,
+   "rule": "Say <b>in spite of</b> or <b>despite</b> (never <b>despite of</b>) before a noun. <b>Although</b> needs a clause."
+  },
+  {
+   "qid": "c9-18-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "dep_prep",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Iyer",
+     "Why do you look worried, Pooja?"
+    ]
+   ],
+   "options": [
+    "I'm afraid from the science test tomorrow.",
+    "I'm afraid of the science test tomorrow.",
+    "I'm afraid with the science test tomorrow."
+   ],
+   "answer": 1,
+   "rule": "The adjective <b>afraid</b> is followed by <b>of</b>: <b>afraid of the test</b>."
+  },
+  {
+   "qid": "c9-18-29",
+   "type": "change",
+   "level": 3,
+   "topic": "conditional2",
+   "prompt": "Rewrite using 'If' (second conditional).",
+   "source": "I don't have a car, so I can't drive you home.",
+   "options": [
+    "If I had a car, I could drive you home.",
+    "If I have a car, I could drive you home.",
+    "If I had a car, I can drive you home."
+   ],
+   "answer": 0,
+   "rule": "An unreal present: <b>If</b> + simple past (<b>had</b>), <b>could</b>/<b>would</b> + base verb."
+  },
+  {
+   "qid": "c9-18-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "word_class",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "My",
+    "grandma",
+    "always",
+    "gives",
+    "us",
+    "good",
+    "advise",
+    "about",
+    "health.",
+    "She",
+    "advice",
+    "us",
+    "to",
+    "practice",
+    "yoga",
+    "every",
+    "morning",
+    "before",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "advice",
+      "advices",
+      "advised"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "advise",
+      "advising",
+      "advises"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 13,
+     "options": [
+      "practise",
+      "practising",
+      "practised"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Noun: <b>advice</b>. Verbs: <b>She advises</b> (with -s for she) and <b>to practise</b> (with s)."
+  },
+  {
+   "qid": "c9-18-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "linkers",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Fear causes superstition; however, courage defeats it.",
+    "Fear cause superstition; however, courage defeats it.",
+    "Fear causes superstition; however, courage defeat it."
+   ],
+   "answer": 0,
+   "rule": "<b>However</b> after a semicolon joins two clauses; each singular subject (<b>fear</b>, <b>courage</b>) takes a verb with -s."
+  },
+  {
+   "qid": "c9-18-32",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditional2",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Iceland",
+    "were",
+    "on",
+    "the",
+    "equator,",
+    "it",
+    "would",
+    "is",
+    "much",
+    "warmer."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "be",
+      "been",
+      "being"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>would</b>, use the base verb: <b>would be much warmer</b>."
+  },
+  {
+   "qid": "c9-18-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "unless_until",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "stranger",
+    "arrived",
+    "then",
+    "my",
+    "mother",
+    "called",
+    "the",
+    "police."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "when",
+      "than",
+      "that"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>No sooner</b> is a comparative, so it pairs with <b>than</b>, never <b>then</b> or <b>when</b>."
+  },
+  {
+   "qid": "c9-18-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "dep_prep",
+   "prompt": "Fill in the gap.",
+   "before": "People often act foolishly",
+   "after": "the influence of fear.",
+   "options": [
+    "below",
+    "under",
+    "on"
+   ],
+   "answer": 1,
+   "rule": "The fixed expression is <b>under the influence of</b>."
+  },
+  {
+   "qid": "c9-18-35",
+   "type": "build",
+   "level": 4,
+   "topic": "conditional2",
+   "prompt": "Ask an imaginary question.",
+   "answer": [
+    "If",
+    "Raju",
+    "were",
+    "a",
+    "bird,",
+    "where",
+    "would",
+    "he",
+    "fly?"
+   ],
+   "alts": [],
+   "rule": "Second conditional question: <b>If</b> + <b>were</b>, then wh-word + <b>would</b> + subject + base verb."
+  },
+  {
+   "qid": "c9-18-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "linkers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "Why did you carry an umbrella? It's sunny!"
+    ]
+   ],
+   "options": [
+    "The forecast said it might rain, so I brought it.",
+    "The forecast said it might rain, so I brings it.",
+    "The forecast said it might rain, despite I brought it."
+   ],
+   "answer": 0,
+   "rule": "<b>So</b> joins a reason to its result, and the story stays in the past: <b>so I brought it</b>."
+  },
+  {
+   "qid": "c9-18-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "unless_until",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "Shall we start dinner?"
+    ]
+   ],
+   "options": [
+    "Let's wait until Mummy will come home.",
+    "Let's wait unless Mummy comes home.",
+    "Let's wait until Mummy comes home."
+   ],
+   "answer": 2,
+   "rule": "<b>Until</b> (up to the time) + simple present for the future: <b>until Mummy comes</b>."
+  },
+  {
+   "qid": "c9-18-38",
+   "type": "change",
+   "level": 4,
+   "topic": "unless_until",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as the prophetess spoke, the crowd replied.",
+   "options": [
+    "No sooner the prophetess spoke than the crowd replied.",
+    "No sooner did the prophetess spoke than the crowd replied.",
+    "No sooner did the prophetess speak than the crowd replied."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> + <b>did</b> + subject + base verb + <b>than</b>: <b>No sooner did the prophetess speak than</b>."
+  },
+  {
+   "qid": "c9-18-39",
+   "type": "change",
+   "level": 4,
+   "topic": "linkers",
+   "prompt": "Rewrite using 'despite'.",
+   "source": "Although he was afraid, Raj went into the dark room.",
+   "options": [
+    "Despite he was afraid, Raj went into the dark room.",
+    "Despite being afraid, Raj went into the dark room.",
+    "Despite of being afraid, Raj went into the dark room."
+   ],
+   "answer": 1,
+   "rule": "<b>Despite</b> + -ing form (<b>being afraid</b>). It never takes a full clause or <b>of</b>."
+  },
+  {
+   "qid": "c9-18-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "conditional2",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "I",
+    "had",
+    "enough",
+    "money,",
+    "I",
+    "would",
+    "travelled",
+    "to",
+    "Japan",
+    "and",
+    "Brazil.",
+    "Meeting",
+    "new",
+    "people",
+    "would",
+    "help",
+    "me",
+    "understand",
+    "them",
+    "better.",
+    "Unless",
+    "I",
+    "travel,",
+    "I",
+    "will",
+    "never",
+    "knows",
+    "how",
+    "others",
+    "live."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "travels",
+      "travelling",
+      "travel"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 27,
+     "options": [
+      "known",
+      "knew",
+      "know"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>would</b> and <b>will</b>, use the base verb: <b>would travel</b>, <b>will never know</b>."
+  },
+  {
+   "qid": "c9-18-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditional2",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Were I a scientist, I would test every claim myself.",
+    "Were I a scientist, I would tested every claim myself.",
+    "Was I a scientist, I would test every claim myself."
+   ],
+   "answer": 0,
+   "rule": "<b>Were I</b> ... is a formal way to say <b>If I were</b> ..., followed by <b>would</b> + base verb."
+  },
+  {
+   "qid": "c9-18-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "linkers",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "In",
+    "spite",
+    "of",
+    "feel",
+    "afraid",
+    "of",
+    "ghosts,",
+    "Kiran",
+    "entered",
+    "the",
+    "dark",
+    "room."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "felt",
+      "feeling",
+      "feels"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>In spite of</b> is followed by a noun or an -ing form: <b>In spite of feeling afraid</b>."
+  },
+  {
+   "qid": "c9-18-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "unless_until",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the faithful gathered",
+   "after": "the prophetess began to speak.",
+   "options": [
+    "than",
+    "then",
+    "when"
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly</b> pairs with <b>when</b>; <b>No sooner</b> pairs with <b>than</b>."
+  },
+  {
+   "qid": "c9-18-44",
+   "type": "fill",
+   "level": 5,
+   "topic": "dep_prep",
+   "prompt": "Fill in the gap.",
+   "before": "You must guard yourself",
+   "after": "the myth-making power of fear.",
+   "options": [
+    "with",
+    "on",
+    "against"
+   ],
+   "answer": 2,
+   "rule": "The verb <b>guard</b> takes <b>against</b>: <b>guard yourself against</b> a danger."
+  },
+  {
+   "qid": "c9-18-45",
+   "type": "build",
+   "level": 5,
+   "topic": "unless_until",
+   "prompt": "Use 'No sooner ... than'.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "we",
+    "reached",
+    "home",
+    "than",
+    "it",
+    "rained."
+   ],
+   "alts": [],
+   "rule": "<b>No sooner had</b> + subject + past participle + <b>than</b> + simple past."
+  },
+  {
+   "qid": "c9-18-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditional2",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Would you trust someone who promised to turn silver into gold?"
+    ]
+   ],
+   "options": [
+    "Of course not. If someone said that, I will call the police.",
+    "Of course not. If someone says that, I would call the police.",
+    "Of course not. If someone said that, I would call the police."
+   ],
+   "answer": 2,
+   "rule": "An imagined situation: <b>If</b> + simple past (<b>said</b>), <b>would</b> + base verb (<b>would call</b>)."
+  },
+  {
+   "qid": "c9-18-47",
+   "type": "change",
+   "level": 5,
+   "topic": "linkers",
+   "prompt": "Combine using 'not only ... but also'.",
+   "source": "Fear causes superstition. It also causes cruelty.",
+   "options": [
+    "Fear causes not only superstition and also cruelty.",
+    "Fear causes not only superstition but also cruelty.",
+    "Fear causes not only superstition but cruelty also causes."
+   ],
+   "answer": 1,
+   "rule": "<b>Not only</b> and <b>but also</b> stand before matching parts: <b>not only superstition but also cruelty</b>."
+  },
+  {
+   "qid": "c9-18-48",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional2",
+   "prompt": "Rewrite using 'If' (second conditional).",
+   "source": "Rahul isn't careful, so he makes silly errors.",
+   "options": [
+    "If Rahul is careful, he would not make silly errors.",
+    "If Rahul were careful, he would not make silly errors.",
+    "If Rahul were careful, he would not made silly errors."
+   ],
+   "answer": 1,
+   "rule": "An unreal present: <b>If</b> + <b>were</b>, <b>would not</b> + base verb: <b>would not make</b>."
+  },
+  {
+   "qid": "c9-18-49",
+   "type": "change",
+   "level": 5,
+   "topic": "unless_until",
+   "prompt": "Rewrite using 'Hardly ... when'.",
+   "source": "As soon as the bell rang, the students rushed out.",
+   "options": [
+    "Hardly had the bell rung when the students rushed out.",
+    "Hardly had the bell rang when the students rushed out.",
+    "Hardly the bell had rung than the students rushed out."
+   ],
+   "answer": 0,
+   "rule": "<b>Hardly had</b> + subject + past participle (<b>rung</b>) + <b>when</b> + simple past."
+  },
+  {
+   "qid": "c9-18-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "linkers",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Many",
+    "people",
+    "are",
+    "prone",
+    "to",
+    "believing",
+    "rumours;",
+    "however,",
+    "a",
+    "wise",
+    "person",
+    "check",
+    "the",
+    "facts.",
+    "Although",
+    "his",
+    "great",
+    "learning,",
+    "Aristotle",
+    "made",
+    "a",
+    "silly",
+    "error.",
+    "He",
+    "would",
+    "have",
+    "avoided",
+    "it",
+    "if",
+    "he",
+    "has",
+    "asked",
+    "his",
+    "wife."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "checks",
+      "checking",
+      "checker"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 14,
+     "options": [
+      "Though",
+      "However",
+      "Despite"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 30,
+     "options": [
+      "had",
+      "have",
+      "was"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>A wise person checks</b>; <b>Despite</b> + noun phrase; <b>would have avoided</b> needs <b>if he had asked</b>."
+  }
+ ]
+}

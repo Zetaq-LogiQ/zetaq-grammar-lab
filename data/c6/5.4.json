@@ -1,0 +1,991 @@
+{
+ "class": 6,
+ "id": "5.4",
+ "title": "Supportive Friends",
+ "topics": [
+  {
+   "tag": "interjections",
+   "name": "Interjections"
+  },
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech (punctuation, said/told/asked)"
+  },
+  {
+   "tag": "suffixes",
+   "name": "Word forms with suffixes (-ful, -less, -ness, -ship, -able, -ly)"
+  },
+  {
+   "tag": "future",
+   "name": "Future with will and going to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-5.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Pick the sentence with the right interjection.",
+   "options": [
+    "Ouch! I hurt my finger.",
+    "Hurray! I hurt my finger.",
+    "Wow! I hurt my finger."
+   ],
+   "answer": 0,
+   "rule": "<b>Ouch!</b> shows sudden pain. <b>Hurray!</b> is for joy and <b>Wow!</b> for surprise."
+  },
+  {
+   "qid": "c6-5.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"No time!\" told Scurry.",
+    "\"No time!\" say Scurry.",
+    "\"No time!\" said Scurry."
+   ],
+   "answer": 2,
+   "rule": "Use <b>said</b> when no listener is named; <b>told</b> must have a person after it (told Amelia)."
+  },
+  {
+   "qid": "c6-5.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Scurry will moves into his new home tomorrow.",
+    "Scurry will move into his new home tomorrow.",
+    "Scurry will moving into his new home tomorrow."
+   ],
+   "answer": 1,
+   "rule": "After <b>will</b>, use the base form of the verb: <b>will move</b>."
+  },
+  {
+   "qid": "c6-5.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "suffixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Amelia",
+    "was",
+    "very",
+    "help",
+    "to",
+    "Scurry."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "helpful",
+      "helped",
+      "helps"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>was very</b> we need an adjective: help + <b>-ful</b> = <b>helpful</b>."
+  },
+  {
+   "qid": "c6-5.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "Rocky",
+    "will",
+    "digs",
+    "a",
+    "new",
+    "burrow."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "dig",
+      "dug",
+      "digging"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base verb with no <b>-s</b>: <b>will dig</b>."
+  },
+  {
+   "qid": "c6-5.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "We won the kabaddi match!",
+   "options": [
+    "Ouch!",
+    "Alas!",
+    "Hurray!"
+   ],
+   "answer": 2,
+   "rule": "<b>Hurray!</b> shows joy at a win. <b>Ouch!</b> is for pain and <b>Alas!</b> for sorrow."
+  },
+  {
+   "qid": "c6-5.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "suffixes",
+   "prompt": "Fill in the gap.",
+   "before": "The friends'",
+   "after": "made Scurry very happy.",
+   "options": [
+    "kindness",
+    "kindly",
+    "kind"
+   ],
+   "answer": 0,
+   "rule": "After <b>the friends'</b> we need a noun: kind + <b>-ness</b> = <b>kindness</b>."
+  },
+  {
+   "qid": "c6-5.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "am",
+    "going",
+    "to",
+    "help",
+    "you."
+   ],
+   "alts": [],
+   "rule": "Future plan: <b>am/is/are going to</b> + base verb."
+  },
+  {
+   "qid": "c6-5.4-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "interjections",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "Look! Grandma has sent you a big box of sweets."
+    ]
+   ],
+   "options": [
+    "Ouch! That's so kind of her.",
+    "Wow! That's so kind of her.",
+    "Wow! That are so kind of her."
+   ],
+   "answer": 1,
+   "rule": "<b>Wow!</b> shows happy surprise, and <b>that</b> takes <b>is</b> (that's)."
+  },
+  {
+   "qid": "c6-5.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Walter",
+     "Will you come to see my tree hole?"
+    ]
+   ],
+   "options": [
+    "Yes, I will came after lunch.",
+    "Yes, I will come after lunch.",
+    "Yes, I will coming after lunch."
+   ],
+   "answer": 1,
+   "rule": "<b>Will</b> + base verb: <b>I will come</b>."
+  },
+  {
+   "qid": "c6-5.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Amelia said Scurry, \"Come and share my bed.\"",
+    "Amelia told to Scurry, \"Come and share my bed.\"",
+    "Amelia said to Scurry, \"Come and share my bed.\""
+   ],
+   "answer": 2,
+   "rule": "We say <b>said to</b> someone but <b>told</b> someone (no <b>to</b>)."
+  },
+  {
+   "qid": "c6-5.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "suffixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rocky worked hard and was very success.",
+    "Rocky worked hard and was very successfully.",
+    "Rocky worked hard and was very successful."
+   ],
+   "answer": 2,
+   "rule": "After <b>was very</b> we need an adjective: <b>successful</b>."
+  },
+  {
+   "qid": "c6-5.4-13",
+   "type": "spot",
+   "level": 2,
+   "topic": "interjections",
+   "prompt": "Pick the sentence with the right interjection.",
+   "options": [
+    "Oops! I dropped my pencil.",
+    "Hurray! I dropped my pencil.",
+    "Alas! I dropped my pencil."
+   ],
+   "answer": 0,
+   "rule": "<b>Oops!</b> is said after a small mistake or accident."
+  },
+  {
+   "qid": "c6-5.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "suffixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Their",
+    "friendly",
+    "grew",
+    "stronger",
+    "after",
+    "the",
+    "storm."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "friendship",
+      "friendlier",
+      "befriend"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>their</b> we need a noun: friend + <b>-ship</b> = <b>friendship</b>."
+  },
+  {
+   "qid": "c6-5.4-15",
+   "type": "fix",
+   "level": 2,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "are",
+    "Scurry",
+    "going",
+    "to",
+    "sleep",
+    "tonight?"
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "is",
+      "am",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Scurry</b> is one squirrel, so use <b>is going to</b>."
+  },
+  {
+   "qid": "c6-5.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Look at those dark clouds! It",
+   "after": "rain.",
+   "options": [
+    "are going to",
+    "going to",
+    "is going to"
+   ],
+   "answer": 2,
+   "rule": "When we can see something coming, use <b>is going to</b>. <b>It</b> takes <b>is</b>."
+  },
+  {
+   "qid": "c6-5.4-17",
+   "type": "fill",
+   "level": 2,
+   "topic": "interjections",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "What a beautiful tree hole!",
+   "options": [
+    "Ouch!",
+    "Wow!",
+    "Oops!"
+   ],
+   "answer": 1,
+   "rule": "<b>Wow!</b> shows surprise and admiration."
+  },
+  {
+   "qid": "c6-5.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order to make the sentence.",
+   "answer": [
+    "Scurry",
+    "said,",
+    "\"I",
+    "am",
+    "in",
+    "a",
+    "hurry.\""
+   ],
+   "alts": [],
+   "rule": "Reporting words first, then a comma, then the spoken words inside quotation marks."
+  },
+  {
+   "qid": "c6-5.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "suffixes",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Amelia",
+     "Is your new home nice?"
+    ]
+   ],
+   "options": [
+    "Yes, it is very comfort.",
+    "Yes, it is very comfortably.",
+    "Yes, it is very comfortable."
+   ],
+   "answer": 2,
+   "rule": "After <b>is very</b> use an adjective: comfort + <b>-able</b> = <b>comfortable</b>."
+  },
+  {
+   "qid": "c6-5.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rocky",
+     "What are you going to do with all those nuts?"
+    ]
+   ],
+   "options": [
+    "I am going to stored them for winter.",
+    "I am going to store them for winter.",
+    "I going to store them for winter."
+   ],
+   "answer": 1,
+   "rule": "<b>I am going to</b> + base verb: <b>store</b>."
+  },
+  {
+   "qid": "c6-5.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"What's the matter?\" Amelia asked Scurry.",
+    "\"What's the matter?\" Amelia said Scurry.",
+    "\"What's the matter?\" Amelia asked to Scurry."
+   ],
+   "answer": 0,
+   "rule": "A question is reported with <b>asked</b> + person, with no <b>to</b>."
+  },
+  {
+   "qid": "c6-5.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Don't worry, I will digs out your nuts.",
+    "Don't worry, I am dig out your nuts.",
+    "Don't worry, I will dig out your nuts."
+   ],
+   "answer": 2,
+   "rule": "An offer made at the moment uses <b>will</b> + base verb: <b>I will dig</b>."
+  },
+  {
+   "qid": "c6-5.4-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "suffixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Scurry",
+    "thanked",
+    "his",
+    "friends",
+    "for",
+    "their",
+    "kindly",
+    "and",
+    "help."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "kinder",
+      "kindness",
+      "kindest"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>their</b> and joined to the noun <b>help</b>, we need a noun: <b>kindness</b>."
+  },
+  {
+   "qid": "c6-5.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "winter,",
+    "Scurry",
+    "is",
+    "going",
+    "to",
+    "collected",
+    "more",
+    "nuts."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "collects",
+      "collect",
+      "collecting"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Going to</b> is followed by the base verb: <b>going to collect</b>."
+  },
+  {
+   "qid": "c6-5.4-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "suffixes",
+   "prompt": "Fill in the gap.",
+   "before": "Scurry felt great",
+   "after": "when he saw his new home.",
+   "options": [
+    "happily",
+    "happiness",
+    "happy"
+   ],
+   "answer": 1,
+   "rule": "After <b>great</b> here we need a noun: happy + <b>-ness</b> = <b>happiness</b>."
+  },
+  {
+   "qid": "c6-5.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "interjections",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "That was close. The tree nearly fell on me.",
+   "options": [
+    "Phew!",
+    "Hurray!",
+    "Yippee!"
+   ],
+   "answer": 0,
+   "rule": "<b>Phew!</b> shows relief after a danger has passed."
+  },
+  {
+   "qid": "c6-5.4-27",
+   "type": "build",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "you",
+    "going",
+    "to",
+    "visit",
+    "Walter?"
+   ],
+   "alts": [],
+   "rule": "Question with going to: <b>Are</b> + subject + <b>going to</b> + base verb?"
+  },
+  {
+   "qid": "c6-5.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order to make the sentence.",
+   "answer": [
+    "Amelia",
+    "asked,",
+    "\"Are",
+    "you",
+    "hungry?\""
+   ],
+   "alts": [],
+   "rule": "Comma after <b>asked</b>; the question mark goes inside the closing quotation mark."
+  },
+  {
+   "qid": "c6-5.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "interjections",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anaya",
+     "Our class won the cleanliness prize today!"
+    ]
+   ],
+   "options": [
+    "Alas! I knew we would win.",
+    "Hurray! I knew we would won.",
+    "Hurray! I knew we would win."
+   ],
+   "answer": 2,
+   "rule": "<b>Hurray!</b> shows joy; after <b>would</b> use the base verb: <b>would win</b>."
+  },
+  {
+   "qid": "c6-5.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "It's very windy tonight. Close the window, please."
+    ]
+   ],
+   "options": [
+    "Okay, I will closed it right now.",
+    "Okay, I closing it right now.",
+    "Okay, I will close it right now."
+   ],
+   "answer": 2,
+   "rule": "A quick decision or promise uses <b>will</b> + base verb: <b>I will close</b>."
+  },
+  {
+   "qid": "c6-5.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"Where I am going to sleep?\" whimpered Scurry.",
+    "\"Where am I go to sleep?\" whimpered Scurry.",
+    "\"Where am I going to sleep?\" whimpered Scurry."
+   ],
+   "answer": 2,
+   "rule": "Inside the quotes, a question keeps question order: <b>Where am I going to</b> + base verb?"
+  },
+  {
+   "qid": "c6-5.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "suffixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It was a hopeful morning for Scurry.",
+    "It was an hopeful morning for Scurry.",
+    "It was a hopefully morning for Scurry."
+   ],
+   "answer": 0,
+   "rule": "Before the noun <b>morning</b> use the adjective <b>hopeful</b>; <b>h</b> here is spoken, so <b>a</b>."
+  },
+  {
+   "qid": "c6-5.4-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Rocky",
+    "and",
+    "Amelia",
+    "is",
+    "going",
+    "to",
+    "help",
+    "me",
+    "tomorrow."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "am",
+      "are",
+      "be"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Rocky and Amelia</b> are two, so use <b>are going to</b>."
+  },
+  {
+   "qid": "c6-5.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "suffixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "supper",
+    "at",
+    "Scurry's",
+    "new",
+    "home",
+    "was",
+    "really",
+    "enjoy",
+    "for",
+    "everyone."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "enjoyable",
+      "enjoyment",
+      "enjoying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>was really</b> we need an adjective: enjoy + <b>-able</b> = <b>enjoyable</b>."
+  },
+  {
+   "qid": "c6-5.4-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "interjections",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "I forgot my lunch box at home.",
+   "options": [
+    "Hurray!",
+    "Wow!",
+    "Oops!"
+   ],
+   "answer": 2,
+   "rule": "<b>Oops!</b> is used when we notice a small mistake."
+  },
+  {
+   "qid": "c6-5.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Don't worry. We",
+   "after": "leave you alone in this storm.",
+   "options": [
+    "won't",
+    "doesn't",
+    "isn't"
+   ],
+   "answer": 0,
+   "rule": "The negative of <b>will</b> is <b>won't</b> (will not) + base verb."
+  },
+  {
+   "qid": "c6-5.4-37",
+   "type": "build",
+   "level": 4,
+   "topic": "interjections",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Hey,",
+    "Scurry!",
+    "Come",
+    "and",
+    "watch",
+    "me."
+   ],
+   "alts": [],
+   "rule": "<b>Hey</b> calls someone's attention; it comes first, followed by the name."
+  },
+  {
+   "qid": "c6-5.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "suffixes",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Rocky",
+    "is",
+    "a",
+    "very",
+    "helpful",
+    "friend."
+   ],
+   "alts": [],
+   "rule": "The adjective <b>helpful</b> comes before the noun <b>friend</b>, after <b>a very</b>."
+  },
+  {
+   "qid": "c6-5.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "suffixes",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Walter",
+     "Did you like the supper at Scurry's new home?"
+    ]
+   ],
+   "options": [
+    "Yes, it was delicious and the evening was wonderful.",
+    "Yes, it was delicious and the evening was wonderfully.",
+    "Yes, it was delicious and the evening was wonder."
+   ],
+   "answer": 0,
+   "rule": "After <b>was</b> we need an adjective: wonder + <b>-ful</b> = <b>wonderful</b>."
+  },
+  {
+   "qid": "c6-5.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Amelia",
+     "What are your plans for this weekend?"
+    ]
+   ],
+   "options": [
+    "I am going to visiting my cousins in Pune.",
+    "I am going to visit my cousins in Pune.",
+    "I going to visit my cousins in Pune."
+   ],
+   "answer": 1,
+   "rule": "Plans already made: <b>I am going to</b> + base verb."
+  },
+  {
+   "qid": "c6-5.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"No problem,\" Rocky told to Scurry. \"I can dig them out for you.\"",
+    "\"No problem,\" Rocky said Scurry. \"I can dig them out for you.\"",
+    "\"No problem,\" Rocky told Scurry. \"I can dig them out for you.\""
+   ],
+   "answer": 2,
+   "rule": "<b>Told</b> is followed directly by the listener (told Scurry); <b>said</b> needs <b>to</b> before the listener."
+  },
+  {
+   "qid": "c6-5.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "suffixes",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Scurry was so busy that he was careless about his friends' feelings.",
+    "Scurry was so busy that he was carelessly about his friends' feelings.",
+    "Scurry was so busy that he was carelessness about his friends' feelings."
+   ],
+   "answer": 0,
+   "rule": "After <b>he was</b> we need an adjective: care + <b>-less</b> = <b>careless</b>."
+  },
+  {
+   "qid": "c6-5.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "wind",
+    "is",
+    "howling,",
+    "so",
+    "the",
+    "old",
+    "tree",
+    "is",
+    "going",
+    "to",
+    "falls",
+    "soon."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "fell",
+      "falling",
+      "fall"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Going to</b> takes the base verb: <b>is going to fall</b>."
+  },
+  {
+   "qid": "c6-5.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "suffixes",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Scurry",
+    "stared",
+    "at",
+    "his",
+    "fallen",
+    "tree",
+    "with",
+    "great",
+    "sad",
+    "and",
+    "fear."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "sadly",
+      "sadder",
+      "sadness"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>great</b> and joined to the noun <b>fear</b>, we need a noun: <b>sadness</b>."
+  },
+  {
+   "qid": "c6-5.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Fill in the gap.",
+   "before": "Look at Scurry running with his arms full of nuts! He",
+   "after": "trip over that root.",
+   "options": [
+    "will to",
+    "is going to",
+    "going to"
+   ],
+   "answer": 1,
+   "rule": "When we can see what is about to happen, use <b>is going to</b> + base verb."
+  },
+  {
+   "qid": "c6-5.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "suffixes",
+   "prompt": "Fill in the gap.",
+   "before": "Scurry's",
+   "after": "to his friends showed that he had learnt his lesson.",
+   "options": [
+    "thankful",
+    "thankfulness",
+    "thankfully"
+   ],
+   "answer": 1,
+   "rule": "After <b>Scurry's</b> we need a noun as the subject: <b>thankfulness</b>."
+  },
+  {
+   "qid": "c6-5.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "We",
+    "will",
+    "have",
+    "time",
+    "for",
+    "our",
+    "friends."
+   ],
+   "alts": [],
+   "rule": "<b>Will</b> + base verb (<b>have</b>) for a promise about the future."
+  },
+  {
+   "qid": "c6-5.4-48",
+   "type": "build",
+   "level": 5,
+   "topic": "direct_speech",
+   "prompt": "Put the words in order to make the sentence.",
+   "answer": [
+    "Rocky",
+    "said,",
+    "\"I",
+    "can",
+    "dig",
+    "faster",
+    "than",
+    "you.\""
+   ],
+   "alts": [],
+   "rule": "Comma after <b>said</b>; the full stop goes inside the closing quotation mark."
+  },
+  {
+   "qid": "c6-5.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "interjections",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Guess what? I came first in the drawing competition!"
+    ]
+   ],
+   "options": [
+    "Alas! That's wonderful news. I'm so happy for you.",
+    "Wow! That's wonderful news. I'm so happy for you.",
+    "Wow! That's wonderful news. I'm so happily for you."
+   ],
+   "answer": 1,
+   "rule": "<b>Wow!</b> shows happy surprise (<b>Alas!</b> is for sorrow), and after <b>I'm so</b> use the adjective <b>happy</b>."
+  },
+  {
+   "qid": "c6-5.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aai",
+     "Your friend's house was damaged in the rain. What will you do?"
+    ]
+   ],
+   "options": [
+    "I'm going to help him clean up, and I'll take him some food too.",
+    "I'm going to helping him clean up, and I'll take him some food too.",
+    "I'm going to help him clean up, and I'll took him some food too."
+   ],
+   "answer": 0,
+   "rule": "<b>Going to</b> and <b>will ('ll)</b> are both followed by the base verb: <b>help</b>, <b>take</b>."
+  }
+ ]
+}

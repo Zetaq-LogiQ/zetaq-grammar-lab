@@ -1,0 +1,996 @@
+{
+ "class": 7,
+ "id": "19",
+ "title": "Think Before You Speak !",
+ "topics": [
+  {
+   "tag": "noun_verb",
+   "name": "Same word as noun and verb; noun forms"
+  },
+  {
+   "tag": "adverbials",
+   "name": "Adverbials: word, phrase and clause"
+  },
+  {
+   "tag": "reported",
+   "name": "Reported speech (statements)"
+  },
+  {
+   "tag": "cond1",
+   "name": "Conditionals type 1 (if ... will)"
+  },
+  {
+   "tag": "modals",
+   "name": "Modals: should, must, ought to, have to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-19-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Grandpa made a kind remarked.",
+    "Grandpa made a kind remarks.",
+    "Grandpa made a kind remark."
+   ],
+   "answer": 2,
+   "rule": "After <b>a kind</b> we need a singular noun: <b>remark</b>. Here remark is a noun, not a verb."
+  },
+  {
+   "qid": "c7-19-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "adverbials",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya spoke soften to her friend.",
+    "Riya spoke softly to her friend.",
+    "Riya spoked softly to her friend."
+   ],
+   "answer": 1,
+   "rule": "To tell <b>how</b> she spoke, use the adverb <b>softly</b>. The past of speak is <b>spoke</b>."
+  },
+  {
+   "qid": "c7-19-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "adverbials",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Amit",
+    "runs",
+    "very",
+    "quick",
+    "in",
+    "every",
+    "race."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "quickly",
+      "quickness",
+      "quicker"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Quickly</b> is an adverb. It tells us how Amit runs."
+  },
+  {
+   "qid": "c7-19-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday,",
+    "the",
+    "young",
+    "man",
+    "show",
+    "the",
+    "paper",
+    "to",
+    "his",
+    "teacher."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "shows",
+      "showing",
+      "showed"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Here <b>show</b> is a verb, and <b>Yesterday</b> needs the simple past: <b>showed</b>."
+  },
+  {
+   "qid": "c7-19-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "We",
+   "after": "think before we speak.",
+   "options": [
+    "should",
+    "should to",
+    "shoulds"
+   ],
+   "answer": 0,
+   "rule": "A modal like <b>should</b> never takes -s and is followed by the base verb without <b>to</b>."
+  },
+  {
+   "qid": "c7-19-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "cond1",
+   "prompt": "Fill in the gap.",
+   "before": "If you tear the paper, the wind",
+   "after": "the bits away.",
+   "options": [
+    "carried",
+    "will carry",
+    "carrying"
+   ],
+   "answer": 1,
+   "rule": "Type 1 conditional: <b>if</b> + simple present, then <b>will</b> + base verb: <b>will carry</b>."
+  },
+  {
+   "qid": "c7-19-07",
+   "type": "build",
+   "level": 1,
+   "topic": "adverbials",
+   "prompt": "Make a sentence with an adverb phrase of place.",
+   "answer": [
+    "We",
+    "played",
+    "cricket",
+    "on",
+    "the",
+    "playground."
+   ],
+   "alts": [],
+   "rule": "<b>On the playground</b> is a phrase used as an adverb. It tells us where we played."
+  },
+  {
+   "qid": "c7-19-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Rahul, you look upset. What happened?"
+    ]
+   ],
+   "options": [
+    "I said something rude to Kabir. I should apologise.",
+    "I says something rude to Kabir. I should apologise.",
+    "I said something rude to Kabir. I should apologises."
+   ],
+   "answer": 0,
+   "rule": "Use the past <b>said</b> for what happened, and the base verb after <b>should</b>: <b>should apologise</b>."
+  },
+  {
+   "qid": "c7-19-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "cond1",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ananya",
+     "Will you come to the park after school?"
+    ]
+   ],
+   "options": [
+    "Yes, if it won't rain, I will come.",
+    "Yes, if it doesn't rain, I will come.",
+    "Yes, if it doesn't rain, I coming."
+   ],
+   "answer": 1,
+   "rule": "In the <b>if</b>-clause use the simple present (<b>doesn't rain</b>); put <b>will</b> in the main clause."
+  },
+  {
+   "qid": "c7-19-10",
+   "type": "change",
+   "level": 1,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Riya said, \"I am tired.\"",
+   "options": [
+    "Riya said that I was tired.",
+    "Riya said that she were tired.",
+    "Riya said that she was tired."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b> and <b>am</b> becomes <b>was</b> after the past verb <b>said</b>."
+  },
+  {
+   "qid": "c7-19-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Please don't change the plan now.",
+    "Please don't changes the plan now.",
+    "Please don't changed the plan now."
+   ],
+   "answer": 0,
+   "rule": "Here <b>change</b> is a verb. After <b>don't</b> we use the base verb: <b>change</b>."
+  },
+  {
+   "qid": "c7-19-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "cond1",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you will speak in anger, you will regret it.",
+    "If you speak in anger, you regretting it.",
+    "If you speak in anger, you will regret it."
+   ],
+   "answer": 2,
+   "rule": "Type 1 conditional: <b>if</b> + simple present, main clause <b>will</b> + base verb."
+  },
+  {
+   "qid": "c7-19-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "modals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neha",
+    "ought",
+    "to",
+    "stays",
+    "calm",
+    "during",
+    "the",
+    "debate."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "stayed",
+      "stay",
+      "staying"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Ought to</b> is followed by the base verb: <b>ought to stay</b>."
+  },
+  {
+   "qid": "c7-19-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "adverbials",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "bits",
+    "of",
+    "paper",
+    "scattered",
+    "rapid",
+    "in",
+    "the",
+    "wind."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "rapidly",
+      "rapidity",
+      "rapids"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "To say how the bits scattered, use the adverb <b>rapidly</b>."
+  },
+  {
+   "qid": "c7-19-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Fill in the gap.",
+   "before": "Kabir said that he",
+   "after": "lost his friend's pen.",
+   "options": [
+    "have",
+    "had",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "In reported speech after <b>said</b>, the earlier action takes the past perfect: <b>had lost</b>."
+  },
+  {
+   "qid": "c7-19-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "noun_verb",
+   "prompt": "Fill in the gap.",
+   "before": "The wind made it hard to",
+   "after": "the bits of paper.",
+   "options": [
+    "collection",
+    "collected",
+    "collect"
+   ],
+   "answer": 2,
+   "rule": "After <b>to</b> we need the base verb: <b>to collect</b>."
+  },
+  {
+   "qid": "c7-19-17",
+   "type": "build",
+   "level": 2,
+   "topic": "cond1",
+   "prompt": "Make a type 1 conditional sentence.",
+   "answer": [
+    "If",
+    "you",
+    "shout,",
+    "your",
+    "friend",
+    "will",
+    "feel",
+    "hurt."
+   ],
+   "alts": [],
+   "rule": "<b>If</b> + simple present (<b>you shout</b>), then <b>will</b> + base verb (<b>will feel</b>)."
+  },
+  {
+   "qid": "c7-19-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What did your coach say about the match?"
+    ]
+   ],
+   "options": [
+    "He said that we has played very well.",
+    "He said that we had played very well.",
+    "He said that we playing very well."
+   ],
+   "answer": 1,
+   "rule": "Report the coach's words in the past perfect: <b>we had played</b>."
+  },
+  {
+   "qid": "c7-19-19",
+   "type": "change",
+   "level": 2,
+   "topic": "cond1",
+   "prompt": "Join the sentences using 'if'.",
+   "source": "You listen carefully. You will learn a lot.",
+   "options": [
+    "If you will listen carefully, you will learn a lot.",
+    "If you listen carefully, you learn a lot will.",
+    "If you listen carefully, you will learn a lot."
+   ],
+   "answer": 2,
+   "rule": "Keep the simple present in the <b>if</b>-clause and <b>will learn</b> in the main clause."
+  },
+  {
+   "qid": "c7-19-20",
+   "type": "change",
+   "level": 2,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Kabir said, \"I like this song.\"",
+   "options": [
+    "Kabir said that he liked that song.",
+    "Kabir said that he liked this songs.",
+    "Kabir said that I liked that song."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>he</b>, <b>like</b> becomes <b>liked</b> and <b>this</b> becomes <b>that</b>."
+  },
+  {
+   "qid": "c7-19-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbials",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I will call you when I will reach home.",
+    "I will call you when I reach home.",
+    "I will call you when I reached home."
+   ],
+   "answer": 1,
+   "rule": "In an adverb clause of time about the future, use the simple present: <b>when I reach</b>."
+  },
+  {
+   "qid": "c7-19-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "His return made everyone happy.",
+    "His returned made everyone happy.",
+    "His return make everyone happy."
+   ],
+   "answer": 0,
+   "rule": "After <b>His</b> we need a noun: <b>return</b>. The verb is past: <b>made</b>."
+  },
+  {
+   "qid": "c7-19-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "cond1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Tanvi",
+    "practise",
+    "every",
+    "day,",
+    "she",
+    "will",
+    "win",
+    "the",
+    "debate."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "practised",
+      "practising",
+      "practises"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In the <b>if</b>-clause use the simple present. <b>Tanvi</b> is singular: <b>practises</b>."
+  },
+  {
+   "qid": "c7-19-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mohan",
+    "told",
+    "me",
+    "that",
+    "both",
+    "his",
+    "sisters",
+    "was",
+    "feeling",
+    "unwell."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "is",
+      "were",
+      "has"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both his sisters</b> is plural, and the reported verb stays past: <b>were feeling</b>."
+  },
+  {
+   "qid": "c7-19-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "adverbials",
+   "prompt": "Fill in the gap.",
+   "before": "The wise teacher listened",
+   "after": "and then gave the young man a sheet of paper.",
+   "options": [
+    "patient",
+    "patience",
+    "patiently"
+   ],
+   "answer": 2,
+   "rule": "We need an adverb to tell how he listened: <b>patiently</b>."
+  },
+  {
+   "qid": "c7-19-26",
+   "type": "build",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "She",
+    "said",
+    "that",
+    "she",
+    "was",
+    "very",
+    "sorry."
+   ],
+   "alts": [],
+   "rule": "Reported speech: <b>said that</b> + pronoun + past verb: <b>she was very sorry</b>."
+  },
+  {
+   "qid": "c7-19-27",
+   "type": "build",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Make a sentence giving advice.",
+   "answer": [
+    "Kabir",
+    "ought",
+    "to",
+    "return",
+    "Ravi's",
+    "book."
+   ],
+   "alts": [],
+   "rule": "<b>Ought to</b> + base verb gives advice: <b>ought to return</b>."
+  },
+  {
+   "qid": "c7-19-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "adverbials",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "When will you submit your project?"
+    ]
+   ],
+   "options": [
+    "I will submit it as soon as I finish the drawing.",
+    "I will submit it as soon as I will finish the drawing.",
+    "I submitting it as soon as I finish the drawing."
+   ],
+   "answer": 0,
+   "rule": "The clause <b>as soon as I finish</b> is an adverbial of time; it takes the simple present, not will."
+  },
+  {
+   "qid": "c7-19-29",
+   "type": "change",
+   "level": 3,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "The teacher said to me, \"You are a good listener.\"",
+   "options": [
+    "The teacher told me that you were a good listener.",
+    "The teacher told me that I am being a good listener.",
+    "The teacher told me that I was a good listener."
+   ],
+   "answer": 2,
+   "rule": "<b>said to me</b> becomes <b>told me</b>; <b>you</b> becomes <b>I</b> and <b>are</b> becomes <b>was</b>."
+  },
+  {
+   "qid": "c7-19-30",
+   "type": "change",
+   "level": 3,
+   "topic": "modals",
+   "prompt": "Change into a question.",
+   "source": "We should tell the truth.",
+   "options": [
+    "Do we should tell the truth?",
+    "Should we tells the truth?",
+    "Should we tell the truth?"
+   ],
+   "answer": 2,
+   "rule": "To make a question, put the modal first: <b>Should we tell</b>. No <b>do</b> is needed."
+  },
+  {
+   "qid": "c7-19-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "noun_verb",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bowler's throw were perfect.",
+    "The bowler's throws was perfect.",
+    "The bowler's throw was perfect."
+   ],
+   "answer": 2,
+   "rule": "Here <b>throw</b> is a noun. One throw is singular, so use <b>was</b>."
+  },
+  {
+   "qid": "c7-19-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The teacher told us to thinks before speaking.",
+    "The teacher told us to think before speaking.",
+    "The teacher told us think before speaking."
+   ],
+   "answer": 1,
+   "rule": "<b>told us to</b> + base verb: <b>to think</b>."
+  },
+  {
+   "qid": "c7-19-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "new",
+    "park",
+    "will",
+    "be",
+    "a",
+    "great",
+    "benefit",
+    "to",
+    "all",
+    "the",
+    "children",
+    "who",
+    "lives",
+    "nearby."
+   ],
+   "errors": [
+    {
+     "i": 13,
+     "options": [
+      "living",
+      "live",
+      "alive"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Benefit</b> is a noun here. <b>Who</b> refers to <b>children</b> (plural), so use <b>live</b>."
+  },
+  {
+   "qid": "c7-19-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adverbials",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sara",
+    "was",
+    "angry,",
+    "but",
+    "she",
+    "spoke",
+    "very",
+    "polite",
+    "to",
+    "her",
+    "brother."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "politeness",
+      "politely",
+      "politer"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Spoke</b> needs an adverb to tell how: <b>politely</b>."
+  },
+  {
+   "qid": "c7-19-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "cond1",
+   "prompt": "Fill in the gap.",
+   "before": "If you",
+   "after": "your homework, you can play cricket.",
+   "options": [
+    "have finished",
+    "has finished",
+    "finishing"
+   ],
+   "answer": 0,
+   "rule": "<b>You</b> takes <b>have</b>, so the present perfect is <b>have finished</b>."
+  },
+  {
+   "qid": "c7-19-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "You",
+   "after": "to wear a helmet when you ride a bike.",
+   "options": [
+    "has",
+    "must",
+    "have"
+   ],
+   "answer": 2,
+   "rule": "<b>Have to</b> shows a rule you must follow. <b>Must</b> never takes <b>to</b>."
+  },
+  {
+   "qid": "c7-19-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adverbials",
+   "prompt": "Make a sentence with an adverb clause of time.",
+   "answer": [
+    "Mira",
+    "waited",
+    "until",
+    "her",
+    "father",
+    "arrived."
+   ],
+   "alts": [],
+   "rule": "<b>Until her father arrived</b> is a clause used as an adverb. It tells how long Mira waited."
+  },
+  {
+   "qid": "c7-19-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Isha",
+     "What did the doctor tell your grandfather?"
+    ]
+   ],
+   "options": [
+    "She told him that he should walks every morning.",
+    "She told him that he should walk every morning.",
+    "She tell him that he should walk every morning."
+   ],
+   "answer": 1,
+   "rule": "Use the past <b>told</b>, and the base verb after <b>should</b>: <b>should walk</b>."
+  },
+  {
+   "qid": "c7-19-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "cond1",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Shall we go to the beach on Sunday?"
+    ]
+   ],
+   "options": [
+    "Yes! If the weather is fine, we will have a picnic.",
+    "Yes! If the weather will be fine, we will have a picnic.",
+    "Yes! If the weather is fine, we having a picnic."
+   ],
+   "answer": 0,
+   "rule": "Simple present in the <b>if</b>-clause (<b>is fine</b>), <b>will</b> + base verb in the main clause."
+  },
+  {
+   "qid": "c7-19-40",
+   "type": "change",
+   "level": 4,
+   "topic": "modals",
+   "prompt": "Change into the negative.",
+   "source": "Riya should wait for the bus.",
+   "options": [
+    "Riya should not wait for the bus.",
+    "Riya does not should wait for the bus.",
+    "Riya should not waited for the bus."
+   ],
+   "answer": 0,
+   "rule": "Put <b>not</b> after the modal and keep the base verb: <b>should not wait</b>."
+  },
+  {
+   "qid": "c7-19-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "adverbials",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Before a word is spoken, it passes through two fences.",
+    "Before a word is spoken, it pass through two fences.",
+    "Before a word spoken, it passes through two fences."
+   ],
+   "answer": 0,
+   "rule": "The adverb clause needs a full verb: <b>is spoken</b>. <b>It</b> is singular: <b>passes</b>."
+  },
+  {
+   "qid": "c7-19-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The young man said that he has spoke harsh words to his friend.",
+    "The young man said that he had spoken harsh words to his friend.",
+    "The young man said that he had spoke harsh words to his friend."
+   ],
+   "answer": 1,
+   "rule": "The past perfect is <b>had</b> + past participle. The past participle of speak is <b>spoken</b>."
+  },
+  {
+   "qid": "c7-19-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "cond1",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Unless",
+    "you",
+    "calm",
+    "down,",
+    "you",
+    "will",
+    "says",
+    "something",
+    "you",
+    "may",
+    "regret."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "say",
+      "said",
+      "saying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b> we always use the base verb: <b>will say</b>."
+  },
+  {
+   "qid": "c7-19-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "noun_verb",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nobody",
+    "noticed",
+    "the",
+    "sudden",
+    "change",
+    "in",
+    "Rohan's",
+    "behave",
+    "after",
+    "the",
+    "trip."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "behaved",
+      "behaves",
+      "behaviour"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>Rohan's</b> we need a noun: <b>behaviour</b>. Here <b>change</b> is also a noun."
+  },
+  {
+   "qid": "c7-19-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Fill in the gap.",
+   "before": "Socrates told his students that they",
+   "after": "speak only after asking themselves three questions.",
+   "options": [
+    "ought",
+    "must to",
+    "should"
+   ],
+   "answer": 2,
+   "rule": "<b>Should</b> + base verb gives advice. <b>Ought</b> needs <b>to</b>, and <b>must</b> never takes <b>to</b>."
+  },
+  {
+   "qid": "c7-19-46",
+   "type": "build",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Make a reported statement.",
+   "answer": [
+    "Kabir",
+    "said",
+    "that",
+    "he",
+    "had",
+    "forgotten",
+    "his",
+    "lines."
+   ],
+   "alts": [],
+   "rule": "Reported speech often uses the past perfect: <b>had forgotten</b>."
+  },
+  {
+   "qid": "c7-19-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "modals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why are you late, Arjun?"
+    ]
+   ],
+   "options": [
+    "Sorry, ma'am. The bus broke down, so I had to walk.",
+    "Sorry, ma'am. The bus broke down, so I have to walked.",
+    "Sorry, ma'am. The bus breaked down, so I had to walk."
+   ],
+   "answer": 0,
+   "rule": "The past of <b>have to</b> is <b>had to</b> + base verb. The past of break is <b>broke</b>."
+  },
+  {
+   "qid": "c7-19-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Zoya",
+     "Did Mr Rao say when the test would be?"
+    ]
+   ],
+   "options": [
+    "Yes, he said that it will being on Friday.",
+    "Yes, he said that it would be on Friday.",
+    "Yes, he said that it would been on Friday."
+   ],
+   "answer": 1,
+   "rule": "In reported speech <b>will</b> becomes <b>would</b>, followed by the base verb: <b>would be</b>."
+  },
+  {
+   "qid": "c7-19-49",
+   "type": "change",
+   "level": 5,
+   "topic": "reported",
+   "prompt": "Change into reported speech.",
+   "source": "Neha said, \"I have finished my project.\"",
+   "options": [
+    "Neha said that she had finished her project.",
+    "Neha said that she had finished my project.",
+    "Neha said that she has finish her project."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> becomes <b>she</b>, <b>my</b> becomes <b>her</b>, and <b>have finished</b> becomes <b>had finished</b>."
+  },
+  {
+   "qid": "c7-19-50",
+   "type": "change",
+   "level": 5,
+   "topic": "adverbials",
+   "prompt": "Join the sentences using 'when'.",
+   "source": "The bell rang. The children ran out.",
+   "options": [
+    "When the bell rings, the children ran out.",
+    "When the bell rang, the children ran out.",
+    "When the bell rang, the children run out."
+   ],
+   "answer": 1,
+   "rule": "Both actions are in the past, so keep <b>rang</b> and <b>ran</b>. The <b>when</b>-clause is an adverbial."
+  }
+ ]
+}

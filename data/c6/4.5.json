@@ -1,0 +1,1007 @@
+{
+ "class": 6,
+ "id": "4.5",
+ "title": "The Unbreakable Navdeep Singh",
+ "topics": [
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions (and, but, or, so, because, since)"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present and 'I am' statements"
+  },
+  {
+   "tag": "possessive_s",
+   "name": "Possessive 's and s'"
+  },
+  {
+   "tag": "adverbs",
+   "name": "Adverbs of manner"
+  },
+  {
+   "tag": "revision",
+   "name": "Tenses, articles and comparison (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-4.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Which sentence uses the correct conjunction?",
+   "options": [
+    "Navdeep was tired or he kept practising.",
+    "Navdeep was tired so he kept practising.",
+    "Navdeep was tired but he kept practising."
+   ],
+   "answer": 2,
+   "rule": "Being tired and still practising are opposite ideas, so join them with <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I is determined.",
+    "I are determined.",
+    "I am determined."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, always use <b>am</b>: <b>I am</b> determined."
+  },
+  {
+   "qid": "c6-4.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "possessive_s",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Navdeeps coach was proud of him.",
+    "Navdeep's coach was proud of him.",
+    "Navdeep coach's was proud of him."
+   ],
+   "answer": 1,
+   "rule": "To show something belongs to a person, add <b>'s</b> to the name: <b>Navdeep's coach</b>."
+  },
+  {
+   "qid": "c6-4.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Navdeep",
+    "enjoys",
+    "both",
+    "javelin",
+    "or",
+    "shot",
+    "put."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "and",
+      "but",
+      "so"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Both</b> always pairs with <b>and</b>: both javelin <b>and</b> shot put."
+  },
+  {
+   "qid": "c6-4.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Navdeep",
+    "practise",
+    "the",
+    "javelin",
+    "throw",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "practises",
+      "practising",
+      "practice"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Navdeep</b> is one person, so the present-tense verb takes -s: <b>practises</b>."
+  },
+  {
+   "qid": "c6-4.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Raju missed the bus",
+   "after": "he woke up late.",
+   "options": [
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": 0,
+   "rule": "Waking up late is the reason, so use <b>because</b>."
+  },
+  {
+   "qid": "c6-4.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "Navdeep threw the javelin",
+   "after": "across the field.",
+   "options": [
+    "powerful",
+    "powerfully",
+    "power"
+   ],
+   "answer": 1,
+   "rule": "An adverb tells <b>how</b> he threw: <b>powerfully</b> (adjective + <b>-ly</b>)."
+  },
+  {
+   "qid": "c6-4.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "We",
+    "believe",
+    "in",
+    "ourselves."
+   ],
+   "alts": [],
+   "rule": "Subject + verb + rest: <b>We believe in ourselves.</b>"
+  },
+  {
+   "qid": "c6-4.5-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "Do you want juice or milk?"
+    ]
+   ],
+   "options": [
+    "I want juice, please.",
+    "I wants juice, please.",
+    "I am want juice, please."
+   ],
+   "answer": 0,
+   "rule": "With <b>I</b>, the simple present has no <b>-s</b>: <b>I want</b>."
+  },
+  {
+   "qid": "c6-4.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "possessive_s",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Whose shoes are these?"
+    ]
+   ],
+   "options": [
+    "They are Navdeep shoes.",
+    "They are Navdeep's shoes.",
+    "They are Navdeeps shoes."
+   ],
+   "answer": 1,
+   "rule": "Ownership needs <b>'s</b>: <b>Navdeep's shoes</b>."
+  },
+  {
+   "qid": "c6-4.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence uses the correct conjunction?",
+   "options": [
+    "We can either walk and take the bus.",
+    "We can either walk but take the bus.",
+    "We can either walk or take the bus."
+   ],
+   "answer": 2,
+   "rule": "<b>Either</b> always pairs with <b>or</b>: either walk <b>or</b> take the bus."
+  },
+  {
+   "qid": "c6-4.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "My friends believes in me.",
+    "My friends believing in me.",
+    "My friends believe in me."
+   ],
+   "answer": 2,
+   "rule": "<b>Friends</b> is plural, so the verb has no <b>-s</b>: <b>believe</b>."
+  },
+  {
+   "qid": "c6-4.5-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "was",
+    "very",
+    "thirsty,",
+    "because",
+    "I",
+    "drank",
+    "two",
+    "glasses",
+    "of",
+    "water."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "or",
+      "nor",
+      "so"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Thirst is the reason and drinking is the result. A result is joined with <b>so</b>."
+  },
+  {
+   "qid": "c6-4.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "possessive_s",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "sisters",
+    "name",
+    "is",
+    "Kavya",
+    "Patil."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "sister",
+      "sister's",
+      "sisters's"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The name belongs to my sister, so write <b>sister's</b>."
+  },
+  {
+   "qid": "c6-4.5-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Navdeep",
+   "after": "hard every day.",
+   "options": [
+    "train",
+    "training",
+    "trains"
+   ],
+   "answer": 2,
+   "rule": "<b>Every day</b> shows a habit. With <b>he</b> (Navdeep), add <b>-s</b>: <b>trains</b>."
+  },
+  {
+   "qid": "c6-4.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adverbs",
+   "prompt": "Fill in the gap.",
+   "before": "He spoke",
+   "after": "about his dreams.",
+   "options": [
+    "proudly",
+    "proud",
+    "pride"
+   ],
+   "answer": 0,
+   "rule": "<b>How</b> did he speak? Use the adverb <b>proudly</b>."
+  },
+  {
+   "qid": "c6-4.5-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "She",
+    "danced",
+    "but",
+    "didn't",
+    "sing."
+   ],
+   "alts": [],
+   "rule": "Two opposite actions of the same person are joined with <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "possessive_s",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "This",
+    "is",
+    "my",
+    "brother's",
+    "new",
+    "bat."
+   ],
+   "alts": [],
+   "rule": "Owner + <b>'s</b> + describing word + thing: <b>my brother's new bat</b>."
+  },
+  {
+   "qid": "c6-4.5-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you late?"
+    ]
+   ],
+   "options": [
+    "I am late because the bus broke down.",
+    "I am late so the bus broke down.",
+    "I am late or the bus broke down."
+   ],
+   "answer": 0,
+   "rule": "The bus breaking down is the reason, so use <b>because</b>."
+  },
+  {
+   "qid": "c6-4.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "Does your brother play any sport?"
+    ]
+   ],
+   "options": [
+    "Yes, he plays football every Sunday.",
+    "Yes, he play football every Sunday.",
+    "Yes, he is play football every Sunday."
+   ],
+   "answer": 0,
+   "rule": "A habit with <b>he</b>: verb + <b>-s</b>: <b>he plays</b>."
+  },
+  {
+   "qid": "c6-4.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Since it was raining, so we stayed indoors.",
+    "Since it was raining, we stayed indoors.",
+    "Since it was raining, but we stayed indoors."
+   ],
+   "answer": 1,
+   "rule": "One conjunction joins two parts. <b>Since</b> is enough, so don't add <b>so</b> or <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Navdeep trained very hardly for the Paralympics.",
+    "Navdeep trained very harder for the Paralympics.",
+    "Navdeep trained very hard for the Paralympics."
+   ],
+   "answer": 2,
+   "rule": "The adverb of <b>hard</b> is also <b>hard</b>. <b>Hardly</b> means 'almost not'."
+  },
+  {
+   "qid": "c6-4.5-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "possessive_s",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children's handprints are on the wall.",
+    "The childrens' handprints are on the wall.",
+    "The children handprints's are on the wall."
+   ],
+   "answer": 0,
+   "rule": "<b>Children</b> is a plural without <b>-s</b>, so add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c6-4.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Sakshi",
+    "is",
+    "studying",
+    "hard",
+    "so",
+    "her",
+    "exam",
+    "is",
+    "next",
+    "month."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "because",
+      "or",
+      "nor"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The exam is the reason she studies, so use <b>because</b>."
+  },
+  {
+   "qid": "c6-4.5-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "He",
+    "walked",
+    "confident",
+    "onto",
+    "the",
+    "stage",
+    "to",
+    "receive",
+    "the",
+    "award."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "confidently",
+      "confidence",
+      "confide"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>How</b> did he walk? An action needs an adverb: <b>confidently</b>."
+  },
+  {
+   "qid": "c6-4.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "I wanted to go out,",
+   "after": "it was too late.",
+   "options": [
+    "so",
+    "but",
+    "because"
+   ],
+   "answer": 1,
+   "rule": "Wanting to go out and it being too late are opposite ideas, so use <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Every athlete",
+   "after": "a dream.",
+   "options": [
+    "have",
+    "having",
+    "has"
+   ],
+   "answer": 2,
+   "rule": "<b>Every</b> + singular noun takes a singular verb: <b>every athlete has</b>."
+  },
+  {
+   "qid": "c6-4.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "adverbs",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "He",
+    "practised",
+    "patiently",
+    "for",
+    "many",
+    "years."
+   ],
+   "alts": [
+    [
+     "He",
+     "patiently",
+     "practised",
+     "for",
+     "many",
+     "years."
+    ]
+   ],
+   "rule": "The adverb <b>patiently</b> tells how he practised."
+  },
+  {
+   "qid": "c6-4.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "possessive_s",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Whose handprint is this?"
+    ]
+   ],
+   "options": [
+    "It is Priya handprint. She wants to help her neighbours.",
+    "It is Priya's handprint. She want to help her neighbours.",
+    "It is Priya's handprint. She wants to help her neighbours."
+   ],
+   "answer": 2,
+   "rule": "Ownership: <b>Priya's</b>. With <b>she</b>, the verb takes <b>-s</b>: <b>wants</b>."
+  },
+  {
+   "qid": "c6-4.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Shall we go to the park or the library?"
+    ]
+   ],
+   "options": [
+    "Let's go to the library because it is raining.",
+    "Let's go to the library because it raining.",
+    "Let's go to the library so it is raining."
+   ],
+   "answer": 0,
+   "rule": "Rain is the reason, so use <b>because</b>, and keep the full verb: <b>it is raining</b>."
+  },
+  {
+   "qid": "c6-4.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Navdeep received a award from the President.",
+    "Navdeep received an award from the President.",
+    "Navdeep receiving an award from the President."
+   ],
+   "answer": 1,
+   "rule": "<b>Award</b> begins with a vowel sound, so use <b>an</b>; the sentence needs a full verb: <b>received</b>."
+  },
+  {
+   "qid": "c6-4.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This year's throw was more longer than last year's.",
+    "This year's throw was longest than last year's.",
+    "This year's throw was longer than last year's."
+   ],
+   "answer": 2,
+   "rule": "Comparing two things: <b>longer than</b>. Never <b>more longer</b>."
+  },
+  {
+   "qid": "c6-4.5-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "He",
+    "has",
+    "trained",
+    "at",
+    "the",
+    "stadium",
+    "since",
+    "five",
+    "years."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "from",
+      "for",
+      "at"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Five years</b> is a length of time, so use <b>for</b>."
+  },
+  {
+   "qid": "c6-4.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Navdeep",
+    "was",
+    "a",
+    "boy,",
+    "he",
+    "dream",
+    "of",
+    "winning",
+    "medals."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "dreams",
+      "dreamed",
+      "dreaming"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>When he was a boy</b> is the past, so use the past: <b>dreamed</b>."
+  },
+  {
+   "qid": "c6-4.5-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Fill in the gap.",
+   "before": "Her handprint was the",
+   "after": "colourful of all.",
+   "options": [
+    "more",
+    "most",
+    "much"
+   ],
+   "answer": 1,
+   "rule": "<b>Of all</b> compares many things, so use <b>the most</b> colourful."
+  },
+  {
+   "qid": "c6-4.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Navdeep lost the first round,",
+   "after": "he won the final.",
+   "options": [
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": 1,
+   "rule": "Losing and then winning are opposite ideas, so use <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-37",
+   "type": "build",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "His",
+    "family",
+    "supported",
+    "him",
+    "during",
+    "tough",
+    "times."
+   ],
+   "alts": [],
+   "rule": "<b>His</b> (possessive word) + <b>family</b> as subject + past verb <b>supported</b> + time: <b>during tough times</b>."
+  },
+  {
+   "qid": "c6-4.5-38",
+   "type": "build",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Take",
+    "an",
+    "umbrella",
+    "or",
+    "you",
+    "will",
+    "get",
+    "wet."
+   ],
+   "alts": [],
+   "rule": "Here <b>or</b> means 'if not': take an umbrella, <b>or</b> you will get wet."
+  },
+  {
+   "qid": "c6-4.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "What did Navdeep win in Paris?"
+    ]
+   ],
+   "options": [
+    "He winned a gold medal in the javelin throw.",
+    "He won a gold medal in the javelin throw.",
+    "He won an gold medal in the javelin throw."
+   ],
+   "answer": 1,
+   "rule": "<b>Win</b> is irregular: past is <b>won</b>. <b>Gold</b> starts with a consonant sound: <b>a</b> gold medal."
+  },
+  {
+   "qid": "c6-4.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "revision",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Didi",
+     "Is your brother taller than you?"
+    ]
+   ],
+   "options": [
+    "Yes, he is taller than me, but I am faster.",
+    "Yes, he is more tall than me, but I am faster.",
+    "Yes, he is taller than me, but I am more fast."
+   ],
+   "answer": 0,
+   "rule": "Short adjectives add <b>-er</b>: <b>taller</b>, <b>faster</b>. Don't use <b>more</b> with them."
+  },
+  {
+   "qid": "c6-4.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "She didn't speak to anyone because nobody speak to her.",
+    "She didn't speak to anyone so because nobody spoke to her.",
+    "She didn't speak to anyone because nobody spoke to her."
+   ],
+   "answer": 2,
+   "rule": "One conjunction (<b>because</b>), and both parts in the past: <b>didn't speak</b>, <b>spoke</b>."
+  },
+  {
+   "qid": "c6-4.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "possessive_s",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Navdeep's parents and his coach believes that he can win.",
+    "Navdeeps' parents and his coach believe that he can win.",
+    "Navdeep's parents and his coach believe that he can win."
+   ],
+   "answer": 2,
+   "rule": "Two subjects joined by <b>and</b> take a plural verb (<b>believe</b>); one owner: <b>Navdeep's</b>."
+  },
+  {
+   "qid": "c6-4.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Navdeep",
+    "trains",
+    "hard",
+    "every",
+    "day",
+    "because",
+    "he",
+    "want",
+    "to",
+    "win",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wants",
+      "needing",
+      "wanting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "With <b>he</b> in the simple present, the verb takes <b>-s</b>: <b>he wants</b>."
+  },
+  {
+   "qid": "c6-4.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adverbs",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "young",
+    "boy",
+    "listened",
+    "careful",
+    "as",
+    "the",
+    "coach",
+    "explained",
+    "the",
+    "rules."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "carefully",
+      "care",
+      "caring"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>How</b> did he listen? Use the adverb <b>carefully</b>."
+  },
+  {
+   "qid": "c6-4.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "People laughed at Navdeep,",
+   "after": "he did not let their words stop him.",
+   "options": [
+    "so",
+    "but",
+    "or"
+   ],
+   "answer": 1,
+   "rule": "He did not give up in spite of the laughter: opposite ideas take <b>but</b>."
+  },
+  {
+   "qid": "c6-4.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "possessive_s",
+   "prompt": "Fill in the gap.",
+   "before": "The",
+   "after": "section of the library has many picture books.",
+   "options": [
+    "childrens'",
+    "childs'",
+    "children's"
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is already plural, so just add <b>'s</b>: <b>children's</b>."
+  },
+  {
+   "qid": "c6-4.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "possessive_s",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Navdeep's",
+    "story",
+    "gives",
+    "hope",
+    "to",
+    "many",
+    "people."
+   ],
+   "alts": [],
+   "rule": "<b>Navdeep's story</b> (singular) takes <b>gives</b>; give something <b>to</b> someone."
+  },
+  {
+   "qid": "c6-4.5-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "He",
+    "worked",
+    "hard",
+    "so",
+    "his",
+    "dreams",
+    "came",
+    "true."
+   ],
+   "alts": [],
+   "rule": "Cause first (<b>He worked hard</b>), then <b>so</b> + result (<b>his dreams came true</b>)."
+  },
+  {
+   "qid": "c6-4.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Reporter",
+     "How do you feel about the award?"
+    ]
+   ],
+   "options": [
+    "I feel proud, and I thanks everyone who believed in me.",
+    "I feels proud, and I thank everyone who believed in me.",
+    "I feel proud, and I thank everyone who believed in me."
+   ],
+   "answer": 2,
+   "rule": "With <b>I</b>, the simple present has no <b>-s</b>: <b>I feel</b>, <b>I thank</b>."
+  },
+  {
+   "qid": "c6-4.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sahil",
+     "Can you come to the stadium today?"
+    ]
+   ],
+   "options": [
+    "I can't come today because I have a test tomorrow.",
+    "I can't come today because I has a test tomorrow.",
+    "I can't came today because I have a test tomorrow."
+   ],
+   "answer": 0,
+   "rule": "After <b>can't</b>, use the base verb (<b>come</b>); with <b>I</b>, use <b>have</b>."
+  }
+ ]
+}

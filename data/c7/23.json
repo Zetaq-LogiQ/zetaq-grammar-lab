@@ -1,0 +1,1002 @@
+{
+ "class": 7,
+ "id": "23",
+ "title": "Home Sweet Home",
+ "topics": [
+  {
+   "tag": "relative",
+   "name": "Relative pronouns (who, which, that, whose)"
+  },
+  {
+   "tag": "conditionals",
+   "name": "Conditionals type 1 (if / unless)"
+  },
+  {
+   "tag": "gerund_inf",
+   "name": "Gerund and infinitive"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c7-23-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the cottage who my grandfather built.",
+    "This is the cottage whose my grandfather built.",
+    "This is the cottage which my grandfather built."
+   ],
+   "answer": 2,
+   "rule": "Use <b>which</b> (or that) for things like a cottage; <b>who</b> is for people."
+  },
+  {
+   "qid": "c7-23-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Riya enjoys to sing with the birds.",
+    "Riya enjoys singing with the birds.",
+    "Riya enjoy singing with the birds."
+   ],
+   "answer": 1,
+   "rule": "<b>enjoy</b> is followed by the -ing form: <b>enjoys singing</b>. Riya is singular, so <b>enjoys</b>."
+  },
+  {
+   "qid": "c7-23-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains,",
+    "we",
+    "will",
+    "stays",
+    "at",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "stay",
+      "stayed",
+      "staying"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "In the result part, <b>will</b> is followed by the base verb: <b>will stay</b>."
+  },
+  {
+   "qid": "c7-23-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aunt",
+    "Meera,",
+    "which",
+    "lives",
+    "in",
+    "Pune,",
+    "misses",
+    "her",
+    "old",
+    "home."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whose",
+      "who",
+      "whom"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Aunt Meera is a person and she does the action <b>lives</b>, so use <b>who</b>."
+  },
+  {
+   "qid": "c7-23-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "The poet missed the cottage",
+   "after": "had a thatched roof.",
+   "options": [
+    "who",
+    "which",
+    "whom"
+   ],
+   "answer": 1,
+   "rule": "A cottage is a thing, so the relative pronoun is <b>which</b>."
+  },
+  {
+   "qid": "c7-23-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "My mother loves",
+   "after": "stories at bedtime.",
+   "options": [
+    "tells",
+    "telling",
+    "told"
+   ],
+   "answer": 1,
+   "rule": "After <b>love</b> we use the -ing form (gerund): <b>loves telling</b>."
+  },
+  {
+   "qid": "c7-23-07",
+   "type": "build",
+   "level": 1,
+   "topic": "relative",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "have",
+    "a",
+    "friend",
+    "who",
+    "loves",
+    "birds."
+   ],
+   "alts": [],
+   "rule": "<b>who</b> comes right after the person it describes: <b>a friend who loves birds</b>."
+  },
+  {
+   "qid": "c7-23-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Shall we go to Grandma's house this Diwali?"
+    ]
+   ],
+   "options": [
+    "Yes, it will be lovely to see her, won't it?",
+    "Yes, it will be lovely to see her, will it?",
+    "Yes, it will be lovely to see her, isn't it?"
+   ],
+   "answer": 0,
+   "rule": "A positive sentence with <b>will</b> takes the negative tag <b>won't it?</b>"
+  },
+  {
+   "qid": "c7-23-09",
+   "type": "change",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Add the correct question tag.",
+   "source": "Home is sweet.",
+   "options": [
+    "Home is sweet, isn't it?",
+    "Home is sweet, is it?",
+    "Home is sweet, doesn't it?"
+   ],
+   "answer": 0,
+   "rule": "Positive sentence with <b>is</b> -> negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c7-23-10",
+   "type": "change",
+   "level": 1,
+   "topic": "gerund_inf",
+   "prompt": "Rewrite using a gerund as the subject.",
+   "source": "It is fun to swim in the village pond.",
+   "options": [
+    "Swim in the village pond is fun.",
+    "Swimming in the village pond are fun.",
+    "Swimming in the village pond is fun."
+   ],
+   "answer": 2,
+   "rule": "A gerund (<b>swimming</b>) can be the subject; it is singular, so it takes <b>is</b>."
+  },
+  {
+   "qid": "c7-23-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you will come home early, we will play carrom.",
+    "If you came home early, we will play carrom.",
+    "If you come home early, we will play carrom."
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb. No 'will' in the if-part."
+  },
+  {
+   "qid": "c7-23-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "They live in a small cottage, doesn't they?",
+    "They live in a small cottage, aren't they?",
+    "They live in a small cottage, don't they?"
+   ],
+   "answer": 2,
+   "rule": "Simple present with <b>they</b> -> tag with <b>don't they?</b>"
+  },
+  {
+   "qid": "c7-23-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "am",
+    "looking",
+    "forward",
+    "to",
+    "visit",
+    "my",
+    "village",
+    "this",
+    "summer."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "visited",
+      "visiting",
+      "visits"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "In <b>look forward to</b>, 'to' is a preposition, so the -ing form follows: <b>to visiting</b>."
+  },
+  {
+   "qid": "c7-23-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "This",
+    "is",
+    "the",
+    "poet",
+    "who",
+    "song",
+    "is",
+    "sung",
+    "all",
+    "over",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To show belonging (the poet's song), use <b>whose</b>: <b>whose song</b>."
+  },
+  {
+   "qid": "c7-23-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If the train is late, Mother",
+   "after": "worry.",
+   "options": [
+    "would have",
+    "will",
+    "had"
+   ],
+   "answer": 1,
+   "rule": "Type 1 conditional: <b>If</b> + present, <b>will</b> + base verb: <b>will worry</b>."
+  },
+  {
+   "qid": "c7-23-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "You miss your old home,",
+   "after": "you?",
+   "options": [
+    "don't",
+    "aren't",
+    "won't"
+   ],
+   "answer": 0,
+   "rule": "<b>miss</b> is simple present, so the tag uses <b>do</b>: <b>don't you?</b>"
+  },
+  {
+   "qid": "c7-23-17",
+   "type": "build",
+   "level": 2,
+   "topic": "gerund_inf",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "Reading",
+    "letters",
+    "from",
+    "home",
+    "makes",
+    "me",
+    "happy."
+   ],
+   "alts": [],
+   "rule": "The gerund phrase <b>Reading letters from home</b> is the subject, followed by a singular verb <b>makes</b>."
+  },
+  {
+   "qid": "c7-23-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Who is the man in this old photo?"
+    ]
+   ],
+   "options": [
+    "He is my grandfather, who built our house.",
+    "He is my grandfather, which built our house.",
+    "He is my grandfather, whose built our house."
+   ],
+   "answer": 0,
+   "rule": "For a person who does an action, use <b>who</b>: <b>my grandfather, who built ...</b>"
+  },
+  {
+   "qid": "c7-23-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mum",
+     "Can we sit on the terrace tonight?"
+    ]
+   ],
+   "options": [
+    "Yes, if the sky is clear, we will see the moon.",
+    "Yes, if the sky will be clear, we will see the moon.",
+    "Yes, if the sky is clear, we will saw the moon."
+   ],
+   "answer": 0,
+   "rule": "<b>if</b> + simple present (<b>is</b>), then <b>will</b> + base verb (<b>will see</b>)."
+  },
+  {
+   "qid": "c7-23-20",
+   "type": "change",
+   "level": 2,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'who'.",
+   "source": "I have an uncle. He is a sailor.",
+   "options": [
+    "I have an uncle which is a sailor.",
+    "I have an uncle who he is a sailor.",
+    "I have an uncle who is a sailor."
+   ],
+   "answer": 2,
+   "rule": "<b>who</b> replaces <b>he</b>, so don't keep both: <b>an uncle who is a sailor</b>."
+  },
+  {
+   "qid": "c7-23-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The cottage, whose roof is thatched, stands near the river.",
+    "The cottage, who roof is thatched, stands near the river.",
+    "The cottage, whose roof is thatched, stand near the river."
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> shows belonging (the cottage's roof); the subject <b>the cottage</b> takes <b>stands</b>."
+  },
+  {
+   "qid": "c7-23-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "Arjun decided staying in the hostel.",
+    "Arjun decided to stay in the hostel.",
+    "Arjun decided to staying in the hostel."
+   ],
+   "answer": 1,
+   "rule": "<b>decide</b> is followed by the infinitive: <b>decided to stay</b>."
+  },
+  {
+   "qid": "c7-23-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "birds",
+    "comes",
+    "to",
+    "my",
+    "window,",
+    "I",
+    "will",
+    "feed",
+    "them."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "coming",
+      "come",
+      "came"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The if-part uses the simple present; <b>the birds</b> is plural, so <b>come</b>."
+  },
+  {
+   "qid": "c7-23-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mrs",
+    "Joshi,",
+    "whom",
+    "helped",
+    "us",
+    "move",
+    "house,",
+    "still",
+    "visits",
+    "every",
+    "Sunday."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "whose",
+      "who",
+      "which"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Mrs Joshi is the subject of <b>helped</b>, so use <b>who</b>; <b>whom</b> is only for the object."
+  },
+  {
+   "qid": "c7-23-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Fill in the gap.",
+   "before": "The poet hopes",
+   "after": "to his cottage one day.",
+   "options": [
+    "to return",
+    "returning",
+    "return"
+   ],
+   "answer": 0,
+   "rule": "<b>hope</b> is followed by the infinitive: <b>hopes to return</b>."
+  },
+  {
+   "qid": "c7-23-26",
+   "type": "build",
+   "level": 3,
+   "topic": "relative",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "still",
+    "remember",
+    "the",
+    "song",
+    "that",
+    "my",
+    "mother",
+    "sang."
+   ],
+   "alts": [],
+   "rule": "<b>that</b> joins the clause <b>my mother sang</b> to <b>the song</b>."
+  },
+  {
+   "qid": "c7-23-27",
+   "type": "build",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Make a sentence giving advice.",
+   "answer": [
+    "If",
+    "you",
+    "feel",
+    "homesick,",
+    "call",
+    "your",
+    "mother."
+   ],
+   "alts": [],
+   "rule": "<b>If</b> + simple present, then an order or advice: <b>call your mother</b>."
+  },
+  {
+   "qid": "c7-23-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "The moon looks so bright tonight."
+    ]
+   ],
+   "options": [
+    "Yes, it does. It's a full moon, doesn't it?",
+    "Yes, it do. It's a full moon, isn't it?",
+    "Yes, it does. It's a full moon, isn't it?"
+   ],
+   "answer": 2,
+   "rule": "<b>It's</b> = it is, so the tag is <b>isn't it?</b>; <b>it</b> takes <b>does</b>."
+  },
+  {
+   "qid": "c7-23-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do you miss most about home?"
+    ]
+   ],
+   "options": [
+    "I miss to eat my mother's food.",
+    "I miss eating my mother's food.",
+    "I miss eat my mother's food."
+   ],
+   "answer": 1,
+   "rule": "<b>miss</b> is followed by the -ing form: <b>miss eating</b>."
+  },
+  {
+   "qid": "c7-23-30",
+   "type": "change",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Combine the sentences using 'If'.",
+   "source": "Leave now. You will reach home before dark.",
+   "options": [
+    "If you will leave now, you will reach home before dark.",
+    "If you left now, you will reach home before dark.",
+    "If you leave now, you will reach home before dark."
+   ],
+   "answer": 2,
+   "rule": "<b>If</b> + simple present (<b>leave</b>), then <b>will</b> + base verb."
+  },
+  {
+   "qid": "c7-23-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The soldiers who have returned home are very happy.",
+    "The soldiers who has returned home are very happy.",
+    "The soldiers which have returned home are very happy."
+   ],
+   "answer": 0,
+   "rule": "Soldiers are people (<b>who</b>), and plural <b>soldiers</b> takes <b>have returned</b>."
+  },
+  {
+   "qid": "c7-23-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Your grandparents visited you last week, wasn't they?",
+    "Your grandparents visited you last week, didn't it?",
+    "Your grandparents visited you last week, didn't they?"
+   ],
+   "answer": 2,
+   "rule": "Simple past -> tag with <b>didn't</b>; <b>grandparents</b> becomes <b>they</b>."
+  },
+  {
+   "qid": "c7-23-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Sharma",
+    "is",
+    "fond",
+    "of",
+    "tell",
+    "stories",
+    "about",
+    "his",
+    "village."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "telling",
+      "told",
+      "tells"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After a preposition like <b>of</b>, use the -ing form: <b>fond of telling</b>."
+  },
+  {
+   "qid": "c7-23-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "twins",
+    "finishes",
+    "their",
+    "homework,",
+    "they",
+    "will",
+    "play",
+    "carrom."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "finishing",
+      "finished",
+      "finish"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>The twins</b> is plural, so the if-part takes <b>finish</b> (simple present, no -es)."
+  },
+  {
+   "qid": "c7-23-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Fill in the gap.",
+   "before": "Aarav is the boy",
+   "after": "father is a pilot.",
+   "options": [
+    "who",
+    "whose",
+    "who's"
+   ],
+   "answer": 1,
+   "rule": "<b>whose father</b> = the boy's father. <b>who's</b> means 'who is', which doesn't fit."
+  },
+  {
+   "qid": "c7-23-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Riya can't sing that old song,",
+   "after": "she?",
+   "options": [
+    "can't",
+    "does",
+    "can"
+   ],
+   "answer": 2,
+   "rule": "A negative sentence takes a positive tag with the same helper: <b>can she?</b>"
+  },
+  {
+   "qid": "c7-23-37",
+   "type": "build",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "will",
+    "come",
+    "home",
+    "for",
+    "Diwali,",
+    "won't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive sentence with <b>will</b> -> negative tag <b>won't you?</b>"
+  },
+  {
+   "qid": "c7-23-38",
+   "type": "chat",
+   "level": 4,
+   "topic": "relative",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Where did you buy this lovely lamp?"
+    ]
+   ],
+   "options": [
+    "I bought it from the shop who sells handmade lamps.",
+    "I bought it from the shop that sells handmade lamps.",
+    "I buyed it from the shop that sells handmade lamps."
+   ],
+   "answer": 1,
+   "rule": "A shop is a thing, so <b>that</b> (or which); the past of buy is <b>bought</b>."
+  },
+  {
+   "qid": "c7-23-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Should we take umbrellas?"
+    ]
+   ],
+   "options": [
+    "Yes. If it rains, we will need them.",
+    "Yes. If it will rain, we need them.",
+    "Yes. If it rains, we will needed them."
+   ],
+   "answer": 0,
+   "rule": "<b>If</b> + simple present (<b>rains</b>), then <b>will</b> + base verb (<b>will need</b>)."
+  },
+  {
+   "qid": "c7-23-40",
+   "type": "change",
+   "level": 4,
+   "topic": "gerund_inf",
+   "prompt": "Rewrite the sentence beginning with 'It is hard'.",
+   "source": "Going far from home is hard for young children.",
+   "options": [
+    "It is hard for young children to go far from home.",
+    "It is hard for young children to going far from home.",
+    "It is hard for young children to went far from home."
+   ],
+   "answer": 0,
+   "rule": "After <b>It is hard for ...</b> use the infinitive: <b>to go</b>."
+  },
+  {
+   "qid": "c7-23-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The fragrance of the flowers which grow near our door still cheer me.",
+    "The fragrance of the flowers which grow near our door still cheers me.",
+    "The fragrance of the flowers who grow near our door still cheers me."
+   ],
+   "answer": 1,
+   "rule": "Flowers take <b>which</b>; the real subject is <b>the fragrance</b> (singular), so <b>cheers</b>."
+  },
+  {
+   "qid": "c7-23-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct sentence.",
+   "options": [
+    "If you will visit Grandma on Sunday, she will be delighted, won't she?",
+    "If you visit Grandma on Sunday, she will be delighted, won't she?",
+    "If you visit Grandma on Sunday, she will be delighted, will she?"
+   ],
+   "answer": 1,
+   "rule": "No 'will' after <b>if</b>; the tag follows the main clause <b>she will be</b> -> <b>won't she?</b>"
+  },
+  {
+   "qid": "c7-23-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Instead",
+    "of",
+    "stay",
+    "in",
+    "a",
+    "palace,",
+    "he",
+    "wanted",
+    "to",
+    "return",
+    "to",
+    "his",
+    "cottage."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "stayed",
+      "stays",
+      "staying"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Instead of</b> ends in a preposition, so use the -ing form: <b>instead of staying</b>."
+  },
+  {
+   "qid": "c7-23-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi,",
+    "who",
+    "parents",
+    "live",
+    "in",
+    "Dubai,",
+    "visits",
+    "them",
+    "only",
+    "once",
+    "a",
+    "year."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Ravi's parents = <b>whose parents</b>. Use <b>whose</b> to show belonging."
+  },
+  {
+   "qid": "c7-23-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "Unless you",
+   "after": "early, you will miss the train home.",
+   "options": [
+    "leave",
+    "will leave",
+    "left"
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> works like 'if not' and takes the simple present: <b>Unless you leave</b>."
+  },
+  {
+   "qid": "c7-23-46",
+   "type": "build",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Make a suggestion with a question tag.",
+   "answer": [
+    "Let's",
+    "sing",
+    "the",
+    "old",
+    "song",
+    "together,",
+    "shall",
+    "we?"
+   ],
+   "alts": [],
+   "rule": "A sentence beginning with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c7-23-47",
+   "type": "chat",
+   "level": 5,
+   "topic": "gerund_inf",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why did you choose this poem for the competition?"
+    ]
+   ],
+   "options": [
+    "Because I enjoy reciting poems that talk about home.",
+    "Because I enjoy to recite poems that talk about home.",
+    "Because I enjoy reciting poems who talk about home."
+   ],
+   "answer": 0,
+   "rule": "<b>enjoy</b> + -ing (<b>reciting</b>); poems are things, so <b>that</b>, not who."
+  },
+  {
+   "qid": "c7-23-48",
+   "type": "change",
+   "level": 5,
+   "topic": "relative",
+   "prompt": "Join the sentences using 'whose'.",
+   "source": "I met a girl. Her family lives on a houseboat.",
+   "options": [
+    "I met a girl whose family lives on a houseboat.",
+    "I met a girl who's family lives on a houseboat.",
+    "I met a girl whose her family lives on a houseboat."
+   ],
+   "answer": 0,
+   "rule": "<b>whose</b> replaces <b>her</b>: <b>a girl whose family ...</b> ('who's' means 'who is')."
+  },
+  {
+   "qid": "c7-23-49",
+   "type": "change",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Add the correct question tag.",
+   "source": "Grandpa hardly ever leaves the village.",
+   "options": [
+    "Grandpa hardly ever leaves the village, doesn't he?",
+    "Grandpa hardly ever leaves the village, is he?",
+    "Grandpa hardly ever leaves the village, does he?"
+   ],
+   "answer": 2,
+   "rule": "<b>hardly ever</b> makes the sentence negative in meaning, so the tag is positive: <b>does he?</b>"
+  },
+  {
+   "qid": "c7-23-50",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Rewrite using 'Unless'.",
+   "source": "If you do not hurry, you will miss the bus home.",
+   "options": [
+    "Unless you do not hurry, you will miss the bus home.",
+    "Unless you will hurry, you will miss the bus home.",
+    "Unless you hurry, you will miss the bus home."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> already means 'if not', so drop 'do not': <b>Unless you hurry</b>."
+  }
+ ]
+}

@@ -1,0 +1,1199 @@
+{
+ "class": 10,
+ "id": "10",
+ "title": "The Pulley",
+ "topics": [
+  {
+   "tag": "excl_assert",
+   "name": "Exclamatory and assertive sentences"
+  },
+  {
+   "tag": "neg_inversion",
+   "name": "Inversion after never, seldom, rarely, not only, hardly, no sooner"
+  },
+  {
+   "tag": "wish_if_were",
+   "name": "Wishes and 'If I were' (subjunctive)"
+  },
+  {
+   "tag": "let_tags",
+   "name": "'Let's' suggestions and question tags"
+  },
+  {
+   "tag": "gerund_prep",
+   "name": "Gerund after prepositions (instead of, without)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-10-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "Which exclamation is correct?",
+   "options": [
+    "What heavy bag this is!",
+    "What a heavy bag this is!",
+    "How a heavy bag this is!"
+   ],
+   "answer": 1,
+   "rule": "With a singular noun, use <b>What a + adjective + noun</b>: What a heavy bag!"
+  },
+  {
+   "qid": "c10-10-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "wish_if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I wish I have more time to rest.",
+    "I wish I had more time to rest.",
+    "I wish I having more time to rest."
+   ],
+   "answer": 1,
+   "rule": "A wish about the present uses the past form: I wish I <b>had</b>."
+  },
+  {
+   "qid": "c10-10-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "neg_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Rarely the twins watch TV on school nights.",
+    "Rarely do the twins watches TV on school nights.",
+    "Rarely do the twins watch TV on school nights."
+   ],
+   "answer": 2,
+   "rule": "After <b>Rarely</b> at the start, invert: <b>do the twins watch</b> (helper + subject + base verb)."
+  },
+  {
+   "qid": "c10-10-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "let_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Let's rest for a while, shall we?",
+    "Let's rest for a while, will we?",
+    "Let's rest for a while, don't we?"
+   ],
+   "answer": 0,
+   "rule": "A suggestion with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "gerund_prep",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Instead of thank the giver, he admired the gifts.",
+    "Instead to thank the giver, he admired the gifts.",
+    "Instead of thanking the giver, he admired the gifts."
+   ],
+   "answer": 2,
+   "rule": "A preposition like <b>instead of</b> is followed by the -ing form: instead of <b>thanking</b>."
+  },
+  {
+   "qid": "c10-10-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "excl_assert",
+   "prompt": "Pick the correct exclamatory sentence.",
+   "options": [
+    "How weary does the traveller look!",
+    "How weary the traveller look!",
+    "How weary the traveller looks!"
+   ],
+   "answer": 2,
+   "rule": "Exclamations keep normal word order: <b>How + adjective + subject + verb</b>. Singular subject: looks."
+  },
+  {
+   "qid": "c10-10-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "wish_if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I were a bird, I would fly over the hills.",
+    "If I were a bird, I will fly over the hills.",
+    "If I am a bird, I would fly over the hills."
+   ],
+   "answer": 0,
+   "rule": "An imaginary situation: <b>If I were ..., I would ...</b>"
+  },
+  {
+   "qid": "c10-10-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "neg_inversion",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Not only Meera did win the race, but she also broke the school record.",
+    "Not only did Meera win the race, but she also broke the school record.",
+    "Not only did Meera won the race, but she also broke the school record."
+   ],
+   "answer": 1,
+   "rule": "<b>Not only</b> at the start needs inversion: <b>did Meera win</b> (did + subject + base verb)."
+  },
+  {
+   "qid": "c10-10-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "wish_if_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Aarav",
+    "wishes",
+    "he",
+    "can",
+    "fly",
+    "like",
+    "a",
+    "bird."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "must",
+      "could",
+      "shall"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>wish</b>, use the past form for the present: wishes he <b>could</b> fly."
+  },
+  {
+   "qid": "c10-10-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "sweetly",
+    "the",
+    "two",
+    "sisters",
+    "sings",
+    "together!"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "singing",
+      "sing",
+      "sung"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The subject <b>the two sisters</b> is plural, so the verb is <b>sing</b>."
+  },
+  {
+   "qid": "c10-10-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "let_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Let's",
+    "go",
+    "to",
+    "the",
+    "park",
+    "after",
+    "lunch,",
+    "will",
+    "we?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "do",
+      "shall",
+      "are"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The tag for <b>Let's</b> is <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "neg_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Seldom",
+    "does",
+    "Kabir",
+    "misses",
+    "his",
+    "morning",
+    "walk."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "missed",
+      "miss",
+      "missing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>does</b>, use the base verb: Seldom does Kabir <b>miss</b>."
+  },
+  {
+   "qid": "c10-10-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "gerund_prep",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Mr",
+    "Kulkarni",
+    "left",
+    "the",
+    "office",
+    "without",
+    "finish",
+    "his",
+    "report."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "finishing",
+      "finished",
+      "finishes"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the preposition <b>without</b>, use the -ing form: without <b>finishing</b>."
+  },
+  {
+   "qid": "c10-10-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "excl_assert",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "proud",
+    "Grandpa",
+    "was",
+    "when",
+    "both",
+    "his",
+    "grandchildren",
+    "was",
+    "chosen!"
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Both his grandchildren</b> is plural, and the event is past: <b>were</b> chosen."
+  },
+  {
+   "qid": "c10-10-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "wish_if_were",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I",
+    "will",
+    "rest",
+    "before",
+    "the",
+    "exam."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Giving advice with <b>If I were you</b> needs <b>would</b> in the main clause."
+  },
+  {
+   "qid": "c10-10-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "neg_inversion",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "the",
+    "rain",
+    "stopped",
+    "yesterday",
+    "than",
+    "the",
+    "children",
+    "run",
+    "out",
+    "to",
+    "play."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "ran",
+      "runs",
+      "running"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>No sooner had ... than</b> + simple past: the children <b>ran</b> out."
+  },
+  {
+   "qid": "c10-10-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "let_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Let us all pray together,",
+   "after": "we?",
+   "options": [
+    "will",
+    "do",
+    "shall"
+   ],
+   "answer": 2,
+   "rule": "A suggestion with <b>Let us</b> (including the speaker) takes <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a wonderful surprise it was!",
+   "options": [
+    "How",
+    "Which",
+    "What"
+   ],
+   "answer": 2,
+   "rule": "Before <b>a + adjective + noun</b>, the exclamation word is <b>What</b>."
+  },
+  {
+   "qid": "c10-10-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "neg_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Never before",
+   "after": "I felt so tired.",
+   "options": [
+    "had",
+    "did",
+    "was"
+   ],
+   "answer": 0,
+   "rule": "Inversion with the past participle <b>felt</b>: Never before <b>had</b> I felt."
+  },
+  {
+   "qid": "c10-10-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "wish_if_were",
+   "prompt": "Fill in the gap.",
+   "before": "I wish my exam results",
+   "after": "out already.",
+   "options": [
+    "are",
+    "is",
+    "were"
+   ],
+   "answer": 2,
+   "rule": "A wish about now uses the past form: I wish they <b>were</b> out."
+  },
+  {
+   "qid": "c10-10-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "gerund_prep",
+   "prompt": "Fill in the gap.",
+   "before": "Rohan kept scrolling on his phone instead of",
+   "after": "his homework.",
+   "options": [
+    "doing",
+    "do",
+    "to do"
+   ],
+   "answer": 0,
+   "rule": "<b>instead of</b> is followed by the -ing form: <b>doing</b>."
+  },
+  {
+   "qid": "c10-10-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "wish_if_were",
+   "prompt": "Fill in the gap.",
+   "before": "If I",
+   "after": "in your place, I would apologise.",
+   "options": [
+    "am",
+    "were",
+    "be"
+   ],
+   "answer": 1,
+   "rule": "Imagining being someone else: <b>If I were</b> ..., I would ..."
+  },
+  {
+   "qid": "c10-10-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "neg_inversion",
+   "prompt": "Fill in the gap.",
+   "before": "Not only",
+   "after": "the rich man lose his peace, but he also lost his sleep.",
+   "options": [
+    "did",
+    "does",
+    "had"
+   ],
+   "answer": 0,
+   "rule": "Past story + base verb <b>lose</b>: Not only <b>did</b> he lose ..."
+  },
+  {
+   "qid": "c10-10-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "wish_if_were",
+   "prompt": "Fill in the gap.",
+   "before": "Grandma wishes she",
+   "after": "home earlier yesterday; she missed the wedding lunch.",
+   "options": [
+    "has left",
+    "had left",
+    "leaves"
+   ],
+   "answer": 1,
+   "rule": "A regret about the past uses the past perfect after wish: she <b>had left</b>."
+  },
+  {
+   "qid": "c10-10-25",
+   "type": "build",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "clever",
+    "idea",
+    "that",
+    "is!"
+   ],
+   "alts": [],
+   "rule": "<b>What a + adjective + noun + subject + verb!</b>"
+  },
+  {
+   "qid": "c10-10-26",
+   "type": "build",
+   "level": 2,
+   "topic": "let_tags",
+   "prompt": "Make a suggestion with a question tag.",
+   "answer": [
+    "Let's",
+    "take",
+    "a",
+    "short",
+    "break,",
+    "shall",
+    "we?"
+   ],
+   "alts": [],
+   "rule": "<b>Let's</b> + base verb ..., <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-27",
+   "type": "build",
+   "level": 3,
+   "topic": "gerund_prep",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Sanya",
+    "left",
+    "the",
+    "party",
+    "without",
+    "saying",
+    "goodbye."
+   ],
+   "alts": [],
+   "rule": "<b>without</b> + -ing form: without <b>saying</b> goodbye."
+  },
+  {
+   "qid": "c10-10-28",
+   "type": "build",
+   "level": 4,
+   "topic": "wish_if_were",
+   "prompt": "Make a wish sentence.",
+   "answer": [
+    "Meera",
+    "wishes",
+    "she",
+    "were",
+    "not",
+    "so",
+    "tired."
+   ],
+   "alts": [],
+   "rule": "A present wish uses <b>were</b> for every subject: she <b>were</b> not."
+  },
+  {
+   "qid": "c10-10-29",
+   "type": "build",
+   "level": 5,
+   "topic": "neg_inversion",
+   "prompt": "Make a 'No sooner ... than' sentence.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "we",
+    "reached",
+    "the",
+    "platform",
+    "than",
+    "it",
+    "rained."
+   ],
+   "alts": [],
+   "rule": "<b>No sooner had + subject + past participle ... than + simple past.</b>"
+  },
+  {
+   "qid": "c10-10-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "I got full marks in the maths test!"
+    ]
+   ],
+   "options": [
+    "What a great news! Well done!",
+    "How wonderfully! Well done!",
+    "How wonderful! Well done!"
+   ],
+   "answer": 2,
+   "rule": "<b>How + adjective!</b> is correct. <b>News</b> is uncountable, so no 'a'."
+  },
+  {
+   "qid": "c10-10-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "let_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "It's so hot today."
+    ]
+   ],
+   "options": [
+    "Let's going swimming, shall we?",
+    "Let's go swimming, shall we?",
+    "Let's go swimming, will us?"
+   ],
+   "answer": 1,
+   "rule": "<b>Let's</b> + base verb (go), and the tag is <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Why are you looking so sad?"
+    ]
+   ],
+   "options": [
+    "I wish I could go on the school trip.",
+    "I wish I am going on the school trip.",
+    "I wish I was go on the school trip."
+   ],
+   "answer": 0,
+   "rule": "A wish about now uses a past form: I wish I <b>could</b> go."
+  },
+  {
+   "qid": "c10-10-33",
+   "type": "chat",
+   "level": 3,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "I lost Dad's umbrella. What should I do?"
+    ]
+   ],
+   "options": [
+    "If I were you, I would told him the truth.",
+    "If I am you, I would tell him the truth.",
+    "If I were you, I would tell him the truth."
+   ],
+   "answer": 2,
+   "rule": "Advice: <b>If I were you, I would + base verb</b> (tell)."
+  },
+  {
+   "qid": "c10-10-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "neg_inversion",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Has Varun ever missed a practice session?"
+    ]
+   ],
+   "options": [
+    "No. Not once he has missed a session.",
+    "No. Not once has he missed a session.",
+    "No. Not once has he miss a session."
+   ],
+   "answer": 1,
+   "rule": "<b>Not once</b> at the start needs inversion: <b>has he missed</b>."
+  },
+  {
+   "qid": "c10-10-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "gerund_prep",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aunt",
+     "What did you do on Sunday?"
+    ]
+   ],
+   "options": [
+    "Instead of going out, I stayed home and read a book.",
+    "Instead of go out, I stayed home and read a book.",
+    "Instead of going out, I stays home and read a book."
+   ],
+   "answer": 0,
+   "rule": "<b>instead of + -ing</b> (going), and the past tense <b>stayed</b> for Sunday."
+  },
+  {
+   "qid": "c10-10-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "let_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tara",
+     "We have finished the project at last!"
+    ]
+   ],
+   "options": [
+    "Great! Let's celebrated with ice cream, shall we?",
+    "Great! Let's celebrate with ice cream, won't we?",
+    "Great! Let's celebrate with ice cream, shall we?"
+   ],
+   "answer": 2,
+   "rule": "<b>Let's</b> + base verb (celebrate) and the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-10-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "The concert was amazing. Where were you?"
+    ],
+    [
+     "Arjun",
+     "You missed a great show!"
+    ]
+   ],
+   "options": [
+    "I know. I wish I had came with you.",
+    "I know. I wish I have come with you.",
+    "I know. I wish I had come with you."
+   ],
+   "answer": 2,
+   "rule": "Regret about the past: wish + <b>had + past participle</b> (had come)."
+  },
+  {
+   "qid": "c10-10-38",
+   "type": "change",
+   "level": 1,
+   "topic": "excl_assert",
+   "prompt": "Change into an assertive sentence.",
+   "source": "What a lovely garden it is!",
+   "options": [
+    "It is a very lovely garden.",
+    "It is very lovely garden.",
+    "It a very lovely garden is."
+   ],
+   "answer": 0,
+   "rule": "<b>What a</b> becomes <b>a very</b>: It is a very lovely garden."
+  },
+  {
+   "qid": "c10-10-39",
+   "type": "change",
+   "level": 2,
+   "topic": "excl_assert",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How weary the old farmer looks!",
+   "options": [
+    "The old farmer looks very weary.",
+    "The old farmer look very weary.",
+    "The old farmer looks very wearily."
+   ],
+   "answer": 0,
+   "rule": "<b>How + adjective</b> becomes <b>very + adjective</b>; after 'looks' keep the adjective."
+  },
+  {
+   "qid": "c10-10-40",
+   "type": "change",
+   "level": 2,
+   "topic": "excl_assert",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It is a very precious jewel.",
+   "options": [
+    "What a precious jewel it is!",
+    "How a precious jewel it is!",
+    "What precious jewel it is!"
+   ],
+   "answer": 0,
+   "rule": "<b>a very + adjective + noun</b> becomes <b>What a + adjective + noun ... !</b>"
+  },
+  {
+   "qid": "c10-10-41",
+   "type": "change",
+   "level": 3,
+   "topic": "neg_inversion",
+   "prompt": "Begin the sentence with 'Never'.",
+   "source": "I have never seen such a crowded station.",
+   "options": [
+    "Never I have seen such a crowded station.",
+    "Never have I seen such a crowded station.",
+    "Never have I saw such a crowded station."
+   ],
+   "answer": 1,
+   "rule": "Starting with <b>Never</b>, put the helper before the subject: <b>have I seen</b>."
+  },
+  {
+   "qid": "c10-10-42",
+   "type": "change",
+   "level": 4,
+   "topic": "wish_if_were",
+   "prompt": "Rewrite using 'I wish'.",
+   "source": "I am sorry I did not get up sooner.",
+   "options": [
+    "I wish I had got up sooner.",
+    "I wish I have got up sooner.",
+    "I wish I had get up sooner."
+   ],
+   "answer": 0,
+   "rule": "Regret about the past: I wish I <b>had got</b> up sooner."
+  },
+  {
+   "qid": "c10-10-43",
+   "type": "change",
+   "level": 4,
+   "topic": "neg_inversion",
+   "prompt": "Begin with 'Not only'.",
+   "source": "Neha sings well and she also dances well.",
+   "options": [
+    "Not only does Neha sings well, but she also dances well.",
+    "Not only does Neha sing well, but she also dances well.",
+    "Not only did Neha sing well, but she also dances well."
+   ],
+   "answer": 1,
+   "rule": "Present tense: <b>Not only does + subject + base verb</b> (sing)."
+  },
+  {
+   "qid": "c10-10-44",
+   "type": "change",
+   "level": 5,
+   "topic": "wish_if_were",
+   "prompt": "Rewrite using 'If I were'.",
+   "source": "I am not a bird, so I cannot fly to the mountains.",
+   "options": [
+    "If I were a bird, I can fly to the mountains.",
+    "If I were a bird, I could flew to the mountains.",
+    "If I were a bird, I could fly to the mountains."
+   ],
+   "answer": 2,
+   "rule": "Unreal present: <b>If I were ..., I could + base verb</b> (fly)."
+  },
+  {
+   "qid": "c10-10-45",
+   "type": "change",
+   "level": 5,
+   "topic": "neg_inversion",
+   "prompt": "Rewrite using 'Hardly ... when'.",
+   "source": "As soon as the teacher entered, the class became silent.",
+   "options": [
+    "Hardly the teacher had entered when the class became silent.",
+    "Hardly had the teacher entered than the class became silent.",
+    "Hardly had the teacher entered when the class became silent."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly had + subject + past participle ... when</b> (not 'than')."
+  },
+  {
+   "qid": "c10-10-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "wish_if_were",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "What",
+    "a",
+    "tiring",
+    "day",
+    "it",
+    "was!",
+    "I",
+    "wish",
+    "I",
+    "has",
+    "more",
+    "free",
+    "time.",
+    "Instead",
+    "of",
+    "relax",
+    "at",
+    "home,",
+    "I",
+    "have",
+    "to",
+    "finish",
+    "my",
+    "science",
+    "project",
+    "tonight."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "have",
+      "having",
+      "had"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "relaxed",
+      "relaxing",
+      "relaxes"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "I wish I <b>had</b> (past form for a present wish); instead of <b>relaxing</b> (-ing after a preposition)."
+  },
+  {
+   "qid": "c10-10-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "let_tags",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Let's",
+    "pack",
+    "our",
+    "bags",
+    "tonight,",
+    "will",
+    "we?",
+    "Never",
+    "have",
+    "I",
+    "be",
+    "so",
+    "excited",
+    "about",
+    "a",
+    "trip",
+    "to",
+    "Goa",
+    "with",
+    "my",
+    "cousins."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "do",
+      "did",
+      "shall"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 10,
+     "options": [
+      "being",
+      "been",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Let's ..., <b>shall</b> we? Never have I <b>been</b> (have + past participle)."
+  },
+  {
+   "qid": "c10-10-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "excl_assert",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "How",
+    "long",
+    "I",
+    "have",
+    "been",
+    "wait",
+    "at",
+    "this",
+    "crowded",
+    "bus",
+    "stop!",
+    "If",
+    "I",
+    "were",
+    "the",
+    "driver,",
+    "I",
+    "would",
+    "never",
+    "kept",
+    "people",
+    "waiting",
+    "like",
+    "this.",
+    "I",
+    "wish",
+    "the",
+    "buses",
+    "comes",
+    "on",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "waited",
+      "waits",
+      "waiting"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "keeping",
+      "keep",
+      "keeps"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "come",
+      "coming",
+      "came"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "have been <b>waiting</b>; would never <b>keep</b> (base verb); I wish the buses <b>came</b> (past form after wish)."
+  },
+  {
+   "qid": "c10-10-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "gerund_prep",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Instead",
+    "of",
+    "complain",
+    "about",
+    "the",
+    "heat,",
+    "Grandpa",
+    "planted",
+    "ten",
+    "trees",
+    "last",
+    "year.",
+    "Seldom",
+    "does",
+    "he",
+    "talks",
+    "about",
+    "it,",
+    "yet",
+    "all",
+    "the",
+    "neighbours",
+    "enjoys",
+    "the",
+    "cool",
+    "shade.",
+    "How",
+    "kind",
+    "he",
+    "is!"
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "complained",
+      "complaining",
+      "complains"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 15,
+     "options": [
+      "talked",
+      "talking",
+      "talk"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "enjoy",
+      "enjoying",
+      "enjoyment"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "instead of <b>complaining</b>; does he <b>talk</b> (base verb); 'all the neighbours' is plural: <b>enjoy</b>."
+  },
+  {
+   "qid": "c10-10-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "let_tags",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Let's",
+    "not",
+    "waste",
+    "time,",
+    "will",
+    "we?",
+    "Not",
+    "only",
+    "did",
+    "Ravi",
+    "forgot",
+    "his",
+    "ticket,",
+    "but",
+    "he",
+    "also",
+    "lost",
+    "his",
+    "phone.",
+    "I",
+    "wish",
+    "he",
+    "has",
+    "been",
+    "more",
+    "careful",
+    "yesterday."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "shall",
+      "do",
+      "won't"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 10,
+     "options": [
+      "forgets",
+      "forget",
+      "forgetting"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 22,
+     "options": [
+      "had",
+      "have",
+      "is"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Let's ..., <b>shall</b> we? Not only did Ravi <b>forget</b>; past regret: I wish he <b>had</b> been."
+  }
+ ]
+}

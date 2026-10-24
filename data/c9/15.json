@@ -1,0 +1,1201 @@
+{
+ "class": 9,
+ "id": "15",
+ "title": "How the First Letter was Written",
+ "topics": [
+  {
+   "tag": "direct_speech",
+   "name": "Direct speech with quotation marks"
+  },
+  {
+   "tag": "reported_speech",
+   "name": "Reported (indirect) speech"
+  },
+  {
+   "tag": "sentence_types",
+   "name": "Simple, compound and complex sentences"
+  },
+  {
+   "tag": "time_clauses",
+   "name": "As soon as / No sooner ... than / Hardly ... when"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c9-15-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "\"I can draw pictures,\" said Taffy.",
+    "\"I can draw pictures,\" told Taffy.",
+    "\"I can drew pictures,\" said Taffy."
+   ],
+   "answer": 0,
+   "rule": "With direct speech use <b>said</b> (told needs a listener). After <b>can</b>, use the base verb <b>draw</b>."
+  },
+  {
+   "qid": "c9-15-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tegumai broke his spear, but he did not had another one.",
+    "Tegumai broke his spear, but he did not have another one.",
+    "Tegumai broke his spear, but he not have another one."
+   ],
+   "answer": 1,
+   "rule": "In this compound sentence, the second clause needs <b>did not</b> + base verb: <b>did not have</b>."
+  },
+  {
+   "qid": "c9-15-03",
+   "type": "spot",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Taffy asked the stranger if did he know where her mother lived.",
+    "Taffy asked the stranger if he knew where her mother lived.",
+    "Taffy asked the stranger that he knew where her mother lived."
+   ],
+   "answer": 1,
+   "rule": "A reported yes/no question uses <b>if</b> and statement order: <b>if he knew</b>."
+  },
+  {
+   "qid": "c9-15-04",
+   "type": "spot",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "As soon as Teshumai saw the picture, she scream.",
+    "As soon as Teshumai will see the picture, she screamed.",
+    "As soon as Teshumai saw the picture, she screamed."
+   ],
+   "answer": 2,
+   "rule": "Both actions happened in the past, so both verbs are simple past: <b>saw</b> ... <b>screamed</b>."
+  },
+  {
+   "qid": "c9-15-05",
+   "type": "spot",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Which reported command is correct?",
+   "options": [
+    "Tegumai told Taffy not to disturb the stranger.",
+    "Tegumai told Taffy don't disturb the stranger.",
+    "Tegumai said Taffy not to disturb the stranger."
+   ],
+   "answer": 0,
+   "rule": "A negative command is reported with <b>told</b> + person + <b>not to</b> + verb."
+  },
+  {
+   "qid": "c9-15-06",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_types",
+   "prompt": "Which complex sentence is correct?",
+   "options": [
+    "The stranger smiled because of he had a daughter of his own.",
+    "The stranger smiled because he had a daughter of his own.",
+    "The stranger smiled because he have a daughter of his own."
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> (not because of) introduces a clause; <b>he</b> takes <b>had</b> in the past."
+  },
+  {
+   "qid": "c9-15-07",
+   "type": "spot",
+   "level": 4,
+   "topic": "time_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "No sooner did the stranger left than Taffy sat down, pleased.",
+    "No sooner had the stranger left than Taffy sat down, pleased.",
+    "No sooner had the stranger left when Taffy sat down, pleased."
+   ],
+   "answer": 1,
+   "rule": "The pattern is <b>No sooner had</b> + past participle ... <b>than</b>."
+  },
+  {
+   "qid": "c9-15-08",
+   "type": "spot",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Taffy said that I had drawn the spear outside our cave.",
+    "Taffy said that she had drew the spear outside their cave.",
+    "Taffy said that she had drawn the spear outside their cave."
+   ],
+   "answer": 2,
+   "rule": "In reported speech <b>I/our</b> become <b>she/their</b>, and <b>had</b> takes the past participle <b>drawn</b>."
+  },
+  {
+   "qid": "c9-15-09",
+   "type": "fix",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tegumai",
+    "said,",
+    "\"I",
+    "break",
+    "my",
+    "spear",
+    "an",
+    "hour",
+    "ago.\""
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "broke",
+      "broken",
+      "breaking"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>An hour ago</b> is past time, so use the simple past: <b>broke</b>."
+  },
+  {
+   "qid": "c9-15-10",
+   "type": "fix",
+   "level": 1,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tegumai",
+    "sat",
+    "down",
+    "and",
+    "begin",
+    "to",
+    "mend",
+    "the",
+    "spear."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "begun",
+      "begins",
+      "began"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Verbs joined by <b>and</b> keep the same tense: <b>sat</b> ... <b>began</b>."
+  },
+  {
+   "qid": "c9-15-11",
+   "type": "fix",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Taffy",
+    "asked",
+    "the",
+    "stranger",
+    "if",
+    "he",
+    "know",
+    "her",
+    "mother."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "knew",
+      "known",
+      "knowing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After the past verb <b>asked</b>, the reported question moves back a tense: <b>if he knew</b>."
+  },
+  {
+   "qid": "c9-15-12",
+   "type": "fix",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "As",
+    "soon",
+    "as",
+    "the",
+    "stranger",
+    "got",
+    "the",
+    "bark,",
+    "he",
+    "run",
+    "into",
+    "the",
+    "bushes."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "running",
+      "runs",
+      "ran"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Got</b> is past, so the main clause is past too: <b>he ran</b>."
+  },
+  {
+   "qid": "c9-15-13",
+   "type": "fix",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "\"Daddy",
+    "and",
+    "me",
+    "are",
+    "going",
+    "fishing,\"",
+    "said",
+    "Taffy."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "mine",
+      "myself",
+      "I"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject of <b>are going</b> needs the subject pronoun: <b>Daddy and I</b>."
+  },
+  {
+   "qid": "c9-15-14",
+   "type": "fix",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Taffy",
+    "told",
+    "the",
+    "stranger",
+    "that",
+    "her",
+    "had",
+    "drawn",
+    "the",
+    "picture",
+    "herself."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "she",
+      "hers",
+      "herself"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The reported clause needs a subject pronoun: <b>she</b> had drawn it (Taffy's 'I' becomes <b>she</b>)."
+  },
+  {
+   "qid": "c9-15-15",
+   "type": "fix",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "stranger",
+    "did",
+    "not",
+    "understand",
+    "Taffy,",
+    "yet",
+    "he",
+    "smile",
+    "kindly",
+    "at",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "smiling",
+      "smiled",
+      "smiles"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Both clauses of this compound sentence are in the past: did not understand ... <b>smiled</b>."
+  },
+  {
+   "qid": "c9-15-16",
+   "type": "fix",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Hardly",
+    "had",
+    "Tegumai",
+    "mended",
+    "his",
+    "spear",
+    "than",
+    "the",
+    "carp",
+    "swam",
+    "away."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "then",
+      "when",
+      "after"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Hardly</b> pairs with <b>when</b>; <b>than</b> goes with <b>no sooner</b>."
+  },
+  {
+   "qid": "c9-15-17",
+   "type": "fill",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Fill in the gap.",
+   "before": "\"Don't bother me,\"",
+   "after": "Tegumai.",
+   "options": [
+    "said",
+    "told",
+    "spoke"
+   ],
+   "answer": 0,
+   "rule": "After a quotation, use <b>said</b>. <b>Told</b> needs a listener, and <b>spoke</b> does not introduce words."
+  },
+  {
+   "qid": "c9-15-18",
+   "type": "fill",
+   "level": 1,
+   "topic": "time_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the stranger saw the drawing, he nodded very hard.",
+   "options": [
+    "As soon as",
+    "Despite",
+    "Because of"
+   ],
+   "answer": 0,
+   "rule": "<b>As soon as</b> shows that one action follows another immediately."
+  },
+  {
+   "qid": "c9-15-19",
+   "type": "fill",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Taffy",
+   "after": "the stranger to fetch the spear.",
+   "options": [
+    "said",
+    "asked",
+    "spoke"
+   ],
+   "answer": 1,
+   "rule": "A request is reported with <b>asked</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c9-15-20",
+   "type": "fill",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Choose the joining word.",
+   "before": "Tegumai had forgotten to bring extra spears,",
+   "after": "he had to mend the broken one.",
+   "options": [
+    "so",
+    "because of",
+    "despite"
+   ],
+   "answer": 0,
+   "rule": "The second clause is the result of the first, so join them with <b>so</b>. 'Because of' and 'despite' cannot start a clause."
+  },
+  {
+   "qid": "c9-15-21",
+   "type": "fill",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "Tegumai asked Taffy what she",
+   "after": "doing.",
+   "options": [
+    "had been",
+    "have been",
+    "were"
+   ],
+   "answer": 0,
+   "rule": "'What have you been doing?' reported after <b>asked</b> moves back: <b>what she had been doing</b>."
+  },
+  {
+   "qid": "c9-15-22",
+   "type": "fill",
+   "level": 3,
+   "topic": "time_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "No sooner had the ladies seen the stranger",
+   "after": "they knocked him down.",
+   "options": [
+    "when",
+    "then",
+    "than"
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> is always followed by <b>than</b>."
+  },
+  {
+   "qid": "c9-15-23",
+   "type": "fill",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Fill in the gap.",
+   "before": "Tegumai's spear,",
+   "after": "was made of wood, broke in the river.",
+   "options": [
+    "who",
+    "whose",
+    "which"
+   ],
+   "answer": 2,
+   "rule": "A spear is a thing, so the relative clause begins with <b>which</b>."
+  },
+  {
+   "qid": "c9-15-24",
+   "type": "fill",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Fill in the gap.",
+   "before": "The stranger wondered why the Chief",
+   "after": "not noticed him.",
+   "options": [
+    "have",
+    "had",
+    "having"
+   ],
+   "answer": 1,
+   "rule": "A reported thought after the past verb <b>wondered</b> takes the past perfect: <b>had not noticed</b>."
+  },
+  {
+   "qid": "c9-15-25",
+   "type": "build",
+   "level": 1,
+   "topic": "direct_speech",
+   "prompt": "Make a sentence with direct speech.",
+   "answer": [
+    "Taffy",
+    "said,",
+    "\"Come",
+    "here!\""
+   ],
+   "alts": [],
+   "rule": "Speaker + <b>said,</b> then the exact words inside quotation marks."
+  },
+  {
+   "qid": "c9-15-26",
+   "type": "build",
+   "level": 2,
+   "topic": "time_clauses",
+   "prompt": "Make a sentence with 'As soon as'.",
+   "answer": [
+    "As",
+    "soon",
+    "as",
+    "Teshumai",
+    "saw",
+    "it,",
+    "she",
+    "screamed."
+   ],
+   "alts": [
+    [
+     "As",
+     "soon",
+     "as",
+     "she",
+     "saw",
+     "it,",
+     "Teshumai",
+     "screamed."
+    ]
+   ],
+   "rule": "<b>As soon as</b> + first action, then a comma and the next action."
+  },
+  {
+   "qid": "c9-15-27",
+   "type": "build",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Make a reported request.",
+   "answer": [
+    "Taffy",
+    "asked",
+    "him",
+    "to",
+    "fetch",
+    "the",
+    "spear."
+   ],
+   "alts": [],
+   "rule": "Reported request: <b>asked</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c9-15-28",
+   "type": "build",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Make a complex sentence.",
+   "answer": [
+    "The",
+    "stranger",
+    "ran",
+    "off",
+    "before",
+    "Taffy",
+    "could",
+    "explain."
+   ],
+   "alts": [],
+   "rule": "Main clause + subordinate clause of time beginning with <b>before</b>."
+  },
+  {
+   "qid": "c9-15-29",
+   "type": "build",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Make a sentence with 'Hardly ... when'.",
+   "answer": [
+    "Hardly",
+    "had",
+    "Tegumai",
+    "sat",
+    "down",
+    "when",
+    "the",
+    "stranger",
+    "arrived."
+   ],
+   "alts": [
+    [
+     "Hardly",
+     "had",
+     "the",
+     "stranger",
+     "sat",
+     "down",
+     "when",
+     "Tegumai",
+     "arrived."
+    ]
+   ],
+   "rule": "<b>Hardly had</b> + subject + past participle ... <b>when</b> + simple past."
+  },
+  {
+   "qid": "c9-15-30",
+   "type": "chat",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "What did your teacher say today?"
+    ]
+   ],
+   "options": [
+    "She said that the test were on Monday.",
+    "She said that the test was on Monday.",
+    "She told that the test was on Monday."
+   ],
+   "answer": 1,
+   "rule": "Use <b>said that</b> (told needs a person); <b>the test</b> is singular: <b>was</b>."
+  },
+  {
+   "qid": "c9-15-31",
+   "type": "chat",
+   "level": 1,
+   "topic": "time_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Call me when you finish your drawing."
+    ]
+   ],
+   "options": [
+    "Sure, I will call you as soon as I will finish.",
+    "Sure, I am call you as soon as I finish.",
+    "Sure, I will call you as soon as I finish."
+   ],
+   "answer": 2,
+   "rule": "A future time clause uses the simple present: <b>as soon as I finish</b>."
+  },
+  {
+   "qid": "c9-15-32",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you finish the letter to Grandma?"
+    ]
+   ],
+   "options": [
+    "Yes, I wrote it, and Dad post it this morning.",
+    "Yes, I written it, and Dad posted it this morning.",
+    "Yes, I wrote it, and Dad posted it this morning."
+   ],
+   "answer": 2,
+   "rule": "Both clauses of this compound sentence are in the simple past: <b>wrote</b>, <b>posted</b>."
+  },
+  {
+   "qid": "c9-15-33",
+   "type": "chat",
+   "level": 2,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "What did the new boy ask you?"
+    ]
+   ],
+   "options": [
+    "He asked me where did I live.",
+    "He asked me where I lived.",
+    "He asked me where I live in."
+   ],
+   "answer": 1,
+   "rule": "A reported wh-question uses statement order and shifts back: <b>where I lived</b>."
+  },
+  {
+   "qid": "c9-15-34",
+   "type": "chat",
+   "level": 3,
+   "topic": "time_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "When did the rain start?"
+    ]
+   ],
+   "options": [
+    "No sooner had we left home than it started raining.",
+    "No sooner we had left home than it started raining.",
+    "No sooner had we left home when it started raining."
+   ],
+   "answer": 0,
+   "rule": "<b>No sooner had</b> + subject + past participle ... <b>than</b>."
+  },
+  {
+   "qid": "c9-15-35",
+   "type": "chat",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "What did Ms Iyer tell you after class?"
+    ]
+   ],
+   "options": [
+    "She told me to bring my art book tomorrow.",
+    "She told me bring my art book tomorrow.",
+    "She said me to bring my art book tomorrow."
+   ],
+   "answer": 0,
+   "rule": "Reported instruction: <b>told</b> + person + <b>to</b> + verb. <b>Said</b> cannot take <b>me</b> directly."
+  },
+  {
+   "qid": "c9-15-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "Why are you so late?"
+    ]
+   ],
+   "options": [
+    "I missed the bus, so I have to walked.",
+    "I missed the bus, so I had to walk.",
+    "I missed the bus, so I had walk."
+   ],
+   "answer": 1,
+   "rule": "Past necessity: <b>had to</b> + base verb (<b>walk</b>)."
+  },
+  {
+   "qid": "c9-15-37",
+   "type": "chat",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dev",
+     "Did the match start on time?"
+    ]
+   ],
+   "options": [
+    "Hardly we had sat down when the first ball was bowled.",
+    "Hardly had we sat down than the first ball was bowled.",
+    "Hardly had we sat down when the first ball was bowled."
+   ],
+   "answer": 2,
+   "rule": "<b>Hardly</b> at the start needs inversion (<b>had we</b>) and pairs with <b>when</b>."
+  },
+  {
+   "qid": "c9-15-38",
+   "type": "change",
+   "level": 1,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Taffy said, \"I am happy.\"",
+   "options": [
+    "Taffy said that I was happy.",
+    "Taffy said that she were happy.",
+    "Taffy said that she was happy."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>she</b> and <b>am</b> becomes <b>was</b>."
+  },
+  {
+   "qid": "c9-15-39",
+   "type": "change",
+   "level": 2,
+   "topic": "sentence_types",
+   "prompt": "Combine into a compound sentence using 'but'.",
+   "source": "The stranger smiled. He did not understand a word.",
+   "options": [
+    "The stranger smiled, but he did not understand a word.",
+    "The stranger smiled, but he not understand a word.",
+    "The stranger smiled, but he does not understood a word."
+   ],
+   "answer": 0,
+   "rule": "Two main clauses joined by <b>but</b>; keep <b>did not</b> + base verb."
+  },
+  {
+   "qid": "c9-15-40",
+   "type": "change",
+   "level": 3,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "Tegumai said to Taffy, \"Don't bother me.\"",
+   "options": [
+    "Tegumai told Taffy not to bother me.",
+    "Tegumai told Taffy not to bother him.",
+    "Tegumai told Taffy to not bothering him."
+   ],
+   "answer": 1,
+   "rule": "Negative command: <b>told</b> + <b>not to</b> + verb; Tegumai's <b>me</b> becomes <b>him</b>."
+  },
+  {
+   "qid": "c9-15-41",
+   "type": "change",
+   "level": 3,
+   "topic": "time_clauses",
+   "prompt": "Rewrite using 'No sooner ... than'.",
+   "source": "As soon as Taffy saw the carp, she stamped her foot.",
+   "options": [
+    "No sooner did Taffy saw the carp than she stamped her foot.",
+    "No sooner did Taffy see the carp than she stamped her foot.",
+    "No sooner Taffy saw the carp than she stamped her foot."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner</b> needs inversion: <b>did Taffy see</b> (did + base verb) ... <b>than</b>."
+  },
+  {
+   "qid": "c9-15-42",
+   "type": "change",
+   "level": 4,
+   "topic": "direct_speech",
+   "prompt": "Change into direct speech.",
+   "source": "Taffy asked her father if he would be surprised.",
+   "options": [
+    "Taffy said to her father, \"Will he be surprised?\"",
+    "Taffy said to her father, \"Will you be surprised?\"",
+    "Taffy said to her father, \"Would you surprised?\""
+   ],
+   "answer": 1,
+   "rule": "In direct speech Taffy speaks to her father: <b>he</b> becomes <b>you</b> and <b>would</b> becomes <b>will</b>."
+  },
+  {
+   "qid": "c9-15-43",
+   "type": "change",
+   "level": 4,
+   "topic": "sentence_types",
+   "prompt": "Make it a complex sentence using 'Because'.",
+   "source": "Taffy could not write, so she drew pictures.",
+   "options": [
+    "Because Taffy could not write, so she drew pictures.",
+    "Because Taffy could not wrote, she drew pictures.",
+    "Because Taffy could not write, she drew pictures."
+   ],
+   "answer": 2,
+   "rule": "<b>Because</b> replaces <b>so</b>; never use both. After <b>could not</b>, use the base verb."
+  },
+  {
+   "qid": "c9-15-44",
+   "type": "change",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Change into indirect speech.",
+   "source": "The stranger said, \"I will get help from the Chief's tribe.\"",
+   "options": [
+    "The stranger said that I would get help from the Chief's tribe.",
+    "The stranger said that he will got help from the Chief's tribe.",
+    "The stranger said that he would get help from the Chief's tribe."
+   ],
+   "answer": 2,
+   "rule": "<b>I</b> becomes <b>he</b> and <b>will</b> becomes <b>would</b>."
+  },
+  {
+   "qid": "c9-15-45",
+   "type": "change",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Rewrite using 'Hardly ... when'.",
+   "source": "As soon as the stranger reached the cave, the ladies attacked him.",
+   "options": [
+    "Hardly had the stranger reached the cave when the ladies attacked him.",
+    "Hardly the stranger had reached the cave when the ladies attacked him.",
+    "Hardly had the stranger reach the cave when the ladies attacked him."
+   ],
+   "answer": 0,
+   "rule": "<b>Hardly had</b> + subject + past participle (<b>reached</b>) ... <b>when</b>."
+  },
+  {
+   "qid": "c9-15-46",
+   "type": "proof",
+   "level": 3,
+   "topic": "direct_speech",
+   "prompt": "Find and fix the 2 errors in this speech.",
+   "words": [
+    "Taffy",
+    "said,",
+    "\"Daddy,",
+    "Mummy",
+    "will",
+    "knowing",
+    "it",
+    "is",
+    "you",
+    "because",
+    "I",
+    "drawn",
+    "your",
+    "spear",
+    "all",
+    "broken",
+    "in",
+    "two.\""
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "know",
+      "known",
+      "knew"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 11,
+     "options": [
+      "drew",
+      "draws",
+      "drawing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b> use the base verb (<b>know</b>); without <b>have</b>, the past needs the simple past <b>drew</b>, not <b>drawn</b>."
+  },
+  {
+   "qid": "c9-15-47",
+   "type": "proof",
+   "level": 4,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Tegumai",
+    "asked",
+    "Taffy",
+    "what",
+    "she",
+    "was",
+    "doing.",
+    "Taffy",
+    "said",
+    "that",
+    "it",
+    "were",
+    "a",
+    "little",
+    "plan",
+    "of",
+    "her",
+    "own",
+    "and",
+    "asked",
+    "him",
+    "to",
+    "promising",
+    "that",
+    "he",
+    "would",
+    "be",
+    "surprised."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "be",
+      "was",
+      "are"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 22,
+     "options": [
+      "promise",
+      "promised",
+      "promises"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>It</b> takes <b>was</b> in reported speech; a reported request is <b>asked him to promise</b>."
+  },
+  {
+   "qid": "c9-15-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "time_clauses",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "No",
+    "sooner",
+    "had",
+    "Teshumai",
+    "saw",
+    "the",
+    "picture",
+    "than",
+    "she",
+    "screamed.",
+    "Hardly",
+    "had",
+    "the",
+    "stranger",
+    "spoken",
+    "than",
+    "the",
+    "ladies",
+    "knock",
+    "him",
+    "down."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "seeing",
+      "see",
+      "seen"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "when",
+      "then",
+      "that"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "knocked",
+      "knocking",
+      "knocks"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Had</b> + past participle (<b>seen</b>); <b>Hardly</b> pairs with <b>when</b>; the result is simple past: <b>knocked</b>."
+  },
+  {
+   "qid": "c9-15-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "sentence_types",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Tegumai",
+    "went",
+    "to",
+    "the",
+    "river",
+    "to",
+    "catch",
+    "fish,",
+    "and",
+    "Taffy",
+    "go",
+    "too.",
+    "His",
+    "spear",
+    "broken",
+    "on",
+    "a",
+    "rock,",
+    "but",
+    "he",
+    "had",
+    "no",
+    "other",
+    "spear,",
+    "so",
+    "he",
+    "sit",
+    "down",
+    "to",
+    "mend",
+    "it."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "goes",
+      "went",
+      "going"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "breaking",
+      "breaks",
+      "broke"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 26,
+     "options": [
+      "sitting",
+      "seat",
+      "sat"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Every clause of this story is in the simple past: <b>went</b>, <b>broke</b>, <b>sat</b>."
+  },
+  {
+   "qid": "c9-15-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "reported_speech",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "The",
+    "stranger",
+    "thought",
+    "that",
+    "Taffy",
+    "were",
+    "the",
+    "daughter",
+    "of",
+    "a",
+    "great",
+    "Chief.",
+    "He",
+    "told",
+    "himself",
+    "that",
+    "I",
+    "must",
+    "fetch",
+    "help",
+    "from",
+    "the",
+    "Chief's",
+    "tribe",
+    "at",
+    "once."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 16,
+     "options": [
+      "him",
+      "he",
+      "his"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Taffy</b> is singular: <b>was</b>. In a reported thought, the stranger's <b>I</b> becomes <b>he</b>."
+  }
+ ]
+}

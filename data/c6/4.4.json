@@ -1,0 +1,1013 @@
+{
+ "class": 6,
+ "id": "4.4",
+ "title": "A Report about Heavy Rains",
+ "topics": [
+  {
+   "tag": "simple_past",
+   "name": "Simple past tense"
+  },
+  {
+   "tag": "past_continuous",
+   "name": "Past continuous tense"
+  },
+  {
+   "tag": "prep_time",
+   "name": "Prepositions of time (on, in, for, since)"
+  },
+  {
+   "tag": "questions",
+   "name": "Wh- and yes/no questions"
+  },
+  {
+   "tag": "articles_nouns",
+   "name": "Articles, nouns and agreement (revision)"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-4.4-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It rain heavily yesterday.",
+    "It raining heavily yesterday.",
+    "It rained heavily yesterday."
+   ],
+   "answer": 2,
+   "rule": "<b>Yesterday</b> is in the past, so use the simple past: <b>rained</b>."
+  },
+  {
+   "qid": "c6-4.4-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "The festival was in Saturday.",
+    "The festival was at Saturday.",
+    "The festival was on Saturday."
+   ],
+   "answer": 2,
+   "rule": "We use <b>on</b> with days: <b>on Saturday</b>, <b>on Monday</b>."
+  },
+  {
+   "qid": "c6-4.4-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Where you are going?",
+    "Where are you going?",
+    "Where you going are?"
+   ],
+   "answer": 1,
+   "rule": "In a question, the helping verb comes before the subject: <b>Where are you</b> going?"
+  },
+  {
+   "qid": "c6-4.4-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "the",
+    "rescue",
+    "team",
+    "reach",
+    "the",
+    "spot",
+    "quickly."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "reached",
+      "reaches",
+      "reaching"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Yesterday</b> tells us it is past, so <b>reach</b> becomes <b>reached</b>."
+  },
+  {
+   "qid": "c6-4.4-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "children",
+    "were",
+    "sleep",
+    "and",
+    "snoring",
+    "softly",
+    "when",
+    "the",
+    "storm",
+    "began."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "sleeping",
+      "sleeps",
+      "slept"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>were</b> + -ing makes the past continuous, like <b>snoring</b>: <b>were sleeping</b>."
+  },
+  {
+   "qid": "c6-4.4-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "The monsoon starts",
+   "after": "June.",
+   "options": [
+    "in",
+    "on",
+    "at"
+   ],
+   "answer": 0,
+   "rule": "We use <b>in</b> with months: <b>in June</b>, <b>in August</b>."
+  },
+  {
+   "qid": "c6-4.4-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last night, the wind",
+   "after": "very strongly.",
+   "options": [
+    "blow",
+    "blown",
+    "blew"
+   ],
+   "answer": 2,
+   "rule": "<b>Last night</b> is past. The simple past of <b>blow</b> is <b>blew</b>."
+  },
+  {
+   "qid": "c6-4.4-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "road",
+    "was",
+    "full",
+    "of",
+    "water."
+   ],
+   "alts": [],
+   "rule": "Subject (<b>The road</b>) + verb (<b>was</b>) + the rest: <b>full of water</b>."
+  },
+  {
+   "qid": "c6-4.4-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Did you go to school yesterday?"
+    ]
+   ],
+   "options": [
+    "No, I didn't go. It rained a lot.",
+    "No, I didn't went. It rained a lot.",
+    "No, I not go. It rained a lot."
+   ],
+   "answer": 0,
+   "rule": "After <b>didn't</b>, use the base verb: <b>didn't go</b>, never <b>didn't went</b>."
+  },
+  {
+   "qid": "c6-4.4-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "When is Dahi Handi this year?"
+    ]
+   ],
+   "options": [
+    "It is in 27 August.",
+    "It is on 27 August.",
+    "It is at 27 August."
+   ],
+   "answer": 1,
+   "rule": "We use <b>on</b> with dates: <b>on 27 August</b>."
+  },
+  {
+   "qid": "c6-4.4-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "People was waiting at the bus stop when the rain began.",
+    "People were wait at the bus stop when the rain began.",
+    "People were waiting at the bus stop when the rain began."
+   ],
+   "answer": 2,
+   "rule": "<b>People</b> is plural, so use <b>were</b> + verb-ing: <b>were waiting</b>."
+  },
+  {
+   "qid": "c6-4.4-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Many roads was submerged last night.",
+    "Many roads were submerged last night.",
+    "Many roads are submerged last night."
+   ],
+   "answer": 1,
+   "rule": "<b>Last night</b> is past and <b>roads</b> is plural, so use <b>were</b>."
+  },
+  {
+   "qid": "c6-4.4-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rain",
+    "did",
+    "not",
+    "stop",
+    "at",
+    "three",
+    "days."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "since",
+      "for",
+      "on"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "For a length of time, use <b>for</b>: <b>for three days</b>."
+  },
+  {
+   "qid": "c6-4.4-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "did",
+    "the",
+    "soil",
+    "became",
+    "so",
+    "weak?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "becomes",
+      "becoming",
+      "become"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After <b>did</b>, use the base verb: <b>did ... become</b>."
+  },
+  {
+   "qid": "c6-4.4-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "While we",
+   "after": "dinner, the lights went out.",
+   "options": [
+    "were having",
+    "are having",
+    "have"
+   ],
+   "answer": 0,
+   "rule": "A longer past action (<b>were having</b>) was interrupted by a short one (<b>went out</b>)."
+  },
+  {
+   "qid": "c6-4.4-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "people were injured in the accident?",
+   "options": [
+    "How much",
+    "How many",
+    "How long"
+   ],
+   "answer": 1,
+   "rule": "<b>People</b> can be counted, so ask <b>How many</b>."
+  },
+  {
+   "qid": "c6-4.4-17",
+   "type": "build",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Are",
+    "you",
+    "ready",
+    "for",
+    "the",
+    "test?"
+   ],
+   "alts": [],
+   "rule": "A yes/no question starts with the verb: <b>Are you</b> ready...?"
+  },
+  {
+   "qid": "c6-4.4-18",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "The",
+    "officials",
+    "closed",
+    "the",
+    "road",
+    "at",
+    "night."
+   ],
+   "alts": [],
+   "rule": "Who did it + past verb + what: <b>The officials closed the road</b>."
+  },
+  {
+   "qid": "c6-4.4-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What were you doing when the lights went out?"
+    ]
+   ],
+   "options": [
+    "I am reading a book.",
+    "I were reading a book.",
+    "I was reading a book."
+   ],
+   "answer": 2,
+   "rule": "The question is in the past continuous, so answer <b>I was reading</b>."
+  },
+  {
+   "qid": "c6-4.4-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Rohan, ask me one question about the flood."
+    ]
+   ],
+   "options": [
+    "How many houses did the water damage?",
+    "How many houses the water damaged?",
+    "How many houses did the water damaged?"
+   ],
+   "answer": 0,
+   "rule": "Past question: <b>did</b> + subject + base verb: <b>did the water damage</b>?"
+  },
+  {
+   "qid": "c6-4.4-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The children were playing outside when it start to rain.",
+    "The children were playing outside when it started to rain.",
+    "The children was playing outside when it started to rain."
+   ],
+   "answer": 1,
+   "rule": "Long action: <b>were playing</b>. Short action that broke in: <b>started</b>."
+  },
+  {
+   "qid": "c6-4.4-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "Pick the sentence with the correct preposition.",
+   "options": [
+    "It has been raining since Monday.",
+    "It has been raining for Monday.",
+    "It has been raining at Monday."
+   ],
+   "answer": 0,
+   "rule": "Use <b>since</b> with a starting point: <b>since Monday</b>. Use <b>for</b> with a length of time."
+  },
+  {
+   "qid": "c6-4.4-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Do you need any help?",
+    "Does you need any help?",
+    "Do you needs any help?"
+   ],
+   "answer": 0,
+   "rule": "With <b>you</b>, use <b>Do</b>, and the verb stays in base form: <b>Do you need</b>?"
+  },
+  {
+   "qid": "c6-4.4-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "landslide",
+    "happened,",
+    "the",
+    "workers",
+    "were",
+    "build",
+    "a",
+    "wall",
+    "and",
+    "carrying",
+    "bricks."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "built",
+      "builds",
+      "building"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>were</b> + -ing makes the past continuous, like <b>carrying</b>: <b>were building</b>."
+  },
+  {
+   "qid": "c6-4.4-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rescue",
+    "teams",
+    "worked",
+    "since",
+    "five",
+    "hours",
+    "to",
+    "save",
+    "people."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "at",
+      "on",
+      "for"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Five hours</b> is a length of time, so use <b>for</b>."
+  },
+  {
+   "qid": "c6-4.4-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Last week, the water",
+   "after": "many houses near the river.",
+   "options": [
+    "enter",
+    "entered",
+    "entering"
+   ],
+   "answer": 1,
+   "rule": "<b>Last week</b> is past, so use the simple past: <b>entered</b>."
+  },
+  {
+   "qid": "c6-4.4-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "you see the landslide on the news last night?",
+   "options": [
+    "Do",
+    "Did",
+    "Does"
+   ],
+   "answer": 1,
+   "rule": "<b>Last night</b> is past, so the question starts with <b>Did</b>."
+  },
+  {
+   "qid": "c6-4.4-28",
+   "type": "build",
+   "level": 3,
+   "topic": "past_continuous",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "It",
+    "was",
+    "raining",
+    "when",
+    "we",
+    "left."
+   ],
+   "alts": [],
+   "rule": "Long action first (<b>was raining</b>), then <b>when</b> + short action (<b>we left</b>)."
+  },
+  {
+   "qid": "c6-4.4-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Nani",
+     "Did the trains run on time today?"
+    ]
+   ],
+   "options": [
+    "No, they runned very late because of the rain.",
+    "No, they didn't ran on time because of the rain.",
+    "No, they ran very late because of the rain."
+   ],
+   "answer": 2,
+   "rule": "<b>Run</b> is irregular: past is <b>ran</b>. After <b>didn't</b>, use <b>run</b>."
+  },
+  {
+   "qid": "c6-4.4-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "prep_time",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "How long did you wait for the bus?"
+    ]
+   ],
+   "options": [
+    "I waited for an hour.",
+    "I waited since an hour.",
+    "I waited during an hour."
+   ],
+   "answer": 0,
+   "rule": "<b>An hour</b> is a length of time, so use <b>for</b>."
+  },
+  {
+   "qid": "c6-4.4-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "articles_nouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "An officials said that five people lost their lives.",
+    "An official said that five peoples lost their lives.",
+    "An official said that five people lost their lives."
+   ],
+   "answer": 2,
+   "rule": "<b>An</b> goes with one thing: <b>an official</b>. <b>People</b> is already plural."
+  },
+  {
+   "qid": "c6-4.4-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The traffic was moving very slowly on the bridge.",
+    "The traffic were moving very slowly on the bridge.",
+    "The traffic was move very slowly on the bridge."
+   ],
+   "answer": 0,
+   "rule": "<b>Traffic</b> is uncountable and takes <b>was</b>; past continuous = <b>was moving</b>."
+  },
+  {
+   "qid": "c6-4.4-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "articles_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "We",
+    "saw",
+    "a",
+    "rescue",
+    "team",
+    "carrying",
+    "a",
+    "injured",
+    "man",
+    "to",
+    "an",
+    "ambulance."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "many",
+      "an",
+      "these"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Injured</b> begins with a vowel sound, so use <b>an</b>: <b>an injured man</b>."
+  },
+  {
+   "qid": "c6-4.4-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "articles_nouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "was",
+    "too",
+    "many",
+    "water",
+    "on",
+    "the",
+    "road",
+    "after",
+    "the",
+    "storm."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "few",
+      "much",
+      "several"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Water</b> cannot be counted, so use <b>much</b>, not <b>many</b>."
+  },
+  {
+   "qid": "c6-4.4-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_continuous",
+   "prompt": "Fill in the gap.",
+   "before": "My brother and I",
+   "after": "watching the news when the phone rang.",
+   "options": [
+    "were",
+    "was",
+    "is"
+   ],
+   "answer": 0,
+   "rule": "<b>My brother and I</b> = two people (we), so use <b>were</b>."
+  },
+  {
+   "qid": "c6-4.4-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "How many students",
+   "after": "absent because of the flood yesterday?",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>Students</b> is plural and <b>yesterday</b> is past, so use <b>were</b>."
+  },
+  {
+   "qid": "c6-4.4-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make a sentence.",
+   "answer": [
+    "Many",
+    "shops",
+    "stayed",
+    "closed",
+    "because",
+    "of",
+    "the",
+    "flood."
+   ],
+   "alts": [],
+   "rule": "Result first (<b>shops stayed closed</b>), then the reason: <b>because of the flood</b>."
+  },
+  {
+   "qid": "c6-4.4-38",
+   "type": "build",
+   "level": 4,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "the",
+    "school",
+    "close",
+    "early?"
+   ],
+   "alts": [],
+   "rule": "Wh- word + <b>did</b> + subject + base verb: <b>Why did the school close</b> early?"
+  },
+  {
+   "qid": "c6-4.4-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "What did you carry in your bag during the storm?"
+    ]
+   ],
+   "options": [
+    "I carried a umbrella and a torch.",
+    "I carried an umbrella and a torch.",
+    "I carried an umbrella and an torch."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> before a vowel sound (<b>an umbrella</b>), <b>a</b> before a consonant sound (<b>a torch</b>)."
+  },
+  {
+   "qid": "c6-4.4-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "articles_nouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Were the roads safe yesterday?"
+    ]
+   ],
+   "options": [
+    "No, they wasn't. Many roads were under water.",
+    "No, they weren't. Many road were under water.",
+    "No, they weren't. Many roads were under water."
+   ],
+   "answer": 2,
+   "rule": "<b>They</b> takes <b>weren't</b>; after <b>many</b>, the noun is plural: <b>many roads</b>."
+  },
+  {
+   "qid": "c6-4.4-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "While people were celebrating Dahi Handi, heavy rain lash the city.",
+    "While people were celebrating Dahi Handi, heavy rain lashed the city.",
+    "While people was celebrating Dahi Handi, heavy rain lashed the city."
+   ],
+   "answer": 1,
+   "rule": "<b>While</b> + past continuous (<b>were celebrating</b>), then simple past (<b>lashed</b>)."
+  },
+  {
+   "qid": "c6-4.4-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Do you know when did the rescue team reach the spot?",
+    "Do you know when the rescue team reach the spot?",
+    "Do you know when the rescue team reached the spot?"
+   ],
+   "answer": 2,
+   "rule": "Inside <b>Do you know ...?</b>, keep normal order and no <b>did</b>: <b>when the team reached</b>."
+  },
+  {
+   "qid": "c6-4.4-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "hill",
+    "road",
+    "was",
+    "closed",
+    "for",
+    "27",
+    "August",
+    "because",
+    "of",
+    "the",
+    "landslide."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "in",
+      "at",
+      "on"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>27 August</b> is a date, so use <b>on</b>: <b>on 27 August</b>."
+  },
+  {
+   "qid": "c6-4.4-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "rescue",
+    "team",
+    "was",
+    "lifting",
+    "the",
+    "rocks",
+    "carefully",
+    "while",
+    "the",
+    "doctors",
+    "waits",
+    "nearby."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "wait",
+      "waiting",
+      "waited"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The whole sentence is in the past, so <b>waits</b> must be <b>waited</b>."
+  },
+  {
+   "qid": "c6-4.4-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "prep_time",
+   "prompt": "Fill in the gap.",
+   "before": "Schools in the city stayed closed",
+   "after": "two days after the heavy rain.",
+   "options": [
+    "for",
+    "since",
+    "during"
+   ],
+   "answer": 0,
+   "rule": "<b>Two days</b> is a length of time, so use <b>for</b>."
+  },
+  {
+   "qid": "c6-4.4-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Fill in the gap.",
+   "before": "Can you tell me where the relief camp",
+   "after": "now?",
+   "options": [
+    "does",
+    "is",
+    "are"
+   ],
+   "answer": 1,
+   "rule": "After <b>Can you tell me where</b>, use normal order: <b>the relief camp is</b>."
+  },
+  {
+   "qid": "c6-4.4-47",
+   "type": "build",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Make a question.",
+   "answer": [
+    "Were",
+    "the",
+    "children",
+    "sleeping",
+    "when",
+    "lightning",
+    "struck?"
+   ],
+   "alts": [],
+   "rule": "Past continuous question: <b>Were</b> + subject + verb-ing: <b>Were the children sleeping</b>...?"
+  },
+  {
+   "qid": "c6-4.4-48",
+   "type": "build",
+   "level": 5,
+   "topic": "questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "long",
+    "did",
+    "the",
+    "heavy",
+    "rain",
+    "last?"
+   ],
+   "alts": [],
+   "rule": "<b>How long</b> + <b>did</b> + subject + base verb: <b>did the heavy rain last</b>?"
+  },
+  {
+   "qid": "c6-4.4-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Reporter",
+     "What did the officials do after the landslide?"
+    ]
+   ],
+   "options": [
+    "They shifted the injured to hospitals and close the road.",
+    "They shifted the injured to hospitals and closed the road.",
+    "They shift the injured to hospitals and closed the road yesterday."
+   ],
+   "answer": 1,
+   "rule": "Both actions are past, so both verbs take the past: <b>shifted</b> ... <b>closed</b>."
+  },
+  {
+   "qid": "c6-4.4-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "past_continuous",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Where were you when the landslide happened?"
+    ]
+   ],
+   "options": [
+    "I was at my uncle's house, and we was watching the news.",
+    "I was at my uncle's house, and we were watching the news.",
+    "I were at my uncle's house, and we were watching the news."
+   ],
+   "answer": 1,
+   "rule": "<b>I was</b>, <b>we were</b>: match <b>was/were</b> to the subject."
+  }
+ ]
+}

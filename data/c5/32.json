@@ -1,0 +1,991 @@
+{
+ "class": 5,
+ "id": "32",
+ "title": "Helen Keller",
+ "topics": [
+  {
+   "tag": "noun_forms",
+   "name": "Noun forms (patient - patience, enter - entrance)"
+  },
+  {
+   "tag": "simple_past",
+   "name": "Simple past (regular and irregular verbs)"
+  },
+  {
+   "tag": "pronouns",
+   "name": "Pronouns (she/her, they/them, my/mine)"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Conjunctions and joining words"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-32-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the sentence with the correct past tense.",
+   "options": [
+    "Miss Sullivan gave Helen a doll.",
+    "Miss Sullivan gived Helen a doll.",
+    "Miss Sullivan given Helen a doll."
+   ],
+   "answer": 0,
+   "rule": "<b>give</b> is irregular. Its simple past is <b>gave</b>."
+  },
+  {
+   "qid": "c5-32-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen loved she teacher very much.",
+    "Helen loved hers teacher very much.",
+    "Helen loved her teacher very much."
+   ],
+   "answer": 2,
+   "rule": "Before a noun, use <b>her</b>: <b>her</b> teacher. 'she' is a subject; 'hers' stands alone."
+  },
+  {
+   "qid": "c5-32-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "noun_forms",
+   "prompt": "Pick the sentence with the correct noun.",
+   "options": [
+    "Helen showed great patient.",
+    "Helen showed great patiently.",
+    "Helen showed great patience."
+   ],
+   "answer": 2,
+   "rule": "After 'showed great' we need a noun. <b>patient</b> (adjective) becomes <b>patience</b> (noun)."
+  },
+  {
+   "qid": "c5-32-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "learn",
+    "to",
+    "read",
+    "Braille",
+    "books",
+    "when",
+    "she",
+    "was",
+    "young."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "learnt",
+      "learning",
+      "learns"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>when she was young</b> is the past, so use the simple past: <b>learnt</b>."
+  },
+  {
+   "qid": "c5-32-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Miss",
+    "Sullivan",
+    "took",
+    "she",
+    "to",
+    "the",
+    "water",
+    "pump."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "hers",
+      "her",
+      "they"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a verb (took), use the object pronoun: took <b>her</b>."
+  },
+  {
+   "qid": "c5-32-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "noun_forms",
+   "prompt": "Fill in the gap.",
+   "before": "Mr Das checks the",
+   "after": "of the class every morning.",
+   "options": [
+    "attendance",
+    "attend",
+    "attended"
+   ],
+   "answer": 0,
+   "rule": "After 'the' we need a noun. <b>attend</b> (verb) becomes <b>attendance</b> (noun)."
+  },
+  {
+   "qid": "c5-32-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Helen could not see",
+   "after": "hear.",
+   "options": [
+    "so",
+    "because",
+    "or"
+   ],
+   "answer": 2,
+   "rule": "In a 'not' sentence, use <b>or</b> to join two things: could not see <b>or</b> hear."
+  },
+  {
+   "qid": "c5-32-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Helen",
+    "began",
+    "to",
+    "read",
+    "Braille",
+    "books."
+   ],
+   "alts": [],
+   "rule": "<b>began</b> is the past of begin: began + <b>to read</b>."
+  },
+  {
+   "qid": "c5-32-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "When did Helen Keller pass away?"
+    ]
+   ],
+   "options": [
+    "She passed away in 1968.",
+    "She pass away in 1968.",
+    "She passing away in 1968."
+   ],
+   "answer": 0,
+   "rule": "<b>in 1968</b> is the past, so use the simple past: <b>passed away</b>."
+  },
+  {
+   "qid": "c5-32-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Is this your book on Braille?"
+    ]
+   ],
+   "options": [
+    "Yes, it is my.",
+    "Yes, it is mine.",
+    "Yes, it is me."
+   ],
+   "answer": 1,
+   "rule": "Without a noun after it, use <b>mine</b>: it is <b>mine</b> (= my book)."
+  },
+  {
+   "qid": "c5-32-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "noun_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Can you tell the differ between them?",
+    "Can you tell the different between them?",
+    "Can you tell the difference between them?"
+   ],
+   "answer": 2,
+   "rule": "After 'the' we need a noun. <b>differ</b> (verb) becomes <b>difference</b> (noun)."
+  },
+  {
+   "qid": "c5-32-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen was tired, but she not give up.",
+    "Helen was tired, but she did not give up.",
+    "Helen was tired, but she did not gave up."
+   ],
+   "answer": 1,
+   "rule": "Past negative: <b>did not</b> + base verb: did not <b>give</b> up."
+  },
+  {
+   "qid": "c5-32-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "noun_forms",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "passed",
+    "the",
+    "enter",
+    "examination",
+    "for",
+    "Radcliffe",
+    "College."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "entrance",
+      "entered",
+      "entering"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "We need the noun form of enter: the <b>entrance</b> examination."
+  },
+  {
+   "qid": "c5-32-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "year",
+    "Meera",
+    "visit",
+    "a",
+    "school",
+    "for",
+    "the",
+    "blind",
+    "in",
+    "Pune."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "visits",
+      "visiting",
+      "visited"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Last year</b> is the past, so use the simple past: <b>visited</b>."
+  },
+  {
+   "qid": "c5-32-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "Helen put her fingers on people's lips to understand",
+   "after": "better.",
+   "options": [
+    "they",
+    "their",
+    "them"
+   ],
+   "answer": 2,
+   "rule": "After a verb (understand), use the object pronoun <b>them</b>."
+  },
+  {
+   "qid": "c5-32-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "In the examination, Helen",
+   "after": "her answers.",
+   "options": [
+    "type",
+    "typed",
+    "typing"
+   ],
+   "answer": 1,
+   "rule": "This happened in the past, so use the simple past: <b>typed</b>."
+  },
+  {
+   "qid": "c5-32-17",
+   "type": "build",
+   "level": 2,
+   "topic": "pronouns",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Miss",
+    "Sullivan",
+    "gave",
+    "her",
+    "a",
+    "doll."
+   ],
+   "alts": [],
+   "rule": "gave + person (<b>her</b>) + thing (a doll)."
+  },
+  {
+   "qid": "c5-32-18",
+   "type": "build",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Helen",
+    "was",
+    "deaf,",
+    "but",
+    "she",
+    "learnt",
+    "to",
+    "talk."
+   ],
+   "alts": [],
+   "rule": "<b>but</b> joins two ideas that contrast: deaf, <b>but</b> she learnt to talk."
+  },
+  {
+   "qid": "c5-32-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "noun_forms",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What do we need to learn Braille?"
+    ]
+   ],
+   "options": [
+    "We need a lot of patience.",
+    "We need a lot of patient.",
+    "We need a lot of patiently."
+   ],
+   "answer": 0,
+   "rule": "After 'a lot of' we need a noun: <b>patience</b>."
+  },
+  {
+   "qid": "c5-32-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aman",
+     "Why did Helen spell words with her fingers?"
+    ]
+   ],
+   "options": [
+    "Because of she could not talk.",
+    "Because she could not talk.",
+    "Because she can not talked."
+   ],
+   "answer": 1,
+   "rule": "<b>Because</b> + a sentence (she could not talk). 'Because of' needs a noun after it."
+  },
+  {
+   "qid": "c5-32-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen learnt to speak French and German.",
+    "Helen learnt to spoke French and German.",
+    "Helen learn to speaking French and German."
+   ],
+   "answer": 0,
+   "rule": "Only the first verb shows the past: learnt <b>to speak</b> (to + base verb)."
+  },
+  {
+   "qid": "c5-32-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen and she teacher had long talks.",
+    "Helen and her teacher had long talk.",
+    "Helen and her teacher had long talks."
+   ],
+   "answer": 2,
+   "rule": "Before a noun, use <b>her</b>. Without 'a', say long <b>talks</b> (plural)."
+  },
+  {
+   "qid": "c5-32-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "noun_forms",
+   "prompt": "Pick the sentence with the correct noun.",
+   "options": [
+    "Helen's courageous gave hope to many people.",
+    "Helen's courage gave hope to many people.",
+    "Helen's courageously gave hope to many people."
+   ],
+   "answer": 1,
+   "rule": "The subject must be a noun: <b>courage</b>. courageous is an adjective; courageously is an adverb."
+  },
+  {
+   "qid": "c5-32-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "was",
+    "blind",
+    "or",
+    "she",
+    "learnt",
+    "to",
+    "read."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "but",
+      "because",
+      "if"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Two facts that contrast are joined by <b>but</b>: blind, <b>but</b> she learnt to read."
+  },
+  {
+   "qid": "c5-32-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "sitted",
+    "for",
+    "the",
+    "examination",
+    "at",
+    "the",
+    "age",
+    "of",
+    "twenty."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "sat",
+      "sitting",
+      "seat"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>sit</b> is irregular: its past is <b>sat</b>."
+  },
+  {
+   "qid": "c5-32-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "noun_forms",
+   "prompt": "Fill in the gap.",
+   "before": "The school bus stops at the main",
+   "after": "of the school.",
+   "options": [
+    "enter",
+    "entrance",
+    "entered"
+   ],
+   "answer": 1,
+   "rule": "After 'the main' we need a noun: <b>entrance</b> (from enter)."
+  },
+  {
+   "qid": "c5-32-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Helen won high honours",
+   "after": "her hard work.",
+   "options": [
+    "because",
+    "so",
+    "because of"
+   ],
+   "answer": 2,
+   "rule": "Use <b>because of</b> before a noun (her hard work); use 'because' before a full sentence."
+  },
+  {
+   "qid": "c5-32-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Make the question.",
+   "answer": [
+    "Who",
+    "taught",
+    "Helen",
+    "to",
+    "speak?"
+   ],
+   "alts": [],
+   "rule": "<b>Who</b> is the subject, so the past verb comes right after it: Who <b>taught</b>...?"
+  },
+  {
+   "qid": "c5-32-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Did you return Sara's Braille book?"
+    ]
+   ],
+   "options": [
+    "Yes, I gave it back to her.",
+    "Yes, I gave it back to she.",
+    "Yes, I gave it back to hers."
+   ],
+   "answer": 0,
+   "rule": "After 'to', use the object pronoun: to <b>her</b>."
+  },
+  {
+   "qid": "c5-32-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kunal",
+     "What did you do at the library?"
+    ]
+   ],
+   "options": [
+    "I readed a book about Helen Keller.",
+    "I reading a book about Helen Keller.",
+    "I read a book about Helen Keller."
+   ],
+   "answer": 2,
+   "rule": "The past of <b>read</b> is also <b>read</b> (said 'red')."
+  },
+  {
+   "qid": "c5-32-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen studied at an university in America.",
+    "Helen studied at a university in America.",
+    "Helen studyed at a university in America."
+   ],
+   "answer": 1,
+   "rule": "<b>university</b> starts with a 'yoo' sound, so use <b>a</b>. study becomes <b>studied</b>."
+  },
+  {
+   "qid": "c5-32-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Helen and Anne were good friends.",
+    "Helen and Anne was good friends.",
+    "Helen and Anne were good friend."
+   ],
+   "answer": 0,
+   "rule": "Two people (= they) take <b>were</b> and the plural <b>friends</b>."
+  },
+  {
+   "qid": "c5-32-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "teacher",
+    "told",
+    "we",
+    "a",
+    "story",
+    "about",
+    "Helen",
+    "Keller",
+    "today."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "our",
+      "ours",
+      "us"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a verb (told), use the object pronoun <b>us</b>: told <b>us</b> a story."
+  },
+  {
+   "qid": "c5-32-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "learnt",
+    "faster",
+    "then",
+    "many",
+    "other",
+    "children."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "that",
+      "than",
+      "them"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After a comparing word like <b>faster</b>, use <b>than</b>. 'then' means 'after that'."
+  },
+  {
+   "qid": "c5-32-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "teacher spelled words on Helen's hand.",
+   "options": [
+    "She",
+    "Her",
+    "Hers"
+   ],
+   "answer": 1,
+   "rule": "Before a noun (teacher), use <b>Her</b>."
+  },
+  {
+   "qid": "c5-32-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Fill in the gap.",
+   "before": "Yesterday Ravi and I",
+   "after": "a talk about Helen Keller.",
+   "options": [
+    "heard",
+    "hear",
+    "hears"
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> shows the past: hear becomes <b>heard</b>."
+  },
+  {
+   "qid": "c5-32-37",
+   "type": "build",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Helen",
+    "was",
+    "born",
+    "in",
+    "1880."
+   ],
+   "alts": [],
+   "rule": "Use <b>was born</b> for a birth, and <b>in</b> before a year."
+  },
+  {
+   "qid": "c5-32-38",
+   "type": "build",
+   "level": 4,
+   "topic": "noun_forms",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Her",
+    "patience",
+    "made",
+    "Helen",
+    "a",
+    "great",
+    "learner."
+   ],
+   "alts": [],
+   "rule": "<b>patience</b> is a noun, so it can be the subject: Her patience made..."
+  },
+  {
+   "qid": "c5-32-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Why was Helen's first lesson difficult?"
+    ]
+   ],
+   "options": [
+    "Because she did not understood the words.",
+    "Because she did not understand the words.",
+    "Because she not understand the words."
+   ],
+   "answer": 1,
+   "rule": "Past negative: <b>did not</b> + base verb: did not <b>understand</b>."
+  },
+  {
+   "qid": "c5-32-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sister",
+     "Were you and Ravi at the talk on Braille?"
+    ]
+   ],
+   "options": [
+    "Yes, we was there.",
+    "Yes, us were there.",
+    "Yes, we were there."
+   ],
+   "answer": 2,
+   "rule": "The subject is <b>we</b> (not us), and we takes <b>were</b>."
+  },
+  {
+   "qid": "c5-32-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although Helen could not saw or hear, she learnt to read, write and speak.",
+    "Although Helen could not see or hear, she learnt to read, write and speak.",
+    "Although Helen could not see or hear, she learnt to read, write and spoke."
+   ],
+   "answer": 1,
+   "rule": "After <b>could</b> and after <b>to</b>, use base verbs: could not <b>see</b>; to read, write and <b>speak</b>."
+  },
+  {
+   "qid": "c5-32-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "noun_forms",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Ravi's attend at school was perfect this year.",
+    "Ravi's attendance at school were perfect this year.",
+    "Ravi's attendance at school was perfect this year."
+   ],
+   "answer": 2,
+   "rule": "We need the noun <b>attendance</b>, and one thing takes <b>was</b>."
+  },
+  {
+   "qid": "c5-32-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "Helen",
+    "was",
+    "seven,",
+    "Anne",
+    "Sullivan",
+    "come",
+    "to",
+    "teach",
+    "her."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "came",
+      "comes",
+      "coming"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The time is past (<b>was seven</b>), so come becomes <b>came</b>."
+  },
+  {
+   "qid": "c5-32-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Helen",
+    "understood",
+    "they",
+    "by",
+    "touching",
+    "their",
+    "lips",
+    "and",
+    "throats."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "their",
+      "theirs",
+      "them"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "After a verb (understood), use the object pronoun <b>them</b>."
+  },
+  {
+   "qid": "c5-32-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "noun_forms",
+   "prompt": "Fill in the gap.",
+   "before": "After years of practice, Helen gave a clear",
+   "after": "in front of a large crowd.",
+   "options": [
+    "speech",
+    "speak",
+    "spoke"
+   ],
+   "answer": 0,
+   "rule": "After 'a clear' we need a noun: <b>speak</b> (verb) becomes <b>speech</b> (noun)."
+  },
+  {
+   "qid": "c5-32-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "Helen could not read what she had written,",
+   "after": "she passed the examination easily.",
+   "options": [
+    "because",
+    "or",
+    "but"
+   ],
+   "answer": 2,
+   "rule": "The two facts contrast (could not read it, still passed), so join them with <b>but</b>."
+  },
+  {
+   "qid": "c5-32-47",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Make the sentence.",
+   "answer": [
+    "Miss",
+    "Sullivan",
+    "described",
+    "everything",
+    "to",
+    "Helen."
+   ],
+   "alts": [],
+   "rule": "describe + thing + <b>to</b> + person: described everything <b>to</b> Helen."
+  },
+  {
+   "qid": "c5-32-48",
+   "type": "build",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Make the question.",
+   "answer": [
+    "Did",
+    "Helen",
+    "learn",
+    "to",
+    "type",
+    "later?"
+   ],
+   "alts": [],
+   "rule": "Past question: <b>Did</b> + subject + base verb: Did Helen <b>learn</b>...?"
+  },
+  {
+   "qid": "c5-32-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "pronouns",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What did Helen do for other blind people?"
+    ]
+   ],
+   "options": [
+    "She travelled the world and gave they courage.",
+    "She travelled the world and gave them courage.",
+    "She travelled the world and give them courage."
+   ],
+   "answer": 1,
+   "rule": "gave + <b>them</b> (object pronoun); both verbs are in the past: travelled, <b>gave</b>."
+  },
+  {
+   "qid": "c5-32-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_past",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "Did Helen go to college?"
+    ]
+   ],
+   "options": [
+    "Yes, she did, and she won high honours.",
+    "Yes, she does, and she won high honours.",
+    "Yes, she did, and she win high honours."
+   ],
+   "answer": 0,
+   "rule": "Answer a <b>Did</b> question with <b>she did</b>; win becomes <b>won</b> in the past."
+  }
+ ]
+}

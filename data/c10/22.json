@@ -1,0 +1,1248 @@
+{
+ "class": 10,
+ "id": "22",
+ "title": "The Height of the Ridiculous",
+ "topics": [
+  {
+   "tag": "no_sooner_hardly",
+   "name": "No sooner ... than / Hardly ... when / As soon as"
+  },
+  {
+   "tag": "too_so_that",
+   "name": "Too ... to / so ... that / such ... that"
+  },
+  {
+   "tag": "exclamatory_assertive",
+   "name": "Exclamatory and assertive sentences"
+  },
+  {
+   "tag": "past_tenses",
+   "name": "Past and perfect tenses in a story"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-22-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Yesterday the poet wrote some funny lines.",
+    "Yesterday the poet writes some funny lines.",
+    "Yesterday the poet has written some funny lines."
+   ],
+   "answer": 0,
+   "rule": "<b>Yesterday</b> is a finished past time, so use the simple past <b>wrote</b>, not the present perfect."
+  },
+  {
+   "qid": "c10-22-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "too_so_that",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lines were too funny that I laughed loudly.",
+    "The lines were so funny that I laughed loudly.",
+    "The lines were so funny than I laughed loudly."
+   ],
+   "answer": 1,
+   "rule": "The pattern is <b>so + adjective + that</b>. 'Too' goes with 'to', and 'than' is for comparisons."
+  },
+  {
+   "qid": "c10-22-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "my",
+    "brother",
+    "laugh",
+    "at",
+    "the",
+    "funny",
+    "poem",
+    "for",
+    "an",
+    "hour."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "laughs",
+      "laughed",
+      "laughing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Last night</b> shows the past, so use the simple past: <b>laughed</b>."
+  },
+  {
+   "qid": "c10-22-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "too_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Ravi",
+    "was",
+    "so",
+    "tired",
+    "to",
+    "walk",
+    "to",
+    "the",
+    "printer's",
+    "shop."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "such",
+      "too",
+      "much"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Use <b>too + adjective + to</b> to say something could not be done: <b>too tired to walk</b>."
+  },
+  {
+   "qid": "c10-22-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "no_sooner_hardly",
+   "prompt": "Fill in the gap.",
+   "before": "No sooner had he read the first line",
+   "after": "he began to grin.",
+   "options": [
+    "when",
+    "then",
+    "than"
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner</b> always pairs with <b>than</b>."
+  },
+  {
+   "qid": "c10-22-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "exclamatory_assertive",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "funny lines they were!",
+   "options": [
+    "What",
+    "How",
+    "So"
+   ],
+   "answer": 0,
+   "rule": "Use <b>What</b> before a noun phrase (funny lines). <b>How</b> goes before an adjective alone: How funny they were!"
+  },
+  {
+   "qid": "c10-22-07",
+   "type": "build",
+   "level": 1,
+   "topic": "exclamatory_assertive",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "How",
+    "queer",
+    "the",
+    "lines",
+    "were!"
+   ],
+   "alts": [],
+   "rule": "Exclamation pattern: <b>How + adjective + subject + verb!</b>"
+  },
+  {
+   "qid": "c10-22-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "past_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Meera",
+     "Did you finish the funny poem last night?"
+    ]
+   ],
+   "options": [
+    "Yes, I did. I finished it at ten o'clock.",
+    "Yes, I was. I finished it at ten o'clock.",
+    "Yes, I done. I finish it at ten o'clock."
+   ],
+   "answer": 0,
+   "rule": "A <b>Did ...?</b> question takes the short answer <b>Yes, I did</b>, and the past needs <b>finished</b>."
+  },
+  {
+   "qid": "c10-22-09",
+   "type": "change",
+   "level": 1,
+   "topic": "exclamatory_assertive",
+   "prompt": "Change into an assertive sentence.",
+   "source": "What a loud roar the servant gave!",
+   "options": [
+    "The servant gave very a loud roar.",
+    "The servant gives a very loud roar.",
+    "The servant gave a very loud roar."
+   ],
+   "answer": 2,
+   "rule": "<b>What a ...!</b> becomes a statement with <b>a very ...</b>; keep the past tense <b>gave</b>."
+  },
+  {
+   "qid": "c10-22-10",
+   "type": "change",
+   "level": 1,
+   "topic": "too_so_that",
+   "prompt": "Remove 'too'.",
+   "source": "The joke was too silly to print.",
+   "options": [
+    "The joke was so silly that it could not be printed.",
+    "The joke was so silly that it could not printed.",
+    "The joke was very silly that it could not be printed."
+   ],
+   "answer": 0,
+   "rule": "<b>too ... to</b> becomes <b>so ... that ... not</b>; 'was' is past, so use <b>could not</b>."
+  },
+  {
+   "qid": "c10-22-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "no_sooner_hardly",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Hardly he had read the line when he grinned.",
+    "Hardly had he read the line when he grinned.",
+    "Hardly had he read the line than he grinned."
+   ],
+   "answer": 1,
+   "rule": "<b>Hardly</b> takes inversion (<b>had he</b>) and pairs with <b>when</b>, not 'than'."
+  },
+  {
+   "qid": "c10-22-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "exclamatory_assertive",
+   "prompt": "Pick the correct exclamatory sentence.",
+   "options": [
+    "What funny poem it is!",
+    "How a funny poem it is!",
+    "What a funny poem it is!"
+   ],
+   "answer": 2,
+   "rule": "With a singular noun use <b>What a + adjective + noun!</b>"
+  },
+  {
+   "qid": "c10-22-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "no_sooner_hardly",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "No",
+    "sooner",
+    "did",
+    "the",
+    "servant",
+    "read",
+    "the",
+    "line",
+    "when",
+    "he",
+    "laughed."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "then",
+      "than",
+      "that"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>No sooner</b> is always followed by <b>than</b>, never 'when'."
+  },
+  {
+   "qid": "c10-22-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "exclamatory_assertive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "a",
+    "merry",
+    "mood",
+    "Holmes",
+    "were",
+    "in",
+    "that",
+    "day!"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "be",
+      "was"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Holmes is one person and 'that day' is past, so use <b>was</b>."
+  },
+  {
+   "qid": "c10-22-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The servant laughed so hard",
+   "after": "five buttons burst off.",
+   "options": [
+    "than",
+    "that",
+    "to"
+   ],
+   "answer": 1,
+   "rule": "<b>so + adverb + that</b> shows the result: so hard <b>that</b> buttons burst."
+  },
+  {
+   "qid": "c10-22-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "past_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "While the servant",
+   "after": "the poem, I watched his face.",
+   "options": [
+    "was reading",
+    "is reading",
+    "has read"
+   ],
+   "answer": 0,
+   "rule": "An action going on in the past when another happened takes the past continuous: <b>was reading</b>."
+  },
+  {
+   "qid": "c10-22-17",
+   "type": "build",
+   "level": 2,
+   "topic": "no_sooner_hardly",
+   "prompt": "Make a sentence with 'No sooner'.",
+   "answer": [
+    "No",
+    "sooner",
+    "had",
+    "Kabir",
+    "sat",
+    "down",
+    "than",
+    "the",
+    "bell",
+    "rang."
+   ],
+   "alts": [],
+   "rule": "<b>No sooner + had + subject + past participle ... than + simple past</b>."
+  },
+  {
+   "qid": "c10-22-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "too_so_that",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Why didn't you read your poem aloud?"
+    ]
+   ],
+   "options": [
+    "It was too funny that I can't read it.",
+    "It was too funny for me to read without laughing.",
+    "It was so funny to read without laughing."
+   ],
+   "answer": 1,
+   "rule": "<b>too + adjective + for me + to-verb</b> is correct. 'Too' never goes with 'that'."
+  },
+  {
+   "qid": "c10-22-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "no_sooner_hardly",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "When did the class start laughing?"
+    ]
+   ],
+   "options": [
+    "As soon as Rohan read the first line, everyone laughed.",
+    "As soon as Rohan had read the first line, everyone laughs.",
+    "No sooner Rohan read the first line than everyone laughed."
+   ],
+   "answer": 0,
+   "rule": "<b>As soon as</b> + simple past, then simple past. 'No sooner' needs inversion: No sooner had Rohan read."
+  },
+  {
+   "qid": "c10-22-20",
+   "type": "change",
+   "level": 2,
+   "topic": "no_sooner_hardly",
+   "prompt": "Begin the sentence with 'No sooner'.",
+   "source": "As soon as the servant read the fourth line, he broke into a roar.",
+   "options": [
+    "No sooner the servant read the fourth line than he broke into a roar.",
+    "No sooner had the servant read the fourth line when he broke into a roar.",
+    "No sooner had the servant read the fourth line than he broke into a roar."
+   ],
+   "answer": 2,
+   "rule": "<b>No sooner had + subject + past participle ... than ...</b>"
+  },
+  {
+   "qid": "c10-22-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "Pick the sentence with the correct tenses.",
+   "options": [
+    "By the time the doctor came, the servant had laughed for an hour.",
+    "By the time the doctor came, the servant has laughed for an hour.",
+    "By the time the doctor had come, the servant laughs for an hour."
+   ],
+   "answer": 0,
+   "rule": "The earlier of two past actions takes the past perfect: <b>had laughed</b> before the doctor <b>came</b>."
+  },
+  {
+   "qid": "c10-22-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "had",
+    "already",
+    "post",
+    "the",
+    "poem",
+    "before",
+    "the",
+    "servant",
+    "came",
+    "back."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "posting",
+      "posts",
+      "posted"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Past perfect = <b>had + past participle</b>: had already <b>posted</b>."
+  },
+  {
+   "qid": "c10-22-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "lines",
+    "were",
+    "so",
+    "queer",
+    "that",
+    "nobody",
+    "was",
+    "able",
+    "to",
+    "kept",
+    "a",
+    "straight",
+    "face."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "keeping",
+      "keep",
+      "keeps"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>to</b> use the base form of the verb: able to <b>keep</b>."
+  },
+  {
+   "qid": "c10-22-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "no_sooner_hardly",
+   "prompt": "Fill in the gap.",
+   "before": "Hardly had the poem reached the press",
+   "after": "the workers started laughing.",
+   "options": [
+    "when",
+    "than",
+    "then"
+   ],
+   "answer": 0,
+   "rule": "<b>Hardly</b> pairs with <b>when</b>; <b>No sooner</b> pairs with than."
+  },
+  {
+   "qid": "c10-22-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The poem was",
+   "after": "funny for anyone to read with a straight face.",
+   "options": [
+    "so",
+    "such",
+    "too"
+   ],
+   "answer": 2,
+   "rule": "<b>too + adjective + for someone + to-verb</b> means it could not be done."
+  },
+  {
+   "qid": "c10-22-26",
+   "type": "build",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "Make a sentence with 'too ... to'.",
+   "answer": [
+    "The",
+    "servant",
+    "was",
+    "too",
+    "weak",
+    "to",
+    "stand."
+   ],
+   "alts": [],
+   "rule": "<b>too + adjective + to + verb</b>: too weak to stand."
+  },
+  {
+   "qid": "c10-22-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kiran",
+     "What were you doing when the lights went out?"
+    ]
+   ],
+   "options": [
+    "I was reading a funny poem to my grandmother.",
+    "I am reading a funny poem to my grandmother.",
+    "I was read a funny poem to my grandmother."
+   ],
+   "answer": 0,
+   "rule": "<b>What were you doing ...?</b> asks about an action in progress in the past: <b>I was reading</b>."
+  },
+  {
+   "qid": "c10-22-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "exclamatory_assertive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Anu",
+     "My uncle laughed so much that his shirt button flew off!"
+    ]
+   ],
+   "options": [
+    "What funny sight that must have been!",
+    "What a funny sight that must have been!",
+    "How a funny sight that must have been!"
+   ],
+   "answer": 1,
+   "rule": "A singular noun after <b>What</b> needs <b>a</b>: What <b>a</b> funny sight!"
+  },
+  {
+   "qid": "c10-22-29",
+   "type": "change",
+   "level": 3,
+   "topic": "past_tenses",
+   "prompt": "Join the sentences using 'After'.",
+   "source": "The servant read the sixth line. Then he tumbled in a fit.",
+   "options": [
+    "After the servant has read the sixth line, he tumbled in a fit.",
+    "After the servant had read the sixth line, he tumbled in a fit.",
+    "After the servant had read the sixth line, he tumbles in a fit."
+   ],
+   "answer": 1,
+   "rule": "The first action takes the past perfect <b>had read</b>; the later one stays simple past <b>tumbled</b>."
+  },
+  {
+   "qid": "c10-22-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "no_sooner_hardly",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Yesterday",
+    "I",
+    "write",
+    "a",
+    "funny",
+    "poem",
+    "for",
+    "my",
+    "sister.",
+    "No",
+    "sooner",
+    "had",
+    "she",
+    "read",
+    "it",
+    "when",
+    "she",
+    "started",
+    "laughing.",
+    "She",
+    "laughed",
+    "so",
+    "hard",
+    "that",
+    "she",
+    "fall",
+    "off",
+    "the",
+    "sofa."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "wrote",
+      "writes",
+      "written"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "then",
+      "while",
+      "than"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "falls",
+      "fell",
+      "fallen"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b> needs <b>wrote</b>; <b>No sooner</b> pairs with <b>than</b>; the result is past too: <b>fell</b>."
+  },
+  {
+   "qid": "c10-22-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The lines were so funny that neither of us could stopped laughing.",
+    "The lines were such funny that neither of us could stop laughing.",
+    "The lines were so funny that neither of us could stop laughing."
+   ],
+   "answer": 2,
+   "rule": "<b>so + adjective + that</b>; after <b>could</b> use the base verb <b>stop</b>. 'Such' needs a noun."
+  },
+  {
+   "qid": "c10-22-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "past_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The poem was send to the printer last week.",
+    "The poem has been sent to the printer last week.",
+    "The poem was sent to the printer last week."
+   ],
+   "answer": 2,
+   "rule": "<b>Last week</b> needs the simple past; the passive is <b>was + past participle (sent)</b>."
+  },
+  {
+   "qid": "c10-22-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "exclamatory_assertive",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "loudly",
+    "Mr",
+    "Bose",
+    "were",
+    "laughing",
+    "at",
+    "my",
+    "silly",
+    "poem",
+    "last",
+    "night!"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "was",
+      "is",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Mr Bose is one person and <b>last night</b> is past, so use <b>was laughing</b>."
+  },
+  {
+   "qid": "c10-22-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "past_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "The poet",
+   "after": "not written a funny line since that day.",
+   "options": [
+    "have",
+    "has",
+    "is"
+   ],
+   "answer": 1,
+   "rule": "<b>Since</b> + a point in time takes the present perfect; 'the poet' is singular, so <b>has</b>."
+  },
+  {
+   "qid": "c10-22-35",
+   "type": "build",
+   "level": 4,
+   "topic": "exclamatory_assertive",
+   "prompt": "Make an exclamatory sentence.",
+   "answer": [
+    "What",
+    "a",
+    "terrible",
+    "mistake",
+    "I",
+    "made",
+    "by",
+    "sending",
+    "it!"
+   ],
+   "alts": [],
+   "rule": "<b>What a + adjective + noun + subject + verb!</b> After 'by' use the -ing form: by <b>sending</b>."
+  },
+  {
+   "qid": "c10-22-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "no_sooner_hardly",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Did you catch the school bus on time?"
+    ]
+   ],
+   "options": [
+    "No. Hardly had I reached the stop when the bus left.",
+    "No. Hardly I had reached the stop when the bus left.",
+    "No. Hardly had I reach the stop when the bus left."
+   ],
+   "answer": 0,
+   "rule": "<b>Hardly had + subject + past participle ... when</b>: Hardly had I <b>reached</b>."
+  },
+  {
+   "qid": "c10-22-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sneha",
+     "Can you lift this box of books for me?"
+    ]
+   ],
+   "options": [
+    "Sorry, it's so heavy for me to lift.",
+    "Sorry, it's too heavy that I can lift.",
+    "Sorry, it's too heavy for me to lift."
+   ],
+   "answer": 2,
+   "rule": "<b>too heavy for me to lift</b> = I cannot lift it. 'So' needs 'that', and 'too' needs 'to'."
+  },
+  {
+   "qid": "c10-22-38",
+   "type": "change",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Rewrite using 'too ... to'.",
+   "source": "The man was so weak that he could not get out of bed.",
+   "options": [
+    "The man was too weak to get out of bed.",
+    "The man was too weak to got out of bed.",
+    "The man was too weak that he could get out of bed."
+   ],
+   "answer": 0,
+   "rule": "<b>so ... that ... could not</b> becomes <b>too ... to</b>; 'too' already carries the 'not'."
+  },
+  {
+   "qid": "c10-22-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "no_sooner_hardly",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "My",
+    "grandfather",
+    "is",
+    "so",
+    "funny",
+    "that",
+    "my",
+    "friend",
+    "Raju",
+    "love",
+    "his",
+    "jokes.",
+    "Last",
+    "Sunday",
+    "he",
+    "tells",
+    "us",
+    "a",
+    "story",
+    "about",
+    "a",
+    "lazy",
+    "cat.",
+    "Hardly",
+    "had",
+    "he",
+    "finished",
+    "it",
+    "than",
+    "we",
+    "all",
+    "burst",
+    "out",
+    "laughing."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "loving",
+      "lover",
+      "loves"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "tell",
+      "told",
+      "telling"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 28,
+     "options": [
+      "then",
+      "when",
+      "that"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Raju (he) <b>loves</b>; <b>Last Sunday</b> needs <b>told</b>; <b>Hardly</b> pairs with <b>when</b>."
+  },
+  {
+   "qid": "c10-22-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "What",
+    "a",
+    "queer",
+    "poem",
+    "my",
+    "brother",
+    "wrote",
+    "yesterday!",
+    "Last",
+    "night",
+    "he",
+    "laughed",
+    "so",
+    "hard",
+    "that",
+    "he",
+    "can",
+    "not",
+    "speak.",
+    "Then",
+    "he",
+    "sended",
+    "it",
+    "to",
+    "his",
+    "class",
+    "teacher."
+   ],
+   "errors": [
+    {
+     "i": 16,
+     "options": [
+      "could",
+      "will",
+      "may"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 21,
+     "options": [
+      "sends",
+      "sent",
+      "send"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The story is past, so <b>could not</b>; the past of send is <b>sent</b>, not 'sended'."
+  },
+  {
+   "qid": "c10-22-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "no_sooner_hardly",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Scarcely the servant had read the fifth line when his waistband split.",
+    "Scarcely had the servant read the fifth line than his waistband split.",
+    "Scarcely had the servant read the fifth line when his waistband split."
+   ],
+   "answer": 2,
+   "rule": "<b>Scarcely</b>, like hardly, needs inversion (<b>had the servant read</b>) and pairs with <b>when</b>."
+  },
+  {
+   "qid": "c10-22-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "past_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "When",
+    "the",
+    "doctor",
+    "arrive",
+    "at",
+    "noon,",
+    "Holmes",
+    "had",
+    "been",
+    "watching",
+    "his",
+    "servant",
+    "for",
+    "days."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "arrives",
+      "arriving",
+      "arrived"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The main clause is past perfect continuous, so the time clause takes the simple past: <b>arrived</b>."
+  },
+  {
+   "qid": "c10-22-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "It was",
+   "after": "a silly joke that even the serious printer laughed.",
+   "options": [
+    "so",
+    "too",
+    "such"
+   ],
+   "answer": 2,
+   "rule": "Before <b>a + adjective + noun</b> use <b>such</b>: such a silly joke that ..."
+  },
+  {
+   "qid": "c10-22-44",
+   "type": "build",
+   "level": 5,
+   "topic": "no_sooner_hardly",
+   "prompt": "Make a sentence with 'Hardly'.",
+   "answer": [
+    "Hardly",
+    "had",
+    "the",
+    "poem",
+    "reached",
+    "him",
+    "when",
+    "he",
+    "roared."
+   ],
+   "alts": [],
+   "rule": "<b>Hardly + had + subject + past participle ... when + simple past</b>."
+  },
+  {
+   "qid": "c10-22-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "no_sooner_hardly",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ravi",
+     "Did the guests enjoy your funny speech?"
+    ]
+   ],
+   "options": [
+    "Yes! No sooner I had begun than they started clapping.",
+    "Yes! No sooner had I begun than they started clapping.",
+    "Yes! No sooner had I began than they started clapping."
+   ],
+   "answer": 1,
+   "rule": "<b>No sooner had I + past participle</b>: the participle of begin is <b>begun</b>, not 'began'."
+  },
+  {
+   "qid": "c10-22-46",
+   "type": "change",
+   "level": 5,
+   "topic": "exclamatory_assertive",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "The servant was a very mighty man.",
+   "options": [
+    "What mighty man the servant was!",
+    "What a mighty man the servant was!",
+    "How a mighty man the servant was!"
+   ],
+   "answer": 1,
+   "rule": "<b>a very + adjective + noun</b> becomes <b>What a + adjective + noun + subject + verb!</b>"
+  },
+  {
+   "qid": "c10-22-47",
+   "type": "change",
+   "level": 5,
+   "topic": "no_sooner_hardly",
+   "prompt": "Begin the sentence with 'Hardly'.",
+   "source": "As soon as the poet saw the servant's face, he regretted the joke.",
+   "options": [
+    "Hardly had the poet seen the servant's face when he regretted the joke.",
+    "Hardly had the poet saw the servant's face when he regretted the joke.",
+    "Hardly the poet had seen the servant's face when he regretted the joke."
+   ],
+   "answer": 0,
+   "rule": "<b>Hardly had + subject + past participle (seen) ... when ...</b>"
+  },
+  {
+   "qid": "c10-22-48",
+   "type": "change",
+   "level": 5,
+   "topic": "past_tenses",
+   "prompt": "Change into passive voice.",
+   "source": "The servant had read all six lines.",
+   "options": [
+    "All six lines have been read by the servant.",
+    "All six lines had read by the servant.",
+    "All six lines had been read by the servant."
+   ],
+   "answer": 2,
+   "rule": "Past perfect passive = <b>had been + past participle</b>."
+  },
+  {
+   "qid": "c10-22-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "past_tenses",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "When",
+    "I",
+    "reached",
+    "home,",
+    "Tara",
+    "were",
+    "already",
+    "laughing",
+    "at",
+    "a",
+    "comic",
+    "book.",
+    "It",
+    "was",
+    "so",
+    "funny",
+    "that",
+    "tears",
+    "was",
+    "rolling",
+    "down",
+    "her",
+    "cheeks.",
+    "No",
+    "sooner",
+    "had",
+    "she",
+    "shown",
+    "it",
+    "to",
+    "me",
+    "when",
+    "I",
+    "too",
+    "started",
+    "laughing."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "was",
+      "is",
+      "are"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 31,
+     "options": [
+      "then",
+      "than",
+      "that"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Tara (she) <b>was</b>; plural <b>tears were</b>; <b>No sooner</b> pairs with <b>than</b>."
+  },
+  {
+   "qid": "c10-22-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "too_so_that",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Dear",
+    "Anu,",
+    "what",
+    "a",
+    "funny",
+    "evening",
+    "we",
+    "had!",
+    "Grandpa",
+    "told",
+    "a",
+    "joke",
+    "that",
+    "was",
+    "too",
+    "silly",
+    "that",
+    "we",
+    "all",
+    "groaned.",
+    "Then",
+    "he",
+    "laugh",
+    "so",
+    "loudly",
+    "that",
+    "Mr",
+    "Rao",
+    "from",
+    "next",
+    "door",
+    "knocks",
+    "on",
+    "the",
+    "wall."
+   ],
+   "errors": [
+    {
+     "i": 14,
+     "options": [
+      "so",
+      "very",
+      "much"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 22,
+     "options": [
+      "laughs",
+      "laughing",
+      "laughed"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 31,
+     "options": [
+      "knocked",
+      "knocking",
+      "knock"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>so ... that</b>, not 'too ... that'; the story is past, so <b>laughed</b> and <b>knocked</b>."
+  }
+ ]
+}

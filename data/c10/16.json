@@ -1,0 +1,1207 @@
+{
+ "class": 10,
+ "id": "16",
+ "title": "The Will to Win",
+ "topics": [
+  {
+   "tag": "enough",
+   "name": "Using 'enough' (good enough, enough time)"
+  },
+  {
+   "tag": "conditionals",
+   "name": "If-clauses and 'unless'"
+  },
+  {
+   "tag": "either_neither",
+   "name": "Either ... or / neither ... nor"
+  },
+  {
+   "tag": "too_so_that",
+   "name": "Too ... to / so ... that / enough to"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-16-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "enough",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Riya is tall enough to reach the shelf.",
+    "Riya is enough tall to reach the shelf.",
+    "Riya is tall enough reach the shelf."
+   ],
+   "answer": 0,
+   "rule": "<b>Enough</b> comes after an adjective (<b>tall enough</b>) and is followed by <b>to</b> + verb."
+  },
+  {
+   "qid": "c10-16-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you works hard, you will win.",
+    "If you work hard, you will won.",
+    "If you work hard, you will win."
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>If</b> + simple present, <b>will</b> + base verb. 'you' takes <b>work</b>; will is followed by <b>win</b>."
+  },
+  {
+   "qid": "c10-16-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "enough",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Arjun",
+    "was",
+    "not",
+    "old",
+    "enough",
+    "to",
+    "drives",
+    "his",
+    "father's",
+    "car."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "drove",
+      "drive",
+      "driving"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>enough to</b> is followed by the base verb: old enough <b>to drive</b>."
+  },
+  {
+   "qid": "c10-16-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "it",
+    "rains",
+    "tomorrow,",
+    "our",
+    "picnic",
+    "will",
+    "be",
+    "cancel",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "cancelled",
+      "cancelling",
+      "cancels"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive after <b>will be</b> needs the past participle: will be <b>cancelled</b>."
+  },
+  {
+   "qid": "c10-16-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "either_neither",
+   "prompt": "Fill in the gap.",
+   "before": "Neither cold",
+   "after": "hunger could stop the brave climber.",
+   "options": [
+    "or",
+    "and",
+    "nor"
+   ],
+   "answer": 2,
+   "rule": "<b>Neither</b> always pairs with <b>nor</b>."
+  },
+  {
+   "qid": "c10-16-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The box was",
+   "after": "heavy that the child could not lift it.",
+   "options": [
+    "too",
+    "so",
+    "enough"
+   ],
+   "answer": 1,
+   "rule": "<b>so</b> + adjective + <b>that</b> + clause: so heavy that ..."
+  },
+  {
+   "qid": "c10-16-07",
+   "type": "build",
+   "level": 1,
+   "topic": "enough",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "the",
+    "water",
+    "warm",
+    "enough",
+    "for",
+    "a",
+    "swim?"
+   ],
+   "alts": [],
+   "rule": "Question: <b>Is</b> + subject + adjective + <b>enough</b>."
+  },
+  {
+   "qid": "c10-16-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Will you come to the market with me?"
+    ]
+   ],
+   "options": [
+    "If I will finish my homework, I come.",
+    "If I finished my homework, I will coming.",
+    "If I finish my homework, I will come."
+   ],
+   "answer": 2,
+   "rule": "Type 1: <b>If</b> + simple present (finish), main clause <b>will</b> + base verb (will come)."
+  },
+  {
+   "qid": "c10-16-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "enough",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Are you ready for the race?"
+    ]
+   ],
+   "options": [
+    "Yes, I have practise enough.",
+    "Yes, I have practised enough.",
+    "Yes, I have enough practised."
+   ],
+   "answer": 1,
+   "rule": "Present perfect needs the past participle <b>practised</b>; <b>enough</b> comes after the verb here."
+  },
+  {
+   "qid": "c10-16-10",
+   "type": "change",
+   "level": 1,
+   "topic": "too_so_that",
+   "prompt": "Remove 'too'.",
+   "source": "Meena is too tired to walk.",
+   "options": [
+    "Meena is so tired that she can walk.",
+    "Meena is so tired that she cannot walk.",
+    "Meena is too tired that she cannot walk."
+   ],
+   "answer": 1,
+   "rule": "<b>too ... to</b> = <b>so ... that</b> + negative: so tired that she <b>cannot</b> walk."
+  },
+  {
+   "qid": "c10-16-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "either_neither",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Neither the coach nor the players was ready.",
+    "Neither the coach or the players were ready.",
+    "Neither the coach nor the players were ready."
+   ],
+   "answer": 2,
+   "rule": "With <b>neither ... nor</b>, the verb agrees with the nearer subject: players <b>were</b>."
+  },
+  {
+   "qid": "c10-16-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Unless you practise, you will not improve.",
+    "Unless you don't practise, you will not improve.",
+    "Unless you practise, you will not improved."
+   ],
+   "answer": 0,
+   "rule": "<b>Unless</b> already means 'if not', so don't add another not."
+  },
+  {
+   "qid": "c10-16-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "enough",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "There",
+    "were",
+    "not",
+    "enough",
+    "seat",
+    "in",
+    "the",
+    "school",
+    "bus."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "seats",
+      "seated",
+      "sitting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>enough</b> + countable noun takes the plural: enough <b>seats</b>."
+  },
+  {
+   "qid": "c10-16-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "I",
+    "were",
+    "you,",
+    "I",
+    "will",
+    "practise",
+    "every",
+    "morning."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "would",
+      "shall",
+      "can"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>If I were you</b> (imaginary) takes <b>would</b> in the main clause."
+  },
+  {
+   "qid": "c10-16-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "either_neither",
+   "prompt": "Fill in the gap.",
+   "before": "Either Rohan or his sisters",
+   "after": "going to win the prize.",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "With <b>either ... or</b>, the verb agrees with the nearer subject: sisters <b>are</b>."
+  },
+  {
+   "qid": "c10-16-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "enough",
+   "prompt": "Fill in the gap.",
+   "before": "She did not have",
+   "after": "time to finish the test.",
+   "options": [
+    "many",
+    "a few",
+    "enough"
+   ],
+   "answer": 2,
+   "rule": "<b>time</b> is uncountable, so use <b>enough</b>; many and a few go with countable nouns."
+  },
+  {
+   "qid": "c10-16-17",
+   "type": "build",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Make a conditional sentence.",
+   "answer": [
+    "If",
+    "you",
+    "want",
+    "success,",
+    "work",
+    "hard",
+    "every",
+    "day."
+   ],
+   "alts": [],
+   "rule": "<b>If</b>-clause (simple present) + comma + an instruction (imperative): <b>work hard</b>."
+  },
+  {
+   "qid": "c10-16-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "either_neither",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "Did Sahil or Neha bring the charts?"
+    ]
+   ],
+   "options": [
+    "Neither of them bring the charts.",
+    "Neither of them brings the charts yesterday.",
+    "Neither of them brought the charts."
+   ],
+   "answer": 2,
+   "rule": "The question is in the past (<b>Did</b>), so reply in the simple past: <b>brought</b>."
+  },
+  {
+   "qid": "c10-16-19",
+   "type": "change",
+   "level": 2,
+   "topic": "too_so_that",
+   "prompt": "Use 'enough'.",
+   "source": "The ladder is so tall that it can reach the roof.",
+   "options": [
+    "The ladder is enough tall to reach the roof.",
+    "The ladder is tall enough to reach the roof.",
+    "The ladder is tall enough reaching the roof."
+   ],
+   "answer": 1,
+   "rule": "so ... that ... can = adjective + <b>enough to</b> + verb: <b>tall enough to reach</b>."
+  },
+  {
+   "qid": "c10-16-20",
+   "type": "change",
+   "level": 2,
+   "topic": "conditionals",
+   "prompt": "Use 'unless'.",
+   "source": "If you do not hurry, you will miss the train.",
+   "options": [
+    "Unless you do not hurry, you will miss the train.",
+    "Unless you hurry, you will miss the train.",
+    "Unless you hurry, you missed the train."
+   ],
+   "answer": 1,
+   "rule": "<b>If ... not</b> becomes <b>Unless</b> + positive verb; keep the main clause the same."
+  },
+  {
+   "qid": "c10-16-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The tea was too hot for me to drink it.",
+    "The tea was too hot that I could not drink.",
+    "The tea was too hot for me to drink."
+   ],
+   "answer": 2,
+   "rule": "After <b>too ... to</b>, don't repeat the object (no 'it'); 'too' never goes with 'that'."
+  },
+  {
+   "qid": "c10-16-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "either_neither",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "Asha",
+    "nor",
+    "Meera",
+    "are",
+    "coming",
+    "to",
+    "the",
+    "concert."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Neither Asha nor Meera</b> = not one, not the other; the nearer subject (Meera) is singular: <b>is</b>."
+  },
+  {
+   "qid": "c10-16-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "old",
+    "man",
+    "was",
+    "too",
+    "weak",
+    "to",
+    "stood",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "stands",
+      "stand",
+      "standing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>too ... to</b> + base verb: too weak <b>to stand</b>."
+  },
+  {
+   "qid": "c10-16-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If she",
+   "after": "hard, she will surely succeed.",
+   "options": [
+    "will work",
+    "works",
+    "work"
+   ],
+   "answer": 1,
+   "rule": "Type 1: the if-clause takes the simple present (<b>works</b>), not will."
+  },
+  {
+   "qid": "c10-16-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "He is clever",
+   "after": "to solve this puzzle.",
+   "options": [
+    "enough",
+    "too",
+    "so"
+   ],
+   "answer": 0,
+   "rule": "Adjective + <b>enough to</b> shows something is possible: clever <b>enough</b> to solve."
+  },
+  {
+   "qid": "c10-16-26",
+   "type": "build",
+   "level": 3,
+   "topic": "too_so_that",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "bag",
+    "is",
+    "too",
+    "heavy",
+    "for",
+    "Anu",
+    "to",
+    "carry."
+   ],
+   "alts": [],
+   "rule": "<b>too</b> + adjective + <b>for</b> + person + <b>to</b> + verb."
+  },
+  {
+   "qid": "c10-16-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "What would you do if you won a lakh rupees?"
+    ]
+   ],
+   "options": [
+    "If I win a lakh, I would bought a telescope.",
+    "I would buy a telescope for our school.",
+    "I will bought a telescope for our school."
+   ],
+   "answer": 1,
+   "rule": "An imaginary question (<b>would ... if you won</b>) takes <b>would</b> + base verb: would <b>buy</b>."
+  },
+  {
+   "qid": "c10-16-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "enough",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mother",
+     "Why didn't you buy the shoes?"
+    ]
+   ],
+   "options": [
+    "They were not cheap enough for me.",
+    "They were not enough cheap for me.",
+    "They were not cheaply enough for me."
+   ],
+   "answer": 0,
+   "rule": "Adjective first, then <b>enough</b>: <b>cheap enough</b>. After 'were' use the adjective, not the adverb."
+  },
+  {
+   "qid": "c10-16-29",
+   "type": "change",
+   "level": 3,
+   "topic": "either_neither",
+   "prompt": "Use 'neither ... nor'.",
+   "source": "Cold did not stop him, and hunger did not stop him.",
+   "options": [
+    "Neither cold nor hunger stopped him.",
+    "Neither cold or hunger stopped him.",
+    "Neither cold nor hunger did not stop him."
+   ],
+   "answer": 0,
+   "rule": "<b>Neither ... nor</b> is already negative, so the verb is positive: stopped."
+  },
+  {
+   "qid": "c10-16-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "conditionals",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "If",
+    "you",
+    "wants",
+    "to",
+    "win,",
+    "you",
+    "must",
+    "work",
+    "day",
+    "and",
+    "night.",
+    "Neither",
+    "fear",
+    "nor",
+    "laziness",
+    "should",
+    "stop",
+    "you.",
+    "With",
+    "enough",
+    "courage,",
+    "you",
+    "will",
+    "achieved",
+    "your",
+    "goal."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "won",
+      "wanting",
+      "want"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "achieve",
+      "achieving",
+      "achieves"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "'you' takes <b>want</b> (no -s); <b>will</b> is followed by the base verb <b>achieve</b>."
+  },
+  {
+   "qid": "c10-16-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "enough",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Last year Tara is not old enough to join the team.",
+    "Last year Tara was not old enough to join the team.",
+    "Last year Tara was not enough old to join the team."
+   ],
+   "answer": 1,
+   "rule": "<b>Last year</b> needs the past (<b>was</b>); enough follows the adjective: <b>old enough</b>."
+  },
+  {
+   "qid": "c10-16-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "either_neither",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Either you or Rahul have to clear the stage.",
+    "Either you nor Rahul has to clear the stage.",
+    "Either you or Rahul has to clear the stage."
+   ],
+   "answer": 2,
+   "rule": "<b>Either ... or</b>: verb agrees with the nearer subject (Rahul): <b>has</b>. Either pairs with or."
+  },
+  {
+   "qid": "c10-16-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "we",
+    "leave",
+    "now,",
+    "we",
+    "will",
+    "reach",
+    "the",
+    "hall",
+    "before",
+    "Shreya",
+    "begin",
+    "her",
+    "song."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "began",
+      "beginning",
+      "begins"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A time clause about the future uses the simple present, and 'Shreya' is singular: <b>begins</b>."
+  },
+  {
+   "qid": "c10-16-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Fill in the gap.",
+   "before": "The poet had worked so hard",
+   "after": "he finally succeeded.",
+   "options": [
+    "than",
+    "then",
+    "that"
+   ],
+   "answer": 2,
+   "rule": "<b>so</b> + adverb/adjective is completed by <b>that</b> + result."
+  },
+  {
+   "qid": "c10-16-35",
+   "type": "build",
+   "level": 4,
+   "topic": "enough",
+   "prompt": "Make a question.",
+   "answer": [
+    "Do",
+    "you",
+    "have",
+    "enough",
+    "money",
+    "for",
+    "the",
+    "tickets?"
+   ],
+   "alts": [],
+   "rule": "<b>enough</b> comes before a noun: enough <b>money</b>. Question: Do + you + have."
+  },
+  {
+   "qid": "c10-16-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sister",
+     "Shall we go for the movie or the match?"
+    ]
+   ],
+   "options": [
+    "Neither. I am too tired that I cannot go out.",
+    "Neither. I am too tired to go out.",
+    "Neither. I am so tired to go out."
+   ],
+   "answer": 1,
+   "rule": "Use <b>too ... to</b> or <b>so ... that</b>; never mix them (too ... that, so ... to)."
+  },
+  {
+   "qid": "c10-16-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "enough",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Pillai",
+     "Why didn't Ravi play today?"
+    ]
+   ],
+   "options": [
+    "He was not enough fit, so the coach rested him.",
+    "He was not fit enough, so the coach rest him.",
+    "He was not fit enough, so the coach rested him."
+   ],
+   "answer": 2,
+   "rule": "<b>fit enough</b> (adjective + enough), and keep the past tense: the coach <b>rested</b> him."
+  },
+  {
+   "qid": "c10-16-38",
+   "type": "change",
+   "level": 4,
+   "topic": "too_so_that",
+   "prompt": "Remove 'too'.",
+   "source": "The question was too difficult for the students to answer.",
+   "options": [
+    "The question was so difficult that the students cannot answer it.",
+    "The question was so difficult that the students could answer it.",
+    "The question was so difficult that the students could not answer it."
+   ],
+   "answer": 2,
+   "rule": "too ... to = <b>so ... that ... not</b>; keep the past tense (<b>could not</b>) and add the object <b>it</b>."
+  },
+  {
+   "qid": "c10-16-39",
+   "type": "change",
+   "level": 4,
+   "topic": "conditionals",
+   "prompt": "Use 'if' instead of 'unless'.",
+   "source": "Unless you are confident, you cannot win.",
+   "options": [
+    "If you are confident, you cannot win.",
+    "If you are not confident, you cannot won.",
+    "If you are not confident, you cannot win."
+   ],
+   "answer": 2,
+   "rule": "<b>Unless</b> = <b>if ... not</b>: If you are <b>not</b> confident ..."
+  },
+  {
+   "qid": "c10-16-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "either_neither",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Neither",
+    "Sameer",
+    "nor",
+    "Ravi",
+    "were",
+    "ready",
+    "for",
+    "the",
+    "race",
+    "on",
+    "Sunday.",
+    "They",
+    "were",
+    "too",
+    "nervous",
+    "to",
+    "ran",
+    "fast."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "was",
+      "be",
+      "been"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 16,
+     "options": [
+      "running",
+      "run",
+      "runs"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Neither Sameer nor Ravi (singular) <b>was</b>; too ... to + base verb: to <b>run</b>."
+  },
+  {
+   "qid": "c10-16-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If you will be brave enough to try, nothing can keep you away from your goal.",
+    "If you are brave enough to try, nothing can keep you away from your goal.",
+    "If you are enough brave to try, nothing can keep you away from your goal."
+   ],
+   "answer": 1,
+   "rule": "No <b>will</b> in the if-clause; adjective before <b>enough</b>: brave enough."
+  },
+  {
+   "qid": "c10-16-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "either_neither",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Neither",
+    "the",
+    "heat",
+    "nor",
+    "the",
+    "many",
+    "hours",
+    "of",
+    "practice",
+    "was",
+    "able",
+    "to",
+    "break",
+    "her",
+    "spirit."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "is",
+      "be",
+      "were"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The subject nearer the verb is <b>the many hours</b> (plural), so use <b>were</b>."
+  },
+  {
+   "qid": "c10-16-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Fill in the gap.",
+   "before": "If he",
+   "after": "harder last year, he would have won the medal.",
+   "options": [
+    "had trained",
+    "trained",
+    "has trained"
+   ],
+   "answer": 0,
+   "rule": "Type 3 (past, unreal): <b>If</b> + past perfect (<b>had trained</b>), <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c10-16-44",
+   "type": "build",
+   "level": 5,
+   "topic": "enough",
+   "prompt": "Make a question.",
+   "answer": [
+    "Was",
+    "the",
+    "boxer",
+    "strong",
+    "enough",
+    "to",
+    "win",
+    "her",
+    "final",
+    "bout?"
+   ],
+   "alts": [],
+   "rule": "Question: <b>Was</b> + subject + adjective + <b>enough to</b> + verb."
+  },
+  {
+   "qid": "c10-16-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanvi",
+     "You missed the bus again!"
+    ]
+   ],
+   "options": [
+    "If I had woken up earlier, I would have caught it.",
+    "If I woke up earlier, I would have caught it.",
+    "If I had woken up earlier, I would catch it yesterday."
+   ],
+   "answer": 0,
+   "rule": "A regret about the past: <b>If</b> + had + past participle, <b>would have</b> + past participle."
+  },
+  {
+   "qid": "c10-16-46",
+   "type": "change",
+   "level": 5,
+   "topic": "too_so_that",
+   "prompt": "Use 'enough'.",
+   "source": "The problem is so easy that a child can solve it.",
+   "options": [
+    "The problem is easy enough for a child to solve.",
+    "The problem is enough easy for a child to solve.",
+    "The problem is too easy for a child to solve."
+   ],
+   "answer": 0,
+   "rule": "so ... that ... can = adjective + <b>enough for ... to</b>; drop the object 'it'. 'enough' follows the adjective; 'too easy' changes the meaning."
+  },
+  {
+   "qid": "c10-16-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditionals",
+   "prompt": "Begin with 'Had'.",
+   "source": "If Mira had trained regularly, she would have won.",
+   "options": [
+    "Had Mira train regularly, she would have won.",
+    "Had Mira trained regularly, she would have won.",
+    "Had Mira trained regularly, she will have won."
+   ],
+   "answer": 1,
+   "rule": "Drop <b>If</b> and put <b>Had</b> first: Had Mira <b>trained</b> ..., she <b>would have</b> won."
+  },
+  {
+   "qid": "c10-16-48",
+   "type": "proof",
+   "level": 5,
+   "topic": "too_so_that",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "If",
+    "a",
+    "person",
+    "want",
+    "something",
+    "badly",
+    "enough,",
+    "he",
+    "works",
+    "day",
+    "and",
+    "night",
+    "for",
+    "it.",
+    "Neither",
+    "poverty",
+    "nor",
+    "pain",
+    "stop",
+    "him.",
+    "He",
+    "is",
+    "too",
+    "determined",
+    "to",
+    "giving",
+    "up."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "wants",
+      "wanting",
+      "wanted"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 18,
+     "options": [
+      "stopping",
+      "stoppage",
+      "stops"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 25,
+     "options": [
+      "gave",
+      "gives",
+      "give"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "a person <b>wants</b>; neither ... nor pain (singular) <b>stops</b>; too ... to + base verb: to <b>give</b> up."
+  },
+  {
+   "qid": "c10-16-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "either_neither",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "The",
+    "match",
+    "was",
+    "so",
+    "exciting",
+    "that",
+    "nobody",
+    "wanted",
+    "to",
+    "leaves",
+    "the",
+    "stadium.",
+    "If",
+    "our",
+    "team",
+    "wins",
+    "the",
+    "final,",
+    "the",
+    "whole",
+    "school",
+    "will",
+    "celebrated",
+    "tonight.",
+    "Neither",
+    "the",
+    "coach",
+    "nor",
+    "the",
+    "eleven",
+    "players",
+    "is",
+    "ready",
+    "to",
+    "rest."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "left",
+      "leaving",
+      "leave"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "celebrate",
+      "celebrating",
+      "celebrates"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 31,
+     "options": [
+      "was",
+      "be",
+      "are"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "to + base verb: to <b>leave</b>; will <b>celebrate</b>; nearer subject 'players' is plural: <b>are</b>."
+  },
+  {
+   "qid": "c10-16-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "enough",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Arjun",
+    "is",
+    "clever",
+    "enough",
+    "to",
+    "solves",
+    "any",
+    "puzzle.",
+    "If",
+    "he",
+    "keeps",
+    "practising,",
+    "he",
+    "will",
+    "became",
+    "a",
+    "chess",
+    "champion",
+    "one",
+    "day.",
+    "All",
+    "his",
+    "teachers",
+    "are",
+    "proud",
+    "of",
+    "he",
+    "already."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "solving",
+      "solve",
+      "solved"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 14,
+     "options": [
+      "become",
+      "becomes",
+      "becoming"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 26,
+     "options": [
+      "his",
+      "him",
+      "himself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "enough to <b>solve</b>; will <b>become</b>; after a preposition use the object pronoun: proud of <b>him</b>."
+  }
+ ]
+}

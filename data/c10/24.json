@@ -1,0 +1,1221 @@
+{
+ "class": 10,
+ "id": "24",
+ "title": "The Gift of the Magi",
+ "topics": [
+  {
+   "tag": "non_finite",
+   "name": "Infinitives, gerunds and participles"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags (I am, let's, there, nobody, commands)"
+  },
+  {
+   "tag": "short_answers",
+   "name": "Short answers (pronoun + auxiliary)"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh-questions to get a given answer"
+  },
+  {
+   "tag": "conditional_3",
+   "name": "Third conditional and 'Had ...' inversion"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-24-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Della was very poor, was she?",
+    "Della was very poor, wasn't she?",
+    "Della was very poor, didn't she?"
+   ],
+   "answer": 1,
+   "rule": "A positive sentence with <b>was</b> takes a negative tag with the same helper: <b>wasn't she?</b>"
+  },
+  {
+   "qid": "c10-24-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Pick the sentence with the correct infinitive.",
+   "options": [
+    "Della wanted to buy a gift for Jim.",
+    "Della wanted to bought a gift for Jim.",
+    "Della wanted buying a gift for Jim."
+   ],
+   "answer": 0,
+   "rule": "<b>want</b> is followed by the infinitive <b>to + base verb</b>: wanted to buy."
+  },
+  {
+   "qid": "c10-24-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Della",
+    "spent",
+    "hours",
+    "count",
+    "her",
+    "pennies",
+    "again",
+    "and",
+    "again."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "counted",
+      "counts",
+      "counting"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>spend time</b> is followed by the -ing form: spent hours <b>counting</b>."
+  },
+  {
+   "qid": "c10-24-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Last",
+    "night",
+    "Jim",
+    "sold",
+    "his",
+    "gold",
+    "watch,",
+    "doesn't",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wasn't",
+      "didn't",
+      "hadn't"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The simple past <b>sold</b> uses 'did', so the tag is <b>didn't he?</b>"
+  },
+  {
+   "qid": "c10-24-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "short_answers",
+   "prompt": "Complete the short answer.",
+   "before": "Have you cut off your hair? Yes, I",
+   "after": ".",
+   "options": [
+    "did",
+    "have",
+    "am"
+   ],
+   "answer": 1,
+   "rule": "A short answer repeats the helper verb of the question: <b>Have</b> you ...? Yes, I <b>have</b>."
+  },
+  {
+   "qid": "c10-24-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "books is good for the mind.",
+   "options": [
+    "Read",
+    "Reading",
+    "To reading"
+   ],
+   "answer": 1,
+   "rule": "A gerund (<b>Reading</b>) can be the subject of a sentence."
+  },
+  {
+   "qid": "c10-24-07",
+   "type": "build",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Make a suggestion with a question tag.",
+   "answer": [
+    "Let's",
+    "put",
+    "the",
+    "chops",
+    "on,",
+    "shall",
+    "we?"
+   ],
+   "alts": [],
+   "rule": "A sentence beginning with <b>Let's</b> takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-24-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "short_answers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Della",
+     "Will you buy my hair?"
+    ]
+   ],
+   "options": [
+    "Yes, I will. Take your hat off.",
+    "Yes, I do. Take your hat off.",
+    "Yes, I am. Take your hat off."
+   ],
+   "answer": 0,
+   "rule": "Answer a <b>Will you ...?</b> question with <b>Yes, I will</b> / No, I won't."
+  },
+  {
+   "qid": "c10-24-09",
+   "type": "change",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Frame a wh-question to get the words 'At 7 o'clock'.",
+   "source": "At 7 o'clock the coffee was made.",
+   "options": [
+    "When the coffee was made?",
+    "When did the coffee made?",
+    "When was the coffee made?"
+   ],
+   "answer": 2,
+   "rule": "Ask about time with <b>When</b> + helper + subject: <b>When was the coffee made?</b>"
+  },
+  {
+   "qid": "c10-24-10",
+   "type": "change",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Add a question tag.",
+   "source": "They were expensive combs.",
+   "options": [
+    "They were expensive combs, didn't they?",
+    "They were expensive combs, were they?",
+    "They were expensive combs, weren't they?"
+   ],
+   "answer": 2,
+   "rule": "Positive <b>were</b> takes the negative tag <b>weren't they?</b>"
+  },
+  {
+   "qid": "c10-24-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "short_answers",
+   "prompt": "Pick the correct short answer to 'Can you afford it?'",
+   "options": [
+    "No, I can't.",
+    "No, I don't.",
+    "No, I can't afford."
+   ],
+   "answer": 0,
+   "rule": "Repeat the helper of the question: <b>Can</b> you ...? No, I <b>can't</b>."
+  },
+  {
+   "qid": "c10-24-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If Della did not sell her hair, she could not have bought the chain.",
+    "If Della had not sold her hair, she could not bought the chain.",
+    "If Della had not sold her hair, she could not have bought the chain."
+   ],
+   "answer": 2,
+   "rule": "Third conditional: <b>If + had + past participle</b>, <b>could/would have + past participle</b>."
+  },
+  {
+   "qid": "c10-24-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Where",
+    "did",
+    "Della",
+    "went",
+    "to",
+    "sell",
+    "her",
+    "hair?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "goes",
+      "go",
+      "going"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After <b>did</b> use the base verb: Where did Della <b>go</b>?"
+  },
+  {
+   "qid": "c10-24-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "It",
+    "was",
+    "a",
+    "terrified",
+    "moment",
+    "for",
+    "Della."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "terrifying",
+      "terrify",
+      "terrifies"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The <b>-ing</b> participle describes what causes the feeling: a <b>terrifying</b> moment."
+  },
+  {
+   "qid": "c10-24-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "I am the luckiest girl in town,",
+   "after": "I?",
+   "options": [
+    "aren't",
+    "isn't",
+    "don't"
+   ],
+   "answer": 0,
+   "rule": "The tag for <b>I am</b> is <b>aren't I?</b>"
+  },
+  {
+   "qid": "c10-24-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "did Della pay for the fob chain?",
+   "options": [
+    "How many",
+    "What many",
+    "How much"
+   ],
+   "answer": 2,
+   "rule": "Money is uncountable, so ask <b>How much</b>."
+  },
+  {
+   "qid": "c10-24-17",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Why",
+    "did",
+    "Della",
+    "sell",
+    "her",
+    "hair?"
+   ],
+   "alts": [],
+   "rule": "Wh-word + <b>did</b> + subject + base verb: Why did Della sell ...?"
+  },
+  {
+   "qid": "c10-24-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Did you like the story?"
+    ]
+   ],
+   "options": [
+    "Yes! The ending was a big surprise, didn't it?",
+    "Yes! The ending was a big surprise, wasn't it?",
+    "Yes! The ending was a big surprise, was it?"
+   ],
+   "answer": 1,
+   "rule": "Positive <b>was</b> takes the negative tag <b>wasn't it?</b>"
+  },
+  {
+   "qid": "c10-24-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "short_answers",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Jim",
+     "Are you fooling me, Dell?"
+    ]
+   ],
+   "options": [
+    "No, I don't.",
+    "No, I'm not.",
+    "No, I amn't."
+   ],
+   "answer": 1,
+   "rule": "<b>Are you ...?</b> takes the short answer <b>No, I'm not</b>. 'Amn't' is not standard English."
+  },
+  {
+   "qid": "c10-24-20",
+   "type": "change",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Frame a wh-question to get the words 'below her knee'.",
+   "source": "Her hair reached below her knee.",
+   "options": [
+    "Where her hair reached?",
+    "Where did her hair reach?",
+    "Where did her hair reached?"
+   ],
+   "answer": 1,
+   "rule": "Ask about place with <b>Where did</b> + subject + base verb (<b>reach</b>)."
+  },
+  {
+   "qid": "c10-24-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Give it to me quickly, do you?",
+    "Give it to me quickly, will you?",
+    "Give it to me quickly, won't it?"
+   ],
+   "answer": 1,
+   "rule": "A command takes the tag <b>will you?</b>"
+  },
+  {
+   "qid": "c10-24-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "am",
+    "still",
+    "pretty",
+    "without",
+    "my",
+    "hair,",
+    "isn't",
+    "I?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "aren't",
+      "don't",
+      "wasn't"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The tag for <b>I am</b> is always <b>aren't I?</b>"
+  },
+  {
+   "qid": "c10-24-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Della",
+    "hurried",
+    "home",
+    "and",
+    "started",
+    "curl",
+    "her",
+    "short",
+    "hair."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "curled",
+      "curling",
+      "curls"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>start</b> takes a gerund or an infinitive: started <b>curling</b>."
+  },
+  {
+   "qid": "c10-24-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Fill in the gap.",
+   "before": "Had Jim known about the hair, he",
+   "after": "not have bought the combs.",
+   "options": [
+    "will",
+    "would",
+    "had"
+   ],
+   "answer": 1,
+   "rule": "Third conditional result: <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c10-24-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "Jim is fond of",
+   "after": "at his gold watch.",
+   "options": [
+    "look",
+    "to look",
+    "looking"
+   ],
+   "answer": 2,
+   "rule": "After a preposition (<b>of</b>) use a gerund: fond of <b>looking</b>."
+  },
+  {
+   "qid": "c10-24-26",
+   "type": "build",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Make a third conditional sentence.",
+   "answer": [
+    "If",
+    "Jim",
+    "had",
+    "known,",
+    "he",
+    "would",
+    "have",
+    "waited."
+   ],
+   "alts": [],
+   "rule": "<b>If + had + past participle, would have + past participle</b>."
+  },
+  {
+   "qid": "c10-24-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kabir",
+     "I finished 'The Gift of the Magi' last night."
+    ]
+   ],
+   "options": [
+    "Really? What Jim gave Della?",
+    "Really? What did Jim give Della?",
+    "Really? What did Jim gave Della?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>What + did + subject + base verb</b>: What did Jim give ...?"
+  },
+  {
+   "qid": "c10-24-28",
+   "type": "chat",
+   "level": 3,
+   "topic": "conditional_3",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Do you think Della should have waited a few days?"
+    ]
+   ],
+   "options": [
+    "If she had waited, she would not have bought anything.",
+    "If she waited, she would not have bought anything.",
+    "If she had waited, she would not had bought anything."
+   ],
+   "answer": 0,
+   "rule": "Third conditional: <b>If she had waited, she would not have bought ...</b>"
+  },
+  {
+   "qid": "c10-24-29",
+   "type": "change",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Add a question tag.",
+   "source": "There was clearly nothing to do.",
+   "options": [
+    "There was clearly nothing to do, wasn't there?",
+    "There was clearly nothing to do, was it?",
+    "There was clearly nothing to do, was there?"
+   ],
+   "answer": 2,
+   "rule": "<b>Nothing</b> makes the sentence negative, so the tag is positive; 'there' repeats: <b>was there?</b>"
+  },
+  {
+   "qid": "c10-24-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Della",
+    "had",
+    "only",
+    "one",
+    "dollar",
+    "and",
+    "eighty-seven",
+    "cents.",
+    "She",
+    "wanted",
+    "to",
+    "buying",
+    "Jim",
+    "a",
+    "present,",
+    "so",
+    "she",
+    "decide",
+    "to",
+    "sell",
+    "her",
+    "hair.",
+    "Hardly",
+    "had",
+    "she",
+    "sold",
+    "it",
+    "than",
+    "she",
+    "ran",
+    "to",
+    "the",
+    "shops."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "buy",
+      "bought",
+      "buys"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 17,
+     "options": [
+      "decided",
+      "deciding",
+      "decides"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 27,
+     "options": [
+      "then",
+      "that",
+      "when"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Infinitive = <b>to + base verb (buy)</b>; the story is past: <b>decided</b>; <b>Hardly</b> pairs with <b>when</b>."
+  },
+  {
+   "qid": "c10-24-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "short_answers",
+   "prompt": "Pick the correct short answer to 'Does it make any difference?'",
+   "options": [
+    "No, it isn't.",
+    "No, it don't.",
+    "No, it doesn't."
+   ],
+   "answer": 2,
+   "rule": "<b>Does</b> it ...? takes <b>No, it doesn't</b>; 'it' needs 'does', not 'do'."
+  },
+  {
+   "qid": "c10-24-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Had Della kept her hair, the combs will have looked lovely on her.",
+    "Had Della kept her hair, the combs would have looked lovely on her.",
+    "If had Della kept her hair, the combs would have looked lovely on her."
+   ],
+   "answer": 1,
+   "rule": "<b>Had + subject + past participle</b> replaces 'If ... had'; the result needs <b>would have</b>."
+  },
+  {
+   "qid": "c10-24-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "much",
+    "money",
+    "did",
+    "Della",
+    "had",
+    "in",
+    "her",
+    "purse?"
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "have",
+      "has",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>did</b> use the base verb: did Della <b>have</b>?"
+  },
+  {
+   "qid": "c10-24-34",
+   "type": "fill",
+   "level": 4,
+   "topic": "short_answers",
+   "prompt": "Complete the short answer.",
+   "before": "Isn't it a dandy? Yes, it",
+   "after": ".",
+   "options": [
+    "isn't",
+    "does",
+    "is"
+   ],
+   "answer": 2,
+   "rule": "A 'yes' short answer is positive: Yes, it <b>is</b>. 'Yes' never goes with 'isn't'."
+  },
+  {
+   "qid": "c10-24-35",
+   "type": "build",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Make a sentence with an infinitive.",
+   "answer": [
+    "Jim",
+    "wanted",
+    "to",
+    "surprise",
+    "his",
+    "wife",
+    "with",
+    "the",
+    "combs."
+   ],
+   "alts": [],
+   "rule": "<b>want + to + base verb</b>: wanted to surprise."
+  },
+  {
+   "qid": "c10-24-36",
+   "type": "chat",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Arjun, what is your hobby?"
+    ]
+   ],
+   "options": [
+    "Playing the sitar is my hobby.",
+    "Play the sitar is my hobby.",
+    "To playing the sitar is my hobby."
+   ],
+   "answer": 0,
+   "rule": "A gerund (<b>Playing</b> the sitar) can be the subject of a sentence."
+  },
+  {
+   "qid": "c10-24-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "O. Henry always ends his stories with a surprise."
+    ]
+   ],
+   "options": [
+    "Yes! Everyone loves a surprise, aren't they?",
+    "Yes! Everyone loves a surprise, don't they?",
+    "Yes! Everyone loves a surprise, isn't it?"
+   ],
+   "answer": 1,
+   "rule": "After <b>everyone</b> the tag uses <b>they</b>; 'loves' is simple present, so <b>don't they?</b>"
+  },
+  {
+   "qid": "c10-24-38",
+   "type": "change",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Frame a wh-question to get the words 'for Jim's present'.",
+   "source": "She was ransacking the stores for Jim's present.",
+   "options": [
+    "What she was ransacking the stores for?",
+    "What was she ransacking the stores for?",
+    "What was she ransacking the stores?"
+   ],
+   "answer": 1,
+   "rule": "Helper before subject (<b>was she</b>), and keep the preposition: ... the stores <b>for</b>?"
+  },
+  {
+   "qid": "c10-24-39",
+   "type": "proof",
+   "level": 4,
+   "topic": "conditional_3",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "If",
+    "Della",
+    "had",
+    "knew",
+    "about",
+    "the",
+    "combs,",
+    "she",
+    "would",
+    "have",
+    "kept",
+    "her",
+    "hair.",
+    "If",
+    "Jim",
+    "had",
+    "not",
+    "sell",
+    "his",
+    "watch,",
+    "he",
+    "would",
+    "has",
+    "used",
+    "the",
+    "chain.",
+    "They",
+    "truly",
+    "loved",
+    "each",
+    "other,",
+    "didn't",
+    "they?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "know",
+      "knowing",
+      "known"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "sells",
+      "selling",
+      "sold"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 22,
+     "options": [
+      "have",
+      "had",
+      "having"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Third conditional: <b>had known</b>, <b>had not sold</b>, and <b>would have used</b>."
+  },
+  {
+   "qid": "c10-24-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Della",
+    "felt",
+    "nervous",
+    "about",
+    "her",
+    "short",
+    "hair,",
+    "but",
+    "she",
+    "kept",
+    "on",
+    "smile",
+    "at",
+    "the",
+    "door.",
+    "Then",
+    "she",
+    "heard",
+    "his",
+    "steps",
+    "and",
+    "felt",
+    "like",
+    "cry",
+    "for",
+    "a",
+    "moment."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "smiled",
+      "smiles",
+      "smiling"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 23,
+     "options": [
+      "cried",
+      "crying",
+      "cries"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>keep on</b> and <b>feel like</b> take the -ing form: kept on <b>smiling</b>, felt like <b>crying</b>."
+  },
+  {
+   "qid": "c10-24-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Nobody could count Della's love, could they?",
+    "Nobody could count Della's love, couldn't they?",
+    "Nobody could count Della's love, couldn't it?"
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> makes the sentence negative, so the tag is positive and uses <b>they</b>: could they?"
+  },
+  {
+   "qid": "c10-24-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "Jim",
+    "had",
+    "saved",
+    "more",
+    "money,",
+    "he",
+    "would",
+    "not",
+    "have",
+    "sell",
+    "his",
+    "watch."
+   ],
+   "errors": [
+    {
+     "i": 10,
+     "options": [
+      "selling",
+      "sold",
+      "sells"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Third conditional result: <b>would not have + past participle (sold)</b>."
+  },
+  {
+   "qid": "c10-24-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "the price, Della hurried home with the eighty-seven cents.",
+   "options": [
+    "Having paid",
+    "Paid",
+    "Having pay"
+   ],
+   "answer": 0,
+   "rule": "A perfect participle (<b>Having paid</b>) shows the first of two actions by the same person."
+  },
+  {
+   "qid": "c10-24-44",
+   "type": "build",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Make a sentence beginning with 'Had'.",
+   "answer": [
+    "Had",
+    "Della",
+    "known,",
+    "she",
+    "would",
+    "have",
+    "kept",
+    "her",
+    "hair."
+   ],
+   "alts": [],
+   "rule": "<b>Had + subject + past participle</b> = 'If she had known'; then <b>would have + past participle</b>."
+  },
+  {
+   "qid": "c10-24-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Della sold her hair for twenty dollars."
+    ]
+   ],
+   "options": [
+    "To whom she sold it?",
+    "To whom did she sell it?",
+    "Whom did she sold it to?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>To whom + did + subject + base verb</b>: To whom did she sell it?"
+  },
+  {
+   "qid": "c10-24-46",
+   "type": "change",
+   "level": 5,
+   "topic": "short_answers",
+   "prompt": "Give a short positive answer.",
+   "source": "Don't you like me any more?",
+   "options": [
+    "Yes, I don't.",
+    "Yes, I like.",
+    "Yes, I do."
+   ],
+   "answer": 2,
+   "rule": "A short answer uses pronoun + helper: <b>Yes, I do</b>. 'Yes' needs a positive helper."
+  },
+  {
+   "qid": "c10-24-47",
+   "type": "change",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Begin the sentence with 'Had'.",
+   "source": "If Jim had come home early, he would have seen Della's long hair.",
+   "options": [
+    "Had Jim came home early, he would have seen Della's long hair.",
+    "Had Jim come home early, he would see Della's long hair.",
+    "Had Jim come home early, he would have seen Della's long hair."
+   ],
+   "answer": 2,
+   "rule": "Drop 'If' and put <b>Had</b> first; keep the past participle <b>come</b> and <b>would have seen</b>."
+  },
+  {
+   "qid": "c10-24-48",
+   "type": "change",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Frame a wh-question to get the words 'sobs, sniffles and smiles'.",
+   "source": "Life is made up of sobs, sniffles and smiles.",
+   "options": [
+    "What is life made up of?",
+    "What is life made up?",
+    "What does life made up of?"
+   ],
+   "answer": 0,
+   "rule": "Helper before subject (<b>is life</b>) and keep the whole phrase: made up <b>of</b>?"
+  },
+  {
+   "qid": "c10-24-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "conditional_3",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Jim",
+    "come",
+    "home",
+    "at",
+    "seven",
+    "and",
+    "stopped",
+    "at",
+    "the",
+    "door.",
+    "He",
+    "was",
+    "too",
+    "shocked",
+    "to",
+    "saying",
+    "anything.",
+    "Had",
+    "he",
+    "knew",
+    "the",
+    "truth,",
+    "he",
+    "would",
+    "not",
+    "have",
+    "stared",
+    "like",
+    "that."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "came",
+      "comes",
+      "coming"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 15,
+     "options": [
+      "say",
+      "said",
+      "says"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "know",
+      "known",
+      "knowing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "'came ... and stopped' are both past; <b>too ... to + base verb (say)</b>; <b>Had he known</b>."
+  },
+  {
+   "qid": "c10-24-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "non_finite",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "When",
+    "Della",
+    "saw",
+    "the",
+    "combs,",
+    "she",
+    "cry",
+    "with",
+    "joy.",
+    "Jim",
+    "had",
+    "sold",
+    "his",
+    "watch",
+    "to",
+    "bought",
+    "them.",
+    "They",
+    "both",
+    "was",
+    "happy,",
+    "because",
+    "love",
+    "is",
+    "the",
+    "greatest",
+    "gift",
+    "of",
+    "all."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "cries",
+      "crying",
+      "cried"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 15,
+     "options": [
+      "buying",
+      "buys",
+      "buy"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 19,
+     "options": [
+      "is",
+      "were",
+      "been"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Past story: <b>cried</b>; infinitive <b>to buy</b>; plural <b>They both</b> takes <b>were</b>."
+  }
+ ]
+}

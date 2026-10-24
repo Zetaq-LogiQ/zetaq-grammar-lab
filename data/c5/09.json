@@ -1,0 +1,997 @@
+{
+ "class": 5,
+ "id": "09",
+ "title": "The Triantiwontigongolope",
+ "topics": [
+  {
+   "tag": "its_its",
+   "name": "its and it's"
+  },
+  {
+   "tag": "articles",
+   "name": "Articles a / an"
+  },
+  {
+   "tag": "simple_present",
+   "name": "Simple present (it lives, it trembles)"
+  },
+  {
+   "tag": "future_will",
+   "name": "Simple future with will"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-09-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "its_its",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The bird hurt it's wing.",
+    "The bird hurt it wing.",
+    "The bird hurt its wing."
+   ],
+   "answer": 2,
+   "rule": "<b>its</b> means 'belonging to it': its wing. <b>it's</b> means 'it is'."
+  },
+  {
+   "qid": "c5-09-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "A ant is a tiny insect.",
+    "An ant is a tiny insect.",
+    "An ant is an tiny insect."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> before a vowel sound (an ant), <b>a</b> before a consonant sound (a tiny insect)."
+  },
+  {
+   "qid": "c5-09-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The insect live on weeds.",
+    "The insect lives on weeds.",
+    "The insect living on weeds."
+   ],
+   "answer": 1,
+   "rule": "One thing (it, the insect) takes a verb with <b>-s</b>: lives."
+  },
+  {
+   "qid": "c5-09-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "its_its",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "cat",
+    "licked",
+    "it's",
+    "paws",
+    "after",
+    "dinner."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "its",
+      "it",
+      "itself"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The paws belong to the cat, so use <b>its</b> (no apostrophe). <b>it's</b> = it is."
+  },
+  {
+   "qid": "c5-09-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "Triantiwontigongolope",
+    "have",
+    "a",
+    "funny",
+    "face."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "having",
+      "are",
+      "has"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "One creature (it) takes <b>has</b>, not have."
+  },
+  {
+   "qid": "c5-09-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "I saw",
+   "after": "owl on the tree.",
+   "options": [
+    "an",
+    "a",
+    "many"
+   ],
+   "answer": 0,
+   "rule": "<b>owl</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-09-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "If you scold it, it will",
+   "after": "away.",
+   "options": [
+    "runs",
+    "ran",
+    "run"
+   ],
+   "answer": 2,
+   "rule": "After <b>will</b>, use the base form of the verb: will <b>run</b>."
+  },
+  {
+   "qid": "c5-09-08",
+   "type": "build",
+   "level": 1,
+   "topic": "simple_present",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "It",
+    "has",
+    "a",
+    "funny",
+    "face."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>has</b> + a + describing word + noun."
+  },
+  {
+   "qid": "c5-09-09",
+   "type": "build",
+   "level": 1,
+   "topic": "future_will",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "will",
+    "draw",
+    "a",
+    "creature."
+   ],
+   "alts": [],
+   "rule": "Future: subject + <b>will</b> + base verb: I will draw."
+  },
+  {
+   "qid": "c5-09-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "its_its",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Leena",
+     "Is that your dog?"
+    ]
+   ],
+   "options": [
+    "Yes, and it's name is Bruno.",
+    "Yes, and it name is Bruno.",
+    "Yes, and its name is Bruno."
+   ],
+   "answer": 2,
+   "rule": "The name belongs to the dog, so use <b>its</b>: its name."
+  },
+  {
+   "qid": "c5-09-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "its_its",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Its raining, so the insect is hiding.",
+    "It's raining, so the insect is hiding.",
+    "It's raining, so the insect are hiding."
+   ],
+   "answer": 1,
+   "rule": "<b>It's</b> raining = It is raining. The apostrophe stands for the missing letter i."
+  },
+  {
+   "qid": "c5-09-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "future_will",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Tomorrow I will looks for the insect.",
+    "Tomorrow I will look for the insect.",
+    "Tomorrow I will looking for the insect."
+   ],
+   "answer": 1,
+   "rule": "<b>will</b> is always followed by the base form: will <b>look</b>."
+  },
+  {
+   "qid": "c5-09-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "A",
+    "spider",
+    "is",
+    "not",
+    "a",
+    "insect",
+    "because",
+    "it",
+    "has",
+    "eight",
+    "legs."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "an",
+      "much",
+      "these"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>insect</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-09-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "future_will",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "week",
+    "our",
+    "class",
+    "will",
+    "made",
+    "a",
+    "poster",
+    "of",
+    "funny",
+    "creatures."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "make",
+      "makes",
+      "making"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base form: will <b>make</b>, not will made."
+  },
+  {
+   "qid": "c5-09-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "The insect",
+   "after": "if you tickle it.",
+   "options": [
+    "tremble",
+    "trembles",
+    "trembling"
+   ],
+   "answer": 1,
+   "rule": "One thing (it) in the simple present adds <b>-s</b>: trembles."
+  },
+  {
+   "qid": "c5-09-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "its_its",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "just a little joke.",
+   "options": [
+    "It's",
+    "Its",
+    "It"
+   ],
+   "answer": 0,
+   "rule": "We need 'It is' here, so write <b>It's</b>."
+  },
+  {
+   "qid": "c5-09-17",
+   "type": "build",
+   "level": 2,
+   "topic": "articles",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "An",
+    "owl",
+    "sat",
+    "on",
+    "a",
+    "branch."
+   ],
+   "alts": [],
+   "rule": "<b>An</b> owl (vowel sound), <b>a</b> branch (consonant sound)."
+  },
+  {
+   "qid": "c5-09-18",
+   "type": "build",
+   "level": 2,
+   "topic": "its_its",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "It's",
+    "a",
+    "funny",
+    "name."
+   ],
+   "alts": [],
+   "rule": "<b>It's</b> a funny name = It is a funny name."
+  },
+  {
+   "qid": "c5-09-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Om",
+     "What does your pet rabbit eat?"
+    ]
+   ],
+   "options": [
+    "It eat carrots and grass.",
+    "It eating carrots and grass.",
+    "It eats carrots and grass."
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes a verb with <b>-s</b> in the simple present: it eats."
+  },
+  {
+   "qid": "c5-09-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "future_will",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Will you call your grandma today?"
+    ]
+   ],
+   "options": [
+    "Yes, I will calls her after lunch.",
+    "Yes, I will call she after lunch.",
+    "Yes, I will call her after lunch."
+   ],
+   "answer": 2,
+   "rule": "Use <b>will</b> + base verb (call), and <b>her</b> after a verb."
+  },
+  {
+   "qid": "c5-09-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "its_its",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It's hungry, so it's looking for its food.",
+    "Its hungry, so it's looking for its food.",
+    "It's hungry, so it's looking for it's food."
+   ],
+   "answer": 0,
+   "rule": "<b>It's</b> = it is (It's hungry). <b>its</b> = belonging to it (its food)."
+  },
+  {
+   "qid": "c5-09-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The insect isn't an early riser.",
+    "The insect isn't a early riser.",
+    "The insect aren't an early riser."
+   ],
+   "answer": 0,
+   "rule": "<b>early</b> begins with a vowel sound, so say <b>an</b> early riser; one insect takes <b>isn't</b>."
+  },
+  {
+   "qid": "c5-09-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "future_will",
+   "prompt": "Pick the correct question.",
+   "options": [
+    "Will the insect comes back?",
+    "Will the insect come back?",
+    "Will the insect coming back?"
+   ],
+   "answer": 1,
+   "rule": "In a question with <b>Will</b>, the verb stays in the base form: come."
+  },
+  {
+   "qid": "c5-09-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "call",
+    "it",
+    "softly,",
+    "the",
+    "Triantiwontigongolope",
+    "purr",
+    "quite",
+    "proudly."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "purring",
+      "purrs",
+      "purred"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "One creature takes a verb with <b>-s</b> in the simple present: it <b>purrs</b>."
+  },
+  {
+   "qid": "c5-09-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "its_its",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "tree",
+    "loses",
+    "all",
+    "it's",
+    "leaves",
+    "in",
+    "winter."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "its",
+      "it",
+      "their"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The leaves belong to the tree, so use <b>its</b> (no apostrophe)."
+  },
+  {
+   "qid": "c5-09-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The creature ate",
+   "after": "unusual sandwich made of soap.",
+   "options": [
+    "a",
+    "much",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "<b>unusual</b> begins with a vowel sound, so use <b>an</b>."
+  },
+  {
+   "qid": "c5-09-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "If you sneer at it, it",
+   "after": "scuttle off in shame.",
+   "options": [
+    "is",
+    "has",
+    "will"
+   ],
+   "answer": 2,
+   "rule": "To say what happens next, use <b>will</b> + base verb: it will scuttle."
+  },
+  {
+   "qid": "c5-09-28",
+   "type": "build",
+   "level": 3,
+   "topic": "simple_present",
+   "prompt": "Make a question.",
+   "answer": [
+    "Does",
+    "it",
+    "live",
+    "on",
+    "weeds?"
+   ],
+   "alts": [],
+   "rule": "<b>Does</b> + subject + base verb: Does it <b>live</b> ... ?"
+  },
+  {
+   "qid": "c5-09-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "its_its",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Kavya",
+     "What is the funniest thing about this insect?"
+    ]
+   ],
+   "options": [
+    "It's nose! It's very snubbish.",
+    "Its nose! It's very snubbish.",
+    "Its nose! Its very snubbish."
+   ],
+   "answer": 1,
+   "rule": "<b>Its</b> nose = the nose of it. <b>It's</b> very snubbish = It is very snubbish."
+  },
+  {
+   "qid": "c5-09-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mr Joshi",
+     "What did you draw for your project?"
+    ]
+   ],
+   "options": [
+    "I drew a imaginary creature with a long tail.",
+    "I drew an imaginary creature with an long tail.",
+    "I drew an imaginary creature with a long tail."
+   ],
+   "answer": 2,
+   "rule": "<b>an</b> imaginary (vowel sound), <b>a</b> long tail (consonant sound)."
+  },
+  {
+   "qid": "c5-09-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It has a funny face, but it don't bite.",
+    "It has a funny face, but it doesn't bite.",
+    "It have a funny face, but it doesn't bite."
+   ],
+   "answer": 1,
+   "rule": "<b>It</b> takes <b>has</b> and <b>doesn't</b>."
+  },
+  {
+   "qid": "c5-09-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "its_its",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The puppy wagged its tail at the children.",
+    "The puppy wagged it's tail at the children.",
+    "The puppy wagged its tail at the childs."
+   ],
+   "answer": 0,
+   "rule": "<b>its</b> tail = the puppy's tail. The plural of child is <b>children</b>."
+  },
+  {
+   "qid": "c5-09-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tomorrow",
+    "Neha",
+    "will",
+    "show",
+    "us",
+    "her",
+    "drawing",
+    "of",
+    "an",
+    "funny",
+    "creature."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "many",
+      "these",
+      "a"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>funny</b> begins with a consonant sound, so use <b>a</b>."
+  },
+  {
+   "qid": "c5-09-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "insects",
+    "lives",
+    "under",
+    "the",
+    "old",
+    "wooden",
+    "bridge."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "living",
+      "live",
+      "is"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>These insects</b> is plural, so the verb has no -s: live."
+  },
+  {
+   "qid": "c5-09-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "its_its",
+   "prompt": "Fill in the gap.",
+   "before": "The insect was hungry, so",
+   "after": "ate all the soap.",
+   "options": [
+    "it",
+    "its",
+    "it's"
+   ],
+   "answer": 0,
+   "rule": "We need a subject before <b>ate</b>, so use <b>it</b>. its = belonging to it; it's = it is."
+  },
+  {
+   "qid": "c5-09-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Fill in the gap.",
+   "before": "On Sunday we",
+   "after": "look for the insect in the garden.",
+   "options": [
+    "are",
+    "will",
+    "does"
+   ],
+   "answer": 1,
+   "rule": "For a future plan, use <b>will</b> + base verb: we will look."
+  },
+  {
+   "qid": "c5-09-37",
+   "type": "build",
+   "level": 4,
+   "topic": "its_its",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "The",
+    "bird",
+    "is",
+    "feeding",
+    "its",
+    "babies."
+   ],
+   "alts": [],
+   "rule": "<b>its</b> babies = the babies of the bird (no apostrophe)."
+  },
+  {
+   "qid": "c5-09-38",
+   "type": "build",
+   "level": 4,
+   "topic": "articles",
+   "prompt": "Make a question.",
+   "answer": [
+    "Is",
+    "it",
+    "an",
+    "insect",
+    "or",
+    "a",
+    "spider?"
+   ],
+   "alts": [],
+   "rule": "<b>an</b> insect (vowel sound), <b>a</b> spider (consonant sound)."
+  },
+  {
+   "qid": "c5-09-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "Does your little sister get up early?"
+    ]
+   ],
+   "options": [
+    "No, she don't. She is not an early riser.",
+    "No, she doesn't. She is not an early riser.",
+    "No, she doesn't. She is not a early riser."
+   ],
+   "answer": 1,
+   "rule": "<b>She</b> takes <b>doesn't</b>; <b>early</b> starts with a vowel sound: an early riser."
+  },
+  {
+   "qid": "c5-09-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "future_will",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "Can you come to the park with me now?"
+    ]
+   ],
+   "options": [
+    "Sorry, I can't. I will finish my homework first.",
+    "Sorry, I can't. I will finishing my homework first.",
+    "Sorry, I can't. I will finishes my homework first."
+   ],
+   "answer": 0,
+   "rule": "<b>will</b> + base verb: I will <b>finish</b>."
+  },
+  {
+   "qid": "c5-09-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "its_its",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "When the creature is happy, it's face glows and its tail wags.",
+    "When the creature is happy, its face glow and its tail wags.",
+    "When the creature is happy, its face glows and its tail wags."
+   ],
+   "answer": 2,
+   "rule": "<b>its</b> face, <b>its</b> tail (belonging to it). One face <b>glows</b>."
+  },
+  {
+   "qid": "c5-09-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "It trembles if you tread on its toes, but it purr if you call its name.",
+    "It tremble if you tread on its toes, but it purrs if you call its name.",
+    "It trembles if you tread on its toes, but it purrs if you call its name."
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes verbs with <b>-s</b> in the simple present: trembles, purrs."
+  },
+  {
+   "qid": "c5-09-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "future_will",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "the",
+    "sky",
+    "turns",
+    "bottle",
+    "green",
+    "tomorrow,",
+    "we",
+    "will",
+    "saw",
+    "a",
+    "strange",
+    "insect."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "see",
+      "seen",
+      "seeing"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>will</b>, use the base form: will <b>see</b>, not will saw."
+  },
+  {
+   "qid": "c5-09-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "its_its",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "My",
+    "grandpa's",
+    "old",
+    "clock",
+    "has",
+    "lost",
+    "it's",
+    "minute",
+    "hand,",
+    "so",
+    "it",
+    "shows",
+    "the",
+    "wrong",
+    "time."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "it",
+      "their",
+      "its"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The minute hand belongs to the clock, so use <b>its</b>. <b>it's</b> = it is."
+  },
+  {
+   "qid": "c5-09-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Fill in the gap.",
+   "before": "The insect sleeps for",
+   "after": "hour after lunch every day.",
+   "options": [
+    "a",
+    "many",
+    "an"
+   ],
+   "answer": 2,
+   "rule": "The <b>h</b> in <b>hour</b> is silent, so it begins with a vowel sound: <b>an</b> hour."
+  },
+  {
+   "qid": "c5-09-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Fill in the gap.",
+   "before": "Every one of these funny creatures",
+   "after": "on weeds and wattle-gum.",
+   "options": [
+    "lives",
+    "live",
+    "living"
+   ],
+   "answer": 0,
+   "rule": "The subject is <b>Every one</b>, which is singular, so the verb adds -s: lives."
+  },
+  {
+   "qid": "c5-09-47",
+   "type": "build",
+   "level": 5,
+   "topic": "future_will",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "If",
+    "you",
+    "scold",
+    "it,",
+    "the",
+    "insect",
+    "will",
+    "hide."
+   ],
+   "alts": [],
+   "rule": "If + present (you scold), then <b>will</b> + base verb (will hide)."
+  },
+  {
+   "qid": "c5-09-48",
+   "type": "chat",
+   "level": 5,
+   "topic": "its_its",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Tanu",
+     "Why is the puppy crying?"
+    ]
+   ],
+   "options": [
+    "It's hungry, and its bowl is empty.",
+    "Its hungry, and its bowl is empty.",
+    "It's hungry, and it's bowl is empty."
+   ],
+   "answer": 0,
+   "rule": "<b>It's</b> hungry = It is hungry. <b>its</b> bowl = the bowl that belongs to it."
+  },
+  {
+   "qid": "c5-09-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "articles",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "What would you like for your birthday?"
+    ]
+   ],
+   "options": [
+    "I'd like a ant farm and a book about insects.",
+    "I'd like an ant farm and a book about insects.",
+    "I'd like an ant farm and an book about insects."
+   ],
+   "answer": 1,
+   "rule": "<b>an</b> ant farm (vowel sound), <b>a</b> book (consonant sound)."
+  },
+  {
+   "qid": "c5-09-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_present",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mira",
+     "Does the Triantiwontigongolope really exist?"
+    ]
+   ],
+   "options": [
+    "No, it don't. It lives only in a funny poem.",
+    "No, it doesn't. It live only in a funny poem.",
+    "No, it doesn't. It lives only in a funny poem."
+   ],
+   "answer": 2,
+   "rule": "<b>It</b> takes <b>doesn't</b> and a verb with <b>-s</b>: it lives."
+  }
+ ]
+}

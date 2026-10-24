@@ -1,0 +1,992 @@
+{
+ "class": 5,
+ "id": "14",
+ "title": "A Lesson for All",
+ "topics": [
+  {
+   "tag": "sentence_kinds",
+   "name": "Kinds of sentences: statement, question, command, exclamation"
+  },
+  {
+   "tag": "wh_questions",
+   "name": "Wh- questions"
+  },
+  {
+   "tag": "imperatives",
+   "name": "Commands and polite requests"
+  },
+  {
+   "tag": "simple_future",
+   "name": "Simple future with will"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c5-14-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Which exclamation is correct?",
+   "options": [
+    "How a mess this street is!",
+    "What a mess this streets is!",
+    "What a mess this street is!"
+   ],
+   "answer": 2,
+   "rule": "Use <b>What a</b> + noun in an exclamation, and end it with <b>!</b>. 'How' goes with an adjective alone."
+  },
+  {
+   "qid": "c5-14-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Where did all this litter come from?",
+    "Where did all this litter came from?",
+    "Where all this litter did come from?"
+   ],
+   "answer": 0,
+   "rule": "After <b>did</b>, use the base form: did ... <b>come</b>. The order is Where + did + subject + verb."
+  },
+  {
+   "qid": "c5-14-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "simple_future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I will gets some ice at once.",
+    "I will get some ice at once.",
+    "I will got some ice at once."
+   ],
+   "answer": 1,
+   "rule": "After <b>will</b>, always use the base form of the verb: <b>will get</b>."
+  },
+  {
+   "qid": "c5-14-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Nidhi,",
+    "please",
+    "throws",
+    "the",
+    "wrappers",
+    "into",
+    "the",
+    "dustbin."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "threw",
+      "throw",
+      "throwing"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A command or request uses the base form of the verb: please <b>throw</b>."
+  },
+  {
+   "qid": "c5-14-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "simple_future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Don't",
+    "worry,",
+    "I",
+    "will",
+    "helps",
+    "you",
+    "clean",
+    "the",
+    "street."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "helped",
+      "help",
+      "helping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>will</b> is always followed by the base form: will <b>help</b>, never 'will helps'."
+  },
+  {
+   "qid": "c5-14-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "a terrible mess this is!",
+   "options": [
+    "How",
+    "Which",
+    "What"
+   ],
+   "answer": 2,
+   "rule": "Use <b>What a</b> + noun in an exclamation: <b>What a</b> terrible mess! ('How' goes with an adjective alone.)"
+  },
+  {
+   "qid": "c5-14-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "is the newspaper so late today?",
+   "options": [
+    "Why",
+    "Who",
+    "Which"
+   ],
+   "answer": 0,
+   "rule": "To ask for a <b>reason</b>, use <b>Why</b>."
+  },
+  {
+   "qid": "c5-14-08",
+   "type": "build",
+   "level": 1,
+   "topic": "imperatives",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "do",
+    "not",
+    "litter",
+    "the",
+    "street."
+   ],
+   "alts": [],
+   "rule": "A negative command begins with <b>Do not</b> + base verb. <b>Please</b> makes it polite."
+  },
+  {
+   "qid": "c5-14-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "simple_future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Can someone fetch the doctor?"
+    ]
+   ],
+   "options": [
+    "I will fetch her at once.",
+    "I will fetched her at once.",
+    "I fetching her at once."
+   ],
+   "answer": 0,
+   "rule": "To offer to do something now, say <b>I will</b> + base verb: I will <b>fetch</b>."
+  },
+  {
+   "qid": "c5-14-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Rohan",
+     "I saw an old tyre in the middle of the road!"
+    ]
+   ],
+   "options": [
+    "When you did see it?",
+    "When did you see it?",
+    "When did you saw it?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>When + did + you + base verb</b>: When did you <b>see</b> it?"
+  },
+  {
+   "qid": "c5-14-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Which command is correct?",
+   "options": [
+    "Run and fetch the doctor.",
+    "Runs and fetch the doctor.",
+    "Run and fetches the doctor."
+   ],
+   "answer": 0,
+   "rule": "Commands use the base form of every verb: <b>Run</b> and <b>fetch</b>."
+  },
+  {
+   "qid": "c5-14-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Who responsible for this mess?",
+    "Who are responsible for this mess is?",
+    "Who is responsible for this mess?"
+   ],
+   "answer": 2,
+   "rule": "A wh- question needs a verb in the right place: <b>Who is</b> responsible ...?"
+  },
+  {
+   "qid": "c5-14-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Why",
+    "do",
+    "the",
+    "birds",
+    "builds",
+    "nests",
+    "in",
+    "tall",
+    "trees?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "build",
+      "built",
+      "building"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "After <b>do</b> or <b>does</b> in a question, use the base form: do the birds <b>build</b>?"
+  },
+  {
+   "qid": "c5-14-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "not",
+    "dumps",
+    "rubbish",
+    "in",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "dumped",
+      "dump",
+      "dumping"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "A negative command is <b>Do not</b> + base verb: Do not <b>dump</b>."
+  },
+  {
+   "qid": "c5-14-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "simple_future",
+   "prompt": "Fill in the gap.",
+   "before": "If we sort the litter, the Mayor",
+   "after": "arrange to collect it.",
+   "options": [
+    "is",
+    "will",
+    "was"
+   ],
+   "answer": 1,
+   "rule": "For a future action, use <b>will</b> + base verb: will <b>arrange</b>."
+  },
+  {
+   "qid": "c5-14-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "Please",
+   "after": "the door; it is cold outside.",
+   "options": [
+    "shuts",
+    "shutting",
+    "shut"
+   ],
+   "answer": 2,
+   "rule": "A request with <b>please</b> uses the base form of the verb: please <b>shut</b>."
+  },
+  {
+   "qid": "c5-14-17",
+   "type": "build",
+   "level": 2,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "What",
+    "happened",
+    "to",
+    "your",
+    "foot?"
+   ],
+   "alts": [],
+   "rule": "When <b>What</b> is the subject, no 'did' is needed: What <b>happened</b>?"
+  },
+  {
+   "qid": "c5-14-18",
+   "type": "build",
+   "level": 2,
+   "topic": "simple_future",
+   "prompt": "Put the words in order.",
+   "answer": [
+    "I",
+    "will",
+    "dress",
+    "the",
+    "wound",
+    "now."
+   ],
+   "alts": [],
+   "rule": "Future: subject + <b>will</b> + base verb + object: I will dress the wound."
+  },
+  {
+   "qid": "c5-14-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aditi",
+     "We won the inter-school quiz!"
+    ]
+   ],
+   "options": [
+    "What a great news!",
+    "What a great newses!",
+    "What great news!"
+   ],
+   "answer": 2,
+   "rule": "<b>News</b> is uncountable: no 'a' and no plural. Say <b>What great news!</b>"
+  },
+  {
+   "qid": "c5-14-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Brother",
+     "My hands are full!"
+    ]
+   ],
+   "options": [
+    "Let me opens the door for you.",
+    "Let me to open the door for you.",
+    "Let me open the door for you."
+   ],
+   "answer": 2,
+   "rule": "After <b>Let me</b>, use the base form with no 'to': Let me <b>open</b>."
+  },
+  {
+   "qid": "c5-14-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Did you saw the rubbish on the road?",
+    "Did you see the rubbish on the road?",
+    "Saw you the rubbish on the road?"
+   ],
+   "answer": 1,
+   "rule": "A yes/no question in the past: <b>Did</b> + subject + base verb (<b>see</b>) + <b>?</b>"
+  },
+  {
+   "qid": "c5-14-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "How all this rubbish did gather here overnight?",
+    "How did all this rubbish gather here overnight?",
+    "How did all this rubbish gathered here overnight?"
+   ],
+   "answer": 1,
+   "rule": "Question order: <b>How + did + subject + base verb</b>: How did all this rubbish <b>gather</b>?"
+  },
+  {
+   "qid": "c5-14-23",
+   "type": "fix",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "What",
+    "clean",
+    "our",
+    "street",
+    "looks",
+    "this",
+    "morning!"
+   ],
+   "errors": [
+    {
+     "i": 0,
+     "options": [
+      "How",
+      "Which",
+      "Why"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "An exclamation with an adjective alone starts with <b>How</b>: <b>How</b> clean our street looks!"
+  },
+  {
+   "qid": "c5-14-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "simple_future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "week",
+    "our",
+    "class",
+    "will",
+    "collected",
+    "old",
+    "newspapers",
+    "for",
+    "recycling."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "collect",
+      "collects",
+      "collecting"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Next week</b> is the future: <b>will</b> + base verb = will <b>collect</b>."
+  },
+  {
+   "qid": "c5-14-25",
+   "type": "fill",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "of these bins is for plastic waste?",
+   "options": [
+    "What",
+    "Who",
+    "Which"
+   ],
+   "answer": 2,
+   "rule": "To choose from a group (of these bins), use <b>Which</b>."
+  },
+  {
+   "qid": "c5-14-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "Let's",
+   "after": "this street together.",
+   "options": [
+    "clean",
+    "cleans",
+    "cleaning"
+   ],
+   "answer": 0,
+   "rule": "<b>Let's</b> (let us) is followed by the base form of the verb: Let's <b>clean</b>."
+  },
+  {
+   "qid": "c5-14-27",
+   "type": "build",
+   "level": 3,
+   "topic": "sentence_kinds",
+   "prompt": "Make an exclamation.",
+   "answer": [
+    "What",
+    "a",
+    "beautiful",
+    "garden",
+    "you",
+    "have!"
+   ],
+   "alts": [],
+   "rule": "Exclamation pattern: <b>What a</b> + adjective + noun + subject + verb + <b>!</b>"
+  },
+  {
+   "qid": "c5-14-28",
+   "type": "build",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "Where",
+    "can",
+    "we",
+    "throw",
+    "the",
+    "plastic",
+    "bottles?"
+   ],
+   "alts": [],
+   "rule": "Question order: <b>Where + can + we + verb</b> ...?"
+  },
+  {
+   "qid": "c5-14-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "simple_future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sara",
+     "Will you come to the cleanliness drive on Sunday?"
+    ]
+   ],
+   "options": [
+    "Yes, I will bring two big bags for the litter.",
+    "Yes, I will brought two big bags for the litter.",
+    "Yes, I will brings two big bags for the litter."
+   ],
+   "answer": 0,
+   "rule": "Answer a <b>will</b> question with <b>will</b> + base verb: I will <b>bring</b>."
+  },
+  {
+   "qid": "c5-14-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "wh_questions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mom",
+     "Your school bus is late again."
+    ]
+   ],
+   "options": [
+    "Why the bus is late today?",
+    "Why is the bus late today?",
+    "Why does the bus late today?"
+   ],
+   "answer": 1,
+   "rule": "In a question, <b>is</b> comes before the subject: Why <b>is</b> the bus late?"
+  },
+  {
+   "qid": "c5-14-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Give it to she, please.",
+    "Gives it to her, please.",
+    "Give it to her, please."
+   ],
+   "answer": 2,
+   "rule": "After <b>to</b>, use the object pronoun <b>her</b>. A command uses the base verb <b>Give</b>."
+  },
+  {
+   "qid": "c5-14-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "simple_future",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "The doctor will dress the wound in a hour.",
+    "The doctor will dresses the wound in an hour.",
+    "The doctor will dress the wound in an hour."
+   ],
+   "answer": 2,
+   "rule": "<b>will</b> + base verb (dress). Use <b>an</b> before a vowel sound: an hour (the h is silent)."
+  },
+  {
+   "qid": "c5-14-33",
+   "type": "spot",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Where was the animals hiding all this time?",
+    "Where were the animals hide all this time?",
+    "Where were the animals hiding all this time?"
+   ],
+   "answer": 2,
+   "rule": "<b>Animals</b> is plural, so use <b>were</b>, and were + <b>-ing</b>: were ... hiding."
+  },
+  {
+   "qid": "c5-14-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Who",
+    "gave",
+    "Madhu",
+    "and",
+    "she",
+    "some",
+    "ice?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "hers",
+      "her",
+      "herself"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "After the verb <b>gave</b>, use object pronouns: gave Madhu and <b>her</b>."
+  },
+  {
+   "qid": "c5-14-35",
+   "type": "fix",
+   "level": 4,
+   "topic": "simple_future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Next",
+    "week,",
+    "the",
+    "childs",
+    "of",
+    "our",
+    "school",
+    "will",
+    "plant",
+    "trees."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "child's",
+      "children",
+      "childrens"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Child</b> has an irregular plural: <b>children</b>. There is no 'childs'."
+  },
+  {
+   "qid": "c5-14-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Fill in the gap.",
+   "before": "Please give",
+   "after": "your old newspapers.",
+   "options": [
+    "we",
+    "our",
+    "us"
+   ],
+   "answer": 2,
+   "rule": "After the verb <b>give</b>, use an object pronoun: give <b>us</b>."
+  },
+  {
+   "qid": "c5-14-37",
+   "type": "fill",
+   "level": 4,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "Where",
+   "after": "your sisters when the milkman came?",
+   "options": [
+    "were",
+    "was",
+    "are"
+   ],
+   "answer": 0,
+   "rule": "<b>Sisters</b> is plural and the time is past (came), so use <b>were</b>."
+  },
+  {
+   "qid": "c5-14-38",
+   "type": "build",
+   "level": 4,
+   "topic": "imperatives",
+   "prompt": "Make a polite request.",
+   "answer": [
+    "Please",
+    "take",
+    "the",
+    "milk",
+    "can",
+    "inside."
+   ],
+   "alts": [],
+   "rule": "A request: <b>Please</b> + base verb + object + place word."
+  },
+  {
+   "qid": "c5-14-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "simple_future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "When will the garbage van come?"
+    ]
+   ],
+   "options": [
+    "It will come on eight o'clock.",
+    "It will comes at eight o'clock.",
+    "It will come at eight o'clock."
+   ],
+   "answer": 2,
+   "rule": "Use <b>at</b> with clock times, and <b>will</b> + base verb: will <b>come</b>."
+  },
+  {
+   "qid": "c5-14-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "sentence_kinds",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Look, I fixed my broken bicycle myself!"
+    ]
+   ],
+   "options": [
+    "What a clever boy you are!",
+    "What clever boy you are!",
+    "How a clever boy you are!"
+   ],
+   "answer": 0,
+   "rule": "With a singular noun, the exclamation starts <b>What a</b>: What a clever boy you are!"
+  },
+  {
+   "qid": "c5-14-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Did nobody saw who brought the garbage here?",
+    "Did nobody see who brought the garbage here?",
+    "Did nobody see who bring the garbage here?"
+   ],
+   "answer": 1,
+   "rule": "After <b>Did</b>, use the base verb <b>see</b>; the past action inside uses the past form <b>brought</b>."
+  },
+  {
+   "qid": "c5-14-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Which question is correct?",
+   "options": [
+    "Why doesn't you all dispose of the garbage properly?",
+    "Why don't you all dispose of the garbage properly?",
+    "Why don't you all disposing of the garbage properly?"
+   ],
+   "answer": 1,
+   "rule": "<b>You</b> takes <b>don't</b>, and don't + base verb: <b>dispose</b>."
+  },
+  {
+   "qid": "c5-14-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "simple_future",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "If",
+    "you",
+    "sort",
+    "the",
+    "waste",
+    "at",
+    "home,",
+    "I",
+    "will",
+    "sends",
+    "it",
+    "for",
+    "recycling."
+   ],
+   "errors": [
+    {
+     "i": 9,
+     "options": [
+      "send",
+      "sent",
+      "sending"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>will</b> is always followed by the base form: I will <b>send</b>."
+  },
+  {
+   "qid": "c5-14-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "How",
+    "many",
+    "plastic",
+    "bags",
+    "does",
+    "your",
+    "family",
+    "uses",
+    "every",
+    "week?"
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "used",
+      "use",
+      "using"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "With <b>does</b> in a question, the main verb takes the base form: does your family <b>use</b>?"
+  },
+  {
+   "qid": "c5-14-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "bicycle had punctured tyres, the milkman's or the newspaper boy's?",
+   "options": [
+    "Who's",
+    "Whose",
+    "Who"
+   ],
+   "answer": 1,
+   "rule": "To ask about the <b>owner</b>, use <b>Whose</b>. 'Who's' means 'who is'."
+  },
+  {
+   "qid": "c5-14-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "sentence_kinds",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "we all suffer because of the poisons in the water!",
+   "options": [
+    "What",
+    "Which",
+    "How"
+   ],
+   "answer": 2,
+   "rule": "An exclamation about how much something happens starts with <b>How</b> + subject + verb."
+  },
+  {
+   "qid": "c5-14-47",
+   "type": "build",
+   "level": 5,
+   "topic": "wh_questions",
+   "prompt": "Make a question.",
+   "answer": [
+    "How",
+    "can",
+    "we",
+    "reduce",
+    "the",
+    "waste",
+    "at",
+    "school?"
+   ],
+   "alts": [],
+   "rule": "Question order: <b>How + can + we + verb</b> + object + place."
+  },
+  {
+   "qid": "c5-14-48",
+   "type": "build",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Make a suggestion for everyone.",
+   "answer": [
+    "Let's",
+    "not",
+    "pollute",
+    "the",
+    "lakes",
+    "and",
+    "rivers."
+   ],
+   "alts": [],
+   "rule": "A negative suggestion is <b>Let's not</b> + base verb: Let's not <b>pollute</b>."
+  },
+  {
+   "qid": "c5-14-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "simple_future",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "What will you do with your old notebooks?"
+    ]
+   ],
+   "options": [
+    "I will give them to my younger cousin.",
+    "I will gave them to my younger cousin.",
+    "I will give they to my younger cousin."
+   ],
+   "answer": 0,
+   "rule": "<b>will</b> + base verb (<b>give</b>). After a verb, use the object pronoun <b>them</b>."
+  },
+  {
+   "qid": "c5-14-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "imperatives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mrs Rao",
+     "Beta, could you carry this bag for me?"
+    ]
+   ],
+   "options": [
+    "Of course, aunty. Gives it to me.",
+    "Of course, aunty. Give it to I.",
+    "Of course, aunty. Give it to me."
+   ],
+   "answer": 2,
+   "rule": "A command uses the base verb <b>Give</b>. After <b>to</b>, use the object pronoun <b>me</b>."
+  }
+ ]
+}

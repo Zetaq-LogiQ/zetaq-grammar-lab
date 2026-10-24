@@ -1,0 +1,989 @@
+{
+ "class": 6,
+ "id": "1.5",
+ "title": "Radha's Letter to Mowgli",
+ "topics": [
+  {
+   "tag": "adjectives",
+   "name": "Types of adjectives (descriptive, demonstrative, distributive)"
+  },
+  {
+   "tag": "conjunctions",
+   "name": "Connectors: and, but, so, because, although"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags"
+  },
+  {
+   "tag": "present_tenses",
+   "name": "Simple present and present continuous"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c6-1.5-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Every students has a water bottle.",
+    "Every student has a water bottle.",
+    "Every student have a water bottle."
+   ],
+   "answer": 1,
+   "rule": "<b>Every</b> is followed by a singular noun and a singular verb: every <b>student has</b>."
+  },
+  {
+   "qid": "c6-1.5-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "present_tenses",
+   "prompt": "Pick the sentence with the correct tense.",
+   "options": [
+    "Baloo are eating all the honey.",
+    "Baloo is eat all the honey.",
+    "Baloo is eating all the honey."
+   ],
+   "answer": 2,
+   "rule": "Present continuous = <b>is/am/are + -ing</b>. One bear, so <b>is eating</b>."
+  },
+  {
+   "qid": "c6-1.5-03",
+   "type": "spot",
+   "level": 1,
+   "topic": "conjunctions",
+   "prompt": "Pick the sentence with the right connector.",
+   "options": [
+    "Mowgli was tired, or he slept under a tree.",
+    "Mowgli was tired, so he slept under a tree.",
+    "Mowgli was tired, so he sleeped under a tree."
+   ],
+   "answer": 1,
+   "rule": "<b>So</b> shows a result: he was tired, <b>so</b> he slept. The past of sleep is <b>slept</b>."
+  },
+  {
+   "qid": "c6-1.5-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "These",
+    "book",
+    "on",
+    "the",
+    "shelf",
+    "are",
+    "mine."
+   ],
+   "errors": [
+    {
+     "i": 1,
+     "options": [
+      "booked",
+      "booking",
+      "books"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>These</b> points to more than one thing, so the noun must be plural: these <b>books</b>."
+  },
+  {
+   "qid": "c6-1.5-05",
+   "type": "fix",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Baloo",
+    "loves",
+    "sweet",
+    "honey",
+    "very",
+    "much,",
+    "don't",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "isn't",
+      "didn't",
+      "doesn't"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Loves</b> is simple present with he/she, so the tag uses <b>doesn't</b>: doesn't he?"
+  },
+  {
+   "qid": "c6-1.5-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "present_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Hey, jungle boy! How",
+   "after": "you doing?",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "answer": 0,
+   "rule": "<b>You</b> always takes <b>are</b>: How <b>are</b> you doing?"
+  },
+  {
+   "qid": "c6-1.5-07",
+   "type": "fill",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "vines here are very strong.",
+   "options": [
+    "These",
+    "This",
+    "That"
+   ],
+   "answer": 0,
+   "rule": "<b>Vines</b> is plural and near (here), so use <b>these</b>."
+  },
+  {
+   "qid": "c6-1.5-08",
+   "type": "build",
+   "level": 1,
+   "topic": "adjectives",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Bagheera",
+    "is",
+    "a",
+    "brave",
+    "panther."
+   ],
+   "alts": [],
+   "rule": "A describing adjective comes before its noun: a <b>brave</b> panther."
+  },
+  {
+   "qid": "c6-1.5-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "present_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Radha",
+     "How are you doing, Mowgli?"
+    ]
+   ],
+   "options": [
+    "I am doing well, thanks.",
+    "I is doing well, thanks.",
+    "I am do well, thanks."
+   ],
+   "answer": 0,
+   "rule": "<b>I</b> takes <b>am</b>, and the continuous form needs -ing: I <b>am doing</b>."
+  },
+  {
+   "qid": "c6-1.5-10",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Riya",
+     "It's a lovely day, isn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it are. Let's go out.",
+    "Yes, it does. Let's go out.",
+    "Yes, it is. Let's go out."
+   ],
+   "answer": 2,
+   "rule": "Answer with the same helping verb as the tag: isn't it? - Yes, it <b>is</b>."
+  },
+  {
+   "qid": "c6-1.5-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Either roads lead to the river.",
+    "Either road leads to the river.",
+    "Either road lead to the river."
+   ],
+   "answer": 1,
+   "rule": "<b>Either</b> means one of two, so use a singular noun and verb: either <b>road leads</b>."
+  },
+  {
+   "qid": "c6-1.5-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "You will write to me, don't you?",
+    "You will write to me, won't you?",
+    "You will write to me, aren't you?"
+   ],
+   "answer": 1,
+   "rule": "The tag repeats the helping verb in negative form: <b>will</b> becomes <b>won't</b>."
+  },
+  {
+   "qid": "c6-1.5-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "I",
+    "miss",
+    "our",
+    "talks,",
+    "because",
+    "please",
+    "write",
+    "to",
+    "me",
+    "soon."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "so",
+      "or",
+      "although"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The second part is a result of the first, so join them with <b>so</b>."
+  },
+  {
+   "qid": "c6-1.5-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "present_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Do",
+    "you",
+    "still",
+    "enjoys",
+    "dancing",
+    "with",
+    "the",
+    "wolves?"
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "enjoying",
+      "enjoyed",
+      "enjoy"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "In a question with <b>do/does</b>, the main verb is in base form: Do you <b>enjoy</b>?"
+  },
+  {
+   "qid": "c6-1.5-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "I wanted to visit the jungle,",
+   "after": "it was too far away.",
+   "options": [
+    "so",
+    "but",
+    "because of"
+   ],
+   "answer": 1,
+   "rule": "<b>But</b> joins two ideas that go against each other: wanted to visit, <b>but</b> it was far."
+  },
+  {
+   "qid": "c6-1.5-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "Each of the wolves",
+   "after": "a name.",
+   "options": [
+    "have",
+    "has",
+    "are having"
+   ],
+   "answer": 1,
+   "rule": "<b>Each of</b> + plural noun still takes a singular verb: each of the wolves <b>has</b>."
+  },
+  {
+   "qid": "c6-1.5-17",
+   "type": "build",
+   "level": 2,
+   "topic": "present_tenses",
+   "prompt": "Make a sentence in the present continuous.",
+   "answer": [
+    "Kaa",
+    "is",
+    "sleeping",
+    "on",
+    "the",
+    "tree."
+   ],
+   "alts": [],
+   "rule": "Subject + <b>is</b> + verb-<b>ing</b>: Kaa <b>is sleeping</b> on the tree."
+  },
+  {
+   "qid": "c6-1.5-18",
+   "type": "build",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "You",
+    "like",
+    "mangoes,",
+    "don't",
+    "you?"
+   ],
+   "alts": [],
+   "rule": "Positive sentence + negative tag: You like mangoes, <b>don't you?</b>"
+  },
+  {
+   "qid": "c6-1.5-19",
+   "type": "chat",
+   "level": 2,
+   "topic": "conjunctions",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Arjun",
+     "Why didn't you come to the match?"
+    ]
+   ],
+   "options": [
+    "I had a fever, so I stayed at home.",
+    "I had a fever, because I stayed at home.",
+    "I had a fever, so I stay at home."
+   ],
+   "answer": 0,
+   "rule": "Staying home is the result of the fever, so use <b>so</b>, and keep the past tense: <b>stayed</b>."
+  },
+  {
+   "qid": "c6-1.5-20",
+   "type": "chat",
+   "level": 2,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Shopkeeper",
+     "Which bag do you like?"
+    ]
+   ],
+   "options": [
+    "I like this blue one.",
+    "I like these blue one.",
+    "I like this blue ones."
+   ],
+   "answer": 0,
+   "rule": "Singular <b>one</b> goes with singular <b>this</b>: this blue <b>one</b>."
+  },
+  {
+   "qid": "c6-1.5-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Mowgli is an honest and active boy.",
+    "Mowgli is a honest and active boy.",
+    "Mowgli is an honest and actively boy."
+   ],
+   "answer": 0,
+   "rule": "<b>Honest</b> starts with a vowel sound, so use <b>an</b>. Before a noun use the adjective <b>active</b>, not the adverb."
+  },
+  {
+   "qid": "c6-1.5-22",
+   "type": "spot",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Shere Khan isn't friendly, isn't he?",
+    "Shere Khan isn't friendly, does he?",
+    "Shere Khan isn't friendly, is he?"
+   ],
+   "answer": 2,
+   "rule": "A negative sentence takes a positive tag with the same verb: isn't ... <b>is he?</b>"
+  },
+  {
+   "qid": "c6-1.5-23",
+   "type": "spot",
+   "level": 3,
+   "topic": "present_tenses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Look! The monkeys is swinging from the vines.",
+    "Look! The monkeys swings from the vines.",
+    "Look! The monkeys are swinging from the vines."
+   ],
+   "answer": 2,
+   "rule": "<b>Look!</b> shows it is happening now, so use the present continuous; plural monkeys take <b>are</b>."
+  },
+  {
+   "qid": "c6-1.5-24",
+   "type": "fix",
+   "level": 3,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "animal",
+    "in",
+    "the",
+    "jungle",
+    "know",
+    "Mowgli",
+    "well."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "knowing",
+      "knows",
+      "known"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Every animal</b> is singular, so the verb takes -s: <b>knows</b>."
+  },
+  {
+   "qid": "c6-1.5-25",
+   "type": "fix",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kaa",
+    "can",
+    "hypnotise",
+    "everyone,",
+    "can",
+    "he?"
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "couldn't",
+      "doesn't",
+      "can't"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "Positive sentence with <b>can</b> takes the negative tag <b>can't</b>: can't he?"
+  },
+  {
+   "qid": "c6-1.5-26",
+   "type": "fill",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "Kaa looks scary, he is Mowgli's friend.",
+   "options": [
+    "Because",
+    "Although",
+    "So"
+   ],
+   "answer": 1,
+   "rule": "<b>Although</b> joins two ideas that seem to clash: he looks scary, yet he is a friend."
+  },
+  {
+   "qid": "c6-1.5-27",
+   "type": "fill",
+   "level": 3,
+   "topic": "present_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Radha usually",
+   "after": "a letter to her friend every month.",
+   "options": [
+    "writes",
+    "write",
+    "writing"
+   ],
+   "answer": 0,
+   "rule": "A habit (usually, every month) uses the simple present; with <b>Radha</b> (she) add -s: <b>writes</b>."
+  },
+  {
+   "qid": "c6-1.5-28",
+   "type": "build",
+   "level": 3,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas in one sentence.",
+   "answer": [
+    "Mowgli",
+    "was",
+    "hungry,",
+    "so",
+    "he",
+    "ate",
+    "bananas."
+   ],
+   "alts": [],
+   "rule": "Cause first, then <b>so</b> + result: was hungry, <b>so</b> he ate bananas."
+  },
+  {
+   "qid": "c6-1.5-29",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mowgli",
+     "You haven't visited the jungle yet, have you?"
+    ]
+   ],
+   "options": [
+    "No, I don't. I will come next summer.",
+    "No, I haven't. I will come next summer.",
+    "No, I haven't. I will coming next summer."
+   ],
+   "answer": 1,
+   "rule": "Reply with the same helping verb: have you? - No, I <b>haven't</b>. After <b>will</b> use the base verb <b>come</b>."
+  },
+  {
+   "qid": "c6-1.5-30",
+   "type": "chat",
+   "level": 3,
+   "topic": "present_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Radha",
+     "What is Baloo doing right now?"
+    ]
+   ],
+   "options": [
+    "He is eating honey under a tree.",
+    "He are eating honey under a tree.",
+    "He is eat honey under a tree."
+   ],
+   "answer": 0,
+   "rule": "<b>Right now</b> needs the present continuous: <b>He is eating</b>."
+  },
+  {
+   "qid": "c6-1.5-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Each of the girls have her own bicycle.",
+    "Each of the girl has her own bicycle.",
+    "Each of the girls has her own bicycle."
+   ],
+   "answer": 2,
+   "rule": "<b>Each of the</b> + plural noun (girls) + singular verb (<b>has</b>)."
+  },
+  {
+   "qid": "c6-1.5-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This children are playing with the wolf cubs.",
+    "These childs are playing with the wolf cubs.",
+    "These children are playing with the wolf cubs."
+   ],
+   "answer": 2,
+   "rule": "<b>Children</b> is the plural of child (not childs), and a plural noun takes <b>these</b>."
+  },
+  {
+   "qid": "c6-1.5-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "conjunctions",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Yesterday",
+    "Mowgli",
+    "climbed",
+    "the",
+    "tree",
+    "because",
+    "he",
+    "wants",
+    "to",
+    "see",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "wanting",
+      "wanted",
+      "want"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b> and <b>climbed</b> show the past, so the reason after <b>because</b> is also past: <b>wanted</b>."
+  },
+  {
+   "qid": "c6-1.5-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Kaa",
+    "is",
+    "the",
+    "longer",
+    "snake",
+    "in",
+    "the",
+    "whole",
+    "jungle."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "long",
+      "longest",
+      "length"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Comparing with the whole jungle needs the superlative: the <b>longest</b>."
+  },
+  {
+   "qid": "c6-1.5-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Radha wrote a long letter,",
+   "after": "",
+   "options": [
+    "didn't she?",
+    "wasn't she?",
+    "doesn't she?"
+   ],
+   "answer": 0,
+   "rule": "<b>Wrote</b> is simple past, so the tag uses <b>didn't</b>: didn't she?"
+  },
+  {
+   "qid": "c6-1.5-36",
+   "type": "fill",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Fill in the gap.",
+   "before": "Is there",
+   "after": "honey left in the pot?",
+   "options": [
+    "any",
+    "many",
+    "a few"
+   ],
+   "answer": 0,
+   "rule": "<b>Honey</b> is uncountable, so not many / a few. In questions we use <b>any</b>."
+  },
+  {
+   "qid": "c6-1.5-37",
+   "type": "build",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Put the tiles in order.",
+   "answer": [
+    "Either",
+    "path",
+    "will",
+    "take",
+    "you",
+    "home."
+   ],
+   "alts": [],
+   "rule": "Distributive <b>either</b> + singular noun: <b>Either path</b> will take you home."
+  },
+  {
+   "qid": "c6-1.5-38",
+   "type": "build",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "It",
+    "is",
+    "raining,",
+    "isn't",
+    "it?"
+   ],
+   "alts": [],
+   "rule": "Positive <b>is</b> takes the negative tag <b>isn't it?</b>"
+  },
+  {
+   "qid": "c6-1.5-39",
+   "type": "chat",
+   "level": 4,
+   "topic": "present_tenses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Radha",
+     "Do you still live near the river?"
+    ]
+   ],
+   "options": [
+    "Yes, I does. I live there with the wolves.",
+    "Yes, I am. I live there with the wolves.",
+    "Yes, I do. I live there with the wolves."
+   ],
+   "answer": 2,
+   "rule": "A <b>Do you ...?</b> question gets a short answer with <b>do</b>: Yes, I <b>do</b>."
+  },
+  {
+   "qid": "c6-1.5-40",
+   "type": "chat",
+   "level": 4,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Coach",
+     "Shall we practise in the morning or in the evening?"
+    ]
+   ],
+   "options": [
+    "Either times are fine for me.",
+    "Either time is fine for me.",
+    "Either time are fine for me."
+   ],
+   "answer": 1,
+   "rule": "<b>Either</b> takes a singular noun and verb: either <b>time is</b>."
+  },
+  {
+   "qid": "c6-1.5-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "There are three tigers near the river, aren't there?",
+    "There are three tigers near the river, aren't they?",
+    "There are three tigers near the river, isn't there?"
+   ],
+   "answer": 0,
+   "rule": "With <b>there are</b>, the tag repeats <b>there</b>: aren't <b>there</b>?"
+  },
+  {
+   "qid": "c6-1.5-42",
+   "type": "spot",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Although the jungle is dangerous, but Mowgli feels safe there.",
+    "Although the jungle is dangerous, Mowgli feel safe there.",
+    "Although the jungle is dangerous, Mowgli feels safe there."
+   ],
+   "answer": 2,
+   "rule": "Use <b>although</b> OR <b>but</b>, never both in one sentence. Mowgli (he) takes <b>feels</b>."
+  },
+  {
+   "qid": "c6-1.5-43",
+   "type": "fix",
+   "level": 5,
+   "topic": "present_tenses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Every",
+    "morning",
+    "Mowgli",
+    "and",
+    "Baloo",
+    "both",
+    "goes",
+    "down",
+    "to",
+    "the",
+    "river."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "going",
+      "gone",
+      "go"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "<b>Mowgli and Baloo both</b> are two, so the plural verb is <b>go</b>."
+  },
+  {
+   "qid": "c6-1.5-44",
+   "type": "fix",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Each",
+    "one",
+    "of",
+    "those",
+    "mangoes",
+    "are",
+    "ripe",
+    "and",
+    "sweet."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "is",
+      "were",
+      "be"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>each one</b> (singular), so the verb is singular: <b>is</b>."
+  },
+  {
+   "qid": "c6-1.5-45",
+   "type": "fill",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Fill in the gap.",
+   "before": "Mowgli never gets lost in the jungle,",
+   "after": "",
+   "options": [
+    "doesn't he?",
+    "does he?",
+    "is he?"
+   ],
+   "answer": 1,
+   "rule": "<b>Never</b> makes the sentence negative, so the tag is positive: <b>does he?</b>"
+  },
+  {
+   "qid": "c6-1.5-46",
+   "type": "fill",
+   "level": 5,
+   "topic": "present_tenses",
+   "prompt": "Fill in the gap.",
+   "before": "Listen! Somebody",
+   "after": "a song by the river.",
+   "options": [
+    "are singing",
+    "is singing",
+    "sing"
+   ],
+   "answer": 1,
+   "rule": "<b>Listen!</b> means now, so use the present continuous. <b>Somebody</b> is singular: <b>is singing</b>."
+  },
+  {
+   "qid": "c6-1.5-47",
+   "type": "build",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Make a sentence with a question tag.",
+   "answer": [
+    "Mowgli",
+    "isn't",
+    "afraid",
+    "of",
+    "the",
+    "dark,",
+    "is",
+    "he?"
+   ],
+   "alts": [],
+   "rule": "Negative sentence (<b>isn't</b>) + positive tag (<b>is he?</b>)."
+  },
+  {
+   "qid": "c6-1.5-48",
+   "type": "build",
+   "level": 5,
+   "topic": "conjunctions",
+   "prompt": "Join the ideas in one sentence.",
+   "answer": [
+    "Although",
+    "the",
+    "river",
+    "was",
+    "deep,",
+    "Mowgli",
+    "swam",
+    "across."
+   ],
+   "alts": [],
+   "rule": "<b>Although</b> + clause, comma, main clause: Although the river was deep, Mowgli swam across."
+  },
+  {
+   "qid": "c6-1.5-49",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Mowgli",
+     "I can't come to the city this year."
+    ]
+   ],
+   "options": [
+    "That's sad, but we can meet next year, can't us?",
+    "That's sad, but we can meets next year, can't we?",
+    "That's sad, but we can meet next year, can't we?"
+   ],
+   "answer": 2,
+   "rule": "After <b>can</b> use the base verb <b>meet</b>; a positive sentence takes the negative tag <b>can't we?</b>"
+  },
+  {
+   "qid": "c6-1.5-50",
+   "type": "chat",
+   "level": 5,
+   "topic": "adjectives",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Teacher",
+     "How was the class picnic, Sana?"
+    ]
+   ],
+   "options": [
+    "Every student enjoyed it, and the food was delicious.",
+    "Every students enjoyed it, and the food was delicious.",
+    "Every student enjoyed it, and the food were delicious."
+   ],
+   "answer": 0,
+   "rule": "<b>Every</b> + singular noun (student). <b>Food</b> is uncountable, so it takes <b>was</b>."
+  }
+ ]
+}

@@ -1,0 +1,1194 @@
+{
+ "class": 10,
+ "id": "01",
+ "title": "Where the Mind is Without Fear...",
+ "topics": [
+  {
+   "tag": "relative_clauses",
+   "name": "Relative clauses (who, which, whose, where)"
+  },
+  {
+   "tag": "passive_voice",
+   "name": "Passive voice"
+  },
+  {
+   "tag": "wish_if_were",
+   "name": "'Wish' sentences and 'If I were'"
+  },
+  {
+   "tag": "question_tags",
+   "name": "Question tags (let's, I am, nobody, everyone)"
+  },
+  {
+   "tag": "exclamatory_assertive",
+   "name": "Exclamatory and assertive sentences"
+  }
+ ],
+ "questions": [
+  {
+   "qid": "c10-01-01",
+   "type": "spot",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "This is the library where knowledge is free for all.",
+    "This is the library which knowledge is free for all.",
+    "This is the library who knowledge is free for all."
+   ],
+   "answer": 0,
+   "rule": "For a place followed by a full clause, use <b>where</b> (= in which)."
+  },
+  {
+   "qid": "c10-01-02",
+   "type": "spot",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the sentence in the correct passive form.",
+   "options": [
+    "The poem was wrote by Tagore.",
+    "The poem was write by Tagore.",
+    "The poem was written by Tagore."
+   ],
+   "answer": 2,
+   "rule": "Passive = <b>was/were + past participle</b>. The past participle of write is <b>written</b>."
+  },
+  {
+   "qid": "c10-01-03",
+   "type": "fix",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tagore",
+    "is",
+    "the",
+    "poet",
+    "which",
+    "wrote",
+    "Gitanjali",
+    "in",
+    "Bengali."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "whose",
+      "who"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "For a person who does the action, use <b>who</b>, not which."
+  },
+  {
+   "qid": "c10-01-04",
+   "type": "fix",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "national",
+    "flag",
+    "is",
+    "hoist",
+    "every",
+    "morning",
+    "at",
+    "our",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "hoisting",
+      "hoisted",
+      "hoists"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "The flag does not do the action, so use the passive: <b>is hoisted</b>."
+  },
+  {
+   "qid": "c10-01-05",
+   "type": "fill",
+   "level": 1,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "I want to live in a country",
+   "after": "people are free to speak the truth.",
+   "options": [
+    "where",
+    "which",
+    "who"
+   ],
+   "answer": 0,
+   "rule": "After a place, <b>where</b> starts a full clause: where people are free."
+  },
+  {
+   "qid": "c10-01-06",
+   "type": "fill",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Knowledge should be free for everyone,",
+   "after": "it?",
+   "options": [
+    "shouldn't",
+    "should",
+    "isn't"
+   ],
+   "answer": 0,
+   "rule": "A positive sentence with <b>should</b> takes a negative tag: <b>shouldn't it?</b>"
+  },
+  {
+   "qid": "c10-01-07",
+   "type": "build",
+   "level": 1,
+   "topic": "wish_if_were",
+   "prompt": "Make a sentence that shows a wish.",
+   "answer": [
+    "I",
+    "wish",
+    "my",
+    "sister",
+    "were",
+    "here."
+   ],
+   "alts": [],
+   "rule": "For a wish about the present, use the past form: <b>I wish ... were</b>."
+  },
+  {
+   "qid": "c10-01-08",
+   "type": "chat",
+   "level": 1,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Aarav",
+     "The poem is a prayer, isn't it?"
+    ]
+   ],
+   "options": [
+    "Yes, it does. Tagore pray for a free India.",
+    "Yes, it are. Tagore praying for a free India.",
+    "Yes, it is. Tagore prays for a free India."
+   ],
+   "answer": 2,
+   "rule": "Answer an <b>is</b> question with <b>it is</b>; Tagore (he) takes <b>prays</b>."
+  },
+  {
+   "qid": "c10-01-09",
+   "type": "chat",
+   "level": 1,
+   "topic": "passive_voice",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Sana",
+     "Who wrote Gitanjali?"
+    ]
+   ],
+   "options": [
+    "It was written by Rabindranath Tagore.",
+    "It was wrote by Tagore.",
+    "It were written by Tagore."
+   ],
+   "answer": 0,
+   "rule": "Singular <b>it</b> takes <b>was</b>, and the passive needs the past participle <b>written</b>."
+  },
+  {
+   "qid": "c10-01-10",
+   "type": "change",
+   "level": 1,
+   "topic": "exclamatory_assertive",
+   "prompt": "Change into an assertive sentence.",
+   "source": "What a beautiful prayer this is!",
+   "options": [
+    "This a very beautiful prayer is.",
+    "This is a very beautiful prayer.",
+    "This is very a beautiful prayer."
+   ],
+   "answer": 1,
+   "rule": "<b>What a ...!</b> becomes a statement with <b>very</b>: This is a very beautiful prayer."
+  },
+  {
+   "qid": "c10-01-11",
+   "type": "spot",
+   "level": 2,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct 'wish' sentence.",
+   "options": [
+    "I wish I know the answer now.",
+    "I wish I knew the answer now.",
+    "I wish I will know the answer now."
+   ],
+   "answer": 1,
+   "rule": "A wish about the present uses the simple past: <b>I wish I knew</b>."
+  },
+  {
+   "qid": "c10-01-12",
+   "type": "spot",
+   "level": 2,
+   "topic": "question_tags",
+   "prompt": "Pick the sentence with the correct question tag.",
+   "options": [
+    "Let's sing the national anthem, will we?",
+    "Let's sing the national anthem, shall we?",
+    "Let's sing the national anthem, don't we?"
+   ],
+   "answer": 1,
+   "rule": "A sentence beginning with <b>Let's</b> always takes the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-01-13",
+   "type": "fix",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Tagore",
+    "was",
+    "a",
+    "poet",
+    "who",
+    "poems",
+    "are",
+    "read",
+    "all",
+    "over",
+    "the",
+    "world."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whom",
+      "which",
+      "whose"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "To show possession (his poems), use <b>whose</b>: a poet whose poems are read."
+  },
+  {
+   "qid": "c10-01-14",
+   "type": "fix",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Our",
+    "school",
+    "library",
+    "was",
+    "build",
+    "in",
+    "the",
+    "year",
+    "1990."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "built",
+      "builded",
+      "building"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "Passive = was + past participle. The past participle of build is <b>built</b>."
+  },
+  {
+   "qid": "c10-01-15",
+   "type": "fill",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Fill in the gap.",
+   "before": "In a good society, knowledge",
+   "after": "freely shared with everyone.",
+   "options": [
+    "are",
+    "is",
+    "be"
+   ],
+   "answer": 1,
+   "rule": "<b>Knowledge</b> is uncountable and singular, so the passive is <b>is shared</b>."
+  },
+  {
+   "qid": "c10-01-16",
+   "type": "fill",
+   "level": 2,
+   "topic": "exclamatory_assertive",
+   "prompt": "Fill in the gap.",
+   "before": "",
+   "after": "brave the poet's words are!",
+   "options": [
+    "What",
+    "Which",
+    "How"
+   ],
+   "answer": 2,
+   "rule": "Before an adjective alone (brave), an exclamation begins with <b>How</b>."
+  },
+  {
+   "qid": "c10-01-17",
+   "type": "build",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Make a sentence with 'where'.",
+   "answer": [
+    "This",
+    "is",
+    "the",
+    "school",
+    "where",
+    "my",
+    "father",
+    "studied."
+   ],
+   "alts": [],
+   "rule": "<b>where</b> joins a place (the school) to a clause about it (my father studied there)."
+  },
+  {
+   "qid": "c10-01-18",
+   "type": "chat",
+   "level": 2,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Dad",
+     "Do you want to visit Santiniketan?"
+    ]
+   ],
+   "options": [
+    "Yes! I wish I could go there.",
+    "Yes! I wish I can go there.",
+    "Yes! I wishing I could go there."
+   ],
+   "answer": 0,
+   "rule": "After <b>I wish</b>, use the past form: <b>could</b>, not can."
+  },
+  {
+   "qid": "c10-01-19",
+   "type": "change",
+   "level": 2,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Tagore translated the poem into English.",
+   "options": [
+    "The poem translated by Tagore into English.",
+    "The poem is translated into English by Tagore.",
+    "The poem was translated into English by Tagore."
+   ],
+   "answer": 2,
+   "rule": "Simple past active becomes <b>was + past participle</b>: was translated."
+  },
+  {
+   "qid": "c10-01-20",
+   "type": "proof",
+   "level": 2,
+   "topic": "relative_clauses",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Our",
+    "teacher",
+    "read",
+    "out",
+    "a",
+    "poem",
+    "who",
+    "was",
+    "written",
+    "by",
+    "Tagore.",
+    "It",
+    "is",
+    "about",
+    "a",
+    "country",
+    "where",
+    "every",
+    "mind",
+    "are",
+    "without",
+    "fear."
+   ],
+   "errors": [
+    {
+     "i": 6,
+     "options": [
+      "whose",
+      "which",
+      "whom"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 19,
+     "options": [
+      "be",
+      "been",
+      "is"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "A poem is a thing, so use <b>which</b>. <b>Every mind</b> is singular, so use <b>is</b>."
+  },
+  {
+   "qid": "c10-01-21",
+   "type": "spot",
+   "level": 3,
+   "topic": "wish_if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "If I were the principal, I will make the library free for all.",
+    "If I am the principal, I would make the library free for all.",
+    "If I were the principal, I would make the library free for all."
+   ],
+   "answer": 2,
+   "rule": "An imagined situation: <b>If I were ..., I would ...</b>"
+  },
+  {
+   "qid": "c10-01-22",
+   "type": "fix",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "The",
+    "world",
+    "has",
+    "not",
+    "been",
+    "broke",
+    "into",
+    "pieces",
+    "by",
+    "narrow",
+    "walls."
+   ],
+   "errors": [
+    {
+     "i": 5,
+     "options": [
+      "breaking",
+      "broken",
+      "break"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "Present perfect passive = <b>has been + past participle</b>: has not been <b>broken</b>."
+  },
+  {
+   "qid": "c10-01-23",
+   "type": "fill",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "The children,",
+   "after": "parents work in the city, live with their grandmother.",
+   "options": [
+    "who",
+    "whose",
+    "whom"
+   ],
+   "answer": 1,
+   "rule": "<b>whose</b> shows possession: the children whose parents (= their parents)."
+  },
+  {
+   "qid": "c10-01-24",
+   "type": "fill",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Choose the correct question tag.",
+   "before": "Nobody was afraid to speak,",
+   "after": "they?",
+   "options": [
+    "were",
+    "was",
+    "weren't"
+   ],
+   "answer": 0,
+   "rule": "<b>Nobody</b> is negative, so the tag is positive, and it uses <b>they</b>: were they?"
+  },
+  {
+   "qid": "c10-01-25",
+   "type": "build",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Make a passive sentence.",
+   "answer": [
+    "The",
+    "Nobel",
+    "Prize",
+    "was",
+    "awarded",
+    "to",
+    "Tagore."
+   ],
+   "alts": [],
+   "rule": "Passive: object first, then <b>was + past participle</b>: was awarded."
+  },
+  {
+   "qid": "c10-01-26",
+   "type": "chat",
+   "level": 3,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Who will speak first on 'India of my dreams'?"
+    ]
+   ],
+   "options": [
+    "I am speaking first, aren't I?",
+    "I am speaking first, am not I?",
+    "I am speaking first, isn't it?"
+   ],
+   "answer": 0,
+   "rule": "The tag for <b>I am</b> is <b>aren't I?</b>"
+  },
+  {
+   "qid": "c10-01-27",
+   "type": "chat",
+   "level": 3,
+   "topic": "relative_clauses",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Neha",
+     "Which city did Tagore come from?"
+    ]
+   ],
+   "options": [
+    "He came from Kolkata, which he was born in 1861.",
+    "He came from Kolkata, who he was born in 1861.",
+    "He came from Kolkata, where he was born in 1861."
+   ],
+   "answer": 2,
+   "rule": "For a place followed by a full clause (he was born there), use <b>where</b>."
+  },
+  {
+   "qid": "c10-01-28",
+   "type": "change",
+   "level": 3,
+   "topic": "exclamatory_assertive",
+   "prompt": "Change into an assertive sentence.",
+   "source": "How hard the students worked!",
+   "options": [
+    "The students worked very hard.",
+    "The students work very hard.",
+    "The students worked very hardly."
+   ],
+   "answer": 0,
+   "rule": "Keep the tense (worked) and use <b>very</b>. <b>hard</b> is the adverb here; hardly means almost not."
+  },
+  {
+   "qid": "c10-01-29",
+   "type": "change",
+   "level": 3,
+   "topic": "wish_if_were",
+   "prompt": "Begin the sentence with 'I wish'.",
+   "source": "I am sorry that I cannot speak Bengali.",
+   "options": [
+    "I wish I could speak Bengali.",
+    "I wish I can speak Bengali.",
+    "I wish I cannot speak Bengali."
+   ],
+   "answer": 0,
+   "rule": "Regret about the present: <b>I wish + past form</b>. cannot becomes <b>could</b>."
+  },
+  {
+   "qid": "c10-01-30",
+   "type": "proof",
+   "level": 3,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 2 errors in this paragraph.",
+   "words": [
+    "Tagore",
+    "dreamt",
+    "of",
+    "a",
+    "country",
+    "where",
+    "every",
+    "child",
+    "go",
+    "to",
+    "school.",
+    "He",
+    "believed",
+    "that",
+    "knowledge",
+    "should",
+    "be",
+    "share",
+    "freely",
+    "and",
+    "that",
+    "narrow",
+    "walls",
+    "should",
+    "be",
+    "pulled",
+    "down."
+   ],
+   "errors": [
+    {
+     "i": 8,
+     "options": [
+      "going",
+      "gone",
+      "goes"
+     ],
+     "answer": 2
+    },
+    {
+     "i": 17,
+     "options": [
+      "shared",
+      "sharing",
+      "shares"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Every child</b> is singular: goes. Passive with a modal: <b>should be shared</b>."
+  },
+  {
+   "qid": "c10-01-31",
+   "type": "spot",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Knowledge must be share with everyone.",
+    "Knowledge must being shared with everyone.",
+    "Knowledge must be shared with everyone."
+   ],
+   "answer": 2,
+   "rule": "Passive with a modal = <b>modal + be + past participle</b>: must be shared."
+  },
+  {
+   "qid": "c10-01-32",
+   "type": "spot",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "Students who works hard reach their goals.",
+    "Students who work hard reach their goals.",
+    "Students who work hard reaches their goals."
+   ],
+   "answer": 1,
+   "rule": "<b>who</b> refers to plural students, so both verbs are plural: work, reach."
+  },
+  {
+   "qid": "c10-01-33",
+   "type": "fix",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Santiniketan",
+    "is",
+    "the",
+    "place",
+    "which",
+    "Tagore",
+    "started",
+    "his",
+    "school."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "whose",
+      "who",
+      "where"
+     ],
+     "answer": 2
+    }
+   ],
+   "rule": "The clause already has an object (his school), so the place needs <b>where</b>."
+  },
+  {
+   "qid": "c10-01-34",
+   "type": "fix",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Both",
+    "Riya",
+    "and",
+    "Kabir",
+    "has",
+    "been",
+    "chosen",
+    "to",
+    "read",
+    "the",
+    "poem",
+    "at",
+    "the",
+    "assembly."
+   ],
+   "errors": [
+    {
+     "i": 4,
+     "options": [
+      "is",
+      "have",
+      "was"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Both Riya and Kabir</b> is plural, so the passive is <b>have been chosen</b>."
+  },
+  {
+   "qid": "c10-01-35",
+   "type": "fill",
+   "level": 4,
+   "topic": "wish_if_were",
+   "prompt": "Fill in the gap.",
+   "before": "If I were a bird, I",
+   "after": "fly over the whole country.",
+   "options": [
+    "will",
+    "would",
+    "shall"
+   ],
+   "answer": 1,
+   "rule": "An imagined situation (If I were) is followed by <b>would</b>."
+  },
+  {
+   "qid": "c10-01-36",
+   "type": "build",
+   "level": 4,
+   "topic": "question_tags",
+   "prompt": "Make a suggestion with a question tag.",
+   "answer": [
+    "Let's",
+    "plant",
+    "a",
+    "tree",
+    "today,",
+    "shall",
+    "we?"
+   ],
+   "alts": [],
+   "rule": "A suggestion with <b>Let's</b> ends with the tag <b>shall we?</b>"
+  },
+  {
+   "qid": "c10-01-37",
+   "type": "chat",
+   "level": 4,
+   "topic": "exclamatory_assertive",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Grandpa",
+     "I watched the Republic Day parade on TV."
+    ]
+   ],
+   "options": [
+    "What a grand parade it were!",
+    "What a grand parade it was!",
+    "How a grand parade it was!"
+   ],
+   "answer": 1,
+   "rule": "Use <b>What a + adjective + noun</b>; singular <b>it</b> takes <b>was</b>."
+  },
+  {
+   "qid": "c10-01-38",
+   "type": "change",
+   "level": 4,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Who wrote this beautiful prayer?",
+   "options": [
+    "By whom was this beautiful prayer written?",
+    "By whom this beautiful prayer was written?",
+    "By whom was this beautiful prayer wrote?"
+   ],
+   "answer": 0,
+   "rule": "<b>Who</b> becomes <b>By whom</b>; keep question order: was + subject + past participle."
+  },
+  {
+   "qid": "c10-01-39",
+   "type": "change",
+   "level": 4,
+   "topic": "exclamatory_assertive",
+   "prompt": "Change into an exclamatory sentence.",
+   "source": "It is a very noble dream.",
+   "options": [
+    "How a noble dream it is!",
+    "What a noble dream it is!",
+    "What noble dream it is!"
+   ],
+   "answer": 1,
+   "rule": "With a singular noun, use <b>What a + adjective + noun</b>; drop very."
+  },
+  {
+   "qid": "c10-01-40",
+   "type": "proof",
+   "level": 4,
+   "topic": "relative_clauses",
+   "prompt": "Find and fix the 3 errors in this message.",
+   "words": [
+    "Yesterday",
+    "our",
+    "class",
+    "discuss",
+    "Tagore's",
+    "poem.",
+    "Every",
+    "student",
+    "were",
+    "asked",
+    "to",
+    "write",
+    "a",
+    "few",
+    "lines",
+    "about",
+    "an",
+    "ideal",
+    "school,",
+    "which",
+    "nobody",
+    "is",
+    "afraid",
+    "to",
+    "ask",
+    "questions."
+   ],
+   "errors": [
+    {
+     "i": 3,
+     "options": [
+      "discussing",
+      "discussed",
+      "discusses"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 8,
+     "options": [
+      "was",
+      "are",
+      "be"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 19,
+     "options": [
+      "who",
+      "where",
+      "whose"
+     ],
+     "answer": 1
+    }
+   ],
+   "rule": "<b>Yesterday</b>: discussed. <b>Every student</b>: was asked. A place + full clause: <b>where</b>."
+  },
+  {
+   "qid": "c10-01-41",
+   "type": "spot",
+   "level": 5,
+   "topic": "wish_if_were",
+   "prompt": "Which sentence is correct?",
+   "options": [
+    "I wish I had listened to my teacher yesterday.",
+    "I wish I listened to my teacher yesterday.",
+    "I wish I have listened to my teacher yesterday."
+   ],
+   "answer": 0,
+   "rule": "A regret about the past uses <b>I wish + past perfect</b>: I wish I had listened."
+  },
+  {
+   "qid": "c10-01-42",
+   "type": "fix",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "One word is wrong. Find it and fix it.",
+   "words": [
+    "Gitanjali,",
+    "which",
+    "was",
+    "first",
+    "written",
+    "in",
+    "Bengali,",
+    "were",
+    "later",
+    "translated",
+    "into",
+    "English",
+    "by",
+    "the",
+    "poet",
+    "himself."
+   ],
+   "errors": [
+    {
+     "i": 7,
+     "options": [
+      "was",
+      "is",
+      "been"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "The subject is <b>Gitanjali</b> (one book), so the main verb is <b>was translated</b>."
+  },
+  {
+   "qid": "c10-01-43",
+   "type": "fill",
+   "level": 5,
+   "topic": "relative_clauses",
+   "prompt": "Fill in the gap.",
+   "before": "The poet longed for a nation in",
+   "after": "every citizen could think freely.",
+   "options": [
+    "where",
+    "that",
+    "which"
+   ],
+   "answer": 2,
+   "rule": "After a preposition (in), use <b>which</b>. Never write in where or in that."
+  },
+  {
+   "qid": "c10-01-44",
+   "type": "build",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Make a passive question.",
+   "answer": [
+    "Why",
+    "was",
+    "the",
+    "world",
+    "broken",
+    "into",
+    "fragments?"
+   ],
+   "alts": [],
+   "rule": "Passive question: <b>Wh-word + was + subject + past participle</b>."
+  },
+  {
+   "qid": "c10-01-45",
+   "type": "chat",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ms Rao",
+     "Nobody has forgotten the speech for tomorrow, I hope."
+    ]
+   ],
+   "options": [
+    "No, ma'am. Everyone has prepared it, hasn't it?",
+    "No, ma'am. Everyone have prepared it, haven't they?",
+    "No, ma'am. Everyone has prepared it, haven't they?"
+   ],
+   "answer": 2,
+   "rule": "<b>Everyone</b> takes a singular verb (has) but the tag uses <b>they</b>: haven't they?"
+  },
+  {
+   "qid": "c10-01-46",
+   "type": "chat",
+   "level": 5,
+   "topic": "wish_if_were",
+   "prompt": "Pick the correct reply.",
+   "chat": [
+    [
+     "Ishaan",
+     "Why didn't you come to the book fair?"
+    ]
+   ],
+   "options": [
+    "I was ill. If I was well, I would have gone.",
+    "I was ill. If I had been well, I would go.",
+    "I was ill. If I had been well, I would have gone."
+   ],
+   "answer": 2,
+   "rule": "Imagined past: <b>If + had + past participle, would have + past participle</b>."
+  },
+  {
+   "qid": "c10-01-47",
+   "type": "change",
+   "level": 5,
+   "topic": "exclamatory_assertive",
+   "prompt": "Remove 'too'.",
+   "source": "The child was too afraid to raise his head.",
+   "options": [
+    "The child was so afraid that he could not raise his head.",
+    "The child was so afraid that he can not raise his head.",
+    "The child was very afraid that he could raise his head."
+   ],
+   "answer": 0,
+   "rule": "<b>too ... to</b> becomes <b>so ... that + negative</b>; past tense needs <b>could not</b>."
+  },
+  {
+   "qid": "c10-01-48",
+   "type": "change",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Change into passive voice.",
+   "source": "Respect the views of others.",
+   "options": [
+    "Let the views of others are respected.",
+    "Let the views of others be respect.",
+    "Let the views of others be respected."
+   ],
+   "answer": 2,
+   "rule": "An order in the passive: <b>Let + object + be + past participle</b>."
+  },
+  {
+   "qid": "c10-01-49",
+   "type": "proof",
+   "level": 5,
+   "topic": "passive_voice",
+   "prompt": "Find and fix the 3 errors in this paragraph.",
+   "words": [
+    "Tagore,",
+    "who",
+    "were",
+    "the",
+    "first",
+    "non-European",
+    "to",
+    "win",
+    "the",
+    "Nobel",
+    "Prize,",
+    "translated",
+    "his",
+    "poem",
+    "himself.",
+    "It",
+    "has",
+    "been",
+    "reading",
+    "by",
+    "millions,",
+    "and",
+    "Gitanjali",
+    "inspire",
+    "students",
+    "even",
+    "today."
+   ],
+   "errors": [
+    {
+     "i": 2,
+     "options": [
+      "are",
+      "was",
+      "be"
+     ],
+     "answer": 1
+    },
+    {
+     "i": 18,
+     "options": [
+      "read",
+      "reader",
+      "reads"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 23,
+     "options": [
+      "inspires",
+      "inspiring",
+      "inspiration"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>who</b> = Tagore: was. Passive: has been <b>read</b>. Gitanjali is singular: <b>inspires</b>."
+  },
+  {
+   "qid": "c10-01-50",
+   "type": "proof",
+   "level": 5,
+   "topic": "question_tags",
+   "prompt": "Find and fix the 2 errors in this message.",
+   "words": [
+    "Let's",
+    "make",
+    "our",
+    "school",
+    "a",
+    "place",
+    "where",
+    "every",
+    "voice",
+    "is",
+    "heard,",
+    "will",
+    "we?",
+    "Nobody",
+    "should",
+    "feel",
+    "afraid",
+    "to",
+    "ask",
+    "questions,",
+    "and",
+    "every",
+    "question",
+    "should",
+    "be",
+    "answer",
+    "patiently."
+   ],
+   "errors": [
+    {
+     "i": 11,
+     "options": [
+      "shall",
+      "do",
+      "did"
+     ],
+     "answer": 0
+    },
+    {
+     "i": 25,
+     "options": [
+      "answered",
+      "answering",
+      "answers"
+     ],
+     "answer": 0
+    }
+   ],
+   "rule": "<b>Let's</b> takes <b>shall we?</b> Passive with a modal: should be <b>answered</b>."
+  }
+ ]
+}
